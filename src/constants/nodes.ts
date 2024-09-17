@@ -11,7 +11,7 @@ export const AGENTS = {
 
 export const AGENTS_DESCRIPTION = {
     UserTools: 'questions related to user tools - account settings, notifications, profile, wallet',
-    ObjectSearch: 'search of specific product, book, person, recipe, business, restaurant',
+    ObjectSearch: 'search of specific product, book, person, recipe, business, restaurant, or account (user)',
     CampaignManagement: 'questions related to the creation and management of campaigns',
     EarnCampaign: 'questions related to how create review post and earn crypto',
     ObjectImport: 'questions related to how import objects to waivio',

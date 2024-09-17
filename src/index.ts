@@ -1,10 +1,13 @@
-import { END, START, StateGraph } from "@langchain/langgraph";
-import { RedisChatMessageHistory } from '@langchain/redis';
-import { ChatOpenAI } from "@langchain/openai";
+import {END, START, StateGraph} from "@langchain/langgraph";
+import {RedisChatMessageHistory} from '@langchain/redis';
+import {ChatOpenAI} from "@langchain/openai";
 import {BaseMessage} from "@langchain/core/messages";
 import {REDIS_KEYS, TTL_TIME} from "./constants/common";
 import {initialSupport} from "./nodes/initialNode";
 import {generalNode} from "./nodes/generalNode";
+import {searchNode} from "./nodes/searchNode";
+import {AGENTS} from "./constants/nodes";
+import {waivioSearchTool} from "./tools/waivioSearchTool";
 
 export type GraphState = {
     llm: ChatOpenAI;
@@ -23,6 +26,31 @@ const graphChannels = {
 };
 
 
+const router = (state: GraphState): string => {
+    const routes = {
+        [AGENTS.UserTools]: "generalNode",
+        [AGENTS.ObjectSearch]: "searchNode",
+        [AGENTS.CampaignManagement]: "generalNode",
+        [AGENTS.EarnCampaign]: "generalNode",
+        [AGENTS.ObjectImport]: "generalNode",
+        [AGENTS.SitesManagement]: "generalNode",
+        [AGENTS.WaivioObjects]: "generalNode",
+        [AGENTS.WaivioGeneral]: "generalNode",
+        default: "conversational"
+    }
+
+    const route = state.nextRepresentative as keyof typeof routes
+
+    return routes[route] || routes.default
+}
+
+const routerSettings = Object.freeze({
+    generalNode: "generalNode",
+    searchNode: "searchNode",
+    conversational: END,
+})
+
+
 function createGraph() {
 
     // add nodes
@@ -31,12 +59,14 @@ function createGraph() {
     })
         .addNode("initialSupport", initialSupport)
         .addNode("generalNode", generalNode)
+        .addNode("searchNode", searchNode)
 
     //add Edges
     graph
         .addEdge(START, "initialSupport")
-        .addEdge("initialSupport", END)
-
+        .addConditionalEdges("initialSupport", router, routerSettings)
+        .addEdge("generalNode", END)
+        .addEdge("searchNode", END)
 
 
     const app = graph.compile();
@@ -44,20 +74,14 @@ function createGraph() {
 }
 
 
-
-
-interface runQueryInterface  {
+interface runQueryInterface {
     query: string,
-    userName:string,
+    userName: string,
     id: string
 }
 
 
-
-async function runQuery({query, id}:runQueryInterface) {
-
-
-
+async function runQuery({query, id}: runQueryInterface): Promise<BaseMessage> {
     const app = createGraph();
 
     const llm = new ChatOpenAI({
@@ -75,37 +99,24 @@ async function runQuery({query, id}:runQueryInterface) {
 
     const chatHistory = await historyStore.getMessages();
 
-    // const stream = await app.stream({
-    //     llm,
-    //     query,
-    //     chatHistory
-    // });
 
-    // let finalResult: GraphState | null = null;
-    // for await (const event of stream) {
-    //     console.log("\n------\n");
-    //     if (Object.keys(event)[0] === "execute_request_node") {
-    //         console.log("---FINISHED---");
-    //         finalResult = event.execute_request_node;
-    //     } else {
-    //         console.log("Stream event: ", Object.keys(event)[0]);
-    //         // Uncomment the line below to see the values of the event.
-    //         // console.log("Value(s): ", Object.values(event)[0]);
-    //     }
-    // }
-
-
-    const response = await app.invoke({
+    const result = await app.invoke({
         llm,
         query,
         chatHistory
     })
 
-    console.log(JSON.stringify(response, null, 2))
+    console.log("FINAL RESPONSE:",JSON.stringify(result, null, 2))
 
-    // await historyStore.addUserMessage(question);
-    // await historyStore.addAIMessage(aiMsg);
+    // await historyStore.addUserMessage(query);
+    // await historyStore.addAIMessage(result.response);
 
+
+    return result.response;
 }
 
-runQuery({query: 'i want to find white dress', id: '1', userName: 'flowmaster'});
+// runQuery({query: 'i want to find info about user "flowmaster"', id: 'ddsdggdfs', userName: 'flowmaster'});
+
+
+// waivioSearchTool.invoke({string: 'flowmaster'})
+

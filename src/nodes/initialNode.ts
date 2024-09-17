@@ -21,7 +21,6 @@ export const initialSupport = async (state: GraphState): Promise<Partial<GraphSt
          Otherwise, just respond conversationally.`;
 
 
-
     const supportResponse = await llm.invoke([
         {role: "system", content: SYSTEM_TEMPLATE},
         ...chatHistory,
