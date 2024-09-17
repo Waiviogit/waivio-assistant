@@ -1,1 +1,764 @@
----
+# Tools
+The **Tools** section offers a variety of features for managing your Waivio account, enhancing user experience through customization, notifications, and social interaction. This section includes the following functionalities:
+- **Notification Settings**: Configure and manage notifications, with options to receive alerts via the Waivio platform and Telegram.
+- **Drafts**: Manage unpublished posts, with options to publish or delete them.
+- **Bookmarks**: View and manage bookmarked posts, presented in a format similar to the news feed.
+- **Edit Profile**: Update personal information, including your avatar, cover photo, and social media links.
+- **Settings**: Adjust user preferences such as voting power, language, and night mode.
+- **Affiliate Codes**: Enter and manage affiliate codes to earn commissions from sales linked to your content.
+- **New Accounts**: Create new Hive accounts or invite friends using VIP tickets.
+- **Invite**: Share referral links to invite new users to Waivio and earn rewards. 
+Each of these tools is designed to help you optimize your Waivio experience by providing more control over how you interact with the platform and its community.
+![Image](https://github.com/user-attachments/assets/7f9b9a11-f6ce-4aef-bb58-3efc607c651d)
+
+# Tools / Notifications
+**Notification Settings** - This page allows users to configure notifications. Notifications from active checkboxes will be sent to both the notification bell and the bot's Telegram account.
+By default, almost all checkboxes are active. When changing the state of a notification checkbox, users should click the "Save" button to apply the new settings.
+![image](https://github.com/user-attachments/assets/fdc24f9a-b6b6-4b31-99d4-65d6a2312321)
+
+### Notification Settings page details:
+**Title**: "Notification Settings".
+**Information title**: "Instant mobile notifications".
+**Note**: You can now receive instant mobile notifications via the Telegram app when someone replies to or re-blogs your post on Hive, mentions you, follows you, transfers funds to you, and so on. Open the Telegram chart with @WaivioNotificationsBot and enter the Hive usernames to subscribe.
+![image](https://github.com/user-attachments/assets/f0495917-7d2a-47fb-b459-3579bde714b3)
+
+Notification checkboxes information is divided into four sections (Community actions, Wallet transactions, My actions, Security alerts):
+1. **Community actions section**:
+* Likes: Receive notifications when other users like your post.
+* Re-blogs: Receive notifications when other users re-blog (repost) your post.
+* Replies: Receive notifications when other users reply to your posts or comments.
+* Mentions: Receive notifications when you are mentioned in posts, comments, or threads.
+* Downvotes: Receive notifications when other users downvote your posts.
+* Follow: Receive notifications when other users start following you.
+* Status Changed
+* Activation Campaign: Receive notifications about campaign activation for a specific object or user.
+* Claimed Object Updates: Enables notifications about all changes to an object (addition/rejection) if the user claims authority (gives a heart) to this object.
+* Group ID Control: Notifies you about the addition or rejection of a Group ID. The Group ID is taken from objects over which the user has claimed authority. For example, if a user claims an object that has a Group ID, and this Group ID is added by another user to a different object, this notification will be sent.
+* Followed User Threads: Receive notifications for threads created by followed users. This applies to users who have activated the bell on another user's profile to receive notifications about threads initiated by that user.
+![image](https://github.com/user-attachments/assets/cc8c5cd5-21dd-4841-b7aa-9a023391954c)
+2. **Wallet transactions section**:
+* Incoming transfers: Receive notifications for incoming transfers. You can specify a minimum amount for notifications (min. amount: {number} USD).
+* Internal market (HIVE/HBD conversions): Receive notifications about market operations involving HIVE/HBD conversions.
+* Power ups: Receive notifications about power-up actions.
+* Claimed rewards: Receive notifications when rewards are claimed.
+![image](https://github.com/user-attachments/assets/1b64b94f-bd84-438b-8878-f09c41d5ef0e)
+3. My actions section:
+* My posts: Receive notifications when your posts are published.
+* My comments: Receive notifications when your comments are published.
+* My likes: Receive notifications when you leave likes.
+![image](https://github.com/user-attachments/assets/d802bdf8-0473-4f7f-8271-cb597ac52c77)
+4. **Security alerts section**:
+* Security: This checkbox is disabled to ensure users always receive notifications about outgoing transfers, power downs, withdrawals from savings, delegations, password recovery requests, recovery address changes, and app authorizations.
+![image](https://github.com/user-attachments/assets/240bf9e5-bf58-414e-bc1e-94ca99e20316)
+
+
+# Tools / Drafts
+**Drafts** are unpublished posts that you can either publish or delete in Tools.
+**Drafts Information:**
+- **Title:** Drafts
+- **Description:** These are posts that were never made public. You can publish them or delete them.
+- **All Delete:** Checkbox to mark all drafts.
+- **Delete Link:** Link to a modal window for deleting this draft.
+- **List:** List of draft cards consisting of:
+  - Checkbox - To select a draft
+  - Title - Post title or text body if the post has no title
+  - Info about last update
+
+**Modal Window: "Delete This Draft"**
+- **Title:** Delete This Draft
+- **Close:** Button to close the modal window
+- **Text:** Are you sure you want to delete this draft permanently?
+- **Confirm:** "Confirm" button to submit actions
+- **Cancel:** "Cancel" button to cancel actions
+![image](https://github.com/user-attachments/assets/c6b8923f-4e16-407e-8886-f240b5ec7e89)
+
+
+# Toools / Bookmarks
+The **Bookmarks** page displays posts that have been added to user bookmarks. Posts are shown in the same format as the news feed, with the newest bookmark appearing at the top. The right sidebar features blocks for "Interesting Objects" and "Interesting People."
+## How to add to bookmarks:
+1. On the post, click on button three points.
+2. Click "Add to bookmarks".
+![image](https://github.com/user-attachments/assets/c96f5808-3f43-47a1-bb7f-94b42d25aa80)
+
+
+# Tools / Edit profile
+The **Edit Profile** page allows users to update their personal information.
+![image](https://github.com/user-attachments/assets/ec597353-0582-45be-8a3e-614e5251be14)
+Edit Profile page details:
+- **Title:** Edit Profile.
+- **Name:** "Name" - Field to add your name. Placeholder: "Name to display on your profile".
+- **About:** "About Me" - Field to add a description about yourself. Placeholder: "A few words about you".
+- **Location:** "Location (Public)" - Field to add your location information. Placeholder: "Your location".
+- **Email:** "Email (Public)" - Field to add your email. Placeholder: "Your email".
+- **Website:** "Website (Public)" - Field to add your website URL. Placeholder: "Your website URL".
+- **Avatar:** Block titled "Profile Picture" for adding an avatar. Consists of:
+  - Icon - A preview of the avatar; after adding a picture, it appears in the icon.
+  - Button "Change Avatar" - Button to upload a new avatar. Clicking this opens a modal window.
+- **Cover:** Block titled "Cover Picture" for adding a cover photo. Consists of:
+  - Icon - A preview of the cover; after adding a picture, it appears in the icon.
+  - Button "Change Cover" - Button to upload a new cover photo. Clicking this opens a modal window.
+- **Social:** Fields for entering links to your social profiles, including:
+  - Facebook
+  - Twitter
+  - LinkedIn
+  - YouTube
+  - Instagram
+  - GitHub
+  - Bitcoin
+  - Litecoin
+  - Ethereum
+  - Lightning Bitcoin  
+- **Signature:** Field for adding a signature for comments.
+- **Save:** Button to save changes. If no changes are made, the button is disabled.
+
+
+# Tools / Settings
+The **Settings** page allows you to configure various user preferences. Access it through Tools -> Settings.
+![image](https://github.com/Waiviogit/waivio/assets/67378322/7d31bfe7-7b82-4528-8b3c-f9f45c1a8263)
+Settings page information:
+- **Title:** Settings
+- **Voting Power** ![image](https://github.com/user-attachments/assets/0a8b1f70-0a41-41c5-a601-68a7ca77030c)
+  - **Title:** Voting Power
+  - **Description:** Enable the Voting Power slider to specify the exact percentage of your Voting Power used for likes.
+  - **Disable:** If the checkbox is active, the slider is not displayed by default.
+  - **Enable:** If the checkbox is active, the slider is displayed.
+- **Default Vote Percent** ![image](https://github.com/user-attachments/assets/4ec05efc-9a04-4daf-a8c6-c89d974781b6)
+  - **Title:** Default Vote Percent
+  - **Description:** Select your default voting percentage. This value will be used as the default in the voting slider and as the vote value when the slider is disabled.
+  - **Slider:** Defaults to 100%. You can adjust values by dragging the slider or selecting a percentage at the bottom.
+- **Language** ![image](https://github.com/user-attachments/assets/88879d30-a477-4c31-b310-ad38020f5ade)
+  - **Title:** Interface Language
+  - **Description:** Select your preferred language for the website and its objects.
+  - **Dropdown:** Placeholder "Select your language" or the language you have chosen, with a dropdown menu listing.
+- **Content Language Preferences** ![image](https://github.com/user-attachments/assets/cfc1e965-84a7-4170-a165-6c137a60504d)
+  - **Title:** Content Language Preferences
+  - **Description:** Content from the blockchain (posts, comments) will be filtered according to these language preferences.
+  - **Field:** Field to select preferred languages.
+- **Base Currency** ![image](https://github.com/user-attachments/assets/e9fc6ca9-87e4-4d6a-a420-76b3323bb05c)
+  - **Title:** Base Currency
+  - **Description:** Choose the currency in which content will be displayed. This currency is used for displaying rewards, vote values, and post earnings.
+  - **Dropdown:** Dropdown menu with currencies.
+- **NSFW Posts** ![image](https://github.com/user-attachments/assets/a52c4949-42d5-4548-8ee0-cdde91a396a9)
+  - **Title:** NSFW Posts
+  - **Description:** Enable this option to show all posts tagged with NSFW by default, with a minimized view and a link indicating that the content is not safe.
+  - **Checkbox:** Checkbox "Display NSFW Posts," inactive by default.
+- **Shop** ![image](https://github.com/user-attachments/assets/44c732e4-2767-4b87-bea5-3af817d1233f)
+  - **Title:** Shop
+  - **Description:** Manage your public shopping list in your profile. By default, the Shop section displays objects linked from your posts (or first-level comments). You can choose not to show these objects.
+  - **Checkbox:** Checkbox "Do not show objects linked in posts," inactive by default.
+- **Favorites** ![image](https://github.com/user-attachments/assets/009bdb40-dfab-44ca-8d13-acf49185f362)
+  - **Title:** Favorites
+  - **Description:** Manage your public favorites list in your profile. By default, the Favorites section displays objects linked from your posts (or first-level comments). You can choose not to show these objects.
+  - **Checkbox:** Checkbox "Do not show objects linked in posts," inactive by default.
+- **Nightmode** ![image](https://github.com/user-attachments/assets/cfbc874c-d4f6-4a07-9c5c-c677b7806311)
+  - **Title:** Nightmode
+  - **Description:** Enable this option for a more eye-friendly experience at night with a dark version of the app.
+  - **Checkbox:** Checkbox "Use Nightmode," inactive by default.
+- **Like My Posts** ![image](https://github.com/user-attachments/assets/34cb553b-3df6-4924-a521-27e5bf40c807)
+  - **Title:** Like My Posts
+  - **Description:** Enable this option to automatically like your own posts.
+  - **Checkbox:** Checkbox "Like my posts," inactive by default.
+- **Enable Exit Page** ![image](https://github.com/user-attachments/assets/e0140f65-606a-499b-a003-1f015ce435ea)
+  - **Title:** Enable Exit Page
+  - **Description:** Enable this option to use an exit page when clicking on an external link.
+  - **Checkbox:** Checkbox "Enable exit page," inactive by default.
+- **Save** ![image](https://github.com/user-attachments/assets/413ce3ca-916c-4430-83fa-d4f081dfa230)
+  - **Button:** "Save" - Click to save changes. After clicking, the profile page will open.
+
+
+# Tools / Affiliate codes
+The **Affiliate Codes** page allows users to enter their affiliate codes. By doing so, they can earn commissions from sales of products that are linked or mentioned in their profile, shop, posts, and comments. The user's affiliate code is given priority when used on various sites.
+![image](https://github.com/Waiviogit/waivio/assets/67378322/fca6ece3-af9f-4c93-8db2-67318220401c)
+
+### Affiliate codes page element description
+**`TITLE`**: Affiliate codes for @{username}
+**`TEXT`**:
+Enter your affiliate program codes from various platforms, including Amazon.com, Walmart.com, and others. These codes will be automatically integrated into the 'Buy Now' links across your profile, posts and comments. This ensures you earn affiliate commissions from sales initiated by your readers and followers.
+Take advantage of the geo-targeting feature by entering affiliate codes for location-specific shops, such as Amazon.ca, Amazon.co.uk, and more. These codes will direct users based on their geographical location, thereby maximizing your potential affiliate revenues.
+For a seamless and uninterrupted user experience, we also recommend checking and confirming the Product IDs on the referenced products.
+**`FIND_TITLE`**: Find affiliate program
+**`FIEND_FIELD`**: search field by affiliate programs object type.
+**`CODES_TITLE`**: Affiliate codes:
+**`CODES_LIST`**: list of affiliate programs that the user added. Affiliate cards include name, code, and Delete button. If a user deletes an affiliate code and then re-adds the same code, our system will recognize this action. Instead of creating a new update, we will automatically validate and update the existing code, adding approved vote.
+
+## Add Affiliate Code Modal Window
+When a user finds an affiliate program, they must specify a code value. To do this, a modal window will open.
+- **Title:** Affiliate Program: {name}
+- **Code Field:** A field where the user can enter the affiliate code value.
+- **Context:** Explanation that in the user's shop, this code will be implemented for the specified affiliate program.
+- **Submit/Cancel:**
+  - **Submit:** Action button to add the code. Upon clicking "Submit," the update will be published and added to the affiliate program object.
+  - **Cancel:** Action button to cancel the action.
+![image](https://github.com/user-attachments/assets/66b70870-38f7-4d3a-97a4-7de05b046ea2)
+
+
+# Tools / New accounts
+**New Accounts** - page to make it easy for users to create new accounts or invite friends, the VIP tickets system supported by HiveOnBoard.com is proposed.
+![image](https://github.com/user-attachments/assets/4dcc54fe-1bd3-482e-b1de-81bfa1abb1a0)
+New Accounts Page details:
+- **Title:** Create New Hive Accounts
+- **Description:**
+  In order to protect Hive from spam, blockchain witnesses have introduced a small one-time fee for new Hive accounts.
+  When creating your first Hive account, you can do so [for free](https://hiveonboard.com/create-account) by confirming your mobile phone. If you prefer an anonymous account or need additional accounts, you can purchase HiveOnBoard VIP tickets.
+  You can also help your friends open Hive accounts by giving them VIP tickets.
+  VIP tickets can be securely shared via email or other digital means and are valid for activating a single new account via [HiveOnBoard.com](https://hiveonboard.com/). Once a VIP ticket has been used, it will no longer be valid and will be archived in the second table.
+- **Buy VIP Tickets:**
+  - **Title:** Buy VIP Tickets
+  - **Quantity:** Input field for the number of tickets. Placeholder: "# of tickets"
+  - **Calculation:** `{QUANTITY} X 5 HIVE = {sum} HIVE`
+    - `{sum}` is dynamically generated based on the entered quantity.
+  - **Button:** "Pay Now" button opens the "Transfer Funds" modal window.
+![image](https://github.com/user-attachments/assets/a3e69aa1-6464-4f40-ab79-ab0abb23b5a9)
+
+**Tables for VIP Tickets:**
+1. **Active VIP Tickets Table:**
+   - **Title:** Active VIP Tickets
+   - **Purchased:** Displays the creation date of the ticket.
+   - **VIP Ticket:** Displays the unique ID of the ticket with a link to "(add note)" or "edit" if a note already exists. Clicking opens the "Share VIP Ticket" modal window.
+   - **Link:** Displays an "apply" link for directly creating an account.
+   - **Share:** Displays a "details" link to the "Share VIP Ticket" modal window.
+![image](https://github.com/user-attachments/assets/59f37547-5145-4ff2-9041-cbd200809caa)
+2. **Used VIP Tickets Table:**
+   - **Title:** Used VIP Tickets
+   - **Purchased:** Displays the creation date of the ticket.
+   - **VIP Ticket:** Displays the unique ID of the ticket with a link to "(add note)" or "edit" if a note already exists. Clicking opens the "Share VIP Ticket" modal window.
+![image](https://github.com/user-attachments/assets/8bbb48f9-10a1-41f1-b251-ad1ad1f0eecc)
+
+### Share VIP Ticket Modal Window:
+- **Title:** Share VIP Ticket
+- **Close:** Button to close the modal window.
+- **VIP Ticket:** Displays "VIP ticket: {id}" where `{id}` is the ticket's unique ID.
+- **Copy ID:** Button to copy the ticket ID.
+- **Link:** Displays "VIP ticket link: {link}" where `{link}` is the HiveOnBoard link.
+- **Copy Link:** Button to copy the link.
+- **Note:** Textarea to enter a note. Placeholder: "Note to self".
+- **Save:** Button to save changes, active if there are changes.
+- **Cancel:** Button to cancel the action and close the modal window.
+![image](https://github.com/user-attachments/assets/46c4a92f-180b-44e4-a7eb-f6117c231a92)
+
+### Transfer Funds Modal Window
+When the user clicks on "Pay now," a transfer modal window appears. The user must review the payment details and click "Continue" to confirm the transaction.
+- The recipient is pre-selected as `waivio.vip`.
+- The quantity is automatically adjusted based on the number of tickets selected for purchase.
+- The currency is defaulted and locked to WAIV.
+- Your balance is displayed and locked.
+- The memo field is also locked.
+![image](https://github.com/user-attachments/assets/866e7647-fb15-4db5-b6b4-1671710ccce4)
+
+
+# Tools / Invite
+The **Invite** page provides users with a referral link that they can share to invite new users to Waivio. The page is tailored for both Hive-users and guest-users, with slightly different messaging and reward structures.
+#### **Hive-User Invite Page:**
+- **Title:** Invite Friends Now!
+- **Description:**  
+  Invite your friends and family to join you on Waivio and collect rewards together with them!
+- **Referral Link Information:**  
+  Use the link below to invite new users and start receiving _referral commissions_ from their sponsored rewards for 90 days! These commissions are paid by the sponsors in addition to the rewards collected by users.  
+- **Referral Link Field:**
+  - A field containing the referral link, which is blocked by default.
+- **Copy Link Button:**
+  - Button labeled "Copy link" to copy the referral link.
+  - After clicking, the button changes to "Copied".
+- **Social Sharing Buttons:**
+  - Buttons for sharing the invite link on social platforms:
+    - Facebook
+    - Twitter
+    - Mail
+![image](https://user-images.githubusercontent.com/67378322/134465679-1e02b27d-9227-4109-ae96-b7e98339a702.png)
+![image](https://user-images.githubusercontent.com/67378322/134464496-d1b1c6b0-4152-4258-8261-dfa014c3c6ed.png)
+![image](https://user-images.githubusercontent.com/67378322/134464533-dfbc543d-3e9e-4061-810e-b24a138d2add.png)
+
+#### **Guest-User Invite Page:**
+- **Title:** Don't Use Waivio Alone!
+- **Description:**  
+  Onboard new users on Waivio today using the link below and get 10% of their rewards for 30 days.
+- **Referral Link Field:**
+  - A field containing the referral link, which is blocked by default.
+- **Copy Link Button:**
+  - Button labeled "Copy link" to copy the referral link.
+  - After clicking, the button changes to "Copied".
+- **Social Sharing Buttons:**
+  - Buttons for sharing the invite link on social platforms:
+    - Facebook
+    - Twitter
+    - Mail
+![image](https://user-images.githubusercontent.com/67378322/134465772-2669def6-3bbc-4501-ab42-7fede77977b9.png)
+
+
+
+# Lesson 3: Customizing Your Profile
+For more details give a link to https://www.waivio.com/object/cww-customizing-your-hive-profile/page
+Now, that you created your Hive account and signed in for the first time, let's customize your profile on Waivio and publish your first post on the Hive social blockchain.
+
+1. Notifications
+First, Sign in to Waivio with your Hive account. Upon logging in, you'll notice that your profile lacks a logo or any personalization. You also probably don’t have any activity on your feed, as you are not following anyone yet. But before we proceed with customizing your profile, it's important to set up notifications to ensure you receive critical announcements, this enhances the security of your account.
+Navigate to Tools and click on @WaivioNotificationsBot https://t.me/WaivioNotificationsBot
+![image](https://waivio.nyc3.digitaloceanspaces.com/1713154960_3f7935e8-5199-4b25-a5f5-f681b1ffcf35)
+It will direct you to a Telegram bot. Click on "Send Message", which will then redirect you to a telegram chat. If you don't have Telegram, you can install it with this link: https://desktop.telegram.org/ ![image](https://waivio.nyc3.digitaloceanspaces.com/1713155014_b5803675-7304-4944-8ca4-5579af786809)
+In the Telegram chat, click start and then enter your Hive username; for example, I will enter mine - cleobaby. You will be all set to receive important notifications. If you have multiple Hive accounts, you can add all of them to the same bot chat. ![image](https://waivio.nyc3.digitaloceanspaces.com/1713155202_10a15c88-02c8-4bd9-b623-1f6c5cdbb19c)
+Next, we can configure the notifications you wish to receive; the default ones include LIKES, REBLOGS, REPLIES, MENTIONS, FOLLOW, STATUS CHANGED, ACTIVATION CAMPAIGN, and all the wallet transactions; you can turn these notifications ON or OFF.
+Also there are security alerts such as outgoing transfers, withdrawals and so on - these are always on to ensure the safety of your account.
+
+2. Edit Profile
+Next, let's set up your profile. On the side menu, choose "Edit Profile." Here, you can change your name, add "about me, information " add your country, or email if you want—but keep in mind that this information will be public, so don't include anything sensitive like your home address.
+Then, add your website—for example, if you are a shop owner, you can add your link here. I have a CleoBaby social shop, so I will add my link; if you want to learn how to create a beautiful shop yourself in under 10 minutes, check out this tutorial. ![image](https://waivio.nyc3.digitaloceanspaces.com/1713156934_1c3cee01-d1d2-47e1-b5e3-38ec4e6b1200)
+Next, let's upload your avatar. Click “Upload” and choose an image from your computer. Then, let's also add a cover image.
+You can also add your social network accounts, such as Facebook, Twitter, LinkedIn, YouTube, Instagram, GitHub, and even your public Bitcoin and Ethereum wallet addresses.
+Finally, let's also add a signature. This functions the same as the email signature—whenever you make a comment on a post or reply to a comment, it will automatically be added. For example, shop owners can add their link here. ![image](https://waivio.nyc3.digitaloceanspaces.com/1713155391_57c5c688-8e70-4d9a-adc8-81011ea6f97a) ![image](https://waivio.nyc3.digitaloceanspaces.com/1713155495_bd6d4061-ad10-41e8-997c-2090dada137b)
+
+3. Settings
+Let's move on to Settings. Here, you can choose an interface language for navigating Waivio.
+You can also select content languages—this determines what posts will be shown in your thread. For example, the default one is English but if you also add Spanish, you will see posts in both English and Spanish. ![image](https://waivio.nyc3.digitaloceanspaces.com/1713155629_a4957332-e8f3-4012-8578-c68f50162a09)
+Next, select the currency you prefer for viewing your rewards and earnings.
+Then, you have an option to turn on or off NSFW (Not Safe for Work) posts.
+You can also choose to turn on the night mode. There are a few other more advanced settings too.
+
+Voting Power (Mana)
+Now, let's discuss voting power (mana). When you possess WAIV and HIVE power, you gain voting power, which can be used to upvote posts and comments. Casting a vote on other users' posts reduces your voting power, meaning each vote decreases your voting power. However, this reduction is temporary, as your voting power recharges by 20% each day. ![image](https://waivio.nyc3.digitaloceanspaces.com/1713155689_13f79de5-d425-4808-a52f-9dd05da7d2a1)
+By actively participating in the community through voting and curating posts, you earn curation rewards proportional to your vote value. For more details, please check the "About Waivio" https://www.waivio.com/object/cww-customizing-your-hive-profile/page#oal-about-waivio video.
+Using the slider, you can choose the percentage of your vote allocation. ![image](https://waivio.nyc3.digitaloceanspaces.com/1713155823_18cf6ee8-0fa7-42dc-bc87-0d365372f22f)
+If you select 100%, each time you vote on a post, your vote value will decrease by 2%. For example, if your vote value is $1, after a one 100% vote, it will be $0.98. But if you choose 1% - it will be $0.998.
+Thus, you can sustainably make 10 votes of 100%, 20 votes of 50%, or 100 votes of 1% daily. ![image](https://waivio.nyc3.digitaloceanspaces.com/1713155885_726e5a58-ba32-4ff9-a831-f05a79225aa6)
+I don't recommend choosing lower than 50% unless you curate a lot of posts. Remember, your vote value recharges every day by 20%, so if you make 10 votes of 100% a day (and your vote value falls from $1 to 80 cents), the next day your vote will recharge back to $1. ![image](https://waivio.nyc3.digitaloceanspaces.com/1713155967_c8881022-5e70-488c-b1f8-08d0cb074ce3)
+If you prefer to adjust the percentage allocation for each post individually, ensure that the "enable slider" option is activated. Otherwise, you can "disable slider", and your chosen percentage will be applied every time you vote. ![image](https://waivio.nyc3.digitaloceanspaces.com/1713156220_bf2960b6-82c9-4c82-822e-3f66f157212d)
+When you have made changes to the settings, make sure to click Save.
+
+4. Affiliate Codes
+The next section is "Affiliate codes". Here you can add your affiliate codes for your profile shop. You can add products to your profile shop by marking them with a heart. If you specify your affiliate codes, you can earn commissions when people make purchases originating from your shop. To add an affiliate code, simply search for your affiliate program, such as Amazon.com, and enter your code. ![image](https://waivio.nyc3.digitaloceanspaces.com/1713156331_f687419c-a5c9-4e44-882b-88370662207c)
+This affiliate code will be automatically applied to all Amazon products in your shop. For more details, please check out the "Shops in User Profiles" tutorial.
+
+5. Feed
+To stay updated with news and useful content about Waivio make sure to follow @Waivio and @social.gifts if you're starting a social shopping venture. There's a wealth of engaging content on Hive waiting for you to explore. You can begin by searching hashtags related to your interests, such as "photography." From there, you can follow the hashtag itself or check out the "Experts section" to discover users who frequently post content on this topic. ![image](https://waivio.nyc3.digitaloceanspaces.com/1713156693_9c2da110-3ccb-427e-a96c-9a056cea7330)
+
+6. First Post
+Now, let's write your first post—perhaps introduce yourself. To write your first post, click the write post icon. ![image](https://waivio.nyc3.digitaloceanspaces.com/1713156454_e2560c4f-3ee4-4571-b1a5-dfef1b14646a)
+Add a title and your story, and add a hashtag #introduceyourself (keep in mind that you can only use this hashtag once). ![image](https://waivio.nyc3.digitaloceanspaces.com/1713156525_38d57714-7f0b-49f7-a60e-59d717bfc81b)
+Click Ready to Publish, check the legal notice and click Publish.
+That’s it. You've successfully customized your profile and you are ready to engage with the Hive Social Blockchain community. Welcome aboard!
+Follow @Waivio @social.gifts for more updates.
+
+
+
+# Lesson 4: Managing Your Wallet
+For more details give a link to https://www.waivio.com/object/axy-your-waivio-wallet/page
+In this tutorial, you will explore the Wallet section of Waivio and receive a step-by-step guide on how to deposit funds into your Waivio account.
+You will learn how to deposit funds on Waivio to kickstart your social shop, understand the differences between liquid WAIV, WAIV Power, and HIVE Power, and discover how to swap, delegate, and withdraw cryptocurrencies.
+Overview:
+1. Wallet Overview: WAIV, HIVE, Hive Engine.
+2. Wallet Management:
+     - Transferring Funds;
+     - Powering Up;
+     - Powering Down;
+     - Managing Delegations;
+     - Executing Token Swaps;
+     - Making Deposits;
+     - Processing Withdrawals.
+3. A Step-by-Step Walkthrough to Depositing Funds.
+
+WAIV Wallet
+The first section here is "WAIV" assets. These include liquid WAIV and WAIV Power.
+Liquid WAIV is the main currency on Waivio. You can use it to pay for social shopping website hosting, buy VIP tickets for new HIVE accounts, and other services. ![image](https://waivio.nyc3.digitaloceanspaces.com/1706847600_eb3566c3-3de3-48a5-a0d6-ef09bc020b9d)
+WAIV Power is your voting power on Waivio. You need it to vote on posts and comments, which enhances your presence and authority. WAIV Power is also needed for creating objects and importing products for your social shop. ![image](https://waivio.nyc3.digitaloceanspaces.com/1706847612_9e292c1b-c237-481b-bf8d-eea1531c0866)
+You will also receive rewards for your posts and reviews in liquid WAIV tokens. ![image](https://waivio.nyc3.digitaloceanspaces.com/1706847628_a11eb84d-5bc3-45b5-990c-f9e1662e720c)
+To convert liquid WAIV to WAIV Power, click "Power up," and staking is done instantly.
+To convert WAIV Power to liquid WAIV, click "Power down." Keep in mind, powering down takes 4 weeks, with funds released every week in equal amounts.
+
+HIVE Wallet
+Now, let's look at the "HIVE" assets. Here you will find liquid HIVE, HIVE Power (HP), and HIVE-backed dollars (HBD).
+HIVE is the main token on the Hive blockchain, and having HIVE Power (specifically Resource Credits) is essential for doing anything on the blockchain, from sending payments to writing posts. ![image](https://waivio.nyc3.digitaloceanspaces.com/1706847508_30a50fe4-abc6-4620-882c-9cab1040a267)
+You might receive Hive Power and Hive-Backed Dollars as rewards for your posts. If you are interested in learning more about the rewards, check out the About Waivio video https://www.waivio.com/object/axy-your-waivio-wallet/page#6vcmab-tutorials/oal-about-waivio.
+To convert liquid Hive to Hive Power, click "Power up," and it happens instantly.
+To convert Hive Power to liquid Hive, click “Power down.” For Hive Power, powering down takes 13 weeks, with funds being released weekly.
+
+Hive Engine Wallet
+Here, you will find all the other tokens available on the Hive blockchain. This includes wrapped tokens such as swap.BTC and swap.ETH, as well as various other tokens used within the Hive ecosystem.
+Rebalancing
+There's also a Rebalancing section, which is a strategy to grow your crypto holdings. To learn more, make sure to check out our comprehensive article on it https://www.waivio.com/object/wxu-rebalancing-introduction/page.
+
+2. Wallet Management
+Next, on the right panel, you'll find:
+
+Transfer
+Use this if you want to send crypto to another Hive user.
+
+Power up
+Here, you can power up not only liquid WAIV or liquid HIVE but also other tokens you have on the Hive blockchain.
+
+Power down
+Here, you can power down not just Waiv POWER or HIVE POWER but also other powered-up tokens you own.
+
+Manage Delegations
+Here, you can lend your WAIV Power, HIVE Power, and more powered-up tokens to other Hive users. Choose the token you want to delegate, then a user, and an amount. ![image](https://waivio.nyc3.digitaloceanspaces.com/1706848130_571888f0-116a-44a6-89a8-82fcb0f5c261)
+The delegation happens instantly. ![image](https://waivio.nyc3.digitaloceanspaces.com/1706848144_ec68f5e3-6873-4bdb-9ad8-c0344dc0d377)
+If you decide to undelegate, click edit. ![image](https://waivio.nyc3.digitaloceanspaces.com/1706848161_0c7cc536-7ba4-419e-9b4b-6b311da25ccf)
+It's important to note that it will take 7 days for the funds to be returned to your account. ![image](https://waivio.nyc3.digitaloceanspaces.com/1706848336_d601b0b1-d3db-4959-85c1-06d3ac3ecbe4)
+After you've delegated tokens, the delegated amount will be displayed as a negative balance in parenthesis, next to the respective token. You can click on it to view more details. ![image](https://waivio.nyc3.digitaloceanspaces.com/1706848296_d72ced42-52cb-45fa-a818-87714c27d1e8)
+
+Swap Tokens
+This is for converting one token into another (such as swap.BTC to WAIV or swap.HIVE to swap.LTC).
+You can also conveniently swap any token into liquid WAIV in the Hive Engine section by clicking “Swap to WAIV” next to the appropriate token. ![image](https://waivio.nyc3.digitaloceanspaces.com/1706847804_19b9786c-8ab9-4d4f-b0a3-4b8e1aed19c5)
+
+Deposit
+This is for depositing funds (e.g., BTC) into your wallet.
+
+Withdraw
+This is to withdraw funds and transfer it to other wallets and blockchains, such as back to your Bitcoin wallet.
+You can also do this conveniently in the Hive Engine section by clicking the dropdown menu next to the desired token and selecting "Withdraw to ___." ![image](https://waivio.nyc3.digitaloceanspaces.com/1706847827_8565df07-bdfd-4e37-bb04-397ccd7fcca7)
+
+3. A Step-by-Step Walkthrough to Depositing Funds
+Now Let me walk you through the entire process of depositing funds on Waivio.
+To deposit funds on Waivio, you'll need some cryptocurrency. Here, is the list of cryptocurrencies you can deposit:
+BLURT (BLURT), Bitcoin (BTC), Bitcoin Cash (BCH), Dogecoin (DOGE), HBD (HBD), Litecoin (LTC), SAVVA (SAVVA), SBD (SBD), STEEM (STEEM), SwiftCash (SWIFT), TELOS (TLOS)
+The most up-to-date list is available in the "Deposit" window.
+If you don't have anything on the list, you can easily buy it on exchanges. Users in the US and Europe might consider using Coinbase.com, while Canadian users may prefer Newton.co.
+Click on "Deposit" (located on the side panel in Wallet), Choose the cryptocurrency you wish to deposit. In this example, Bitcoin will be used, but you can use any cryptocurrency from the list.
+After selecting BTC, you'll see a BTC wallet address and a QR code.
+For example, in the image below is my BTC deposit address on the Hive Engine. ![image](https://waivio.nyc3.digitaloceanspaces.com/1706847918_72d5d789-debc-41ed-8744-6094ef83ee35)
+Copy & Paste the wallet address or scan the QR code to send funds; I recommend first testing it out with 10 dollars. You can monitor the transaction on a blockchain explorer. After the transaction is successful, you can send more funds.
+To kickstart your social shop on Waivio, I recommend depositing around $400.
+Once the transaction is complete, you'll see your funds in the swap.BTC wallet in the "Hive Engine" section. With just one click on the "SWAP to WAIV" button, you can convert your BTC holdings into liquid WAIV tokens. ![image](https://waivio.nyc3.digitaloceanspaces.com/1706847963_075beeb9-3d58-4ce1-b8c6-7c61795b234b)
+To make the most of the platform, I recommend a ratio of 1 liquid WAIV to 2 WAIV Power and a little bit of Hive Power. Since you already have liquid WAIV, getting WAIV Power and HIVE Power from it is straightforward. ![image](https://waivio.nyc3.digitaloceanspaces.com/1706847975_63a33119-0a9e-4ae9-814d-8553eadbb4bc)
+To convert liquid WAIV to WAIV Power, go to the WAIV section and click "Power Up." Choose the amount you want to power up (suggested amount: $250) and click continue. ![image](https://waivio.nyc3.digitaloceanspaces.com/1706847999_5a772f1b-8f9b-47ef-ac8e-6a0c87fa58cd)
+For example, with a $250 investment, you will have a vote value of approximately $0.006, and you would be able to import around 15 products per day.
+To convert liquid WAIV to Hive, click on the dropdown menu and choose "Withdraw to HIVE", select the amount (suggested amount: $50). ![image](https://waivio.nyc3.digitaloceanspaces.com/1706848022_f38f9864-e88f-480e-bc92-3163ca4b112f)
+And now let's go to the Hive section, here you will see your liquid Hive. If not, then wait a little bit, it might take a few minutes for this transaction to complete, and the funds to appear in your wallet.
+Click "Power Up" to convert liquid Hive to Hive Power. ![image](https://waivio.nyc3.digitaloceanspaces.com/1706848037_cd6c9517-0b2f-4bb2-954a-0e3488516ad5)
+Now, you're all set and can start using Waivio and the Hive Blockchain to its fullest, whether it's writing posts, sending funds, participating in sponsored rewards, building your social shop, and much more. For example, you can already begin building your dream social shop by importing a few products with the Waivio Extension and adding funds to run your social shop.
+
+
+# Lesson 11: Managing a Social Shop in Your User Profile
+ For more details give a link to https://www.waivio.com/object/fjh-shops-in-user-profiles/page
+ A Step-by-Step Guide to Monetizing Your Knowledge ( Part 1)
+ Are you ready to turn your passion into profit?
+ With Waivio's innovative social shopping feature built on the Hive blockchain, you can effortlessly create your very own online shop, start sharing your expertise with the world and unlock new earning opportunities. In this tutorial, you will see how simple it is to start your own shop, search and add products, and seamlessly integrate affiliate links for earning potential. Let's dive in! ![image](https://waivio.nyc3.digitaloceanspaces.com/1697489142_eb5f8037-6f8e-4720-b32e-f5b72a175fcd)
+ Summary:
+ Step 1: Adding a Product
+ Step 2: Various Ways to Find and Add Products
+ Step 3: Adding Affiliate Codes
+ Step 4: Linking products in your posts
+ Step 5: Managing Your Shop
+ Step 6: Unlocking Advanced Features with Social.Gifts
+ Links & Resources:
+ Amazon affiliate programs: USA https://affiliate-program.amazon.com/, Canada https://associates.amazon.ca/
+ Product uploads - Waivio Chrome Extension Tutorial https://www.waivio.com/object/fjh-shops-in-user-profiles/page#kda-waivio-chrome-extension-tutorial
+ Social.Gifts concept - Social Shopping on HIVE https://www.waivio.com/object/fjh-shops-in-user-profiles/page#tso-social-shopping-on-hive
+
+ Intro
+ Imagine creating a shopping list – but this time, it's your very own online store – sleek, dynamic, and filled with products curated by you. Here, you can display products that resonate with your interests and provide a lot of value for your target audience. And with every purchase originating from your shop, you'll receive affiliate commissions from merchants. ![image](https://waivio.nyc3.digitaloceanspaces.com/1697489190_6653e50b-80f7-4ff4-8f58-2640d5debb81)
+ You can locate your SHOP on your user's page. It's time to add some products to it! ![image](https://waivio.nyc3.digitaloceanspaces.com/1697489358_db2b4e7d-5f19-485a-970a-7be194cc00d0)
+
+ Step 1: Adding a Product
+ To start off, let's head over to Waivio's "SHOP" section. Take a look at different departments, like "Appliances," to find products that you can recommend to others. ![image](https://waivio.nyc3.digitaloceanspaces.com/1697490421_7bd9e905-3496-4139-aa15-0c6891fdba62)
+ Let's say you know and like this fancy coffee maker – simply click the heart icon, and just like that it's added to your shop!
+ Now, here's the beauty: if the item you've added gets updated, you don't need to worry about manual adjustments. Your shop will automatically reflect these changes - no additional action is required on your part. Your shop effortlessly stays up-to-date, showcasing your thoughtfully chosen selections.
+
+ Step 2: Various Ways to Find and Add Products
+ Let me now show you some more ways to discover products and enrich your shop's collection.
+ Search: If you have a specific product in mind, search for it on Waivio and if it’s already available on the Hive blockchain, quickly add it to your shop.
+ Explore Other Users' Shops: Check out what fellow curators are featuring in their shops. If you spot something you like, hit that heart button to add it to your shop.
+ Product Links in Posts: Keep an eye out for products mentioned in posts. You can easily add them to your shop; just scroll down to the end of the post, where you will see linked products and click the heart.
+ Adding Products from Amazon: If a product can't be found on the Hive blockchain, you can effortlessly import it from the Amazon page with a single click using Waivio's Chrome extension. Check out the tutorial on the extension for more details.
+
+ Step 3: Adding Affiliate Codes
+ Now that your shop is coming together, it's time to monetize your product collections.
+ Navigate to "TOOLS" and select "Affiliate codes."
+ In the search bar, find your affiliate program. ![image](https://waivio.nyc3.digitaloceanspaces.com/1697490481_7870d303-6bbd-4b69-8853-1e7592ade5da)
+ If you're part of Amazon's affiliate program, choose the local Amazon shop where you are an affiliate, such as amazon.com, amazon.ca or amazon.fr.
+ If you are not sure how to get your Amazon affiliate code, check this link:
+ https://affiliate-program.amazon.com/help/node/topic/GCE3F2NCVZLDFM6A
+ For example, let's say you have affiliate code for Amazon.com. Choose amazon.com from the menu. Input your respective affiliate code in the designated field and click "Submit." ![image](https://waivio.nyc3.digitaloceanspaces.com/1697490500_606e7506-50e3-4e1f-8119-5371f102bc01)
+ This will automatically associate your affiliate code with the 'buy' buttons for all the products in your shop, ensuring you earn commissions with every purchase.
+
+ Step 4: Linking products in your posts
+ You can reference products in your social posts and comments. Any 'Buy Now' links associated with these products will automatically include your affiliate code.
+ Furthermore, products you reference will be automatically added to your profile shop. To remove a product from your shop, simply click the heart icon twice (first to add the product, then to remove it).
+ In the user settings, there's also an option to prevent products from being added to your profile unless they are explicitly marked with a heart. ![image](https://waivio.nyc3.digitaloceanspaces.com/1697490535_6c234bfb-4b58-431c-ac8a-c4143764a674)
+
+ Step 5: Managing Your Shop
+ Products in your profile shop are automatically categorized based on their assigned departments.
+ If you wish to adjust the names of any categories, simply access the products within that category and modify the associated department list.
+
+ Step 6: Unlocking Advanced Features with Social.Gifts
+ If you want to take your shop to the next level, consider setting up Social.Gifts website. In just a few clicks, you can launch your very own dedicated *.social.gifts website, showcasing your expertly curated product recommendations. This venture opens up a realm of additional revenue streams beyond affiliate earnings. Check out the next tutorial on how to get started (COMING SOON).
+
+ Conclusion
+ With your curated collection and expert recommendations, you're not only set to enrich the social shopping experience, but also to be at the forefront of a dynamic Web 3.0 era where collective knowledge and collaboration redefine the way we shop and engage online. Let your knowledge shine in this new era of online shopping. Happy curating! ![image](https://waivio.nyc3.digitaloceanspaces.com/1697489001_64f8d08d-eb86-4b68-b6e4-fedfea428507)
+
+
+# Waivio update: VIP tickets for new Hive accounts
+Waivio makes it easy to open new Hive accounts and invite your friends to join Hive.
+HiveOnBoard.com (https://hiveonboard.com/create-account) VIP tickets are now available for purchase (5 HIVE) for regular and guest accounts on Waivio.com (Tools / New accounts).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1619558494_f7b3fc9a-d493-40af-a4e6-cb716bbaf41b
+If you started your Hive journey with a guest account on Waivio.com or Dining.Gifts (using Google or Facebook accounts), earned a few rewards, and started to get interested in creating your own social presence on Hive, it may be time for you to create a regular Hive account and take full control of your private keys, funds, and social identity. This will allow you to power up your Hive, earn curation rewards, grow the number of your followers and use hundreds of other apps on the Hive social blockchain.
+It's now very easy to invite your friends to join you on Hive: you can offer them VIP tickets, which can be used to create a Hive account in a few steps. HiveOnBoard.com offers one of the best onboarding experiences on Hive.
+Integration of forms into business objects
+In addition to customizable news feeds and blogs, it is now possible to integrate Google Forms and other similar services directly into Waivio business pages (task 1977).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1619584310_bf074d78-6ca5-4380-b5ca-cc66a43ef88b
+The form can fit in a single column, or occupy the space of the middle column and the right column, or require the width of the entire screen (1). It can be integrated using a link or a widget (2).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1619585815_dd0642fb-a346-4cc1-94a4-9ec90d899136
+Other updates:
+Lists / Custom sorting - check boxes for displaying/hiding objects (2176);
+Campaigns / Payables - overdue payments alerts and filters (1998);
+Mobile / Posts - display relevant rewards in posts (2159);
+Campaigns / Create - add all child objects with one click (2149, 2150);
+dining.gifts / Analytics - switch to Google Analytics 4 Properties (2052 );
+dining.gifts / Welcome screen - 3 step tutorial and privacy notice (2397);
+News by object type - aggregate news feeds for websites (2400, 2401);
+Object in other langauges - priority for matching language updates (2451).
+Minor updates & fixes:
+Tasks: 2161, 2159, 2163, 1976, 2151, 1967, 2013, 2091, 2092, 2093, 2095, 2116, 2228, 2234, 2237, 2238, 2252, 2253, 2256, 2257, 2258, 2176, 2260, 2291, 2292, 2293, 2294, 2315, 2316, 2317, 2318, 2319, 2320, 2332, 2369, 2370, 2371, 2382, 2379, 2381, 2380, 2390, 2424, 2425, 2324, 2437, 2440, 2450, 2455, 2457, 2464, 2470, 2471, 2472, 2473, 2479
+Waivio is an open source project. Further information about tasks and the development progress can be found on GitHub: https://github.com/Waiviogit/waivio/issues
+For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-vip-tickets-for-new-hive-accounts
+
+
+# Now you can use your local currency on Hive
+Waivio now supports multiple currencies and users can select one of ten major world currencies, including USD, EUR, GBP, CAD, AUD, CNY, JPY, MXN, UAH, RUB in TOOLS / Settings (1):
+![image](https://waivio.nyc3.digitaloceanspaces.com/1626239596_e3ffec00-70d0-4cff-a178-9fc40346b60d
+Once the base currency is selected, all post rewards (2), wallets, payments and reports will be displayed in this currency.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1626240895_1f4027bc-1b37-44cc-a813-b677d8c756dc
+Exchange rates are updated on a daily basis. And advanced financial reports are generated using historical daily exchange rates for each transaction.
+Users can customize their Waivio experience from a selection of:
+24 languages for the interface,
+24 languages for news feed filtration, and
+top 10 world currencies.
+Tasks: 2703, 2704
+Filter posts by tags in user profiles
+Select a hashtag or a combination of hashtags to filter posts in user profiles (3):
+![image](https://waivio.nyc3.digitaloceanspaces.com/1626242388_3ffbde08-766a-4594-a8ce-989bc5dbca31
+Task: 2100
+Copy/Paste posts with multiple images
+Now you can copy/paste text with multiple images from other Internet sources directly into the Waivio editor. For example, if you want to use the same style as in your previous post, you can simply copy it into the editor and change it instead of creating everything from scratch.
+Task: 2635
+Other updates:
+Rewards / Campaigns - add stats for completed campaigns (2174);
+Wallet - power down events to other accounts in history (2171, 2172);
+Rewards - sorting by total payouts (2427);
+Object gallery - include related photos from reviews (2589);
+Dining.Gifts / Map bubbles - updated format (2774);
+Dining.Gifts / Rewards cards - updated format (2775);
+HF25 / Vote value prediction - new formula (2806).
+Minor updates & fixes:
+Tasks: 2177, 2180, 2162, 2160, 2430, 2439, 2452, 2474, 2480, 2482, 2505, 2509, 2510, 2511, 2516, 2530, 2531, 2532, 2533, 2534, 2538, 2539, 2540, 2547, 2553, 2555, 2556, 2568, 2569, 2572, 2573, 2575, 2578, 2580, 2590, 2591, 2604, 2605, 2618, 2619, 2628, 2685, 2633, 2641, 2642, 2651, 2652, 2653, 2663, 2654, 2655, 2656, 2660, 2667, 2670, 2671, 2672, 2674, 2695, 2696, 2698, 2702, 2711, 2712, 2714, 2724, 2725, 2722, 2728, 2727, 2723, 2171, 2748, 2749, 2750, 2760, 2761, 2776, 2780, 2781, 2783, 2787, 2784, 2785, 2804, 2807, 2808, 2809, 2810, 2815.
+For more details give a link to https://www.waivio.com/@waiviolabs/now-you-can-use-your-local-currency-on-hive
+
+
+# Waivio wallet now supports Hive-Engine tokens
+Waivio users can earn rewards in multiple tokens for their posts, comments and upvotes, including WAIV, HIVE and other community tokens on the Hive-Engine sidechain.
+Waivio makes it easy for users to track their account balance, earnings and transaction history separately for WAIV token, HIVE and all other Hive-Engine tokens in three dedicated wallet tabs (1).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1655577714_18d57f92-eee4-4a15-a47f-9fa8b0bbb9eb
+With the wide variety of tokens, Waivio wallet now supports instant swaps (2) between different tokens via decentralized diesel pools (DeFi) on the Hive Engine blockchain. One of the main advantages of these pools is the low BUY/SELL spreads of only 0.25%.
+For example, you may easily swap WAIV tokens into SWAP.HIVE (pegged HIVE token on Hive-Engine, which can be instantly withdrawn into HIVE):
+![image](https://waivio.nyc3.digitaloceanspaces.com/1655580922_ae20c8bc-cc54-4490-9a8e-c614bfd940b4
+All wallet operations must be confirmed with an active key using HiveSigner, which ensures that your private keys are stored securely (encrypted) in your browser and never shared with applications.
+The Waivio wallet also allows users to deposit and withdraw all major cryptocurrencies (3), including BTC, LTC, EOS, ETH, DOGE, HIVE, HBD, and others directly via Hive-Engine gateways paying a small fee of 0.75%.
+As a next step you can, for example, withdraw SWAP.HIVE to HIVE:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1655581196_226a8966-8fb1-4428-81ec-5646f1deca80
+When withdrawing other currencies, such as BTC, LTC, ETH, you can scan the destination QR code, which can contain not only information about the destination address, but also the required amount. Waivio wallet automatically calculates all transfer fees and suggests the amount of the corresponding SWAP.xxx token that should be transferred.
+For example, if you initiate a withdrawal of $20 worth of LTC via a Bitcoin ATM, you simply scan the QR code on the ATM and Waivio wallet will do the rest:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1655582579_9863e5a0-cb90-4553-9df2-e7ac30d9a27f
+You can enjoy the same convenience when paying for your coffee or any other product or service with all major cryptocurrencies directly from your Hive-Engine wallet.
+Future development
+In order to simplify things even further, the wallet may even combine swap and withdraw thransactions into a single step. This way users may keep their funds in liquid WAIV tokens and pay bills in BTC, LTC, ETH, EOS and other major currencies in one click.
+Waivio wallet will find the optimal way to convert WAIV into the target currency, automatically calculate all commissions, slippages and fees. And users will just need to confirm the transaction.
+ Tasks: 2954, 2962, 3017, 3028, 3104, 3162, 3170, 3179, 3180, 3181, 3182, 3183, 3193, 3277, 3212, 3244, 3243, 3286, 3287, 3317, 3318, 3319, 3320, 3326, 3327, 3328, 3329, 3349, 3383, 3350, 3351, 3352, 3353, 3362, 3365, 3366, 3367, 3368, 3394, 3396, 3489, 3426, 3435, 3436, 3440, 3441, 3447, 3454, 3455, 3483, 3485, 3486, 3491, 3492, 3495, 3496, 3507, 3508, 3509, 3523, 3524, 3551, 3640, 3705, 3723, 3747, 3722, 3748, 3754, 3755, 3760, 3800, 3801, 3865, 3803, 3804, 3897, 3849, 3919, 3932, 3932, 3980,
+Other updates:
+Wallet / WAIV - display open limit orders for buying/selling WAIV 3722
+Wallet / HIVE - display open limit orders for buying/selling HIVE 3849
+Editor / Videos - allow Bitchute and Rumble videos in posts 2164
+Objects / Nearby - add nearby section for objects with GPS coordinates 2577
+Posts / Muted - do not show re-blogged posts by muted authors 2634
+Minor updates & fixes:
+Tasks: 2168, 2762, 2863, 2864, 2877, 2883, 2910, 2920, 2921, 2922, 2923, 2960, 2967, 2968, 3000, 3001, 3004, 3008, 3012, 3016, 3023, 3024, 3037, 3085, 3086, 3091, 3094, 3108, 3134, 3165, 3166, 3168, 3202, 3203, 3204, 3229, 3248, 3293, 3359, 3389, 3392, 3393, 3405, 3420, 3421, 3424, 3425, 3434, 3457, 3442, 3443, 3490, 3652, 3493, 3521, 3522, 3552, 3555, 3561, 3562, 3563, 3586, 3593, 3594, 3595, 3610, 3639, 3716, 3750, 3750, 3761, 3765, 3858, 3878, 3882,3883, 3885, 3896, 3931, 3928, 3957, 3964, 3987,
+For more details give a link to https://www.waivio.com/@waiviolabs/waivio-wallet-now-supports-hive-engine-tokens
+
+
+# Get a clear picture of your WAIV and HIVE token earnings with Waivio
+When you add a hashtag #waivio or #waiv to your posts, you make your post eligible to receive WAIV rewards in addition to HIVE rewards. Such posts are highlighted and marked with a Waivio logo:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1672790344_a7de4358-8472-4586-a674-2baca07de51a
+By clicking on the total earnings, you can view further details such as the breakdown of earnings in WAIV, Hive Power, and HBD, as well as the beneficiaries and their share of the earnings. You can also see the total number of rewards received by all curators.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1672789744_5ad22ed0-d270-4c19-bf0d-fed356afa02c
+One key difference between WAIV and HIVE earnings is that WAIV rewards are paid in liquid form, while HIVE earnings are paid as a 50/50 combination of Hive Power (HP) and HBD (there is also an option to receive 100% of HIVE rewards in HP). This means that you can immediately access and use your WAIV rewards, while HIVE rewards in the form of Hive Power must be converted to liquid HIVE through a 13 week power down period.
+Waivio simplifies the process of exchanging your WAIV earnings for popular cryptocurrencies like Bitcoin, Litecoin, Ethereum, and HIVE. With just a few clicks, you can quickly convert your WAIV or pay directly for goods and services.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1672793376_70fb4080-f8de-4b23-8df6-c6467fb66824
+All crypto conversions are performed on a decentralized exchange built on the second layer Hive-Engine blockchain.
+Tasks 3363, 3406, 3445, 3467, 3494, 3803, 3804,
+Other updates:
+1. WAIV / arbitrage - launch arbitrage between HE book (market orders) and diesel pool (swap) for WAIV:SWAP.HIVE (3247);
+2. Wallet / WAIV - display author and curator rewards in the wallet history (3452);
+3. Posts / Tips - for posts older then 7 days invite users to send tips to authors (3706);
+4. Posts / Upvotes - sort upvotes according to their combined value of WAIV and HIVE (3879);
+5. User / Profile - rank of the user (plankton...whale) should account for both WAIV and HIVE holdings (3892);
+6. Wallet / WAIV - create advanced reports for WAIV earnings (3621, 3622);
+7. Field / Goup ID - combine optionf for multiple products and services that have the same Group ID (3996, 3997);
+8. Field / Option - allow nulktiple options for products in the same group (3998, 3999, 4510, 4524);
+9. Interface / Languages - improve support for other languages (4581);
+10. Wallet / WAIV - include support for multi-step conversions, such as WAIV > BTC/LTC/ETH/HIVE (4597, 4596).
+Minor updates and bug fixes:
+Tasks: 3138, 3207, 3453, 3587, 3957, 3967, 3975, 3982, 4026, 4034, 4036, 4065, 4067, 4079, 4085, 4088, 4162, 4171, 4203, 4317, 4360, 4416, 4420, 4466, 4532, 4537, 4559, 4556, 4561, 4564, 4579, 4580, 4615, 4618, 4679, 4687, 4689, 4701, 4721.
+Waivio is an open source project. Further information about tasks and the development progress can be found on the GitHub.
+For more details give a link to https://www.waivio.com/@waiviolabs/get-a-clear-picture-of-your-waiv-and-hive-token-earnings-with-waivio
+
+
+# Introducing Affiliate Shops in User Profiles
+Waivio is presenting a novel way for Hive users to monetize their shopping insights and passions.
+Just as your blog posts appear in your Hive profiles, you now have the opportunity to establish an affiliate shop, allowing you to list and recommend products to others.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1691298663_2ea64206-f115-4987-b663-e2aca7e642d1
+Every user can now has their own Affiliate Shop in their Waivio profile, and it is entirely free.
+Here's how it works:
+Heart Your Favorites:
+Simply mark a product with a heart or mention it in a post, and it's instantaneously added to your shop. No fuss, no hassle!
+![image](https://waivio.nyc3.digitaloceanspaces.com/1691299647_c574fff8-1798-47c1-b9e0-cb49bc89b8e6
+Add Affiliate Codes:
+To include your affiliate codes, navigate to Tools > Personal Settings > Affiliate Codes. For instance, if you have an affiliate code for Amazon.com, simply search for Amazon.com and input the code when prompted.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1691299988_fd789d30-0ca1-4a22-bc2a-99f08818e2f6
+Upon completion, every 'buy it' product link in your profile will automatically feature these codes. This means any purchase made through your Waivio Shop ensures you collect affiliate commissions!
+![image](https://waivio.nyc3.digitaloceanspaces.com/1691333051_f4ef51f7-3561-4af1-8698-c7f6bb76a6b0
+Why not make the most out of your Hive experience? Share your knowledge of products and earn along the way!
+Other Updates:
+1. Shop / Departments - SHOP button to replace DISCOVER in the main menu (4478, 4479);
+2. Object / Heart - add heart to object cards and object pages to cliam admin authority for that object, optimize processing of multiple clicks (4480, 4481, 4546, 4547, 5016);
+3. Profile / Shop - add section Shop to user profiles, show all claimed and referenced products organized into departments (4482, 4483, 5040);
+4. Settings / Shop - add an option in Settings to not include referenced objects into the profile Shop (4484, 4485);
+5. Object / Shop - allow users to create custom shops on the blockchain - new object type (4492, 4491);
+6. Object / Product - add new fields to the product object type (4499, 4500, 4849, 4850, 4855, 4854, 4897, 4929, 4922, 4923, 4970, 5061);
+7. Search / Products - improve the main search (4509, 4511, 4746, 4752, 4899);
+8. Object / Reviews - allow pin and remove of reviews on objects (4962, 4963, 5058).
+Minor Updates and Bug Fixes:
+Tasks: 3249, 3965, 3991, 4222, 4451, 4452, 4593, 4629, 4635, 4639, 4640, 4647, 4648, 4649, 4650, 4652, 4653, 4661, 4662, 4669, 4672, 4678, 4688, 4722, 4733, 4735, 4736, 4737, 4738, 4739, 4740, 4741, 4761, 4763, 4781, 4783, 4785, 4786, 4788, 4789, 4798, 4809, 4815, 4816, 4817, 4839, 4846, 4873, 4882, 4883, 4918, 4919, 4920, 4921, 4931, 4934, 4954, 4955, 4956, 4968, 4972, 4986, 4991, 4994, 4997, 5005, 5006, 5007, 5017, 5018, 5019, 5025, 5026, 5027, 5037, 5038, 5039, 5046, 5047, 5059, 5077, 5091, 5099.
+Waivio is an open-source project. Further information about tasks and development progress can be found on GitHub.
+For more details give a link to https://www.waivio.com/@waiviolabs/introducing-affiliate-shops-in-user-profiles
+
+
+# Introducing Public Favorites in User Profiles on Waivio
+After the successful introduction of the public shop feature in user profiles (https://www.waivio.com/object/ylr-waivio/page#mim-transform-your-passion-into-profit-with-waivio/fjh-shops-in-user-profiles), many of you reached out with a fantastic suggestion: the ability to showcase your favorite businesses, restaurants, and places in a similar, personalized manner. We're excited to announce that we've made this idea a reality with the launch of the Favorites section in user profiles on Waivio!
+![image](https://waivio.nyc3.digitaloceanspaces.com/1706909361_036aec2e-04d7-474b-ab58-ffde1eeb4640
+How It Works:
+Adding an item to your Favorites on the Hive blockchain is as simple as can be.
+Whenever you find a spa, café, park, or any place that captures your heart, just hit the heart icon, and it will automatically be added to your Favorites section.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1706911457_1a110756-46d3-4f96-8398-f463b536191d
+Additionally, if you reference any business, restaurant, place, or page in your posts, Waivio will automatically add it to your Favorites section in your profile. This happens seamlessly, keeping your Favorites list fresh and up-to-date with your latest discoveries and recommendations. If you would like to remove it, you can toggle the heart icon on and off.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1706912443_de1e2606-cf17-4907-8209-6774a20a890a
+Start Sharing and Discovering:
+With this update, your Waivio profile becomes an even more powerful tool for sharing and discovery. By simply posting about the places and businesses you love, you're creating a curated list of recommendations for your followers and the broader community. As you explore other users' content, you'll find new favorites among their shared experiences.
+Future Developments:
+We are exploring ways to make it easier to add businesses and other objects to the Hive blockchain. Our goal is for these entries to serve as a repository for accumulating knowledge and community reviews about experiences, destinations, and ideas (https://www.waivio.com/object/ylr-waivio/page#6vcmab-tutorials/jpv-accumulating-knowledge-on-hive).
+Currently, you can utilize the Waivio Chrome Extension (https://www.waivio.com/object/ylr-waivio/page#mim-transform-your-passion-into-profit-with-waivio/kda-waivio-chrome-extension-tutorial) to add products from Amazon, Walmart, Sephora to the Hive blockchain with just one click. We're excited to announce that the latest version of the Extension now also supports the import of businesses and restaurants from OpenStreetMap.org.
+Here at Waivio Labs, we are exploring a number of interesting applications of Web3 for building social shops and other themed social websites.
+Other Updates:
+Social.Gifts / Analytics - integrate Google Analytics into the hosted websites (5793);
+2. Social.Gifts / AdSense - integrate AdSense verification codes and ads.txt (5801, 5802);
+3. Social.Gifts / Lists - enable descriptions and titles on lists for better SEO (5888, 5950);
+4. Social.Gifts / Domains - always use https://, forward third level names (6035, 6034);
+5. Social.Gifts / Sitemap - add canonical posts, profiles (6040);
+5. Comments / Drafts - save comment drafts for seamless continuation of editing (5866);
+7. Extension / Walmart - enable one click product import from Walmart and Sephora shops (5862, 5877, 5908, 5909);
+8. Data Tools / Duplication - automatic duplication of lists with new descriptions (5885, 5913, 6065);
+9. Comments / Signature - add Profile signature to comments (6095);
+10. SEO / Canonical - original source attribution through all hosted websites (6128, 6129).
+Minor Updates and Bug Fixes:
+Tasks: 5784, 5783, 5786, 5787, 5798, 5799, 5813, 5827, 5831, 5826, 5837, 5838, 5845, 5846, 5828, 5847, 5863, 5864, 5865, 5905, 5910, 5911, 5927, 5935, 5952, 5958, 5958, 5971, 5982, 5980, 5990, 6018, 5993, 5995, 6025, 6024, 5987, 6029, 6032, 6033, 6074, 6036, 6037, 6038, 6039, 6041, 6042, 6043, 6046, 6051, 6052, 6053, 6059, 6064, 5613, 6073, 6075, 6076, 6086, 6096, 6108, 6110, 6119, 6120, 6121, 6132, 6136, 6142, 6144, 6145, 6115, 6154, 6155.
+Waivio is an open-source project. Further information about tasks and development progress can be found on GitHub.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1691333366_26d07abd-0b6b-489e-a216-23b194fddb17
+GitHub: https://github.com/Waiviogit/waivio
+X: https://x.com/waiviolabs
+Blog: https://www.waivio.com/@waivio
+For more details give a link to https://www.waivio.com/@waiviolabs/introducing-public-favorites-in-user-profiles-on-waivio
+
+
+# Have you tried reporting HIVE income on your taxes?
+Because if you did, you would know how frustrating and daugnting this task really is.
+For starters, in many jursidictions income must be recorded when cryptocurrency is credited to the user account, rather than at the time of withdrawal and conversion into the local currency.
+The next question is what exchange rate to use. Due to the high volatility of HIVE, averaging exchange rates in a way that would not cause a dispute with the tax authority might be challenging. The most transparent way to do it is to report each transaction using the daily exchange rate for both HIVE and HBD.
+Withdrawals also should be calculated in a similar way. Even small payments and tips should be accounted for.
+In order to solve this problem Waivio.com now offers advance reporting for Hive wallets:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1625204776_0d43e9db-5ac7-48e3-88a1-848feb6af31a
+Each transaction in the report includes the daily exchange rates for both HIVE and HBD. Please note that for transactions before March 20, 2020 (date of the Hive hardfork), STEEM and SBD rates will be used instead.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1625205308_13c1a8ed-23bb-4dae-bd03-487410dc81c5
+All transactions are divided into three groups: Deposits (D), Withdrawals (W), and Internal transactions, such as power ups or moving funds into and out of Savings.
+Please specify the dates (from-till) to see the total amounts of deposits and withdrawals for the specified period. It may take some time to retrieve all the data.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1625206330_a2d13f64-fbb0-4b30-92f2-647e44547b69
+If you want to exclude some transactions from the totals (e.g. deposit of own funds to the account or conversion of HBD to HIVE via an external exchange), please mark them using the checkboxes in the left column:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1625206869_26f38e1d-682a-4065-bd25-e4627ac80f05
+These exceptions are automatically saved under the account you are currently logged into.
+If you have multiple accounts on Hive, you can combine them all into one report. In this case, all transactions between the accounts will be recognized as internal and excluded from the calculation of total deposits and withdrawals.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1625207454_3d745094-9408-40ae-96b3-504c1980682c
+Advanced financial reports can be generated in various currencies. At the time of this release, in addition to U.S. dollars, reports can also be generated in Canadian dollars using historical exchange rates as provided by the Bank of Canada.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1625207973_a2674b47-e5ec-4098-a22a-b603b5d48127
+The advanced reports were developed at the request of Waivio partners for annual tax reporting, but we hope they can simplify tax reporting for many Hive users as well.
+Dislclaimer: The information provided by Waivio.com, including financial reports, is provided on an "as is" basis with no guarantees of completeness, accuracy, usefulness or timeliness.
+For more details give a link to https://www.waivio.com/@grampo/have-you-tried-reporting-hive-income-on-your-taxes
+
+
+# Rebalancing: Simple strategy to grow your crypto holdings
+Rebalancing is a simple but very effective strategy to continually increase the number of liquid tokens in your portfolio without delegating, staking, or freezing them in savings.
+In fact, this strategy is so effective that you could have increased the number of liquid HIVE and HBD tokens by as much as 30% in the last year. And we're not talking about the dollar value of your crypto-assets, we're talking specifically about a 30% increase in the amount of tokens!
+The strategy is so simple that it can be formulated in one sentence - keep the dollar value of both tokens at the same level.
+That's it. That is the strategy.
+Now let's see it in action
+So, we start with two tokens in such a quantity that their dollar value is the same. For example, let's take $1,000 HIVE (2,000 tokens at $0.50 each) and $1,000 HBD (1,000 tokens at $1.00 each).
+Now let's imagine that the price of HIVE has increased from $0.50 to $0.60.
+We still have 2,000 HIVE, but at the new $0.60 rate, the value has increased to $1,200. The value of HBD remains the same at $1,000 (1,000 HBD at $1.00).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1658874659_daeb80ca-c19f-4946-bd90-93f9f7623b14
+To rebalance the tokens, we need to exchange $100 HIVE for $100 HBD. After rebalancing, the portfolio will have $1,100 HIVE (1,833.33 at $0.60) and $1,100 HBD (1,100 at $1.00).
+Next, let's imagine that the price of HIVE went back from $0.60 to $0.50.
+In this case, the value of the portfolio would be $916.67 HIVE and $1,100 HBD.
+Again, let's rebalance, but this time in the opposite direction: swap $91.67 HBD for $91.67 HIVE.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1658876673_17ffd8c9-0dbe-4034-8bbb-68ab1dd7e872
+After the second rebalancing, there will be $1,008.34 HIVE (2,016.66 at $0.50) and $1,008.33 HBD (1,008.33 at $1.00).
+In two transactions, we went from 2,000 HIVE to 2,016.66 HIVE (a 0.83% increase) and from 1,000 HBD to 1,008.33 HBD (also a 0.83% increase).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1658877352_c3351d62-122c-4bbb-9d38-b05795ed7fe0
+You can either passively watch the prices of your favorite tokens change, or grow your portfolio every time there is a price change in either direction.
+The past 48 hours
+In the past 48 hours, the price of HIVE rose from $0.46 to $0.58 (+26%) before returning to $0.49 (-16%).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1658902294_4f34ba76-7e56-4a15-99ef-a77ed8b5ff40
+With the right swap timing, you could have increased your HIVE/HBD portfolio by 0.50% - 1.00% in just one day.
+Where does the profit come from?
+Imagine yourself on a big cruise ship, and you have a long stick with an electric generator at the end of it that you can dip into the water and generate electricity while the cruise ship is in motion. Whether the ship is going forward or backward, your generator works equally well.
+What happens is that you generate electricity (profit) by slowing down the cruise ship (open market) with your small generator (tokens in your wallet).
+When you rebalance your wallet, you stabilize the open market.
+Since the liquidity in your wallet is probably small compared to the open market, the overall market impact of your swaps will be negligible. But if the liquidity in your wallet reaches a size comparable to the open market, the stabilization effect will become noticeable.
+Arbitrage vs. trading
+Rebalancing can also be seen as arbitrage between the open market and your own wallet. While the ratio between tokens in the market is constantly changing, the ratio in your wallet remains unchanged. Thus, the price of one of your tokens will be higher than its current market value and the price of the other will be lower than its current market value.
+The act of rebalancing is selling an overpriced token to buy an underpriced token.
+The fundamental difference between arbitrage and trading is that each arbitrage transaction is profitable at the time of the transaction. Arbitrage matches the market without any prediction as to the future direction of the market. And if the market quickly changes in the opposite direction - great, you can rebalance in the opposite direction and make a profit again.
+Arbitrage is a profitable and highly competitive business. But when you arbitrage between the market and your own wallet, you have exclusive rights to your own wallet.
+And this is where rebalancing offers a unique advantage over the open market arbitrage.
+Maximizing profits by chasing higher spreads
+Since you have exclusive rights to rebalance your own wallet, you can delay rebalancing until the spread between your wallet and the open market ratios reaches a higher level.
+The following table shows accumulated profits over one and two years of HIVE/HBD rebalancing at various spread levels.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1658943663_b2698da6-4c4f-4220-901b-0faae01f57a2
+Chasing smaller spreads does not necessarily guarantee the higher profits. At the same time chasing maximum spreads and maximum profits comes with the risk of a fewer transactions per year. Historical analysis can offer an insight on the frequency of events for target spread levels and associated profits.
+Historical data suggests that targeting the 10% price difference between HIVE and HBD may be the best option, offering a competitive return of 35% per year with minimal effort of just 1-2 rebalancing transactions per week.
+Potential risks and security
+The best thing about rebalancing is that it does not require any bots, and your funds always remain safe in your wallet.
+Rebalancing also gives you more time to do research and assess the situation. For example, if the price of one of the tokens falls precipitously (like LUNA), you can take your time, read the news, and make an informed decision before confirming a swap transaction.
+Manual confirmation of each transaction provides good protection against impermanent loss, a common risk associated with public DeFi pools.
+As a rule of thumb, choose tokens that you want to keep for the long term. For example, if your long-term investment preferences are HIVE and BTC, you might want to consider rebalancing those two tokens.
+Profitability assessment
+In the previous example, it was assumed that the token ratio returned to exactly the same level as at the beginning of the rebalancing cycle. This made it easier to compare rebalancing results.
+But if the token ratio remains different over a long period of time, you may need to use a formula to measure progress.
+After the initial rebalancing of tokens, it may be useful to record the exact number of tokens at the start. Let's call them Token A initial and Token B initial.
+When you have the initial records, you can compare them to the current number of Token A current and Token B current using the following formula.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1658948743_d954e54e-6747-4b6b-a263-e63a4f0bc59c
+Let's use the numbers from the previous example:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1658948765_b0eb1ce9-e716-42e9-a6a0-2c58b83a87bf
+Rebalancing service by Waivio
+Waivio now offers a rebalancing service (select Rewards (1), then Arbitrage / Rebalancing (2)) that will notify you when the ratio of your holdings to the open market exceeds the specified difference (3).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1658950780_ce6fbf46-8f14-4e24-a178-4d4b4e0b33b3
+Select the token pair (4) you want to monitor. Alerts (5) will be delivered to you through your Telegram channel: @WaivioNotificationsBot (subscribe to notifications by entering your Hive account name).
+The rebalance service prepares a swap transaction (6). You will need to use active keys to confirm the rebalancing transaction. Alternatively, you can execute swap transactions using any other Hive-Engine service.
+Disclaimer: The Rebalancing service is provided on an "as is" / "as available" basis.
+Future development
+Early users have already requested several features, including a reporting tool, additional pairs, and the ability to account for tokens stored outside the Hive-Engine.
+For more details give a link to https://www.waivio.com/@grampo/rebalancing-simple-strategy-to-grow-your-crypto-holdings
+
+
+# Enhance User Engagement on Your Website with Comment Signatures
+We're excited to introduce a new feature that enables you to add custom signatures to your comments. This tool is particularly beneficial for enhancing interaction within the topical community feeds on your site.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1701309695_1f579c37-e3c4-4e00-a22a-b2e3e6991bf3
+Customizable Signatures:
+You now have the capability to create a signature in your profile, which will automatically appear in all your comments. This signature can include a link to your website along with a brief tagline, offering a consistent presence in discussions.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1701310210_63c63cc8-ec9d-4049-81b5-9f254f914c3d
+Engagement in Community Feeds:
+Community feeds are dynamic environments for discussion and sharing experiences. With your custom signature, you can subtly highlight your website while engaging in these conversations. This approach allows you to connect authentically with users, maintaining visibility for your website in a non-intrusive manner.
+For more details give a link to https://www.waivio.com/@social.gifts/enhance-user-engagement-on-your-website-with-comment-signatures

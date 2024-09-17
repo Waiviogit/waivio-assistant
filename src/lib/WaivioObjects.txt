@@ -1,1 +1,433 @@
----
+# Lesson 5: Knowledge Accumulation in Web 3.0
+For more details give a link to https://www.waivio.com/object/jpv-accumulating-knowledge-on-hive/page
+Knowledge Accumulation in Web 3.0
+In this tutorial, you will discover the process of how knowledge is accumulated on the Hive blockchain, and also learn how to use the Waivio https://www.waivio.com/ platform for participating and gaining benefits from this knowledge.
+Overview:
+1. What is an object on Hive Blockchain
+2. How to create an object with Waivio
+3. Adding details to the object
+4. Consensus
+5. Multiple versions of objects
+6. Accumulation of knowledge
+
+PART 1. What is an object on Hive Blockchain
+We are all accustomed to using hashtags on social media; for example, we can include if we post about a camping trip. But what if we want to talk about a specific brand of a camping tent, a certain hiking trail, a food recipe, a specific destination, a product, or a business?
+On the decentralized platform Hive, users can create a social record on the blockchain called an object, and later they can reference this object from their posts and comments. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654054894_8d798ffd-02dd-41fd-a07e-ecafb88a61f4)
+Each object will get its dedicated page which collects all the posts that have referenced it. This object will even have its own photo gallery.
+Besides posts and photos, users can also add other relevant information to the object, such as an avatar, description, address, price, ratings, tags, etc. This list of additional fields depends on the type of object. For example, if this is a product, we can add a price to it and a link to a website where we can purchase it. If this is a business, we can add its address and a phone number.
+
+PART 2. How to create an object with Waivio
+When you write a post on Waivio, on the right panel, you will see "create new object" and a list of different types of objects that you can create. Here, you can add a new hashtag, a business, a product, a place, a list, a page and etc. For example, I will create a business object for Cypress Mountain https://www.waivio.com/object/trq-cypress-mountain. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654055034_8a1ac528-a716-4ed5-bb91-2bb7b0f4b51e)
+Write the name of the object; in my case, I will write "Cypress Mountain" and click "Confirm". ![image](https://waivio.nyc3.digitaloceanspaces.com/1654055132_1fd5d257-b009-4e47-9dcc-a571a5b5d102)
+When you create an object, a unique ID and a corresponding URL will be created for it on the Hive blockchain. Once the object is created, the link to it will be automatically added to your post. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654055158_bd4cc778-f571-4954-a89a-020a0ef89e9d)
+The next time you write about an object, such as Cypress Mountain, you don't need to create a new object; you can just type "#cypress mountain", and you will see it in the recommendation pop-up. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654055178_24deb241-f17d-40e3-92df-53d12c7afe62)
+If you see someone else's post about your object, you can add your object in the comments, and this post will be linked to your object. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654065231_f32e890e-7666-4142-a225-946b7b1f57c9)
+When you go on the object's page, in the review section, you will see your post and the posts of others where Cypress Mountain has been referenced. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654065513_9d3a0767-d876-4501-8037-ac6d468e4a39)
+This way, anyone can reference Cypress Mountain, and more information will be collected about it.
+Now you can add some extra details to the object.
+
+PART 3. Adding details to the object
+Let's start by adding an avatar image to the object. Go to the Edit section. Click on the + button next to the "Avatar". ![image](https://waivio.nyc3.digitaloceanspaces.com/1654055291_3d180b10-62ee-4ea8-b609-be0f1f6c1bef)
+Upload the image and click Submit. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654055337_989c8d33-051e-4c43-bdf2-349c5edf5565)
+Once you submit, you will see a pop-up saying that you successfully added the avatar, and in the Updates section you will see a small record saying that an avatar has been added by you. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654055380_d0bd36e3-5777-49d9-97bf-5165be1aca6f)
+Similarly, when you add a phone number and click submit, another update will be created. In this record, you can also see approve and reject buttons. When you add a phone number, you automatically approve this new update. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654055422_9aabf5a0-390b-4941-9593-f4ccc797c5f9)
+If you made a mistake in this phone number, you could click the reject button, and this phone number will not show up on the Cypress Mountain object front page. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654055442_33beb1dc-e359-414e-9e00-54fe2645072f)
+In this way, you can add an address, description, tags and other information to the Cypress Mountain object. Every time you make a new update, a new record will appear in the updates section.
+As you can see, an object (such as our Cypress Mountain) is a unique identity on the blockchain. Every object is made up of many short records posted on the blockchain. Anytime you add, delete or modify anything about the object, an update is created that reflects this event.
+For every update, there is a choice to approve or reject it. When you add new information to the object, for example, you add a phone number; you automatically approve the update. If you want to modify it, you can make a new record and reject the older record.
+However, because Hive is a decentralized platform, it's not only you who can modify, approve, and reject the updates for the object, but anyone else on Hive can do that. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654064936_601443f3-f4ea-44a8-acf3-678824ae086e)
+
+Part 4. Consensus
+On Hive, anyone can contribute to the object; for example, someone can add a new avatar image of Cypress Mountain. But whether it will be shown or not is decided by the community.
+When new information is added to the object, all the users who previously have contributed to this object or referenced it will be notified about the proposed change, and then they can either approve or reject the update.
+The value of each vote depends (1) on their combined voting power (which is determined by the amount of staked HIVE and WAIV tokens), (2) and on accumulated expertise in that specific object. This way, users who have contributed to the object in the past will have an advantage. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654055578_85b73259-3153-49cc-8079-447012281907)
+For example, when someone has proposed to change the avatar image of Cypress Mountain, I can reject it. My reject vote value is higher than the approve vote value of the other user because I have higher expertise in this object. As a result, the avatar proposed by the other user will not be shown on the object's front page. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654055627_c9f97ff1-bf71-44a8-b74f-7084207f8d20)
+
+Part 5. Multiple versions of objects
+However, it's not about who's update wins and will be shown on the object's front page. No, in fact, multiple versions of the object can exist simultaneously.
+For example, my avatar shows that Cypress Mountain is great for winter sports, but the other user wants to show Cypress Mountain during the summertime. And we are both correct, and we both can use and portray the same object in the way each of us wants on our own platforms. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654064977_987d77f8-25bf-48e9-9c62-4aac427aa456)
+Let's say I have a website dedicated to winter sports, my administrators, and I can approve the avatar that shows Cypress Mountain in the winter. Similarly, if the other user has a website dedicated to summer sports, he can use the summer version that he added to the object. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654055765_01debdee-23f8-438e-a0c8-4addbcb1dd99)
+On your website, your admins can approve the updates that you want your website visitors to see, and your vote and the votes of people you trust will be final. You and your admins have full control of what information is displayed on your website.
+
+Part 6. Accumulation of knowledge
+When multiple users and projects contribute information to the blockchain, it becomes public knowledge. And it can now be used and enhanced by others as well.
+You may think of the Hive blockchain as open cloud storage, where you can access not just user profiles, their connections, and posts but also information about businesses, products, places of interest, hiking trails, recipes and any other type of object that you might want to create.
+Some of this information may be posted by individual users, and some will be posted by teams building apps on Hive, but once this information is published on the Hive blockchain, it becomes easily accessible to other users and projects, allowing them to collectively contribute and achieve economies of scale well beyond their original scope. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654055826_a4244901-45f8-4f5d-a58b-f95f16270127)
+For example, for a winter sports website, you can collect and submit detailed information about your local ski resorts. However, you don't need to do this work for global ski resorts because you can take and index existing information about these resorts from the Hive blockchain. These resorts may already have reviews, images, prices and locations. This allows you to have hundreds of global resort listings on your website without requiring you to input all of it yourself because this information was already collected by the community and is present on the blockchain. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654064384_1fff6f09-bb5c-4c3d-abc7-851a54f04543)
+The same approach can be used by many other projects, such as travel and adventure guides with maps of hotels, attractions, and restaurants and their ratings, or e-commerce sites with product listings and their reviews, educational projects, etc.
+Every time you add a post, a review, a photo, or a description of an object, you help the community to accumulate information about this object. In this way, through the effort of the whole community, a lot of knowledge is acquired for millions of objects. This has an immense value because this knowledge is accessible to anyone and allows you to build complex projects and businesses in a snap. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654064997_d60551a6-26af-409b-8c5c-0a9977859730)
+Now you know a powerful tool to realize your ideas and projects and help the Hive community to expand knowledge.
+
+
+# Lesson 6: Adding a Product Manually
+For more details give a link to https://www.waivio.com/object/gyg-how-to-add-a-product-to-hive/page
+In this tutorial video, you will learn how to add a specific product to the Hive Blockchain using Waivio, and create awesome product pages, such as this camping chair https://www.waivio.com/object/gec-cliq-camping-chair---most-funded-portable-chair-in-crowdfunding-history-bottle-sized-compact-outdoor-chair-sets-up-in-5-seconds-supports-300lbs-aircraft-grade-aluminum.
+You will learn how to:
+- create a new product page
+- fill out all the relevant information such as price, options, department, description, tags, website, weight, dimensions, manufacturer, brand, merchant, features, and product ID
+- combine product variants together by groupID
+👉If you're looking to add multiple products, I suggest you to watch an upcoming tutorial for importing.
+Link to microphone product page made in the tutorial: https://www.waivio.com/object/ice-shure-mv7-silver
+
+Tutorial
+1. Creating a Product Page
+Before adding a product, it's always a good practice to make sure it doesn't exist already on the Hive Blockchain. Simply enter the name of the product in the search bar on Waivio. As an example, let's use a product that I like and always use: Shure MV7 Podcast microphone. ![image](https://waivio.nyc3.digitaloceanspaces.com/1679781407_118b07ac-4707-4197-a823-09416f1c831c)
+If there are no search results for that name we can safely add a new one. To do that, go to "New Post"> under "Create New Object" choose "Product"> write the name of the product and press "Confirm" ![image](https://waivio.nyc3.digitaloceanspaces.com/1679781345_cf63490d-2334-4418-934b-9ef7bb56d014)
+***It may take a few moments for the blockchain to be updated and for the new product to appear in the search results.
+The product page comes with the default profile image that we will change later. All the relevant ratings and tags are also automatically added, including quality and value. To add new information to the product's profile, let's switch to the editing mode:
+
+2. Fill Out Relevant Information ![image](https://waivio.nyc3.digitaloceanspaces.com/1679811979_6b9d6707-e1ec-432c-a516-d9e26b96d741)
+  1. PRICE: Write the current price of the product.
+  2. OPTIONS CATEGORY: This is an important field to fill out because it helps customers choose between different variations of the same product. In the options category, specify the attribute that is distinct for each variant (for example, colour), then write a value for this product variant (for example, silver). The option category is case sensitive, so make sure you spell it the same for every product variant. ![image](https://waivio.nyc3.digitaloceanspaces.com/1679812047_12901be5-6a41-4f0b-bcc9-cf6507861140)
+  3. DEPARTMENT FIELD: This is where we can classify the product into a specific departments. List all the relevant departments for the product. In my case, I will put in Audio Equipment and Microphones. ![image](https://waivio.nyc3.digitaloceanspaces.com/1679812087_dceead56-f332-42cc-86bf-611a1cb61778)
+  4. NAME: No changes
+  5. DESCRIPTION: We write a brief description of the product
+  6. TAGS: In the tag field, we can input relevant tags that describe the product. For the Shure MOTIV MV7 Podcast Microphone, some relevant tags would be a #podcast and #audio.
+  7. WEIGHT FIELD: In the weight field, we can input the weight of the product (such as, 1.05 kg).
+  8. DIMENSIONS FIELD: In the dimensions field, we can add the dimensions of the product (such as, 10.92 x 31.24 x 12.7 cm); don't forget the units. ![image](https://waivio.nyc3.digitaloceanspaces.com/1679812651_0342f0b3-3da8-4717-8e5e-d3c663eecfbc)
+  9. MANUFACTURER: Let's now add the manufacturer – you can search to see if the manufacturer you want to add already exists; if not, simply add the name of the manufacturer as a text.
+Similarly, let's add the
+  10. BRAND and the
+  11. MERCHANT.
+  12. FEATURES: In the features field, we can write any distinctive features of the master product. Similar to Amazon, where you can compare products by features, this field will allow us to compare this product with other similar products.
+  13. PRODUCT ID:
+    1. The product ID field is where we can add a unique identifier for this product. For Amazon, enter the ASIN number; you can find it in the product details section on Amazon.
+Usually, the product has the same ASIN number regardless of whether it's sold on U.S., German, Canadian or any other Amazon website, but sometimes it does vary. In that case, we will need to input a specific website (such as amazon.ca or amazon.fr) and then add the corresponding ASIN number.
+If it doesn’t exist on a specific amazon website, you can put, NONE.
+    2. Similarly, we can also add a Walmart number for this product.
+When you enter the correct Amazon or Walmart product number, a button will be generated automatically. And when you click on it, you will be taken directly to the product page on the respective website.
+    3. We can also add other relevant product ID numbers.
+  14. GROUP ID: see below**
+  15. AVATAR: You can add avatar by uploading the image or pasting the URL link
+  16. TITLE: Add a title to your product
+  17. GALLERY IMAGES: Add some galleyry images for your product (such as images of the product from different perspectives, angles and/or settings )
+💪Now we added our product with all the relevant information.
+If your product comes in different colours or any other options, you will need to create separate product pages for each of the variants. In order to group the variants together into a “master” product, we will need to assign the same GROUP ID to each variant. If you are assigning the group ID manually, you can name it after the product, for example, (shure _mv7).
+Once we add the common group ID to all the product variants, they will be grouped together into a “master” product on a new page. The option value that was specified on every product variant, in my case, it was microphone colours, will be combined together in an interactive menu. When we hover over the colour, we can see the avatar and price of the product change. When we click on the specific colour (such as silver) – it will take us to the product page for the silver microphone we have just created together.
+And that's it. We have successfully added a product to the Hive Blockchain on Waivio and grouped it together with other variants into a “master” product. As you can see, adding a product takes quite a lot of time, so if you need to add many products, it will be challenging to do manually. ![image](https://waivio.nyc3.digitaloceanspaces.com/1679781278_8a058d7e-803c-4503-95c2-5ed33dc76a75)
+That's why in the next tutorial, I will show you how to import many products at the same time.
+See you in the next tutorial!
+
+
+# Waivio updates: May 4, 2020
+In order to make the voting process for object updates more transparent, Waivio now displays two parameters: Approval (%) and Vote count.
+Approval (%) is the factor that defines whether or not the update will be displayed. It can range from 0% (Reject votes only) to 100% (Approve votes only). If the Approval value is 50%, it means that this update received an equal value of approval and rejection votes. A minimum threshold of 70% is required for the update to be added to the object.
+Vote count: This is a parameter used to sort approved updates. If a particular field can only have one winning update, it will take the approved update with the highest Vote count. For example, there could be only one icon representing the object, while there could be multiple photos in the gallery. The vote count can be positive or negative, depending on the balance of Approve/Reject votes.
+For example, a user @diningguide added a phone (123) 456-7890 to an object Test restaurant:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1588569394_6621dc81-ba49-485a-9be3-71791de3b7ab
+New phone number
+At this stage the update has a single Approve vote by @diningguide and the update is approved (100%) with the Vote count of 0.0036.
+The user can easily remove this update by simply changing their vote to Reject:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1588569727_b63bb8f3-36b0-4d8f-b2ad-2b66c6ff3f32
+Phone removed by the author
+In the same way the user can vote Approve again and the update will become valid again.
+Waivio allows you to add up to three phone numbers to an object. So, if the user adds another phone (987) 765-4321, this time with the title "Pickup orders", both numbers will be displayed :
+![image](https://waivio.nyc3.digitaloceanspaces.com/1588571430_1da8c512-aee8-43fe-980c-d0df29ce4773
+Second phone number added
+The Vote count for the second phone is higher (0.0049 vs. 0.0036) and it is displayed above the first number.
+With each subsequent update of the object, the user gains more expertise in the object and the value of their vote increases, even though the voting power used to upvote both updates was the same.
+Other updates and bug fixes:
+Object experts - allow quick follow of experts (357)
+User search - extended search results (397)
+User profile - Resource Credits indicator (407)
+Guest posts - signature with links (411)
+Discover restaurants - initial view for remote areas (456)
+Objects - left column formatting (457)
+Hashtag objects - limited number of fields (458)
+Object status - allow NSWF and Flagged statuses (459)
+Flagged objects - send notification to all object experts (461)
+Object avatar - bug fixes (467)
+Object updates - visibility (468)
+Type comment - fix the spelling (484)
+Update - detailed view as a comment (485)
+Lists - add Status field to list objects (486)
+Profile - show user expertise in objects (487)
+New restaurants - indexing and quick search (488)
+Re-blog - highlight the button if user already re-blogged the post (493)
+Object parent - add a link to the left column (495)
+Lists - custom sorting validation (499)
+Updates - display voting balance (501)
+Object reviews - invitation to write the first review (505)
+Object categories - process previously added objects (511)
+Wallet - exchange rates charts (512)
+Object gallery - display gallery items in Updates (514)
+Unavailable objects - exclude from search results (523)
+Trending - show posts up to 3 days old (531)
+Comments - expertise of authors of new comments (533)
+Waivio is an open source project. If you believe that what we are building is beneficial to the Hive ecosystem, please vote for Waivio proposals on the Decentralized Hive Fund.
+GitHub - https://github.com/Waiviogit/waivio
+Discord - https://discord.gg/sAkPkFv
+Twitter - https://twitter.com/waiviolabs
+Hive - https://www.waivio.com/@waivio
+For more details give a link to https://www.waivio.com/@waiviolabs/waivio-updates-may-4-2020
+
+
+# Product ratings simplified by Waivio
+Waivio users can now rate products and companies with a single click.
+For example, a restaurant can be rated by value, ambience, service and food:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1655652905_98883de8-77c3-49c3-bba6-8c5b62954505
+Other types of businesses and products may have their own rating systems. For example, individual dishes can be rated based on presentation, taste and value.
+To vote, simply click on the stars. Your vote will be recorded on the Hive blockchain. As long as you're logged in, you'll see your votes as a reminder of your personal experience with that product or company.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1655662854_4b5193e8-5241-4bff-a601-7bf02205ca51
+Task: 2773
+Linking posts to objects
+The standard method of linking posts to objects is for the author of a post to include references to those objects or hashtags in the post.
+But if the original post did not have such links, other users can now link that post to objects, by posting top-level comments with links to objects. And once the post is linked to those objects, the post will appear in the Review section of those objects' pages (task: 2699, 2813).
+For example, if a user posted a review of a product or company at a time when those objects did not exist, but were created later, other users can now add comments to the original post and link it to the newly created objects.
+Other updates:
+Rewards / Create - sponsors can now set the target currency for their rewards campaigns, allowing for better presentation of rewards in local currency (2782, 2786);
+Rewards / Reports - financial reports can now be viewed in local currency (2811, 2812);
+Notifications / Route - notify users about changes of withdraw routes for their accounts (3054, 3055, 3056, 3057) ;
+Posts / Odyssey - users can add Odyssey videos to their posts (3444);
+Posts / YT shorts - users can add YouTube shorts to their posts (3720);
+Posts / Photos - preserve meta data for images uploaded by users (3751);
+Object / Titles - the field was extended to allow up to 500 symbols (3462).
+Minor updates & fixes:
+Tasks: 2845, 2847, 2848, 2851, 2854, 2858, 2862, 2872, 2814, 2961, 3002, 3003, 3005, 3007, 3044, 3063, 3065, 3066, 3090,3419, 3437, 3460, 3438, 3439, 3481, 3590, 3613, 3637,
+Waivio is an open source project. Further information about tasks and the development progress can be found on the GitHub.
+For more details give a link to https://www.waivio.com/@waiviolabs/product-ratings-simplified-by-waivio
+
+
+# New object type: widget
+Waivio has added support for a new object type called a "widget," which allows for the integration of third-party pages, forms, and other widgets onto the Hive social blockchain (tasks 4434, 4406).
+This means that users can now easily incorporate external content, such as Coingeko's widgets (https://www.coingecko.com/en/widgets), into their Hive posts and objects. This can add a new level of interactivity and functionality to Hive, making it easier for users to share and access a wider range of content and resources.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1670693107_0a1f46bb-d071-4e62-ab03-c89b571a7a5f
+Let's create a new widget called Crypto heatmap on Waivio:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1670693961_15faeb24-50ba-4e6c-accb-a8a3e9cb69fd
+To incorporate a Coingecko widget into your Hive widget, simply copy the widget's code and paste it into the form:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1670695530_54460da0-c636-4146-848e-37797bc76eaa
+Now users can easily find Crypto heatmap widget (https://www.waivio.com/object/krd-crypto-heatmap) by searching for it on Waivio, reference it in their posts, as well as integrate it into other objects on Hive or into their social websites.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1670696387_0a6df9f3-c37b-4ca0-999d-6faaf989d425
+This can greatly enhance the user experience on Hive, making it easier for users to share and access a wider range of resources and information. The widget object type allows for the seamless integration of interactive forms, tools, and pages from external parties, making Hive a more dynamic and engaging platform for users.
+Other updates:
+1. Posts / Twitch - integration of Twitch videos into users posts (2705);
+2. Expertise / WAIV - account for WAIV earnings for calculating expertise for users and objects (3196);
+3. Field / Product ID - allow bar codes, ISBNs and other common product identificators to be added to object types product and service (3946, 3947);
+4. Field / Company ID - allow unique identifiers to be added to the business object type (3948, 3949);
+5. New object / Aa tool - add a case toggle button for the name field for new objects (4043);
+6. Comments / Objects - if a comment contains a link to an object, connect the original post to the obejct, show it in the Reviews section on the object page (4462).
+Minor updates & fixes:
+Tasks: 2156, 3088, 3449, 3988, 3989, 3995, 4020, 4021, 4037, 4066, 4115, 4117, 4162, 4204, 4221, 4245, 4247, 4269, 4293, 4311, 4343, 4361, 4366, 4367, 4387, 4388, 4392, 4393, 4419, 4465, 4504, 4533, 4543, 4545.
+Waivio is an open source project. Further information about tasks and the development progress can be found on the GitHub.
+For more details give a link to https://www.waivio.com/@waiviolabs/new-object-type-widget
+
+
+# New Object Type: Webpage
+Waivio now offers an innovative way to amplify your online presence — by creating Webpages directly on the Hive blockchain!
+![image](https://waivio.nyc3.digitaloceanspaces.com/1699486923_13e20868-f29a-4613-b466-f5e815593486
+Social.Gifts Projects
+With this latest update, you can now craft and publish your own web pages, harnessing the decentralized power of blockchain technology. Whether you're aiming to showcase a project, build a portfolio, or create a digital storefront, Waivio is here to make your vision a reality.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1699487050_a271aabc-dd86-425b-b8fc-619f0ff4aec1
+ Here’s How to Get Started:
+Click on 'new post'.
+On the right column, select the object type 'webpage'.
+A popup dialog will appear. Here, you can enter a name for your new webpage object.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1699487148_9e5191d8-c8e3-43b6-b233-df14510e01ee
+Edit and Customize: Navigate to your new object's page and switch to 'edit mode'. You'll see a suite of editing tools pop up.
+Design Your Page: Get creative! Add images, text, videos, and utilize our formatting blocks, spaces, and dividers to design your page exactly the way you want it.
+By bringing webpages to the Hive blockchain, we are pushing the boundaries of what's possible in decentralized content creation and management. We can't wait to see the unique and innovative ways our community will utilize this new feature.
+Let's build the decentralized web, one page at a time!
+Other Updates:
+1. Tools / Data Import: automating product import from JSON files (4540, 4541, 4544);
+2. Object / Widget - new object type: widget (4626, 4627, 4628);
+3. Earn / WAIV - settlement of sponsored rewards in WAIV tokens (4642, 4654, 4655);
+4. VIP tickets / WAIV - accept WAIV payments for VIP tickets (4709, 4710);
+5. Websites / WAIV - accept WAIV payments for website hosting (4711, 4712);
+6. Data / Tables - generate JSON files from product tables (4732);
+7. Rewards / Submit - simplify the process of submitting paid reviews (4754);
+8. Earn / Objects - allow rewards campaigns for single objects (4755, 4756);
+9. Earn / Global - enable GEO targeting for campaings (4757, 4758);
+10. Objets / Menu - universal menu items on objects (4894, 4895, 5052, 5088).
+Minor Updates and Bug Fixes:
+Tasks: 4350, 4380, 4389, 4394, 4396, 4397, 4449, 4450, 4459, 4472, 4503, 4509, 4530, 4531, 4534, 4560, 4562, 4563, 4594, 4595, 4619, 4620, 4630, 4631, 4634, 4708, 4713, 4714, 4715, 4742, 4743, 4744, 4747, 4748, 4749, 4750, 4751, 4762, 4764, 4767, 4768, 4775, 4776, 4777, 4778, 4779, 4780, 4799, 4818, 4819, 4840, 4841, 4843, 4847, 4848, 4862, 4871, 4872, 4874, 4884, 4885, 4886, 4898, 4930, 4933, 4935, 4944, 4945, 4946, 4957, 4969, 4971, 4992, 4993, 5008, 5020, 5021, 5031, 5043, 5044, 5053, 5060, 5092, 5098, 5108, 5109, 5143.
+Waivio is an open-source project. Further information about tasks and development progress can be found on GitHub.
+For more details give a link to https://www.waivio.com/@waiviolabs/new-object-type-webpage
+
+
+# Launching Businesses on the Steem Blockchain
+My creative friend David Vardanyan from Lights and Shadows Productions joined us at the very first Waivio meetup in Vancouver, BC, where we are building startups on Steem. And this video will serve as a cool memory of how it all started!
+I am delighted to share my knowledge and experience with my friends who are entering the dynamic world of crypto.
+The Waivio platform and the Steem blockchain are now stable and mature enough to serve as a platform for small and large companies alike.
+What is particularly interesting about creating startups on a distributed blockchain is that they are very independent (they sell their own services to their own customers) and yet they benefit from a combined network effect, where the success of each company helps other companies to thrive, as the growing ecosystem of users, connections, content and rewards benefits everyone involved.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1580863098_9e3feb0e-8c7b-4142-9088-6b05f9341258
+One of the first practical applications of the Waivio Attention Trading Platform is the management of rebate programs for restaurants. This concept was presented three months ago at the SteemFest in Bangkok https://www.waivio.com/@grampo/steemfest4-steem-as-a-platform-for-business.
+And now we have launched a knowledge exchange program for interested entrepreneurs to explore the practical aspects of building a business on the Steem social blockchain.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1580863037_c390ea34-e5aa-4f63-acc4-6317a68914b0
+Creating even small businesses often involves many challenges, including significant initial investment, office rent, purchasing production equipment and inventory, setting up operations and diverse workflows, launching websites, social channels, marketing campaigns and much more. In most cases, even small businesses need employees even at the initial stages of operations.
+Running restaurant rebate programs offers many advantages over many kinds of traditional small businesses:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1580863801_c20f7905-a75a-4f8e-91b0-de34f7708b51
+Rebate programs are designed to serve a stable set of customers giving the owner an advatage of stable and predictible revenue streams.
+And when the time comes to sell the business, transparency of transactions on the blockchain allows for a simple audit of operations offering new owners an additional level of confidence.
+When we are reviewing the skills required to operate such a business, ability to work independnently and attention to details are a must. It is important to issue invoices on time, promptly process payments to reviewers, update restaurant menus, motinor reviews and provide reports to restaurants.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1580864452_902dd461-8a41-41f1-bfd4-49918401ffbb
+And when it comes to communication skills, the main focus is on customer service before sales skills. After the initial building of the customer base, the work will mainly focus on the correct handling of payments from invoicing to distribution of rewards, customer service and maintenance of restaurant listings and menus.
+Every business, and especially startups, are associated with risks. And although it is impossible to mention them all, here are some of the risks that are specific to this type of business:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1580866128_12655561-61c9-48c7-a91a-d0bcba1448d1
+Many people think they have heard of rebate programs for restaurants, or it is a very logical service to use. But in reality, this is the first time this type of service is being offered on a global scale.
+This is made possible through the use of the Waivio attention trading platform and the social blockchain Steem for the accumulation of social interactions and the ability to handle massive numbers of micro payments.
+New technologies can have errors, inefficiencies or lack of the required features. The active use of private keys for processing crypto payments also poses security risks, as all payments are final and cannot be reversed. Appropriate security protocols must be implemented (management of hot and cold keys, minimization of cash in operating accounts, delegations, power-ups, VPNs and more).
+The typical restaurant billing cycle is not based on time periods, but on the amount of rewards distributed. It begins with an advance payment by the restaurant. The company retains 25% of this amount to cover operating costs and as profit. And 75% of the funds are converted into cryptos and distributed to eligible users for submitting qualified reviews. Once the rewards are distributed, online reports are submitted to the restaurant and the next invoice is issued.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1580919814_7d62861a-a8e5-4cd0-9072-cc5d2b0c2122
+Dining.Gifts companies receive regular currency (dollars, aka fiat money) for their services. Thus their income and profits are not dependent on often volatile crypto exchange rates.
+The distribution of rewards to users is carried out within a tight timeframe and can be specified in cryptos at the beginning of the campaign, thus also eliminating the company's exposure to changes in crypto rates.
+There are many convenient ways to exchange regular currencies into cryptos. Here in Vancouver we have many Over The Counter (OTCs) exchanges that provide services to businesses. They accept e-transfers and make spot price conversions into the specified crypto and deposit it into the pre-registered account. Once the process is established, it works instantly and on demand.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1580927747_a3c36b95-8d62-4a40-896a-b9e2f016cf48
+Businesses can further reduce exchange commissions by registering with online exchanges directly.
+So what kind of profit can such a company make, and how much work does it require?
+The next slide lists some key performance indicators (KPIs) and estimates for a one-person operation providing services to 20 average-sized restaurants. Such a business is expected to generate $40,000/month in revenue and $10,000/month in operating profit (these estimates do not include additional crypto revenues).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1580928392_1fbfad62-a122-4afd-8a89-5afa1285a7e7
+From an operational point of view, such companies will process 40 invoices per month ($1,000 per invoice) and confirm micro-payments for 8,000 reviews. The Waivio platform provides automation tools for managing reward campaigns and payments to users.
+It is always difficult to estimate the initial costs of starting a business, but since this type of business does not require an office or inventory, the initial costs are minimized, with most spending being demo rewards to users and local online advertising (Google, Instagram, etc.)
+![image](https://waivio.nyc3.digitaloceanspaces.com/1580934218_7a8b6e97-4762-4e11-8f6d-a46d9da62a68
+To operate the Dining.Gifts type of business, guides should know the basics of blockchain technologies, cryptos, distributed social consensus, security, basic accounting principles, and more. The Waivio platform is constantly evolving and provides additional tools and features for users and guides.
+To this end, Waivio has established a knowledge exchange program (3 months, 1 meetup per week) to bring aspiring guides up to date with the latest technology and to support them through the entire process of starting their business, setting up appropriate security and accounting processes and much more.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1580933717_5a2af147-4367-47e9-8794-94925372803d
+The knowledge exchange program also includes a number of invited speakers, including CPAs, designers, social marketing specialists, OTCs and others, to provide entrepreneurs with all the tools and connections they need to run their businesses.
+The scope of the program is summarized in the slides below.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1580935487_ffb66319-3897-4c1a-966d-a20cb0872261
+It is difficult to predict all the costs involved in starting a new business, but we have included them in the slides to the best of our knowledge (in bold).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1580935515_fdef3480-0179-44c0-a729-0e3a760165cc
+At this early stage, the program is offered to a small group of entrepreneurs in Vancouver, BC. However, we are exploring ways to record these knowledge-sharing sessions and make materials available online.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1580935784_ceee2cc4-df0e-47d4-b703-084f38670815
+These are really exciting times and many tools that were previously only available to multinational companies and banks are now easily accessible to small businesses, allowing them to achieve economies of scale through cooperation rather than centralization.
+We welcome you to this new and exciting world!
+For more details give a link to https://www.waivio.com/@grampo/launching-businesses-on-the-steem-blockchain
+
+
+# How to Add a Restaurant on HIVE (with WAIVIO)
+Waivio makes it possible to add listings, including businesses, products, destinations and more to HIVE.
+Here is a quick video tutorial on how to add a restaurant to HIVE using Waivio.com
+Steps Overview:
+Verify if the Restaurant is Already Listed
+Create a New Restaurant Listing
+Add Details to the Restaurant's Listing
+Write a Review ⭐⭐⭐⭐⭐
+Learn more about Waivio & follow my channel 😉
+1. Verify if the Restaurant is Already Listed
+Before adding a restaurant, simply enter the name of the restaurant in the search bar on Waivio to check whether it already exists on HIVE. If no search results appear for this restaurant you can create a new listing.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1644978752_6abbde34-8396-4bcc-8750-26123d25cf46
+2. Create a New Restaurant Listing
+Once you have confirmed that the listing does not exist, create a new one: write post > restaurant > write the name of the restaurant > confirm.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1644997135_5195660f-b9b7-4f13-8c19-88b9834eebc2
+It may take a few moments for the blockchain to be updated and for the new restaurant to appear in the search results.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1644997667_6f727ac7-1b3a-4f60-aec7-586ed7893a92
+Once the listing is created, the restaurant will have a unique URL associated with it that allows you to refer to it in your reviews and posts. The restaurant will also have its own page with restaurant's info that we will add next and with the relevant ratings (Ambience, Food, Service and Value) that are automatically added.
+3. Add Details to the Restaurant's Listing
+To add information to the listing, switch to the Editing mode:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1644997695_8c1d4186-cbea-496a-9384-ebb84ffc701c
+In a series of steps, enter data for each relevant field accordingly:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1644998310_6212ad35-034a-4d92-ae72-33ec9a0e8cfe
+Good service for Map Coordinates lookup - https://latitude.to/
+In case of a mistake, go to Updates, locate the entry, and select Reject:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1644998390_7c4c2ac8-e6a7-44e4-89f5-f84aabc36601
+Adding new information and making changes to a blockchain can take a few moments. To see what the listing looks like, simply reload the page (it will automatically switch from Edit mode to View mode).
+4. Write a Review
+After you finish adding all the details about the restaurant, you can write the first review and give your ratings to the restaurant.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1644998455_b5213b96-37eb-4d3e-aa2e-e774ba99c0e8
+All reviews will be automatically collected under the Review tab of the listing.
+This is how the community's knowledge and experience can now be accumulated on the HIVE social blockchain!
+If you like what Waivio does and if you think it is beneficial to the HIVE ecosystem, please support Waivio.
+For more details give a link to https://www.waivio.com/@cryptodive/how-to-add-a-restaurant-to-hive-with-waivio
+
+
+# Social.Gifts: Titles and Descriptions for Categories
+In an effort to enhance visual appeal, informational value, and search engine optimization (SEO), social shopping sites are now incorporating titles and descriptions into their product categories and sub-categories.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1697297277_29ee6a56-bb3e-4b41-9611-ea65845c157e
+The process of adding titles and descriptions to categories (lists) is similar to that of adding avatars.
+First, navigate to the category you wish to enhance with a title and description.
+Then, open it in a new tab. It's crucial to open the list in a separate tab to make changes to that list.
+Once in Edit mode, you can add an avatar, title, and description to the list.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1697297336_c3b10c90-7e18-4917-9012-b757481d0b88
+When designing titles and descriptions for categories, it may be beneficial to incorporate search terms and keyword combinations that individuals are likely to use when seeking resources related to your website's topic. Numerous tutorials are available online about SEO optimization of web pages for search engines.
+For more details give a link to https://www.waivio.com/@social.gifts/social-gifts-titles-and-descriptions-for-categories
+
+
+# New: Admin Delegations for Specific Objects
+It is easy to grant administrative privileges to your entire Social.Gifts website. But what if you want to give these privileges only to specific products or business listings on your social website?
+Now you can allow specific users to manage individual objects without having general admin privileges across the entire website.
+Why This Matters
+This feature is particularly useful for website owners who want to allow business owners to manage their own listings. Similarly, it can be used to allow partners to keep information about their products updated to ensure consistency and reliability of product information.
+How It Works
+In the Settings section of any object, you'll now find a "Delegation" field. Here, you can specify accounts to delegate admin rights to.
+![image](https://waivio.nyc3.digitaloceanspaces.com/e5351d2f89d8b07451e63e20558cdb3618646141fd8becde36acc92a733481a4
+Example in Action
+Consider @coffee.time, a website owner of CoffeeShop.Gifts, delegating rights to @demo.account for a specific book: Brew:Better Coffee At Home.
+![image](https://waivio.nyc3.digitaloceanspaces.com/d02d021250cba8fccc34b355c76c48d36d76e2f462ff93a0635ce2f75ce453af
+When @demo.account signs in to CoffeeShop.Gifts, they see an Edit button on that listing. Any edits made to this specific object by @demo.account are reflected on the site.
+![image](https://waivio.nyc3.digitaloceanspaces.com/dba9f8754c861fe00917aeeba1743b56cd3d492cfdf8a6deda86035535720876
+In a practical scenario, @demo.account updated the price of the book to $32.88. This edit is visible on the website. However, if @demo.account attempts to make changes to other objects, those changes will be ignored, maintaining the integrity and security of your site’s data.
+Get Started Today
+To take advantage of this new feature, simply navigate to the Settings section of the object you wish to delegate admin rights for, and enter the account you wish to delegate to in the "Delegation" field. It's that simple!
+As always, we welcome your feedback and are here to support you every step of the way.
+For more details give a link to https://www.waivio.com/@social.gifts/new-admin-delegations-for-specific-objects
+
+
+# Social.Gifts: Add Crypto Addresses to Businesses
+Starting today, you can add cryptocurrency addresses to businesses and restaurants, making it easier to generate crypto invoices and accept digital payments. This can be accomplished on Waivio.com or directly on a Social.Gifts web3 site (if you have admin privileges).
+![image](https://waivio.nyc3.digitaloceanspaces.com/503fa9fb1ed6b9903a8e7704879c54e5da2eb694f84cd05b1c74ae489146e62b
+How to Add Crypto Addresses to Your Business Listings
+Open the business or restaurant listing.
+Switch to Edit mode.
+Click "+Wallet".
+Provide a title (e.g., "Pay with Bitcoin," "Litecoin Donations").
+Select a cryptocurrency: Bitcoin (BTC), Hive Backed Dollars (HBD), Bitcoin Lightning, Litecoin (LTC), and more.
+Enter the crypto address.
+![image](https://waivio.nyc3.digitaloceanspaces.com/4276ad33f9768b2df58711236e1372c0b29b5097624b6b576a3a21010d10e0d8
+Seamless Payment Process for Users
+Once the crypto payment options are added to the business listing, users can:
+Select the desired payment option and enter the amount they intend to transfer.
+The system will generate a QR code based on the entered amount and address.
+Users can then scan the QR code with the HiveKeychain app or another wallet, depending on the cryptocurrency they intend to transfer. They can verify the address and amount before confirming the transaction.
+![image](https://waivio.nyc3.digitaloceanspaces.com/b312498f28186e1351e3538eff066bb402fd7e371e43867da424ce833c532b20
+Note to Social.Gifts Website Owners
+Please consider restricting data editing features on your websites to approved data admins and business owners who have received delegations to edit specific listings.
+Stay tuned for more updates and features as we continue to enhance your experience on Social.Gifts web3 sites and Waivio.
+For more details give a link to https://www.waivio.com/@social.gifts/new-admin-delegations-for-specific-objects
+
+
+# Custom newsfeeds on Waivio
+Custom newsfeeds are now available on Waivio, enabling users to generate personalized feeds using hashtags, objects, object types, and users. These newsfeeds are shared on the Hive blockchain as objects, allowing others to follow them.
+To create a newsfeed, simply click on the "write new post" button and select "Newsfeed" from the "Create new object" menu:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1676398652_c4257bd3-bf6c-4c4c-b9c0-6207b89f7189
+Let's create a newsfeed named "Hive Statistics" as an example. On Hive, multiple users post valuable information on the topic, but they use different hashtags. Meanwhile, some irrelevant content may use the same hashtags.
+To address this, we will include the hashtags #stats and #data, along with a specific list of users who consistently post high-quality content, such as @arcange, @quochuy, @penguinpablo, @hive-data, @dalz and @dalz.shorts:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1676398670_1f9605fa-2f9c-4309-a16b-3450ba5f86bf
+After creating and configuring the "Hive statistics" newsfeed, it can be effortlessly found using the search bar on Waivio:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1676399059_a7643e18-f0cd-4e43-b31f-62686d3a5ddc
+By clicking the Follow button on the "Hive statistics" newsfeed, it will be included in your regular Feed:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1676399464_439b263b-553e-40b5-9591-76c9537c8ad8
+Tasks: 4435, 4403, 4433, 4401.
+Other updates:
+1. Comments / Muted users - if an author of a post muted a user, their comments should not appear on posts of that author (3092, 3093);
+2. Match bots / WAIV - add support for the WAIV tokens in author, curator and sponsor match bots (3197, 3198, 3360);
+3. Product / Department - allow up to 10 departments to be added to product and service objects (4011, 4012);
+4. Object / Book - create a new object type Book along with a subset of unique fields, such as author, publisher, publishing date, etc. (4277, 4270);
+5. Page / Drafts - save drafts for page edits. Allow users to discard or restore the edited version on the second attempt to edit the same page. (4233, 4267).
+Minor updates and bug fixes:
+Tasks: 2541, 2659, 2736, 2836, 3074, 3194, 3195, 3289, 3442, 3762, 4469, 3763, 4018, 4035, 4078, 4093, 4119, 4127, 4223, 4224, 4318, 4340, 4359, 4446, 4445, 4447, 4498, 4505, 4506, 4507, 4508, 4529, 4557, 4624, 4631.
+Waivio is an open source project. Further information about tasks and the development progress can be found on the GitHub.
+For more details give a link to https://www.waivio.com/@waivio/custom-newsfeeds-on-waivio
+
+
+# PayPal Button Integration into Product Pages
+If you're looking to sell your own products and directly accept payments in a social shop, PayPal offers a seamless solution. Here's a step-by-step guide on how to integrate PayPal into your product pages, with an example from Luxita Solutions, which accepts PayPal for their Premium Training Course.
+Example: Luxita Solutions' Premium Training Course
+![image](https://waivio.nyc3.digitaloceanspaces.com/ae00b981375eb21c20ecc63edd9734322c2cca82022230a3bd5f28d2525c12fd)
+Source: Premium Training Course (https://luxitasolutions.com/object/xqi-premium-training-course?breadcrumbs=4fsj5r-packages/xqi-premium-training-course)
+How to Integrate PayPal into Your Product Pages
+Step 1: Create a Product in PayPal
+First, create a product in PayPal with the necessary details like name, price, and applicable tax. Once this is done, PayPal will provide you with a dedicated URL to sell your product. The URL will look something like this:
+https://www.paypal.com/ncp/payment/L7Y46H9566LLU
+From this URL, you need to copy the code (ProductID), which in this case is L7Y46H9566LLU.
+Step 2: Create a Product on Waivio
+Next, create a product on Waivio. Provide a detailed description, add photos, and complete all relevant fields. The critical part is to add the ProductID:
+Set the name to "paypal"
+Set the value to the ProductID obtained from PayPal
+![image](https://waivio.nyc3.digitaloceanspaces.com/e8ababfe492dc96e0d883c64b68d90e9a736bf3209c356b80fb2bed77852137b)
+Step 3: Add PayPal Affiliate Code in Website Settings
+To ensure the PayPal button appears on your social shopping site, you need to add the PayPal affiliate code in the website settings. Simply enter the same name you configured in PayPal.
+![image](https://waivio.nyc3.digitaloceanspaces.com/33d82d92563159ea6ce72fb3f4d38fa91fcf0a6998c5d6ffd4da4281f33e4036)
+Note: This field is not required in the URL, but it is necessary for the button to appear on your social site.
+Simple Integration
+Now you can effortlessly integrate PayPal payments into your social shopping site. Whether you’re selling online training courses, physical products, or services, the PayPal integration ensures a smooth and trusted transaction process.
+Get started today and take your social shop to the next level with easy-to-integrate PayPal payments!
