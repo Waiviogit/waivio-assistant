@@ -1,1 +1,516 @@
----
+# Earn Section on Social Site
+The Earn section on the social site offers a comprehensive platform for users. It includes the Rewards block, which covers functionalities such as Global, Local, Reserved, Receivable, and History. Users can find and participate in campaigns, but they cannot create or manage them within this section. To create or manage campaigns, or to use match-bots, users should visit the official Waivio site.
+
+# Earn. Global
+## General information
+**Global** - the page displays all campaigns that are listed in the global category. They are not tied to a location.
+This page has kind of 2 steps:
+1. feed with primary cards;
+2. feed with secondary cards for the specific primary card (after clicking on "Earn" button).
+By default, after clicking Earn tab in main menu, Global tab is opened. 
+## Feed with primary cards
+The global feed consists of the primary cards.
+![image](https://user-images.githubusercontent.com/67378322/222443298-2fa24af8-db26-4907-97a0-a147a51543fa.png)
+## Feed with secondary cards
+After clicking on "Earn (price) ..." all (available) secondary cards associated with the primary are opened. 
+Breadcrumbs (path) are displayed.
+![image](https://user-images.githubusercontent.com/67378322/222453587-3524efcd-6a10-4b69-84e5-9f2c3f005cf5.png)
+## Breadcrumbs
+**1st step**: title - Global rewards
+**2nd step**: "Eligible rewards" or "All rewards" (depending on the Eligibility checkbox in Filter rewards block) + primary object name.
+Primary object name - not clickable.
+Eligible/All - clickable, way to return to 1st step with primary cards.
+![image](https://user-images.githubusercontent.com/67378322/222450995-61cf38f9-9fe4-4a18-a6a0-1369f48637ff.png)
+![image](https://user-images.githubusercontent.com/67378322/222451057-06cfd2a0-0255-44f3-bde9-362325648892.png)
+## Sorting
+Sorting only for 1st step with primary cards.
+Sorting has text - "Sorted by".
+* Default - consists of 2 sorts: payouts + proximity. This means that first there is sorting by payouts, and if there are objects with the same payout, then sorting by proximity will be added (that is, the object that is closer to the user will be displayed above). By default.
+* Payouts - the meaning of which is to calculate which of the Rewards brings max. profit for the index server. If campaign has completed reviews - quantity completed review * reward * processing fees (commissionAgreement). For zero - reward * processing fees (commissionAgreement).
+* Amount - sort by amount per campaign (max to min).
+* Expiry - sort by campaign expiration date (nearest to farthest).
+* Proximity - closest in distance to the user (from nearest to farthest).
+![image](https://user-images.githubusercontent.com/67378322/222453811-ad8560a8-bc82-4b04-9abe-c8ba43946a60.png)
+## Filters
+Filters availability:
+* Eligibility has item "show all rewards" which by default inactive, and mean that by default user can see only campaigns that he can execute. If the user clicks on the show all rewards checkbox, he will see all campaigns. Filter presents only on 1st step with primary cards.
+* Rewards for has "reviews" and "mentions" elements that filter campaigns by type.
+* Sponsors - filter by sponsor.
+![image](https://user-images.githubusercontent.com/67378322/222447073-26a4adad-0501-4858-95d7-d25abb7a500e.png)
+## An unauthorized user
+An unauthorized user can also see this page with "all eligibility" filter that is blocked.
+![image](https://user-images.githubusercontent.com/67378322/222661253-8e29c2f5-befc-4640-8397-7803d283e272.png)
+
+
+# Earn. Local
+## General information
+**Local** - the page displays all campaigns that are listed in the local category. They are tied to a location.
+This page has kind of 2 steps:
+1. feed with primary cards;
+2. feed with secondary cards for the specific primary card (after clicking on "Earn" button).
+## Feed with primary cards
+The global feed consists of the primary cards list.
+![image](https://user-images.githubusercontent.com/67378322/223223983-2aee83ed-06bc-41db-8f65-9cdc4c6e37bf.png)
+## Feed with secondary cards
+After clicking on "Earn (price) ..." all (available) secondary cards associated with the primary are opened. Breadcrumbs (path) are displayed.
+![image](https://user-images.githubusercontent.com/67378322/223224247-2a5f6854-b125-4712-b9f5-1c063cdff45d.png)
+## Breadcrumbs
+**1st step**: title - Local rewards
+**2nd step**: "Eligible rewards" or "All rewards" (depending on the Eligibility checkbox in Filter rewards block) + primary object name.
+Primary object name - not clickable.
+Eligible/All - clickable, way to return to 1st step with primary cards.
+![image](https://user-images.githubusercontent.com/67378322/222450995-61cf38f9-9fe4-4a18-a6a0-1369f48637ff.png)
+![image](https://user-images.githubusercontent.com/67378322/222451057-06cfd2a0-0255-44f3-bde9-362325648892.png)
+## Sorting
+Sorting only for 1st step with primary cards.
+Sorting has text - "Sorted by".
+* Default - consists of 2 sorts: payouts + proximity. This means that first there is sorting by payouts, and if there are objects with the same payout, then sorting by proximity will be added (that is, the object that is closer to the user will be displayed above). By default.
+* Payouts - the meaning of which is to calculate which of the Rewards brings max. profit for the index server. If campaign has completed reviews - quantity completed review * reward * processing fees (commissionAgreement). For zero - reward * processing fees (commissionAgreement).
+* Amount - sort by amount per campaign (max to min).
+* Expiry - sort by campaign expiration date (nearest to farthest).
+* Proximity - closest in distance to the user (from nearest to farthest).
+![image](https://user-images.githubusercontent.com/67378322/222453811-ad8560a8-bc82-4b04-9abe-c8ba43946a60.png)
+## Filters
+Filters availability:
+* Eligibility has item "show all rewards" which by default inactive, and mean that by default user can see only campaigns that he can execute. If the user clicks on the show all rewards checkbox, he will see all campaigns. Filter presents only on 1st step with primary cards.
+* Rewards for has "reviews" and "mentions" elements that filter campaigns by type.
+* Sponsors - filter by sponsor.
+![image](https://user-images.githubusercontent.com/67378322/222447073-26a4adad-0501-4858-95d7-d25abb7a500e.png)
+## An unauthorized user
+An unauthorized user can also see this page with "all eligibility" filter that is blocked.
+![image](https://user-images.githubusercontent.com/67378322/223224472-f9a3ff00-3542-44ce-8612-701abe1f2a9c.png)
+## Map
+Map depends on user location. Trying to show appropriate campaign for user location.
+Reward icons are displayed on the map.
+|||
+|--|--|
+|`Map title`|Map|
+|`Search area button`|Search area button, after clicking, campaign list will be corrected by specific map display|
+|`Zoom in button`|map zoom in button|
+|`Zoom out button`|map zoom out button|
+|`Map full-screen mode button`|button to open map in full-screen mode|
+|`User location button`|button to move the map approximately to the user's location|
+![image](https://user-images.githubusercontent.com/67378322/223228008-c0926062-deb4-49ac-b980-a68695fdc1ae.png)
+
+
+# Earn. Reserved
+The Reserved in Earn displays the campaign cards reserved by the user. Only campaigns of the 'Review' type have the option to be reserved.
+![image](https://user-images.githubusercontent.com/67378322/223233714-238a0520-84b6-428f-8637-56a0fe377ec1.png)
+Campaigns with the status: `active`, `onHold` are displayed.
+## Reserved Card
+The reservation card is similar to the secondary card of an object, with the main difference being in the footer.
+- **Card Title**: Displays the title "Reward for reviews."
+- **Earn Information**: Provides details about the rewards for reviews, showing how much the campaign performer will receive in dollars.
+- **Username**: Shows the username of the campaign sponsor. Clicking on it opens the sponsor's page.
+- **Waivio Username**: Displays the Waivio username, which links to the object page when clicked.
+- **Avatar**: Shows the object’s avatar. If the secondary object doesn't have an avatar, the parent's avatar is displayed by default. Clicking on the avatar takes you to the object page.
+- **Primary Name**: If present, the parent's name is shown above the object name in gray text. Clicking on it directs you to the object page.
+- **Name**: Displays the object name, which also links to the object page.
+- **Weight**: Indicates the object’s weight. Hovering over it shows a tooltip that says, "Total payout for all related posts in USD, excluding bidbots and upvote services."
+- **Rating**: Shows the object’s rating, with an option to vote using stars.
+- **Object Type**: Displays the object type, but it’s not clickable.
+- **Price**: Shows the object's price, but it’s not clickable.
+- **Tags**: Displays the two highest-weighted tags for the object, but they are not clickable.
+- **Address**: Shows the object’s address, but it’s not clickable.
+- **Title or Description**: If the object has a title, it is displayed. If there’s no title but there is a description, the description is shown instead. If neither is available, nothing is displayed.
+- **Heart**: A button that allows the user to add the object to their shop.
+- **Period**: Displays the number of days left in the reservation, with the text: "Reserved - {number} days left."
+- **Comment Button**: Toggles the display of comments, with a counter indicating the number of comments.
+- **Submit Photos**: A button labeled "Submit photos" for writing a review. Clicking it opens the editor with the title "Review: {primary object}, {secondary object}" already filled in and links to the objects added.
+- **Three-Dots Menu**: A button that opens an additional menu with the following options:
+  - **View Reservation**: Links to the reservation post.
+  - **Release Reservation**: Cancels the reservation.
+  - **Decrease Reward**: Allows the user to decrease the reward amount for completing the campaign.
+  - **Follow Sponsor**: Clicking this option subscribes the user to the sponsor, or unsubscribes if already subscribed.
+  - **Follow Primary Object**: Clicking this option subscribes the user to the primary object, or unsubscribes if already subscribed.
+### Comment Box on Secondary Card
+- **Comment Box**: A field for comments, enabling correspondence between the campaign executor and the sponsor.
+- **User Avatar**: Displays the avatar of the sponsor. Clicking on it opens the object page.
+- **Text Area**: A field for entering text. The field is highlighted in orange when the cursor is inside.
+- **Editor Menu**: The main editor button for adding photos, videos, etc.
+- **Send Button**: An arrow icon used to send a message, which can also be sent by pressing Enter.
+![image](https://github.com/user-attachments/assets/f51d9621-f526-4a48-b0d7-7107dbcef35d)
+## Sorting Reserved Secondary Cards
+* Default - consists of 2 sorts: payouts + proximity. This means that first there is sorting by payouts, and if there are objects with the same payout, then sorting by proximity will be added (that is, the object that is closer to the user will be displayed above). By default.
+* payouts - the meaning of which is to calculate which of the Rewards brings max. profit for the index server. If campaign has completed reviews - quantity completed review * reward * processing fees (commissionAgreement). For zero - reward * processing fees (commissionAgreement);
+* proximity - for the nearest campaigns;
+* amount - amount of reward;
+* expiry - the expiration date of the campaign.
+![image](https://github.com/Waiviogit/waivio/assets/67378322/48f225c2-53f0-4a9f-9146-ab534721f56c)
+## Map
+There are search by area, map with reward's marks of the location of the campaign (which is indicated on the object page - Map).
+![2021-11-04_16-49](https://user-images.githubusercontent.com/67378322/140335969-da1c7113-f3fa-44d3-9a42-1ab6d5403d88.png)
+## Filters 
+* Rewards for: reviews - review filter;
+* Sponsors - by sponsor.
+![2021-03-15_16-41](https://user-images.githubusercontent.com/67378322/111171122-506ba380-85ad-11eb-9263-405aac4899f4.png)
+Displaying the editor after clicking on "Write review".
+![2021-11-04_16-17](https://user-images.githubusercontent.com/67378322/140330150-8409307d-67d2-44f0-b636-91858096c8db.png)
+> Everything that is displayed on the card, regulated, edited, added to the object page.
+
+
+# Earn. Receivable
+Receivable in Earn displays the list of sponsors, the reward amounts, and detailed information about the campaign's execution. The WAIV token is used for creating campaigns and making payments. The value of the WAIV token in the user's currency is a key metric.
+![image](https://user-images.githubusercontent.com/67378322/223230948-5700ffe0-0160-4b92-b89e-7f273dea853e.png)
+When you click on the arrow next to a sponsor's name in the list, a table appears, showing detailed information about each sponsor and campaign.
+![image](https://user-images.githubusercontent.com/67378322/223231018-dc8b0217-e3d7-4ada-834e-c0c871e0b741.png)
+![image](https://user-images.githubusercontent.com/67378322/223231117-0764fae5-0504-4c58-b058-2274caf93a85.png)
+The **Sponsor Card in List Details** section provides a summary of the total payments due for completed campaigns associated with each sponsor. Its main purpose is to give an overview of financial obligations and allow for easy access to detailed payment information.
+- **Sponsor Avatar**: A link to the sponsor's page, represented by the sponsor's avatar.
+- **Sponsor Username**: A clickable link to the sponsor's page, displaying their username.
+- **Arrow Button**: A button that opens a table showing the payment history between the sponsor and the executor user.
+- **Amount**: Displays the total amount of rewards owed.
+The **Receivable Table** provides a detailed view of the history of actions and transfers between a sponsor and a selected user. Its purpose is to track and manage payments by showing a chronological record of transactions, including detailed information about reviews and amounts due.
+- **Table**: Displays the history of actions and transfers between the sponsor and the selected user, organized in chronological order.
+- **Title**: Appears as "Receivable: {sponsor} → {user}."
+- **Date**: Shows the date of the transfer.
+- **Action**: Provides additional information about the written review. This includes details such as:
+  - The review by @{user}, requested by @sponsor.
+  - The review details, including the primary and secondary objects.
+  - Beneficiaries, such as {mainApp} (3%) and {sponsor} (97%).
+  All names, including users and objects, are clickable, opening the corresponding pages. The second line of the review is also clickable, opening a full-screen view of the review post. All clickable links are highlighted in orange.
+- **Details**: Contains links to:
+  - The reservation.
+  - The report.
+- **Amount**: Shows the remuneration for a specific review. If a new review appears, the amount is added to the existing total.
+- **Balance**: Displays the running total of the balance.
+![image](https://github.com/user-attachments/assets/59e091b0-88ad-45e2-9e0f-682ed6747331)
+Sorting Sponsors List:
+* Amount: Sort by the amount of reward.
+* Time: Sort by time.
+Filters for Sponsors List:
+* Over 15 Days: Sponsor delay exceeding 15 days.
+* Over 30 Days: Sponsor delay exceeding 30 days.
+* Over 20 WAIV: Sponsor's outstanding amount exceeds 20 WAIV.
+![image](https://github.com/user-attachments/assets/49db8777-61ba-4552-aac1-9aa54d6df4f2)
+
+
+# Earn. History
+The History tab in Earn shows not only active reservations but also the user's entire history as a campaign executor. This includes statuses such as released, expired, completed, and rejected. The tab displays secondary cards (Secondary Card).
+![image](https://user-images.githubusercontent.com/67378322/223232639-56e63e92-ee0e-4276-a74f-58d096a86ffd.png)
+Sorting history cards:
+* Reservation - by the date of reservation;  
+* Action (date) - by the date of the last action.
+Filtering history cards by status:
+* Reserved;
+* Completed;
+* Released;
+* Expired;
+* Rejected.
+Filtering by sponsor - displays the sponsors from which the user has booked campaigns.
+![image](https://github.com/user-attachments/assets/67d57f3e-a7b5-414f-8e83-1529b8ab86ae)
+`Three-dot menu` on history cards provides the opportunity to perform the following actions, depending on the campaign status:
+  * View reservation;
+  * Release reservation;
+  * Decrease reward;
+  * Show report;
+  * Open review;
+  * Rejection note.
+![image](https://github.com/user-attachments/assets/8224001a-881f-4d34-be7a-486893addf57)
+
+
+## Campaign Statuses
+Campaign statuses change based on the actions of both the sponsor and the executors, as well as the campaign's data. These statuses are displayed in the "Manage" tab, specifically in the "Active and pending campaigns" table under the "Status" column, and on the secondary card type.
+- **Pending**: This status indicates that the sponsor has created a campaign. The campaign is only visible in the [Manage](https://www.waivio.com/rewards/manage) tab and can still be edited. At this stage, the campaign has not yet been recorded on the blockchain and exists only in the database.
+- **Active**: The campaign becomes active when the sponsor clicks the checkbox next to it in the [Manage](https://www.waivio.com/rewards/manage) tab. Once active, the campaign fields and information cannot be edited. Other users can reserve the campaign, write reviews, or cancel reservations.
+- **Inactive**: This status indicates that the campaign has been deactivated, making it unavailable for reservation. Deactivation occurs by unchecking the active checkbox next to the campaign in the [Manage](https://www.waivio.com/rewards/manage) tab. The campaign remains visible only in the Manage tab, and once deactivated, it cannot be resumed unless there are no active reservations.
+- **On Hold**: This status appears during deactivation if there are active reservations. In this state, reactivating the campaign is not possible.
+- **Expired**: The status changes to expired when the maximum reservation period specified during campaign creation has ended.
+- **Reached Limit**: This status is triggered when the campaign's monthly budget has been exhausted. Users can no longer reserve the campaign, and it is only visible in the [Manage](https://www.waivio.com/rewards/manage) tab.
+- **Delete**: This status indicates that the campaign has been deleted. Deletion is handled on the back-end.
+- **Suspended**: All active campaigns are blocked under this status. It occurs when the "Remaining" amount is in the red in the [Manage](https://www.waivio.com/rewards/manage) tab, or if debts remain unpaid for 30 days.
+
+
+# Primary card details
+**Primary Card** - This card represents an object that serves as the main focus of a campaign, such as a restaurant, brand, or business. The primary card provides a broad and comprehensive overview of the object.
+- **Avatar**: Displays the object’s avatar. Clicking on it opens the object’s page.
+- **Name**: Shows the object’s name. Clicking on it also opens the object’s page.
+- **Parent**: Displays the parent of the object, if applicable. If the object has a parent, the parent’s name is shown above the object name in gray text. Clicking on it opens the parent object’s page. If there is no parent, this section is not displayed.
+- **Rating**: Shows the object’s rating, with an option to vote using stars.
+- **Object Type**: Indicates the type of object. This field is not clickable.
+- **Tags**: Displays the two highest-weighted tags for the object. These tags are not clickable.
+- **Address**: Shows the object’s address, excluding postcode and country. This field is not clickable.
+- **Info**: Displays the object's title if it has one. If there is no title but a description is available, the description is shown instead. If neither is present, nothing is displayed. This field is not clickable.
+- **Price**: Displays the object's price. This field is not clickable.
+- **You Earn**: Shows the potential earnings for a review with the format: "YOU EARN: {currencyIcon} {price}." The highest possible review reward is displayed.
+- **Earn**: A button labeled "Earn {price} {currency}" that links to a list of secondary objects. On this page, the central feed changes to display secondary objects in card format. If the primary object has multiple secondary objects with varying prices, only the maximum value is shown with the prefix "Earn up to {price}." The price on the card is displayed with two decimal places.
+- **Heart**: A button that allows the user to add the object to their shop if the primary object is of the book or product type.
+> Everything that is displayed on the card can be regulated, edited, and added to the object page.
+![image](https://user-images.githubusercontent.com/67378322/222456786-75ce152a-3c54-4499-bb0c-326392325681.png)
+![image](https://user-images.githubusercontent.com/67378322/222456881-7f7078f0-9886-43d8-8174-44513af0b967.png)
+
+## Primary Reward Card on Social Sites
+The **Primary Reward Card** is a key element on social sites, providing users with the opportunity to earn rewards through actions such as sharing photos.
+- **Title**: Displays the text "Share photos & earn $ {amount}," indicating the reward amount available.
+- **Sponsor**: Shows the sponsor’s avatar and name, linking to the sponsor's profile. It also includes a "(sponsor)" label for clarification.
+- **Earn Button**: A button labeled "Earn {price} {currency}" that directs users to a list of secondary objects related to the campaign.
+![image](https://github.com/user-attachments/assets/cad39d4a-61d0-4326-a5f0-16bd338bb0f0)
+
+
+# Secondary Card Details
+The **Secondary Card** represents a specific object within the context of a campaign, such as a dish from a restaurant or a product from a brand. This card is more detailed and focused on the specific object in question.
+- **Title**: For review campaigns, the title is displayed as "Share {amount} photos of the {type} and earn crypto." For mention campaigns, it reads "Mention {object} and earn crypto."
+- **You Earn**: Displays the reward amount that the campaign performer will receive for the review, shown in the user's currency (USD, CAD, etc.).
+- **User Avatar**: Shows the campaign sponsor’s avatar. Clicking on it opens the object’s page.
+- **Username**: Displays the campaign sponsor’s username. Clicking on it opens the sponsor’s page.
+- **Avatar**: Shows the object’s avatar. If the object’s secondary avatar is unavailable, the parent’s avatar is used by default. Clicking on it opens the object’s page.
+- **Parent Name**: Displays the parent’s name above the object’s name in gray text, if applicable. Clicking on it opens the parent object’s page.
+- **Name**: Shows the object’s name. Clicking on it opens the object’s page.
+- **Rating**: Displays the object’s rating with the option to vote using stars.
+- **Object Type**: Indicates the type of object. This field is not clickable.
+- **Price**: Displays the object’s price. This field is not clickable.
+- **Tags**: Displays the two highest-weighted tags for the object. These tags are not clickable.
+- **Address**: Shows the object’s address. This field is not clickable.
+- **Title or Description**: Displays the object’s title if available. If no title is present, the description is shown. If neither is available, nothing is displayed. This field is not clickable.
+- **Submit**: For review campaigns, a "Submit Photos" button is available for booking the campaign. Clicking it opens a modal reservation window where the user can read all campaign requirements. Afterward, users can submit photos, complete the review, and publish the post. For mention campaigns, the button is labeled "Mention Now!"
+- **Days**: Displays the number of days the campaign will be available for reservation, shown as "For {number} days." This field is not clickable and is available after reserving the reward.
+- **Details**: A link that opens a modal reservation window where users can read all campaign requirements. After clicking "Submit Photos," users can directly write and complete the review and publish the post.
+- **Heart**: A button that allows users to add the object to their shop.
+Everything displayed on the card can be regulated, edited, and added to the object page as needed.
+![image](https://user-images.githubusercontent.com/67378322/222457522-2b8c5ef4-9a8c-4691-b862-8cfe880a8014.png)
+![image](https://user-images.githubusercontent.com/67378322/222457580-74aa8d31-7d5f-49cf-8157-e2972b23daff.png)
+
+
+# Reservation modal window
+The reservation modal window is an interactive interface designed to facilitate user participation in rewards campaigns. The purpose of this modal is to guide users through the process of reserving and submitting content for a rewards campaign, while clearly outlining the requirements, eligibility criteria, and terms associated with the campaign. It provides essential information such as the sponsor's details, reward amount, and legal agreements, ensuring that users understand the conditions before proceeding with their submission.
+The modal window for reservation opens after clicking:
+- firstly, on the "Earn button" on the primary card, and after that "Submit photos" button on the secondary card;
+- on the "Submit photos" or "Mention Now!" buttons on the secondary card;
+- on the "Details" link on the secondary card.
+![image](https://user-images.githubusercontent.com/67378322/224985999-30b21958-5918-403b-8836-f4af6483d426.png)
+![image](https://user-images.githubusercontent.com/67378322/224986064-65720b4e-e065-496d-88ce-2fd991efd2e4.png)
+**Modal Window Details**
+The modal window provides detailed information and options related to the rewards campaign. Here's a breakdown of the elements:
+- **Title**: Displays "We seek honest reviews!" to invite users to participate in the campaign.
+- **Close Button**: A cross button to close the modal window.
+- **Photo Requirement**: Indicates the requirement to "Share {NUMBER} photos of the {objectType} and earn crypto." The number of photos required is shown at the top of the modal window.
+- **Sponsor**: A link to the sponsor's profile.
+- **Sponsor Name**: Displays @{sponsorName} as a link to the sponsor's profile.
+- **Total Paid**: Shows the total amount paid (liquid) as {number} WAIV (100%), representing the total rewards the sponsor has already paid across all campaigns.
+- **User Eligibility Requirements**: Lists the criteria that users must meet to participate in the rewards campaign:
+  - Minimum Waivio expertise: {number}
+  - Minimum number of followers: {number}
+  - Minimum number of posts: {number}
+  - Must not have received a reward from {sponsorName} for reviewing {primaryObject} in the last 15 days.
+  - User account must not be blacklisted by {sponsorName} or associated accounts.
+  - User must not have an active reservation for this reward.
+  - The item "Have not received a reward ..." is displayed if the sponsor set a frequency limit for booking the campaign. All items marked with an asterisk are automatically checked based on user eligibility.
+- **Post Requirements**: Outlines the criteria for the review to be eligible for a reward:
+  - Minimum {number} original photos of {secondaryObject}.
+  - Link to {secondaryObject}.
+  - Link to {primaryObject}.
+  - [Special requirements of the sponsor].
+  The sponsor reserves the right to refuse payment if the review is suspected of being fraudulent, spam, poorly written, or for other reasons stated in the agreement.
+- **Reward**: Details that the reward amount is determined in HIVE at the time of reservation. It will be paid through a combination of upvotes (Hive Power) and direct payments (liquid HIVE). Only upvotes from registered accounts (@{sponsorName}) count towards the reward. Other upvotes are not deducted from the reward amount.
+- **Legal**: If specified during campaign creation, this section reads: "By making the reservation, you confirm that you have read and agree to the Terms and Conditions of the Service Agreement." The "Terms and Conditions of the Service Agreement" link directs users to [https://waivio.com/object/xrj-terms-and-conditions/page](https://waivio.com/object/xrj-terms-and-conditions/page).
+- **Cancel**: A "Cancel" button to cancel the reservation and close the modal window.
+- **Submit**: A "Submit Photos" button that, when clicked, redirects to the editor and automatically completes the reservation.
+- **Menu**: The three-dots menu includes an option "Reserve the rewards for {number} days," allowing users to reserve the campaign without being redirected to the editor. Clicking this option completes the reservation and redirects to the Reserved tab with the card.
+![image](https://user-images.githubusercontent.com/67378322/224994708-84c108d4-8d0b-41f7-9ccd-330c8702235b.png)
+![image](https://user-images.githubusercontent.com/67378322/224994778-ca967898-ee24-4230-9acc-4c64bb3b0720.png)
+If the user does not meet some reward reservation requirements, then the entire condition will be highlighted in red color to attract attention.
+![image](https://user-images.githubusercontent.com/67378322/224997471-b8ddb34a-7356-425c-b3ae-63c62b2e7920.png)
+
+# Reservation modal window if campaign was only reserved, in order to write a review.
+The reservation modal window is an interactive interface designed to facilitate user participation in rewards campaigns. After a user reserves a campaign, this modal window presents the requirements, eligibility criteria, and terms associated with the campaign. It provides essential information such as the sponsor's details, reward amount, and legal agreements, ensuring that users understand the conditions before proceeding with their submission. Since the campaign has already been reserved, the option to reserve it is no longer available within this modal.
+Here's the revised text with improved clarity while maintaining the original meaning:
+**Modal Window Details**
+The modal window provides essential information and actions related to the rewards campaign. Here’s a breakdown of its elements:
+- **Title**: "We seek honest reviews!" – This message invites users to participate by providing reviews.
+- **Button to Close**: A button to close the modal window.
+- **Photo Requirement**: "Share {NUMBER} photos of the {objectType} and earn crypto." The number of photos required is displayed at the top of the modal window.
+- **Sponsor**: A link to the sponsor's profile.
+- **Sponsor Name**: @{sponsorName} – A link to the sponsor's profile.
+- **Total Paid**: "Total paid (liquid): {number} WAIV (100%)." This indicates the total amount the sponsor has already paid in rewards for all campaigns.
+- **Post Requirements**: To be eligible for the reward, the following must be met:
+  - Minimum {number} original photos of {secondaryObject}.
+  - A link to {secondaryObject}.
+  - A link to {primaryObject}.
+  - [Special requirements of the sponsor].
+  The sponsor reserves the right to refuse payment if the review is deemed fraudulent, spammy, poorly written, or for any other reasons specified in the agreement.
+- **Cancel**: A "Cancel" button to cancel the reservation and close the modal window.
+- **Submit**: A "Submit Photos" button that redirects to the editor when clicked.
+* After clicking on the button for writing a review, the editor opens where the title "Review: {primaryObject}, {secondaryObject}" is pulled up, and the objects for which the review is written
+![image](https://user-images.githubusercontent.com/67378322/224996305-b5327c60-6194-48bc-b554-8b2bb7ce3d9e.png)
+![image](https://user-images.githubusercontent.com/67378322/224996389-2bcacc08-e08d-41c2-a94f-8eed3fc210e9.png)
+
+# Release reservation modal window
+The release reservation modal window is used to confirm the cancellation of a reservation. It appears after clicking "Release reservation" in the three-dot menu on the secondary card. Once the reservation is canceled, the campaign becomes available to users again.
+- **Title**: "Release reservation" – This indicates the purpose of the modal window.
+- **Question**: "Do you want to release this reservation?" – A prompt asking the user to confirm the cancellation.
+- **Cancel**: A "Cancel" button to cancel the action and close the modal window.
+- **OK**: A button to confirm and proceed with the cancellation of the reservation.
+![image](https://user-images.githubusercontent.com/67378322/224996676-9a521577-27de-4f53-b15b-39768a18d888.png)
+
+
+# Waivio updates: April 29, 2020
+In order to create a transparent trail of sponsors launching reward campaigns for Hive users, details of these campaigns are now published on the chain (in both .json and easy-to-read text formats) and signed by sponsors as a public declaration of their commitment to pay rewards according to the announced details (426).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1588131710_1012f221-305f-449d-bd9e-b70d054adf80
+Rewards campaign
+And when Users reserve the reward, they are also posting public records on the blockchain confirming their commitment to write a review (427).
+This establishes a legal public record of mutual obligations between Sponsors and Users signed with their posting keys.
+Users can cancel their reservations by publishing signed notifications as comments to their original reservations.
+It is generally assumed that Sponsors can cancel their Reward Campaigns at any time, but if there are Users who have already reserved the rewards, they should be allowed to complete their work according to the terms that were active at the time of the reservation.
+Object status notifications
+All users who follow an object or have expertise in the object (earned by referencing, updating or curating it) are notified of critical Status changes (unavailable, relisted, NSFW, flagged) that affect the visibility of the object throughout the system (381).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1588127637_952ae774-f3f6-4e59-8de6-02b994a15896
+Object status notifications
+In this example @diningguide has created a "Test restaurant" object. And when @wiaviolabs changed the status of this restaurant listing to " Unavailable", @diningguide received a notification with the option to Reject this action.
+Other updates and bug fixes:
+Secondary GPS - use parent GPS coordinates for child objects (291)
+Updates - use author reputation (295)
+User expertise - fix custom case of negative expertise (356)
+News feed - remove duplicates (362)
+Power down notifications (392)
+Server accounts - waivio.campaigns, waivio.index (406)
+Write review link to an object with & symbol in the name (424)
+Discover - synchronize the list of objects and the map (428)
+Intro module for new users - corrections (432)
+Notifications for replies to posts and comments (435)
+Object page menus in the left column - processing of updates (438)
+Lists - processing of Approve/Reject votes (439)
+Images previously stored on Busy - update download links (440)
+Rewards cards - show the parent link (445)
+Bots for object updates - audit (447)
+Initial Hive reputation for new users - 25 (449)
+Default object icons (450)
+Approve/Reject votes - resolve compatibility issues (451)
+Newly created users - indexing (452)
+Embedded lists - processing of updates (454)
+Image uploads - proper orientation (474)
+Guest wallets - add estimated account value (475)
+User profiles - data re-indexing (477)
+Object tags - dynamic Accept/Reject processing (478)
+Editor on mobiles - fit the menu in one line (481)
+Waivio is an open source project. If you believe that what we are building is beneficial to the Hive ecosystem, please vote for Waivio proposals on the Decentralized Hive Fund.
+GitHub - https://github.com/Waiviogit/waivio
+Discord - https://discord.gg/sAkPkFv
+Twitter - https://twitter.com/waiviolabs
+Hive - https://www.waivio.com/@waivio
+For more details give a link to https://www.waivio.com/@waiviolabs/waivio-updates-april-29-2020
+
+
+# Waivio update: May 25, 2020
+There are many parties involved in the processing of each reward, in addition to the eligible user (who has completed the task) and the sponsor (who pays the reward), such as campaign posting, rewards indexing and referral services, as well as additional beneficiaries, specified by the user at the time of posting.
+Waivio now offers a detailed report of all the parties involved, their roles and their share of rewards.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1590445655_1d078090-f306-40d8-a5b8-87100792501d
+In this example:
+@pacific.gifts (sponsor) announced the reward of 15 HIVE for 2 original photos of the Meat Platter for Two from Kisamos Greek Taverna (Richmond, BC, Canada).
+User @foomoo reserved the reward (met all of the eligibility requirements: minimum expertise, # of followers, # of posts, etc.) and
+posted a qualifying review (2+ photos, links to the dish and the restaurant).
+The first table provides a summary of User rewards and their distribution among all beneficiaries specified in the post. In this example, @waivio is listed as a 3% beneficiary (the qualifying review was posted using Waivio.com).
+The second table shows the distribution of Processing fees (sponsor offered 5% on top of user rewards to all the parties for hosting, indexing and processing of rewards).
+Three parties are involved in the processing of rewards in a decentralized environment:
+Campaign management (posting attention bids on the blockchain);
+Rewards indexing (personalizing attention bids for users according to their eligibility and preferences);
+Referral (external marketing partners, who receive credit for bringing new users to the platform).
+The HIVE/USD exchange rate is recorded at the time of reward reservation. It is important for transparent reporting, including for tax purposes (e.g. capital gains).
+In the current example, all services are operated by Waivio (waivio posting service, waivio.camaigns, waivio.index, waivio.referrals). In a decentralized environment each service could be operated by a different party.
+Post beneficiaries
+Users can now specify multiple beneficiaries for author rewards in their posts (advanced settings in the post preview):
+![image](https://waivio.nyc3.digitaloceanspaces.com/1590447084_9434eaa7-826b-41bd-82cf-558a9eaf5dc4
+Other updates and bug fixes:
+Feed / Objects - combination of object news streams (352)
+Feed / Users - processing edited posts (358)
+Rewards - displaying rewards in lists (437)
+Rewards - displaying rewards in objects (507)
+Object - multiple buttons unders the same name (512)
+Create campaign - reward amount vs. budget (519)
+Maps - revised navigation paradigm (530)
+Guest comments - landing experience (540)
+Dtube - previews in the feed (543)
+3Speak - videos in posts (549)
+Guest profiles - guest status indication (544)
+Tag reject - bug fixed (551, 596)
+Reward reservation - chain record edits (552)
+Reward details - frequency eligibility criteria (553)
+Mobile search - clear and close buttons (556)
+Campaign notifications - notify followers about new campaigns (559)
+Re-blog button - verified exemption rules (563, 592)
+Test posts - interference with regular operations (565, 575)
+Profiles - parameters on low-activity accounts (569)
+Accounts receivable - display all beneficiaries (571)
+Post beneficiaries - interface for distribution of rewards (574)
+Admin roles - initial list (576)
+Campaigns - only pending campaigns can be edited (577)
+Campaign duplicates - all campaigns can be duplicated (578, 586)
+Admin rejects - keep rejected updates in the list (580)
+Rewards reservation - additional info & links (584)
+Rewards report - attribution of referrals (589)
+Billing reports - allow reports for third parties (590, 591)
+Manage campaigns - subtract accounts payable from the balance (599)
+Wallet - transaction dates (614)
+For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-may-25-2020
+
+
+# How To Manage Rebates and Payments On Waivio
+This tutorial focuses on managing rewards and payments for active campaigns. We will look at the process from both user and sponsor perspectives.
+Users can reserve rewards for a few days (as indicated on the reward card) and be assured that the offer will not disappear when they are ready to submit the review.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1605647737_01988c1a-bdc9-4267-b2c5-d7462d9729b6
+When the user makes a reservation, the sponsor receives a notification. The sponsor can view the status of all reservations in Campaign/Reservations, and can filter them by status (reservered, completed, expired, etc.) and campaigns (1).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1605647782_be0bc881-0b38-4de2-9a26-a1ba00766429
+At this point, the sponsor can view the reservation, release it or even increase the reward for that specific reservation (2).
+Users can view a list of all active reservations in Rewards/Reservations (3), check the number of days remaining, release reservations they no longer intend to complete or start to write the review (5).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1605651694_98169f4e-998e-4674-a8d7-fef87208ed55
+Completed and expired reservations will be removed from Rewards/Reservations, but can still be viewed in Rewards/History (4).
+In order for a review to be eligible for the reward, certain criteria must be met. For this campaign, the post must have at least two original photos of the dish and links to the dish and the restaurant. When the user begins the review writing process, the links are already pre-filled in the review draft (6).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1605651995_6cbd5140-d057-4e0b-b1f4-e84e77790716
+And when the user adds photos (7) and some text, the review is ready to be published. Users can add additional tags (8) and object links for better discovery of their post.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1605652599_9f445ccc-8b7a-4201-87b8-6a3cfe978833
+Once the review is published, it will appear in the user's profile, on the linked pages of the restaurant, dish and hashtags. It will also appear in the news feeds of other users who follow this user or one of the objects mentioned in this review (10).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1605653041_0b21f1a4-7153-49aa-806b-d00ff994504d
+At the same time, the sponsor will also receive a notification (11), informing them that a qualified review has been published and the status of this reservation will change to "Completed" (12).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1605653364_c88a401b-5025-4d68-b1ba-2275610db8c3
+The sponsor can now open the review, examine the detailed report and, if he or she suspects that the submission is fraudulent, reject it or even blacklist the user, making them ineligible to participate in any future campaigns of that sponsor (13).
+While the sponsor is examining the review, the user can open Rewards/Receivables (14) to see a list of all sponsors who currently owe payments to them.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1605653736_eeb072d5-4983-440a-a694-03b332b89112
+In this example, there is only one such account and the user can click on the link to view the rewards and payments history (15).
+For each eligible submission, additional information is provided (16), including links to the review, linked objects and the beneficiaries of the author rewards. Please note that awards will be distributed to all beneficiaries based on the percentages stated in the post.
+In this example, 97% of the rewards will go to the author, while 3% will be paid to the application (Waivio) that was used to submit the review. The list of beneficiaries and their shares can be edited at the post preview stage (9 - Advanced settings).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1605654988_933179c6-1d03-4375-bcf1-2167f4f77cf4
+We will examine the detailed report for an older review (17), because it already includes the values for all upvotes.
+Rewards are stated in USD, but are paid in HIVE (18). The exact amount of HIVE is calculated at the time of reservation based on the current exchange rate (19).
+The reward will be paid in the form of a combination of upvotes (Hive Power - 20) and direct payments (liquid HIVE - 21). Only upvotes from registered accounts (22) count towards the payment of rewards. The value of all other upvotes is not subtracted from the specified amount of the reward.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1605661422_8efca8a2-83cb-41bf-b65e-7304caae3bcf
+And the outstanding amount in the liquid HIVE (23) is what the sponsor is supposed to pay the user for this review.
+Sponsors can use Campaigns/Payables (24) to quickly distribute funds to users, including guests (name starts with "waivio_") for qualified reviews (25).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1605662556_f1fc678a-4600-4ddc-9eb0-eb35de3e96ac
+Sponsors must use their active keys to confirm payments.
+Once the payment is made, it is recorded in the transaction history for that user and the user is removed from the list of outstanding payments (Payables on the sponsor's side and Receivables on the user's side).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1605663657_e6638bc7-9249-4296-a6c7-31fd915de0d9
+In addition to user rewards, sponsors are also required to pay Processing Fees. The total amount of the Processing Fees is defined by the sponsor at the time the campaign is launched. The minimum amount is 5% of the reward, but the sponsor can specify a higher amount to increase the visibility of their campaign.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1605664259_52098c63-09a9-4bc8-8bb2-a98ce889b1f5
+Processing fees are shared between three parties:
+Campaign Management - this service represents the sponsor's interests by publishing campaigns on the Hive blockchain and checking that users meet the eligibility criteria and reviews meet the requirements;
+Reward Indexing - this service represents the interests of the user, it indexes all available rewards and presents the eligible rewards to the user in order to maximize the chances of a successful transaction;
+Referral - this is a marketing partner that promotes rewards to new users and brings them to a front-end operated by an indexing service.
+Important:
+If the sponsor's accounts payable exceed 30 days, all of the sponsor's campaigns will be suspended until the sponsor's obligations are paid.
+For more details give a link to https://www.waivio.com/@grampo/how-to-manage-rebates-and-payments-on-waivio2uofrf-
+
+
+# Hive 5: My Favorite Coffee Mug
+Waivio has launched a Hive 5 campaign: My Favorite Coffee Mug, which is open to all Hive users with 10 or more followers. This is not acontest. All qualified posts will receive the $5.00 reward (as long as the monthly budget allows it).
+You must first reserve the reward (make sure you are logged in using Hivesigner):
+![image](https://waivio.nyc3.digitaloceanspaces.com/1595915469_f1b6391c-5f8d-4aff-9755-78892534b0f1
+The exact amount of the reward is calculated at the time of reservation in HIVE according to the current exchange rate.
+Once you reserved the reward, you will have 5 days to complete the post.
+To see all your reservations, select Rewards/Reserved:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1595919807_7492ede3-6951-4a74-8172-d633655b3c4d
+In order for the post to qualify for the reward, it must have 2 or more orignial photos and include links both to Hive 5 and My Favorite Coffee Mug objects. Both links will be included in the initial draft of the post when you press the "Write review" button.
+You don't need to know markup language to use the Waivio editor:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1595917310_b514593d-17ec-482b-a67c-3880269a44ca
+Once you have submitted the qualifying post, you can track the payment progress and access a detailed report using Rewards/Receivables .
+![image](https://waivio.nyc3.digitaloceanspaces.com/1595926846_ebcc37d1-e246-4482-9049-8c14826b68d5
+Rewards are paid as a combination of upvotes (Hive Power) and liquid HIVE. Only upvotes from registered accounts (@vancouverdining and @waivio.match) will be counted towards the payment of rewards. Value of all other upvotes is not substracted from the announced reward.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1595926876_6e3682fa-d44b-4ecd-b3a2-107294df8116
+If the post has multiple beneficiaries, all rewards will be distributed accordingly.
+Disclaimer:
+The Waivio platform is new and the attention trading process is very complex and uses many independent services. All of these parts should work well so that the whole process is simple and flawless. We hope that with time and the help of the community we will achieve the best possible user experience.
+This post serves both as the announcement of the campaign and as a qualified post for the reward:
+This is My Favorite Coffee Mug, a souvenir from the Yellowstone National Park. As you can see, this one has been around for a while ;-)
+![image](https://waivio.nyc3.digitaloceanspaces.com/1595913511_2279ef28-952a-4094-9bd0-f7e02c6fe456
+This is a mug, not an espresso shot. It was designed to keep you warm and cozy while contemplating about the profound meaning of the artwork and the beauty of life...
+![image](https://waivio.nyc3.digitaloceanspaces.com/1595913893_5c842087-6e49-4997-9d54-d7dfce55c6ee
+Good morning and Hive 5!
+For more details give a link to https://www.waivio.com/@grampo/hive-5-my-favorite-coffee-mug
