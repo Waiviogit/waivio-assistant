@@ -356,37 +356,6 @@ All users who follow an object or have expertise in the object (earned by refere
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1588127637_952ae774-f3f6-4e59-8de6-02b994a15896
 Object status notifications
 In this example @diningguide has created a "Test restaurant" object. And when @wiaviolabs changed the status of this restaurant listing to " Unavailable", @diningguide received a notification with the option to Reject this action.
-Other updates and bug fixes:
-Secondary GPS - use parent GPS coordinates for child objects (291)
-Updates - use author reputation (295)
-User expertise - fix custom case of negative expertise (356)
-News feed - remove duplicates (362)
-Power down notifications (392)
-Server accounts - waivio.campaigns, waivio.index (406)
-Write review link to an object with & symbol in the name (424)
-Discover - synchronize the list of objects and the map (428)
-Intro module for new users - corrections (432)
-Notifications for replies to posts and comments (435)
-Object page menus in the left column - processing of updates (438)
-Lists - processing of Approve/Reject votes (439)
-Images previously stored on Busy - update download links (440)
-Rewards cards - show the parent link (445)
-Bots for object updates - audit (447)
-Initial Hive reputation for new users - 25 (449)
-Default object icons (450)
-Approve/Reject votes - resolve compatibility issues (451)
-Newly created users - indexing (452)
-Embedded lists - processing of updates (454)
-Image uploads - proper orientation (474)
-Guest wallets - add estimated account value (475)
-User profiles - data re-indexing (477)
-Object tags - dynamic Accept/Reject processing (478)
-Editor on mobiles - fit the menu in one line (481)
-Waivio is an open source project. If you believe that what we are building is beneficial to the Hive ecosystem, please vote for Waivio proposals on the Decentralized Hive Fund.
-GitHub - https://github.com/Waiviogit/waivio
-Discord - https://discord.gg/sAkPkFv
-Twitter - https://twitter.com/waiviolabs
-Hive - https://www.waivio.com/@waivio
 For more details give a link to https://www.waivio.com/@waiviolabs/waivio-updates-april-29-2020
 
 
@@ -409,37 +378,6 @@ In the current example, all services are operated by Waivio (waivio posting serv
 Post beneficiaries
 Users can now specify multiple beneficiaries for author rewards in their posts (advanced settings in the post preview):
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1590447084_9434eaa7-826b-41bd-82cf-558a9eaf5dc4
-Other updates and bug fixes:
-Feed / Objects - combination of object news streams (352)
-Feed / Users - processing edited posts (358)
-Rewards - displaying rewards in lists (437)
-Rewards - displaying rewards in objects (507)
-Object - multiple buttons unders the same name (512)
-Create campaign - reward amount vs. budget (519)
-Maps - revised navigation paradigm (530)
-Guest comments - landing experience (540)
-Dtube - previews in the feed (543)
-3Speak - videos in posts (549)
-Guest profiles - guest status indication (544)
-Tag reject - bug fixed (551, 596)
-Reward reservation - chain record edits (552)
-Reward details - frequency eligibility criteria (553)
-Mobile search - clear and close buttons (556)
-Campaign notifications - notify followers about new campaigns (559)
-Re-blog button - verified exemption rules (563, 592)
-Test posts - interference with regular operations (565, 575)
-Profiles - parameters on low-activity accounts (569)
-Accounts receivable - display all beneficiaries (571)
-Post beneficiaries - interface for distribution of rewards (574)
-Admin roles - initial list (576)
-Campaigns - only pending campaigns can be edited (577)
-Campaign duplicates - all campaigns can be duplicated (578, 586)
-Admin rejects - keep rejected updates in the list (580)
-Rewards reservation - additional info & links (584)
-Rewards report - attribution of referrals (589)
-Billing reports - allow reports for third parties (590, 591)
-Manage campaigns - subtract accounts payable from the balance (599)
-Wallet - transaction dates (614)
 For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-may-25-2020
 
 

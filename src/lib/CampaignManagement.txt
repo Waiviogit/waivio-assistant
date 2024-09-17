@@ -833,14 +833,6 @@ e) Specify the threshold for the voting mana - votes will only be cast if the vo
 f) Set the expiration date for this rule. If no date is provided, this rule will remain active until it is manually disabled.
 g) Add some notes.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1632014739_a266a24d-03ad-44e2-b8dd-270ec18ed543
-Task 2197
-Other updates:
-Editor/ Videos - allow Bitchute and Rumble videos in posts 2164
-Objects / Nearby - add nearby section for objects with GPS coordinates 2577
-Posts / Muted - do not show re-blogged posts by muted authors 2634
-Minor updates & fixes:
-Tasks: 2168, 2692, 2250, 2666, 2715, 2735, 2763, 2805, 2813, 2814, 2816, 2817, 2834, 2835, 2837,2838, 2844, 2846,2847.
-Waivio is an open source project. Further information about tasks and the development progress can be found on the GitHub: https://github.com/Waiviogit/waivio/issues
 For more details give a link to https://www.waivio.com/@waiviolabs/waivio-launches-authors-and-curators-match-bots
 
 

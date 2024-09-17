@@ -350,23 +350,6 @@ Wizard for new users
 Wizard steps 1&2
 New users are invited to follow some topics (hashtags) and established users on Hive. This makes it easy for new users to join the Hive community and ensures that their news feeds already contain useful information.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1586067466_e18aedf5-ea51-4a27-8342-89d3b5742b08
-Waivio deployment updates
-Other updates and fixes
-Let's get started moduile for new users - follow 5 users.
-Wallet - show Exchange button for logged users, linked to Blocktrades widget.
-Matchbot - configuration of the minimum voting threshold.
-Search on mobiles - clear the search field with an X button.
-Map in Discover / Restaurants - enable dynamic upload of objects when map is moved / zoomed.
-Extended User search under Discover / Users / All.
-Rewards confirmation page - revised formatting.
-Map field for objects - fixed submission form.
-Follow on mobile phones - fixed.
-Vertical photos on mobiles - now works with multiple resolutions.
-Waivio is an open source project https://www.waivio.com/object/ylr-waivio. If you believe that what we are building is beneficial to the Hive ecosystem, please vote for Waivio proposals on the Decentralized Hive Fund (https://peakd.com/proposals).
-GitHub - https://github.com/Waiviogit/waivio
-Discord - https://discord.gg/sAkPkFv
-Twitter - https://twitter.com/waiviolabs
-Hive - https://www.waivio.com/@waivio
 For more details give a link to https://www.waivio.com/@waiviolabs/waivio-updates-april-4-2020
 
 
@@ -383,28 +366,6 @@ Email in user profiles
 Upon requests from business customers Waivio enabled an optional email address field in user profiles (380).
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1586501969_74284212-0710-4f0c-9663-89f8378470e5
 Public email
-Other updates and bug fixes:
-Object pages - Edit/View switch no longer changes the context (229).
-Restaurant menus - reward cards are displayed for applicable items (317).
-Reward reservation - transfer user to Reserved rewards page (329).
-Object updates - properly display Approve vote for the author of the update (348).
-Mobile editor - "Take or select photo" button for photos (359).
-Reward reservation - details on the confirmation screen (371).
-Embedded lists - show "This list is empty" error if list does not have any items (374).
-Guest logout - follow proper procedure for Google auth logout (375).
-Object updates - audit of Approve/Reject calculations (378, 379).
-User profile - unified design for all icons (384).
-Full screen map - add "Search area" button and increase number of items being displayed (390).
-Downvoting mana - accurate values (395).
-Rewards cards - apply accurate HIVE exchange rates (399).
-Sing up screen - update links for Hive account creation (408).
-Login screen - engage on actions by visitors (like, reblog, etc.) (416).
-Multiple updates - proper error processing (423).
-Waivio is an open source project. If you believe that what we are building is beneficial to the Hive ecosystem, please vote for Waivio proposals on the Decentralized Hive Fund.
-GitHub - https://github.com/Waiviogit/waivio
-Discord - https://discord.gg/sAkPkFv
-Twitter - https://twitter.com/waiviolabs
-Hive - https://www.waivio.com/@waivio
 For more details give a link to https://www.waivio.com/@waiviolabs/waivio-updates-april-8-2020
 
 
@@ -418,30 +379,6 @@ If you start your search with the "@" symbol, the search results are filtered by
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1587581028_c79953de-7bd8-4616-9c54-963bc2c97ce9
 User search
 If you want to see hashtags or other object matches, you can click the appropriate tab.
-Other updates and bug fixes:
-My feed - attribution of re-blog actions (233)
-Predictive search - proper user count and keyword result filtering (259)
-Object page - hide empty tag categories (272)
-Rewards in Discover pages - do not filter results by eligibility (316)
-Reward card - show the name of the parent object (332, 482)
-Editor - add text labels to menu items (355)
-Lists - hide unavailable and relisted items (372)
-Image - instant upload on URL paste (365)
-Lists - enable custom sorting (391)
-Power downs - display HP balance in red as a warning of an ongoing power down (393)
-Matchbot - allow rules to be edited without interrupting the campaign (396)
-User search - add removable keyword filter tag (400)
-Predictive search - increase the window size and add a frame (401)
-Matchbot - update the authorization process (402)
-Edit profile - support new profile storage format (404, 405)
-Tags - visibility of automatic tag updates (413)
-Objects / Social contacts - verification process (418)
-Object / Phones - enable multiple phone numbers (422, 425)
-Waivio is an open source project. If you believe that what we are building is beneficial to the Hive ecosystem, please vote for Waivio proposals on the Decentralized Hive Fund.
-GitHub - https://github.com/Waiviogit/waivio
-Discord - https://discord.gg/sAkPkFv
-Twitter - https://twitter.com/waiviolabs
-Hive - https://www.waivio.com/@waivio
 For more details give a link to https://www.waivio.com/@waiviolabs/waivio-updates-april-22-2020
 
 
@@ -458,41 +395,6 @@ Waivio has introduced administrator privileges for object editing. If the admini
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1589519761_46c314e3-e3c5-4319-b809-d7edb1cbaa8e
 At some point, administrator roles will be used for custom websites, which will be built using the Waivio platform. This feature can be used to ensure that the selected objects cannot be easily modified by the community (for example, contact information, legal agreements, affiliate links, etc.).
 As we approach the development of a platform for hosting social sites, the roles of administrator and moderator will play even a greater role in ensuring the accuracy of the data within the managed domains.
-Other updates and bug fixes:
-Object cards - display full address, when possible (312, 520)
-Feed - object follow (342)
-New posts - remove image credits (360)
-Rewards - synch map with the list (429)
-Recievables - views for other beneficiaries (443)
-Rewards payments - balance tracking (444)
-Receivables, payables pages - revised design (446)
-Image uploads - display variable sizes (455)
-NSFW objects - hide from search, unless enabled (460)
-Post beneficiaries - basic management (472)
-Image previews - support for embedded formats (483)
-Lists - universal approve/reject indexing (494)
-Object images - universal approve/reject indexing (496)
-Profile pic - support for multiple formats (498)
-Rejected name - use original object name if no alts (500)
-Slider on updates - allow variations in voting power (502)
-Object icon - use parent icon when upspecified (503, 542)
-Manage campaigns - include processing fees in the estimates (504)
-Campaign activation - specify all secondary objects (506, 509)
-Manage campaigns - ability to create duplicates (515)
-Rewards / All - display all available campaigns (518)
-Object tags - same tag in multiple categories (524)
-Profile - update object expertise view (536)
-Discover / Users - accurate follow statuses (538)
-Profile - number of followers (539)
-Approve vote - browser compatibility (541)
-Profile - combining data from multiple standards (545)
-Creare campaign - specify default values (546)
-Guests - rewards campaigns eligibility (547)
-Post drafts - saving images (549)
-Photo galleries - processing of rejected photos (555)
-Updates sorting - recency, approval, vote count (558)
-Release note - visibile portion of the comment (560, 562)
-Payables, receivables - new front-end code (566)
 For more details give a link to https://www.waivio.com/@waiviolabs/waivio-updates-may-15-2020
 
 
@@ -519,40 +421,6 @@ When the reports are generated in USD, the exchange rates are imported from the 
 (3) Reports can be generated for a specified budget (in HIVE or in USD).
 (4) Processing fees may also be included in the reports.
 (5) Reports can be filtered for any specific object.
-Other updates and bug fixes:
-Profile / Active - when the user was active on the chain (388)
-Guest bots - set of bots for posting on behalf of Waivio guests (409)
-Guest signatures - footer for all guest posts and comments (410)
-Transfers - add user validation, est. transaction value in USD (431)
-New users setting - enable voting power slider for likes (433)
-Sponsor reputation - total number of HIVE paid and % of funds in liquid HIVE vs. rewards paid in Hive Power (471)
-Guest posts - advanced posting settings include beneficiaries, object weights (473)
-Object details - editing fields: operating hours, description (491, 640)
-Profile settings - open profile page after saving (497)
-Rewards - announce rewards on object pages and in the lists (508, 611)
-Rewards on mobiles - add map and filters (521)
-Map in Discover - initial zoom to include 5+ results (522)
-User profiles - accelerated loading (534)
-Re-blogged posts in my feed - indicate who re-blogged the post (535)
-Rejection notification - notify the author if their update was rejected (537)
-Reservations by guests - allow to release / reserve again (554)
-Update base post for campaign reservations (561)
-Review validation - verify if post meets all technical requirements (564, 598)
-Campaign activation - revised text of the blockchain post (583)
-Internal market transactions - include in the wallet history (434, 587, 628)
-Reward reservations for campaigns with "&" symbol in the title (588)
-New object in a list - do not upvote automatic updates (595)
-Admin votes on updates - specific case (603)
-Reports - multiple tasks (604, 605, 606, 607, 608)
-Object name validation - allow different letter cases (609)
-Manage campaigns - allow users to duplicate campaigns (612)
-Post beneficiaries - find user field (613)
-Wallet - adjust dates to GMT (614)
-Voting details on posts - layout adjustments (616)
-Detailed reward report - multiple improvements (618, 619, 642)
-Object map - switching between small and full screen views (621)
-Post drafts - restored drafts contain "image" caption (624)
-New post publishing - open user's posts (632)
 For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-june-20-2020
 
 
@@ -577,40 +445,6 @@ change of the recovery address;
 change keys.
 These methods can potentially be used by hackers to steal funds from the account in case the user's active keys are compromised.
 Waivio users can receive instant mobile notifications via the Telegram app using the @WaivioNotificationsBot service.
-Other updates and bug fixes:
-User profile - improve speed and reliability of the initial profile loading (534)
-My Feed - attribute re-blogged posts to followed users (535)
-Object lists - use the winning object name, instead of the initial one (536)
-Rejection notifications - inform users who submitted or upvoted an update about its rejection by the community or an administrator (537)
-Follow statuses in lists (538)
-Followers – ensure counters are accurate (539, 368)
-Guest comments - aggregate guest comments in their profiles (540)
-Approving updates – verify selected cases (541)
-Quick search - use parent's icons for objects without icons (542)
-Dtube videos - integrate into previews and article views (543)
-Guest profiles - inform viewers that this is a guest account (544)
-Profiles - display Weblink data (545)
-Create campaign - set default values (546)
-Rewards / Eligible – verify selected test cases (547)
-3Speak videos – integrate previews into the feed (548)
-Editor – drafts are restored as markups (549)
-New campaigns – increase the limit of campaigns to 300 (550)
-Tag updates – review the rejection process (551)
-Campaign reservations – revise the format of the comment (552)
-Reserved rewards – display eligibility requirements in Details (553)
-Reserve again – allow users to reserve the same reward after cancellation (554)
-Rejected photos – remove from the object gallery preview (555)
-Mobile search – improve responsiveness of clear and close buttons (556)
-Object updates – implement multiple sorting options (558)
-New campaign – notify followers of the sponsor and followers of referenced objects (559)
-Cancel reservation – revised formatting (560, 562)
-Rewards / Map – show all the referenced objects on the map (647)
-Editor – initially place the cursor in the Title line (651)
-Map – close popups on double clicks (654)
-Power up to a different account – show in the wallet history (662)
-Reward reservations - the reward is fixed in HIVE according to the current exchange rate (680)
-Edit posts by guests - the same proxyBot must be used to post edits (685)
-Negative receivables – display a Pay button to return the overpayment (688)
 For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-july-3-2020
 
 
@@ -627,32 +461,6 @@ Guests can now link a standard Hive account and set it as the beneficiary for th
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1595710814_ad7a2ac3-a0de-45b9-ab5d-e69231aff617
 This way, guest author earnings and attention rewards will be automatically deposited into the Hive account they control:
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1595712311_18543523-d50c-4edf-a9cf-582aa8db8e66
-Other updates:
-Discover dishes - add a map for viewing dishes available nearby (526)
-Global search - go to profile of a matching user (610, 741)
-User lists - presentation format: name, expertise, followers, relations (620)
-Admin votes - inform update viewers if an admin vote was applied (631)
-Guest bots - proxyBots architecture for managing guest posts (635, 674, 727)
-Object follow - presentation in the history of actions (653)
-Overpayments - allow users to pay back to campaign sponsors (689, 722, 763, 764)
-Double payments protection - recognize initiate payment status (690)
-Guest user search - allow search without waivio_ prefix (694)
-Social sharing - simplify Facebook, Twitter sharing of posts (697, 698)
-Object update notifications - suspend redundant mentions (703)
-Relisted objects - remove from search results (707)
-Mobile editor - maximize the width of the editor (708)
-Power up notifications - updated text message (711)
-Internal market transactions - updated wallet descriptions (714)
-Vote value estimation - on comments and updates (724)
-Guest author rewards - links to posts in wallet history (731, 760)
-Edit profile - remind users that profile information in public (736, 736.5)
-Object page - announce available rewards (737)
-Global search - remove case sensitivity (754)
-Wallet history - caching the first 50 records (755)
-Bug fixes:
-625, 633, 650, 658, 665, 671, 672, 676, 678, 775, 697, 700, 701, 704, 709, 717, 720, 723, 725, 728, 729, 732, 734, 739, 740, 746, 747, 748, 749, 756, 757, 758, 761, 776
-Task reference numbers can be located on the GitHub:
-https://github.com/Waiviogit/waivio/issues
 For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-july-25-2020
 
 
@@ -671,21 +479,6 @@ Blacklists
 Waivio now supports blacklists (task 617) allowing sponsors to exclude certain users (1) from their campaigns, for example in cases where the sponsor suspects that the user is engaged in fraudulent activity.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1596669511_df23616d-fcaa-4058-932b-521d52e36b87
 Sponsors can reference other blacklists (2), which they trust, and maintain whitelists (3) which can be used to override the referenced blacklists for selected users.
-Other updates:
-Editor - allow copy/past for images (382)
-Reward cards - multiple statuses: expired, completed, flagged, etc. (579)
-Hashtags - allow creation of new hashtags without posts (593)
-Reports - aggregate all records for the same report (738)
-Editor - always display plus sign on the active line (743)
-Animated profile covers (753)
-Suspension of sponsored campaigns for delayed payments (779)
-Re-blog notifications - links to profiles (785)
-HBD transfers - estimate transaction value in USD (794)
-DAO payments - presentation in the wallet history (795)
-Bug fixes and minor tasks:
-419, 421, 655, 716, 733, 750, 762, 777, 778, 780, 781, 782, 787, 789, 790, 791, 792, 797, 798, 799, 800, 802, 803, 804, 806, 807
-Task reference numbers can be located on the GitHub:
-https://github.com/Waiviogit/waivio/issues
 For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-aug-5-2020
 
 
@@ -706,23 +499,6 @@ Customer communications
 Users can now communicate directly with sponsors regarding their reward reservations or completed reviews (834):
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1599630798_ac9e0477-f91e-46a6-8e91-0485af38bcee
 Campaign sponsors receive instant notifications about customer requests (835) and can manage all customer communications in the Rewards / Messages tab.
-Other updates:
-Mobile signup wizard - formatting (597);
-Object avatar - allow upload of large images (602, 890);
-New post - landing experience after publishing (730, 840);
-Object page loading - eliminate multiple steps (735);
-Profile page loading - eliminate multiple steps (759);
-Follow and following tabs - formatting and sorting (769, 770);
-New object - landing experience after creation (793);
-Guest payments - indicate final recipients (843);
-Wallet - presentation of internal market transactions (856, 857);
-Wallet - presentation of claim rewards transactions (858);
-Sing in - single process instead of sing up/log in (861);
-Extended personal menu for logged in users (864);
-Posts - show rewards for referenced objects (899).
-Bug fixes and minor tasks:
-420, 597, 595, 596, 627, 768, 783, 784, 786, 794, 796, 801, 805, 808, 809, 820, 826, 827, 828, 829, 830, 832, 839, 841, 842, 844, 845, 846, 847, 848, 851, 853, 854, 859, 862, 863, 866, 868, 873, 874, 875, 876, 877, 878, 879, 880, 881, 884, 885, 891, 892, 893, 894, 895, 896, 897, 900, 901, 902, 903, 904, 905, 906, 907, 910, 911, 913, 914, 915, 916, 917, 922.
-Tasks details: https://github.com/Waiviogit/waivio/issues
 For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-sept-9-2020
 
 
@@ -748,17 +524,6 @@ In order to facilitate the export of wallet transactions to Excel and other spre
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1601768149_c6995bea-86c9-48b9-8cb8-063c24592144
 Waivio.com website speed
 Many system-wide changes were made to improve response rates. Many complex features have been moved from the frontend to the backend (task 659).
-Other updates:
-Editor - recognise pasted links to objects (693);
-Android phones - improve sliding menus (765);
-Withdrawals to BTC/LTC/ETH - detailed report (788);
-Reblog notifications - with a link to user profile (936);
-Mobile - adaptive width (938)
-Customer support - notify sponsor about inquiries (941);
-Notification for transfers - min. value in USD (967).
-Bug fixes and minor tasks:
-696, 744, 752, 810, 833, 838, 849, 867, 869, 882, 883, 886, 888, 889, 898, 908, 912, 918, 919, 920, 921, 924, 925, 927, 928, 929, 931, 932, 933, 934, 935, 937, 939, 940, 944, 945, 949, 950, 951, 952, 961, 964, 970, 971.
-Tasks details: https://github.com/Waiviogit/waivio/issues
 For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-oct-3-2020
 
 
@@ -772,17 +537,6 @@ Now we invite users to pay tips to the author:
 The same change had an even greater impact on the Object Reference Protocol, which was based on the same open public voting process for managing object updates. For example, if a user has updated the address of a restaurant, other users can review and either approve (upvote) or reject (downvote) the proposed change. If the user has made a valuable contribution, they could potentially receive author rewards, while other users would receive curation rewards for reviewing and confirming the proposed changes during the frist week.
 As votes can no longer be counted beyond the initial 7-day window, Waivio introduced another protocol using Json records on the Hive blockchain to administer the approve/reject process. From the user's point of view, the voting process now works as before, except that contributors no longer receive any benefit for their efforts to improve the wiki records on Hive.
 Now that the Waivio platform is stable again, we could explore a hybrid approach to voting on updates, combining the open voting process for the first 7 days and moving on to Json records after that.
-Other updates:
-Sponsor notifications - new reservations (954);
-Page objects - new presentation (972);
-Discover - highlight objects with rewards on the map (988);
-Campaigns - introduced a threshold for non payments (1013);
-Object cards - include top-voted tags (1020);
-Drop down menu - new format, order and links (1060, 1061);
-Wallet - history of power ups to different accounts (1064).
-Bug fixes and minor updates:
-469, 594, 831, 923, 943, 966, 968, 969, 973, 974, 977, 978, 979, 980, 982, 983, 984, 985, 986, 987, 989, 991, 992, 994, 995, 996, 997, 998, 999, 1000, 1001, 1003, 1005, 1007, 1008, 1009, 1010, 1011, 1016, 1023, 1024, 1025, 1026, 1036, 1038, 1040, 1043, 1045, 1046, 1047, 1049, 1050, 1052, 1054, 1057, 1059, 1080, 1082, 1085.
-Tasks details: https://github.com/Waiviogit/waivio/issues
 For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-hf24-effects-and-more5w2phx-
 
 
@@ -809,26 +563,6 @@ Fraud detection assistant
 Waivio has launched an experimental tool for fraud detection (task 872). All qualified submissions are checked using multiple algorithmic procedures and accumulated knowledge to identify potential fraud.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1608059635_bbeb6e83-d5f7-4c99-ba66-7dbfe9ff3d13
 Sponsors should always verify submissions using their own procedures and use the Fraud Detection Assistant only as a secondary reporting tool. The service is provided on an "as is" basis.
-Other updates:
-Object tags - sort by upvotes on object cards (645, 1019);
-Duplicates in lists - check lists for duplicates (710);
-Custom sorting of lists - fixes, formatting (926, 976, 1048);
-Customer support - instant alerts for all requests and replies (946);
-Wallet table view - remove transfers to self (960, 965);
-Breadcrumbs path for embedded lists and pages (1004, 1109);
-Initial object landing - center column by top menu item (1006);
-Notifications for likes - addressing high volume cases (1012);
-Systems monitoring - image servers (1073);
-Background updates - display images in the list (1084);
-Editor - process pasted object links (1087);
-User logout - open Feed/Trending (1093);
-Updates - use upvotes for the first 7 days (1096);
-New posts - instant update of the profile page (1097);
-My Feed - if empty, open Feed/Trending instead (1102);
-Embedded videos - use the entire width of the feed column (1103).
-Bug fixes and minor updates:
-1042, 1072, 1074, 1076, 1077, 1079, 1083, 1091, 1092, 1095, 1099, 1100, 1101, 1104, 1106, 1107, 1111, 1115, 1116, 1121, 1122.
-Tasks details: https://github.com/Waiviogit/waivio/issues
 For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-referral-program-and-more
 
 
@@ -853,15 +587,6 @@ Waivio's development team is now using open GitHub for ongoing task management. 
 Waivio Labs will be using GitHub Wiki to publish detailed documentation.
 Traditional companies try to protect their intellectual property to gain a competitive advantage. But Waivio's approach is very different. We believe that by giving full access to our code, our users and our knowledge base (accumulated and shared via the Hive blockchain), together we can achieve scale that we can't achieve on our own.
 This is Business 3.0, it is designed for rapid, permissionless scaling and innovation.
-Other updates:
-Profile / Wallet - exclude transfers to self from the report (960);
-Flagging posts - allow users to select the power for their downvotes (1015);
-News feed in objects - should be visible if button is at the top (1107);
-Fraud prevention - display reference codes on cases (1110);
-Display rewards cards to anonymous visitors as well (1119).
-Bug fixes and minor updates:
-Tasks: 955, 993, 1017, 1018, 1051, 1058, 1094, 1106, 1118, 1124, 1125, 1127, 1134, 1135, 1136, 1138, 1139, 1140, 1143, 1144, 1145, 1146, 1148, 1149, 1151, 1152, 1153, 1154, 1155, 1158, 1161, 1162, 1164, 1165, 1166, 1167, 1168, 1169, 1174, 1175, 1176, 1179, 1182, 1184, 1188, 1189, 1199
-Tasks details: https://github.com/Waiviogit/waivio/issues
 For more details give a link to https://www.waivio.com/@waiviolabs/34w1af-waivio-update-mute-users-hide-posts-and-more
 
 
@@ -887,20 +612,6 @@ Enhanced Security:
 Keeping your private keys in the app on your smartphone means you're always in control, significantly decreasing the likelihood of unauthorized access.
 Install Hive Keychain on Your Phone:
 Download the Hive Keychain app now to start enjoying a heightened level of security and convenience at Waivio.com.
-Other Updates:
-1. Tools / Descriptions Bot - automatically add new descriptions to products and lists (6066, 6067);
-2. Objects / Hashtag - allow users to suggest and vote on name, title and description fileds for hashtags (6123, 6131);
-3. Social.Gifts / GSC - support Google Search Console verification for hosted websites (5943, 5944);
-4. Profile / Favorites - new section in user profiles for hearted businesses, restaurants, pages and all other types of objects (6177, 6178, 6180, 6315, 6316, 6365, 6366);
-5. Social.Gifts / Business - special presentation of business objects on hosted websites (6188, 6394);
-6. Websites / Canonical - allow users to select the primary website for all incoming canonical links (6182, 6183);
-7. Websites / Events - support Google Ads Event tracing for cost-per-action campaigns (6221, 6222, 6330, 6331);
-8. Extension / Google Maps - allow users to import listingins from Google Maps to the Hive blockchain (6229);
-9. Social.Gifts / Lists - allow admins to edit list objects directly on hosted websites (6273);
-10. Websites / Reporting - exclude bots from billing statistics on hosted websites (6276);
-11. Social.Gifts / Webpages - special presentation for webpage objects on hosted websites (5949).
-Minor Updates and Bug Fixes:
-Tasks: 6086, 6170, 6171, 6172, 6174, 6181, 6184, 6189, 6190, 6191, 6193, 6209, 6210, 6216, 6220, 6230, 6233, 6234, 6240, 6242, 6253, 6255, 6256, 6232, 6258, 6260, 6275, 6281, 6282, 6293, 6294, 6295, 6296, 6310, 6311, 6318, 6325, 6326, 6333, 6334, 6355, 6364, 6367, 6348, 6372, 6373, 6374, 6375, 6377, 6379, 6380, 6381, 6382, 6383, 6390, 6424, 6423, 6408, 6409, 6426, 6427, 6428, 6441, 6442, 6443, 6449, 6463.
 For more details give a link to https://www.waivio.com/@waiviolabs/waivio-integrates-hiveauth-for-secure-and-convenient-sign-ins-by-popular-demand
 
 
@@ -1019,3 +730,51 @@ Experience the convenience of having a personal assistant at your fingertips.
 Your feedback is important to us. Please share your experiences in the comments below. Did it guide you effectively? Were you able to find the help you needed during your journey on Waivio? Your insights will help us improve and expand the capabilities of the AI Assistant to better serve you and the entire Waivio community.
 For more details give a link to https://www.waivio.com/@waiviolabs/introducing-the-waivio-ai-assistant
 
+
+# Posts view on Waivio
+As a social media platform, Waivio plays a crucial role in content sharing and interaction. 
+**Posts** are a fundamental component of Waivio and its associated sites, providing users with a way to share, engage with, and discover content. The presentation of posts is designed to be consistent across the platform, ensuring a seamless user experience. Each post includes the following elements:
+- **Author**: The name of the post's author.
+- **Avatar**: The author's avatar image.
+- **Expertise**: The author's expertise on Waivio.
+- **Time**: The publication time of the post.
+- **Platform**: The platform through which the post was published.
+- **Objects**: Attached objects in the post. The last four objects are displayed.
+- **Title**: The title of the post.
+- **Image**: The post's image. The first image is displayed.
+- **Text Preview**: A preview of the post's text.
+- **Like**: A button to like the post. It defaults to gray and turns orange when clicked.
+- **Like Counter**: Displays the number of likes. When hovered over, a tooltip shows the counter in orange. Votes less than 0.01 are not displayed. Clicking the counter opens a modal with details on who voted, their voting power in USD, and the percentage.
+- **Comments**: A button to expand comments under the post.
+- **Comments Counter**: Displays the number of comments.
+- **Reblog**: A button to share the post on the user's own page.
+- **Reblog Counter**: Shows the number of reblogs. Clicking it opens a modal with user details.
+- **Actions**: Includes:
+  - Follow {authorName}
+  - Hide post: Hides the post for the user.
+  - Mute {authorName}: Prevents the user from seeing posts and comments from the muted author.
+  - Add to bookmarks
+  - Flag post: Indicates dislike.
+  - Share to Facebook
+  - Share to X
+  - Delete post: Allows deletion if the post has no likes or comments.
+  - Reject rewards: Available for sponsors to reject rewards for a review.
+  - Add {user} to blacklist: Allows sponsors to blacklist users.
+- **Payout**: Displayed in orange with the Waivio icon when the post is eligible for Waiv rewards (has hashtags like waivio, waiv, palnet, neoxian, food). Hovering over the payout shows potential payout information in Hive, HBD, and Waiv. Clicking it opens a modal window. For posts older than 7 days, information about the author and curators is displayed.
+![Post UI image](https://user-images.githubusercontent.com/67378322/145022501-e417125b-b0a0-4e59-98a6-0bd6958152f2.png)
+
+There are three modes for viewing a post:
+1. In feed.
+2. Modal window: Accessed by clicking on the post in the feed.
+3. Full-screen: Accessible by refreshing the page in modal window mode or clicking the full-screen button.
+When publishing a review, include the message: "This review was sponsored in part by Waivio Service (@{sponsorName})" via Waivio.com and sites.  ![image](https://github.com/user-attachments/assets/c84f07a4-693f-471f-ad27-706e94683c82)
+**Sorting**: In the tooltip and like modal window, sort from the largest upvote to the smallest.
+![Image sorting example on like button](https://user-images.githubusercontent.com/67378322/169516611-f7e1d7b7-6a84-4761-891d-7e3f3b9f0502.png)
+![Image sorting example on like modal window](https://user-images.githubusercontent.com/67378322/169516615-a60dd61e-3068-4692-b4b0-5815f3210a03.png)
+
+### Post Additional Features:
+- Post Visibility Control: Moderators and site owners can now hide posts on their sites, enhancing content management and moderation capabilities.
+- Enhanced Tools for Sponsors: Sponsors viewing their sponsored posts now have access to additional tools: Reject Review and Add [user] to Blacklist. These features streamline the management of sponsored content, eliminating the need to search through reservations in the Earn / Reservations section.
+- Linked Objects Display: Linked objects in posts are now separated into two distinct blocks, improving readability and organization.
+- Direct Image Link Requests: If images from images.hive are unavailable, the system will now request image links directly, ensuring content continuity. 
+- Image Borders: Borders have been added to images in descriptions of products, businesses, restaurants, lists, and posts, enhancing visual distinction and presentation.

@@ -496,18 +496,6 @@ In addition to customizable news feeds and blogs, it is now possible to integrat
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1619584310_bf074d78-6ca5-4380-b5ca-cc66a43ef88b
 The form can fit in a single column, or occupy the space of the middle column and the right column, or require the width of the entire screen (1). It can be integrated using a link or a widget (2).
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1619585815_dd0642fb-a346-4cc1-94a4-9ec90d899136
-Other updates:
-Lists / Custom sorting - check boxes for displaying/hiding objects (2176);
-Campaigns / Payables - overdue payments alerts and filters (1998);
-Mobile / Posts - display relevant rewards in posts (2159);
-Campaigns / Create - add all child objects with one click (2149, 2150);
-dining.gifts / Analytics - switch to Google Analytics 4 Properties (2052 );
-dining.gifts / Welcome screen - 3 step tutorial and privacy notice (2397);
-News by object type - aggregate news feeds for websites (2400, 2401);
-Object in other langauges - priority for matching language updates (2451).
-Minor updates & fixes:
-Tasks: 2161, 2159, 2163, 1976, 2151, 1967, 2013, 2091, 2092, 2093, 2095, 2116, 2228, 2234, 2237, 2238, 2252, 2253, 2256, 2257, 2258, 2176, 2260, 2291, 2292, 2293, 2294, 2315, 2316, 2317, 2318, 2319, 2320, 2332, 2369, 2370, 2371, 2382, 2379, 2381, 2380, 2390, 2424, 2425, 2324, 2437, 2440, 2450, 2455, 2457, 2464, 2470, 2471, 2472, 2473, 2479
-Waivio is an open source project. Further information about tasks and the development progress can be found on GitHub: https://github.com/Waiviogit/waivio/issues
 For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-vip-tickets-for-new-hive-accounts
 
 
@@ -519,26 +507,7 @@ Once the base currency is selected, all post rewards (2), wallets, payments and 
 Exchange rates are updated on a daily basis. And advanced financial reports are generated using historical daily exchange rates for each transaction.
 Users can customize their Waivio experience from a selection of:
 24 languages for the interface,
-24 languages for news feed filtration, and
-top 10 world currencies.
-Tasks: 2703, 2704
-Filter posts by tags in user profiles
-Select a hashtag or a combination of hashtags to filter posts in user profiles (3):
-![image](https://waivio.nyc3.digitaloceanspaces.com/1626242388_3ffbde08-766a-4594-a8ce-989bc5dbca31
-Task: 2100
-Copy/Paste posts with multiple images
-Now you can copy/paste text with multiple images from other Internet sources directly into the Waivio editor. For example, if you want to use the same style as in your previous post, you can simply copy it into the editor and change it instead of creating everything from scratch.
-Task: 2635
-Other updates:
-Rewards / Campaigns - add stats for completed campaigns (2174);
-Wallet - power down events to other accounts in history (2171, 2172);
-Rewards - sorting by total payouts (2427);
-Object gallery - include related photos from reviews (2589);
-Dining.Gifts / Map bubbles - updated format (2774);
-Dining.Gifts / Rewards cards - updated format (2775);
-HF25 / Vote value prediction - new formula (2806).
-Minor updates & fixes:
-Tasks: 2177, 2180, 2162, 2160, 2430, 2439, 2452, 2474, 2480, 2482, 2505, 2509, 2510, 2511, 2516, 2530, 2531, 2532, 2533, 2534, 2538, 2539, 2540, 2547, 2553, 2555, 2556, 2568, 2569, 2572, 2573, 2575, 2578, 2580, 2590, 2591, 2604, 2605, 2618, 2619, 2628, 2685, 2633, 2641, 2642, 2651, 2652, 2653, 2663, 2654, 2655, 2656, 2660, 2667, 2670, 2671, 2672, 2674, 2695, 2696, 2698, 2702, 2711, 2712, 2714, 2724, 2725, 2722, 2728, 2727, 2723, 2171, 2748, 2749, 2750, 2760, 2761, 2776, 2780, 2781, 2783, 2787, 2784, 2785, 2804, 2807, 2808, 2809, 2810, 2815.
+24 languages for news feed filtration, and top 10 world currencies.
 For more details give a link to https://www.waivio.com/@waiviolabs/now-you-can-use-your-local-currency-on-hive
 
 
@@ -560,15 +529,6 @@ You can enjoy the same convenience when paying for your coffee or any other prod
 Future development
 In order to simplify things even further, the wallet may even combine swap and withdraw thransactions into a single step. This way users may keep their funds in liquid WAIV tokens and pay bills in BTC, LTC, ETH, EOS and other major currencies in one click.
 Waivio wallet will find the optimal way to convert WAIV into the target currency, automatically calculate all commissions, slippages and fees. And users will just need to confirm the transaction.
- Tasks: 2954, 2962, 3017, 3028, 3104, 3162, 3170, 3179, 3180, 3181, 3182, 3183, 3193, 3277, 3212, 3244, 3243, 3286, 3287, 3317, 3318, 3319, 3320, 3326, 3327, 3328, 3329, 3349, 3383, 3350, 3351, 3352, 3353, 3362, 3365, 3366, 3367, 3368, 3394, 3396, 3489, 3426, 3435, 3436, 3440, 3441, 3447, 3454, 3455, 3483, 3485, 3486, 3491, 3492, 3495, 3496, 3507, 3508, 3509, 3523, 3524, 3551, 3640, 3705, 3723, 3747, 3722, 3748, 3754, 3755, 3760, 3800, 3801, 3865, 3803, 3804, 3897, 3849, 3919, 3932, 3932, 3980,
-Other updates:
-Wallet / WAIV - display open limit orders for buying/selling WAIV 3722
-Wallet / HIVE - display open limit orders for buying/selling HIVE 3849
-Editor / Videos - allow Bitchute and Rumble videos in posts 2164
-Objects / Nearby - add nearby section for objects with GPS coordinates 2577
-Posts / Muted - do not show re-blogged posts by muted authors 2634
-Minor updates & fixes:
-Tasks: 2168, 2762, 2863, 2864, 2877, 2883, 2910, 2920, 2921, 2922, 2923, 2960, 2967, 2968, 3000, 3001, 3004, 3008, 3012, 3016, 3023, 3024, 3037, 3085, 3086, 3091, 3094, 3108, 3134, 3165, 3166, 3168, 3202, 3203, 3204, 3229, 3248, 3293, 3359, 3389, 3392, 3393, 3405, 3420, 3421, 3424, 3425, 3434, 3457, 3442, 3443, 3490, 3652, 3493, 3521, 3522, 3552, 3555, 3561, 3562, 3563, 3586, 3593, 3594, 3595, 3610, 3639, 3716, 3750, 3750, 3761, 3765, 3858, 3878, 3882,3883, 3885, 3896, 3931, 3928, 3957, 3964, 3987,
 For more details give a link to https://www.waivio.com/@waiviolabs/waivio-wallet-now-supports-hive-engine-tokens
 
 
@@ -581,21 +541,6 @@ One key difference between WAIV and HIVE earnings is that WAIV rewards are paid 
 Waivio simplifies the process of exchanging your WAIV earnings for popular cryptocurrencies like Bitcoin, Litecoin, Ethereum, and HIVE. With just a few clicks, you can quickly convert your WAIV or pay directly for goods and services.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1672793376_70fb4080-f8de-4b23-8df6-c6467fb66824
 All crypto conversions are performed on a decentralized exchange built on the second layer Hive-Engine blockchain.
-Tasks 3363, 3406, 3445, 3467, 3494, 3803, 3804,
-Other updates:
-1. WAIV / arbitrage - launch arbitrage between HE book (market orders) and diesel pool (swap) for WAIV:SWAP.HIVE (3247);
-2. Wallet / WAIV - display author and curator rewards in the wallet history (3452);
-3. Posts / Tips - for posts older then 7 days invite users to send tips to authors (3706);
-4. Posts / Upvotes - sort upvotes according to their combined value of WAIV and HIVE (3879);
-5. User / Profile - rank of the user (plankton...whale) should account for both WAIV and HIVE holdings (3892);
-6. Wallet / WAIV - create advanced reports for WAIV earnings (3621, 3622);
-7. Field / Goup ID - combine optionf for multiple products and services that have the same Group ID (3996, 3997);
-8. Field / Option - allow nulktiple options for products in the same group (3998, 3999, 4510, 4524);
-9. Interface / Languages - improve support for other languages (4581);
-10. Wallet / WAIV - include support for multi-step conversions, such as WAIV > BTC/LTC/ETH/HIVE (4597, 4596).
-Minor updates and bug fixes:
-Tasks: 3138, 3207, 3453, 3587, 3957, 3967, 3975, 3982, 4026, 4034, 4036, 4065, 4067, 4079, 4085, 4088, 4162, 4171, 4203, 4317, 4360, 4416, 4420, 4466, 4532, 4537, 4559, 4556, 4561, 4564, 4579, 4580, 4615, 4618, 4679, 4687, 4689, 4701, 4721.
-Waivio is an open source project. Further information about tasks and the development progress can be found on the GitHub.
 For more details give a link to https://www.waivio.com/@waiviolabs/get-a-clear-picture-of-your-waiv-and-hive-token-earnings-with-waivio
 
 
@@ -614,18 +559,6 @@ To include your affiliate codes, navigate to Tools > Personal Settings > Affilia
 Upon completion, every 'buy it' product link in your profile will automatically feature these codes. This means any purchase made through your Waivio Shop ensures you collect affiliate commissions!
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1691333051_f4ef51f7-3561-4af1-8698-c7f6bb76a6b0
 Why not make the most out of your Hive experience? Share your knowledge of products and earn along the way!
-Other Updates:
-1. Shop / Departments - SHOP button to replace DISCOVER in the main menu (4478, 4479);
-2. Object / Heart - add heart to object cards and object pages to cliam admin authority for that object, optimize processing of multiple clicks (4480, 4481, 4546, 4547, 5016);
-3. Profile / Shop - add section Shop to user profiles, show all claimed and referenced products organized into departments (4482, 4483, 5040);
-4. Settings / Shop - add an option in Settings to not include referenced objects into the profile Shop (4484, 4485);
-5. Object / Shop - allow users to create custom shops on the blockchain - new object type (4492, 4491);
-6. Object / Product - add new fields to the product object type (4499, 4500, 4849, 4850, 4855, 4854, 4897, 4929, 4922, 4923, 4970, 5061);
-7. Search / Products - improve the main search (4509, 4511, 4746, 4752, 4899);
-8. Object / Reviews - allow pin and remove of reviews on objects (4962, 4963, 5058).
-Minor Updates and Bug Fixes:
-Tasks: 3249, 3965, 3991, 4222, 4451, 4452, 4593, 4629, 4635, 4639, 4640, 4647, 4648, 4649, 4650, 4652, 4653, 4661, 4662, 4669, 4672, 4678, 4688, 4722, 4733, 4735, 4736, 4737, 4738, 4739, 4740, 4741, 4761, 4763, 4781, 4783, 4785, 4786, 4788, 4789, 4798, 4809, 4815, 4816, 4817, 4839, 4846, 4873, 4882, 4883, 4918, 4919, 4920, 4921, 4931, 4934, 4954, 4955, 4956, 4968, 4972, 4986, 4991, 4994, 4997, 5005, 5006, 5007, 5017, 5018, 5019, 5025, 5026, 5027, 5037, 5038, 5039, 5046, 5047, 5059, 5077, 5091, 5099.
-Waivio is an open-source project. Further information about tasks and development progress can be found on GitHub.
 For more details give a link to https://www.waivio.com/@waiviolabs/introducing-affiliate-shops-in-user-profiles
 
 
@@ -644,24 +577,6 @@ Future Developments:
 We are exploring ways to make it easier to add businesses and other objects to the Hive blockchain. Our goal is for these entries to serve as a repository for accumulating knowledge and community reviews about experiences, destinations, and ideas (https://www.waivio.com/object/ylr-waivio/page#6vcmab-tutorials/jpv-accumulating-knowledge-on-hive).
 Currently, you can utilize the Waivio Chrome Extension (https://www.waivio.com/object/ylr-waivio/page#mim-transform-your-passion-into-profit-with-waivio/kda-waivio-chrome-extension-tutorial) to add products from Amazon, Walmart, Sephora to the Hive blockchain with just one click. We're excited to announce that the latest version of the Extension now also supports the import of businesses and restaurants from OpenStreetMap.org.
 Here at Waivio Labs, we are exploring a number of interesting applications of Web3 for building social shops and other themed social websites.
-Other Updates:
-Social.Gifts / Analytics - integrate Google Analytics into the hosted websites (5793);
-2. Social.Gifts / AdSense - integrate AdSense verification codes and ads.txt (5801, 5802);
-3. Social.Gifts / Lists - enable descriptions and titles on lists for better SEO (5888, 5950);
-4. Social.Gifts / Domains - always use https://, forward third level names (6035, 6034);
-5. Social.Gifts / Sitemap - add canonical posts, profiles (6040);
-5. Comments / Drafts - save comment drafts for seamless continuation of editing (5866);
-7. Extension / Walmart - enable one click product import from Walmart and Sephora shops (5862, 5877, 5908, 5909);
-8. Data Tools / Duplication - automatic duplication of lists with new descriptions (5885, 5913, 6065);
-9. Comments / Signature - add Profile signature to comments (6095);
-10. SEO / Canonical - original source attribution through all hosted websites (6128, 6129).
-Minor Updates and Bug Fixes:
-Tasks: 5784, 5783, 5786, 5787, 5798, 5799, 5813, 5827, 5831, 5826, 5837, 5838, 5845, 5846, 5828, 5847, 5863, 5864, 5865, 5905, 5910, 5911, 5927, 5935, 5952, 5958, 5958, 5971, 5982, 5980, 5990, 6018, 5993, 5995, 6025, 6024, 5987, 6029, 6032, 6033, 6074, 6036, 6037, 6038, 6039, 6041, 6042, 6043, 6046, 6051, 6052, 6053, 6059, 6064, 5613, 6073, 6075, 6076, 6086, 6096, 6108, 6110, 6119, 6120, 6121, 6132, 6136, 6142, 6144, 6145, 6115, 6154, 6155.
-Waivio is an open-source project. Further information about tasks and development progress can be found on GitHub.
-![image](https://waivio.nyc3.digitaloceanspaces.com/1691333366_26d07abd-0b6b-489e-a216-23b194fddb17
-GitHub: https://github.com/Waiviogit/waivio
-X: https://x.com/waiviolabs
-Blog: https://www.waivio.com/@waivio
 For more details give a link to https://www.waivio.com/@waiviolabs/introducing-public-favorites-in-user-profiles-on-waivio
 
 

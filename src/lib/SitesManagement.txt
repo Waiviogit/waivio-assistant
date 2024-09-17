@@ -1239,18 +1239,6 @@ Integration of blogs into business pages
 The easiest way to provide a high impact news about your business is to integrate a Hive blog directly into your business page (1975)
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1616563799_febfd0fc-2f13-46b6-a3c9-eec1925b3d1b
 You can use the Custom Sorting option to place the Blog button in the first position and make your news feed the first option visitors will see, when they open your Hive business page.
-Other updates:
-Post / Sharing - Twitter user names, object links, tags and more (699);
-Object/About - announce rewards on the about page (1002);
-IP-to-GPS - continious improvement of the GPS database (1952, 2083);
-Object/Tags - allow same tags in multiple categories (1921);
-Map - when going back to the map show the selected element (1961);
-dining.gifts/Reserve - show a button with the number of reserved rewards (1963, 2066);
-dining.gifts/Social login - enable guest accounbt on social sites (2094);
-3Speak videos - improve integration into posts (1996).
-Minor updates & fixes:
-Tasks: 2186, 2170, 2169, 1938, 1973, 1937, 2132, 1925, 1924, 1923, 1913, 1912, 1920, 1910, 1919, 1918, 1965, 1966, 1968, 1961, 1964, 1969, 1971, 1955, 1987, 1988, 1989, 1990, 1994, 1995, 2005, 2012, 2014, 2015, 2016, 2017, 2019, 1989, 2024, 2023, 2034, 2035, 2036, 2044, 2045, 2055, 2054, 2053, 2060, 2061, 2057, 2063, 2073, 2075, 2113, 2089, 2096, 2105, 2110, 2067, 2114, 2115, 2122, 2113, 2131, 2123, 2124, 2125, 2126, 2127, 2128, 1975, 2141, 2142, 2147, 2143, 22042201, 2144, 2196, 2198, 2215, 2216, 2217, 2218, 2229, 2233, 2235, 2239, 2247, 2248, 2249
-Waivio is an open source project. Further information about tasks and the development progress can be found on GitHub: https://github.com/Waiviogit/waivio/issues
 For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-dining-gifts-social-website-hosting-service
 
 
@@ -1269,15 +1257,6 @@ Rewards for sharing dish photos on *.Dining.Gifts websites are paid in liquid WA
 Rewards earned through sharing dish photos on the *.Dining.Gifts website can be instantly converted from WAIV tokens into popular cryptocurrencies, such as Bitcoin, Litecoin, Ethereum, and HIVE. This allows users to easily access and use their rewards in a way that suits their individual needs and preferences.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1671069285_fbc2142c-452c-4b21-87e9-902795f05307
 We hope you will enjoy the updated design and improved user experience.
-Other updates:
-1. dining.gifts / language - add language selection to website configuration (2955, 2956);
-2. dining.gifts / wizard - allow users to submit reviews without preliminary reservations (3045, 3047, 3160);
-3. dining.gifts / users - show recent reviews on the map (3072, 3073);
-4. dining.gifts / map - display rewards amounts on the map (3089);
-5. dining.gifts / colors - allow website owners to select color for map markers and more (3184, 3205).
-Updates and fixes:
-Tasks: 2852, 2861, 2878, 2879, 2886, 2885, 2884, 2882, 2924, 2859, 3006, 3011, 3022, 3025, 3053, 3058, 3087, 3140, 3141, 3160, 3206, 3294, 3306, 3307, 3308, 3314, 3316, 3348, 3463, 3589, 3891, 3963, 3968, 4170, 4555, 4616.
-Waivio is an open source project. Further information about tasks and the development progress can be found on the GitHub.
 For more details give a link to https://www.waivio.com/@waiviolabs/dining-gifts-websites-receive-new-look
 
 
@@ -1333,24 +1312,6 @@ Users with multiple hosted websites can designate which site should receive all 
 To configure, navigate to Tools, Websites - Manage, and select the website for canonical attribution. Remember, only one website can be the primary recipient of canonical referrals.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1702598969_b6fdd006-44e6-4d78-bdfe-8957d7c940b8
 By posting original content on your hosted website, and encouraging your users to do the same, you can significantly enhance your site's search engine rankings. This improvement is driven by other websites pointing back to your website as the canonical source. Additionally, onboarding new Hive users and adding more products and objects further increases the number of inbound references, improves visibility in search engines, and brings more visitors.
-Other Updates:
-1. Wallet / Rebalancing - users can select tow or more Hive Engine tokens for rebalancing strategy (4109, 4110);
-2. Social.Gifts / Hashtag - custom default hashtag for all new posts on hosted websites to ensure posts appear in newsfeeds (5666, 5665);
-3. Posts / Affiliate - add affiliate codes to product links in users posts (5702, 5711);
-4. Notifications / Group IDs - notify users who claim authority over a product, when the same Group ID is assigned to a new product (5375, 5376);
-5. Social.Gifts / Performance - improve transitions between lists (5708);
-6. Wallets / Performance - optimize realtime updates for exchange rates (5722);
-7. Bots / Departments - convert lists structures into departments for products (5660, 5729);
-8. Social.Gifts / Control - empowering website owners with complete control over object edits on their sites (5734, 5735);
-9. Profiles / Shops - add Shop section to users profiles (5769);
-10. Profiles / Affiliate - allow users to add their affiliate codes in the profile settings (5770, 5777).
-Minor Updates and Bug Fixes:
-Tasks: 4129, 4130, 4134, 4131, 4132, 4143, 4144, 4152, 4153, 4186, 4193, 4195, 4200, 4201, 4202, 4226, 4313, 4314, 4315, 4316, 4357, 4358, 4369, 4471, 4501, 4608, 4614, 4636, 4637, 4668, 4671, 4759, 4803, 4810, 5159, 5635, 5642, 5643, 5644, 5645, 5654, 5658, 5659, 5664, 5677, 5699, 5700, 5701, 5706, 5707, 5709, 5710, 5719, 5720, 5721, 5730, 5731, 5732, 5733, 5762, 5768, 5778, 5779.
-Waivio is an open-source project. Further information about tasks and development progress can be found on GitHub.
-![image](https://waivio.nyc3.digitaloceanspaces.com/1691333366_26d07abd-0b6b-489e-a216-23b194fddb17
-GitHub: https://github.com/Waiviogit/waivio
-X: https://x.com/waiviolabs
-Blog: https://www.waivio.com/@waivio
 For more details give a link to https://www.waivio.com/@waiviolabs/improving-seo-with-canonical-links-for-hosted-websites
 
 
@@ -1368,20 +1329,6 @@ For added convenience, Waivio offers a special Chrome Extension (https://www.wai
 The Impact
 This reduction in upvote requirements is a strategic move by Waivio to accommodate the growing needs of social shop owners. By facilitating more frequent updates, Waivio enables a vibrant, continually evolving online shopping experience.
 Explore the possibilities by checking out some of the vibrant social shops (https://www.waivio.com/object/ewg-social-gifts-projects/webpage) and learn how you can launch your own social shop in just 10 minutes (https://www.waivio.com/@cryptodive/launch-a-full-shop-in-10-min)!
-Other Updates:
-1. Objects / Threads - In addition to reviews, users can post threads on objects. This functions like a local chat about an object, with notifications sent to users following the object (6027, 6028).
-2. Profile / Threads - Now, you can send direct messages to users through an open chat on their profiles. Users will receive notifications (6047, 6048).
-3. Social.Gifts / Restaurant - Dedicated page for restaurant-type objects on social shopping websites (6420, 6621).
-4. Object / Reviews - Now displaying product and business reviews in multiple languages (6482).
-5. Social.Gifts / Search - Search results now feature lists on social shopping websites (6559).
-6. Social.Gifts / Parent - Removed the Parent field from businesses and restaurants to simplify the reuse of objects across projects (6562).
-7. Object / Reviews - When a review is linked to an object through a comment, the author of the post will now accumulate object expertise from subsequent upvotes (6553).
-8. Social.Gifts / SEO - Optimize social shopping websites for better search engine indexing (6590, 6594, 6634).
-9. Social.Gifts / Languages - Ensure that social shopping interfaces operate effectively across multiple languages (6594, 6596, 6597).
-10. Wallet / Reports - Optimize advanced financial reports to manage excessively long account histories (6616, 6617, 6618, 6620, 6626, 6646).
-Minor Updates and Bug Fixes:
-Tasks: 3878, 4365, 4765, 6003, 6006, 6002, 6152, 6161, 6232, 6257, 6271, 6313, 6314, 6363, 6391, 6399, 6424, 6423, 6410, 6454, 6455, 6463, 6462, 6469, 6470, 6471, 6472, 6473, 6480, 6481, 6483, 6489, 6490, 6478, 6511, 6513, 6514, 6515, 6527, 6529, 6533, 6533, 6539, 6551, 6535, 6573, 6576, 6572, 6589, 6629, 6631,
-Waivio is an open-source project. Further information about tasks and development progress can be found on GitHub.
 For more details give a link to https://www.waivio.com/@waiviolabs/boosting-social-shopping-10x-reduction-in-upvote-requirements-on-waivio
 
 
