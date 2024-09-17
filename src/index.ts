@@ -7,7 +7,6 @@ import {initialSupport} from "./nodes/initialNode";
 import {generalNode} from "./nodes/generalNode";
 import {searchNode} from "./nodes/searchNode";
 import {AGENTS} from "./constants/nodes";
-import {waivioSearchTool} from "./tools/waivioSearchTool";
 
 export type GraphState = {
     llm: ChatOpenAI;
@@ -117,6 +116,4 @@ async function runQuery({query, id}: runQueryInterface): Promise<BaseMessage> {
 
 // runQuery({query: 'i want to find info about user "flowmaster"', id: 'ddsdggdfs', userName: 'flowmaster'});
 
-
-// waivioSearchTool.invoke({string: 'flowmaster'})
 
