@@ -126,39 +126,6 @@ Waivio allows you to add up to three phone numbers to an object. So, if the user
 Second phone number added
 The Vote count for the second phone is higher (0.0049 vs. 0.0036) and it is displayed above the first number.
 With each subsequent update of the object, the user gains more expertise in the object and the value of their vote increases, even though the voting power used to upvote both updates was the same.
-Other updates and bug fixes:
-Object experts - allow quick follow of experts (357)
-User search - extended search results (397)
-User profile - Resource Credits indicator (407)
-Guest posts - signature with links (411)
-Discover restaurants - initial view for remote areas (456)
-Objects - left column formatting (457)
-Hashtag objects - limited number of fields (458)
-Object status - allow NSWF and Flagged statuses (459)
-Flagged objects - send notification to all object experts (461)
-Object avatar - bug fixes (467)
-Object updates - visibility (468)
-Type comment - fix the spelling (484)
-Update - detailed view as a comment (485)
-Lists - add Status field to list objects (486)
-Profile - show user expertise in objects (487)
-New restaurants - indexing and quick search (488)
-Re-blog - highlight the button if user already re-blogged the post (493)
-Object parent - add a link to the left column (495)
-Lists - custom sorting validation (499)
-Updates - display voting balance (501)
-Object reviews - invitation to write the first review (505)
-Object categories - process previously added objects (511)
-Wallet - exchange rates charts (512)
-Object gallery - display gallery items in Updates (514)
-Unavailable objects - exclude from search results (523)
-Trending - show posts up to 3 days old (531)
-Comments - expertise of authors of new comments (533)
-Waivio is an open source project. If you believe that what we are building is beneficial to the Hive ecosystem, please vote for Waivio proposals on the Decentralized Hive Fund.
-GitHub - https://github.com/Waiviogit/waivio
-Discord - https://discord.gg/sAkPkFv
-Twitter - https://twitter.com/waiviolabs
-Hive - https://www.waivio.com/@waivio
 For more details give a link to https://www.waivio.com/@waiviolabs/waivio-updates-may-4-2020
 
 
@@ -174,17 +141,6 @@ Linking posts to objects
 The standard method of linking posts to objects is for the author of a post to include references to those objects or hashtags in the post.
 But if the original post did not have such links, other users can now link that post to objects, by posting top-level comments with links to objects. And once the post is linked to those objects, the post will appear in the Review section of those objects' pages (task: 2699, 2813).
 For example, if a user posted a review of a product or company at a time when those objects did not exist, but were created later, other users can now add comments to the original post and link it to the newly created objects.
-Other updates:
-Rewards / Create - sponsors can now set the target currency for their rewards campaigns, allowing for better presentation of rewards in local currency (2782, 2786);
-Rewards / Reports - financial reports can now be viewed in local currency (2811, 2812);
-Notifications / Route - notify users about changes of withdraw routes for their accounts (3054, 3055, 3056, 3057) ;
-Posts / Odyssey - users can add Odyssey videos to their posts (3444);
-Posts / YT shorts - users can add YouTube shorts to their posts (3720);
-Posts / Photos - preserve meta data for images uploaded by users (3751);
-Object / Titles - the field was extended to allow up to 500 symbols (3462).
-Minor updates & fixes:
-Tasks: 2845, 2847, 2848, 2851, 2854, 2858, 2862, 2872, 2814, 2961, 3002, 3003, 3005, 3007, 3044, 3063, 3065, 3066, 3090,3419, 3437, 3460, 3438, 3439, 3481, 3590, 3613, 3637,
-Waivio is an open source project. Further information about tasks and the development progress can be found on the GitHub.
 For more details give a link to https://www.waivio.com/@waiviolabs/product-ratings-simplified-by-waivio
 
 
@@ -199,16 +155,6 @@ To incorporate a Coingecko widget into your Hive widget, simply copy the widget'
 Now users can easily find Crypto heatmap widget (https://www.waivio.com/object/krd-crypto-heatmap) by searching for it on Waivio, reference it in their posts, as well as integrate it into other objects on Hive or into their social websites.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1670696387_0a6df9f3-c37b-4ca0-999d-6faaf989d425
 This can greatly enhance the user experience on Hive, making it easier for users to share and access a wider range of resources and information. The widget object type allows for the seamless integration of interactive forms, tools, and pages from external parties, making Hive a more dynamic and engaging platform for users.
-Other updates:
-1. Posts / Twitch - integration of Twitch videos into users posts (2705);
-2. Expertise / WAIV - account for WAIV earnings for calculating expertise for users and objects (3196);
-3. Field / Product ID - allow bar codes, ISBNs and other common product identificators to be added to object types product and service (3946, 3947);
-4. Field / Company ID - allow unique identifiers to be added to the business object type (3948, 3949);
-5. New object / Aa tool - add a case toggle button for the name field for new objects (4043);
-6. Comments / Objects - if a comment contains a link to an object, connect the original post to the obejct, show it in the Reviews section on the object page (4462).
-Minor updates & fixes:
-Tasks: 2156, 3088, 3449, 3988, 3989, 3995, 4020, 4021, 4037, 4066, 4115, 4117, 4162, 4204, 4221, 4245, 4247, 4269, 4293, 4311, 4343, 4361, 4366, 4367, 4387, 4388, 4392, 4393, 4419, 4465, 4504, 4533, 4543, 4545.
-Waivio is an open source project. Further information about tasks and the development progress can be found on the GitHub.
 For more details give a link to https://www.waivio.com/@waiviolabs/new-object-type-widget
 
 
@@ -227,20 +173,6 @@ Edit and Customize: Navigate to your new object's page and switch to 'edit mode'
 Design Your Page: Get creative! Add images, text, videos, and utilize our formatting blocks, spaces, and dividers to design your page exactly the way you want it.
 By bringing webpages to the Hive blockchain, we are pushing the boundaries of what's possible in decentralized content creation and management. We can't wait to see the unique and innovative ways our community will utilize this new feature.
 Let's build the decentralized web, one page at a time!
-Other Updates:
-1. Tools / Data Import: automating product import from JSON files (4540, 4541, 4544);
-2. Object / Widget - new object type: widget (4626, 4627, 4628);
-3. Earn / WAIV - settlement of sponsored rewards in WAIV tokens (4642, 4654, 4655);
-4. VIP tickets / WAIV - accept WAIV payments for VIP tickets (4709, 4710);
-5. Websites / WAIV - accept WAIV payments for website hosting (4711, 4712);
-6. Data / Tables - generate JSON files from product tables (4732);
-7. Rewards / Submit - simplify the process of submitting paid reviews (4754);
-8. Earn / Objects - allow rewards campaigns for single objects (4755, 4756);
-9. Earn / Global - enable GEO targeting for campaings (4757, 4758);
-10. Objets / Menu - universal menu items on objects (4894, 4895, 5052, 5088).
-Minor Updates and Bug Fixes:
-Tasks: 4350, 4380, 4389, 4394, 4396, 4397, 4449, 4450, 4459, 4472, 4503, 4509, 4530, 4531, 4534, 4560, 4562, 4563, 4594, 4595, 4619, 4620, 4630, 4631, 4634, 4708, 4713, 4714, 4715, 4742, 4743, 4744, 4747, 4748, 4749, 4750, 4751, 4762, 4764, 4767, 4768, 4775, 4776, 4777, 4778, 4779, 4780, 4799, 4818, 4819, 4840, 4841, 4843, 4847, 4848, 4862, 4871, 4872, 4874, 4884, 4885, 4886, 4898, 4930, 4933, 4935, 4944, 4945, 4946, 4957, 4969, 4971, 4992, 4993, 5008, 5020, 5021, 5031, 5043, 5044, 5053, 5060, 5092, 5098, 5108, 5109, 5143.
-Waivio is an open-source project. Further information about tasks and development progress can be found on GitHub.
 For more details give a link to https://www.waivio.com/@waiviolabs/new-object-type-webpage
 
 
@@ -396,16 +328,6 @@ After creating and configuring the "Hive statistics" newsfeed, it can be effortl
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1676399059_a7643e18-f0cd-4e43-b31f-62686d3a5ddc
 By clicking the Follow button on the "Hive statistics" newsfeed, it will be included in your regular Feed:
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1676399464_439b263b-553e-40b5-9591-76c9537c8ad8
-Tasks: 4435, 4403, 4433, 4401.
-Other updates:
-1. Comments / Muted users - if an author of a post muted a user, their comments should not appear on posts of that author (3092, 3093);
-2. Match bots / WAIV - add support for the WAIV tokens in author, curator and sponsor match bots (3197, 3198, 3360);
-3. Product / Department - allow up to 10 departments to be added to product and service objects (4011, 4012);
-4. Object / Book - create a new object type Book along with a subset of unique fields, such as author, publisher, publishing date, etc. (4277, 4270);
-5. Page / Drafts - save drafts for page edits. Allow users to discard or restore the edited version on the second attempt to edit the same page. (4233, 4267).
-Minor updates and bug fixes:
-Tasks: 2541, 2659, 2736, 2836, 3074, 3194, 3195, 3289, 3442, 3762, 4469, 3763, 4018, 4035, 4078, 4093, 4119, 4127, 4223, 4224, 4318, 4340, 4359, 4446, 4445, 4447, 4498, 4505, 4506, 4507, 4508, 4529, 4557, 4624, 4631.
-Waivio is an open source project. Further information about tasks and the development progress can be found on the GitHub.
 For more details give a link to https://www.waivio.com/@waivio/custom-newsfeeds-on-waivio
 
 
