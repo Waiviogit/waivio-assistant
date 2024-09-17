@@ -3,20 +3,23 @@ import { RedisChatMessageHistory } from '@langchain/redis';
 import { ChatOpenAI } from "@langchain/openai";
 import {BaseMessage} from "@langchain/core/messages";
 import {REDIS_KEYS, TTL_TIME} from "./constants/common";
-import {baseNode} from "./nodes/baseNode";
+import {initialSupport} from "./nodes/initialNode";
+import {generalNode} from "./nodes/generalNode";
 
 export type GraphState = {
     llm: ChatOpenAI;
     query: string;
     chatHistory: BaseMessage[]
-    response: BaseMessage
+    response: BaseMessage,
+    nextRepresentative: string
 };
 
 const graphChannels = {
     llm: null,
     query: null,
     chatHistory: null,
-    response: null
+    response: null,
+    nextRepresentative: null
 };
 
 
@@ -26,12 +29,14 @@ function createGraph() {
     const graph = new StateGraph<GraphState>({
         channels: graphChannels,
     })
-        .addNode("baseNode", baseNode);
+        .addNode("initialSupport", initialSupport)
+        .addNode("generalNode", generalNode)
 
     //add Edges
     graph
-        .addEdge(START, "baseNode")
-        .addEdge("baseNode", END);
+        .addEdge(START, "initialSupport")
+        .addEdge("initialSupport", END)
+
 
 
     const app = graph.compile();
@@ -103,4 +108,4 @@ async function runQuery({query, id}:runQueryInterface) {
 
 }
 
-runQuery({query: 'what is waivio', id: '1', userName: 'flowmaster'});
+runQuery({query: 'i want to find white dress', id: '1', userName: 'flowmaster'});
