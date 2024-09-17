@@ -67,3 +67,4 @@ env/
 lib.index
 
 package-lock.json
+yarn.lock

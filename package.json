@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "tsx --experimental-wasm-modules -r dotenv/config src/index.ts dotenv_config_path=.env",
-    "addVectorAll": "tsx --experimental-wasm-modules -r dotenv/config src/migrations/lunchAll.ts dotenv_config_path=.env"
+    "addVectorAll": "tsx --experimental-wasm-modules -r dotenv/config src/migrations/lunchAll.ts dotenv_config_path=.env",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --write \"src/**/*.ts\" \"src/*.ts\"",
+    "format:check": "prettier --check \"src/**/*.ts\" \"src/*.ts\""
   },
   "keywords": [],
   "author": "",
