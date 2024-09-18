@@ -1656,3 +1656,101 @@ Note: This field is not required in the URL, but it is necessary for the button 
 Simple Integration
 Now you can effortlessly integrate PayPal payments into your social shopping site. Whether you’re selling online training courses, physical products, or services, the PayPal integration ensures a smooth and trusted transaction process.
 Get started today and take your social shop to the next level with easy-to-integrate PayPal payments!
+
+
+# Social sites
+The social site is built on the Waivio platform using the Social.Gifts template. This template is flexible and allows site owners to customize their sites according to their needs. Social sites are typically thematic. Users can manage and create sites only on the official Waivio site; this functionality is not available on social sites.
+These sites have a "Sign in" button where users can log in via HiveSigner, HiveAuth (Keychain), or Google to access Waivio platform features, such as writing posts, finding and participating in campaigns, liking content, leaving comments, and more.
+
+# What is the Structure of a Social Site Built on Waivio?
+The main navigation menu on the Waivio platform can consist of various pages depending on the site's configuration. Possible pages include:
+- **List:** A collection of items curated on the site. Includes list items, a description, and an image.
+- **Newsfeed:** A feed of posts related to the site.
+- **Page:** A page with basic information, which can include text, videos, images, and more.
+- **Map:** A map displaying key items or locations relevant to the site.
+- **Legal:** Pages containing legal information.
+- **Widget:** Embedded frames or widgets for site-specific purposes.
+- **Product Page:** A page displaying product information.
+- **Business Page:** A page showcasing information about businesses or restaurants.
+- **Recipe:** A page displaying a recipe.
+- **Shop:** A collection of items available for purchase as shop.
+And user can use ussual functionality as for waivio, as opening posts, user profile information and all related pages.
+
+The header for an authorized user includes the following elements:
+- Site Logo: A link to the main site page.
+- Search: A search bar to find items available on the site.
+- Editor: A button that opens a page where the user can write a post or create an object. Link to editor: https://www.waivio.com/editor.
+- Notification: Modal window with notifications.
+- User avatar: Button to open authorized user profile.
+- Menu: A navigation menu with links to My Feed, Earn, Tools, Drafts, Profile, Wallet, Settings, and Logout (button to log out).
+
+In the header, near the user profile image, users can find a menu with more actions available on the social site, including My Feed, Earn, Tools, Draft, Profile, Wallet, Settings, and Logout:
+1. My Feed: A personalized feed showing posts from users and objects the authorized user is subscribed to. 
+2. Earn:
+  - Global: Pages in this section display current rewards available worldwide. Link to Global: https://www.waivio.com/rewards/global.
+  - Local: Pages in this section display current rewards divided by regional availability. Link to Local: https://www.waivio.com/rewards/local.
+ - Reserved: It includes reserved rewards authorized user. Link to Reserved: https://www.waivio.com/rewards/reserved.
+  - Receivable: A list (table) of sponsors and their payment obligations. Link to Receivable: https://www.waivio.com/rewards/receivable.
+  - History: History of reward reservations. Link to History: https://www.waivio.com/rewards/history.
+3. Tools: Consists of useful tools, consist of personal section:
+Personal:
+  - Notifications: Settings for notifications that appear in the bell icon and Telegram bot. Link to Notifications: https://www.waivio.com/notification-settings.
+  - Draft: Save drafts of posts. Link to Draft: https://www.waivio.com/drafts.
+  - Bookmarks: Save favorite posts. Link to Bookmarks: https://www.waivio.com/bookmarks.
+  - Edit profile: Configure your user profile page. Link to Edit profile: https://www.waivio.com/edit-profile.
+  - Settings: Internal user settings such as interface language, base currency, and more. Link to User Settings: https://www.waivio.com/settings.
+  - Affiliate codes: Manage your affiliate codes. Link to User Affiliate codes: https://www.waivio.com/user-affiliate-codes.
+  - New accounts: Purchase new Hive accounts. Link to New accounts: https://www.waivio.com/new-accounts.
+  - Invite: Generate invite links for other users. Link to Invite: https://www.waivio.com/invite.
+4. Drafts: A collection of unpublished posts and drafts.
+5. Profile: A link to the authorized user’s profile.
+6. Wallet: A link to the authorized user’s wallet.
+7. Settings: A link to the user profile settings page.
+8. Logout: A button to log out from the site.
+
+
+# Authorization & Registration on Waivio and related sites
+To log in to the Waivio platform or related sites, open the website, click the "Sign in" button in the header, and choose the appropriate authentication method. There are three options for authorization: via HiveSigner, HiveAuth, or Google.
+## Authorization via HiveSigner
+Authorization takes place through the trusted HiveSigner system, Waivio does not store, transfer, and does not use user keys. Only temporary keys (Access-Token) generated by HiveSigner are used. Hive uses a hierarchical key system to keep you safe. You can register on the website https://signup.hive.io, after registration the user will have a hive account. After registration, a password and four private keys with different permissions are issued:
+- Owner - Change Password, Change Keys, Recover Account;
+- Active - Transfer Funds, Power up/down, Voting Witnesses/Proposals;
+- Posting - Post, Comment, Vote, Reblog, Follow, Profile;
+- Memo - Send/View encrypted messages on transfers.
+For authorization in the Waivio system, you can use a password or private keys.
+## Authorization via HiveAuth (Hive Keychain app)
+Users can log in using the HiveAuth service via Keychain. Upon clicking the Hiveauth button, the user needs to enter their name and click 'Sign in'. A modal with a QR code opens. The user then accesses the Keychain application on their phone and scans the code and confirms the authorization.
+## Social authorization
+Authorization via social networks is also available (guest-user):
+- Google
+## User types
+Hive-user - the user has the right to use all the functionality of the application. A Hive-user is a user registered through HiveSigner and uses HiveSigner or HiveAuth (Hive Keychain) for authorization.
+Guest-user - a user authorized through social networks (via Google). The user does not have access to the following functionalities:
+- creating campaigns;
+- Voting Power = 0.
+- The guest username is distinguished by the prefix "waivio_" before the name: @waivio_username.
+
+
+# Performance Enhancements at Social.Gifts
+We are excited to share the results of performance enhancements for social shopping websites hosted on Social.Gifts. Our development team has been implementing key optimizations that have drastically improved response times, ensuring a faster and more seamless experience for all users.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1712952738_988a2535-6f79-4413-bb46-c07c7722af87
+Phase 1: Baseline Performance
+As of January 2024, our Google Crawl Data Report indicated that the average response time for websites hosted on our platform was over 1 second. We recognized this as an opportunity for improvement and initially focused on enhancing our platform architecture.
+Phase 2: System Architecture Optimization
+In February, we rolled out significant changes to our system architecture. By optimizing our server configurations and enhancing our network protocols, we successfully reduced the average response times to 400 ms. This marked a substantial improvement, making website interactions quicker and more efficient, which is crucial for maintaining user engagement in the fast-paced world of social shopping.
+Phase 3: Introduction of Smart Caching System
+In March, we introduced a smart caching system specifically tailored to optimize performance for search engines. This innovation helped further reduce the average response times to below 100 ms.
+Accessing Crawl Stats Report
+To check the Crawl Stats Report for your social shop, please log in to your Google Search Console (the same place where you submitted your website sitemap for accelerated indexing). First, open 'Settings' (1), then select 'Crawl Stats Report' (2).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1712961607_94fe9d35-6784-47af-8658-f663c3056a30
+On the report page, select the 'Average Response Time' parameter (3) and deselect all other parameters. You can then hover over a specific day on the chart (4) to see the average response time for that day.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1712962045_101c2fdf-b7a1-45de-81fd-43010695dbcb
+Understanding Response Times
+A good response time for websites, as measured by the time it takes for a server to respond to a request (often referred to as "Time to First Byte" or TTFB), varies depending on the type of content being delivered and user expectations. Here are some general guidelines and industry standards:
+Under 100 ms: Excellent server response time, typically expected for high-performance, optimized sites that use effective caching strategies and are hosted on efficient infrastructure.
+100 ms to 200 ms: Good and common target for many web services, suggesting optimal server configuration.
+200 ms to 500 ms: Average response time, considered acceptable for most contexts, but there is room for improvement, especially in competitive industries or high-traffic sites.
+500 ms to 1 second: Poor response time, which might not severely impact user experience for certain types of content like large media files where overall loading time is more relevant, but it's generally advisable to investigate and mitigate causes of delay.
+Over 1 second: Considered unacceptable for commercial websites. Delays of this magnitude typically result in poor user experiences, increased bounce rates, and could negatively affect search engine rankings.
+We thank you for your continued support and trust in Social.Gifts. Stay tuned for more updates as we continue to refine and expand our services.
+For more details give a link to https://www.waivio.com/@social.gifts/performance-enhancements-at-social-gifts

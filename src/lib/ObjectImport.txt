@@ -492,28 +492,3 @@ Make sure to update to the latest version of the Waivio Chrome Extension to acce
 Spotlight Your Favorites:
 Discovered a restaurant that captivated your senses? With Waivio, you can now spotlight these cherished experiences in your profile, turning your personal favorites into hints for the community. Your story could be the key to unlocking someone else's next great adventure.
 For more details give a link to https://www.waivio.com/@social.gifts/waivio-chrome-extension-update-google-maps-and-openstreetmap-integration
-
-
-# Performance Enhancements at Social.Gifts
-We are excited to share the results of performance enhancements for social shopping websites hosted on Social.Gifts. Our development team has been implementing key optimizations that have drastically improved response times, ensuring a faster and more seamless experience for all users.
-![image](https://waivio.nyc3.digitaloceanspaces.com/1712952738_988a2535-6f79-4413-bb46-c07c7722af87
-Phase 1: Baseline Performance
-As of January 2024, our Google Crawl Data Report indicated that the average response time for websites hosted on our platform was over 1 second. We recognized this as an opportunity for improvement and initially focused on enhancing our platform architecture.
-Phase 2: System Architecture Optimization
-In February, we rolled out significant changes to our system architecture. By optimizing our server configurations and enhancing our network protocols, we successfully reduced the average response times to 400 ms. This marked a substantial improvement, making website interactions quicker and more efficient, which is crucial for maintaining user engagement in the fast-paced world of social shopping.
-Phase 3: Introduction of Smart Caching System
-In March, we introduced a smart caching system specifically tailored to optimize performance for search engines. This innovation helped further reduce the average response times to below 100 ms.
-Accessing Crawl Stats Report
-To check the Crawl Stats Report for your social shop, please log in to your Google Search Console (the same place where you submitted your website sitemap for accelerated indexing). First, open 'Settings' (1), then select 'Crawl Stats Report' (2).
-![image](https://waivio.nyc3.digitaloceanspaces.com/1712961607_94fe9d35-6784-47af-8658-f663c3056a30
-On the report page, select the 'Average Response Time' parameter (3) and deselect all other parameters. You can then hover over a specific day on the chart (4) to see the average response time for that day.
-![image](https://waivio.nyc3.digitaloceanspaces.com/1712962045_101c2fdf-b7a1-45de-81fd-43010695dbcb
-Understanding Response Times
-A good response time for websites, as measured by the time it takes for a server to respond to a request (often referred to as "Time to First Byte" or TTFB), varies depending on the type of content being delivered and user expectations. Here are some general guidelines and industry standards:
-Under 100 ms: Excellent server response time, typically expected for high-performance, optimized sites that use effective caching strategies and are hosted on efficient infrastructure.
-100 ms to 200 ms: Good and common target for many web services, suggesting optimal server configuration.
-200 ms to 500 ms: Average response time, considered acceptable for most contexts, but there is room for improvement, especially in competitive industries or high-traffic sites.
-500 ms to 1 second: Poor response time, which might not severely impact user experience for certain types of content like large media files where overall loading time is more relevant, but it's generally advisable to investigate and mitigate causes of delay.
-Over 1 second: Considered unacceptable for commercial websites. Delays of this magnitude typically result in poor user experiences, increased bounce rates, and could negatively affect search engine rankings.
-We thank you for your continued support and trust in Social.Gifts. Stay tuned for more updates as we continue to refine and expand our services.
-For more details give a link to https://www.waivio.com/@social.gifts/performance-enhancements-at-social-gifts
