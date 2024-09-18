@@ -1,0 +1,519 @@
+# Lesson 7: Importing Products With Waivio Chrome Extension
+For more details give a link to https://www.waivio.com/object/kda-waivio-chrome-extension-tutorial/page
+A Step-by-Step Guide to Monetizing Your Knowledge (Part 2)
+Waivio Chrome extension is a powerful tool, which allows you to add Amazon products to the Hive blockchain with just a couple of clicks.
+It also enables you to add product reviews effortlessly. For advanced users, this extension offers a wealth of useful features.
+This extension streamlines the process of adding products and their reviews, saving you time and effort.
+Summary:
+Part 1. Extension Setup
+    Step 1: Add extension
+    Step 2: Authorization
+    Step 3: Check the Funds
+Part 2. "Upload to Waivio" - Import Products in One Click
+Part 3. Adding Reviews
+Part 4. Advanced Import
+    Step 1: Scan for ASINS
+    Step 2: Create XLXS
+    Step 3: Copy to Clipboard
+    Step 4: Create JSON
+Part 5. The New Versions of the Extension
+![image](https://waivio.nyc3.digitaloceanspaces.com/1698074123_9fc79fb4-7b0a-4697-9e71-a9b7a00b95ee)
+Part 1: Extension Setup
+
+Before adding products with extensions, you need to set up a few things:
+1. Add extension
+The first thing you will need to do is add the extension to your browser.
+Sign to Waivio. Head to "Tools", and under Data Management – click on "Chrome Extension". Download the .zip file, and once it's downloaded, unzip it. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698078245_9d6d5daf-7bbd-4952-94a6-7d2acb639f2a)
+Next, open your browser (any Chromium-based one like Google Chrome, Brave, or Edge). Here is shown the setup with Chrome, as it's a more popular browser, but the setup will be very similar on other browsers as well.
+Go to (1) Settings -> (2) Extensions -> (3) Enable the "Developer mode" ![image](https://waivio.nyc3.digitaloceanspaces.com/1698078300_4e2c853f-b3bc-4b14-8fce-5a1e8c822a2a)
+(4) Click "Load unpacked" -> (5) and choose the unzipped folder that we've downloaded -> (6) Click "Select" ![image](https://waivio.nyc3.digitaloceanspaces.com/1698078296_4d9768d4-dccc-4bdf-8545-a3d798740d1d)
+Pin the extension to keep it visible in your browser. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698078283_6c22b522-2c3d-4bd1-ac45-4070c740eab4)
+
+2. Authorization
+Next, in a new tab, open Waivio, sign in if you haven't already, go to "Tools", and under "Data Management", click on "Data Import".
+Here give authorization to the import bot by clicking "Authorize now", and then "Authorize". You only need to do this once. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698079791_f3c93801-16b1-4333-b1a6-e4babdafd777)
+
+3. Check the Funds
+Finally, ensure that you have both WAIV Power and HIVE Power, as each update requires an upvote equivalent to $0.001. You can find more information about these requirements in Step 3 of the tutorial, How to Import Products on Hive https://www.waivio.com/object/kda-waivio-chrome-extension-tutorial/page#uiy-how-to-import-products-on-hive.
+Now our setup is complete.
+
+Part 2: "Upload to Waivio" - Import products in One Click
+Open the product you want on Amazon, click on the extension and click "Upload to Waivio".
+If a notification pops up asking you to use a different URL format, simply click "Ok". The page will then automatically reload with the new URL format. This step might be necessary to display the departments related to that product.
+Click, "Upload to Wavio", one more time – and you should see the notification "Import successfully started by, and your username." ![image](https://waivio.nyc3.digitaloceanspaces.com/1698078648_82c2dac5-14a8-46f4-8c97-0a831babb4c8)
+You can check the import progress in "Data Import". Once it's done – you can review the product page and edit it if necessary. The imported products will automatically appear in the shop in your profile. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698079055_14dac9c6-5f89-485d-85f9-3bdea39f7460)
+ If you're importing multiple products, it's advisable to save the ASIN numbers for each product. This practice will simplify the process of adding them to custom lists at a later stage. Product lists featuring custom avatars can significantly enhance the user experience on social shopping websites.
+
+Part 3: Adding Reviews
+You can further enhance product pages by adding video reviews where people demonstrate how to use the product or compare it to similar ones. YouTube users often encourage the sharing of their videos on other websites.
+The Waivio extension simplifies the process of adding shareable YouTube video reviews to product pages on Hive.
+Let's open the product we just imported in a new tab.
+Click on "Reviews" -> and "Write a new review".
+Let's search this product on YouTube. If you find a video review for your product – click on the extension "Create Post Draft". This will generate a post draft based on the video using chatGPT. It will include a title, a short summary, and hashtags. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698079009_e5fbe288-45b1-4316-a3ad-71e4108cacfc)
+You can copy the post draft – and paste it into your review post.
+You can make some quick changes to improve the post:
+- Use the generated video title as the post title
+- Use the plus button to insert the youtube video – this way it will be better integrated into your post
+- Check the hashtags - you may want to simplify some lengthy hashtags or add other relevant hashtags to make your post more discoverable.
+When you are ready, click "Ready to Publish", then "Publish”.
+Now the product will be supplemented with video reviews, further assisting potential buyers in understanding the product better.
+
+Part 4: Advanced Import
+For advanced users who import products in bulk, the extension offers additional helpful features. Let's explore them:
+1. "Scan for ASINS"
+If you want to get ASINs of multiple products from Amazon, you can use the "Scan for ASINS" feature.
+Simply search for a specific product category, like, "baby onesies". Then you can sort by "Average customer review" or "Bestselling", to get top-rated products on the first page. Click "Scan for ASINS" – a text file will be generated – save it. The text file will list all the ASINS numbers found on that Amazon page except those already present on the Hive blockchain. The extension filters out products that are already available on Hive to prevent duplication. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698079095_d8b46591-4eec-49f0-b52b-07068fc5715e)
+You can repeat this process for the ASINs on Amazon's second page and so on.
+Similarly, you can get product ASINs for products in broader categories. For example, if you choose "Best Sellers" and then "Best Sellers in Home," you'll get the ASINs of the best-selling products in the Home category.
+Next, you can use Datafinity to generate a JSON file and import the products in bulk onto the Hive blockchain – to learn more about the import process with Datafinity, check out How to Import Products on Hive https://www.waivio.com/object/kda-waivio-chrome-extension-tutorial/page#uiy-how-to-import-products-on-hive.
+Go to Product Data -> API -> copy the ASINS from the text file and paste it in the field -> click "Download" -> Choose "JSON" as the format -> "Confirm Download". Once the file is prepared – click "Download All".
+You can upload this file – in the "Data Import" section in Waivio.
+Please note that some items from the ASIN list might be missing from the Datafinity database, but you can search these products on Amazon by their ASIN number and easily import them with the "Upload to Waivio" feature.
+
+2. Create XLXS
+If you prefer working with a spreadsheet for adding products, you can use "Create XLXS" to generate a new spreadsheet with all the fields filled about the product. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698079212_01146b58-ba83-40d2-be67-3f2a15834345)
+To learn how to import products from a spreadsheet, see the tutorial How to Export Products from Spreadsheet https://www.waivio.com/object/kda-waivio-chrome-extension-tutorial/page#ehd-how-to-export-products-from-spreadsheet.
+
+3. Copy to clipboard
+If you already have a spreadsheet and just want to copy the information about this specific product, use the "Copy to Clipboard" feature. Paste it into your Excel or Google Docs file. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698079238_a382cb23-262e-43f5-9cfd-b8a5fc2a3a0b)
+From Google Docs, you can easily create a JSON file, which can then be imported into the Data Import section in Waivio. This is explained in more detail in How to Export Products from Spreadsheet tutorial https://www.waivio.com/object/kda-waivio-chrome-extension-tutorial/page#ehd-how-to-export-products-from-spreadsheet.
+
+4. Create JSON
+Finally, the "Create JSON" feature enables you to create a JSON file for an Amazon product. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698079256_26a2996c-1761-434f-9b44-2bd32a44be51)
+You can import this JSON file in the "Data Import" section in Waivio.
+Part 4. The new version of the extension
+As the Waivio Chrome extension evolves, newer versions may become available. You can easily download these updates in the Chrome extension section. I recommend disabling or removing the previous version from the browser before adding the new one to avoid any conflicts.
+
+Final Remarks 😉
+With the Waivio Chrome extension, adding products and reviews to the Hive blockchain becomes a seamless and efficient process. Whether you are managing a small online shop or dealing with a large number of imports, this extension provides valuable tools to enhance your experience on the Hive blockchain. Enjoy building your social shops!
+
+
+# Lesson 8: Importing Products from Datafiniti
+For more details give a link to https://www.waivio.com/object/uiy-how-to-import-products-on-hive/page
+Adding products to the blockchain manually can be time-consuming, especially if you need to add multiple items. Luckily, Waivio offers a data import feature that allows you to import many products all at once. Waivio supports import in JSON format (see the supported format here: https://developer.datafiniti.co/docs/product-data-schema)
+This format is used by Datafinity, which is one of the largest databases with hundreds of millions of products that are regularly updated.
+And in this tutorial, I will show you how to use Datafinity to find and export product information in the JSON format. You can also use any other service that allows data export in the compatible format. In the next tutorial, I will also show you how to use your own spreadsheet to export your product data in this format.
+Supplementary Tutorials:
+How to Add a Product: https://www.waivio.com/object/uiy-how-to-import-products-on-hive/page#tmu-business-3-0/uxp-social-gifts/gyg-how-to-add-a-product-to-hive
+Authority Level: https://www.waivio.com/object/uiy-how-to-import-products-on-hive/page#tmu-business-3-0/mqk-dining-gifts/vjf-create-your-dining-gifts-business
+Let's dive in
+
+Step 1: Find and export your product with Datafinity
+To find your product on Datafinity, click on the "Product" tab and use filters to search for your product. As an example, I will be using a yoga block that comes in many colors.
+If you're looking for a specific product, the easiest way to find it is by using its ASIN number. You can find the ASIN number under additional information on the Amazon page of the respective product.
+Copy the ASIN number, paste it into the Datafinity "asins filter", and click "Search". Datafinity will display all the matching product records. It may have multiple records for the same product. ![image](https://waivio.nyc3.digitaloceanspaces.com/1681417996_c3e23a31-aa8f-4dcf-87de-46a9f133e5ba)
+To download the file, click on "Download", and simply choose JSON as the format. In the "Number of Records" field, enter the same number as the "Total matching records". If there are multiple records for the same product, Waivio will handle them and extract only the relevant information.
+If our product comes in other colors - we can download all the variant products at once. To do this: switch to the JSON view for the product we found and use the browser's find function (Ctrl+F on Windows or Command+F on Mac) to search for "parent ASIN". Copy this value. ![image](https://waivio.nyc3.digitaloceanspaces.com/1681419861_25129663-e764-4c64-9877-537da14211cc)
+Then go to "Add Filter", select "Features", and then choose "value". Paste the parent ASIN that we found, and click "Search". Datafinity will now display all the product variants in different colors. ![image](https://waivio.nyc3.digitaloceanspaces.com/1681419870_8d5e9caa-8432-4346-8d31-ef3ae6607a72)
+Click on "Download", again select the JSON format, enter the total number of records, and confirm the download. Save the JSON file on your computer. ![image](https://waivio.nyc3.digitaloceanspaces.com/1681417887_e002eb80-d640-4d64-be23-706e0589dddd)
+
+Step 2: Authorize data import on Waivio
+Now we can go to Waivio. Navigate to "Tools". Under "Data Management", click on "Data Import". ![image](https://waivio.nyc3.digitaloceanspaces.com/1681417719_e0219639-4fa1-4cd0-ad72-11db3f6b9916)
+You will need to authorize a bot to make upvotes on your behalf for the product updates. To do that click on "Authorize Now" and follow the steps to authorize the bot. You will always be able to revoke the authorization at any time.
+
+Step 3. Ensure you have enough WAIV and Hive power
+Next, you will need to ensure that you have enough WAIV and HIVE power
+
+WAIV Power
+When you import products on Hive, each piece of information, such as the product description, product ID, and avatar, will be added as a separate update. The bot will take care of creating all these updates and upvoting them for you. Each upvote is equivalent to $0.001 in WAIV power.
+Therefore, you will need enough WAIV power to perform this action on the blockchain. For example, if I go to my wallet, I have WAIV Power tokens with a value of approximately $440, this gives me Waiv power of $0.01. ![image](https://waivio.nyc3.digitaloceanspaces.com/1681417613_8880a4bd-1d90-4e10-9813-50009da1df49)
+It may seem that I have enough only for ten updates, but this is not correct - I actually have enough for hundreds of updates. Let me show you the math:
+When I give a full upvote, I only use 2% of my vote power; to give a tiny upvote worth $0.001 with my vote power of $0.01, I just need to use 10% of a full upvote ($0.001/$0.01 x 100% = 10%).
+Every time I make the upvote equivalent to $0.001, my vote power will just drop by a fraction of a percent. After one update, my vote power will drop by 0.2% and result in a new vote power of $0.00998, even after 100 updates, my vote power will still be high - $0.008. ![image](https://waivio.nyc3.digitaloceanspaces.com/1681417312_6df738bf-c4cc-485f-bfa0-ba9c94db9959)
+You can set up your threshold beyond which you don’t want your vote power to drop. By default, the voting power threshold is set to 30%, meaning that import will stop when your voting power is below 30%. ![image](https://waivio.nyc3.digitaloceanspaces.com/1681417839_33fb946e-430f-4cc1-ac42-3264440b346b)
+Your voting power recharges every day by 20%, so with this threshold, it will take around four days to restore your power.
+The absolute minimum is when your vote power reaches $0.001; with this vote power you can no longer make $0.001 upvotes.
+
+HIVE Power
+In addition to Waiv Power, you'll also need to have enough Resource Credits (RC). HIVE Resource Credits are credits given to your account based on how much HivePower you have, and they are used up whenever you record something on the blockchain, such as upvotes, posts, and comments. ![image](https://waivio.nyc3.digitaloceanspaces.com/1681417146_825915d9-7b6d-4a5b-b90c-b551b2166879)
+During the import, the bot will create product updates and upvote them for you, but you still need to have enough resource credits so that the bot can record these upvotes on the blockchain. ![image](https://waivio.nyc3.digitaloceanspaces.com/1681417118_62763b12-ceaa-4edd-a798-4681044ced80)
+The bot is designed to use as few RC as possible. Without the bot, you would need significantly more credits to add a product.
+If your RC falls below 10%, the import process will slow down. To be safe, I would recommend to have a ratio of approximately 4:1 (400 Waiv Power to 100 Hive Power).
+By the way, by importing products, you are not losing any WAIV or HIVE tokens; it’s actually the opposite; you will gain WAIV tokens from the upvotes on the product’s updates.
+
+Step 4: Upload the JSON file
+Now we can proceed to the import. Click on "Upload New File". Select (1)"product". Upload the (2) JSON file you downloaded from Datafinity. ![image](https://waivio.nyc3.digitaloceanspaces.com/1681419910_b8211550-d535-493b-9e40-a9df51628d35)
+The product description on Amazon may not always be great, so you can check the box next to "optimize description with chatGPT". This will rewrite the product's description with the help of chatGPT.
+Next, you need to choose the appropriate (3) authority level (Ownership or Administrative). If you will be curating the product and don't want anyone else to add any information to the product, I recommend choosing ownership; otherwise, choose administrative (check this tutorial).
+Click "Confirm" when you are done.
+
+Step 5: Import
+Once you've uploaded the JSON file, the import process will start automatically. You will see the information about your import, such as the number of objects that you are importing, the total number of updates that will be required, and how many updates and objects have already been posted. ![image](https://waivio.nyc3.digitaloceanspaces.com/1681419271_11c45394-ffe1-475a-aa6c-2a7cdd513764)
+*Remember to reload the page to see the progress.
+If the import stops, it's likely because you've reached your WAIV power threshold or used all the HIVE resource credits. But don't worry, the import process will resume once your power gets recharged. You can also pause the import process yourself by unchecking the "active" box.
+If you are importing many JSON files, you can prioritize certain objects by leaving only the priority items active. This will help you to import priority items first.
+
+Step 6: Check the published products
+Once the import is complete, your products will be published on Hive blockchain and you can search them on Waivio. It's always a good idea to double-check the product page to make sure all the information is accurate and complete. If you notice something is missing, you can easily add it manually (see the tutorial here https://www.waivio.com/object/uiy-how-to-import-products-on-hive/page#tmu-business-3-0/uxp-social-gifts/gyg-how-to-add-a-product-to-hive).
+Now, we have successfully imported multiple products to the Hive Blockchain with Waivio. This method saves you time and effort, and you can import hundreds of products easily. Now that you know how to use this import feature on Waivio, you can take your business to the next level by adding more products to the blockchain. ![image](https://waivio.nyc3.digitaloceanspaces.com/1681416913_12aaa55d-214f-4aac-9541-38ee2256a204)
+
+
+# Lesson 9: Importing Products from a Spreadsheet
+For more details give a link to https://www.waivio.com/object/ehd-how-to-export-products-from-spreadsheet/page
+In this tutorial, I'm will show how you can use your own spreadsheet to
+export products in JSON format, so that it's easy to import them to Hive Blockchain with Waivio.
+Resources:
+ - Google Template https://docs.google.com/spreadsheets/d/1Z-8Hz8xGU45A7nKeMJWFsKGzx5WT5oat7SSLqFLGsSU/edit#gid=1467600029
+ - Script Code https://github.com/Waiviogit/waivio/wiki/Export-template-script-from-Google-Sheets-to-JSON
+ - Full tutorial you can find here https://github.com/Waiviogit/waivio/wiki/Export-template-from-Google-Sheets-to-JSON#set-up
+
+ Set up
+ 1. Create or open table in Google Sheets https://drive.google.com/
+ 2. Click on Extensions tab in top menu
+ 3. Click on Apps Script ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/213700307-9a4f3d84-c4d2-4e04-8325-db2460feb1fe.png)
+ 4. Add name (for example, Export JSON) ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/213700981-76ed4740-73d9-4ffc-a0f8-8c872af707f5.png)
+ 5. Delete existing code ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/213700694-320d64ed-5152-42be-a13d-cf15a44ce132.png)
+ 6. Copy script code from https://github.com/Waiviogit/waivio/wiki/Export-template-script-from-Google-Sheets-to-JSON
+ 7. Insert code in script editor ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/213702302-f5c8f640-1149-47bf-b7ee-291514337c8a.png)
+ 8. Click on Save project button ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/213702387-ed0ae059-6717-46e1-9456-48637dbd8d6e.png)
+ 9. Come back to your table and refresh page
+ 10. Now, you should have new tab in top menu.
+ If the new tab does not appear. Refresh page one more time or you can try to return to the script, add some comment(// comment), save again, return to the table and refresh page. Usually, when the page loads, the new tab appears later. ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/213702671-14b60de1-f475-4a56-8b15-5431be5b9f3b.png)
+
+ Add template to Google Sheets
+ Open google template with fields and copy to your table.
+ You need to freeze the first row (View -> Freeze -> 1 row). This is important as this is the name of the fields to be exported. ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/213704121-e711629f-0e2f-4308-912f-5390145b68d6.png)
+
+ Permission
+ 1st time after clicking on "Export JSON for this sheet" you need to give permission to the script.
+ 1. Click Export JSON
+ 2. Click Export JSON for this sheet ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/213705238-31509656-8891-43c1-9c8d-185623ca1843.png)
+ 3. You will see Authorization Required modal window
+ 4. Click Continue
+ 5. Complete authorization and give permission
+ 6. Click Export JSON one more time
+ 7. You should see notification Running script and modal window with json ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/213132930-e4bf4bc1-44fa-4eb1-8e04-02b4f5987fc3.png)
+
+ Exported JSON
+ "Exported JSON" modal window has:
+ direct link to download the file, leads to your google drive;
+ json - that was created by script.
+ Every time when script is running, file is created on your Google Drive. Even if you edit the same table, every time file will be created. So, don't forget to delete unnecessary files from your Google Drive that were created in this way. ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/213723060-33179063-084e-4b90-8c04-3fe04fac3722.png)
+
+ Table fields
+ 1st line of the table - these are the names of the fields, each next is a separate object:
+ 2nd - object #1
+ 3rd - object #2
+ 4th - object #3
+ etc. ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/213713413-427b73c2-bfdf-43da-8f28-0b13cbdd8ec5.png)
+ Below, table of all fields from the template.
+ Quick summary: Pay attention to fields:
+ - categories, imageURLs - because different items should be separated by ";"
+ - features - format for recording: key: Feature Name; value: Feature description*, key from value must be separated by ";", each feature must be separated by "*"
+ - waivio_tags - format for recording: key: Tag category; value: Tag*, key from value must be separated by ";", each line must be separated by "*".
+
+ Fields:
+ 1. asins
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/213658601-68c7e464-e25f-47b9-a195-f4a145788273.png)
+ The ASIN (Amazon identifier) used for this product.
+ Field type: string
+ 2. brand
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/213659015-21d6a416-b09a-40a6-9949-9aba7db8e139.png)
+ The brand name of this product.
+ Field type: string
+ 3. brandLink
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227922684-9526b9c8-153a-4d38-adee-6f5e67297880.png)
+ The permlink to existing business object.
+ Field type: string
+ Permlink is a unique object identifier. Can be seen in the link.
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227524389-5bd49279-c2ab-41c6-baf4-608422bf73bc.png)
+ 4. categories
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227922955-6d31253c-688b-42fc-a523-c9718697ae6e.png)
+ A list of departments where the product can be found.
+ Each department must be separated by ";".
+ There is no need to put a ";" after the last department.
+ Field type: array
+ In order to successfully import objects such as a book and a restaurant, the relevant department must be in the list of categories (Books, Restaurant).
+ 5. brand
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/213659015-21d6a416-b09a-40a6-9949-9aba7db8e139.png)
+ The brand name of this product.
+ Field type: string
+ 6. colors
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227525672-3be985c0-71bc-49a8-acff-a931e2148aea.png)
+ A list of colors available for this product.
+ That will be options with "Color" category name.
+ Only one color option can be added.
+ Field type: array
+ 7. dateAdded
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227923548-9ff51333-da43-492a-bdf4-6aa5a3f85ebd.png)
+ The date this product was first added.
+ Field type: date
+ 8. dateUpdated
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227923487-e7f88dd7-731c-4d00-9f59-1a87f20fc84a.png)
+ The most recent date this product was updated.
+ Field type: date
+ 9. descriptions
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227526082-3efa80cf-0920-4eca-a8f3-75b2785d7518.png)
+ The description for this product.
+ Field type: nested
+ 10. dimension
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227923714-8d5b4d99-1dfd-4079-a01b-683a18215e84.png)
+ The length, width, and height of this product. Units included.
+ Field type: string
+ 11. dontFetchAmazonOptions
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/228463738-2299318f-c032-441f-9fe1-8ce3b3ac6952.png)
+ If you fill in the value of this field as true, then the options will not be pulled from Amazon but will be taken from the table. In the file it will look like:
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/228465301-75410553-036a-4272-beb3-7d37b89d72e9.png)
+ 12. features
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227924696-26d1591e-4597-4e5d-b6db-9c5d74b3f730.png)
+ A list of features associated with this product.
+ The feature list can be collected from specific feature sections available on product listings for the product. Format for recording features:
+ key: Feature Name; value: Feature description*
+ Key from value must be separated by ";".
+ Each feature must be separated by "*".
+ Field type: nested
+ 13. groupId
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227526896-4396adab-675f-46de-bbf3-cfcf03f0a907.png)
+ The Group ID used for this product.
+ Field type: string
+ 14. imageURLs
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227925089-c20f57b4-3d59-4db3-9ac6-5468296910d9.png)
+ A list of image URLs for this product.
+ Each url must be separated by ";".
+ There is no need to put a ";" after the last url.
+ Field type: array
+ 15. isbn
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227925194-0b96852d-ba97-41a8-9c8e-fb9f8acf928a.png)
+ The ISBN code for this product.
+ Field type: string
+ 16. manufacture
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227925359-ffe9901a-fedb-43d0-9891-9e3f8125dd15.png)
+ The manufacturer of this product.
+ Field type: string
+ 17. manufacturerLink
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227883969-dd3ae260-b21d-49a9-9634-3a6bd5291b3c.png)
+ The permlink to existing business object.
+ Field type: string
+ Permlink is a unique object identifier. Can be seen in the link.
+ 18. merchants
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227925448-6ee65f95-5016-4d9b-b111-047a47973c03.png)
+ The merchant name of this product.
+ Field type: nested
+ 19. merchantLink
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227884606-16efd030-6237-4e0a-9c1d-1ca035b5fa4f.png)
+ The permlink to existing business object.
+ Field type: string
+ Permlink is a unique object identifier. Can be seen in the link.
+ 20. mostRecentPriceAmount
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227925550-68a85472-35f2-4764-99cd-dd972ee53041.png)
+ The product's most recent price amount scraped.
+ Field type: float
+ 21. mostRecentPriceCurrency
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227925629-e899b137-4533-4f0f-a619-7d6d4b462c45.png)
+ The currency listed for mostRecentPriceAmount.
+ Field type: string
+ 22. name
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227925813-224a03a5-6a66-4dbd-9694-04c7b6a1a9e2.png)
+ The product's name.
+ Field type: string
+ 23. primaryImageURLs
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227925750-49398b44-3afa-441d-b54f-f2ec01fd6daa.png)
+ The product's avatar.
+ Field type: array
+ 24. sizes
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227885034-dce3afaf-5454-4d08-ba29-f04d3d2879cc.png)
+ A list of sizes available for this product.
+ That will be option with "Size" category name.
+ Only one size option can be added.
+ Field type: array
+ 25. waivio_options
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/235685180-bc067599-0dd9-4fe2-a1b0-e8fbea7cf984.png)
+ A list of options with all fields for options for the product. Format for recording options:
+ category: Options category; value: Value; position: 1; image: "https://imagelink"*
+ Every field must be separated by ";".
+ Each option must be separated by "*".
+ One option has 4 fields: category and value are required.
+ Field type: nested
+ 26. waivio_tags
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227885818-ef5e2c8c-7e48-4e09-b33d-11a7bd218357.png)
+ A list of tags with tag categories associated with this product. Format for recording tags:
+ key: Category Tag Name; value: Tag*
+ Key from value must be separated by ";".
+ Each tag must be separated by "*".
+ Value can have only one option. Therefore, in order to add several tags to one category tag, they need to be recorded separately.
+ Field type: nested
+ 27. weight
+ ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/227925967-ba229049-0dba-4f3b-998d-44702298ff25.png)
+ The weight of the product. Units included.
+ Field type: string
+
+ Recommendation
+ - Use Google account when you don't have important files - because, every time when script is running, a file is created on your Google Drive. So from time to time you will need to clear the space. (Script running after you click "Export JSON for this sheet").
+ - In order to successfully import objects such as a book and a restaurant, the relevant department must be in the list of categories (Books, Restaurant).
+ - Do not use ";" as a value in the field, if its categories, colors, features, sizes, waivio_tags because it is a separator for these fields. Use only as separator.
+ - Do not use "*" as a value in the field, if its features, waivio_tags because it is a separator for these fields. Use only as separator.
+ - Don't change field names in first row, because there are correct field names.
+ - Don't change field order and don't delete columns, because the script is guided by the location index.
+ - It is not necessary to fill in all cells. Empty cells will be skipped.
+
+## Importing from a Spreadsheet for Various Object Types
+Manual importing from a spreadsheet can be applied to a variety of object types, not just products. This feature supports importing data for books, businesses, restaurants, links, recipes, and person into Waivio. By following the instructions below, users can create a Google Spreadsheet tailored to each object type, fill in the required fields, and use the Data Import tool to bring their data into Waivio.
+Detailed information about each object type can be found here: https://github.com/Waiviogit/waivio/wiki/Manual-Object-Import-to-Waivio-Using-Google-Sheets
+## General Short Version Setup Instructions for Importing from a Spreadsheet for Various Object Types
+The setup process is similar for all object types, but the fields and scripts used will vary depending on the object type. Here’s a breakdown of how to set up for each type:
+1. Create or open your Google Spreadsheet following the template and instructions provided for the specific object type.
+2. Install the corresponding script using the provided link for each object type. This script is necessary to convert your spreadsheet data into JSON format.
+3. Save and authorize the script if required, following the steps provided in the respective tutorials.
+4. Refresh your Google Spreadsheet to ensure the new tab or menu option appears.
+5. Fill in the fields according to the guidelines and formats specified for each object type.
+6. Export the JSON file by using the script menu option. This file will be saved to your Google Drive.
+
+## Object Type Specific Instructions Details Links
+**Product / Book**:
+- [Export instructions from Google Sheets to JSON](https://github.com/Waiviogit/waivio/wiki/Export-template-from-Google-Sheets-to-JSON) (Instruction)
+- [Export template script from Google Sheets to JSON](https://github.com/Waiviogit/waivio/wiki/Export-template-script-from-Google-Sheets-to-JSON) (Script)
+- [Fields template Google Sheets](https://docs.google.com/spreadsheets/d/1Z-8Hz8xGU45A7nKeMJWFsKGzx5WT5oat7SSLqFLGsSU/edit?usp=sharing) (Example)
+**Link**
+- [Link export instructions from Google Sheets to JSON](https://github.com/Waiviogit/waivio/wiki/Link-export-template-from-Google-Sheets-to-JSON) (Instruction)
+- [Link export template script from Google Sheets to JSON](https://github.com/Waiviogit/waivio/wiki/Link-export-template-script-from-Google-Sheets-to-JSON) (Script)
+- [Fields template Google Sheets](https://docs.google.com/spreadsheets/d/1qzHBeC86zdIHD9mdzcHVyJtIQ3bKwO1dFW3V2XpdcvI/edit?usp=sharing) (Example)
+**Recipe**
+- [Recipe export instructions from Google Sheets to JSON](https://github.com/Waiviogit/waivio/wiki/Recipe-export-template-from-Google-Sheets-to-JSON) (Instruction)
+- [Recipe export template script from Google Sheets to JSON](https://github.com/Waiviogit/waivio/wiki/Recipe-export-template-script-from-Google-Sheets-to-JSON) (Script)
+- [Fields template Google Sheets](https://docs.google.com/spreadsheets/d/1uSAQ3Ai3tTyqLw7Z2jK7_CVwJzCVZRqM5FBjLCoYx0M/edit?usp=sharing) (Example)
+**Business / Restaurant / Person**:
+- [Business / Restaurant / Person export instructions from Google Sheets to JSON](https://github.com/Waiviogit/waivio/wiki/Business,-Restaurant-or-Person-export-template-from-Google-Sheets-to-JSON) (Instruction)
+- [Business / Restaurant / Person export template script from Google Sheets to JSON](https://github.com/Waiviogit/waivio/wiki/Business,-Restaurant-or-Person-export-template-script-from-Google-Sheets-to-JSON) (Script)
+- [Fields template Google Sheets](https://docs.google.com/spreadsheets/d/1eCzux7hUGcRlQFxogAA5vSueYxk-Kvo7FnrSdLOEeds/edit?usp=sharing) (Example)
+
+## Table Fields for Importing Link Object Types from a Spreadsheet 
+Link fields details:
+- primaryImageURLs: The link's avatar. <br>Field type: array. ![image](https://github.com/user-attachments/assets/5fed8cbe-3525-4f98-b587-b78359204947)
+- fieldDescription: The description for this link. <br>Field type: nested. ![image](https://github.com/user-attachments/assets/a3524fa5-8a68-4f07-8cc7-596fbd6c87c8) 
+- imageURLs: A list of image URLs for this link. <br>**Each image URLs must be separated by ";"**. <br>There is no need to put a ";" after the last URL.<br>Field type: array. ![image](https://github.com/user-attachments/assets/8603d528-c3e8-4baa-84d9-bf236693d129)
+- name: The link's name.<br>Field type: string. ![image](https://github.com/user-attachments/assets/a530f6f5-9ace-4ec8-9d28-02bb34ed58af)
+- fieldTitle: The title for this link. <br>Field type: string. ![image](https://github.com/user-attachments/assets/b69ae550-00bf-465c-b25d-4cf619a62fca)
+- fieldUrl: The URL value for URL link field. <br>Field type: string. ![image](https://github.com/user-attachments/assets/84e88ac0-9d80-49ef-8b54-81d202e2fbdc)
+[Fields template Google Sheets](https://docs.google.com/spreadsheets/d/1qzHBeC86zdIHD9mdzcHVyJtIQ3bKwO1dFW3V2XpdcvI/edit?usp=sharing) (Example)
+[Link export template script from Google Sheets to JSON](https://github.com/Waiviogit/waivio/wiki/Link-export-template-script-from-Google-Sheets-to-JSON) (Script)
+[Link export instructions from Google Sheets to JSON](https://github.com/Waiviogit/waivio/wiki/Link-export-template-from-Google-Sheets-to-JSON) (Instruction)
+
+## Table Fields for Importing Recipe Object Types from a Spreadsheet 
+Recipe fields details:
+- `fieldBudget`: The recipe budget information. <br>Field type: string. ![image](https://github.com/user-attachments/assets/8781d063-c026-41b7-ba21-0c84c43f083a)
+- `fieldCalories`: The recipe calories information. <br>Field type: string. ![image](https://github.com/user-attachments/assets/9a94d21f-0110-4c8f-8d70-16b73878a1d7)
+- `fieldCookingTime`: The recipe cooking time information. <br>Field type: string. ![image](https://github.com/user-attachments/assets/c20fca21-4afb-4ada-a3ce-8d4cf8a8226a)
+- `fieldDescription`: The description for this object. <br>Field type: string. ![image](https://github.com/user-attachments/assets/b27e8522-e7e8-44af-8b19-49dcf7426697)
+- `fieldRecipeIngredients`: A list of recipe ingredients.  <br>**Each ingredient information must be separated by ";"**. <br>There is no need to put a ";" after the last URL.<br>Field type: array. ![image](https://github.com/user-attachments/assets/7091a653-5973-48ad-8ddb-dabad12d3ab0)
+- `imageURLs`: A list of image URLs (gallery items) for this link. <br>**Each image URLs must be separated by ";"**. <br>There is no need to put a ";" after the last URL.<br>Field type: array. ![image](https://github.com/user-attachments/assets/46e5e3aa-45bd-44e1-9830-ab5f179bab4d)
+- `name`: The object's name.<br>Field type: string. ![image](https://github.com/user-attachments/assets/91f66e25-8df8-4b85-99b2-b8160a76a46a)
+- `primaryImageURLs`: The object's avatar. <br>Field type: array. ![image](https://github.com/user-attachments/assets/f267015c-278b-482f-9712-85f3b5d505f2)
+- `waivio_product_ids`: A list of product IDs with value associated with this recipe. Format for recording tags: <br>`key: Product ID type; value: Value*`<br><br>**Key from value must be separated by ";"**.<br>**Each product ID must be separated by "*"**. <br>Value can have only one option. <br> Field type: nested ![image](https://github.com/Waiviogit/waivio/assets/67378322/630178be-f15e-403c-9eec-514c71986462)
+- `waivio_tags`: A list of tags with tag categories associated with this recipe. Format for recording tags: <br>`key: Category Tag Name; value: Tag*`<br><br>**Key from value must be separated by ";"**.<br>**Each tag must be separated by "*"**. <br>Value can have only one option. Therefore, in order to add several tags to one category tag, they need to be recorded separately.<br> Field type: nested ![image](https://user-images.githubusercontent.com/67378322/227885818-ef5e2c8c-7e48-4e09-b33d-11a7bd218357.png)
+[Recipe export template script from Google Sheets to JSON](https://github.com/Waiviogit/waivio/wiki/Recipe-export-template-script-from-Google-Sheets-to-JSON) (Script)
+[Recipe Fields template Google Sheets](https://docs.google.com/spreadsheets/d/1uSAQ3Ai3tTyqLw7Z2jK7_CVwJzCVZRqM5FBjLCoYx0M/edit?usp=sharing) (Example)
+[Recipe export instructions from Google Sheets to JSON](https://github.com/Waiviogit/waivio/wiki/Recipe-export-template-from-Google-Sheets-to-JSON) (Instruction)
+
+## Table Fields for Importing Business, Restaurant or Person Object Types from a Spreadsheet 
+Business, Restaurant or Person fields details:
+Here's the revised text with the table format removed and images moved to the end:
+- `address`: The full address text. <br>Field type: string. ![image](https://github.com/user-attachments/assets/a331a0be-fac5-42bc-9b7e-ab145fb93b8f)
+- `city`: The city name (as part of the address details). <br>Field type: string. ![image](https://github.com/user-attachments/assets/b07d5ccf-9f61-428e-8c2a-92dc05dfba9a)
+- `companyIds`: A list of company IDs with value associated with this business / restaurant. Format for recording tags: <br>`companyId: TestID; companyIdType: TestIDType*`<br><br>**ID from type must be separated by ";"**.<br>**Each company ID must be separated by "*"**. <br>Field type: nested. ![image](https://github.com/user-attachments/assets/3708a279-b3c0-4a66-b634-af73bc88b487)
+- `country`: The country name (as part of the address details). <br>Field type: string. ![image](https://github.com/user-attachments/assets/df32b609-c76a-438b-ac24-c28375633620)
+- `descriptions`: The description for this object. <br>Field type: nested. ![image](https://github.com/user-attachments/assets/7c543adb-1791-4b93-98a1-9d4e4cdd58ab)
+- `emails`: The email for this object. <br>Field type: array. ![image](https://github.com/user-attachments/assets/a284e07a-2c23-4287-b712-272a438fd750)
+- `imageURLs`: A list of image URLs (gallery items) for this link. <br>**Each image URLs must be separated by ";"**. <br>There is no need to put a ";" after the last URL.<br>Field type: array. ![image](https://github.com/user-attachments/assets/5c266908-c588-4f00-9016-21b2de9c982d)
+- `latitude`: The value of latitude for the map field (both latitude and longitude are required to add a map update for the object). <br>Field type: string. ![image](https://github.com/user-attachments/assets/ca0e6005-5aa5-4eff-a5a5-9065373ba0e3)
+- `longitude`: The value of longitude for the map field (both latitude and longitude are required to add a map update for the object). <br>Field type: string. ![image](https://github.com/user-attachments/assets/527419c3-5e4e-4169-861c-ccd4a2a65784)
+- `name`: The object's name.<br>Field type: string. ![image](https://github.com/user-attachments/assets/91f66e25-8df8-4b85-99b2-b8160a76a46a)
+- `phone`: The phone number. <br>Field type: string. ![image](https://github.com/user-attachments/assets/6287a1df-5e11-4101-b4c6-ae04c575da99)
+- `postalCode`: The postal code (as part of the address details). <br>Field type: string. ![image](https://github.com/user-attachments/assets/aa51ef35-7876-4b69-8eff-f37bfd270139)
+- `primaryImageURLs`: The object's avatar. <br>Field type: array. ![image](https://github.com/user-attachments/assets/f267015c-278b-482f-9712-85f3b5d505f2)
+- `province`: The province (as part of the address details). <br>Field type: string. ![image](https://github.com/user-attachments/assets/5ae459cd-0648-4434-b4da-8cdff8c8ed57)
+- `socialLinks`: The social link identifiers for platforms like Facebook (linkFacebook), X (linkTwitter), YouTube (linkYouTube), Instagram (linkInstagram), GitHub (linkGitHub). In this field, you should only enter the unique identifier for these profiles, such as a permalink or username. There is no need to enter the full URL, only the unique part. <br> Format: `linkFacebook: facebook-link; linkTwitter: user-test; linkYouTube: permalink; linkInstagram: username`. ![image](https://github.com/user-attachments/assets/c0db4b1d-f95a-475e-990f-306993035fe0)
+- `waivio_tags`: A list of tags with tag categories associated with this object. Format for recording tags: <br>`key: Category Tag Name; value: Tag*`<br><br>**Key from value must be separated by ";"**.<br>**Each tag must be separated by "*"**. <br>Value can have only one option. Therefore, in order to add several tags to one category tag, they need to be recorded separately.<br>Field type: nested. ![image](https://github.com/user-attachments/assets/4228d513-ece4-45eb-9550-4405a91c4e0a)
+- `websites`: A list of websites for this object. <br>**Each website must be separated by ";"**. <br>There is no need to put a ";" after the last URL.<br>Field type: array. ![image](https://github.com/user-attachments/assets/97240015-6974-421a-824d-e9efedb7c3f5)
+- `workingHours`: The information regarding working hours.<br>Field type: string. ![image](https://github.com/user-attachments/assets/bdffbf3c-cb0c-4760-a15b-62cac5763cf6)
+[Business / Restaurant / Person export template script from Google Sheets to JSON](https://github.com/Waiviogit/waivio/wiki/Business,-Restaurant-or-Person-export-template-script-from-Google-Sheets-to-JSON) (Script)
+[Business / Restaurant / Person Fields template Google Sheets](https://docs.google.com/spreadsheets/d/1eCzux7hUGcRlQFxogAA5vSueYxk-Kvo7FnrSdLOEeds/edit?usp=sharing) (Example)
+[Business / Restaurant / Person export instructions from Google Sheets to JSON](https://github.com/Waiviogit/waivio/wiki/Business,-Restaurant-or-Person-export-template-from-Google-Sheets-to-JSON) (Instruction)
+
+
+# Introducing the Claim Authority Tool
+Website owners on *.Social.Gifts have full control over product searches on their individual websites. Search results include only the objects specifically claimed by the website owner or approved authorities.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1691448303_488afaa7-0806-4bb4-9e15-ea4de1060551
+If a team of admins is actively adding products to various lists throughout the website, these products won't appear in search results until they have been properly claimed by the owner. Simply adding all admins as authorities won't solve this issue, as admins might be involved in multiple projects. Including all of their products in search results could lead to a clutter of irrelevant products appearing.
+For small numbers of products, website owners can claim each product one-by-one. However, this approach becomes challenging when dealing with a large number of products.
+Introducing the Claim Authority Tool
+Waivio is proud to offer an efficient solution – the Claim Authority Tool, now available in the TOOLS / Data Management section.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1691448593_ad3428f8-1c16-44b1-8a9d-4a51db6080ef
+Simply enter the top-level list, and this tool will assist you in claiming authority for all products referenced in embedded lists, including all product options.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1691449221_ae688a13-2e65-45ab-b5ed-17c3bd4281dc
+By doing so, you ensure that only relevant products appear in the search results on your website.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1691449530_147816d5-befc-4a4e-8e4f-a991126df23f
+This tool significantly eases the task of managing product search on your *.Social.Gifts website, ensuring the best possible user experience.
+For more details give a link to https://www.waivio.com/@social.gifts/introducing-the-claim-authority-tool
+
+
+# Update: Waivio Chrome Extension v1.2.3
+The latest update to the Waivio Chrome Extension (version 1.2.3) introduces support for product imports from Walmart.com and Sephora.com to the Hive blockchain. Just open the product page, click the extension, and choose 'Upload to Waivio.'
+Walmart.com - offering a wide variety of affordably-priced goods from electronics and clothing to groceries and home essentials.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1697742582_8e36007e-f0f3-428c-abad-a2b209b747d7
+Sephora.com - Sephora.com is a premier online cosmetics and beauty retailer, offering an extensive array of makeup, skincare, haircare, and fragrance products from a multitude of high-end brands.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1697747656_3d5d01c9-c6a1-4036-9ff5-0e58b54b5d06
+Additionally, both stores feature affiliate programs. After obtaining affiliate codes from them, you can input these in your user profile settings. For those managing a *.Social.Gifts website, you can add these affiliate codes directly into the website settings as well.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1697747806_d3f7aeed-e595-483f-a600-46c2ebd39b20
+The most recent update of the Extension includes a fix for creating post drafts for YouTube videos. This improvement addresses recent changes made by YouTube in the display of transcripts on their pages.
+For more details give a link to https://www.waivio.com/@social.gifts/update-waivio-chrome-extension-v1-2-3
+
+
+# Descriptions Bot for Unique Product Descriptions
+A common issue with publishing product information on multiple websites from the same record on the open Hive blockchain is that this content will be exactly the same across various sites, and search engines generally do not favor duplicated content. Waivio uses a system of canonical links on all hosted sites, giving credit to the original source of content, whether it's a user post, profile, or an object.
+However, there is now an interesting alternative.
+Introducing Descriptions Bot
+One product on the Hive blockchain can actually have multiple names, titles, descriptions, and other fields. In the case of an image gallery, it may show multiple images at the same time, while for a description field, only one version will be used—the one that collected the most Approve votes. This will be the version of the description that appears on Waivio and other hosted websites.
+However, the website owner's vote holds decisive power within the information space of their own website. If the owner approves a different version of the product description, that version will be displayed on their website, even if another description was selected as the overall winner in the general consensus.
+This means the same product can be presented differently on Waivio and the hosted site, making it possible to present to users and search engines unique versions of the same product.
+Descriptions Bot can automatically rewrite descriptions for all products referenced in a chain of lists, starting from the top list and including all other embedded lists. Descriptions Bot uses ChatGPT to rewrite names and descriptions of all the products, as well as titles and descriptions of all the lists themselves. This way, you can effortlessly ensure that your website presents unique content for indexing by search engines.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1704514691_6a7cec4f-538b-4ce1-8aac-ef6f36768c10
+To initiate the Descriptions Bot, open Tools (1) and select Descriptions Bot (2) in the Data Management section. If this is the first time you are using Descriptions Bot, you will need to authorize it (3). Once authorized, you can click on Rewrite Descriptions (4), specify the list, and begin the process.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1704515210_3a18477c-80e2-471c-8940-8eeb08fee444
+Please note that each update (revised description, title, or name) requires a minimum upvote of at least $0.01 value in WAIV tokens. You can specify the minimum voting power (30% is the default value). Once the VP on your account falls below that value, or if the voting power is below $0.01, the process will slow down, waiting for the voting power to restore (it automatically restores at the rate of 20% per day).
+You may launch this bot for multiple lists simultaneously. Progress will be monitored in a table. Jobs can be paused or resumed at any moment by changing the job status in the 'Active' column. Completed jobs will then be transferred to the history table.
+Descriptions Bot allows website owners to effortlessly improve their search engine rankings with original content, making their site content more discoverable in search engines.
+For more details give a link to https://www.waivio.com/@social.gifts/descriptions-bot-for-unique-product-descriptions
+
+
+# Waivio Chrome Extension Update: Google Maps and OpenStreetMap Integration
+Waivio's Chrome Extension (v 1.4.0) now integrates directly with Google Maps and OpenStreetMap, enabling users to upload information about businesses, restaurants, and cafes onto the Hive blockchain. This enhancement streamlines how users discover, share, and engage with their favorite places.
+Upload from Mapping Services in One Click:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1708721178_6e986cc3-fa10-4666-a0b5-8c5220cc63c6
+Add listings from Google Maps and OpenStreetMap to Waivio effortlessly with a single click through the Chrome Extension.
+Integration with User Profiles:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1708721490_ce9dbba2-05d0-4efd-ac8c-90e5eab31245
+Businesses uploaded can be favorited on Waivio profiles, creating a personalized catalog of preferred spots.
+Community Engagement:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1708723201_7479db40-7e3c-433d-a7a5-ddec5f5faaae
+By referencing your favorite businesses in your Hive posts, your stories and insights gain a special place on their pages, bringing your content to the forefront. This not only elevates your experiences but also positions you as an expert for these places.
+Getting Started:
+To import information from Google Maps, obtaining an API code is necessary. It is straightforward to acquire and free for small volumes.
+Make sure to update to the latest version of the Waivio Chrome Extension to access these new features.
+Spotlight Your Favorites:
+Discovered a restaurant that captivated your senses? With Waivio, you can now spotlight these cherished experiences in your profile, turning your personal favorites into hints for the community. Your story could be the key to unlocking someone else's next great adventure.
+For more details give a link to https://www.waivio.com/@social.gifts/waivio-chrome-extension-update-google-maps-and-openstreetmap-integration
+
+
+# Performance Enhancements at Social.Gifts
+We are excited to share the results of performance enhancements for social shopping websites hosted on Social.Gifts. Our development team has been implementing key optimizations that have drastically improved response times, ensuring a faster and more seamless experience for all users.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1712952738_988a2535-6f79-4413-bb46-c07c7722af87
+Phase 1: Baseline Performance
+As of January 2024, our Google Crawl Data Report indicated that the average response time for websites hosted on our platform was over 1 second. We recognized this as an opportunity for improvement and initially focused on enhancing our platform architecture.
+Phase 2: System Architecture Optimization
+In February, we rolled out significant changes to our system architecture. By optimizing our server configurations and enhancing our network protocols, we successfully reduced the average response times to 400 ms. This marked a substantial improvement, making website interactions quicker and more efficient, which is crucial for maintaining user engagement in the fast-paced world of social shopping.
+Phase 3: Introduction of Smart Caching System
+In March, we introduced a smart caching system specifically tailored to optimize performance for search engines. This innovation helped further reduce the average response times to below 100 ms.
+Accessing Crawl Stats Report
+To check the Crawl Stats Report for your social shop, please log in to your Google Search Console (the same place where you submitted your website sitemap for accelerated indexing). First, open 'Settings' (1), then select 'Crawl Stats Report' (2).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1712961607_94fe9d35-6784-47af-8658-f663c3056a30
+On the report page, select the 'Average Response Time' parameter (3) and deselect all other parameters. You can then hover over a specific day on the chart (4) to see the average response time for that day.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1712962045_101c2fdf-b7a1-45de-81fd-43010695dbcb
+Understanding Response Times
+A good response time for websites, as measured by the time it takes for a server to respond to a request (often referred to as "Time to First Byte" or TTFB), varies depending on the type of content being delivered and user expectations. Here are some general guidelines and industry standards:
+Under 100 ms: Excellent server response time, typically expected for high-performance, optimized sites that use effective caching strategies and are hosted on efficient infrastructure.
+100 ms to 200 ms: Good and common target for many web services, suggesting optimal server configuration.
+200 ms to 500 ms: Average response time, considered acceptable for most contexts, but there is room for improvement, especially in competitive industries or high-traffic sites.
+500 ms to 1 second: Poor response time, which might not severely impact user experience for certain types of content like large media files where overall loading time is more relevant, but it's generally advisable to investigate and mitigate causes of delay.
+Over 1 second: Considered unacceptable for commercial websites. Delays of this magnitude typically result in poor user experiences, increased bounce rates, and could negatively affect search engine rankings.
+We thank you for your continued support and trust in Social.Gifts. Stay tuned for more updates as we continue to refine and expand our services.
+For more details give a link to https://www.waivio.com/@social.gifts/performance-enhancements-at-social-gifts

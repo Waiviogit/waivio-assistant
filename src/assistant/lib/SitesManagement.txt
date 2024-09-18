@@ -1,0 +1,1658 @@
+# Customizing a Site Created on Waivio
+To customize a site created on Waivio, the user will have access to a "Site Settings" block, which appears in the Tools tab after the site has been created. The following tabs will be available to the user: Configuration, Settings, Affiliate Codes, Administrators, Moderators, Authorities, Muted Users, and AdSense Ads.
+![Image](https://github.com/user-attachments/assets/d06354e2-8e56-47ba-b4d4-b19dd34542ac)
+
+
+# Tools / Site / Configuration
+The Configuration tab houses the primary settings for customizing the appearance and structure of the site.
+![Configuration page image](https://github.com/Waiviogit/waivio/assets/67378322/0159269a-c83a-442f-bc4e-707098ea2149)
+
+## Page elements in Configuration (website)
+Title: Website configuration
+### Colors section
+This section allows users to customize website colors. Users can select the main color (e.g., button background color) and text color (e.g., button text color). It consists of a color preview, title, and a "Select color" button.
+Titles: "Website colors:", "Main color", "Text color".
+Clicking the "Select color" button opens the "Website colors" modal window.
+![image](https://github.com/Waiviogit/waivio/assets/67378322/bdc596ce-a5bd-42fb-ab4d-057b6939b473)
+
+### Desktop logo in Configuration (website)
+This section allows users to customize the desktop version of the site's logo. 
+Title: Desktop logo
+Preview: Image preview. User avatar displayed by default.
+Button: "Change logo" button to open the "Choose image" modal window. 
+Note: "Desktop logo will appear on the homepage of the desktop version of the site.".
+![image](https://github.com/Waiviogit/waivio/assets/67378322/54c3ca3c-9eab-4477-871e-2af2af890f61)
+
+### Mobile logo in Configuration (website)
+This section allows users to customize the mobile version of the site's logo. 
+Title: Mobile logo
+Preview: Image preview. User avatar displayed by default.
+Button: "Change logo" button to open the "Choose image" modal window. 
+Note:"Mobile logo will appear on the home page of the mobile version of the site.".
+![image](https://github.com/Waiviogit/waivio/assets/67378322/1b196541-07ca-4b1d-8c45-8cc779d84d6e)
+
+### List default image in Configuration (website)
+This section allows users to customize the default image for lists that do not have a specified avatar.
+Title: List default image
+Preview: Image preview. User avatar displayed by default.
+Button: "Change image" button to open the "Choose image" modal window. 
+Note: "List default image will be displayed for those lists that don't have an avatar.".
+![image](https://github.com/Waiviogit/waivio/assets/67378322/a07a1676-d3d2-4a50-abc9-74e4fc5cf0b7)
+
+### Main banner in Configuration (website)
+This section allows users to customize the site's banner.
+Title: Main banner
+Preview: Image preview.
+Button: "Change banner" button to open the "Choose image" modal window. 
+Note: "Main banner will be displayed at the top of all website pages.".
+![image](https://github.com/Waiviogit/waivio/assets/67378322/b2797e1a-d4cd-487a-8034-e35072dc4fef)
+
+### Base object in Configuration (website)
+This object serves as a core reference for creating the website's main menu. 
+Title: "Base object:"
+Search: Initially displays a user or object card that can be transformed into a search field. The base object can be a product, business, restaurant objects, or users. The site creator is set up by default. If a product or business doesn't have menu items, the site will consist of two tabs: 1 - Home, representing the entity itself, and 2 - Legal. This applies similarly to restaurants; even if a restaurant offers menu items, the site will still have the same two tabs.
+Edit: "Edit" button to convert the user card into a search field. Once clicked, "Edit" changes to "View".
+Note: The main menu of the website will be created using the base object.
+![image](https://github.com/Waiviogit/waivio/assets/67378322/e669af37-874f-4269-a989-5a61a3e86a6e)
+
+### Default hashtag in Configuration (website)
+The "Default Hashtag" section allows users to specify a hashtag that will be recommended for all new posts on the website, aiding in organizing content and ensuring consistent appearance in the site's custom newsfeed. 
+Title: "Default hashtag:"
+Search: A search field for hashtag type. Initially displays a search field that can be transformed into an object card.
+Note: This hashtag will be recommended for all new posts on the website, ensuring that they consistently appear in the website's custom newsfeed.
+![image](https://github.com/Waiviogit/waivio/assets/67378322/dad15a18-0cad-4878-a4c4-c4bc752f2cb3)
+![image](https://github.com/Waiviogit/waivio/assets/67378322/73f43f8e-8907-4d28-81a1-c1ebdb6b8524)
+
+### Website header in Configuration (website)
+The "Website Header" section allows users to modify the site name. By default, the site name is displayed as the full domain name in uppercase.
+Title: "Website header:"
+Preview: Preview of the site name.
+Button: "Edit" button that opens the "Edit website header" modal window.
+![image](https://github.com/Waiviogit/waivio/assets/67378322/10f0e2ca-06b4-40ca-bad0-89bc766dc182)
+
+### "Website colors" modal window in Configuration (website)
+Title: Website colors
+Main: The "Main color:" button allows users to choose a color from a palette. The default color is Orange from Waivio.
+Text: The "Text color:" button allows users to choose a color from a palette. The default color is White from Waivio.
+OK: The "OK" button allows users to submit and save the selected colors.
+Cancel: The "Cancel" button allows users to cancel the action and close the modal window.
+Cross: The cross button allows users to close the modal window and cancel the action.
+![image](https://github.com/Waiviogit/waivio/assets/67378322/9279dd6a-5c2a-410b-96f2-8322bc98c531)
+![image](https://github.com/Waiviogit/waivio/assets/67378322/2b4b852e-1cd3-49ac-a2a9-652afed20856)
+
+### "Choose image" modal window in Configuration (website)
+Title: Choose image
+Upload: Block to upload an image from the user's device.
+URL: Field to paste an image via clipboard or paste an image link.
+OK: The "OK" button allows users to submit and save the selected image.
+CANCEL: The "Cancel" button allows users to cancel the action and close the modal window.
+CROSS: The cross button allows users to close the modal window and cancel the action.
+![image](https://github.com/Waiviogit/waivio/assets/67378322/e9d783e6-d9d7-4683-8254-5b87f57fc077)
+
+### "Edit website header" modal window in Configuration (website)
+LABEL: Website name:
+FIELD: field to enter text.
+SAVE: The "Save" button allows users to submit and save the selected image.
+CANCEL: The "Cancel" button allows users to cancel the action and close the modal window.
+CROSS: The cross button allows users to close the modal window and cancel the action.
+![image](https://github.com/Waiviogit/waivio/assets/67378322/c3c42d1f-f148-446a-ad81-2be65e2521e0)
+
+
+# Tools / Site / Settings in Settings (website)
+The **Settings** page (website) provides centralized control over settings that impact the entire website. It allows for adjustments of parameters such as language preferences, currency settings, and verification methods, offering the website owner full control over key operational aspects.
+![image](https://github.com/Waiviogit/waivio/assets/67378322/3067be26-33dc-4dd6-9f62-68e0f4b8aa24)
+
+## Language Preferences in Settings (website)
+This section allows users to select the default language for the website interface. The default language is set to English, but users can choose from other available languages via a dropdown menu. Note that individual users can customize their language preferences through personal settings.
+Title: "Default language:".
+Dropdown: drop-down with languages supported by platform. By default - English.
+Note: "Users can select another language for the interface in the user settings."
+![image](https://github.com/user-attachments/assets/577bef29-5dc8-450f-9294-d48f965b8065)
+
+## Currency Settings in Settings (website)
+The base currency of the site is set to USD by default, with other options available in a dropdown menu. A note clarifies that exchange rates are provided by third-party services and may not always be fully accurate.
+Title: "Base currency:"
+Dropdown: drop-down with currencies supported by platform. By default - USD.
+Note: "Disclaimer: Exchange rates are provided by third parties and may not always be accurate."
+![image](https://github.com/user-attachments/assets/b8e02513-cf7f-4d45-aaf3-002e39c67f29)
+
+## Object Control by Users in Settings (website)
+This feature gives website administrators full control over how users interact with objects on the platform. A checkbox, disabled by default, restricts object edits to approved administrators only. When enabled, object updates made by non-admin users will not be applied unless an administrator approves them. The restriction applies specifically to objects claimed by one of the administrators.
+Title: "Object editing by users:"
+Checkbox: Checkbox (disabled by default), which gives the owner and admin group full control over all objects on the site. That is, only object updates that are approved by them will be used to form objects. This function will need to be limited to objects that have been claimed by one of the administrators.
+Checkbox text: "Do not allow users to make changes to objects on the website. Only updates by approved administrators will be used."
+![image](https://github.com/user-attachments/assets/0b97886e-ccac-4255-8873-501d3aefb1a6)
+
+## Google Analytics Integration in Settings (website)
+This section allows the website owner to add a Google Analytics 4 measurement ID to monitor site performance. A placeholder field is provided for entering the ID, which should follow the format “G-XXXXXXX.”
+Title: "Google Analytics 4 property ID:"
+Input: Input for Google Analytic tag. Placeholder - "Paste Measurement ID here"
+Note: "You can monitor website performance using Google Analytics. Please note, that Google Measurement ID should look like G-XXXXXXX."
+![image](https://github.com/user-attachments/assets/61adeb8c-7602-4d38-8a3a-37a5387ad33e)
+
+## Google Search Console Verification in Settings (website)
+To verify site ownership with Google Search Console, the website owner can input an HTML verification tag. A placeholder field allows for easy entry of the tag, which will be added to the website's header.
+Title: "Google Search Console HTML verification tag:"
+Input: input for HTML verification tag. Placeholder - "Paste your meta tag here"
+Note: "Obtain an HTML verification tag from Google Search Console and enter it here to verify site ownership. This tag will be added to your site's header."
+![image](https://github.com/user-attachments/assets/dde17017-db89-493d-87be-2c24d9cd5107)
+
+## Google Ads Configuration in Settings (website)
+To enable outbound click tracking in Google Ads, this section provides fields for the outbound click config command and event snippet. The config command should follow the format gtag('config', 'AW-XXXXX'), and the event snippet can be used to track conversions. Instructions for obtaining these values are provided within the section.
+Google Ads Outbound Click Config Command:
+Title: "Google Ads Outbound Click Config Command:"
+Input: input for config command. Placeholder - "Paste your Config Command here (e.g., gtag('config', 'AW-XXXXX');)"
+Note: "To find the 'config' command in Google Ads, navigate to Tools > Conversions > Outbound Click > Tag Setup > Install Tag Yourself > Google Tag > The Google tag is already installed on all pages..."
+![image](https://github.com/user-attachments/assets/71175a00-e3d6-4267-9aa1-e1df2163ba0a)
+Google Ads Outbound Click Event Snippet:
+Title: Google Ads Outbound Click Event Snippet:
+Input: text field for code snippet code. Placeholder - "Paste your Event Snippet for Outbound Click here"
+Note: To find the event snippet in Google Ads, navigate to Tools > Conversions > Outbound Click > Tag Setup > Install Tag Yourself > Event Snippet > Click.
+![image](https://github.com/user-attachments/assets/575ca80f-1ed9-49b9-833a-d0ed9a793143)
+
+## Beneficiary Settings in Settings (website)
+The website owner can designate a beneficiary to receive a percentage of rewards generated by posts submitted through the platform. By default, the beneficiary is set to the user account, but this can be changed to another user. The percentage of rewards given to the beneficiary is set at 5% by default, but this value can be adjusted as needed.
+Title: Beneficiary
+Note: The website owner may earn a share of the author rewards on posts submitted using their website.
+Account: "Beneficiary account:" by default - user account. It is a field for searching a user, and adding him as beneficiary. On waivio - waivio - receives the beneficiary reward, but for the site, the user can change this setting.
+Percent: "Beneficiary %:" percent for beneficiary. By default - 5%.
+![image](https://github.com/user-attachments/assets/3c9cfb26-5494-4919-9c6f-007b143d6374)
+
+## Referral Payments in Settings (website)
+Website owners have the option to receive referral commissions when users claim rewards through the platform. A field is provided for specifying the account that will receive referral payments. Referral commissions are governed by the terms set by the Campaign Management Services used by sponsors.
+Title: Referral payments
+Note:The website owner may receive referral commissions when users claim their rewards through the website.
+Account: "Account for referral payments:" by default - user account. It is a field for searching a user, and adding him as referral. On waivio - waivio - receives the referral reward, but for the site, the user can change this setting.
+Note 2:	The terms for referral commissions are defined by the Campaign Management Services used by sponsors to launch their campaigns.
+![image](https://github.com/user-attachments/assets/b85f7657-c557-4139-ab42-c85825690445)
+
+## Save Changes Setting (Website)
+At the bottom of the page, a "Save" button allows the website owner to apply any changes made to the settings.
+![image](https://github.com/user-attachments/assets/3c75d319-7ca5-4e2c-ad50-d6b7615fea0e)
+
+
+# Tools / Site / Affiliate codes
+The **Affiliate Codes** (website) page allows users to enter and manage their affiliate codes for the website. These codes enable users to earn commissions from affiliate programs such as Amazon, Walmart, and others by automatically integrating them into 'Buy Now' links across the site’s product listings.
+![image](https://github.com/Waiviogit/waivio/assets/67378322/9a7154ec-897b-444c-a59b-05f26778330b)
+
+### Element description in Affiliate codes (website) page
+Title: Affiliate codes for {site}
+Text: Enter your affiliate program codes from various platforms, including Amazon.com, Walmart.com, and others. These codes will be automatically integrated into the 'Buy Now' links across your website's product listings. This ensures you earn affiliate commissions from all sales initiated by your website visitors. Take advantage of the geo-targeting feature by entering affiliate codes for location-specific shops, such as Amazon.ca, Amazon.co.uk, and more. These codes will direct traffic based on the geographical location of your website visitors, thereby maximizing your potential affiliate revenues.
+For a seamless and uninterrupted user experience, we also recommend checking and confirming the Product IDs on your products.
+Find: "Find affiliate program"
+Find field: search field by affiliate programs object type.
+Codes title: "Affiliate codes:"
+Codes list: list of affiliate programs that user added. Affiliate card include name, code and Delete button. If a user deletes an affiliate code and then re-adds the same code, our system will recognize this action. Instead of creating a new update, we will automatically validate and update the existing code, adding approve vote.
+
+**Affiliate Code Features:**
+- If a user has not provided a region-specific affiliate code, the system will default to the next available code in the country-region-global hierarchy. Button links for the missing region will redirect to the code that is set.
+- If a user deletes a site, the corresponding affiliate code will be invalidated. However, if the user re-adds the same site with the same affiliate code, the system will automatically approve the code to make it active again.
+- When an affiliate code is updated via the **Affiliate Codes** page (for both users and sites), it will automatically receive a 1% approval vote.
+- If a user owns a store but hasn’t provided personal affiliate codes, the system will insert the website’s default affiliate codes on the **social.gifts** sites.
+
+
+# Tools / Site / Administrators
+Hive is a public blockchain where any user can publish updates to objects. These updates are then subject to community voting for approval or rejection. However, on individual websites, there may be a need for certain objects to appear in a specific way as defined by the site operators.
+To manage this, the website owner can assign administrative privileges to certain Hive users, giving them the authority to govern the appearance and updates of objects. Administrators play a key role in deciding which updates to approve or reject.
+![Administrator Management UI](https://user-images.githubusercontent.com/42100432/93951599-a4cb5000-fcfb-11ea-8414-5c95ada36549.png)
+### Administrator Voting and Object Ownership:
+- **Voting Power**: Administrators have the final say in whether an update is accepted or rejected for the site. If several administrators vote on the same update, only the last vote is considered.
+- **Object Ownership**: If an administrator claims ownership over an object, only the updates that are explicitly approved by that administrator (or other approved administrators) will be displayed for the object.
+### Managing Administrators:
+In **Administrators Mode**, the website owner can add or remove administrators as needed. The process for managing the administrator list is similar to managing a blacklist. 
+1. **Grant Administrative Privileges**:
+   - Use the "Find User" field to search for and select a Hive user to assign as an administrator.
+   - The "Add" button will become active once a user is selected.
+2. **List of Website Administrators**:
+   - The **Administrator List** displays all users who have been assigned administrative privileges.
+   - Each entry includes a delete button, allowing the removal of an administrator if necessary.
+
+
+# Tools / Site / Moderators
+Some content published on the Hive blockchain may conflict with local laws or company policies. To ensure that such content does not appear on your website, the site owner can appoint moderators.
+![Moderator Management UI](https://user-images.githubusercontent.com/67378322/141975953-fb4f53c6-6c48-4c1b-87b8-8f541b02857b.png)
+### Moderator Roles:
+- **Hide Content**: If a moderator flags a post or comment as inappropriate, that content will be removed from the site.
+- **Mute Users**: If a moderator mutes a user, none of the content from that user will be displayed on the site.
+### Managing Moderators:
+The process for managing moderators is similar to managing blacklists. 
+1. **Grant Moderator Privileges**:
+   - Use the "Find User" field to search for and select a Hive user to assign as a moderator.
+   - The "Add" button will become active once a user is selected.
+2. **List of Website Moderators**:
+   - The **Website Moderators** section displays all users who have been granted moderator privileges.
+   - Each entry includes a delete button, allowing the removal of a moderator if necessary.
+Website Moderators Page Text: Some of the content on the Hive blockchain may violate local laws or company policies and it is essential that such content does not appear on the website. The website owner may grant moderator privileges to some Hive users. If a moderator flags a post or comment, that content will not appear on the website. If a moderator mute a user, none of that user's content will be displayed on the website.
+
+
+# Tools / Site / Authorities
+The **Authorities page** is a management interface where website owners can assign and oversee trusted users (authorities) who are responsible for maintaining the accuracy of object data on the site. It provides tools to:
+- Add Hive users as **trusted authorities**, allowing them to approve or reject updates to specific objects.
+- View and manage the list of authorities, ensuring that only approved updates from trusted users are displayed.
+- Assign **ownership authority**, which limits object updates to those explicitly approved by the designated authority.
+The page also allows site administrators to override authority votes, ensuring key decisions like affiliate link updates align with site goals.
+Authority Roles:
+- Claiming Authority: Any user can claim authority over an entity, enabling them to monitor and approve updates for accuracy.
+- Trusted Authorities: The website owner can specify which authorities are trusted, ensuring that only updates approved by these users are applied to the site.
+- Administrator Override: The votes of site administrators take precedence over authorities, allowing website operators to make key decisions like including affiliate codes on product links.
+This mechanism can help ensure that object descriptions remain accurate while allowing controlled lists of objects to be added to the website.
+For instance, a manufacturer can oversee the accuracy of their product descriptions, and a website can automatically add the manufacturer’s products to its catalog by including them in the trusted authority list.
+Managing Authorities:
+1. Add Authorities:
+  - Use the "Find User" field to search for and add a user as a trusted authority.
+  - The "Add" button will be enabled once a user is selected.
+2. List of Trusted Authorities: Displays all users assigned as trusted authorities for the website. Each entry includes a delete button to remove a user from the list if needed.
+Page main text: Any Hive user can declare that they are responsible for the accuracy of an object by claiming authority over it. They exercise their authority by approving or rejecting object updates. If full ownership authority has been claimed, then user assumes that only approved updates will be processed. The website owner can specify which authorities to trust (claims of other users will be ignored). This mechanism can be used to add controlled lists of objects to the website, while ensuring their accuracy.
+![2021-11-16_13-27_1](https://user-images.githubusercontent.com/67378322/141977369-7b88e72a-85b5-4754-a91a-a7cd4eba2544.png)
+
+
+# Tools / Site / Muted users
+The **Muted Users page** is a management tool where website owners can monitor and control user privileges. It is divided into two tabs: **Muted** and **Blacklisted**, each serving a distinct function for user moderation.
+Both tabs allow website owners to maintain control over user content and ensure that moderation aligns with site policies.
+![image](https://github.com/user-attachments/assets/e7aac475-fcbf-4bb8-8c94-0e5551e4719f)
+
+### Muted Tab in Muted users
+The **Muted** section displays a list of users who have been muted by website moderators or the site owner. Muted users' posts, comments, and profile information are hidden from the website. Website owners can mute users, but only the moderator who applied the mute can unmute them. If the site owner muted the user, they have the ability to unmute them.
+Moderators can mute users and admins can add them to blacklists and even link to other users and their blacklists. In such a situation, it is important for the site owner to understand why the privileges of a particular user are suspended and by whom. In the case of blacklists, the site owner can restore the user's privileges to edit objects by adding him to his whitelist.
+In the Muted section, all users who are muted by any moderator are collected in one list. The site owner can also mute users and on such users he sees the Unmute button. For everyone else - just a link to the moderator/ s who muted this user.
+If the user is muted, then his posts and comments are not shown, and only his username is shown on the profile page. This mode can be used to partially satisfy the "right to be forgotten" when the user requires the site owner to keep information about him unavailable.
+![Muted users page image](https://user-images.githubusercontent.com/67378322/141988499-ac1f0d58-1420-4c08-bf73-523e75b643ce.png)
+- **Features**:
+  - Shows a list of all muted users, with a link to the moderator(s) responsible for muting each user.
+  - Muted users only have their username displayed on their profile.
+  - The list can be sorted by rank or recency of the mute action.
+- **Text**: Website moderators can mute users. Posts, comments, and the profile content of muted users are not accessible on the website. The website owner can also mute users, but only the moderator who has muted a user can unmute them.
+
+### Blacklisted Tab in Muted users
+The **Blacklisted** section allows website administrators to blacklist users, which prevents any updates or votes from those users from being counted. Administrators can manage the blacklist and whitelist through the Rewards section, allowing for control over which users' contributions are ignored or restored.
+![2021-11-16_14-32](https://user-images.githubusercontent.com/67378322/141988498-8b185bf1-17da-45cb-a388-9fea2338e480.png)
+- **Features**:
+  - Displays a list of blacklisted users, sourced from the Rewards section.
+  - Administrators can override blacklists by adding users to a whitelist, restoring their privileges.
+- **Text**: Website administrators can add users to blacklists. All object updates and votes on updates from blacklisted users are ignored. The website owner can also add users to their blacklist. They can also add users to their whitelist to override any other blacklist.
+If the administrator added someone to the blacklist, then all updates initiated by this user and votes for updates are no longer counted. Only those updates remain for which there are other votes. In fact, all of this user's contribution to the creation and enhancement of objects should be ignored. Administrators do not have access to site configuration and they use a standard tool - (campaigns) blacklist.
+
+
+# Tools / Site / AdSense ads
+The **AdSense Advertisements** page is a user interface designed to help website owners integrate Google AdSense ads into their website. This ensures ads are displayed across all pages of the site, providing a consistent and seamless ad experience for visitors.
+![image](https://github.com/user-attachments/assets/e8421016-6588-45ff-8e42-7b65c1bb1bbd)
+Unfortunately, the 'AdSense ads' program does not seem to work as expected. After completing all the steps, there is still a high probability that Google AdSense will not approve the domain unless the site meets AdSense policy criteria. We are currently investigating the reasons for this.
+
+AdSense ads page element:
+- **Page Title**: AdSense advertisements
+- **Text**:  Google AdSense is a program that allows website owners to earn revenue by displaying targeted advertisements on their site. These ads are chosen based on the content of the site and the interests of the visitors, ensuring relevance to your audience.
+When integrating the AdSense code into your website, you can choose the level of ad intensity, allowing you to control how prominently the ads are displayed. Simply add the code from Google AdSense and select the desired intensity level on our platform.
+- **AdSense code**: This section allows users to add their AdSense code, which will be embedded in the site's header, ensuring ads are displayed properly across all pages.
+- **Ads.txt**: This section is used to input the `.txt` content needed for Google AdSense’s ads.txt file, which is required for ad verification and transparency.
+- **Level**: This dropdown menu allows users to control how frequently ads are displayed on their site, balancing user experience with potential ad revenue.
+- **Save**: This button applies any changes made to the AdSense configuration.
+![image](https://github.com/user-attachments/assets/e8421016-6588-45ff-8e42-7b65c1bb1bbd)
+
+### AdSense Code Section
+This section allows users to add their AdSense code, which will be embedded in the site's header, ensuring ads are displayed properly across all pages.
+- **Label**: AdSense code
+- **Placeholder**: Add your AdSense code
+- **Note**: This code will be displayed within the `<head></head>` tags on every page of your site.
+![image](https://github.com/user-attachments/assets/aed0bb5c-d221-4f31-91e3-e3dfd649978b)
+
+### Ads.txt Section
+This section is used to input the `.txt` content needed for Google AdSense’s ads.txt file, which is required for ad verification and transparency.
+- **Label**: Ads.txt
+- **Placeholder**: Add your AdSense .txt content
+- **Note**: This text will be added to ads.txt to your site.
+![image](https://github.com/user-attachments/assets/104bd9ee-b053-4cac-a2f7-f807f746d166)
+
+### Ad Intensity Level Section
+This dropdown menu allows users to control how frequently ads are displayed on their site, balancing user experience with potential ad revenue.
+- **Label**: Level
+- **Options**:  
+  1. Minimal  
+  2. Moderate  
+  3. Intensive  
+- **Note**: Choose the advertising intensity to balance user experience with revenue generation.
+![image](https://github.com/user-attachments/assets/181d3bf1-1f1d-4304-893a-c3ef0315c172)
+
+
+# User profile
+The User Profile section is a comprehensive overview of a user's identity and activities on the platform. It includes key elements such as the profile header with visual and financial details, a left sidebar with personal information and financial metrics, and a navigation menu for accessing various tabs. These tabs cover posts, threads, comments, mentions, and activity, along with sections for managing the user's shop, favorites, map, and wallet. This section serves as a central hub for users to view and manage their personal details, contributions, and financial transactions.
+![Image](https://github.com/user-attachments/assets/30222e22-02a1-430c-b4c7-591abe9ea954)
+
+## User Profile Header
+The header contains the Cover Picture, Avatar, Service Name, Total Payout, Edit Profile Button, Username, and User's Level:
+- **Cover Picture**: A background image in the user's profile header. Size limit: ≤ 30 MB (JPG, GIF, or PNG)
+- **Avatar**: An image uploaded via a link on the Edit Profile page, serving as the main photo of the user's profile. Size limit: ≤ 30 MB (JPG, GIF, or PNG)
+- **Service Name**: The user's name, entered in the Name Field on the Edit Profile page.
+- **Total Payout**: The total amount of payouts, in USD, for all related posts, excluding bots and like services (Also serves as a measure of user expertise).
+- **Edit Profile Button**: Allows the user to navigate to the Edit Profile page to update their profile information.
+- **Username**: The name entered during the registration of the user's account.
+- **User's Level**: A system that tracks the user's level based on their activity on the platform. User's Level: 1. Plankton; 2. Minnow; 3. Whale; 4. Dolphin; 5. Orca.
+![image](https://github.com/user-attachments/assets/62bcd95b-4b0d-4d47-aa4c-5f758be45939)
+
+## User Left Sidebar
+Contains basic information about the user in the left sidebar:
+- **About Me**: Information "About Me," provided at the user's discretion and entered on the profile page.
+- **Location**: The user's current location, entered on the profile page.
+- **Website**: A link to any website, provided at the user's discretion and entered on the profile page.
+- **Email**: The user's email information.
+- **Joined**: Displays the user's registration date on the platform in the format: Joined {Month} {Date} {Year}.
+- **Expertise**: The total amount of payouts, in USD, for all related posts, excluding bots and like services. (Also serves as a measure of user expertise.)
+- **Active**: Information about the user's last activity.
+- **Vote Value**: The value of the user's vote (in USD or user currency) based on their balance and the current exchange rate. It is the sum of the WAIV token vote value and HIVE.
+- **Wallets**: The user's wallets include HIVE, HBD, Bitcoin, Litecoin, Ethereum, and Lightning Bitcoin. After clicking, a modal window with the address and QR code is displayed.
+- **WAIV Token**: The WAIV token section displays information about the WAIV token. This includes:
+  - **Upvoting Mana**: A 100% indicator that depends on the power-up of the token. It shows how many votes a user can make. The more staked (powered up), the slower the voting power is depleted.
+  - **Downvoting Mana**: Indicates how many downvotes a user can make (used to flag posts on Waivio).
+  - **WAIV Vote**: The value of the vote in the user's currency (e.g., USD). The more staked (powered up), the higher the vote value.
+- **HIVE Token**: The HIVE token section displays information about the HIVE token. This includes:
+  - **Upvoting Mana**: Indicates the percentage of voting power available for upvoting.
+  - **Downvoting Mana**: Indicates the percentage of voting power available for downvoting.
+  - **Resource Credits**: Shows the available resource credits for performing various actions on the platform.
+  - **HIVE Vote**: The value of the vote in the user's currency (e.g., USD).
+![image](https://github.com/user-attachments/assets/46e890e7-9b96-44ce-a908-37656dd502b4)
+
+
+# User Profile Navigation Menu
+The user profile includes a navigation menu with the following sections and sub-items:
+- **Posts**: Posts, Threads, Comments, Mentions, Activity.
+- **Shop**
+- **Favorites**
+- **Map**
+- **Wallet**: WAIV, HIVE, Hive Engine, Rebalancing.
+- **Followers**: Followers, Following, Objects.
+- **Expertise**: Hashtags, Objects.
+![image](https://github.com/user-attachments/assets/f6c855f6-e5c5-41f1-ab5e-7cca90ee3ebe)
+
+
+# User profile: Posts
+The Posts tab in the user profile displays the user's posts.
+The right sidebar includes a Filter Posts section, where users can filter posts by tags.
+![image](https://github.com/user-attachments/assets/e80d06ec-3bc0-465f-8f6e-b7a1576d09ff)
+
+# User profile: Threads
+ The **Threads** on user profile page displays threads that the user has written, as well as threads that other users have addressed to the user.
+Elements description:
+**`Write threads`** - A field for entering and publishing thread posts.
+**`Threads feed`** - A feed featuring threads, resembling comments but without the app and reblog buttons. When a thread is clicked, it opens in a modal window view.
+**`Right sidebar`** - Contains the "Expertise" section.
+![image](https://github.com/Waiviogit/waivio/assets/67378322/d311e673-200a-4055-8bdd-5ebab18cf401)
+
+Edit thread:
+Threads can be edited in the feed. After clicking on the three dots button, there will be an option 'Edit thread,' and a "small" editor will appear.
+![image](https://github.com/user-attachments/assets/0c092ec0-f4d5-4851-a1ca-b73929da26a4) ![image](https://github.com/user-attachments/assets/5162875d-d3e8-40e8-98f7-8543f2202a1c)
+Threads can be edited in the post modal window mode and full-screen. After clicking on the three dots button, there will be an option 'Edit thread,' and a "comments" editor will appear.
+![image](https://github.com/user-attachments/assets/0d83dcce-4d08-4e5f-95a8-4106c7f42d97) 
+![image](https://github.com/user-attachments/assets/a618dd7c-0eeb-485a-b0f4-92675696a30b)
+
+# User profile: Comments
+The Comments tab in the user profile displays the user's comments.
+![image](https://github.com/user-attachments/assets/049bf428-4cf0-4477-ada0-bb949e1e359d)
+
+# User profile: Mentions
+The Mentions tab in the user profile displays posts where the user has been mentioned.
+![image](https://github.com/user-attachments/assets/1a27c808-5bc0-480c-90dd-fab8fe5dcd55)
+
+# User profile: Activity
+The Activity tab in the user profile displays records of actions that the user has performed and that have been recorded on the blockchain.
+The right sidebar includes a Filter Activities section, where users can filter records by specific actions: General (Upvoted, Downvoted, Unvoted, Followed, Unfollowed, Replied to, Reblogged), Finance (Powered up, Received from, Transferred to, Savings), Rewards (Author reward, 
+ Curation reward, Claim rewards).
+![image](https://github.com/user-attachments/assets/bb5ccc7b-793d-4f5f-b581-274d70f77f8f)
+
+# User profile: Shop
+The Shop section in the user profile includes objects linked in posts, as well as those to which the user has claimed authority. All claimed objects (marked with a heart) are displayed here, allowing users to create their own shop.
+This section includes:
+* Left Sidebar: A department list.
+* Main Feed: A list of three object cards for the main departments. After clicking on a department, it will display nested departments and objects.
+* Right Sidebar: Filters to sort the shop list by Ratings, Tags, and Categories.
+![image](https://user-images.githubusercontent.com/67378322/235594204-6672c677-c57a-45d7-b1b5-4fb238486776.png)
+
+# User profile: Favorites
+**Favorites** is a page where all objects that the user has marked with a heart (indicating administrative authority) are displayed by type. Users can add hearts (administrative authority) to any object type. Favorites are displayed in the user profile and are available to both full Hive accounts and guests. The Favorites left sidebar is sorted by items within each object type category.
+![image](https://github.com/Waiviogit/waivio/assets/67378322/6adc8dea-8d21-4a9e-bdcf-fe0dfd1cb3a6)
+Favorites page details:
+- Favorites left sidebar: Title: "Favorites." Contains a list of tabs with object types. There is no hashtag category. The list is sorted by the number of items in each category, from largest to smallest.
+- Feed: Displays object cards for each category.
+- Right sidebar: Contains the "Expertise" block.
+There is an additional setting for Favorites in Settings which allows user to manage your public favorites list in your profile. By default, the Favorites section displays objects linked from your posts (or first-level comments). However, you can choose not to show these objects by selecting the checkbox "Do not show objects linked in posts" in the Favorites section of the settings.
+![image](https://github.com/Waiviogit/waivio/assets/67378322/32b0e8cc-beeb-4e81-a8eb-607170365c51)
+On object cards, there is a heart icon that allows users to add or remove items from their favorites. A hint is displayed based on the heart's status:
+- "Add to favorites" – if the heart is not active.
+- "Remove from favorites" – if the heart is active.
+![image](https://github.com/Waiviogit/waivio/assets/67378322/86382157-92c7-491f-9aa2-53fd2f6215a2)
+![image](https://github.com/Waiviogit/waivio/assets/67378322/47ae3d3b-df2c-4759-a855-fbffd3cab63f)
+
+# User profile: Map
+The Map section in the user profile displays all favorite (hearted) objects that have a map field, such as businesses, restaurants, etc. The main page content features a map with these objects, and the left sidebar shows object cards corresponding to the locations on the map.
+![image](https://github.com/user-attachments/assets/5c1d2022-a0f9-438c-81b3-0732b3eebb79)
+
+# User profile: Wallet
+Main action in wallet: Transfer, Power up, power down, manage delegation, claim rewards, swap, deposit, withdraw.
+![image](https://user-images.githubusercontent.com/67378322/155954042-5418f09c-5642-4414-bfb4-718002bf4dc8.png)
+
+# User profile: Wallet / Transfer 
+The transfer functionality allows users to send money to one another. When a user clicks the "Transfer" button, a "Transfer Funds" modal window opens.
+### Transfer Modal Window Components:
+- **Title:** "Transfer Funds"
+- **Close Button:** A cross icon to close the modal window.
+- **To Field:** A search field to find a user. 
+  - **Placeholder:** "Find users"
+  - After selecting a user, a button to clear the selection appears.
+- **Amount Field:** A field where the user enters the amount they want to send.
+- **Currency Drop-Down:** A drop-down menu to select the currency to send. 
+  - The menu displays currencies that the user has, sorted as follows:
+    - The first three currencies are WAIV, HIVE, and HBD.
+    - The rest are sorted by price, with currencies having a balance of 0 sorted alphabetically.
+  - If the user clicks the "Transfer" button from the Waiv wallet tab, WAIV is selected by default. If clicked from the Hive or Hive Engine wallet, HIVE is selected by default.
+  - Changing the currency updates the displayed balance accordingly.
+- **Balance Display:** Shows the user's balance for the selected currency.
+  - **Format:** "Your balance: {amount} {currency}"
+  - The balance amount is clickable, automatically populating the amount field with the maximum available balance. The cursor changes to a pointer when hovering over the balance.
+- **Estimated Value:** Shows the estimated transaction value in USD.
+  - **Format:** "Estimated transaction value: {number} USD"
+- **Memo Field:** An optional textarea to leave a comment for the transaction.
+  - **Placeholder:** "Additional message to include in this payment"
+- **Note:** A message informing the user that clicking the button below will redirect them to HiveSigner to complete the transaction.
+- **Continue Button:** Clicking "Continue" redirects the user to HiveSigner.
+- **Cancel Button:** Clicking "Cancel" cancels the transaction and closes the modal window.
+### Hover and Error Messages:
+- The following fields are highlighted in orange when hovered over: "To", "Amount", "Currency", and "Memo".
+- Error messages:
+  - "Amount has to be higher than 0."
+  - "Amount is required."
+  - "Insufficient funds."
+![image](https://github.com/user-attachments/assets/2de1111a-15be-4ebb-b463-dda943b4f011)
+
+# User profile: Wallet / Power Up
+The power-up functionality allows users to stake liquid tokens for themselves. When a user clicks the "Power Up" button, a "Power Up" modal window opens.
+### Power Up Modal Window Components:
+- **Title:** "Power Up"
+- **Close Button:** A cross icon to close the modal window.
+- **Amount Field:** A field where the user enters the amount they want to stake.
+- **Max Button:** A button to set the maximum amount the user can stake.
+- **Currency Drop-Down:** A drop-down menu to select the currency to stake.
+  - The menu displays currencies that the user has, sorted as follows:
+    - The first two currencies are WAIV and HIVE.
+    - The rest are sorted by price.
+    - Currencies with a balance of 0 are not shown.
+  - If the user clicks the "Power Up" button from the Waiv wallet tab, WAIV is selected by default. If clicked from the Hive or Hive Engine wallet, HIVE is selected by default.
+  - Changing the currency updates the displayed balance accordingly.
+- **Balance Display:** Shows the user's balance for the selected currency.
+  - **Format:** "Your balance: {amount} {currency}"
+  - The balance amount is clickable, automatically populating the amount field with the maximum available balance. The cursor changes to a pointer when hovering over the balance.
+- **Notice:** Information about the staking and unstaking process:
+  - "Please note that Power Up (staking) is instant, while Power Down (unstaking) takes time:
+    - 4 weeks for Waiv Power (WP);
+    - 13 weeks for Hive Power (HP).
+  - Staked funds are released each week for the specified period in equal amounts."
+- **Note:** A message informing the user that clicking the button below will redirect them to HiveSigner to complete the transaction.
+- **Continue Button:** Clicking "Continue" redirects the user to HiveSigner.
+- **Cancel Button:** Clicking "Cancel" cancels the transaction and closes the modal window.
+### Error Messages:
+- "Amount has to be higher than 0."
+- "Amount is required."
+- "Insufficient funds."
+![image](https://github.com/user-attachments/assets/054654e7-3fa9-419f-af40-aac097bc2848)
+
+# User profile: Wallet / Power Down
+The power-down functionality allows users to unstake their tokens. When a user clicks the "Power Down" button, a "Power Down" modal window opens.
+### Power Down Modal Window Components:
+- **Title:** "Power Down"
+- **Close Button:** A cross icon to close the modal window.
+- **Amount Field:** A field where the user enters the amount they want to unstake.
+- **Max Button:** A button to set the maximum amount the user can unstake.
+- **Currency Drop-Down:** A drop-down menu to select the currency to unstake.
+  - The menu displays currencies that the user has, sorted as follows:
+    - The first three currencies are WP and HIVE.
+    - The rest are sorted by price.
+    - Currencies with a balance of 0 are not shown.
+  - If the user clicks the "Power Down" button from the Waiv wallet tab, WP is selected by default. If clicked from the Hive or Hive Engine wallet, HP is selected by default.
+  - Changing the currency updates the displayed balance accordingly.
+- **Balance Display:** Shows the user's balance for the selected currency.
+  - **Format:** "Your balance: {amount} {currency}"
+  - The balance amount is clickable, automatically populating the amount field with the maximum available balance. The cursor changes to a pointer when hovering over the balance.
+- **Notice:** Information about the staking and unstaking process:
+  - "Please note that Power Up (staking) is instant, while Power Down (unstaking) takes time:
+    - 4 weeks for Waiv Power (WP);
+    - 13 weeks for Hive Power (HP).
+  - Staked funds are released each week for the specified period in equal amounts."
+- **Note:** A message informing the user that clicking the button below will redirect them to HiveSigner to complete the transaction.
+- **Continue Button:** Clicking "Continue" redirects the user to HiveSigner.
+- **Cancel Button:** Clicking "Cancel" cancels the transaction and closes the modal window.
+### Error Messages:
+- "Amount has to be higher than 0."
+- "Amount is required."
+- "Insufficient funds."
+![image](https://github.com/user-attachments/assets/72442558-726b-4db8-91f4-a434962f707b)
+
+# User profile: Wallet / Manage Delegations
+The "Manage Delegations" functionality allows users to delegate their staked tokens to another user. Upon clicking the "Manage Delegations" button, a "Manage Delegations" modal window opens.
+### Manage Delegations Modal Window Components:
+- **Title:** "Manage Delegations"
+- **Close Button:** A cross icon to close the modal window.
+- **Token Information:** Displays information about the specific token.
+  - **Format:** "Token: {token}"
+- **Available Voting Power:** Displays the available voting power for delegations.
+  - **Format:** "Available voting power for delegations: {price} {token}P"
+- **User List:** A list of users who have received delegations from the authorized user. Each entry includes:
+  - User avatar
+  - Username
+  - Delegation amount (displayed in orange)
+  - Edit button to modify the delegation
+- **Edit Button:** Opens the "Edit Delegation" modal window.
+- **Delegate Button:** Opens the "Delegate" modal window.
+![image](https://github.com/user-attachments/assets/f1ecca53-092d-4743-8685-4ddedd4505fe)
+
+### Delegate Modal Window Components:
+- **Title:** "Delegate"
+- **Notice:** Information about the delegation process.
+  - "Please enter the name of the account that you wish to delegate a portion of your voting power to."
+- **Target Account Field:** A field to search for the user to delegate to.
+  - **Placeholder:** "Find users"
+- **Amount Field:** A field to enter the amount to delegate.
+- **Max Button:** A button to set the maximum amount the user can delegate.
+- **Currency Drop-Down:** A drop-down menu to select the currency for delegation.
+  - Displays available currencies, sorted as follows:
+    - The first two currencies are WAIV and HIVE.
+    - The rest are sorted by price.
+    - Currencies with a balance of 0 are not shown unless a delegation exists. In such cases, the delegation is displayed, but the "Delegate" button is disabled.
+- **Balance Display:** Shows the user's balance for the selected currency.
+  - **Format:** "Your balance: {amount} {currency}"
+  - The balance amount is clickable, automatically populating the amount field with the maximum available balance. The cursor changes to a pointer when hovering over the balance.
+- **Estimated Value:** Displays the estimated value of the delegation.
+  - **Format:** "Est. amount: {NUMBER} {userCurrency (USD / CAD / ...)}"
+- **Notes:** Information about the delegation process.
+  - "Please note that delegations are instant, but it will take 7 days for the amount to be returned to your account after undelegation."
+  - "Click the button below to be redirected to HiveSigner to complete your transaction."
+- **Delegate Button:** Clicking this button redirects the user to HiveSigner. The button is inactive if the user or amount fields are empty.
+- **Cancel Button:** Cancels the transaction and closes the modal window.
+![image](https://github.com/user-attachments/assets/82cc1107-7441-4547-9779-67e39dce265a)
+
+### Edit Delegation Modal Window Components:
+- **Title:** "Edit Delegation"
+- **Notice:** Information about the delegation process.
+  - "Please enter the name of the account that you wish to delegate a portion of your voting power to."
+- **User Card:** Displays the selected user's avatar and name. The user cannot choose another account.
+- **Amount Field:** A field to enter the new amount to delegate.
+- **Max Button:** A button to set the maximum amount the user can delegate.
+- **Currency Drop-Down:** A drop-down menu to select the currency for delegation, with the same sorting and display rules as in the Delegate modal.
+- **Balance Display:** Shows the user's balance for the selected currency, similar to the Delegate modal.
+- **Estimated Value:** Displays the estimated value of the delegation.
+- **Notes:** Information about the delegation process.
+  - "Please note that delegations are instant, but it will take 7 days for the amount to be returned to your account after undelegation."
+  - "Click the button below to be redirected to HiveSigner to complete your transaction."
+- **Submit Button:** Clicking this button redirects the user to HiveSigner. The button is inactive if the amount field is empty.
+- **Cancel Button:** Cancels the action and closes the modal window.
+- **Delegation Note:** Provides information on how to remove the delegation.
+  - "To remove delegation, click undelegate."
+- **Undelegate Button:** Allows the user to undelegate (return the delegation to the authorized user).
+![image](https://github.com/user-attachments/assets/37961ffc-b8ca-451c-9183-cfc5a5d058a0)
+
+### Additional Information about Manage Delegations:
+- **Undelegation:**
+  - When a user undelegates Hive, a transaction with 0 vest is sent.
+  - When a user undelegates Hive Engine tokens, all delegated amounts are returned. Hive Engine also allows partial undelegation.
+- **Editing Delegation:**
+  - For Hive tokens, editing the delegation replaces the previous amount with the new amount (combines undelegation and new delegation). Example: If the original amount was 1 and the new amount is 2, the total delegation becomes 2.
+  - For Hive Engine tokens, the new amount is added to the previous delegation. Example: If the original amount was 1 and the new amount is 2, the total delegation becomes 3.
+
+# User profile: Wallet / Claim Rewards
+The "Claim Rewards" functionality allows users to add the rewards they have earned to their general balance. 
+### How It Works:
+- **Button:** Users click the "Claim Rewards" button to initiate the process.
+- **Purpose:** This action transfers the rewards that the user has accumulated into their general balance, making the funds available for use.
+- **Applicable Token:** This functionality is specifically for the HIVE token. For WAIV, rewards are automatically credited without requiring manual claiming.
+![image](https://user-images.githubusercontent.com/67378322/156128961-05328b99-8f26-4815-b474-b499485716a4.png)
+
+# User profile: Wallet / Swap
+The "Swap" functionality allows users to exchange one token for another.
+### How It Works:
+- **Button:** Users initiate the token exchange process by clicking the "Swap" button.
+- **Modal Window:** Upon clicking, a "Swap Tokens" modal window opens, where users can specify the tokens they wish to swap and configure the transaction details.
+### Swap Tokens Modal Window Components:
+- **Title:** "Swap Tokens"
+- **Close Button:** A cross icon to close the modal window.
+- **From Field:** An input field where users enter the amount they want to swap.
+- **To Field:** Displays the amount of tokens the user will receive after the swap.
+- **Max Button:** A button that sets the maximum amount the user can swap.
+- **Amount Field:** Another input field for users to enter the amount they wish to swap.
+- **Currency Drop-Down:** A drop-down menu to select the currency the user wants to send. It displays the currencies that the user has, with "WAIV -> SWAP.HIVE" set by default. If the user selects a currency in the "From" field, the "To" field and the "Your balance" field are cleared.
+- **Arrow Button:** A button to swap the positions of the selected currencies in the "From" and "To" fields.
+- **Balance Display:** Shows the user's balance for the chosen currency.
+  - **Format:** "Your balance: {amount} {currency}"
+  - The balance amount is clickable, automatically populating the amount field with the maximum available balance. The cursor changes to a pointer when hovering over the balance.
+- **Estimated Value:** Displays the estimated value of the transaction in USD.
+  - **Format:** "Estimated transaction value: {number} USD"
+- **Estimated Price Impact:** Shows the estimated impact of the transaction on the exchange rate.
+  - **Format:** "Estimated price impact: {number}%"
+- **Price Impact Slider:** Allows users to set the maximum price impact they are willing to accept for the transaction. The slider options are:
+  - 0.5%, 1%, 5%, 10%, 25%, 49%
+  - The slider's position depends on the estimated price impact.
+- **Impact Note:** Informs users that large transactions may affect the exchange rate. If the impact exceeds the selected value, the transaction will be canceled.
+- **Note:** Provides instructions for completing the transaction via HiveSigner.
+  - "Click the button below to be redirected to HiveSigner to complete your transaction."
+- **Submit Button:** Redirects the user to HiveSigner to complete the transaction.
+- **Cancel Button:** Cancels the transaction and closes the modal window.
+![image](https://github.com/user-attachments/assets/38b957ad-d5e5-4588-8fab-7fb5791f51d4)
+
+# User profile: Wallet / Deposit
+The "Deposit" functionality provides instructions for bringing tokens into the Hive or Hive-Engine system.
+![image](https://user-images.githubusercontent.com/67378322/156137938-1b6dab04-86fd-48c0-9d87-3145699420b5.png)
+### How It Works:
+- **Button:** Users click the "Deposit" button to start the deposit process.
+- **Modal Window:** Upon clicking, a "Deposit" modal window opens, providing step-by-step instructions for depositing tokens.
+### Deposit Modal Window Components:
+- **Title:** "Deposit"
+- **Info:** 
+  - Explanation that all crypto deposits are processed by Hive-Engine.com.
+  - Upon depositing, the user will receive an equivalent amount of the SWAP version of the deposited token, which can be exchanged on the Hive-Engine blockchain.
+  - A 0.75% fee is applied to deposits (with a minimum fee of 0.001 for HIVE).
+  - Users are also informed about the standard network fees when sending cryptocurrencies.
+- **Step 1: Select the Crypto Token to Deposit**
+  - **Token Dropdown:** A drop-down menu with a placeholder "Select the crypto token" where users can choose the token they wish to deposit.
+- **Step 2: Follow the Deposit Instructions**
+  - Before selecting a token, the instructions prompt the user to "Please select the crypto token first."
+  - After selecting a token, users are prompted to send any amount of the selected token to a specific address. Once the transaction receives the required confirmations, the user will receive an equivalent amount of SWAP.{token} in their account.
+- **Done Button:** For some tokens, after clicking "Done," the user is redirected to HiveSigner, where a record of the deposit instruction is broadcast to the blockchain. This transaction will appear in the account history of the Hive Engine wallet.
+- **Continue Button:** For HIVE and HBD, instead of a "Done" button, there is a "Continue" button. Clicking this button redirects the user to the Transfer page with the fields pre-filled.
+- **Cancel Button:** Cancels the transaction and closes the modal window.
+![image](https://github.com/user-attachments/assets/4bb0f1f5-cd74-4f0d-b7db-a2d8a0061d7a)
+### Additional Instructions Based on Token Type:
+- **For Tokens with an Account and Memo:**
+  - **Account Field:** A blocked (read-only) field displaying a specific username for the transaction.
+  - **Memo Field:** A blocked (read-only) field displaying a specific memo that must be used.
+  - **Memo Note:** A warning that failure to specify the memo will result in a loss of funds.
+  - **Copy Button:** Allows users to copy the content from the Account and Memo fields.
+  - **Tokens Requiring Account and Memo**: BLURT, BTS, EOS, GOLOS, HBD, HIVE, SBD, STEEM, ENG, TLOS, WAX.
+  - ![2022-03-01_14-32](https://user-images.githubusercontent.com/67378322/156169791-1cbc2593-4c34-4c0e-a318-f6aa7f895c8a.png)
+- **For Tokens with an Address:**
+  - **Address Field:** A blocked (read-only) field displaying a specific address.
+  - **QR Code:** A wallet QR code for easier scanning and copying of the address.
+  - **Copy Button:** Allows users to copy the address.
+  - **Tokens Requiring Address**: BTC, BCH, DOGE, LTC, SWIFT.
+  - ![2022-03-01_14-33](https://user-images.githubusercontent.com/67378322/156169799-d600c9b1-97d7-4558-9010-8ad977a0fb2f.png)
+This comprehensive guide ensures users can successfully deposit their tokens into the Hive or Hive-Engine system, while also informing them of important details like fees and the necessity of using the correct memo or address.
+
+# User profile: Wallet / Withdraw 
+The "Withdraw" functionality allows users to withdraw tokens from the Hive and Hive Engine systems. Clicking the "Withdraw" button opens the "Withdraw" modal window.
+![2022-03-01_15-18](https://user-images.githubusercontent.com/67378322/156176265-0b4620bb-164e-4147-aef3-327cbdfe3e22.png)
+### Withdraw Modal Window Components
+- **Title:** Withdraw
+- **Info:** 
+  - All crypto withdrawals are processed by Hive-Engine.com. 
+  - A 0.75% fee is applied to withdrawals. 
+  - Please note that standard network transfer fees will also be deducted from the amount. 
+  - [Hive-Engine.com](https://hive-engine.com/) is the platform handling these transactions.
+- **Amount:** "Withdraw:" field for entering the amount to withdraw.
+- **Max Button:** Sets the maximum amount that the user can withdraw.
+- **Currency:** Drop-down menu to select the currency for withdrawal. Displays the available currencies that the user can withdraw.
+- **Balance:** 
+  - Displays the user's balance for the chosen currency.
+  - Example: "Your balance {amount} {currency}"
+  - The {amount} {currency} text is clickable and represents the maximum amount that the user can withdraw. Clicking it populates the amount field with this value. Cursor changes to a pointer.
+- **Receive:** Field showing the amount of tokens the user will receive.
+- **Receive Currency:** Field showing the currency the user will receive.
+- **Estimated Amount:** Displays the estimated amount in the user's local currency (e.g., USD, CAD).
+- **Minimum Amount:** The minimum withdrawal amount is 0.0075.
+- **Address:** "Destination address:" field where the user can enter or already see a filled account name.
+- **QR Code:** For tokens that require an address, users can scan the QR code using a web camera.
+- **Note:** "Click the button below to be redirected to HiveSigner to complete your transaction."
+- **Withdraw Button:** Submits the action and redirects the user to HiveSigner.
+![image](https://github.com/user-attachments/assets/43fc74b9-aadc-41f3-ab74-8ea5ad6c9263)
+### Withdrawal Pairs
+**For Hive Accounts:**
+- WAIV - HIVE
+- WAIV - ETH
+- WAIV - BTC
+- WAIV - LTC
+- SWAP.BTC - BTC
+- SWAP.ETH - ETH
+- SWAP.LTC - LTC
+- SWAP.HIVE - HIVE
+- SWAP.HBD - HBD
+- SWAP.SAVVA - SAVVA
+**For Guest Accounts:**
+- WAIV - HIVE
+- WAIV - ETH
+- WAIV - BTC
+- WAIV - LTC
+**Additional Warning for BTC:** Minimum withdrawal amount: 0.01 SWAP.BTC
+
+# User profile: Followers
+The **Followers** tab provides lists related to users and objects, showing who follows the user, who the user follows, and which objects the user is following. This tab includes three sub-menu items:
+- **Followers:** A list of users who are following the user. 
+![image](https://github.com/user-attachments/assets/501886cf-cfa8-45c1-991b-cf414bc5d594)
+- **Following:** A list of users that the user is following. 
+![image](https://github.com/user-attachments/assets/1fd174da-37c6-4b7f-9748-5e6027c34851)
+- **Objects:** A list of objects that the user is following. 
+![image](https://github.com/user-attachments/assets/d9774bbc-bc2d-4b70-8647-b5451bb526e7)
+The **Followers** and **Following** tabs include sorting options to help users organize the lists according to their preferences. The available sorting options are:
+- **Rank:** Sorts users based on their expertise ranking.
+- **A..Z:** Sorts users alphabetically by name.
+- **Followers:** Sorts users by the number of followers they have.
+- **Recency:** Sorts users by the most recent follow actions.
+
+### User Profile Followers List View Details
+For users:
+- **Avatar:** Displays the profile picture.
+- **Name:** The username.
+- **Expertise:** The user's area of expertise.
+- **Count of Followers:** The number of followers the user has.
+- **Follow/Unfollow Button:** Allows the user to follow or unfollow the listed user.
+![image](https://github.com/user-attachments/assets/ed6f4df4-7478-4b2f-aad7-cdbf1a7d73db)
+For objects:
+- **Avatar:** Displays the object’s image.
+- **Name:** The name of the object.
+- **Object Expertise:** The total payout for all related posts in USD, excluding bidbots and upvote services.
+- **Follow/Unfollow Button:** Allows the user to follow or unfollow the listed object.
+![image](https://github.com/user-attachments/assets/ea335b54-7cfd-4eba-9b09-62516218fc51)
+
+# User profile: Expertise
+The **Expertise** tab displays a list of objects where the user has gained expertise. This tab includes two sub-menu items:
+- **Hashtags:** A list of objects that are of the hashtag type. 
+![image](https://github.com/user-attachments/assets/25a8551a-3cfb-4464-8142-2a4e2831eae1)
+- **Objects:** A list of all object types (except hashtags) where the user has gained expertise. 
+![image](https://github.com/user-attachments/assets/4a5fad56-a1da-47ec-9985-65df3c2ba4af)
+
+### User Profile Expertise List View Details
+Each object card in the list includes the following details:
+- **Avatar:** Displays the image of the object.
+- **Name:** The name of the object.
+- **Object Expertise:** Shows the total payout for all related posts in USD, excluding earnings from bidbots and upvote services.
+- **Follow/Unfollow Button:** Allows the user to follow or unfollow the object.
+![image](https://github.com/user-attachments/assets/658366e3-5a3a-48f0-819d-c6baa89fdf36)
+
+
+# Lesson 10: Introduction to Social Shopping on Web 3
+ For more details give a link to https://www.waivio.com/object/tso-social-shopping-on-hive/page
+ Have you ever browsed through endless reviews, seeking the perfect combination of products?
+ Whether it's the right fashion statement, the ideal makeup routine, or the essentials for a hiking journey, we've all dedicated hours in pursuit of that ideal combination. When you've finally found and validated these choices, how do you share your expertise with friends and the wider world?
+ Whether it's mastering kitchen organization, decorating a room, nurturing a lush garden, or discovering wellness hacks, we all have valuable insights to share. ![image](https://waivio.nyc3.digitaloceanspaces.com/1692043322_5615c78f-dfd6-41c3-b5b4-f363dbfd9bdc)
+ Consider this: how much of what you know, your experience and expertise could be a goldmine for someone else?
+ But how, you might wonder, can you showcase all that you've learned and discovered?
+
+ Social Shopping
+ Introducing Waivio: A dynamic platform where curating and showcasing your top shopping is not only effortless but also rewarding. ![image](https://waivio.nyc3.digitaloceanspaces.com/1692042529_52a5a3ac-ddf1-46dc-86c0-2b6ddb394b3f)
+ Picture this: you come across a product you like, mark it with a “heart”, and it's added to your profile shop – much like creating a shopping wishlist.wishlist. ![image](https://waivio.nyc3.digitaloceanspaces.com/1692042555_9b9ddeb1-6e93-41e0-a548-fb52b0c4e2de)
+ With Waivio, monetizing your passion is a breeze. Simply enter your affiliate codes into your profile settings once, and Waivio will automatically update the 'buy' button links for every product in your shop, even those in your posts and comments. Also, to ensure maximum relevancy, Waivio adjusts affiliate links based on the location of each visitor to your shop. ![image](https://waivio.nyc3.digitaloceanspaces.com/1692042586_ecf07798-585d-408c-b3c3-b27daeb0fc78)
+
+ Dedicated Social.Gifts Website
+ If you believe your expertise deserves a broader audience, consider elevating your shop and launching a dedicated Social.Gifts website. ![image](https://waivio.nyc3.digitaloceanspaces.com/1692042615_0c5c1988-27fd-43e9-96ed-15d7b7be6872)
+ It provides an outstanding user experience, can be adapted to your unique branding, and comes with a wide range of features: from captivating product catalogs and custom newsfeeds to efficient product searches and seamless integration of forms, calendars, and various widgets.
+ Here are some examples:
+ Clean Girl Aesthetics: https://cleangirl.social.gifts/
+ Camping Checklist: https://camping.social.gifts
+ Coffee Time: https://coffeetime.social.gifts
+ For website owners, revenue opportunities go beyond affiliate earnings. They also include advertising revenue and commissions from both author and sponsored rewards gathered by website users. ![image](https://waivio.nyc3.digitaloceanspaces.com/1692042648_750f0dc8-8347-4919-b6cf-34c37c966aab)
+
+ Decentralization and Web 3.0
+ In the Web 2.0 era, every online shop functions like an isolated island. With each one building its own user database, creating its own product knowledge base, and collecting product reviews from ground zero. This siloed approach results in redundant efforts, as data remains trapped within the confines of each project. ![image](https://waivio.nyc3.digitaloceanspaces.com/1692042672_a22aeca9-9738-4f17-b847-8f4951b102ef)
+ In Web 3.0, content isn't merely published on an open, decentralized blockchain—it's liberated! ![image](https://waivio.nyc3.digitaloceanspaces.com/1692042699_61264e6b-003f-4444-945d-9628079a2f78)
+ Imagine a product manufacturer publishing detailed information about their items on the Hive open blockchain. Any shop wishing to feature these products can simply mark them with a "heart" . What's more, when the manufacturer updates their products, these changes are effortlessly reflected across all the shops. ![image](https://waivio.nyc3.digitaloceanspaces.com/1692042723_f627cb09-f456-4ec5-9044-4f6f580f134e)
+ Managing large collections of third-party products becomes so simple!
+ That's not all! Hive operates as a social blockchain. So, when users mention products in their posts, these reviews are instantly visible across all the shops that showcase the same product.
+
+ The Paradigm Shift
+ For the first time, small independent shops can collaborate seamlessly. In the Web 3.0 landscape, shops tap into the entire Hive community, gaining access to the complete product knowledge base, as well as all product reviews and related content.
+ Users from one shop can engage with those from other shops, all within the same digital space! ![image](https://waivio.nyc3.digitaloceanspaces.com/1692042785_049eb14f-d912-4a35-be7b-0fc0723a1e50)
+ Imagine launching a new shop that's more than just a static brochure—it thrives with a vibrant community passionate about the subject. Now, your website's first visitors can immediately immerse themselves in this community, make new connections, and engage in active discussions. Additionally, your users gain access to sponsored rewards from various merchants and can claim them by sharing product photos. ![image](https://waivio.nyc3.digitaloceanspaces.com/1692042816_35b6f2cb-fe00-4493-b96e-1155d7b7d7db)
+ In a way, social shopping mirrors open-source software development, where sharing code significantly accelerates the growth of the entire ecosystem.
+ Similarly, when a website is launched using an open, social, continuously expanding database with product and social data- its success in attracting new users, broadening product collections, offering new sponsored rewards, and spurring more social interactions immediately benefits other projects.
+ Indeed, one of the primary success strategies in this open environment is to encourage more people to launch shops similar or even identical to yours. Their success directly translates into your success. ![image](https://waivio.nyc3.digitaloceanspaces.com/1692042866_e88ca9d5-044c-4bd5-876e-b4ec147127b3)
+ In traditional e-commerce, small retailers often find themselves overshadowed by major e-commerce giants such as Amazon. However, with the advent of Web 3.0, these smaller players now have the opportunity to leverage open social networks, pooling their resources to achieve economies of scale that were previously unattainable for standalone shops. ![image](https://waivio.nyc3.digitaloceanspaces.com/1692043040_95250dec-9cf9-4f8a-ae5d-9c97ba139d1c)
+ This unique advantage of social shopping on Hive highlights the power of collaboration in the Web 3 era. The shared knowledge becomes a catalyst for collective success, creating a more integrated, efficient, and user-centric e-commerce experience.
+ Social shopping on Hive opens up a world of possibilities, showcasing the revolutionary potential of Web 3.0 ![image](https://waivio.nyc3.digitaloceanspaces.com/1692043101_5489efc5-9346-4b3c-afe0-67c3f817a978)
+
+
+# Lesson 12: Launching a Social Shopping Website
+For more details give a link to https://www.waivio.com/object/mev-launching-your-social-shopping-website/page
+Are you ready to take your online presence to the next level?
+Now you can transform your user profile on Waivio into a dedicated website. This transition allows you to feature your affiliate shop as the main store on your website, while your personal blog will take center stage as the key newsfeed.
+
+Why launch a social shopping website?
+Launching a website unlocks new income streams. You will gain access to four sources of revenue:
+- Affiliate commissions from referrals (3%-10%);
+- Beneficiary commissions (5% of author rewards);
+- Referral commissions (7.8%+ of sponsored rewards);
+- Advertising revenue from Google AdSense integration ![image](https://waivio.nyc3.digitaloceanspaces.com/1699904772_5f241eed-341b-47e4-83bb-fe084fe9cea1)
+Moreover, launching a website gives you the freedom to organize and customize your social shop in any way you envision.
+You can customize your website to match your branding, including the logo, main banner, and website colours. ![image](https://waivio.nyc3.digitaloceanspaces.com/1699904921_7a060d45-fce4-42fd-abb4-e717c051a464)
+As the website owner, you have full control over the objects displayed on your website. On Waivio there are consensus rules that determine which version of objects to show (decided by the balance of votes), so if your vote is not strong enough certain objects may not appear as you want them to be in your profile shop. In contrast, on the website you have the ultimate control where your vote cannot be challenged. You can also grant administrative privileges to other users that you trust. ![image](https://waivio.nyc3.digitaloceanspaces.com/1699904955_c71d2913-c995-4c3c-a90f-ddb0322e9177)
+Another handy feature is the ability to search for all the items you've marked with a heart on your website.
+Plus, if you use the Waivio Chrome Extension to upload products from Amazon to Waivio, these items will automatically appear on your profile and, consequently, on your website.
+Your website visitors will be able to log in, post, comment, and upvote posts, follow other users, manage their wallets, and utilize many other tools available on the Hive social blockchain.
+Let’s launch your social shopping website!
+
+Step 1: Choosing a name for your website (or linking an existing domain)
+Let's begin by navigating to the "TOOLS" section, then under "Websites," click on "Create." Choose "Social.Gifts" from the template options. Think of a sub-domain name that encapsulates the essence of your shop. For example, my shop is focused on baby products for new parents, so I'll put the baby.social.gifts. If the domain is available, proceed to read and accept the terms and conditions and click on "Create new website". ![image](https://waivio.nyc3.digitaloceanspaces.com/1699907530_a3ac8dc4-e24b-4207-a9dd-2941a256cc58)
+Custom Domain: If you have your own domain that you want to use for your social shopping website, choose “Custom Domain” instead. Select Social.Gifts as the website template. Enter your existing domain. Important: Your domain should be configured according to the instructions provided prior to launching it. For further instructions on setting up and connecting your personal domain please review the attached article.
+And that's it - let's check out the website. As you can see, we already have a fully functional website!
+By default, your website is created using your own profile, including the profile logo, shop, and blog. However, you can customize it even further to match your brand.
+After refreshing the page, you'll find settings and configurations for your new website.
+
+Step 2. Configuration
+In the Configuration section, you'll have the opportunity to customize your shop's appearance. ![image](https://waivio.nyc3.digitaloceanspaces.com/1699905959_24bb1346-ee56-4834-b86b-6df961551190)
+2.1 Color
+Choose the colours for your text and buttons that align with your brand's aesthetics.
+2.2 - 2.3 Desktop and Mobile Logo
+Next, if you want to change your logo, upload both your desktop and mobile logos to ensure a consistent look across all devices.
+2.4 List Default Images
+If a website has products organized in categories but doesn’t have specific images for them your user logo will be used as a default image. You can change upload a new image in "list default images" section.
+2.3 Main Banner
+Let's add a banner to be displayed at the top of all website pages. Here I am using an image I generated with Midjourney (Use the --ar 16:4 command to create narrow banners in MJ.)
+2.4 Base Object
+In the "Base Object" section, you can choose to link your website to a specific user profile or even a public object on the Hive blockchain.
+By default, it's linked to your own profile, and as a result, the information from your profile is transformed into a dedicated website, including your shop and your blog. ![image](https://waivio.nyc3.digitaloceanspaces.com/1699906064_e9b1722b-df70-42a3-89f6-a5f4f8993a66)
+If you are looking to launch a themed website, you can easily create an advanced shop with just a click of a button by leveraging existing projects with thousands of products carefully organized in categories. And once you add affiliate codes, all of these thousands of products will include your codes in the purchase links.
+For example, let’s use an existing business object called the Camping Checklist https://www.waivio.com/object/7ujfq-shop“
+” (lbm-camping-checklist) which has hundreds of categories and thousands of camping-related products listed. By simply setting it as the base object for my site, my entire website will instantly become one of the most comprehensive camping sites out there. ![image](https://waivio.nyc3.digitaloceanspaces.com/1699906039_bbe08d3c-0f17-4382-931c-e945e798eaaf)
+Another example is the “
+Coffee Time
+” object (3urenj-coffee-shop), which also includes thousands of coffee-making products, serving accessories, various types of coffee and even books. As you can see, these advanced websites not only feature product catalogs but also include information pages (like the Checklist) and community newsfeeds.
+One more example is the “
+Clean Girl Aesthetics
+” object (tlc-clean-girl-aesthetics), which features thousands of make-up and beauty products that align with clean girl aesthetics.
+As the list of objects continues to expand with more people creating websites, please see the descriptions to explore other existing projects: https://www.waivio.com/object/ewg-social-gifts-projects/webpage
+If your desired topic for your affiliate website isn't covered here, you can create your own business object, this will be explained in the Advanced Shop Tutorial.
+2.5 Default Hashtags
+A default hashtag will be automatically added to all new posts created by users on your website. ![image](https://waivio.nyc3.digitaloceanspaces.com/1699906202_b46aae44-1466-4231-abe8-468fff260497)
+This feature is particularly beneficial for websites employing custom newsfeeds that display posts with specific hashtags only. A default hashtag helps guarantee that users won't overlook adding the tag, ensuring their post appears on the website. ![image](https://waivio.nyc3.digitaloceanspaces.com/1699906248_7124918f-c0e6-46ef-a2c4-f086aa9dd749)
+If your website doesn't utilize custom newsfeeds, you can leave this field empty.
+2.6 Website Header
+You can also customize the website header, such as changing Baby.Social.Gifts to your brand name or a short message.
+
+Step 3. Settings
+Let's move on to the "Settings" section to fine-tune the functionality of the website.
+3.1 – 3.2 Language and Currency
+Here, you can select the language and currency for your website. If you want to
+market your website in a specific location, you can choose your local language and currency; otherwise, English and USD are solid choices.
+3.3 Google Analytics 4 Property ID
+Next, you can add your Google Analytics 4 property ID to get detailed reports and insights into the performance of your website, such as website activity, visitor count, geographical distribution of your audience and other metrics. You can get this ID by creating a Google Analytics account for your website. Then just copy and paste the ID, and you will see your website statistics in your Google Analytics account. ![image](https://waivio.nyc3.digitaloceanspaces.com/1699906382_b65de955-cc44-45c3-8425-62c4417c70ef)
+If you want to track conversions on your website, you can use the "buy_now" event. To configute it go to Admin -> Data Display -> Events -> turn on the “buy_now” event. ![image](https://waivio.nyc3.digitaloceanspaces.com/1699907495_147c0805-2cae-4c50-a204-831db1eeb0bf)
+Buy_now is triggered every time a visitor clicks a button that takes them to an affiliated site, such as Amazon, Walmart, Target, or any other.
+3.4 Beneficiary Payment
+When your visitor receives upvotes for the posts they publish on your website – you can get a commission on their author rewards. In the following section – indicate which account would receive such commission and how much commission you want to collect (this value is set to 5% by default). ![image](https://waivio.nyc3.digitaloceanspaces.com/1699906682_baa713d2-6de7-4d19-b5fa-0ac80459bccb)
+3.5 Referral Payment
+You can also earn a commission when your visitors participate in sponsored campaigns, such as when they write a review for a sponsored product. Again, choose the recipient account.
+If a product in your shop gets a sponsored reward - it will automatically be reflected on your website - you don’t need to do anything on your part. Your visitors will be able to see all the sponsored products and submit their reviews on your website to get the reward. ![image](https://waivio.nyc3.digitaloceanspaces.com/1699906728_795b8a49-8975-446e-9a48-1baeef583943)
+Sponsors define the commission levels provided to all parties assisting them in facilitating transactions. The referral portion of the sponsored rewards is set at a minimum level of 2.8%, but it can be higher for specific campaigns. In combination with the 5% author rewards, your total commissions from sponsored rewards will be 7.8%. Please refer to the referral policy for more information.
+3.6 CLICK "SAVE" to save your settings, and your selections will be applied to your website.
+
+Step 4. Affiliate Codes
+Now let's move to affiliate codes. Just like you did for your profile shop, search relevant affiliate programs and input your affiliate codes. ![image](https://waivio.nyc3.digitaloceanspaces.com/1699907465_c3fcc4c0-37d1-489b-9476-db98df21d554)
+This integration ensures that all your products in your shop come with your affiliate codes, giving you the opportunity to earn with visitors every purchase.
+It's useful to occasionally check that your affiliate codes are active, especially for Amazon, since the codes can expire if a certain threshold in sales is not achieved. That's the beauty of this interface because, unlike other platforms, if your code expires, here, you won't need to update it individually for every product. Just update it one time here and it will automatically be applied to all your products.
+
+Step 5: Website Hosting
+To keep your website up and running, there are hosting fees associated with maintaining your online presence on Social.Gifts. When you're ready to fund your website, navigate to the "Manage" tab, where you'll find the button "Pay Now." Here choose the amount you can transfer in WAIV tokens to pay the hosting fees. WAIV tokens will be converted to USD at the current market rate. Click Continue to sign and finish the transaction. ![image](https://waivio.nyc3.digitaloceanspaces.com/1699907415_7755a35e-993d-4c29-a2e5-0e778f5bbdad)
+For hosting prices check the info in the section. Currently, for active websites, the plan starts at 1 USD/day, which includes up to 200 daily visitors. There is an additional fee of 0.005 USD per day for every extra active user. If you want to retain your website name without running the website, a fee of 0.20 USD/day is applied. You can change the status of your website by checking or unchecking the checkmark under the "active" column.
+
+What's next? 😉
+Now that your configuration and setup are complete, it's time to reveal your Social.Gifts shop to the world.
+Congratulations on launching your very own Social.Gifts website!
+Your carefully curated collection, within the immersive Hive environment, is ready to offer visitors a unique social shopping experience.
+Your Social.Gifts shop is equipped with a range of features that make social shopping on your website possible. From dynamic newsfeeds to visitor posts and reviews, your shop has become a lively community hub. It's not just about browsing – it's a space for connection, sharing, and discovery.
+While we've covered a lot in this tutorial, there are more advanced settings to customize your website further, such as creating specific newsfeeds, adding pages, forms, widgets and much more. Get ready to unleash the full potential of your Social.Gifts shop!
+
+
+# Lesson 13: Building a New Advanced Social Shop
+For more details give a link to https://www.waivio.com/object/bcl-advanced-social-shopping-website/page
+With your website up and running, it's time to take things up a notch by incorporating advanced features that will truly make your shop stand out.
+In this tutorial you will learn how to add advanced features like category organization and custom feeds to your social shopping site. By the end, your site will be neatly arranged with categories, newsfeeds, pages, contact forms, widgets, and more to improve the user experience.
+Summary:
+Step 1: Discovering Your Shop's Theme
+Step 2: Creating a business object
+Step 3: The Main Menu
+Step 4: Adding Lists
+    4.1 Setting Up Your Lists
+    4.2 Establishing Subcategories
+    4.3 Adding Products
+    4.4 Launching a website with the business object
+    4.5 List Avatars
+Step 5: Adding Books
+Step 6: Adding pages
+Step 7: Adding a custom newsfeed
+Step 8: Adding widgets
+Step 9. Sorting
+What's next?
+Links & Resources:
+Widget for YouTube gallery: https://elfsight.com/youtube-channel-plugin-yottie/
+Select Social.Gifts projects: https://www.waivio.com/object/ewg-social-gifts-projects/webpage
+
+Step 1: Discovering Your Shop's Theme
+The foundation of a successful shop lies in its theme. It's time to brainstorm and identify what resonates with you and your potential customers. Whether it's camping products, baby products, fitness gear, makeup, or any other niche, pick a theme that aligns with your interests and expertise.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1700516628_69860ab8-1af6-42c3-a8b7-573312af69f8)
+
+Step 2: Creating a business object
+To organize your shop effectively, we will need to create a business object specifically for your shop. If a similar-themed website already exists, you can search for it and open the existing business object. Then, you can contribute to its development by adding more products or categories to it.
+However, if you're starting from scratch, click the "write post" button and under "Create New Object," click on "business". Assign a name to your business – it can match your website, such as "baby.social.gifts". Click on the link to open the newly created business object in a new tab.
+
+Step 3: The Main Menu
+A business object has its own menu. When this object is linked as the base object on the website, this object's menu will be shown as the main menu on the website. For our object, the first menu item will be a Shop.
+Click "+Menu item", then "Create new object"
+![image](https://waivio.nyc3.digitaloceanspaces.com/1700520368_49682807-4879-473a-84a2-9de9dbadbe1f)
+We will create a new object with that name and select "list" as its type because the shop will contain links to other lists, products, or pages.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1700520480_4e5dd8e8-8bf3-4fe5-b9f7-5973dba9a70b)
+Later in this Shop list, we can create other sub-lists (subcategories), such as Clothing, Food, and Nursery.
+The next menu item will be a Bookstore. This is also going to be a separate list with links to books related to our topic.
+If you want some help to establish categories for your website, you can use ChatGPT. Use a prompt like "Suggest categories and subcategories for an online [your theme, e.g. fitness] shop.", and ChatGPT will give you some ideas. You can review the categories generated by ChatGPT and select the ones that align with your vision.
+
+Step 4: Adding Lists with Products
+4.1 Setting Up Your Lists
+Let’s start with creating categories in our Shop. It's empty right now, but let's add our higher-level categories to it, such as clothing, feeding, and nursery. To add a category, click "Create new object".
+![image](https://waivio.nyc3.digitaloceanspaces.com/1700520525_5fc0ffb1-8621-4511-aa3c-56fd5ab36d3a)
+Write the name of the category, such as "Nursery", and again choose the "list" as the type, since our category will have subcategories such as beds, mattresses, storage solutions, decor and so on.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1700520545_d9717490-925b-42ac-b6ae-ac3c80cca6bd)
+If you already have lists created, you can add them by searching for them in the search bar.
+4.2 Establishing Subcategories
+After adding all the general categories, we can add subcategories to organize the shop's inventory even further.
+For instance, let's add subcategories to "Nursery,". Click on the category– you will see that now you are in "My Shop -> Nursery".
+Here, we can repeat the process: click "Create new object", write the name of the subcategory such as "Decor", and choose a "list" as the type.
+Similarly, you can create sub-subcategories. For example, decor can be further broken down into wall stickers, posters, carpets and so on.
+4.3 Adding Products
+When a category is specific enough and doesn't need a further breakdown, you can add products to it. For example, you can add products by searching for them in the search bar.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1700520616_f93b1ea0-dce3-4d82-846c-88bfecd8243a)
+If you can not find the products you want to add to your website here, you can easily add them using the Waivio’s Chrome extension. Check out the tutorial on the extension for more details.
+If you want to add multiple items, you can check out the series of tutorials on importing products on the Hive blockchain to learn a quick way for bulk importing.
+You may also find using chatGPT helpful to find the best products for the shop. For instance, a prompt like this: "Provide a list of top 20 products according to user reviews for [your product category, e.g. baby mats]". And ChatGPT will generate a list of products you can choose from.
+To add products, search for them by name or ASIN number. It is receommended to record ASIN numbers of products during the data import, as product names can vary while product numbers remain constant. Then, click on the product and click “Submit.”
+4.4 Launching a website with our business object
+To launch a website using this business object - navigate to "Tools," then under "Websites," click on your website's name. In configuration, replace the base object with the business object we've just created.
+4.5 List Avatars
+Now our products are nicely organized in categories. However, the categories appear rather dull with default images as icons. Let's change that and add some images!
+Head over to the business object and click on the category, such as "Nursery." Click on the hyperlink at the top to open the category list in a new tab. Here, you can easily add an avatar image to your category (list).
+Click "Edit," navigate to "Settings," and click on "Avatar." Upload your image or provide a link. For instance, here, I used an AI-generated image from Midjourney. Click "Submit," and that's it!
+![image](https://waivio.nyc3.digitaloceanspaces.com/1700520736_9cf55c56-0a61-4450-bfbb-e14e39cecdf9)
+Let's add images to other categories. All the images I am uploading were generated by Midjourney – if you are curious to learn how check one of our tutorials about using AI tools for creating great-looking shops.
+Now that you know how to add lists of products - you can experiment with how you arrange them on your website. For example, https://coffeetime.social.gifts has three lists with products "Equipment", "Accessories", and "Coffee". Whereas https://GoCampingList.com – has all the products under "Shop". It also has a menu item called "Books". Bookstore is a list of "book" type objects.
+In addition, camping.social.gifts has other menu items, such as a Checklist, which is a simple page with information. Camplife is a newsfeed with posts about camping. Legal is a list of pages added to all websites hosted by Waivio. Legal page is added automatically to all websites but you can also add your own legal documents in a similar way. Let's add these elements to our website.
+
+Step 5: Adding a Bookstore
+Let’s start by adding a menu item called "Books" that will contain top books for children and parents. Click "Create new object" and enter "Books" as the name. For the type, select "list". Once the list has been created, you can add categories to it, such as "Parenting books", "Baby board books", and "Storybooks".
+Then, let’s add some books. This is a very similar process to adding products - just search for the ASIN number of the book and click “Submit”.
+
+Step 6: Adding pages
+Let’s also add a page to our website with a checklist of all the baby products every new parent should have.
+Add a new menu item, click “Create new object” -> enter a name as it would appear on your website menu, e.g. “New Parent Checklist.” For the type – choose “page”, and click “Confirm”. Then, you can add content such as an article or a checklist – then just click “Ready to Publish” and “Submit”.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1700520764_ee85d679-8418-4ac7-982d-4b8efe428bb2)
+
+Step 7: Adding a custom newsfeed
+Let's move on to custom newsfeeds. Hive is an active social blockchain where many users create posts on various topics. We can filter relevant posts using hashtags that match the topic of the website.
+The easiest way to add a custom newsfeed is to click on “Write post” button and choose "newsfeed" from the selection.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1700520798_f3603977-91f4-435d-8183-da02652bda72)
+Enter a name, such as “Community”, We will link this newsfeed to our business object later after we are done configuring it.
+To configure the newsfeed, open this newsfeed object in a new tab.
+Click on "Edit", then click on "Newsfilter."
+Here, you can add filter rules to display only a specific type of posts:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1700520825_54f68fa3-d008-42f2-85e2-79574d994b24)
+For example, for my website, I can add a "baby" hashtag in Filter Rule 1. And click "Add new rule" to add a "parenting" hashtag in Filter Rule 2. This will show posts that have these hashtags.
+You can also filter out certain posts. For example, I don't want to see posts that are related to "animals" that might have a "baby" hashtag in them. So I will put "animals" in the Ignore Rule.
+Another way to personalize your news feed is by choosing the type of object (e.g., a book, a product, a place, etc.) And only the posts related to that category will be displayed on your newsfeed. For example, to show all the posts on baby and parenting products, I can add "product" in this field.
+To show baby and parenting posts only from specific users, I can add these users in the “users field”.
+If you want to show all the posts of a specific user, like your dedicated channel, then remove all the other filters and just add that user.
+Now to link the newsfeed to our business object – let’s open our business object. Click on Menu item. Enter a name for the newsfeed as it would appear on your website's menu. In the search bar, look for your newsfeed by a name or a permlink. There might be a lot of objects with the same name, so I recommend searching by the premlink, as it is a unique identifier of the object. It’s located on the object’s link after object/ e.g. this is the object's link https://www.waivio.com/object/5xjmmi-community and the premlink is 5xjmmi-community
+Click "Submit" once the object is found.
+
+Step 8: Adding widgets
+If you want to integrate Google Forms, Calendly, or other external tools with your website, you can do so by adding widgets.
+Click on “Write post” button and choose a "widget" from the selection – enter a name, such as “Contact Form”.
+Your widget will now be created. We will link it to our business object later.
+ To configure the widget, open it in a new tab.
+In the widget object window, click "Edit"; under "Widget", click to add a "Form".
+For example, let's add a Google Form. Have the link ready.
+First, add a title (such as,"Contact Form"). Under columns, you can choose how much space you want the form to fill. For example, if you choose a middle column, the form will fill only the middle column, but if you choose "entire width" the form will fill all three columns. For Google Forms, I recommend selecting Middle + Right. Then, select the form type – a link or a widget. For Google Forms, select a link. Then, copy the Google Forms link and paste it into the space provided. Then click Submit.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1700521015_fcf8e859-7ced-4796-a48e-183628314b7a)
+If you want to paste the widget embed code instead of the link, then select "widget" as the form type and enter the widget embed code in the space provided. Here is the website where you customize your widgets: https://elfsight.com/widgets/
+![image](https://waivio.nyc3.digitaloceanspaces.com/1700521032_62d0f984-8c57-48ff-9bdf-9e2c32f5a5f3)
+Let’s link the widget to our business object –open the business object. Click on "Menu item" and enter a name for the widget as it would appear on your website's menu, in the search bar – look for the widget by a name or a premlink. Click "Submit" once the object is found.
+
+Step 9. Sorting
+Finally, you can change the order of menu items as they would appear on your website. Click on "Menu sorting", drag and drop to rearrange the menu items in the desired order. Click "Submit".
+You can also sort the items inside the categories lists. Lists have their own sorting option. Open the list in a new tab – “Edit” – under “List” click on “List Sorting” – and rearrange the items in the desired order.
+By integrating categories, feeds, informative pages, and more, we've transformed the website into a fully functional and captivating platform. While I made some suggestions for the website structure, you can arrange your website any way you envision.
+
+What's next?
+Congratulations! You've taken your shop from an idea to a well-structured platform that aligns with your theme!
+You've laid the groundwork for an exceptional shop that's tailored to your expertise and passion. With great product organization, newsfeed, and information pages, your shop is ready to showcase an array of products that cater to your audience's needs and interests.
+Your website is ready to captivate visitors, monetize your expertise, and offer an engaging and immersive experience to anyone exploring your shop. Best of luck on this exciting venture!
+Now it's time to think about how to market your website to bring it to a larger audience and boost your revenue. In the upcoming tutorials, we will discuss SEO tools, marketing and analytics strategies that you can implement for your website.
+
+
+# Custom domain - Connecting GoDaddy Domain to Waivio to Create a Site. (Applicable only for custom domain site)
+For more details give a link to https://www.waivio.com/object/qym-custom-domain/page.
+Discover how to integrate a domain from platforms like GoDaddy with Waivio, enabling you to craft a website using Waivio templates. This guide delves into Cloudflare setup, DNS record configuration, and nameserver integration. Suitable for domains from multiple platforms.
+This guide explains how to connect a domain, initially created on platforms like GoDaddy, to Waivio. This allows you to construct a website using a Waivio template while still maintaining a custom domain.
+The instructions are divided into three key sections: setting up the domain in Cloudflare, configuring the DNS record, and integrating Cloudflare's nameservers on GoDaddy.
+Although GoDaddy is highlighted as an example for domain acquisition, the methods can apply to any similar platform.
+Additional settings for custom domain:
+  - Ensuring Secure Connections: Manual HTTPS Configuration for custom domain on Cloudflare (https://www.waivio.com/object/qym-custom-domain/page#pvs-ensuring-secure-connections-manual-https-configuration-for-custom-domain-on-cloudflare)
+  - Ensuring Smooth Redirects: Manual www to Apex Domain Setup on Cloudflare (https://www.waivio.com/object/qym-custom-domain/page#ckq-ensuring-smooth-redirects-manual-www-to-apex-domain-setup-on-cloudflare)
+  - Search Engine Web Content Discovery: A Guide to Enabling Crawler Hints with Cloudflare's IndexNow Integration (https://www.waivio.com/object/qym-custom-domain/page#yfw-web-content-discovery-a-guide-to-enabling-crawler-hints-with-cloudflare-s-indexnow-integration)
+1. Set up Your Domain with Cloudflare:
+Go to Cloudflare.
+If you don't have an account, sign up; otherwise, log in.
+On the main page, click "Get started."
+![image](https://user-images.githubusercontent.com/67378322/268044728-0cdbca0c-ef86-4676-a8bb-39033543259b.png)
+Enter your domain in the provided field and click "Continue."
+![image](https://user-images.githubusercontent.com/67378322/268044757-27c97718-ef7d-401e-b40f-300352728d11.png)
+Select the free plan and proceed by clicking "Continue."
+![image](https://user-images.githubusercontent.com/67378322/268044804-142ad312-6524-4d77-809e-8befa153cbdc.png)
+You'll now be provided with nameservers specific to Cloudflare. Make a note of these.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1700745415_f3236af9-dd48-4309-9eca-7cf61aa9349b)
+2. Set Up A Record (DNS Type A) to point to Waivio:
+(You can perform this step on either GoDaddy or Cloudflare. Here's how to do it on Cloudflare)
+Go to the DNS page in your Cloudflare dashboard.
+Look for the record type labeled "A".
+Click the "Edit" button next to it.
+![image](https://user-images.githubusercontent.com/67378322/268045318-54eeb954-0403-4afc-b359-4b880088a7ce.png)
+Update the IPv4 address field to 206.189.200.117
+    The "Name" field typically auto-populates with your primary domain, which is correct.
+   If you face any issues or need to create this record from scratch, and the 'Name' field is empty, just enter '@'. This symbol, used by itself without any extra text, signifies the root of your main address. To summarize, your settings should be:
+    Type: A
+    Name: @
+    IPv4 address: 206.189.200.117
+Save the changes.
+![image](https://user-images.githubusercontent.com/67378322/268045551-d79abcec-010f-423a-ba2e-049a695788a2.png)
+3. Update Nameservers on GoDaddy:
+Head to GoDaddy and log in.
+Navigate to "DNS Management."
+Find and click on the "Nameservers" section.
+Click "Change Nameservers."
+![image](https://user-images.githubusercontent.com/67378322/268044950-5eea7531-85ca-4dcf-ad5f-260c31ec9521.png)
+Select the option "I'll use my own nameservers."
+Enter the nameservers provided by Cloudflare in the respective fields.
+![image](https://user-images.githubusercontent.com/67378322/268044995-3d3164e5-41c3-43e2-9297-7b314df249dc.png)
+Save your changes.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1700745502_819a38dc-e5d2-49c5-a2d2-5c84fce2729f)
+Now you can return to the "Create a website with custom domain" page and successfully create a site on Waivio!
+
+
+# Ensuring Secure Connections: Manual HTTPS Configuration for custom domain on Cloudflare (Applicable only for custom domain site)
+For more details give a link to https://www.waivio.com/object/pvs-ensuring-secure-connections-manual-https-configuration-for-custom-domain-on-cloudflare/page
+If you encounter difficulties or issues with HTTPS for custom domains, you must configure a secure connection setting via Cloudflare. Follow these three steps to ensure HTTPS is set up correctly:
+1. Activate the "Always use HTTPS" toggle:
+Open Cloudflare.
+Select your desired domain.
+Click on "SSL/TLS."
+Navigate to "Edge Certificates"
+Scroll down to the "Always Use HTTPS" section.
+Toggle to activate.
+![image](https://user-images.githubusercontent.com/67378322/279110214-6576cd2a-fcf9-448a-9fa5-5b43b9acde6a.png)
+2. Checking the Encryption Mode:
+Navigate to the "Overview" in the "SSL/TLS" section.
+Ensure that your SSL/TLS encryption mode is set to either "Flexible" or "Full".
+![image](https://user-images.githubusercontent.com/67378322/279110400-534121c1-9434-4eda-a17e-14797aa768f1.png)
+3. Reviewing additional settings:
+Navigate to "Edge Certificates."
+Verify that the toggle is active in the "Opportunistic Encryption" section.
+Confirm that the "TLS 1.3" toggle is turned on.
+Ensure that the "Automatic HTTPS Rewrites" toggle is active.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1698737453_1a46f275-8660-47f8-b839-f147943c43c0)
+
+
+# Ensuring Smooth Redirects: Manual www to Apex Domain Setup on Cloudflare (Applicable only for custom domain site)
+For more details give a link to https://www.waivio.com/object/ckq-ensuring-smooth-redirects-manual-www-to-apex-domain-setup-on-cloudflare/page.
+When managing your website's domain settings, it's common to want a cohesive user experience by redirecting the www subdomain to your apex domain. Setting this up correctly via Cloudflare ensures that visitors access your site seamlessly, regardless of the URL they enter. This guide will walk you through the two fundamental steps to properly configure the www-to-apex redirection:
+I. Setting Up or Modifying the DNS Record
+1. Log in to the Cloudflare dashboard.
+2. Select your domain.
+3. Navigate to the DNS section and then the Records page.
+4. Look for a record with the name "www".
+![image](https://waivio.nyc3.digitaloceanspaces.com/1698852913_f7965efa-8557-4cec-923d-fde364272272)
+5. If a "www" record exists:
+    5.1. Click Edit.
+    5.2. Decide if you're basing the record on IPv4 or IPv6. Either will work.
+    5.3. Choose the type:
+    "A" and enter "192.0.2.1" in the "IPv4 address" field (for IPv4)
+    OR
+    "AAAA" and enter "100::" in the "IPv6 address" field (both options are functional, so choose based on your preference or needs).
+    5.4. Ensure the name remains as "www".
+    5.5. Click Save.
+![image](https://user-images.githubusercontent.com/67378322/279360991-c9b1e163-d32f-43e6-bae3-0ef505e8d702.png)
+6. If a "www" record does not exist:
+    6.1. Click "Add record".
+![image](https://waivio.nyc3.digitaloceanspaces.com/1698852986_42d819ef-a975-433d-866e-f742c430939d)
+    6.2. Choose the type:
+     "A" and enter "192.0.2.1" in the "IPv4 address" field (for IPv4)
+    OR
+    "AAAA" and enter "100::" in the "IPv6 address" field
+    (Both options are functional, so choose based on your preference or needs).
+    6.3. Set the name to "www".
+    6.4. Click Save.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1698853019_bd478e62-20c6-4c67-af6f-5633f80e723b)
+II. Configuring Redirection Using Bulk Redirects
+1. Exit the domain configuration.
+2. Access the main dashboard.
+3. Navigate to Bulk Redirects.
+4. Click on "Create Bulk Redirects List".
+![image](https://user-images.githubusercontent.com/67378322/279362079-39af70d6-1a40-4f56-9b1b-703aa02b9c90.png)
+5. Provide a name for the list and click "Next".
+![image](https://user-images.githubusercontent.com/67378322/279362435-b583df66-521c-4e60-86bd-f050db9d060c.png)
+6. Select "Or, manually add URL redirects".
+7. For the Source URL, enter your full domain with the "www" (e.g., www.example.com).
+8. For the Target URL, input the original domain, including "https://", and without "www" (e.g., https://example.com).
+9. Click "Next".
+![image](https://user-images.githubusercontent.com/67378322/279363454-3bcbb721-7d3b-4da0-88d7-fdb92e73de16.png)
+10. Choose "Edit parameters".
+11. Activate the following checkboxes:
+    - Preserve query string
+    - Subpath matching
+    - Preserve path suffix
+![image](https://user-images.githubusercontent.com/67378322/279363735-c853e348-f784-4324-8b97-b14ec6e0e4eb.png)
+12. Proceed by clicking "Next".
+13. Click on "Continue to Redirect Rules".
+![image](https://user-images.githubusercontent.com/67378322/279363888-5154e220-926a-4f31-b3fa-6f0c970c9043.png)
+14. Provide a rule name.
+15. Click "Save and Deploy".
+![image](https://user-images.githubusercontent.com/67378322/279364105-7663d951-4abb-4bb7-a5d8-a8bc1718ce2a.png)
+Now, when you enter your domain with "www", it should redirect to the main domain.
+For more detailed information and potential troubleshooting, you can refer to the original documentation from Cloudflare https://developers.cloudflare.com/pages/how-to/www-redirect/.
+
+
+# Search Engine Web Content Discovery: A Guide to Enabling Crawler Hints with Cloudflare's IndexNow Integration (Applicable only for custom domain site)
+For more details give a link to https://www.waivio.com/object/yfw-web-content-discovery-a-guide-to-enabling-crawler-hints-with-cloudflare-s-indexnow-integration/page.
+Crawler Hints, integrated with the IndexNow protocol, is a revolutionary approach by Cloudflare to enhance how search engines interact with website content. Developed by Microsoft and Yandex, IndexNow serves as an efficient mechanism for website owners to instantly inform search engines about content updates. This protocol acts as a direct signal to search engines, notifying them of new, updated, or deleted content, thereby allowing for a more immediate reflection of these changes in search results. This system addresses the traditional delay in content discovery by search engines, which could range from days to weeks.
+Setting Up Crawler Hints
+1. Log into your Cloudflare dashboard.
+2. Select your domain.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1701854740_9228a2b3-8ba2-40ee-8f17-32552c0e7a2e)
+3. Navigate to 'Caching' in the left sidebar.
+4. Go to 'Configuration'.
+5. Scroll to the 'Crawler Hints' section.
+6. Enable the toggle.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1701854897_4d3cc835-1905-4bbe-87ba-58201453e907)
+After enabling Crawler Hints, Cloudflare automatically signals search engines using IndexNow when your content changes. Search engines receive real-time updates, enhancing the quality and efficiency of their indexing processes.
+For more detailed information and potential troubleshooting, you can refer to the original documentation:
+- IndexNow (https://www.indexnow.org/)
+- Bing Blogs (https://blogs.bing.com/webmaster/november-2021/Cloudflare-Supports-IndexNow-via-one-click-Integration)
+
+
+# HiveFest 2023: Launching Clean Girl Social Shop on Hive
+Here is a copy of the presentation I delivered at HiveFest 2023, Rosarito, Mexico:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695874487_297ba7f1-d046-4298-b798-a150db554ebd
+Day 2 of HiveFest, my presentation starts at 1 hour 31 minutes: https://www.youtube.com/watch?v=aAGAqMn4CgU
+Today, I'll discuss my personal experience launching the CleanGirl.Social.Gifts website to demonstrate its simplicity. You can choose any theme you're passionate or knowledgeable about and create your social shop.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695838896_6dbdb8ce-f954-4987-ae1d-a426944d4261
+ Now, speaking about the Clean Girl Aesthetics, it embodies a contemporary approach to simplicity and elegance, making it versatile and the reason I chose this theme. The website's purpose is to inspire users to replicate this aesthetic in their lives.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695838949_22c2d039-4db6-48c7-82ac-80882b1bf833
+ During our shop's launch, we initially planned to have a few categories with several hundred items. However, as we progressed, we realized the theme's expansive nature. We now have over 200 categories nearing 3,000 items, with some categories still awaiting products. Rest assured, we're diligently expanding our collection.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695842181_2ede8bfc-2d9c-428a-bce6-d5809d34b90e
+ Upon visiting a product page, the layout is user-friendly. It closely mirrors familiar e-commerce platforms like Amazon and Walmart. Features include product titles, galleries, ratings, various options (like size and color), detailed descriptions, and suggestions for similar items. Furthermore, our user reviews are direct posts on Hive.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695842223_441d0192-e845-4495-94c2-2f14e14b3f40
+ Leveraging Hive's community spirit, users can use the hashtag #cleangirl, allowing their personal posts to appear on our inspiration page. This feature grants visibility to shoppers and provides another outlet for content sharing.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695842292_105bdeaa-bb0c-44ab-8bf5-148eb5e9e593
+ Now, let's delve into the behind-the-scenes of our website's creation. With Waivio technology, our backend operations were streamlined. I created a public object on Hive named "Clean Girl Aesthetics" and established categories and subcategories. After linking this public object to my website, the content on Waivio mirrored onto the site. This setup also enables trusted team members to collaborate efficiently.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695842335_83ccfcdb-154d-45bd-967a-6e65d726bd12
+ Moreover, social shop is already optimized for mobile users. Modern mobile apps with strong user engagement prioritize vibrant images and videos.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695842365_70758560-5316-4af1-8f9c-256afebafd67
+ Make sure to add your affiliate codes. For Amazon, you can even enter codes for different geographies, such as Amazon.com, Amazon.ca, and so on. Affiliate codes will be automatically added to all the products based on the geo-location of the website visitor.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695842412_acccf3e7-57bd-4d9e-bceb-ee14ed52bc03
+ When managing over 200 categories and thousands of items, a bit of structure is crucial. You might need assistance to ensure smooth navigation. We utilize ChatGPT. You can ask for suggestions such as categories and subcategories for a 'clean girl aesthetic' online shop. You can delve deeper, requesting details on specific items, like high-quality brand cleansers that fit the 'clean girl aesthetic' based on reviews.
+But remember, ChatGPT is just a tool; always apply your own judgment and vision for your site.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695842448_1317cc1a-ac75-4d32-9d6f-3a8e61930f0e
+ Once you've identified products for your site, start by checking Waivio to see if the item already exists. If not, use Amazon and the Waivio Chrome extension. Make sure you're using the latest version for optimal performance. This extension also supports other major online stores, such as Walmart and Sephora.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695842486_955e41d2-d7b8-40cb-8142-7884330bef8d
+ This is how the product page appears on the site after the item has been uploaded to Hive. Once the product is published on Hive, users can reference it in their posts. All such posts will then appear as reviews on the product page.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695842539_1a0d53e1-0323-4eb9-bf4e-efee866c00de
+ After setting up categories and adding items, focus on the site's visual aesthetics. Although we initially tried using stock photos for all the categories and subcategories in the social shop, finding the right images that matched our theme proved to be challenging. Therefore, we turned to AI solutions like MidJourney.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695842831_b60a74a6-852e-44e2-84f7-b20b51527b7a
+ When using MidJourney, ensure you have a clear theme and provide a list of specific keywords. For instance, for this project, I specify 'white marble background' to ensure consistency. If you come across an inspiring image elsewhere, include a link in your request. MidJourney takes the suggested image into account while creating unique images.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695843070_c15685a6-c62a-49d8-99b6-6a3f2f75d110
+This is the blueprint for crafting a social shop, complete with captivating visuals, an extensive product range, and a vibrant community.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695844124_3796f17b-b413-4af2-bddf-329eba72dc06
+ For all the work I've done – the images, the categories, the added items – I'm about to hand it all over to you. In just a few minutes, I'll show you how to replicate the site and take full ownership.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695844394_ae03faa7-64a4-4972-8e43-e54501c7f0f0
+ Start by choosing your site's name. For demonstration, I've named it cleanlook.social.gifts. Design your unique logo and the main banner.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695870072_336315ec-bed7-49f7-8eeb-2ff47b7416ba
+ Open Waivio, navigate to Tools > Create Website. Under Website Template, select social.gifts.
+Enter your site's name, like 'cleanlook'.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695844889_fec15bc7-d051-42b1-a885-09459d667ffe
+ Have fun with customization: pick website colors and upload your logo.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695844957_a9a3937c-b1d7-4dca-b134-2d94c24aa758
+ Now, the pivotal step: search for 'Clean Girl Aesthetic' and select it as the Base Object for your website. The entire site's navigation and architecture will stem from this object.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695844998_fd9d2b46-1dde-42c9-ade8-bad464b2f143
+ Do not forget to add your affiliate codes.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695845091_01e33d91-f298-42d8-9515-3ec349e1fbf0
+ Voilà! The website is now yours, complete with your branding and colors, plus your affiliate codes attached to the thousands of products on the site.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695870025_99a0bcdd-256e-476e-94e6-e5fd843875c7
+ This highlights the groundbreaking nature of decentralization and web3. In traditional e-commerce, every shop operates with its own user database, product knowledge base, and starts gathering user reviews from ground zero.
+However, with Hive, all shops share a common user base, product knowledge base, reviews and sponsored rewards. If your adaptation of my project thrives, it inherently means mine does too. Your success translates to more users, enriched content, more products, reviews and rewards. Concurrently, my users gain access to all that data, connecting with more peers, engaging in interesting discussions and claiming more rewards.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695845213_6e5b576f-2d5d-4a9d-9ec5-964dc0f66706
+Naturally, each site will earn affiliate commissions from its own traffic and referrals. However, the growth in users and content is a shared benefit across all projects. This collaborative approach enables shops to reach a scale that's nearly unattainable for standalone entities.
+Social shopping on Hive is genuinely revolutionary. It's also an innovative and effective method to introduce more users to Hive and foster a sense of community.
+For more details give a link to https://www.waivio.com/@sofiag/hivefest-2023-launching-clean-girl-social-shop-on-hive
+
+
+# Waivio update: Dining.Gifts social website hosting service
+Waivio now offers social website hosting services!
+And our first website template is Dining.Gifts. Several independent guides already launched their fully interactive Hive websites on Waivio, including https://Van.Dining.Gifts by @Van.Dining
+![image](https://waivio.nyc3.digitaloceanspaces.com/1616564881_0a5567cf-cb4b-4843-be87-4f71b461bf01
+Visitors to your Dining.Gifts website can search the map for restaurants and even dishes. For example, a quick search for dishes with the keyword "tuna" will show all tuna dishes in nearby restaurants:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1616565912_862ccc04-01ed-4e6e-80fe-1876bb3d3900
+Launching a website just takes a few minutes. Find the Website/Create button under the TOOLS, select Dining.Gifts template and the name for your website:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1616566668_c6342951-3509-45b6-a0c6-cc4a7df228a5
+Once the name of your site is reserved, you can quickly specify some basic parameters, select the area of the map to focus on, define the administrators and moderators for your site and launch it!
+![image](https://waivio.nyc3.digitaloceanspaces.com/1616567270_1254aa95-1613-4cbd-b377-f5fe7d9207f5
+It costs just 0.005 HBD per unique visitor per day (min. 1 HBD/day) to host an advanced social website. And the best part is that your social website comes with a solid business model: as the website owner you earn 7.8%+ from all the restaurant rebates collected by your visitors, when they share 2+ photos of dishes from participating restaurants:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1616568117_3cb4dde8-4db2-42f3-8a9d-c6be0714e448
+So, if you are a foodie and you have some social following on Instagram or any other social platform, you can launch your own branded social site in minutes and start to earn commissions from the restaurant rebates collected by your followers!
+Welcome to decentralized and permissionless Business 3.0!
+Integration of blogs into business pages
+The easiest way to provide a high impact news about your business is to integrate a Hive blog directly into your business page (1975)
+![image](https://waivio.nyc3.digitaloceanspaces.com/1616563799_febfd0fc-2f13-46b6-a3c9-eec1925b3d1b
+You can use the Custom Sorting option to place the Blog button in the first position and make your news feed the first option visitors will see, when they open your Hive business page.
+For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-dining-gifts-social-website-hosting-service
+
+
+# *.Dining.Gifts websites receive new look
+We are pleased to announce that *.Dining.Gifts websites hosted by Waivio have been given a fresh new look.
+At Waivio, we understand the importance of maintaining a consistent and professional online presence. That's why we have designed *.Dining.Gfits websites to be easily customizable, giving you the ability to tailor the look and feel of your site to match your brand's colors, focus on your desired location, use your preferred language, and display prices in your local currency.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1671065086_6488f3ef-9a9f-42ac-bb24-5f8574a89e5c
+Pacific.Dining.Gifts
+*.Dining.Gifts websites are designed with convenience in mind, providing visitors with a user-friendly search function that allows them to quickly and easily find the restaurants and dishes they are looking for. With the ability to filter their search results by location, cuisine, and ingredients, visitors can easily find exactly what they are looking for and view any rewards associated with their choices.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1671066232_6e6ae37a-64a8-4dee-83ec-6af77c9ed29d
+Van.Dining.Gifts
+Our "Submit Dish Photos" wizard makes it easy for users to share photos of their dishes and claim any associated rewards. The process is simple and straightforward, consisting of just three steps. First, users select the dish they want to share photos of. Next, they upload two or more photos and add their comments. Finally, they submit the post and collect the rewards.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1671067740_31af9f9a-8fec-4ec3-8220-b63c1ea92d67
+Rewards for sharing dish photos on *.Dining.Gifts websites are paid in liquid WAIV tokens. In the first week after publication, users can collect likes from the community, which can increase their rewards even further.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1671068041_0acc6771-cd51-4af1-a5a3-1ab490b4b4f6
+Rewards earned through sharing dish photos on the *.Dining.Gifts website can be instantly converted from WAIV tokens into popular cryptocurrencies, such as Bitcoin, Litecoin, Ethereum, and HIVE. This allows users to easily access and use their rewards in a way that suits their individual needs and preferences.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1671069285_fbc2142c-452c-4b21-87e9-902795f05307
+We hope you will enjoy the updated design and improved user experience.
+For more details give a link to https://www.waivio.com/@waiviolabs/dining-gifts-websites-receive-new-look
+
+
+# Custom Domains for Social.Gifts Websites
+Waivio is introducing custom domain names for social shopping websites.
+Previously, users were restricted to launching websites under the *.social.gifts domain. This update allows for the use of custom domain names, providing more flexibility and branding opportunities for website owners.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1701392083_06a110d1-8478-4b2e-b00a-1dfbd800a5e0
+Domain Protection via Cloudflare
+All custom domains must have a robust DDoS protection. This service is provided by Cloudflare.com at no additional cost and is known for its effectiveness in safeguarding websites against DDoS and other attacks.
+Domain Configuration Requirements
+Before launching a new website with a custom domain, certain configuration steps must be completed:
+- General Instructions (https://www.waivio.com/object/qym-custom-domain/page): Domain configuration via GoDaddy, Cloudflare.
+- Secure Connections (https://www.waivio.com/object/qym-custom-domain/page#pvs-ensuring-secure-connections-manual-https-configuration-for-custom-domain-on-cloudflare): Enforcing the use of HTTPS protocol.
+- Smooth Redirects (https://www.waivio.com/object/qym-custom-domain/page#ckq-ensuring-smooth-redirects-manual-www-to-apex-domain-setup-on-cloudflare): Forwarding from 'www' to the apex (primary) domain.
+New Domain Registration
+For those who do not yet own a domain name, purchasing directly through Cloudflare.com might be a cost-effective option.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1701452512_c85f2d19-5cbc-4b9c-99cc-d541ecd1c7bf
+Additionally, domains purchased through Cloudflare are automatically hosted on their nameservers, which ensures DDoS protection and simplifies the setup process.
+Other Updates:
+1. Objects / Image viewer - allow approve/reject votes, album & avatar selection directly in the viewer (2188);
+2. Campaigns / Sponsors - simplify the process of rejecting posts and adding users to the black list (5179, 5180);
+3. Person / Books - add a list of books authored by the person (5201, 5202);
+4. Objects / Descriptions - if there are no reviews or custom pages, show description in the middle column (5205);
+5. Business / Products - add a list of products produced by this business (5210, 5211);
+6. Data import / Large files - increase the size of imported files to 50Mb (5228);
+7. Profiles / Affiliate codes - allow users to specify affiliate codes for shops in their profiles (5278, 5279, 5564);
+8. Object / Affiliate program - allow users to configure affiliate programs on Hive (5317, 5318, 5563);
+9. Wallet / Hive withdrawals - replace Blocktrades with Simpleswap for intant withdrawals (5522, 5523);
+10. Data tools / Claim bot - automatically claims authority for all products listed, with an optional feature to include all products in embedded lists as well (5504, 5526).
+Minor Updates and Bug Fixes:
+Tasks: 3764, 3766, 3638, 5009, 5160, 5161, 5169, 5170, 5178, 5191, 5203, 5205, 5206, 5207, 5208, 5209, 5010, 5218, 5220, 5225, 5226, 5227, 5229, 5240, 5250, 5276, 5277, 5275, 5285, 5298, 5299, 5300, 5301, 5304, 5306, 5307, 5324, 5326, 5341, 5369, 5308, 5344, 5383, 5384, 5394, 5395, 5396, 5409, 5411, 5412, 5413, 5414, 5415, 5416, 5417, 5418, 5420, 5429, 5432, 5468, 5471, 5478, 5479, 5494, 5524, 5527, 5528, 5539, 5540, 5551, 5552, 5553, 5562, 5569, 5570, 5571, 5589, 5590, 5595, 5596, 5597, 5604, 5612, 5619, 5625.
+GitHub: https://github.com/Waiviogit/waivio
+X: https://x.com/waiviolabs
+Blog: https://www.waivio.com/@waivio
+For more details give a link to https://www.waivio.com/@waiviolabs/custom-domains-for-social-gifts-websites
+
+
+# Improving SEO with Canonical Links for Hosted Websites
+Waivio takes a significant step forward in addressing a common challenge faced by all our hosted social shopping sites—duplicate content originating from the Hive blockchain. Each site hosted by Waivio mirrors the same comprehensive array of information from the Hive blockchain, including user profiles, posts, objects, products, and more. This widespread duplication poses a unique problem: search engines like Google struggle to identify the original source of this content, often leading to confusion and inefficiency in search rankings.
+Introducing Canonical URLs:
+To combat this issue, Waivio is excited to launch a system of canonical URLs. This system serves as a direct communication line to search engines, clarifying which page is the authoritative source of the information.
+How It Works:
+If a new post is submitted via a hosted website, such as https://CoffeeShop.Gifts, all other websites, including https://waivio.com, will use canonical URLs to reference back to the post on the originating website.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1702598810_f26c1c08-f191-4f9e-8fc3-868752820499
+This method significantly improves the ability of search engines to identify and prioritize original content, enhancing the SEO of the originating website.
+Benefits for Website Operators and Hive Users:
+Improved Search Engine Rankings: By posting more original content through their websites, operators can gain better positioning in search engine results.
+Incentives for Onboarding New Users: The canonical address for user profiles is determined by the origin of their first post, making it advantageous to onboard new Hive users through your website.
+Complex Attribution for Objects: The canonical attribution for objects is a bit more intricate. The 'Description' field is pivotal in this process. If a user who posted a winning description hosts their website, canonical links will point to that object on their website from all other sites where the product is displayed with that description.
+Each product can have multiple descriptions, with separate attributions calculated for each version.
+Selecting the Website:
+Users with multiple hosted websites can designate which site should receive all the canonical credits for objects.
+To configure, navigate to Tools, Websites - Manage, and select the website for canonical attribution. Remember, only one website can be the primary recipient of canonical referrals.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1702598969_b6fdd006-44e6-4d78-bdfe-8957d7c940b8
+By posting original content on your hosted website, and encouraging your users to do the same, you can significantly enhance your site's search engine rankings. This improvement is driven by other websites pointing back to your website as the canonical source. Additionally, onboarding new Hive users and adding more products and objects further increases the number of inbound references, improves visibility in search engines, and brings more visitors.
+For more details give a link to https://www.waivio.com/@waiviolabs/improving-seo-with-canonical-links-for-hosted-websites
+
+
+# Boosting Social Shopping: 10X Reduction in Upvote Requirements on Waivio
+Exciting news for all social shop owners and shopping enthusiasts! Waivio has rolled out an update that significantly lowers the barrier for publishing product updates on the Hive blockchain. With a remarkable 10X reduction in upvote requirements, it's now easier than ever for users to share and manage extensive product catalogs.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1715288913_bc6bdd6f-4919-4eff-8ff8-3ae31a3f30ae
+What's New?
+Previously, the threshold to upvote object updates on Waivio required a minimum of $0.001 WAIV Power per update. Now, this requirement has been slashed to just $0.0001 per update (Tasks: 6644, 6645). This strategic change is specifically designed to empower social shop owners and merchants by allowing them to publish ten times as many updates about products, businesses, pages, lists, and other objects with the same amount of WAIV Power as before.
+Why the Change?
+This update was prompted by the increasing demand from social shop owners who are keen to expand their online collections with a broader range of products. Additionally, merchants looking to publish their product catalogs on the Hive blockchain can now do so more frequently and comprehensively. This enables their affiliate partners to more effectively create and manage social shops, leveraging a larger variety of products, engaging larger audiences, and accumulating reviews through Waivio’s open architecture.
+Data Import Tools
+Waivio continues to streamline the process of blockchain-based catalog management with its efficient Data Import Tools (https://www.waivio.com/object/ylr-waivio/page#6vcmab-tutorials/uxp-social-gifts/uiy-how-to-import-products-on-hive). Merchants can now easily export their product catalogs to a JSON file that complies with Waivio's data schema. This file can be effortlessly uploaded using Waivio’s Data Import tool. For existing products on the blockchain, only changes will be identified and published, ensuring that product details remain accurate across all social shopping websites.
+Waivio Chrome Extension
+For added convenience, Waivio offers a special Chrome Extension (https://www.waivio.com/object/ylr-waivio/page#6vcmab-tutorials/uxp-social-gifts/kda-waivio-chrome-extension-tutorial) for social shop owners. This tool simplifies the process of uploading product information from major e-commerce platforms like Amazon and Walmart. Users simply navigate to a product page, activate the extension, and the product details are automatically uploaded to the Hive blockchain and integrated into the user’s social shop. This feature is very useful for adding new products as well as for keeping product listings up to date with minimal effort.
+The Impact
+This reduction in upvote requirements is a strategic move by Waivio to accommodate the growing needs of social shop owners. By facilitating more frequent updates, Waivio enables a vibrant, continually evolving online shopping experience.
+Explore the possibilities by checking out some of the vibrant social shops (https://www.waivio.com/object/ewg-social-gifts-projects/webpage) and learn how you can launch your own social shop in just 10 minutes (https://www.waivio.com/@cryptodive/launch-a-full-shop-in-10-min)!
+For more details give a link to https://www.waivio.com/@waiviolabs/boosting-social-shopping-10x-reduction-in-upvote-requirements-on-waivio
+
+
+# Social Shopping Unveiled: A Deep Dive into Conversion Rates
+Today, I'd like to share the results of my recent experiment aimed at analyzing the efficiency of social shopping sites in generating affiliate sales via Amazon, centered around a popular product: the French Press Coffee Maker.
+The strategy was straightforward: direct traffic towards a select list of 20 French Press Coffee Makers (https://coffeeshop.gifts/checklist/2x9p9j-shop?currObj=eoi-french-press-coffee-makers#ype-coffee-makers/eoi-french-press-coffee-makers) with Amazon links and detailed descriptions, then track and analyze the conversion rates.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1712088568_a473a2bd-0a2d-45b8-828a-cbf08609920b
+This exploration was divided into two distinct phases to gain insights into consumer behavior under different shopping conditions. The first phase coincided with the bustling holiday season, and the second unfolded during a regular shopping interval.
+Holiday Shopping Phase
+(November 20 - December 20, 2023)
+![image](https://waivio.nyc3.digitaloceanspaces.com/1712088609_1fef793c-6f0d-4ce5-9c52-9181cc3ddbee
+Traffic and Engagement: Out of 1,100 visitors, 189 clicked through to Amazon, showcasing a 17% click-through rate (CTR).
+Conversion to Purchase: These clicks translated into 32 purchases, equating to an impressive 17% conversion rate from clicks to sales.
+Overall Conversion: The overall visitor-to-purchase conversion rate stood at 3%, a notable achievement.
+Regular Shopping Phase
+(February 1-29, 2024)
+![image](https://waivio.nyc3.digitaloceanspaces.com/1712088681_a35455cc-4496-4d24-9350-965304bfacc7
+Traffic and Engagement: From 506 visitors, 72 clicked through, achieving a 14% CTR.
+Conversion to Purchase: This engagement resulted in 10 purchases, maintaining a 14% conversion rate from clicks to sales.
+Overall Conversion: Here, the conversion rate slightly decreased to 2%.
+Financial Performance and Benchmarking
+The overall visitor-to-sales conversion rates were impressive: 3% and 2% for the respective phases.
+Earnings: The experiments generated commissions of $35.20 and $15.04, respectively, from products priced around $30, within Amazon's 3%-4% commission range for this category.
+Crucial to this analysis was the evaluation of performance through RPM (Revenues Per Mille https://support.google.com/adsense/answer/190515?hl=en) and EPVM (Earnings Per Visitor Mille https://vibetrace.com/revenue-per-visitor/), which demonstrated decent efficiency:
+During the holiday season, the rates were $14.67 RPM and $32 EPVM.
+During the regular shopping period, the figures were $8.85 RPM and $29.72 EPVM.
+These results exceed industry benchmarks and highlight the effectiveness of social shopping sites in monetizing targeted audiences.
+Expanding Beyond the Experiment
+This experiment focused on a single item. However, the true value of social shopping is revealed in curating collections of products that can be purchased together, thus significantly improving revenue per visitor.
+For example, a camping site can offer a collection of 200 essentials for outdoor family trips. An interior design site might curate a collection to inspire a seasonal refresh, featuring matching pillows, candles, and covers. Beauty sites can propose comprehensive skincare routines requiring a suite of products, while fashion shops can assemble outfits for a specific style.
+Moreover, revenue opportunities extend beyond direct affiliate sales. Website owners can benefit from commissions on user-generated posts, sponsored rewards claimed by users, AdSense advertising, and even by managing rewards programs for brands.
+In essence, if you're an influencer or aspiring to become one, leveraging a social shopping site can serve as an exceptionally effective platform for showcasing curated shopping collections to your friends and followers, blending community engagement with commercial opportunity seamlessly.
+For more details give a link to https://www.waivio.com/@grampo/social-shopping-unveiled-a-deep-dive-into-conversion-rates
+
+
+# Dining.Gifts by Waivio - Open Business 3.0 Process In Action
+Waivio is proud to introduce the first fully operational open Business 3.0 process - https://dining.gifts
+Dining.Gifts is a decentralized global platfrom for restaurant rebates.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1618179877_5fe236b2-ad31-40b1-94ce-a050a855eecd
+Dining.Gifts is a type 3.0 business and it is using an open business process. This approach allows independent parties to operate as a single, well-managed business and collectively achieve the scale they could not achieve on their own.
+Open architecture allows the free flow of information between participating businesses. All the information about restaurants, menus and rewards is published on the Hive public blockchain, and can be freely accessed by all users, guides and apps.
+Dining.Gifts website is operated by Waivio Technologies Inc., but all of the data, including user profiles, social graphs and transactions is coming directly from the Hive social blockchain. In fact, you can launch your own highly interactive social website within minutes using Waivio.com and it will have all the restaurant listings, menus, rewards, user profiles, influencers and news feeds. And you don't need to ask anyone's permission to use all that data or to start your own Dining.Gifts business.
+Users are no longer "owned" by websites
+Traditional websites are trying to build their own user databases. And this creates a lot of inconvenience for the users, because they have to remember many passwords, create and maintain multiple social profiles, their followers and connections are very fragmented and on top of that their accounts can be censored and closed, causing them to lose all their work!
+But there is no central authority on a decentralized social network. Control is now in the hands of users themselves. Users are no longer "owned" by websites and they can use any Hive-compatible website, as their followers will be informed of their posts and comments, regardless of the Hive app they are currently using.
+The open social blockchain allows users to maintain full control over their privacy, posts and votes, social connections, and funds in their accounts. Users thus become the main beneficiaries of their own work and attention.
+Open access
+All participants in an open business process have equal access to all data and user information.
+When one of the websites brings in more users, everyone benefits, as the additional users make new connections, publish new content, and all of this is synchronized between all the other websites through the Hive social blockchain. When one guide adds one more restaurant, updates menus or launches new rewards campaigns, all the other websites will also be able to present new content and rewards to their visitors.
+On one hand, this increases the visibility of the rewards, but on the other it also allows websites to offer a wider selection of rewards to their visitors and receive commissions for facilitating transactions.
+The open business process transforms competition into synergy and turns a zero-sum competition into a shared success, allowing independent players to operate as one entity.
+Rapid scaling
+The open business process is designed for rapid scaling.
+First of all, no permission is required to participate in the process. Anyone can join and receive payments for their work.
+Second, participants can focus on a specific role in the business process without having to build everything else. A good salesperson can focus on managing rebate programs for restaurants, while a good marketer or influencer can focus on building an audience for their branded website and collecting fees for distributing rewards to users.
+Third, it can be scaled internationally, as the same open source technology can be used worldwide, while business operations can quickly adapt to local context, pricing and legal requirements.
+Improvements in technology and services become immediately available to all participants. Best practices can be freely shared because the success of each participant contributes directly to the success of everyone involved in the project.
+Fair distribution of benefits
+The decentralized social chain does not have a central authority or a gatekeeper. It does not need to maximize quarterly profits for shareholders. Instead, any benefits that arise from the increased scale of operations are shared among all parties based on their ongoing contribution to the business process.
+Dining.Gifts business roles
+There are many key roles in the Dining.Gifts open business process:
+users - earn tangible rewards for sharing dish photos;
+restaurants - bring new customers and create social impact, while paying for results only;
+guides - manage rebate programs for restaurants (ex, 25%+ commissions);
+influencers - promote rebates to end-users through branded *.dining.gifts websites (earn 7.8%+ from distributed rewards);
+data admins - add new restaurants & menus, maintain accuracy of existing data (fee based services for guides);
+moderators - fraud prevention and community moderation (monthly service for guides);
+token holders - use voting power to increase profitability for guides to stimulate business activity for the token and provide DeFi liquidity to earn exchange commissions (ex, 0.5% from inflows and outflows);
+server hosting - Waivio is an open source project and it can be replicated by partners who have sufficient technical expertise (5.2%+ in processing fees) plus website hosting fees.
+Please review Tutorials (https://www.waivio.com/object/mds-dining-gifts/menu) for additional information and hands-on training.
+For more details give a link to https://www.waivio.com/@grampo/dining-gifts-by-waivio-open-business-3-0-process-in-action
+
+
+# Launch YOUR Shop in 10 min
+Welcome to Waivio!
+Let’s Launch A Social Shop Together in 10 minutes.
+To get started, you will need a Hive account; if you don’t have one, we have a tutorial on how to create it - check it out here https://www.waivio.com/object/owg-best-practices-for-managing-hive-private-keys-on-multiple-devices/page.
+With the Hive account, sign in to Waivio. Navigate to “Tools”, then under "Websites," click on "Create."
+Step 1. Domain
+For your social shop website, you can use your custom domain
+or choose a subdomain with Social.Gifts. Instructions are available on how to
+configure your custom domain. But for simplicity, let's use a subdomain on
+social.gifts. Choose social.gifts business template from the dropdown menu.
+Choose a name that you want for your shop. If the domain is available, proceed
+to read and accept the terms and conditions and click on "Create new
+website".
+![image](https://waivio.nyc3.digitaloceanspaces.com/1709270540_aca9241d-ccda-4f32-bf4d-b9c65ebd3c40
+Now Let’s customize our new website.
+Step 2. Configuration
+In the Configuration section, you'll have the opportunity
+to customize your shop's appearance, such as text and button colors, logo,
+name, and more.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1709270572_fdfd9b26-2ff1-4480-8e36-83b039ed0e48
+2.1 Logo
+First, Let’s upload both your desktop and mobile logos to ensure consistent brand
+representation across all devices.
+2.2 Banner
+Next, Let's also add a banner to be displayed at the top of
+all your website pages.
+2.3 Base Object
+Next, In the "Base Object", you can join one of various existing projects tailored to different themes and niches. These are essentially already operational shops that you can use to kickstart your own social shop. Various existing projects can be found on the Social.Gifts Projects page https://www.waivio.com/object/ewg-social-gifts-projects/webpage.
+These shops come with thousands of carefully curated products organized into categories, a community newsfeed, information pages and many other features.
+For example, let's say you're passionate about beauty products. You can join the "CleanGirlAesthetics" project, which features hundreds of categories and thousands of beauty-related products.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1709270707_195c93f3-fac4-4277-8954-93c5afec932f
+With just one click, your website will transform into a comprehensive beauty destination, complete with a community newsfeed where users can interact and share their favourite products.
+Let’s try another example: “Coffee Time” project.Your shop now includes thousands of coffee-making products, serving accessories, books, and various types of coffee. In the newsfeed, you will have coffee-related posts and reviews.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1709270943_db24daeb-1f72-4eee-bd3d-3d6ffe2cc05f
+In a similar way, you can launch other shops according to your interests and preferences. Check out the existing projects on the Social.Gifts Projects page https://www.waivio.com/object/ewg-social-gifts-projects/webpage.
+If none of the existing projects match your vision, you can always start a new project. We have tutorials to guide you through the process, or you can book a one-on-one session with one of our coaches. Or, you can also order a website custom-made to your specifications.
+Step 3. Affiliate Codes
+Now let's move on to affiliate codes. If it’s your first time creating an affiliate link, let’s create one together for Amazon.com.
+Let’s go to Amazon Associates - Amazon’s affiliate marketing program https://affiliate-program.amazon.com/home. Click sign up, and enter your credentials. Provide basic information, e.g., your name, shipping address. Next, attach a link to your newly created website. Next, you will be prompted to answer a few questions about the shop. After you complete it, you will get your code instantly.
+Now let’s add your code. On Waivio, search for amazon.com -> paste your affiliate link here and click Submit.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1709270744_c994be3f-0356-4d7b-87bb-e07bfde93cab
+![image](https://waivio.nyc3.digitaloceanspaces.com/1709270827_e8e706a2-d21d-4b45-8fb8-5e5138f61d89
+All your products in your shop will be updated with your affiliate code instantly, giving you the opportunity to earn from every purchase your visitors make. You can also add local affiliate links, such as amazon.ca or amazon.com.au ensuring that you earn commissions regardless of where your visitors are located. Your shop will automatically detect visitors' geolocation, and seamlessly direct them to the appropriate Amazon website, where your affiliate link is activated.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1709270840_f29a787e-384f-4ab9-9f16-e53dde813a7d
+It's useful to occasionally check that your affiliate codes are active, especially for Amazon, since the codes can expire if a certain sales threshold is not achieved. That's the beauty of this interface because, unlike other platforms, if your code expires, here, you don’t need to update every product individually. Just update it once here and it will automatically be applied to all your products.
+Step 4. Administrators
+Next let’s add Administrators and Authorities.
+For every social.gifts project you would see a list of users, each has a specific function to perform.
+For example, administrators is a list of users whom you trust to keep product information current. These could be the manufacturers themselves or community members dedicated to keeping product details up-to-date.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1709270874_20188b1e-4069-4cda-99db-62676660642a
+To add administrators, review the list of suggested admins for your project, then copy the admin user and paste it into the administrators section.
+Step 5. Authorities
+Authorities have a unique role, marking products for discovery in website searches, including similar and related products, and prioritizing them in the sitemap for external search engine indexing. Unlike administrators, who may be involved in multiple projects, authorities typically focus on a specific project.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1709270886_81b845da-4134-47c2-9c34-96c5490468c4
+To add authority - copy the authority user for your chosen project and paste it into the authorities section.
+Step 6: Website Hosting
+To keep your website up and running, there are hosting fees associated with maintaining your social shop. When you're ready to fund your website, navigate to the "Manage" tab, where you'll find the button "Pay Now." Here you can transfer WAIV tokens to pay the hosting fees. WAIV tokens will be converted to USD at the current market rate.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1709270918_8a22c7fa-0a7f-48e6-a346-97b3abc61fc9
+For hosting prices, check the section here. Currently, for active websites, the plan starts at 1USD/day, conditions apply.
+Your Shop
+Now Let’s check out our shop. In less then 10 minutes we launched a sophisticated branded social shopping website with hundreds of categories and thousands of products all with proper affiliate links. This site has an online community of like-minded people posting on a regular basis, and your visitors can join them, participate in discussions and even claim sponsored rewards by sharing product photos.
+What makes this possible?
+It’s only possible to build a website like this with such ease because it uses a collaborative effort and Web 3.0 infrastructure.
+Typically, creating online stores requires starting from scratch: you must build your own user database, establish a product knowledge base, and collect user reviews. Each store functions as an isolated island, beginning to build its community from the ground up.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1709270961_71d9b28c-6905-43ce-b4be-0941492f70eb
+In contrast, in Web 3.0, your shop taps into the entire community, gaining access to the existing product knowledge base, as well as all product reviews and related content.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1709270975_434652e7-d6b6-44e4-96fb-6bbd5b62bb2a
+The more people like you who open similar shops, the better your shop becomes—with more products to explore, more reviews to read, more rewards to claim, more like-minded individuals to connect with, and significantly more opportunities for your shop to grow.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1709271004_3ebf8471-46de-4ebe-9201-aeb9e837d9cf
+![image](https://waivio.nyc3.digitaloceanspaces.com/1709271057_0e7675f1-d7fe-4439-9d7f-7d9fdfe98f3d
+Welcome to the Web3 era of social shopping, where a multitude of projects come together to achieve success and economies of scale that are not possible for standalone projects.
+Follow @social.gifts for more updates https://www.waivio.com/@social.gifts
+Learn more about Waivio https://www.waivio.com/object/ylr-waivio/page#mim-transform-your-passion-into-profit-with-waivio
+For more details give a link to https://www.waivio.com/@cryptodive/launch-a-full-shop-in-10-min
+
+
+# Social.Gifts: Object Editing by Admins
+When a user with admin privileges logs in to a *.Social.Gifts website, they will now see an 'Edit' button on product pages.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1690612916_726d3eaa-d187-4c4b-8c49-6b68c7bc62ef
+Website owners and registered admins no longer need to visit Waivio.com to make small edits to products.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1690613174_9f5320c1-37a8-4600-84b3-6bf3ea8ac06d
+A vote on an object update by an authorized admin carries decisive weight on a specific website. However, on another website or on Waivio.com, that user's vote might not hold the same influence, leading to the same product appearing differently across various platforms.
+This is why it's important to be able to edit objects within the context of a specific *.Social.Gifts website.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1690613992_3c83e691-aab3-4bb6-a232-a52467a3fabf
+In the 'Updates' section of an object, updates approved by the website owner or admin are prominently highlighted.
+For more details give a link to https://www.waivio.com/@social.gifts/social-gifts-object-editing-by-admins
+
+
+# Social.Gifts: Leveling the Field – Granting Admins Equal Edit Rights with Website Owners
+By default, website owners on *.Social.Gifts hold a greater voting authority compared to any administrators they may have added via the 'Settings'. This additional authority is designed to provide website owners with the final say on all object updates within their sites.
+However, there's a flip side to this power. Specifically, it prevents administrators from making corrections to products imported by the website owners.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1690657040_6590ec19-45f4-4be9-8302-4a9921c65b77
+We've listened to your feedback, and introduced a new feature that allows website owners to add themselves to the list of admins, thereby equalizing their vote with other admins. As a result, admins can override updates made by website owners when necessary.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1690657272_6adaae76-ce26-4d31-b31b-12562819e164
+If you wish to return to your superior voting status, simply remove your name from the list of admins.
+For more details give a link to https://www.waivio.com/@social.gifts/social-gifts-leveling-the-field-granting-admins-equal-edit-rights-with-website-owners
+
+
+# Social.Gifts: Titles and Descriptions for Categories
+In an effort to enhance visual appeal, informational value, and search engine optimization (SEO), social shopping sites are now incorporating titles and descriptions into their product categories and sub-categories.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1697297277_29ee6a56-bb3e-4b41-9611-ea65845c157e
+The process of adding titles and descriptions to categories (lists) is similar to that of adding avatars.
+First, navigate to the category you wish to enhance with a title and description.
+Then, open it in a new tab. It's crucial to open the list in a separate tab to make changes to that list.
+Once in Edit mode, you can add an avatar, title, and description to the list.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1697297336_c3b10c90-7e18-4917-9012-b757481d0b88
+When designing titles and descriptions for categories, it may be beneficial to incorporate search terms and keyword combinations that individuals are likely to use when seeking resources related to your website's topic. Numerous tutorials are available online about SEO optimization of web pages for search engines.
+For more details give a link to https://www.waivio.com/@social.gifts/social-gifts-titles-and-descriptions-for-categories
+
+
+# Sitemaps Now Integrated into All *.Social.Gifts Websites
+We're pleased to inform that sitemap.xml files have been implemented across all *.Social.Gifts domains. Find an example at https://coffeeshop.gifts/sitemap.xml.
+Sitemaps are crucial for search engine optimization (SEO), ensuring that product and category pages are accurately indexed and more readily accessible to users via Google search.
+For example, after adding the sitemap link to the Google Search Console, we noticed a spike in the indexing of CoffeeShop.Gifts webpages by the search engine.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1698095338_4130768c-43a1-40b3-8cac-5c44794558d7
+To initiate the indexing of your sitemap, first access the Google Search Console. For first-time users, the Console requires a one-time verification process to authenticate website ownership. The process is relatively straightforward if your domain is registered through CloudFlare.com or GoDaddy.com.
+Once in the Console, navigate to the 'Sitemaps' tab. Here, you can add your sitemap by entering the URL: https://yoursite.name/sitemap.xml.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1698098091_f762ebaa-f230-4460-8850-78c03997a188
+This integration reinforces our continuous commitment to enhancing the search engine visibility of *.Social.Gifts websites. We welcome and value insights from our community on further SEO improvements for our websites.
+For more details give a link to https://www.waivio.com/@social.gifts/sitemaps-now-integrated-into-all-social-gifts-websites
+
+
+# Introducing Complete Admin Control for Social.Gifts Websites
+Every website has unique needs. Some prefer community-driven content, while others opt for post-moderation by admins.
+Now, the 'Object editing by users' option in the Social.Gifts website settings allows you to further strengthen your control over site content. With this option, you can ensure that only content approved by your administrators appears on your website.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1700231012_938089fa-d9b7-4ac6-8de9-96cbc66a0aab
+To activate:
+Click 'Tools'.
+Go to 'Settings' for the selected website.
+Enable the 'Object editing by users' option.
+With this new feature, you retain full control over the objects displayed on your website (like lists, products, pages, etc.), ensuring that everything published aligns with your vision and standards.
+Alternatively, if you prefer full control over specific objects but want to allow the community to make changes and add new information to others, your admins can claim 'Authority: Ownership' for these specific objects.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1700248547_2b9dfbcb-638a-42c9-9063-bedeafc0cfd1
+To claim full authority over an object:
+Open Object, swithc to Edit mode.
+Click + on Authority field.
+Claim Ownership authority over the object.
+Ensure that the account used for authority claims is recognized as an administrator on the website, and that this user has approved all the necessary fields for that object.
+P.S.
+As an experiment, @coffee.time enabled this option for the https://CoffeeShop.Gifts website and quickly realized that the list of admins needed to extend beyond the core team. It now includes all users who contributed to the project at various stages. The list turned out to be quite extensive!
+For more details give a link to https://www.waivio.com/@social.gifts/introducing-complete-admin-control-for-social-gifts-websites
+
+
+# Enhance User Engagement on Your Website with Comment Signatures
+We're excited to introduce a new feature that enables you to add custom signatures to your comments. This tool is particularly beneficial for enhancing interaction within the topical community feeds on your site.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1701309695_1f579c37-e3c4-4e00-a22a-b2e3e6991bf3
+Customizable Signatures:
+You now have the capability to create a signature in your profile, which will automatically appear in all your comments. This signature can include a link to your website along with a brief tagline, offering a consistent presence in discussions.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1701310210_63c63cc8-ec9d-4049-81b5-9f254f914c3d
+Engagement in Community Feeds:
+Community feeds are dynamic environments for discussion and sharing experiences. With your custom signature, you can subtly highlight your website while engaging in these conversations. This approach allows you to connect authentically with users, maintaining visibility for your website in a non-intrusive manner.
+For more details give a link to https://www.waivio.com/@social.gifts/enhance-user-engagement-on-your-website-with-comment-signatures
+
+
+# Submitting Social Shopping Sites to Search Engines for Indexing
+Now that you've launched your social shopping website, it's crucial to inform search engines about its existence. Actively submitting your site to search engines is a key step in increasing its visibility. This proactive approach not only expedites the indexing process but also lays the foundation for generating organic traffic to your new site.
+Google Search Console
+https://www.google.com/webmasters/tools/home
+- Use DNS TXT record to verify website ownership. This method is recommended as it doesn’t require adding extra code to your site.
+- Once verified, submit your sitemap (https://coffeeshop.gifts/sitemap.xml). This can be done under the Indexing/Sitemaps section in Google Search Console.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1701585882_52d042fb-5949-4707-934f-cb51f6f76737
+Bing Webmaster Tools
+https://www.bing.com/webmaster/tools
+- Import your site from Google Search Console to Bing Webmaster Tools, making the setup process easier.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1701585663_95f34c50-eff3-4440-a666-c2280f4d3d08
+- Submit your sitemap in Bing Webmaster Tools, which will also cover Yahoo, as they use Bing's index.
+DuckDuckGo
+DuckDuckGo does not require direct submission. It automatically indexes the web using over 400 sources, including Bing. Therefore, submitting your site to Bing also helps with DuckDuckGo indexing.
+Additional Search Engines
+Here are some more platforms where you can submit your site for indexing. This list includes a mix of general and niche search engines:
+Yandex
+Baidu
+Active Search Results
+ExactSeek
+GigaBlast
+EntireWeb
+Exalead
+SonicRun
+SoMuch
+WhatUSeek
+VieSearch
+Link Centre
+Info Tiger
+Amfibi
+9Sites
+24×7 Web Directory
+Anoox
+Elite Site Directory
+Free Web Submission
+Free PR Website Directory
+Directory Fire
+Social Submission Engine
+Secret Search Engine Labs
+GainWeb
+IntelSeek
+WotBox
+Illumirate
+1ABC
+A1 Web Directory
+Official
+Beamed
+UserTown
+Mad Submitter
+Amidalla
+HotVsNot
+Free Web Submission
+To wrap up, submitting your site to search engines is a smart move for better visibility.
+And if you stumble upon any new search engines or have tips to share, don't hesitate to drop them in the comments below.
+Your insights are much appreciated!
+For more details give a link to https://www.waivio.com/@social.gifts/submitting-social-shopping-sites-to-search-engines-for-indexing
+
+
+# Why Product Reviews are Crucial for Your Social Shop's SEO
+As a social shop owner, you know the value of engaging content. But did you know that product reviews can significantly boost your search engine optimization (SEO) efforts? Let's dive into why product reviews are essential and how they can elevate your social shop's visibility.
+Real-Life Example: Google Site Search
+![image](https://waivio.nyc3.digitaloceanspaces.com/3dfa16d27a1a604f001f923e5b219aa1ccf0cb3a13b9cd2207162bc9829d14c3)
+Imagine a customer searching for "Milani Make It Last Sunscreen" on Google. The first result is a link to a product review, while the second link is to the product itself. This scenario highlights two crucial points:
+1. Higher Search Rankings: Product reviews often rank higher in search results compared to product pages. This is because search engines value fresh, user-generated content that provides real insights.
+2. Enhanced Credibility: Reviews from actual users add credibility to your products, making potential customers more likely to click on these links.
+The Importance of Posting Reviews on Your Social Shopping Site
+To maximize the SEO benefits, ensure that product or business reviews are posted directly on your social shopping site. This approach establishes your site as the original (canonical) source. Consequently, any other websites displaying these reviews will point back to your site as the canonical source, consolidating your SEO efforts and improving your site's authority.
+Video Reviews: Adding Value for Visitors
+![image](https://waivio.nyc3.digitaloceanspaces.com/106a165e6c729dad402a751129847a4234b93ed3400328ae70944e06d3ad8c28)
+Including video reviews on your product pages can further enhance the user experience. Visitors can see how a product is used and hear firsthand commentary, which can be incredibly persuasive. Video content not only keeps visitors engaged longer but also boosts your site's SEO by increasing dwell time and providing rich, multimedia content that search engines favor.
+Key Takeaways
+1. Boost SEO with Reviews: Product reviews can rank higher in search results and add credibility.
+2. Canonical Source Matters: Post reviews on your site to establish it as the original source, enhancing your SEO.
+3. Engage with Video Reviews: Incorporate video reviews to enrich the user experience and improve your site's SEO.
+Leverage the power of product reviews to not only build trust with your customers but also to climb the search engine rankings, driving more traffic and sales to your social shop. Start encouraging your customers to leave reviews today and watch your SEO improve!
+For more details give a link to https://www.waivio.com/@social.gifts/why-product-reviews-are-crucial-for-your-social-shop-s-seo
+
+
+# PayPal Button Integration into Product Pages
+If you're looking to sell your own products and directly accept payments in a social shop, PayPal offers a seamless solution. Here's a step-by-step guide on how to integrate PayPal into your product pages, with an example from Luxita Solutions, which accepts PayPal for their Premium Training Course.
+Example: Luxita Solutions' Premium Training Course
+![image](https://waivio.nyc3.digitaloceanspaces.com/ae00b981375eb21c20ecc63edd9734322c2cca82022230a3bd5f28d2525c12fd)
+Source: Premium Training Course (https://luxitasolutions.com/object/xqi-premium-training-course?breadcrumbs=4fsj5r-packages/xqi-premium-training-course)
+How to Integrate PayPal into Your Product Pages
+Step 1: Create a Product in PayPal
+First, create a product in PayPal with the necessary details like name, price, and applicable tax. Once this is done, PayPal will provide you with a dedicated URL to sell your product. The URL will look something like this:
+https://www.paypal.com/ncp/payment/L7Y46H9566LLU
+From this URL, you need to copy the code (ProductID), which in this case is L7Y46H9566LLU.
+Step 2: Create a Product on Waivio
+Next, create a product on Waivio. Provide a detailed description, add photos, and complete all relevant fields. The critical part is to add the ProductID:
+Set the name to "paypal"
+Set the value to the ProductID obtained from PayPal
+![image](https://waivio.nyc3.digitaloceanspaces.com/e8ababfe492dc96e0d883c64b68d90e9a736bf3209c356b80fb2bed77852137b)
+Step 3: Add PayPal Affiliate Code in Website Settings
+To ensure the PayPal button appears on your social shopping site, you need to add the PayPal affiliate code in the website settings. Simply enter the same name you configured in PayPal.
+![image](https://waivio.nyc3.digitaloceanspaces.com/33d82d92563159ea6ce72fb3f4d38fa91fcf0a6998c5d6ffd4da4281f33e4036)
+Note: This field is not required in the URL, but it is necessary for the button to appear on your social site.
+Simple Integration
+Now you can effortlessly integrate PayPal payments into your social shopping site. Whether you’re selling online training courses, physical products, or services, the PayPal integration ensures a smooth and trusted transaction process.
+Get started today and take your social shop to the next level with easy-to-integrate PayPal payments!

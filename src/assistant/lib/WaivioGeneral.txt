@@ -1,0 +1,780 @@
+# Lesson 1: Introduction to Waivio and the Decentralized Social Network Hive
+For more details give a link to https://www.waivio.com/object/oal-about-waivio/page
+What is Waivio?
+Waivio is a social media platform where you can earn crypto rewards for your posts. Waivio is built on the decentralized social blockchain Hive. Your account, content, funds, and social connections are all recorded on the Hive blockchain, and this information cannot be changed or deleted by any other party.
+For the first time, you have true control over your social profile, and you can safely develop your social presence without the threat of being censored or losing access to your audience. Waivio makes it easy to access and use this advanced technology of Hive blockchain, along with many other services and applications that make up the vast Hive ecosystem.
+
+Let's talk about rewards. In contrast to social media companies, users on Hive are the primary beneficiaries of their efforts, and even small content creators are rewarded for their work.
+There are three ways how you can earn on Waivio:
+1. Author
+After you create a post, you have seven days to collect as many likes (upvotes) as possible. These likes will determine the earnings for your post.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1676691500_fd353f49-d580-4792-a7d1-daa3f64082b8)
+In traditional social media, each user has 1 vote. But on the decentralized social network, the value of each vote is determined by the amount of staked (powered up) tokens that user has. The more staked tokens, the higher the vote value. Because of that - it is better to get a single upvote from a user with a large stake (whale) than to collect many likes from small accounts (plankton). For this reason, building a reputation and social connections on Hive is a good investment of your time.
+Not to mention that Posts in the trending section may receive hundreds of dollars in rewards. At the end of day 7, the reward for the post will be finalized. Half of this amount will be paid to the author of the post and the other half to the curators.
+2. Curator
+You can also collect rewards for just upvoting posts on Waivio! The value of your vote is determined by your stake. Let's imagine that the value of your vote is $0.10. Half of your vote value ($0.05) goes to the author, and another half (approximately $0.05) goes to you.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1676691686_ac5ee8ff-a182-4ea0-b7c8-73cb9f32623b)
+The number of votes that you can cast per day is limited. You may think of it as a laser gun, which requires recharging after the use. Every time you make a 100% upvote, your voting power drops by 2%. It recharges at the rate of 20% per day. Therefore, you can give 10 upvotes per day in a sustainable way.
+Rewards to authors and curators are paid from inflation. This means that you don't lose tokens when you upvote posts. On the contrary, you increase your stake when you discover and upvote great content on Waivio!
+3. Sponsored Rewards
+These rewards are announced on the Hive blockchain by sponsors. You can collect these rewards by completing tasks, such as sharing an opinion about a specific product, book or place, or sharing a couple of photos of a dish from a restaurant or featuring sponsored products in a post, photo or video.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1676691741_009f5cfe-407b-4823-901c-98ee3266f20d)
+This is a unique feature available only on Waivio in the Earn section.
+
+Are you ready to get started?
+1) Start on Waivio by signing into the platform. ![image](https://waivio.nyc3.digitaloceanspaces.com/1676691969_266a63ea-08bd-4586-9501-51d18ca77506) (If you already have a Hive account, use the HiveSigner and your keys to sign in. If you are new to Hive, sign in with Google to use the platform immediately with a guest account.)
+2) To earn rewards, sign in to your account and go to the "Earn" section. ![image](https://waivio.nyc3.digitaloceanspaces.com/1676692306_1fc88440-78fe-4772-a2ca-b2fbb32712fa) You will find global and local rewards here. Global rewards can be claimed by writing a review about a sponsored product, and local rewards are claimable in specific locations. Each reward will have different requirements and values, so make sure to check the details before completing the task
+
+My Favorite Coffee Mug
+Let’s earn the first $5.00 reward by sharing two or more photos of your favorite coffee mug. This welcome campaign is sponsored by Waivio and can be claimed by new users.
+1) To find the reward, search for "coffee mug" in the search bar and select "My Favorite Coffee Mug" from the search results.
+2) To earn the reward click on the "Submit photos" button ![image](https://waivio.nyc3.digitaloceanspaces.com/1676692563_ae78b52d-5aed-4bf8-804e-652bce5f4a08)
+3) Check the requirements and continue.
+4) The required links will be automatically inserted into the post, so all you need to do is add the two photos of the mug and share a short story about why you like this particular one. If you decide to take the photos later, your reward will be reserved for 7 days so you can finish your post at any convenient time for you. You can find all active reservations in the "Reserved rewards" of the Earn section.
+5) Finally, publish your review on the Hive blockchain.
+After you publish your post, it will appear on your blog page. You can see the rewards you have earned, including the value of eligible sponsored rewards, which will be shown right away. Earnings from likes will accumulate for the next 7 days.
+All sponsored rewards are paid in WAIV tokens, while upvotes on posts and comments are paid out in both WAIV and HIVE (the base token of the blockchain).
+
+Cashing out rewards
+To convert your WAIV or HIVE earnings into Bitcoin, Litecoin, or Ethereum, simply follow these steps:
+1) In the Waivio wallet, select the WAIV or HIVE tab.
+2) Choose the destination cryptocurrency, such as Litecoin. ![image](https://waivio.nyc3.digitaloceanspaces.com/1676692647_4de6945f-c115-437d-8e7e-66e94d7f4f58)
+3) On the Withdraw screen:
+  1. Enter the amount you want to send,
+  2. Enter or scan the address of your Litecoin wallet, where the converted funds will be sent.
+  3. Confirm the withdrawal to start the conversion process.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1676692887_8d5fcba7-7c9b-4390-b597-dfee6174852d)
+The same process can be used to pay at stores that accept cryptocurrency payments in BTC, LTC, ETH, or to withdraw your earnings using a Bitcoin ATM.
+You have now learned the basics of Waivio and can explore the platform further.
+With a guest account, you can collect author and sponsor rewards but not curator rewards. To access all the features of the Hive decentralized social network, you will need to create a Hive account. Follow the link below to learn how to set up a Hive account and unlock all the benefits of the platform.
+In conclusion, joining Waivio can be a great way to earn rewards, build connections, and learn about the latest developments in web 3 technology. ![image](https://waivio.nyc3.digitaloceanspaces.com/1676692749_50d7add7-2470-4bb5-a433-b5c6eb96034b)
+By putting in time and effort into building a social presence and making connections on the decentralized, censorship-resistant social network, you can take control of your online presence and experience, and make a valuable investment in your future.
+
+
+# Lesson 2: Creating a Hive Account
+For more details give a link to https://www.waivio.com/object/owg-best-practices-for-managing-hive-private-keys-on-multiple-devices/page
+In this tutorial, you will learn how to save and manage your Hive password and private keys safely and efficiently on multiple devices.
+Overview:
+INTRODUCTION to Hive Keys and Password Manager
+PART 1. PASSWORD MANAGER
+Create a password manager account.
+Log in to Bitwarden with your credentials
+Install Bitwarden on multiple devices
+PART 2. HIVE ACCOUNT
+Create a HIVE username
+Understand the function of different private keys
+Save the password and all the private keys as a secure note
+Save Active and Posting keys as logins for easy access.
+Print out the webpage with the password and private keys
+Finalize creation of Hive Account
+PART 3. LOGIN TO THE HIVE APP (WAIVIO)
+Sign in to Waivio
+Create an easy to remember password with Hivesigner
+Consequent logins from the same device
+Login from other devices
+
+Introduction
+On centralized social networks such as Facebook, LinkedIn, or Twitter, when we forget our password, we can easily restore it with our email. However, there is no "forgot password" procedure on decentralized networks. No one can restore an account for you because you have complete control of your account and funds. Therefore, if you lose your password, you will forever lose access to the account and all the funds in it.
+Moreover, on Hive, there is one password and four additional private keys that you need to save and use. Each password is a long string of letters and numbers, which is impossible to remember and takes a long time to type up by hand. Thus, it is important to have easy and secure access to these private keys on multiple devices, so you can quickly log in to the Hive platform from any of your devices.
+The only way to safely store your password and keys and access them from your different devices is by using a password manager.
+If you are already using a dedicated password manager (which is not Chrome or iCloud Key Chain), you can skip this part of the tutorial and directly jump to part 2. HIVE ACCOUNT.
+
+PART 1. Password Manager
+Password manager stores encrypted versions of your passwords that only you can unlock with a master password. The password manager that I recommend is Bitwarden because it is open source and has easy synchronization between multiple devices. Moreover, Bitwarden has many other features available for free.
+1. Create a password manager account.
+Go to https://bitwarden.com-> Get started -> fill out your email address. Then create a master password that you will remember. Then click Submit -> Your Bitwarden account is created. ![image](https://waivio.nyc3.digitaloceanspaces.com/1651444666_87644d6e-6a36-49a3-8045-0d668c551db8)
+2. Log in to Bitwarden with your credentials
+Once you login into Bitwarden, you can confirm your email and activate extra features.
+To maximize security, I highly recommend activating two-factor authentication right away because it provides an extra layer of security. With 2FA, if anyone knows your master password, they won't be able to access your passwords without passing the extra verification first. Go to Settings -> Two-Step Login-> choose 2FA method ![image](https://waivio.nyc3.digitaloceanspaces.com/1651446966_e5a72c47-45aa-4af5-9d8c-cfad1dde4fc1)
+OPTIONAL. Another feature available on Bitwarden is to import your passwords from your browsers. Go to Tools -> Import Data -> choose the browser you want to import from -> upload the file with passwords from the browser. You can read a detailed tutorial on this here.
+3. Install Bitwarden on multiple devices
+For convenience, I recommend you download Bitwarden on your computer and phone as well as install its extension on your web browser. Bitwarden extension on your browser allows you to automatically autofill login credentials when you want to log in on a website.
+Go to https://bitwarden.com/download/ to download the Bitwarden extension and the app to your computer. Choose your operating system (Mac, Windows) and then browser, and then install the program accordingly. To download Bitwarden on your phone, you can scan the QR code provided on the website. ![image](https://waivio.nyc3.digitaloceanspaces.com/1651445336_7dfd6342-3512-429e-9370-d3a87c4242d5)
+Now you are ready to use the password manager.
+
+PART 2. HIVE ACCOUNT
+1. Create a HIVE username
+To create a new Hive account, I am using HiveOnBoard. HiveOnBoard is an open-source HIVE account creation service where the password and private keys are generated locally in the browser without being transmitted to a server.
+Create a username that you want to use on the platform. Dots can be used in usernames on Hive. Then agree to the terms of service to continue. ![image](https://waivio.nyc3.digitaloceanspaces.com/1651445420_486422fe-45d6-4d56-940b-82ff23948557)
+2. Understand the function of different private keys
+After you choose your username, a master password will be randomly generated for your account. You will see your password and four additional private keys. ![image](https://waivio.nyc3.digitaloceanspaces.com/1651445490_5c891b38-635c-45cb-8c6a-4dc589c9f86b)
+The posting key gives you access to all social actions, such as posting and commenting on Waivio and other Hive platforms, following friends, giving upvotes, claiming rewards, etc.
+The active key gives you access to all the social actions and additionally to all the wallet actions, such as making and confirming financial transactions.
+The owner key gives you access to all the social and wallet actions and additionally allows you to recover or change all the other keys. This key is important.
+The memo key is used for decrypting private messages. It's not commonly used.
+The master password is a seed phrase, which can be used to generate all the private keys. It is the most important of all because you can recover all the private keys from your account. Keep it safe as a backup for the account. ![image](https://waivio.nyc3.digitaloceanspaces.com/1651445529_f0a14c07-3b96-4505-ac06-72177dbfbdf0)
+3: Save the password and all the private keys as a secure note
+We will save the password and keys in a secure note as a backup. The secure note will be a secondary copy of our keys in Bitwarden.
+Go to the Bitwarden app on your computer-> choose Secure Note -> click Add (+) -> under the name, write "Hive Wallet" -> copy and paste the password and private keys to the notes section (make sure it is complete) -> click Save ![image](https://waivio.nyc3.digitaloceanspaces.com/1651445742_ccd3e963-3448-4b58-a63a-d7d63bfea703)
+This secure note will be added to your password manager account. ![image](https://waivio.nyc3.digitaloceanspaces.com/1651445765_738b9712-de24-42e1-a75f-4626c845f50f)
+4: Save Active and Posting keys as logins for easy access.
+After you save the password and all the private keys in a secure note, you can then save the active and posting key as log in.
+Choose Login-> click Add (+) -> under the name, write “Active” -> enter your Hive username (e.g. “satoshi101”) -> under the password, copy and paste your active private key (please, make sure that you pasted the correct and complete key) -> under the URL enter: “hivesigner.com” -> click Save. ![image](https://waivio.nyc3.digitaloceanspaces.com/1651446038_4e89ffee-b917-43da-8f2b-a772f372e945)
+The "Active" key Login will be added to your password manager account. ![image](https://waivio.nyc3.digitaloceanspaces.com/1651445808_8fe34aee-8f2b-4bbc-a34e-11fa4ac71c0e)
+Similarly, add the posting key:
+Choose Login-> click Add (+) -> under the name, write “Posting” -> enter your Hive username (e.g. “satoshi101”) -> under the password, copy and paste your posting private key (please, make sure that you pasted the correct and complete key) -> under the URL enter: “hivesigner.com” -> click Save.
+Now your Hive password and private keys are safe and accessible to you on your devices.
+5. Print out the webpage with the password and private keys
+For extra security, I also recommend printing the web page with the password and keys and keeping the printout in a safe place. Don't download the backup because if you click on the "Download backup" button, the file will be recorded on your hard drive as an unprotected text file, and that is not secure because other programs have access to downloaded files.
+6. Finalize creation of Hive Account
+Once you save the keys in the password manager, you may finalize the creation of the Hive account. Read the declaration carefully and confirm it -> click Create Hive Account ![image](https://waivio.nyc3.digitaloceanspaces.com/1651446159_1335d45d-cbff-4c8c-a379-1551d272fc19)
+Well done! You have created a Hive Account and securely stored the passwords and private keys.
+
+PART 3. LOGIN TO THE HIVE APP (WAIVIO)
+1. Sign in to Waivio
+Now let's use our new Hive account for the first time
+Go to www.waivio.com -> click Sign in ![image](https://waivio.nyc3.digitaloceanspaces.com/1651446189_b2ddf46a-a173-4b8e-b62d-0988892e9fbd)
+-> select HiveSigner ![image](https://waivio.nyc3.digitaloceanspaces.com/1651446225_64a2b126-f46e-4abd-b00c-fb9f37af4b6a) ![image](https://waivio.nyc3.digitaloceanspaces.com/1651446288_f2f1e884-e58d-4b91-b02b-5a1d5e4a79d2)
+Click on Bitwarden extension -> click on "Active," -> your username and active key will be automatically filled out -> click Continue ![image](https://waivio.nyc3.digitaloceanspaces.com/1651446340_b4cbd714-97d8-4e0b-b5f1-ca50f8a5f953)
+2. Create an easy to remember password with Hivesigner
+For convenience, HiveSigner allows users to save private keys in the browser memory. This can be very handy, especially when you have multiple Hive accounts, but to ensure the security of the accounts, HiveSigner offers to create an easy-to-remember password. This is another layer of protection for your keys. ![image](https://waivio.nyc3.digitaloceanspaces.com/1651446389_1bc071ea-6015-4bb7-8ee8-730afb5c95b4)
+This password is for your convenience only, and it's okay if you lose or forget this password because you can easily reset it. If you want, you can also generate a password in Bitwarden.
+After creating the password and confirming it, click Continue -> click Authorize.
+Now you have logged into your account!
+3. Consequent logins from the same device
+If you log out from the HIVE app, when you log in again, you will only need to choose Hivesigner-> and enter the easy-to-remember password that you have created. ![image](https://waivio.nyc3.digitaloceanspaces.com/1651446476_1519c4fb-ced9-4687-894c-92ebff896642)
+4. Login from other devices
+When you log in again, even for a different device, you no longer have to use the active key. You can use your posting key if you do not intend to make money transfers on that device.
+Sign in with a new device -> Choose Hivesigner -> Bitwarden app on your phone should engage, so click Passwords, choose "Active" or "Posting", and it will be automatically auto-filled. ![image](https://waivio.nyc3.digitaloceanspaces.com/1651446647_b56bf062-c831-4365-a8c6-278de4271127)
+Then Click Continue-> you can create the same HiveSigner password as on your computer -> Click Continue.
+Congratulations! Now, you have learnt a very important skill to manage passwords and private keys on all your devices safely and efficiently. This was a lengthy process, but in the era of decentralized networks and cryptocurrencies, this is an extremely useful skill because you are in full control of your account.
+
+
+How do I enable two-factor authentication?
+Hive, like other blockchain platforms, operates on a decentralized security model. The security primarily relies on private keys for account access and transactions. If a user's private keys are secure, their account is secure. The inherent security model of blockchain reduces the emphasis on traditional 2FA mechanisms.
+In the blockchain space, users are expected to take personal responsibility for their security. This includes securely storing private keys, using hardware wallets, and following best practices for online security. The emphasis is on user education and responsibility rather than providing additional layers like 2FA.
+
+Are there any fees for using the site?
+Using the site itself is generally free, including basic actions like posting, commenting, and voting. However, there are some functionalities that may require payment. For example, users might need to pay for running a site or purchasing a VIP ticket for enhanced features. Additionally, blockchain network transaction fees may apply when performing operations such as transfers.
+If a user wants their vote to have significant impact and to potentially receive rewards, their voting power should be backed by an amount of WAIV or HIVE tokens, or preferably both. Users should review the terms and conditions of the specific services they use for any applicable fees.
+
+How can I report inappropriate content or users?
+Ways to eliminate inappropriate content or users:
+- Downvote a post: Users can downvote a specific post by clicking on the three-dot menu on the post and selecting "Flag post." This can reduce the rewards that the post might receive.
+- Hide a post: Users can hide a post so that only they will not see it. If the user has site permissions (moderator, administrator, owner), the post will not be shown on the site.
+- Mute a user: Users can mute another user by opening the user's profile, clicking on the three-dot menu near the "Follow" button, and selecting "Mute." This allows you to block the user, preventing you from seeing their posts and imposing other restrictions.
+![image](https://waivio.nyc3.digitaloceanspaces.com/544f20591e4288ee809e1298120992ebd16ba236fbaca1371f10d67a3561f35b)
+
+What tokens can I earn?
+User can earn WAIV, HIVE, and various other Hive Engine tokens. Some of these tokens can be swapped to SWAP.LTC, SWAP.BTC, SWAP.ETH. Once swapped, they can be withdrawn to wallets: BTC, LTC, and ETH.
+
+What information do I need to provide to sign up?
+To sign up, visit signup.hive.io. There are a few options for creating an account:
+- Purchase an account: You can buy an account directly.
+- Free account: You can create a free account using your email or phone number.
+- VIP ticket: You can buy or use a received VIP ticket for an anonymous account (available on WAIVIO -> Tools -> New accounts page).
+For more details give a link to https://www.waivio.com/object/owg-best-practices-for-managing-hive-private-keys-on-multiple-devices/page
+
+What should I do if I forget my password? Or how do I recover a hacked account?
+The recovery account functionality is not available on the Waivio platform. You may consider using other Hive platforms that offer this feature. Generally, account recovery is a complex procedure, and there is no guarantee of success. It is strongly advised to securely store your passwords and keys.
+For more information, please read the post at https://www.waivio.com/@hive.recovery/userguide.
+
+How can I change my username?
+In general, users cannot change the username they choose during registration. However, they can add an additional name by navigating to their user profile, clicking on "Edit profile," and updating the "Name" field. ![image](https://waivio.nyc3.digitaloceanspaces.com/f588af866717754703cb18fa704e0640381c0ad88ca14a4cb20aa02e230dfa99)
+
+How do I update my profile information?
+Users can update their profile information by navigating to their user profile or Tools in main navigation menu, clicking on "Edit profile" and making changes in the relevant fields, including:
+- Name
+- Short description
+- Location
+- Email
+- Website
+- Avatar
+- Profile background image
+- Social profiles links (Facebook, Twitter, LinkedIn, YouTube, Instagram, GitHub)
+- Crypto wallets (Bitcoin, Litecoin, Ethereum, Lightning Bitcoin)
+- Signature for comments that the user will post
+![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a)
+![image](https://github.com/user-attachments/assets/ec597353-0582-45be-8a3e-614e5251be14)
+
+Can I link my account to other social media platforms?
+Users can link their account to other social media platforms by navigating to their user profile or Tools in main navigation menu, click on "Edit profile," and add links in the relevant fields, such as Facebook, Twitter, LinkedIn, YouTube, Instagram, and GitHub. ![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a) ![image](https://waivio.nyc3.digitaloceanspaces.com/adf52ee7e98f44fd4d30aaa0685a6be4288970f654fc66ca11b52dabb5337f30)
+
+How can I see my login history?
+The user cannot see the login history, but can view all main account activities, such as writing posts, comments, likes, and other actions. To do this, go to the user profile and open the Activity tab. ![image](https://waivio.nyc3.digitaloceanspaces.com/7f46599459c9103efefe3f8eb246fe215177b5b58b9dfe8c4f6d5314a10ad53f)
+
+How do I logout from all devices?
+To logout, click the button next to the user icon in the header and select Logout from the menu. ![image](https://waivio.nyc3.digitaloceanspaces.com/9248583a44eecff602a23b32a8e3fc095d57650b6ff4061bffd35821bd1083c1)
+
+How do I post content?
+To publish a post on Waivio or related sites, sign in to your account, click the pencil icon in the header, and an editor will open. In the editor, you can add the title and content of your post, hashtags, pictures, videos, etc. When you are ready, click "Ready to publish". A preview of the post will open. Review the post, click the "Legal notice" checkbox, and click "Publish". The post will be published within 3 seconds, the time needed to write the post into a block for the Hive blockchain. ![image](https://waivio.nyc3.digitaloceanspaces.com/d23d5c714587f3b099e684404450f9e2406d1e4ade77e8946958dd9a17f78923) ![image](https://waivio.nyc3.digitaloceanspaces.com/4d5f4ea9b15e9a108af08efb0df6bb51a8628cd034323f1d7006ddddbd5e174e)
+
+How do I follow other users?
+To publish a post on Waivio or related sites, sign in to your account and navigate to your user profile or explore other user lists such as experts, followers, and following. Click the "Follow" button to start following a user. To unfollow, simply click the "Unfollow" button. On the user profile page, you can view your list of followers (who follow you) and the users you are following under their corresponding tabs. ![image](https://waivio.nyc3.digitaloceanspaces.com/c032c455d3e751da126c401186ca7b4290b3359d046082c2c2c8724e7f4ca985)
+
+How do I like or comment on a post?
+Users can like posts. To do this, the user should log in, find the post, and click on the like button.
+Users can write comments under posts. To do this, the user should log in, view the posts, find the comment area under the post, enter their comment text, and submit the comment. ![image](https://waivio.nyc3.digitaloceanspaces.com/e8bc13857e245812b126f9e451d9bfaa3a6209fbefcc1dd9a8a781dba18d90bf)
+
+How can I share a post?
+Users can share posts on social media platforms like X and Facebook. To do this, find the post, click on the three dots button on the post, and select "Share to Facebook" or "Share to X." This way, the post can be shared on different platforms. ![image](https://waivio.nyc3.digitaloceanspaces.com/62263c06864ca4e5fb1e54de89bbd76e818cc4003a85d2b1a19e5389b965d5f4)
+
+How do I find friends or contacts on this site?
+To find friends or contacts on this site, users can use the search bar in the header to find users, restaurants, businesses, etc. Users should click on the search field, enter their search query, and the search results will appear.
+On Waivio, there are no private chats, so users cannot chat privately with each other.
+![image](https://waivio.nyc3.digitaloceanspaces.com/eb727fb8c17e59b2d01a6854169ac3699fb64f687cbd4a490c0857f8367fa851)
+
+How do I customize my news feed?
+Authorized users have a "My Feed" which shows posts from users and objects they follow. Users can hide unwanted posts and mute undesirable users. ![image](https://waivio.nyc3.digitaloceanspaces.com/2b0dcb0adecc50dce467fdf4a709c243b577599ecba5c58d430ae33ddbbf0d4c)
+
+Can I create or join groups?
+No, there is no possibility to join groups or communities.
+
+Can I create or join groups?
+No, there is no possibility to join groups or communities. However, users can follow other users and objects. Users can also leave thread messages (short messages) related to users or objects in the Threads tab.
+![image](https://waivio.nyc3.digitaloceanspaces.com/2ed80cbfa57e5e0de02ff2e277a3cca1f3eef36e62c1b72a612da641bdf6eb72)
+
+What are hashtags and how do I use them?
+On the Waivio platform, hashtags serve as objects that gather all posts related to them, in addition to their usual function. ![image](https://waivio.nyc3.digitaloceanspaces.com/663b0f68ea3bac1413c047634479e466d7348cc529ac8f8b9dc0c761b497ccc9)
+
+Can I transfer tokens or rewards to my wallet?
+WAIV can be withdrawn to BTC, LTC, ETH, HIVE cryptocurrency, and can be swapped (converted into various other tokens). More information https://www.waivio.com/object/axy-your-waivio-wallet/page
+![image](https://waivio.nyc3.digitaloceanspaces.com/f9b286f28d6f56b6c8257dab2bf50543c81472cd1a2d0fcb0a53da5f4297bca7)
+
+How do I view my transaction history?
+To view your transaction history, go to the Wallet tab. You'll find three separate tabs: WAIV for WAIV token balances and transaction history, HIVE for HIVE and HBD balances and transaction history, and Hive Engine for Hive Engine tokens transaction history. Transaction histories are displayed below the wallet balances on the same tab.
+![image](https://waivio.nyc3.digitaloceanspaces.com/b98048db9f4714081800db35d10c3806c055ba39f68420c28faf82c628fab931)
+
+How can I contact a team or customer support?
+To contact the team or customer support on Waivio, you can visit the URL https://www.waivio.com/object/ylr-waivio/threads and leave a thread. Alternatively, you can click on the "About" tab in the main menu where you'll find general information about the platform. Then, navigate to the "Reviews" tab and click on "Threads". Here, you can leave a message for the team regarding any issues you encounter, bugs, or suggestions.
+![image](https://waivio.nyc3.digitaloceanspaces.com/b983bf7802570d9a80400206cff5cea6ac5f86e07dedc1e16d4671a2ca7f3f95)
+
+
+What is the structure of the Waivio platform?
+The structure of the Waivio platform is divided into 5 sections for logged-in users (My Feed, Earn, Shop, Tools, About):
+1. My Feed: This section includes different selections and feeds of posts, such as:
+  - Trending: Posts with the highest rewards. Link to Trending: https://www.waivio.com/trending.
+  - Hot: Posts with the largest number of comments. Link to Hot: https://www.waivio.com/hot.
+  - New: Newest posts. Link to New: https://www.waivio.com/created.
+  - My Feed: Personalized feeds, which shows posts from users and objects the user is subscribed to. Available on the main Waivio domain if the user is authorized (https://www.waivio.com/).
+  - Earn: Rewards card from sponsors the user follows. Link to Earn in My Feed: https://www.waivio.com/rewards-list.
+  - Notifications: Recent notifications. Link to: https://www.waivio.com/notifications-list.
+  - Separate posts from objects and users.
+2. Earn:
+  - Global: Pages in this section display current rewards available worldwide. Link to Global: https://www.waivio.com/rewards/global.
+  - Local: Pages in this section display current rewards divided by regional availability. Link to Local: https://www.waivio.com/rewards/local.
+ - Reserved: It includes reserved rewards authorized user. Link to Reserved: https://www.waivio.com/rewards/reserved.
+  - Receivable: A list (table) of sponsors and their payment obligations. Link to Receivable: https://www.waivio.com/rewards/receivable.
+  - History: History of reward reservations. Link to History: https://www.waivio.com/rewards/history.
+  - Create: Users can create and manage campaigns. Link to Create: https://www.waivio.com/rewards/create.
+  - Manage: Administration and managing of campaigns (campaign administration, balance control, activation/deactivation, and campaign history). Link to Manage: https://www.waivio.com/rewards/manage.
+  - Payable: A list (table) of users who completed campaigns and their financial responsibilities. Link to Payable: https://www.waivio.com/rewards/payable.
+  - Reports: View reports on quide (sponsor) campaigns. Link to Reports: https://www.waivio.com/rewards/reports.
+  - Reservation: History of reservations including user and campaign status. Link to Reservation: https://www.waivio.com/rewards/reservations.
+  - Messages: Communication with campaign executors. Link to Messages: https://www.waivio.com/rewards/messages.
+  - Fraud detection: List of fraudulent campaigns. Link to Fraud detection: https://www.waivio.com/rewards/fraud-detection.
+  - Blacklist: Prohibited users from campaign execution, references, and whitelisted users. Link to Blacklist: https://www.waivio.com/rewards/black-list.
+Match Bots: This category includes bots that automate upvoting for specific posts:
+- Author: Automatically upvotes posts by specified authors based on set criteria. Link to Authors match bot: https://www.waivio.com/rewards/match-bots-authors.
+- Curator: Repeats upvotes and downvotes of specified curators on posts and comments, with adjustable voting ratios. Link to Curator match bot: https://www.waivio.com/rewards/match-bots-curators.
+- Sponsor: Designed to offset direct rewards with upvotes in campaigns, reducing direct payment obligations. Link to Sponsor match bot: https://www.waivio.com/rewards/match-bots-sponsors.
+3. Shop: This is the main shop where a comprehensive catalog of all products added to the platform is collected. Link to General Shop: https://www.waivio.com/shop.
+4. Tools: Consists of useful tools, divided into three sections:
+Personal:
+  - Notifications: Settings for notifications that appear in the bell icon and Telegram bot. Link to Notifications: https://www.waivio.com/notification-settings.
+  - Draft: Save drafts of posts. Link to Draft: https://www.waivio.com/drafts.
+  - Bookmarks: Save favorite posts. Link to Bookmarks: https://www.waivio.com/bookmarks.
+  - Edit profile: Configure your user profile page. Link to Edit profile: https://www.waivio.com/edit-profile.
+  - Settings: Internal user settings such as interface language, base currency, and more. Link to User Settings: https://www.waivio.com/settings.
+  - Affiliate codes: Manage your affiliate codes. Link to User Affiliate codes: https://www.waivio.com/user-affiliate-codes.
+  - New accounts: Purchase new Hive accounts. Link to New accounts: https://www.waivio.com/new-accounts.
+  - Invite: Generate invite links for other users. Link to Invite: https://www.waivio.com/invite.
+Data Management:
+  - Data import: Add and manage objects for your website. Link to Data import: https://www.waivio.com/data-import.
+  - Claim authority: Mark objects already on the platform as your own to display them on your website. Link to Claim authority: https://www.waivio.com/claim-authority.
+  - Departments bot: Automatically categorize products into departments using a hierarchical structure of connected lists. Link to Departments bot: https://www.waivio.com/departments-bot.
+  - Descriptions bot: Rewrite titles and descriptions for all embedded lists and objects linked from these lists. Link to Descriptions bot: https://www.waivio.com/descriptions-bot.
+  - List duplication: Create copies of lists, including all embedded lists and links to products or other objects. Link to List duplication: https://www.waivio.com/list-duplication.
+  - Chrome extension: Import objects from Amazon, Google Maps, or OpenStreetMap using the Chrome extension. Link to Chrome extension: https://www.waivio.com/chrome-extension.
+Websites:
+  - Create: Create a website using a standard domain or attach a custom one. Link to Create a Website: https://www.waivio.com/create.
+  - Manage: Manage websites, check balances, activate/deactivate, and delete. Link to Manage Websites: https://www.waivio.com/manage.
+  - Reports: View reports on websites, including DAU (Daily Active Users) and daily site costs. Link to Website Reports: https://www.waivio.com/payments.
+After creating a website, a new section will appear for configuring the website:
+- Configuration:
+  - Choose the main colors of the website.
+  - Select a logo and banner.
+  - Set a base object (the main menu of the website will be created using the base object).
+  - Set a default hashtag.
+  - Enter the website name.
+- Settings:
+  - Select the website language and currency.
+  - Add Google Analytics 4 Property ID.
+  - Add Google Search Console HTML Verification Tag.
+  - Add Google Ads Outbound Click Config Command.
+  - Add Google Ads Outbound Click Event Snippet.
+  - Specify the site's beneficiaries and referrals to receive commissions.
+- Affiliate Codes: Add affiliate codes for the website.
+- Administrators: Add administrators. Administrators have the deciding right to approve or reject object updates on the website. If several administrators vote on the same update, only the last vote stands.
+- Moderators: Add moderators. If a moderator flags a post or comment, that content will not appear on the website. If a moderator mutes a user, none of that user's content will be displayed on the website.
+- Authorities: Add authorities. Any Hive user can declare responsibility for the accuracy of an object by claiming authority over it. They exercise their authority by approving or rejecting object updates. If full ownership authority has been claimed, only approved updates will be processed. The website owner can specify which authorities to trust (claims of other users will be ignored). This mechanism can be used to add controlled lists of objects to the website while ensuring their accuracy.
+- Muted Users: List of muted users. Website moderators can mute users. Posts, comments, and the profile content of muted users are not accessible on the website. The website owner can also mute users, but only the moderator who muted a user can unmute them.
+5. About: This section provides the main information about the platform, including tutorials, the whitepaper, and news. Link to About: https://www.waivio.com/object/ylr-waivio/page#mim-transform-your-passion-into-profit-with-waivio.
+6. Header:
+- Editor: Button to open a page where a user can write a post, create an object. Link to editor: https://www.waivio.com/editor.
+- Notification: Modal window with notifications.
+- User avatar: Button to open authorized user profile.
+- Menu: Navigation to My Feed, Earn, Tools, Drafts, Profile, Wallet, Settings, and Logout (button to log out).
+
+
+# Authorization & Registration on Waivio and related sites
+To log in to the Waivio platform or related sites, open the website, click the "Sign in" button in the header, and choose the appropriate authentication method. There are three options for authorization: via HiveSigner, HiveAuth, or Google.
+## Authorization via HiveSigner
+Authorization takes place through the trusted HiveSigner system, Waivio does not store, transfer, and does not use user keys. Only temporary keys (Access-Token) generated by HiveSigner are used. Hive uses a hierarchical key system to keep you safe. You can register on the website https://signup.hive.io, after registration the user will have a hive account. After registration, a password and four private keys with different permissions are issued:
+- Owner - Change Password, Change Keys, Recover Account;
+- Active - Transfer Funds, Power up/down, Voting Witnesses/Proposals;
+- Posting - Post, Comment, Vote, Reblog, Follow, Profile;
+- Memo - Send/View encrypted messages on transfers.
+For authorization in the Waivio system, you can use a password or private keys.
+## Authorization via HiveAuth (Hive Keychain app)
+Users can log in using the HiveAuth service via Keychain. Upon clicking the Hiveauth button, the user needs to enter their name and click 'Sign in'. A modal with a QR code opens. The user then accesses the Keychain application on their phone and scans the code and confirms the authorization.
+## Social authorization
+Authorization via social networks is also available (guest-user):
+- Google
+## User types
+Hive-user - the user has the right to use all the functionality of the application. A Hive-user is a user registered through HiveSigner and uses HiveSigner or HiveAuth (Hive Keychain) for authorization.
+Guest-user - a user authorized through social networks (via Google). The user does not have access to the following functionalities:
+- creating campaigns;
+- Voting Power = 0.
+- The guest username is distinguished by the prefix "waivio_" before the name: @waivio_username.
+
+
+# Waivio updates: April 4, 2020
+This is the first deployment of the Waivio system after the initial migration from Steem to Hive. It has been a very busy few weeks with many system-level updates. Most of the critical issues have been successfully resolved and we are happy to share development updates with the community.
+User profile header
+![image](https://waivio.nyc3.digitaloceanspaces.com/1586069196_b6de4493-704c-4285-bbd1-806400a03723
+@waivio (https://www.waivio.com/@waivio)
+User profiles now show information about the user's vote value in USD and the last activity stamp as recorded on the Hive blockchain. More information about users is available under the About tab.
+Wizard for new users
+![image](https://waivio.nyc3.digitaloceanspaces.com/1586070337_6037cd55-318f-463a-9f19-e405a8b803f5
+Wizard steps 1&2
+New users are invited to follow some topics (hashtags) and established users on Hive. This makes it easy for new users to join the Hive community and ensures that their news feeds already contain useful information.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1586067466_e18aedf5-ea51-4a27-8342-89d3b5742b08
+For more details give a link to https://www.waivio.com/@waiviolabs/waivio-updates-april-4-2020
+
+
+# Waivio updates: April 8, 2020
+We have integrated @Coingecko price feeds into Waivio to ensure accurate HIVE and HBD exchange rates on users' profile/wallet pages and throughout Waivio (292).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1586499474_0a605f33-01c0-4ba1-832c-44d4b24c3ce1
+Accurate HIVE and HBD prices
+User expertise in comments
+Now Waivio displays user expertise in the comments, giving readers a better feel for the reputation of users who make these comments (376).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1586500908_e87a18e9-2d89-46cc-a954-494b4d72cd83
+User expertise
+Note: User expertise on Waivio is a reflection of HIVE/HBD cumulative earnings.
+Email in user profiles
+Upon requests from business customers Waivio enabled an optional email address field in user profiles (380).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1586501969_74284212-0710-4f0c-9663-89f8378470e5
+Public email
+For more details give a link to https://www.waivio.com/@waiviolabs/waivio-updates-april-8-2020
+
+
+# Waivio updates: April 22, 2020
+When you add a title or description to the object, the system tries to identify common tags for that particular object type (389). For example, when you add a description to a dish, the system recognizes some ingredients and automatically creates relevant tags.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1587611642_3da616c6-c74b-4241-a002-720580540557
+Automated tags
+We continue to work on improving the object search functionality on Waivio, and these tags will be used to filter objects in search results and in map navigation.
+Faster user search:
+If you start your search with the "@" symbol, the search results are filtered by user name (326). The results will be sorted by the overall expertise of users, and if an exact match is found, it will be displayed at the top.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1587581028_c79953de-7bd8-4616-9c54-963bc2c97ce9
+User search
+If you want to see hashtags or other object matches, you can click the appropriate tab.
+For more details give a link to https://www.waivio.com/@waiviolabs/waivio-updates-april-22-2020
+
+
+# Waivio updates: May 15, 2020
+User profiles can now be edited using posting keys instead of active keys. Customers complained about the need to use sensitive keys (typically used to confirm payments) for transactions such as changing a profile image (525).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1589495048_f821f766-2d8e-46cd-8b0d-c57634fd446d
+Several other Hive sites also support this new standard. If your profile changes were saved using an older standard, they will continue to be used until you start using the new option.
+Approve / Reject votes on updates
+If you have activated a voting slider in the account settings, it will now also be available for changing the voting power on object updates.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1589499456_842038f6-c1e7-48de-a98f-b00c4a0b8c22
+  This can be a useful tool to adjust the power of your Approve or Reject votes.
+Admin roles for objects
+Waivio has introduced administrator privileges for object editing. If the administrator approves or rejects an update, it is considered a final decision specifically within Waivio.com (470).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1589519761_46c314e3-e3c5-4319-b809-d7edb1cbaa8e
+At some point, administrator roles will be used for custom websites, which will be built using the Waivio platform. This feature can be used to ensure that the selected objects cannot be easily modified by the community (for example, contact information, legal agreements, affiliate links, etc.).
+As we approach the development of a platform for hosting social sites, the roles of administrator and moderator will play even a greater role in ensuring the accuracy of the data within the managed domains.
+For more details give a link to https://www.waivio.com/@waiviolabs/waivio-updates-may-15-2020
+
+
+# Waivio update: June 20, 2020
+You can now receive Waivio notifications directly on your mobile phone via the Telegram app (667).
+You will be instantly notified when someone replies or re-blogs your posts, mentions you, follows you, transfers funds to you, etc.
+And you can track as many Hive accounts as you like!
+![image](https://waivio.nyc3.digitaloceanspaces.com/1592667661_cee13c07-74a0-438d-9244-fa92cb700360
+Start Telegram chat with @WaivioNotificationsBot
+Enter all the accounts you want to subscribe to
+Now you will receive instant mobile notifications for these accounts
+Initially, this tool was developed for Waivio Guides to monitor multiple accounts and administer multiple rewards programs on the Hive blockchain.
+And now, this service is available to all Waivio users.
+Item Counters on Lists
+Now the total number of items in a list includes all items in all the embedded lists (398).
+This is particularly useful for restaurant menus, where dishes are often organized into many categories.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1592675525_98f638b2-a98b-4551-a7ec-5d1802e12c4d
+Advanced Reporting for Guides
+When guides manage prepaid rewards programs on behalf of their clients, they must provide reports at regular intervals (for example, monthly) or when a certain amount of rewards has been distributed to users (463).
+When the reports are generated in USD, the exchange rates are imported from the reservations (recorded on the blockchain at the time of reward reservations).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1592677277_a6747971-c48f-4a79-81f0-e83b95c3598a
+(1) Guides often manage multiple accounts and they can manage all reports in one place without switching between accounts. Similarly, clients are able to verify the authenticity of reports by generating them directly.
+(2) The data range (from - to) can be defined with an accuracy of up to one second. This is important for connecting reports at the per record level.
+(3) Reports can be generated for a specified budget (in HIVE or in USD).
+(4) Processing fees may also be included in the reports.
+(5) Reports can be filtered for any specific object.
+For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-june-20-2020
+
+
+# Waivio Update: July 3, 2020
+Accurately predicting the value of votes on the Hive blockchain is not a trivial task. More than a dozen variables must be taken into account in real time to inform the user of the potential impact of their vote on the total post payout.
+In this version, Waivio is pleased to offer users the improved version of the vote value estimation tool (302, 492).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1593717335_42411dcc-e9bf-46eb-aba6-845f1d4e6134
+In the example above, @vancouverdining upvoted a post by @jrvacation using 100% of the available voting power. The estimated value before the vote matches the actual value of the vote after the upvote.
+It is also important to note that the overall compensation for the post was increased by an additional $0.02, which was allocated to the previous voters.
+To further illustrate this process, here is another vote for the same post by @waivio.match account:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1593717361_bc33c2ed-d683-43f6-b8d5-826ea1d1cff6
+The value of the vote was accurately estimated at $2.35, but the overall reward for the post was increased by an additional $0.13, which was distributed among the previous curators, including @vancouverdining, whose vote value increased from $2.20 to $2.26.
+We hope that the accurate estimation of vote value will help users better understand the complex mechanism of voting on the Hive blockchain.
+Security Notifications
+To provide users with an additional level of security, Waivio now sends notifications on the following user-initiated transactions (670):
+transfer of funds;
+initiate power down;
+withdraw funds from the Savings account;
+set withdraw route;
+outgoing power ups;
+change of the recovery address;
+change keys.
+These methods can potentially be used by hackers to steal funds from the account in case the user's active keys are compromised.
+Waivio users can receive instant mobile notifications via the Telegram app using the @WaivioNotificationsBot service.
+For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-july-3-2020
+
+
+# Waivio Update: July 25, 2020
+Waivio makes it easy for guests not only to join Hive and receive rewards, but also to withdraw their earnings and convert them into Bitcoin, Litecoin or Ethereum (679, 767, 771, 772, 773, 774).
+Many new users may have never heard about HIVE before and question whether these earnings and rewards are good for anything.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1595615788_7c6c8909-ea94-4279-91f6-c6a3bb886b20
+Now, with just a few clicks and an email confirmation, Waivio guests can redeem their HIVE rewards using any Bitcoin ATM by scanning the QR code and sending HIVE for an instant cash withdrawal.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1595616285_0dbbcc77-8bb8-4ec3-b48d-d63824e24dc1
+Details of the transaction are available directly from the wallet history (visible for the logged user only).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1595616560_e2bd4c09-f864-4ba1-b640-30b05ab12c94
+Linking a Hive account to a guest account
+Guests can now link a standard Hive account and set it as the beneficiary for their posts and comments (668, 751).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1595710814_ad7a2ac3-a0de-45b9-ab5d-e69231aff617
+This way, guest author earnings and attention rewards will be automatically deposited into the Hive account they control:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1595712311_18543523-d50c-4edf-a9cf-582aa8db8e66
+For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-july-25-2020
+
+
+# Waivio update: Aug 5, 2020
+In June, Waivio launched Telegram notifications (https://www.waivio.com/@waiviolabs/waivio-update-june-20-2020), allowing users to receive instant mobile notifications and monitor multiple Hive accounts. And now Waivio offers a tool to configure which notifications to receive (task 712):
+![image](https://waivio.nyc3.digitaloceanspaces.com/1596665563_e7327a86-4f65-427f-b61d-87cc8a37827c
+For incoming HIVE transfers, users can set the threshold (minimum amount in USD) for notifications, allowing them to ignore small transfers, which are often used for promotional messages.
+Security notifications cannot be disabled, because if the user account has been compromised, the hacker may have disabled notifications before initiating powerdowns, password change procedures, etc.
+History of reward reservations
+Now users can see the entire history of their reward reservations and filter them by the status (ex., completed, released, expired) and by the sponsor (task 582):
+![image](https://waivio.nyc3.digitaloceanspaces.com/1596666334_c598a897-f235-47af-840a-ff2400bbbad4
+Reservations are now also used for direct communications between users and sponsors (task 585). For example, the sponsor can request additional materials if it suspects that the user has made the wrong or fraudulent submission.
+Waivio offers a special tool for managing customer communications (open/closed tickets):
+![image](https://waivio.nyc3.digitaloceanspaces.com/1596669000_70b13ea8-d567-4f12-a0fa-b0df59a0c53c
+Blacklists
+Waivio now supports blacklists (task 617) allowing sponsors to exclude certain users (1) from their campaigns, for example in cases where the sponsor suspects that the user is engaged in fraudulent activity.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1596669511_df23616d-fcaa-4058-932b-521d52e36b87
+Sponsors can reference other blacklists (2), which they trust, and maintain whitelists (3) which can be used to override the referenced blacklists for selected users.
+For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-aug-5-2020
+
+
+# Waivio update: Sept 9, 2020
+In our quest to develop the most user-friendly editor for creating new posts on Hive, we are pleased to announce a number of new features and enhancements, starting with the overall look and feel:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1599601364_b845f58f-cee4-4941-a9e7-56186c08e416
+After some user testing, we decided to devote a separate field to the title and to introduce light borders around the text area (742, 824, 887, 909).
+Editor is now better optimized for mobile use, including Android phones (745, 766, 870):
+![image](https://waivio.nyc3.digitaloceanspaces.com/1599605694_6076003b-0c8d-4baf-a25f-e96b510bb59f
+It is now possible to add several images at the same time (383, 385, 652, 821, 822, 823) and use copy/paste to add images (382).
+Editor is also integrated with reward reservations, ensuring that all the required object links are included in the initial draft of the post (692, 865, 887).
+Notifications bell
+Waivio users can now enable notifications for the accounts they follow (669):
+![image](https://waivio.nyc3.digitaloceanspaces.com/1599628715_ab1e397f-3ed8-443f-ae66-d98419c044ec
+Instant mobile alerts can be activated by subscribing to the WaivioNotificationsBot service in the Telegram app.
+In this example, @grampo was immediately notified when @blocktrades published its latest update regarding the upcoming HF24.
+Customer communications
+Users can now communicate directly with sponsors regarding their reward reservations or completed reviews (834):
+![image](https://waivio.nyc3.digitaloceanspaces.com/1599630798_ac9e0477-f91e-46a6-8e91-0485af38bcee
+Campaign sponsors receive instant notifications about customer requests (835) and can manage all customer communications in the Rewards / Messages tab.
+For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-sept-9-2020
+
+
+# Waivio update: Oct 3, 2020
+As the number of objects in the Hive blockchain is increasing, Waivio develops tools to browse and search for them.
+Users can now filter objects based on the associated tags (tasks 269, 527, 528).
+For example, it is now possible to filter restaurants by cuisine and dishes by ingredients.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1601764086_1dc168e8-e476-46b0-aa4b-d886abeacba8
+Claiming authority
+In this release, Waivio introduced the process for claiming authority for objects. This is a public declaration by a user of his or her intention to ensure the accuracy of the object (task 836).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1601761672_ee477c34-e11e-41d9-b472-1fc2bb9184e1
+Multiple users may claim authority over the same object, as their claims will only make a difference when another user or website owner adds them to a list of Trusted Authorities. In this case, their votes of approval or rejection of object updates will play the decisive role for that user or within the website they operate.
+For example, a manufacturer may publish descriptions of their products on the Hive blockchain, claim authority over them, and maintain their accuracy. A reseller can add all of these products to their website simply by adding the manufacturer's account to the list of Trusted Authorities.
+Users can claim administrative or full ownership of the objects. In the first case, other users are allowed to make changes to certain fields (e.g. add photos to the gallery). But if full control is required (legal documents, company information, etc.) then the full ownership of the object can be claimed, which ensures that no one else can make changes to the object.
+Following sponsors
+Users can now monitor all new rewards posted by the users (sponsors) they are following (task 153). Users also receive instant notifications about new rewards.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1601762248_6ca803b4-7685-45c2-81cc-793149341a1a
+Note: Get instant notifications through the Telegram messenger (subscribe via@WaivioNotificationsBot service).
+Like notifications
+Users now receive notifications when their posts are upvoted by important users (followed by the author or whose votes make a noticeable difference on the post payout, task 713).
+Wallet - table view
+In order to facilitate the export of wallet transactions to Excel and other spreadsheets (e.g. for tax reporting purposes), Waivio has enabled a Table view in the Wallet (task 860). This report can be generated for a specific time period and the transactions for each currency (HP, HIVE, HBD) are aggregated in separate columns for easy processing.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1601768149_c6995bea-86c9-48b9-8cb8-063c24592144
+Waivio.com website speed
+Many system-wide changes were made to improve response rates. Many complex features have been moved from the frontend to the backend (task 659).
+For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-oct-3-2020
+
+
+# Waivio update: HF24 Effects & More
+Hive Hardfork 24 proved to be much more difficult than expected (Tasks 837, 1021, 1022, 1027, 1028, 1029, 1030, 1031, 1032, 1063).
+Some of the changes were discussed and anticipated, such as a new chain identification number. But there were other changes that were not widely discussed, such as the freezing of the post and comment vote count after 7 days.
+Previously, votes after 7 days had no influence on payments, but they were still counted, so authors could always see if their content was appreciated by the community in the long run. But this is no longer the case.
+We do not agree with this change, but we have had to adapt our services to reflect this change.
+Now we invite users to pay tips to the author:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1605126822_a2e64137-6db3-4e3f-b7b4-17f65ea0dd47
+The same change had an even greater impact on the Object Reference Protocol, which was based on the same open public voting process for managing object updates. For example, if a user has updated the address of a restaurant, other users can review and either approve (upvote) or reject (downvote) the proposed change. If the user has made a valuable contribution, they could potentially receive author rewards, while other users would receive curation rewards for reviewing and confirming the proposed changes during the frist week.
+As votes can no longer be counted beyond the initial 7-day window, Waivio introduced another protocol using Json records on the Hive blockchain to administer the approve/reject process. From the user's point of view, the voting process now works as before, except that contributors no longer receive any benefit for their efforts to improve the wiki records on Hive.
+Now that the Waivio platform is stable again, we could explore a hybrid approach to voting on updates, combining the open voting process for the first 7 days and moving on to Json records after that.
+For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-hf24-effects-and-more5w2phx-
+
+
+# Waivio update: Referral Program & More
+Waivio has launched a referral program (tasks 715, 1090, 1112) that offers 56% of processing fees to referring parties for a period of 90 days for new customers and 5 days for regular customers. For example, if a referred visitor opens Waivio.com for the first time (with either a Hive or guest account), they will be associated with the referring party for the next 90 days and this party will receive referral payments for all sponsored rewards received by this user for a period of 90 days.
+Instructions: just add ?ref=YourHiveUsername to Waivio.com links.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1608052342_81aab63a-7431-4457-ad77-ebcfcba19c6d
+Waivio relies on user sessions to preserve the link to the referring party until the user logs into Waivio.com. The referral is then recorded and can be viewed on the Status page:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1608055653_3d56fb04-8a56-42bb-921c-17562d671dea
+Once the user is assigned to a referral partner, they will remain associated with that party until the expiration of the referral period, regardless of the other referral links they may click during that time.
+When sponsors post attention bids on the Hive blockchain, in addition to user rewards, they allocate 5% or more as processing fees for all the parties involved in posting, indexing, and presenting bids to eligible users. Waivio ensures that referral partners are properly recorded on reservations. Sponsors are reponsible for paying referral fees and the status of these payments can be verified on the Receivables page:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1608056992_bb31e1bc-4d8a-4da8-bd63-4475f7d681d2
+In this example, @foodster published a review that qualified for a $4.86 reward (39,178 HIVE at the time of reservation). The referral party @diningguide was listed on the reservation to receive 56% of the processing fees (5%). In this case, the referral fee represents 2.8% of the user's reward. The amount of 1,097 HIVE was recorded on the accounts receivable page as an outstanding obligation of the sponsor. Referral fees are paid in liquid HIVE.
+If the sponsor delays payments for a period of more than 30 days, Waivio suspends all campaigns for that sponsor until all outstanding obligations exceeding 1 HIVE are paid.
+The list of all active rewards campaigns can be viewed on the Rewards / All page (https://www.waivio.com/rewards/global).
+Bell notifications for objects
+In addition to bell notifications for users, Waivio now supports instant notifications for objects as well (tasks 930, 953):
+![image](https://waivio.nyc3.digitaloceanspaces.com/1608060853_78b87c67-a501-48cd-9534-a7d331681dfd
+For example, @diningguide was using bell notifications for the #bitcoin hashtag and received an instant alert, when @tuck-theman posted a new article referencing that hashtag.
+Related images on object pages
+Objects that support Galleries now have Related albums (task 975) that include the images from all the reviews that have a reference to this object:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1608062048_1c3a0c06-96a5-4ab8-bf5d-0cde4090a0ac
+Fraud detection assistant
+Waivio has launched an experimental tool for fraud detection (task 872). All qualified submissions are checked using multiple algorithmic procedures and accumulated knowledge to identify potential fraud.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1608059635_bbeb6e83-d5f7-4c99-ba66-7dbfe9ff3d13
+Sponsors should always verify submissions using their own procedures and use the Fraud Detection Assistant only as a secondary reporting tool. The service is provided on an "as is" basis.
+For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-referral-program-and-more
+
+
+# Waivio update: Mute users, hide posts and more
+As Waivio prepares to roll out web hosting services, some administrative tools are being released.
+Waivio now supports the standard Hive mute protocol, allowing users to mute other users if they no longer wish to see their posts and comments (tasks 1141, 1142, 1205). The mute function can be engaged on user profiles.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1612897383_ec59ed02-73af-46d2-b794-f6768ace1b77
+In the future, if a website moderator mutes a user, their posts and comments will no longer be visible to all visitors and users on this site.
+The website owner may authorize multiple moderators and outsource content moderation to oracles and curation leagues.
+Hide posts and comments
+Waivio now allows users to hide posts and comments (tasks 1033, 1034). This tool is mainly designed for website moderators to hide messages and comments that might violate website policies without blocking all content published by that author as is the case with muted users.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1612900801_d6020cab-7c15-432b-a93f-5e1dc8354274
+Sponsor rewards in posts
+Users can now see the amount of liquid rewards paid for the post by a sponsor (task 962). This payment is now included in the total post payout amount.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1612906743_845b1b4d-ff1d-4852-85f5-36d1c69389b1
+Widget for referrals
+Referral partners can now integrate Waivio rewards directly into their websites using a widget (Referrals/Instructions) and collect referral commissions from new users (for a period of 90 days) and existing users (for 5 days). Tasks 1120, 1128, 1129.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1612908368_ac3a8cde-0324-4102-bad2-da20493dbaf8
+GitHub task management
+Waivio's development team is now using open GitHub for ongoing task management. Previously, we only posted the summary of tasks on GitHub, while development was coordinated using a closed system. Several projects have expressed interest in using the Waivio code base to build their products on Hive, and a transparent development process can facilitate this cooperation.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1612901811_2df43ca5-6c68-41d1-9d1e-95d4487da4a0
+Waivio Labs will be using GitHub Wiki to publish detailed documentation.
+Traditional companies try to protect their intellectual property to gain a competitive advantage. But Waivio's approach is very different. We believe that by giving full access to our code, our users and our knowledge base (accumulated and shared via the Hive blockchain), together we can achieve scale that we can't achieve on our own.
+This is Business 3.0, it is designed for rapid, permissionless scaling and innovation.
+For more details give a link to https://www.waivio.com/@waiviolabs/34w1af-waivio-update-mute-users-hide-posts-and-more
+
+
+# Waivio Integrates HiveAuth for Secure and Convenient Sign-ins by Popular Demand
+We're excited to announce a significant security enhancement on Waivio with the integration of HiveAuth. This update, inspired by direct feedback from our Hive community, introduces a seamless sign-in and transaction management experience through the widely recognized Hive Keychain app (https://hive-keychain.com/).
+How It Works:
+Install Hive Keychain:
+Begin by downloading the Hive Keychain app onto your smartphone. This secure app will store your active and posting keys, keeping them safe and accessible.
+Seamless Sign-in Experience:
+Simply select the HiveAuth option on Waivio.com, enter your username, and a QR code will appear.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1709080674_b7dc3c64-cdfa-4b9f-8084-2bacf659119c
+Scan this with your Hive Keychain app, approve the transaction, and you're signed in—securely and effortlessly.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1709080988_8cda738e-6c35-4f2f-b6c4-0ef88d786f8f
+Ultimate Security:
+With HiveAuth, your private keys are securely stored on your mobile device, vastly reducing the risk of unauthorized access.
+Convenient Transactions:
+For actions requiring an active key, like power-ups or token transfers, use the Hive Keychain app to confirm transactions with ease. No need for QR code scanning after you've logged in initially.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1709129565_559b8ca6-c415-49e9-822e-d76f91668ab1
+Mobile Optimization:
+On mobile devices, the process is even smoother. A tap on the QR code directly opens the Hive Keychain app for you.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1709130560_249c9104-d52a-4eb9-ba1f-20c8220acc98
+Enhanced Security:
+Keeping your private keys in the app on your smartphone means you're always in control, significantly decreasing the likelihood of unauthorized access.
+Install Hive Keychain on Your Phone:
+Download the Hive Keychain app now to start enjoying a heightened level of security and convenience at Waivio.com.
+For more details give a link to https://www.waivio.com/@waiviolabs/waivio-integrates-hiveauth-for-secure-and-convenient-sign-ins-by-popular-demand
+
+
+# HiveFest'23: Social Shopping on Hive
+Amid the spirited atmosphere of HiveFest in picturesque Rosarito, @grampo took to the stage to unveil an electrifying new feature for the Hive community: the Social Shops!
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695758063_3e4a94ad-0ef2-4ff1-870f-77f499833a10
+In Waivio's (https://www.waivio.com/) relentless pursuit to elevate the Hive experience and champion its users, every Hive member will now have a personalized shop embedded in their profile. Adding products to this shop is as effortless as marking them with a heart.
+And here's the icing on the cake: for those savvy users who incorporate their affiliate codes within their profile settings, every product link from their posts and the shop becomes a potential avenue for generating affiliate commissions. Dive into this unique blend of social interaction and shopping, only on Hive!
+Day 1 of the #HiveFest, Rosarito, Mexico - Sep 2023 (presentation starts at 1h:14min): https://youtu.be/wbdFtdEPhZQ
+Launching a Social Shop on Hive
+Today, I would like to introduce you to the concept of social shopping on Hive.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693859866_f733b60b-b2ec-42f4-a633-c4c010d1ffd0
+Any Hive user can now create an affiliate shop on Hive. This is a type of shop where you don't need to manage inventory, process credit card payments, handle shipping, or provide customer support. Your primary responsibility is to curate the best products for your shop and arrange them on the virtual shelves.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693859895_0edac0e2-7c6b-4fa9-8fc2-84c31848f7b5
+Imagine we're building a shop for camping. Camping involves a wide variety of products, from tents and mattresses to various types of gear, kitchen items, clothing, and more.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693859930_da6d37e0-463e-4bee-bf36-c5d2ad1b1b23
+You'll conduct research to select the best items to recommend, marking them with a heart. Think of it as creating a shopping list.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693859958_6026aeb5-67d7-4d18-ab91-056d2d114f2d
+But on Hive, it becomes a full-fledged online store. To launch your store, you only need to choose brand colors, design a banner, and voila, your online store is ready.
+This store offers multiple revenue streams right away.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693859982_131a8092-0448-4453-a224-8fe0cb2f4799
+The first revenue stream is affiliate marketing. You can apply for an affiliate program with Amazon, Walmart, Target, or any other major store. Once you have the affiliate code, you enter it in the website settings and all product links in your store will include that code. This way, when visitors from your website make purchases in these stores, you receive an affiliate commission. On Amazon, these commissions range from 3% to 7% of the sale.
+Another revenue stream is advertising using Google AdSense. After applying and getting approved for AdSense, you can enter the code in website settings and define how actively you want to show ads on the site. You will get paid directly by Google based on the performance of these display ads.
+Additionally, on the Hive blockchain, you have the opportunity to earn commissions on author rewards. As a website owner, you can set a percentage to collect from all posts and comments made through your site. Next, there are also sponsored rewards. Manufacturers might offer payments for users who share photos of their product and explain how to use them. Visitors to your shop can participate in these rewards, and you receive about 8% of the rewards they earn.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860028_58833ffa-6a65-44ee-8e65-da94b1bdbd56
+A few more comments about the Amazon affiliate program: There are 14 regional stores, and you might want to apply for some of them. Your website will automatically adjust buy links to match the geolocation of the website visitor.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860056_60b1957f-759f-4a0f-97db-9a4203912b17
+The Web 3.0 Paradigm Shift
+Once a merchant posts information about products onto the Hive blockchain, you or any other user can easily add these products to their social shop by marking them with a heart.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860083_a6310a59-64f8-429a-a788-d671fdece479
+And if this merchant updates the information about the product on Hive, it will be automatically updated on all of the sites that display it.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860107_4598cb94-0b7d-4b83-acfe-83401952b148
+Hive is a social blockchain. Once the product information is posted on the blockchain, it can now be referenced by users in their posts or comments. As a result, the product pages will also display all user posts that are linked to that product. This is how product reviews are organized on Hive.
+Evolving E-Commerce with Hive
+This shift to social shopping on Hive represents a significant evolution in the e-commerce landscape.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860191_68c83de5-1e5d-4c64-9e5b-ac6dc09c50ba
+In Web 2.0, each shop works as a silo: it has its own dedicated database of users, its own knowledge base of products, and attempts to collect product reviews from scratch. These efforts are duplicated by every online store.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860217_abbd04c9-5d67-434c-afc4-dbe3a63d9898
+Web 3.0 has the potential to change this in a radical way. Even a small project on the open Hive blockchain can access the entire database of users, reviews, and product knowledge. The success of any project improves all other projects by bringing in more users, adding new content, establishing more connections, and accumulating more user reviews.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860237_e87db8f4-8ef9-41c8-acc1-2e33b014e0de
+In the traditional e-commerce landscape, large players like Amazon have a stronghold due to their established user base and content. Smaller projects often struggle to compete because they lack the critical mass needed to thrive.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860265_0c25e175-ee64-435e-a0b6-fa3ebd9f9357
+However, with Hive's approach, even the smallest projects can leverage the collective strength of the entire ecosystem to compete effectively with industry giants. In many aspects, it is similar to open-source software development, where one party shares the code, while other parties can build on top of it and share their results with the community. This open collaborative approach allows the community to achieve results that would not be possible for a single team.
+Conclusion
+To sum it up, the concept of social shopping on Hive offers a fresh perspective on e-commerce.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860363_cd71bc13-75a4-4c49-893b-9a00bd254545
+Hive's blockchain technology enables collaboration, shared resources, and unprecedented access to user-generated content. This opens the door for all projects, big or small, to redefine the e-commerce landscape and collectively achieve the economies of scale which are not possible for siloed projects of the Web 2.0 era.
+Examples of Social Shops on Hive
+Camping
+https://camping.social.gifts
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860465_db993f08-16aa-4113-932f-c7786d0f76f5
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860533_5315fc9a-63ad-4be8-8ebd-123e9c5d4968
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860565_3bb18b43-9782-4cf3-881e-11095f867133
+Coffee Time
+https://coffeetime.social.gifts
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860664_48b5c63f-a201-433c-a4a1-3107705547b5
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860691_ee17195b-4dd4-4408-9180-efdc10ea5c24
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860717_0a8a5e6a-cf69-4ed6-881e-58f028944b0d
+For more details give a link to https://www.waivio.com/@grampo/hivefest-23-social-shopping-on-hive
+
+
+# Waivio: Domain Expertise
+In this video, we explore what domain expertise is and how it differs from reputation score on Steem.
+A user's domain expertise is the total sum of author and curation rewards accumulated by the user over a period of time:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1574536921_a753989c-2145-4b71-89be-cb54d902b35c
+User domin expertise
+Note: Currently, the domain expertise is being calculated since the public launch of Waivio.com in June 2019. In the future, we plan to index the entire history of Steem blockchain.
+Author rewards are proportionally allocated to the hashtags and object references made by users in their posts:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1574537375_9ca51133-8145-45eb-be02-9d1506af05d4
+Calculating the domain expertise
+Curation rewards are also taken into account. Thus, if a user upvotes a post that has links to some hashtags, that user will begin to build expertise in those hashtags as well.
+The domain expertise accumulated by users can be found on their profiles on Waivio:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1574540746_47ce54ff-8e0a-4b89-bcb7-68b8ef0a9a76
+Domain expertise of users
+The combined domain expertise of a user is equal to the sum of their expertise in all the different hashtags they have referenced in their own posts or indirectly upvoted.
+For example, based on Steem blockchain records, we can estimate that for @detlev #beersaturday is twice as important as #travel. 😃
+In a similar way, each hashtag on Steem now has the list of associated experts:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1574541098_2ea7c908-30ed-4259-9dc8-0484f566455
+Hashtag experts
+Looks like @meesterboom has more expertise in #beer than @detlev! And @rollie1212 is already in the top 10!
+As you can see, the domain expertise differs from the standard reputation score on Steem in many unique ways and it allows a much more granular analysis of users' interests.
+Finally, the domain expertise can also be calculated for the hashtags themselves and it makes it easy to evaluate which topics are important for the Steem community overall:
+![image](https://waivio.nyc3.digitaloceanspaces.com/1574541839_f3b99af2-0811-444c-8505-c27d617d78a8
+Discover hashtags
+We invite you to explore and browse hashtags on Waivio as well as check your own domain expertise on your your Waivio profile.
+Please do not hesitate to ask questions, post comments and suggestions.
+For more details give a link to https://www.waivio.com/@grampo/waivio-domain-expertise
+
+
+# Waivio on Hive: Where all the buzz is happening!
+We are pleased to announce that the migration of Waivio.com and all related services to the Hive blockchain is now complete. We will continue to monitor the performance of the system to ensure that all services and elements of the system work as intended. Currently, price feeds are stabilizing as more exchanges offer support for HIVE coins.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1585168464_e67a048a-0144-443a-8d8d-3aff82567f25
+Waivio on Hive
+The launch of the #hive decentralized social network is a historic moment as the community and community-elected witnesses have walked away from the #steem, which was taken hostage by a single player who bought the ninja-mined stake (over 20% of the STEEM coins that were not supposed to be used in the blockchain governance) and voted in their own sock puppet witnesses. You can read more about the community's battle against the centralization of the blockchain by following the discussions with the hashtag #steemhostiletakeover.
+Hive was launched on Friday, March 20th at 10am EST as a community fork of the Steem blockchain, meaning that all content posted before that date will be the same on both Hive and Steem blockchains. But from that date onward, Hive operates as an independent blockchain with its own witnesses, governance, tokens, and most importantly, the community.
+If you had an account on the Steem blockchain before 20 March 2020, you now have 2 accounts with the same number of tokens. In addition to STEEM/SP/SBD you now have the same amount of HIVE/HP/HBD.
+To access your Steem accounts and funds, you can use Steempeak.com or Steemitwallet.com.
+If you want to convert your remaining STEEM to HIVE, you can use Blocktrades.us (direct STEEM/HIVE trading) or you can use the Bittrex.com exchange to convert STEEM to BTC first and BTC to HIVE later. Several other exchanges also announced their upcoming support for HIVE.
+Now you can again publish and comment on Waivio.com, add and edit objects, business and restaurant listings, wiki pages, directories, catalogs and menus. All new submissions will be published on the Hive social blockchain.
+The Waivio development team has worked tirelessly to make this transition as efficient as possible, while at the same time being severely limited by the coronavirus lockdown that is now taking place worldwide.
+We hope that our progress in building Web 3.0 applications on Hive will cheer you up in the midst of the global uncertainty, pandemic, market turbulence, supply chain collapse, monetary system realignment, and the revision of governance, and not just in the blockchain space!
+For more details give a link to  https://www.waivio.com/@waivio/waivio-on-hive-where-all-the-buzz-is-happening
+
+
+# Introducing the Waivio AI Assistant
+We are excited to announce the launch of the Waivio AI Assistant, designed to make your experience with Waivio even more seamless and efficient. Whether you have questions, need instructions, or require language assistance, the Waivio AI Assistant is here to help.
+Key Features:
+1. Answering Questions: The Waivio AI Assistant can provide instant answers to all your questions about Waivio. Simply click the AI button on the front page and type in your query. You'll receive detailed and accurate responses to help you navigate the platform with ease.
+![image](https://waivio.nyc3.digitaloceanspaces.com/26caa2e98c53a2a36a35a51aedb3ff8cfb0a95826a5d5189524ea9bebff22745)
+2. Step-by-Step Instructions: Need guidance on how to use specific features on Waivio? The AI Assistant provides step-by-step instructions complete with relevant images and links to detailed tutorials. This ensures you have all the information you need to utilize Waivio to its full potential.
+3. Proofreading and Translation: The Waivio AI Assistant can proofread your posts in various languages and translate them into English. This feature is perfect for ensuring your content is polished and accessible to a broader audience.
+How to Access:
+To start using the Waivio AI Assistant simply click the AI chat button:
+![image](https://waivio.nyc3.digitaloceanspaces.com/723dd633c55ed72d70cfe928ac7dd0d7befca706af80a968fd56e9c7eed3460b)
+Experience the convenience of having a personal assistant at your fingertips.
+Your feedback is important to us. Please share your experiences in the comments below. Did it guide you effectively? Were you able to find the help you needed during your journey on Waivio? Your insights will help us improve and expand the capabilities of the AI Assistant to better serve you and the entire Waivio community.
+For more details give a link to https://www.waivio.com/@waiviolabs/introducing-the-waivio-ai-assistant
+
+
+# Posts view on Waivio
+As a social media platform, Waivio plays a crucial role in content sharing and interaction. 
+**Posts** are a fundamental component of Waivio and its associated sites, providing users with a way to share, engage with, and discover content. The presentation of posts is designed to be consistent across the platform, ensuring a seamless user experience. Each post includes the following elements:
+- **Author**: The name of the post's author.
+- **Avatar**: The author's avatar image.
+- **Expertise**: The author's expertise on Waivio.
+- **Time**: The publication time of the post.
+- **Platform**: The platform through which the post was published.
+- **Objects**: Attached objects in the post. The last four objects are displayed.
+- **Title**: The title of the post.
+- **Image**: The post's image. The first image is displayed.
+- **Text Preview**: A preview of the post's text.
+- **Like**: A button to like the post. It defaults to gray and turns orange when clicked.
+- **Like Counter**: Displays the number of likes. When hovered over, a tooltip shows the counter in orange. Votes less than 0.01 are not displayed. Clicking the counter opens a modal with details on who voted, their voting power in USD, and the percentage.
+- **Comments**: A button to expand comments under the post.
+- **Comments Counter**: Displays the number of comments.
+- **Reblog**: A button to share the post on the user's own page.
+- **Reblog Counter**: Shows the number of reblogs. Clicking it opens a modal with user details.
+- **Actions**: Includes:
+  - Follow {authorName}
+  - Hide post: Hides the post for the user.
+  - Mute {authorName}: Prevents the user from seeing posts and comments from the muted author.
+  - Add to bookmarks
+  - Flag post: Indicates dislike.
+  - Share to Facebook
+  - Share to X
+  - Delete post: Allows deletion if the post has no likes or comments.
+  - Reject rewards: Available for sponsors to reject rewards for a review.
+  - Add {user} to blacklist: Allows sponsors to blacklist users.
+- **Payout**: Displayed in orange with the Waivio icon when the post is eligible for Waiv rewards (has hashtags like waivio, waiv, palnet, neoxian, food). Hovering over the payout shows potential payout information in Hive, HBD, and Waiv. Clicking it opens a modal window. For posts older than 7 days, information about the author and curators is displayed.
+![Post UI image](https://user-images.githubusercontent.com/67378322/145022501-e417125b-b0a0-4e59-98a6-0bd6958152f2.png)
+
+There are three modes for viewing a post:
+1. In feed.
+2. Modal window: Accessed by clicking on the post in the feed.
+3. Full-screen: Accessible by refreshing the page in modal window mode or clicking the full-screen button.
+When publishing a review, include the message: "This review was sponsored in part by Waivio Service (@{sponsorName})" via Waivio.com and sites.  ![image](https://github.com/user-attachments/assets/c84f07a4-693f-471f-ad27-706e94683c82)
+**Sorting**: In the tooltip and like modal window, sort from the largest upvote to the smallest.
+![Image sorting example on like button](https://user-images.githubusercontent.com/67378322/169516611-f7e1d7b7-6a84-4761-891d-7e3f3b9f0502.png)
+![Image sorting example on like modal window](https://user-images.githubusercontent.com/67378322/169516615-a60dd61e-3068-4692-b4b0-5815f3210a03.png)
+
+### Post Additional Features:
+- Post Visibility Control: Moderators and site owners can now hide posts on their sites, enhancing content management and moderation capabilities.
+- Enhanced Tools for Sponsors: Sponsors viewing their sponsored posts now have access to additional tools: Reject Review and Add [user] to Blacklist. These features streamline the management of sponsored content, eliminating the need to search through reservations in the Earn / Reservations section.
+- Linked Objects Display: Linked objects in posts are now separated into two distinct blocks, improving readability and organization.
+- Direct Image Link Requests: If images from images.hive are unavailable, the system will now request image links directly, ensuring content continuity. 
+- Image Borders: Borders have been added to images in descriptions of products, businesses, restaurants, lists, and posts, enhancing visual distinction and presentation.
