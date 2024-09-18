@@ -16,18 +16,18 @@ Clicking the "Select color" button opens the "Website colors" modal window.
 ![image](https://github.com/Waiviogit/waivio/assets/67378322/bdc596ce-a5bd-42fb-ab4d-057b6939b473)
 
 ### Desktop logo in Configuration (website)
-This section allows users to customize the desktop version of the site's logo. 
+This section allows users to customize the desktop version of the site's logo.
 Title: Desktop logo
 Preview: Image preview. User avatar displayed by default.
-Button: "Change logo" button to open the "Choose image" modal window. 
+Button: "Change logo" button to open the "Choose image" modal window.
 Note: "Desktop logo will appear on the homepage of the desktop version of the site.".
 ![image](https://github.com/Waiviogit/waivio/assets/67378322/54c3ca3c-9eab-4477-871e-2af2af890f61)
 
 ### Mobile logo in Configuration (website)
-This section allows users to customize the mobile version of the site's logo. 
+This section allows users to customize the mobile version of the site's logo.
 Title: Mobile logo
 Preview: Image preview. User avatar displayed by default.
-Button: "Change logo" button to open the "Choose image" modal window. 
+Button: "Change logo" button to open the "Choose image" modal window.
 Note:"Mobile logo will appear on the home page of the mobile version of the site.".
 ![image](https://github.com/Waiviogit/waivio/assets/67378322/1b196541-07ca-4b1d-8c45-8cc779d84d6e)
 
@@ -35,7 +35,7 @@ Note:"Mobile logo will appear on the home page of the mobile version of the site
 This section allows users to customize the default image for lists that do not have a specified avatar.
 Title: List default image
 Preview: Image preview. User avatar displayed by default.
-Button: "Change image" button to open the "Choose image" modal window. 
+Button: "Change image" button to open the "Choose image" modal window.
 Note: "List default image will be displayed for those lists that don't have an avatar.".
 ![image](https://github.com/Waiviogit/waivio/assets/67378322/a07a1676-d3d2-4a50-abc9-74e4fc5cf0b7)
 
@@ -43,12 +43,12 @@ Note: "List default image will be displayed for those lists that don't have an a
 This section allows users to customize the site's banner.
 Title: Main banner
 Preview: Image preview.
-Button: "Change banner" button to open the "Choose image" modal window. 
+Button: "Change banner" button to open the "Choose image" modal window.
 Note: "Main banner will be displayed at the top of all website pages.".
 ![image](https://github.com/Waiviogit/waivio/assets/67378322/b2797e1a-d4cd-487a-8034-e35072dc4fef)
 
 ### Base object in Configuration (website)
-This object serves as a core reference for creating the website's main menu. 
+This object serves as a core reference for creating the website's main menu.
 Title: "Base object:"
 Search: Initially displays a user or object card that can be transformed into a search field. The base object can be a product, business, restaurant objects, or users. The site creator is set up by default. If a product or business doesn't have menu items, the site will consist of two tabs: 1 - Home, representing the entity itself, and 2 - Legal. This applies similarly to restaurants; even if a restaurant offers menu items, the site will still have the same two tabs.
 Edit: "Edit" button to convert the user card into a search field. Once clicked, "Edit" changes to "View".
@@ -56,7 +56,7 @@ Note: The main menu of the website will be created using the base object.
 ![image](https://github.com/Waiviogit/waivio/assets/67378322/e669af37-874f-4269-a989-5a61a3e86a6e)
 
 ### Default hashtag in Configuration (website)
-The "Default Hashtag" section allows users to specify a hashtag that will be recommended for all new posts on the website, aiding in organizing content and ensuring consistent appearance in the site's custom newsfeed. 
+The "Default Hashtag" section allows users to specify a hashtag that will be recommended for all new posts on the website, aiding in organizing content and ensuring consistent appearance in the site's custom newsfeed.
 Title: "Default hashtag:"
 Search: A search field for hashtag type. Initially displays a search field that can be transformed into an object card.
 Note: This hashtag will be recommended for all new posts on the website, ensuring that they consistently appear in the website's custom newsfeed.
@@ -199,7 +199,7 @@ To manage this, the website owner can assign administrative privileges to certai
 - **Voting Power**: Administrators have the final say in whether an update is accepted or rejected for the site. If several administrators vote on the same update, only the last vote is considered.
 - **Object Ownership**: If an administrator claims ownership over an object, only the updates that are explicitly approved by that administrator (or other approved administrators) will be displayed for the object.
 ### Managing Administrators:
-In **Administrators Mode**, the website owner can add or remove administrators as needed. The process for managing the administrator list is similar to managing a blacklist. 
+In **Administrators Mode**, the website owner can add or remove administrators as needed. The process for managing the administrator list is similar to managing a blacklist.
 1. **Grant Administrative Privileges**:
    - Use the "Find User" field to search for and select a Hive user to assign as an administrator.
    - The "Add" button will become active once a user is selected.
@@ -215,7 +215,7 @@ Some content published on the Hive blockchain may conflict with local laws or co
 - **Hide Content**: If a moderator flags a post or comment as inappropriate, that content will be removed from the site.
 - **Mute Users**: If a moderator mutes a user, none of the content from that user will be displayed on the site.
 ### Managing Moderators:
-The process for managing moderators is similar to managing blacklists. 
+The process for managing moderators is similar to managing blacklists.
 1. **Grant Moderator Privileges**:
    - Use the "Find User" field to search for and select a Hive user to assign as a moderator.
    - The "Add" button will become active once a user is selected.
@@ -305,10 +305,10 @@ This section is used to input the `.txt` content needed for Google AdSense’s a
 ### Ad Intensity Level Section
 This dropdown menu allows users to control how frequently ads are displayed on their site, balancing user experience with potential ad revenue.
 - **Label**: Level
-- **Options**:  
-  1. Minimal  
-  2. Moderate  
-  3. Intensive  
+- **Options**:
+  1. Minimal
+  2. Moderate
+  3. Intensive
 - **Note**: Choose the advertising intensity to balance user experience with revenue generation.
 ![image](https://github.com/user-attachments/assets/181d3bf1-1f1d-4304-893a-c3ef0315c172)
 
@@ -380,7 +380,7 @@ Edit thread:
 Threads can be edited in the feed. After clicking on the three dots button, there will be an option 'Edit thread,' and a "small" editor will appear.
 ![image](https://github.com/user-attachments/assets/0c092ec0-f4d5-4851-a1ca-b73929da26a4) ![image](https://github.com/user-attachments/assets/5162875d-d3e8-40e8-98f7-8543f2202a1c)
 Threads can be edited in the post modal window mode and full-screen. After clicking on the three dots button, there will be an option 'Edit thread,' and a "comments" editor will appear.
-![image](https://github.com/user-attachments/assets/0d83dcce-4d08-4e5f-95a8-4106c7f42d97) 
+![image](https://github.com/user-attachments/assets/0d83dcce-4d08-4e5f-95a8-4106c7f42d97)
 ![image](https://github.com/user-attachments/assets/a618dd7c-0eeb-485a-b0f4-92675696a30b)
 
 # User profile: Comments
@@ -393,7 +393,7 @@ The Mentions tab in the user profile displays posts where the user has been ment
 
 # User profile: Activity
 The Activity tab in the user profile displays records of actions that the user has performed and that have been recorded on the blockchain.
-The right sidebar includes a Filter Activities section, where users can filter records by specific actions: General (Upvoted, Downvoted, Unvoted, Followed, Unfollowed, Replied to, Reblogged), Finance (Powered up, Received from, Transferred to, Savings), Rewards (Author reward, 
+The right sidebar includes a Filter Activities section, where users can filter records by specific actions: General (Upvoted, Downvoted, Unvoted, Followed, Unfollowed, Replied to, Reblogged), Finance (Powered up, Received from, Transferred to, Savings), Rewards (Author reward,
  Curation reward, Claim rewards).
 ![image](https://github.com/user-attachments/assets/bb5ccc7b-793d-4f5f-b581-274d70f77f8f)
 
@@ -428,16 +428,16 @@ The Map section in the user profile displays all favorite (hearted) objects that
 Main action in wallet: Transfer, Power up, power down, manage delegation, claim rewards, swap, deposit, withdraw.
 ![image](https://user-images.githubusercontent.com/67378322/155954042-5418f09c-5642-4414-bfb4-718002bf4dc8.png)
 
-# User profile: Wallet / Transfer 
+# User profile: Wallet / Transfer
 The transfer functionality allows users to send money to one another. When a user clicks the "Transfer" button, a "Transfer Funds" modal window opens.
 ### Transfer Modal Window Components:
 - **Title:** "Transfer Funds"
 - **Close Button:** A cross icon to close the modal window.
-- **To Field:** A search field to find a user. 
+- **To Field:** A search field to find a user.
   - **Placeholder:** "Find users"
   - After selecting a user, a button to clear the selection appears.
 - **Amount Field:** A field where the user enters the amount they want to send.
-- **Currency Drop-Down:** A drop-down menu to select the currency to send. 
+- **Currency Drop-Down:** A drop-down menu to select the currency to send.
   - The menu displays currencies that the user has, sorted as follows:
     - The first three currencies are WAIV, HIVE, and HBD.
     - The rest are sorted by price, with currencies having a balance of 0 sorted alphabetically.
@@ -595,7 +595,7 @@ The "Manage Delegations" functionality allows users to delegate their staked tok
   - For Hive Engine tokens, the new amount is added to the previous delegation. Example: If the original amount was 1 and the new amount is 2, the total delegation becomes 3.
 
 # User profile: Wallet / Claim Rewards
-The "Claim Rewards" functionality allows users to add the rewards they have earned to their general balance. 
+The "Claim Rewards" functionality allows users to add the rewards they have earned to their general balance.
 ### How It Works:
 - **Button:** Users click the "Claim Rewards" button to initiate the process.
 - **Purpose:** This action transfers the rewards that the user has accumulated into their general balance, making the funds available for use.
@@ -641,7 +641,7 @@ The "Deposit" functionality provides instructions for bringing tokens into the H
 - **Modal Window:** Upon clicking, a "Deposit" modal window opens, providing step-by-step instructions for depositing tokens.
 ### Deposit Modal Window Components:
 - **Title:** "Deposit"
-- **Info:** 
+- **Info:**
   - Explanation that all crypto deposits are processed by Hive-Engine.com.
   - Upon depositing, the user will receive an equivalent amount of the SWAP version of the deposited token, which can be exchanged on the Hive-Engine blockchain.
   - A 0.75% fee is applied to deposits (with a minimum fee of 0.001 for HIVE).
@@ -671,20 +671,20 @@ The "Deposit" functionality provides instructions for bringing tokens into the H
   - ![2022-03-01_14-33](https://user-images.githubusercontent.com/67378322/156169799-d600c9b1-97d7-4558-9010-8ad977a0fb2f.png)
 This comprehensive guide ensures users can successfully deposit their tokens into the Hive or Hive-Engine system, while also informing them of important details like fees and the necessity of using the correct memo or address.
 
-# User profile: Wallet / Withdraw 
+# User profile: Wallet / Withdraw
 The "Withdraw" functionality allows users to withdraw tokens from the Hive and Hive Engine systems. Clicking the "Withdraw" button opens the "Withdraw" modal window.
 ![2022-03-01_15-18](https://user-images.githubusercontent.com/67378322/156176265-0b4620bb-164e-4147-aef3-327cbdfe3e22.png)
 ### Withdraw Modal Window Components
 - **Title:** Withdraw
-- **Info:** 
-  - All crypto withdrawals are processed by Hive-Engine.com. 
-  - A 0.75% fee is applied to withdrawals. 
-  - Please note that standard network transfer fees will also be deducted from the amount. 
+- **Info:**
+  - All crypto withdrawals are processed by Hive-Engine.com.
+  - A 0.75% fee is applied to withdrawals.
+  - Please note that standard network transfer fees will also be deducted from the amount.
   - [Hive-Engine.com](https://hive-engine.com/) is the platform handling these transactions.
 - **Amount:** "Withdraw:" field for entering the amount to withdraw.
 - **Max Button:** Sets the maximum amount that the user can withdraw.
 - **Currency:** Drop-down menu to select the currency for withdrawal. Displays the available currencies that the user can withdraw.
-- **Balance:** 
+- **Balance:**
   - Displays the user's balance for the chosen currency.
   - Example: "Your balance {amount} {currency}"
   - The {amount} {currency} text is clickable and represents the maximum amount that the user can withdraw. Clicking it populates the amount field with this value. Cursor changes to a pointer.
@@ -718,11 +718,11 @@ The "Withdraw" functionality allows users to withdraw tokens from the Hive and H
 
 # User profile: Followers
 The **Followers** tab provides lists related to users and objects, showing who follows the user, who the user follows, and which objects the user is following. This tab includes three sub-menu items:
-- **Followers:** A list of users who are following the user. 
+- **Followers:** A list of users who are following the user.
 ![image](https://github.com/user-attachments/assets/501886cf-cfa8-45c1-991b-cf414bc5d594)
-- **Following:** A list of users that the user is following. 
+- **Following:** A list of users that the user is following.
 ![image](https://github.com/user-attachments/assets/1fd174da-37c6-4b7f-9748-5e6027c34851)
-- **Objects:** A list of objects that the user is following. 
+- **Objects:** A list of objects that the user is following.
 ![image](https://github.com/user-attachments/assets/d9774bbc-bc2d-4b70-8647-b5451bb526e7)
 The **Followers** and **Following** tabs include sorting options to help users organize the lists according to their preferences. The available sorting options are:
 - **Rank:** Sorts users based on their expertise ranking.
@@ -747,9 +747,9 @@ For objects:
 
 # User profile: Expertise
 The **Expertise** tab displays a list of objects where the user has gained expertise. This tab includes two sub-menu items:
-- **Hashtags:** A list of objects that are of the hashtag type. 
+- **Hashtags:** A list of objects that are of the hashtag type.
 ![image](https://github.com/user-attachments/assets/25a8551a-3cfb-4464-8142-2a4e2831eae1)
-- **Objects:** A list of all object types (except hashtags) where the user has gained expertise. 
+- **Objects:** A list of all object types (except hashtags) where the user has gained expertise.
 ![image](https://github.com/user-attachments/assets/4a5fad56-a1da-47ec-9985-65df3c2ba4af)
 
 ### User Profile Expertise List View Details
@@ -1656,3 +1656,101 @@ Note: This field is not required in the URL, but it is necessary for the button 
 Simple Integration
 Now you can effortlessly integrate PayPal payments into your social shopping site. Whether you’re selling online training courses, physical products, or services, the PayPal integration ensures a smooth and trusted transaction process.
 Get started today and take your social shop to the next level with easy-to-integrate PayPal payments!
+
+
+# Social sites
+The social site is built on the Waivio platform using the Social.Gifts template. This template is flexible and allows site owners to customize their sites according to their needs. Social sites are typically thematic. Users can manage and create sites only on the official Waivio site; this functionality is not available on social sites.
+These sites have a "Sign in" button where users can log in via HiveSigner, HiveAuth (Keychain), or Google to access Waivio platform features, such as writing posts, finding and participating in campaigns, liking content, leaving comments, and more.
+
+# What is the Structure of a Social Site Built on Waivio?
+The main navigation menu on the Waivio platform can consist of various pages depending on the site's configuration. Possible pages include:
+- **List:** A collection of items curated on the site. Includes list items, a description, and an image.
+- **Newsfeed:** A feed of posts related to the site.
+- **Page:** A page with basic information, which can include text, videos, images, and more.
+- **Map:** A map displaying key items or locations relevant to the site.
+- **Legal:** Pages containing legal information.
+- **Widget:** Embedded frames or widgets for site-specific purposes.
+- **Product Page:** A page displaying product information.
+- **Business Page:** A page showcasing information about businesses or restaurants.
+- **Recipe:** A page displaying a recipe.
+- **Shop:** A collection of items available for purchase as shop.
+And user can use ussual functionality as for waivio, as opening posts, user profile information and all related pages.
+
+The header for an authorized user includes the following elements:
+- Site Logo: A link to the main site page.
+- Search: A search bar to find items available on the site.
+- Editor: A button that opens a page where the user can write a post or create an object. Link to editor: https://www.waivio.com/editor.
+- Notification: Modal window with notifications.
+- User avatar: Button to open authorized user profile.
+- Menu: A navigation menu with links to My Feed, Earn, Tools, Drafts, Profile, Wallet, Settings, and Logout (button to log out).
+
+In the header, near the user profile image, users can find a menu with more actions available on the social site, including My Feed, Earn, Tools, Draft, Profile, Wallet, Settings, and Logout:
+1. My Feed: A personalized feed showing posts from users and objects the authorized user is subscribed to.
+2. Earn:
+  - Global: Pages in this section display current rewards available worldwide. Link to Global: https://www.waivio.com/rewards/global.
+  - Local: Pages in this section display current rewards divided by regional availability. Link to Local: https://www.waivio.com/rewards/local.
+ - Reserved: It includes reserved rewards authorized user. Link to Reserved: https://www.waivio.com/rewards/reserved.
+  - Receivable: A list (table) of sponsors and their payment obligations. Link to Receivable: https://www.waivio.com/rewards/receivable.
+  - History: History of reward reservations. Link to History: https://www.waivio.com/rewards/history.
+3. Tools: Consists of useful tools, consist of personal section:
+Personal:
+  - Notifications: Settings for notifications that appear in the bell icon and Telegram bot. Link to Notifications: https://www.waivio.com/notification-settings.
+  - Draft: Save drafts of posts. Link to Draft: https://www.waivio.com/drafts.
+  - Bookmarks: Save favorite posts. Link to Bookmarks: https://www.waivio.com/bookmarks.
+  - Edit profile: Configure your user profile page. Link to Edit profile: https://www.waivio.com/edit-profile.
+  - Settings: Internal user settings such as interface language, base currency, and more. Link to User Settings: https://www.waivio.com/settings.
+  - Affiliate codes: Manage your affiliate codes. Link to User Affiliate codes: https://www.waivio.com/user-affiliate-codes.
+  - New accounts: Purchase new Hive accounts. Link to New accounts: https://www.waivio.com/new-accounts.
+  - Invite: Generate invite links for other users. Link to Invite: https://www.waivio.com/invite.
+4. Drafts: A collection of unpublished posts and drafts.
+5. Profile: A link to the authorized user’s profile.
+6. Wallet: A link to the authorized user’s wallet.
+7. Settings: A link to the user profile settings page.
+8. Logout: A button to log out from the site.
+
+
+# Authorization & Registration on Waivio and related sites
+To log in to the Waivio platform or related sites, open the website, click the "Sign in" button in the header, and choose the appropriate authentication method. There are three options for authorization: via HiveSigner, HiveAuth, or Google.
+## Authorization via HiveSigner
+Authorization takes place through the trusted HiveSigner system, Waivio does not store, transfer, and does not use user keys. Only temporary keys (Access-Token) generated by HiveSigner are used. Hive uses a hierarchical key system to keep you safe. You can register on the website https://signup.hive.io, after registration the user will have a hive account. After registration, a password and four private keys with different permissions are issued:
+- Owner - Change Password, Change Keys, Recover Account;
+- Active - Transfer Funds, Power up/down, Voting Witnesses/Proposals;
+- Posting - Post, Comment, Vote, Reblog, Follow, Profile;
+- Memo - Send/View encrypted messages on transfers.
+For authorization in the Waivio system, you can use a password or private keys.
+## Authorization via HiveAuth (Hive Keychain app)
+Users can log in using the HiveAuth service via Keychain. Upon clicking the Hiveauth button, the user needs to enter their name and click 'Sign in'. A modal with a QR code opens. The user then accesses the Keychain application on their phone and scans the code and confirms the authorization.
+## Social authorization
+Authorization via social networks is also available (guest-user):
+- Google
+## User types
+Hive-user - the user has the right to use all the functionality of the application. A Hive-user is a user registered through HiveSigner and uses HiveSigner or HiveAuth (Hive Keychain) for authorization.
+Guest-user - a user authorized through social networks (via Google). The user does not have access to the following functionalities:
+- creating campaigns;
+- Voting Power = 0.
+- The guest username is distinguished by the prefix "waivio_" before the name: @waivio_username.
+
+
+# Performance Enhancements at Social.Gifts
+We are excited to share the results of performance enhancements for social shopping websites hosted on Social.Gifts. Our development team has been implementing key optimizations that have drastically improved response times, ensuring a faster and more seamless experience for all users.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1712952738_988a2535-6f79-4413-bb46-c07c7722af87
+Phase 1: Baseline Performance
+As of January 2024, our Google Crawl Data Report indicated that the average response time for websites hosted on our platform was over 1 second. We recognized this as an opportunity for improvement and initially focused on enhancing our platform architecture.
+Phase 2: System Architecture Optimization
+In February, we rolled out significant changes to our system architecture. By optimizing our server configurations and enhancing our network protocols, we successfully reduced the average response times to 400 ms. This marked a substantial improvement, making website interactions quicker and more efficient, which is crucial for maintaining user engagement in the fast-paced world of social shopping.
+Phase 3: Introduction of Smart Caching System
+In March, we introduced a smart caching system specifically tailored to optimize performance for search engines. This innovation helped further reduce the average response times to below 100 ms.
+Accessing Crawl Stats Report
+To check the Crawl Stats Report for your social shop, please log in to your Google Search Console (the same place where you submitted your website sitemap for accelerated indexing). First, open 'Settings' (1), then select 'Crawl Stats Report' (2).
+![image](https://waivio.nyc3.digitaloceanspaces.com/1712961607_94fe9d35-6784-47af-8658-f663c3056a30
+On the report page, select the 'Average Response Time' parameter (3) and deselect all other parameters. You can then hover over a specific day on the chart (4) to see the average response time for that day.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1712962045_101c2fdf-b7a1-45de-81fd-43010695dbcb
+Understanding Response Times
+A good response time for websites, as measured by the time it takes for a server to respond to a request (often referred to as "Time to First Byte" or TTFB), varies depending on the type of content being delivered and user expectations. Here are some general guidelines and industry standards:
+Under 100 ms: Excellent server response time, typically expected for high-performance, optimized sites that use effective caching strategies and are hosted on efficient infrastructure.
+100 ms to 200 ms: Good and common target for many web services, suggesting optimal server configuration.
+200 ms to 500 ms: Average response time, considered acceptable for most contexts, but there is room for improvement, especially in competitive industries or high-traffic sites.
+500 ms to 1 second: Poor response time, which might not severely impact user experience for certain types of content like large media files where overall loading time is more relevant, but it's generally advisable to investigate and mitigate causes of delay.
+Over 1 second: Considered unacceptable for commercial websites. Delays of this magnitude typically result in poor user experiences, increased bounce rates, and could negatively affect search engine rankings.
+We thank you for your continued support and trust in Social.Gifts. Stay tuned for more updates as we continue to refine and expand our services.
+For more details give a link to https://www.waivio.com/@social.gifts/performance-enhancements-at-social-gifts
