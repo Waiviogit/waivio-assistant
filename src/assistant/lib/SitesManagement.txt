@@ -1658,9 +1658,10 @@ Now you can effortlessly integrate PayPal payments into your social shopping sit
 Get started today and take your social shop to the next level with easy-to-integrate PayPal payments!
 
 
-# Social sites
+# What are social sites built on Waivio?
 The social site is built on the Waivio platform using the Social.Gifts template. This template is flexible and allows site owners to customize their sites according to their needs. Social sites are typically thematic. Users can manage and create sites only on the official Waivio site; this functionality is not available on social sites.
 These sites have a "Sign in" button where users can log in via HiveSigner, HiveAuth (Keychain), or Google to access Waivio platform features, such as writing posts, finding and participating in campaigns, liking content, leaving comments, and more.
+Social sites can only be created on the Waivio platform's main interface (https://www.waivio.com).
 
 # What is the Structure of a Social Site Built on Waivio?
 The main navigation menu on the Waivio platform can consist of various pages depending on the site's configuration. Possible pages include:
@@ -1754,3 +1755,61 @@ Under 100 ms: Excellent server response time, typically expected for high-perfor
 Over 1 second: Considered unacceptable for commercial websites. Delays of this magnitude typically result in poor user experiences, increased bounce rates, and could negatively affect search engine rankings.
 We thank you for your continued support and trust in Social.Gifts. Stay tuned for more updates as we continue to refine and expand our services.
 For more details give a link to https://www.waivio.com/@social.gifts/performance-enhancements-at-social-gifts
+
+# Lesson 11: Managing a Social Shop in Your User Profile
+ For more details give a link to https://www.waivio.com/object/fjh-shops-in-user-profiles/page
+ A Step-by-Step Guide to Monetizing Your Knowledge ( Part 1)
+ Are you ready to turn your passion into profit?
+ With Waivio's innovative social shopping feature built on the Hive blockchain, you can effortlessly create your very own online shop, start sharing your expertise with the world and unlock new earning opportunities. In this tutorial, you will see how simple it is to start your own shop, search and add products, and seamlessly integrate affiliate links for earning potential. Let's dive in! ![image](https://waivio.nyc3.digitaloceanspaces.com/1697489142_eb5f8037-6f8e-4720-b32e-f5b72a175fcd)
+ Summary:
+ Step 1: Adding a Product
+ Step 2: Various Ways to Find and Add Products
+ Step 3: Adding Affiliate Codes
+ Step 4: Linking products in your posts
+ Step 5: Managing Your Shop
+ Step 6: Unlocking Advanced Features with Social.Gifts
+ Links & Resources:
+ Amazon affiliate programs: USA https://affiliate-program.amazon.com/, Canada https://associates.amazon.ca/
+ Product uploads - Waivio Chrome Extension Tutorial https://www.waivio.com/object/fjh-shops-in-user-profiles/page#kda-waivio-chrome-extension-tutorial
+ Social.Gifts concept - Social Shopping on HIVE https://www.waivio.com/object/fjh-shops-in-user-profiles/page#tso-social-shopping-on-hive
+
+ Intro
+ Imagine creating a shopping list – but this time, it's your very own online store – sleek, dynamic, and filled with products curated by you. Here, you can display products that resonate with your interests and provide a lot of value for your target audience. And with every purchase originating from your shop, you'll receive affiliate commissions from merchants. ![image](https://waivio.nyc3.digitaloceanspaces.com/1697489190_6653e50b-80f7-4ff4-8f58-2640d5debb81)
+ You can locate your SHOP on your user's page. It's time to add some products to it! ![image](https://waivio.nyc3.digitaloceanspaces.com/1697489358_db2b4e7d-5f19-485a-970a-7be194cc00d0)
+
+ Step 1: Adding a Product
+ To start off, let's head over to Waivio's "SHOP" section. Take a look at different departments, like "Appliances," to find products that you can recommend to others. ![image](https://waivio.nyc3.digitaloceanspaces.com/1697490421_7bd9e905-3496-4139-aa15-0c6891fdba62)
+ Let's say you know and like this fancy coffee maker – simply click the heart icon, and just like that it's added to your shop!
+ Now, here's the beauty: if the item you've added gets updated, you don't need to worry about manual adjustments. Your shop will automatically reflect these changes - no additional action is required on your part. Your shop effortlessly stays up-to-date, showcasing your thoughtfully chosen selections.
+
+ Step 2: Various Ways to Find and Add Products
+ Let me now show you some more ways to discover products and enrich your shop's collection.
+ Search: If you have a specific product in mind, search for it on Waivio and if it’s already available on the Hive blockchain, quickly add it to your shop.
+ Explore Other Users' Shops: Check out what fellow curators are featuring in their shops. If you spot something you like, hit that heart button to add it to your shop.
+ Product Links in Posts: Keep an eye out for products mentioned in posts. You can easily add them to your shop; just scroll down to the end of the post, where you will see linked products and click the heart.
+ Adding Products from Amazon: If a product can't be found on the Hive blockchain, you can effortlessly import it from the Amazon page with a single click using Waivio's Chrome extension. Check out the tutorial on the extension for more details.
+
+ Step 3: Adding Affiliate Codes
+ Now that your shop is coming together, it's time to monetize your product collections.
+ Navigate to "TOOLS" and select "Affiliate codes."
+ In the search bar, find your affiliate program. ![image](https://waivio.nyc3.digitaloceanspaces.com/1697490481_7870d303-6bbd-4b69-8853-1e7592ade5da)
+ If you're part of Amazon's affiliate program, choose the local Amazon shop where you are an affiliate, such as amazon.com, amazon.ca or amazon.fr.
+ If you are not sure how to get your Amazon affiliate code, check this link:
+ https://affiliate-program.amazon.com/help/node/topic/GCE3F2NCVZLDFM6A
+ For example, let's say you have affiliate code for Amazon.com. Choose amazon.com from the menu. Input your respective affiliate code in the designated field and click "Submit." ![image](https://waivio.nyc3.digitaloceanspaces.com/1697490500_606e7506-50e3-4e1f-8119-5371f102bc01)
+ This will automatically associate your affiliate code with the 'buy' buttons for all the products in your shop, ensuring you earn commissions with every purchase.
+
+ Step 4: Linking products in your posts
+ You can reference products in your social posts and comments. Any 'Buy Now' links associated with these products will automatically include your affiliate code.
+ Furthermore, products you reference will be automatically added to your profile shop. To remove a product from your shop, simply click the heart icon twice (first to add the product, then to remove it).
+ In the user settings, there's also an option to prevent products from being added to your profile unless they are explicitly marked with a heart. ![image](https://waivio.nyc3.digitaloceanspaces.com/1697490535_6c234bfb-4b58-431c-ac8a-c4143764a674)
+
+ Step 5: Managing Your Shop
+ Products in your profile shop are automatically categorized based on their assigned departments.
+ If you wish to adjust the names of any categories, simply access the products within that category and modify the associated department list.
+
+ Step 6: Unlocking Advanced Features with Social.Gifts
+ If you want to take your shop to the next level, consider setting up Social.Gifts website. In just a few clicks, you can launch your very own dedicated *.social.gifts website, showcasing your expertly curated product recommendations. This venture opens up a realm of additional revenue streams beyond affiliate earnings. Check out the next tutorial on how to get started (COMING SOON).
+
+ Conclusion
+ With your curated collection and expert recommendations, you're not only set to enrich the social shopping experience, but also to be at the forefront of a dynamic Web 3.0 era where collective knowledge and collaboration redefine the way we shop and engage online. Let your knowledge shine in this new era of online shopping. Happy curating! ![image](https://waivio.nyc3.digitaloceanspaces.com/1697489001_64f8d08d-eb86-4b68-b6e4-fedfea428507)
