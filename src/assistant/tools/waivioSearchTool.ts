@@ -29,6 +29,10 @@ type generalSearchType = {
 export const generateSearchToolsForHost = (host: string) => {
   const waivioSearchTool = tool(
     async ({ string }) => {
+      const url = `https://${host}/api/generalSearch`;
+
+      console.log('URL _____________', url);
+
       const result = await axios.post(
         `https://${host}/api/generalSearch`,
         {
