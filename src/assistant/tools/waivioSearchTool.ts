@@ -2,6 +2,7 @@ import { z } from 'zod';
 import { tool } from '@langchain/core/tools';
 // import { createFetchRequest } from '../helpers/createFetchRequest';
 import axios from 'axios';
+import { configService } from '../../config';
 
 const waivioSearchSchema = z.object({
   string: z.string(),
@@ -29,7 +30,8 @@ type generalSearchType = {
 export const generateSearchToolsForHost = (host: string) => {
   const waivioSearchTool = tool(
     async ({ string }) => {
-      const url = `https://${host}/api/generalSearch`;
+      configService.getAppHost();
+      const url = `https://${configService.getAppHost()}/api/generalSearch`;
 
       console.log('URL _____________', url);
 
@@ -40,7 +42,12 @@ export const generateSearchToolsForHost = (host: string) => {
           userLimit: 5,
           wobjectsLimit: 15,
         },
-        { timeout: 20000 },
+        {
+          timeout: 20000,
+          headers: {
+            'Access-Host': host,
+          },
+        },
       );
 
       if (!result.data) return 'Error during request';

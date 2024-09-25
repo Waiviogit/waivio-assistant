@@ -113,7 +113,10 @@ export const runQuery = async ({
     host,
   });
 
-  await historyStore.addMessages([new HumanMessage(query), result.response]);
+  const messages = [new HumanMessage(query)];
+  if (result.response?.kwargs?.content) messages.push(result.response);
+
+  await historyStore.addMessages(messages);
 
   return result.response;
 };
