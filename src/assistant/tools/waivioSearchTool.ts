@@ -34,7 +34,7 @@ export const generateSearchToolsForHost = (host: string) => {
       console.log('URL _____________', url);
 
       const result = await axios.post(
-        `https://${host}/api/generalSearch`,
+        url,
         {
           string,
           userLimit: 5,
