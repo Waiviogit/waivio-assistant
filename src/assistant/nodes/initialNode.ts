@@ -58,7 +58,6 @@ export const initialSupport = async (
       role: 'system',
       content: CATEGORIZATION_SYSTEM_TEMPLATE,
     },
-    ...chatHistory,
     new HumanMessage(query),
     {
       role: 'user',
