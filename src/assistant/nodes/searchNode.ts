@@ -9,7 +9,7 @@ export const searchNode = async (
   const { llm, query, host } = state;
   const { waivioSearchTool } = generateSearchToolsForHost(host);
 
-  const SYSTEM_TEMPLATE = `You are support staff for Waivio.
+  const SYSTEM_TEMPLATE = `You are support staff for ${host}.
          Your task is communicate with user and perform search-related tasks to accompany your answers with links and images and additional info to relevant objects, accounts or posts.
          use given tools
          Keep the answer concise. Don't use "AI:" in answers.`;
@@ -34,9 +34,6 @@ export const searchNode = async (
   for (const toolCall of tools) {
     const selectedTool = toolsByName[toolCall.name as keyof typeof toolsByName];
     const toolMessage = await selectedTool.invoke(toolCall);
-
-    console.log('toolMessage', JSON.stringify(toolMessage));
-    console.log('______________');
     messages.push(toolMessage);
   }
 

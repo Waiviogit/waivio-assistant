@@ -8,9 +8,9 @@ const availableAgents = Object.values(AGENTS) as [string, ...string[]];
 export const initialSupport = async (
   state: GraphState,
 ): Promise<Partial<GraphState>> => {
-  const { llm, query, chatHistory } = state;
+  const { llm, query, chatHistory, host } = state;
 
-  const SYSTEM_TEMPLATE = `You are front-line support staff for Waivio.
+  const SYSTEM_TEMPLATE = `You are front-line support staff for ${host}.
          Be concise in your responses.
          You can chat with customers and help them with basic questions, but if the customer 
          query connected with ${Object.values(AGENTS_DESCRIPTION).join(',')},

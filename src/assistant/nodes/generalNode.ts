@@ -14,7 +14,7 @@ import { getWeaviateStore } from '../store/weaviateStore';
 export const generalNode = async (
   state: GraphState,
 ): Promise<Partial<GraphState>> => {
-  const { llm, query, chatHistory, nextRepresentative } = state;
+  const { llm, query, chatHistory, nextRepresentative, host } = state;
 
   const vectorStore = await getWeaviateStore(nextRepresentative);
 
@@ -27,7 +27,7 @@ export const generalNode = async (
     ['human', '{query}'],
   ]);
 
-  const qaSystemPrompt = `You are an assistant for question-answering tasks.
+  const qaSystemPrompt = `You are an assistant for question-answering tasks on ${host}
     Use the following pieces of retrieved context to answer the question.
     Whenever possible, accompany your answers with links and images (![image]) to relevant articles or lessons. 
     Keep the answer concise. Don't use "AI:" in answers.

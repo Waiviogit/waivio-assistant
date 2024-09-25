@@ -1,6 +1,7 @@
 import { z } from 'zod';
 import { tool } from '@langchain/core/tools';
-import { createFetchRequest } from '../helpers/createFetchRequest';
+// import { createFetchRequest } from '../helpers/createFetchRequest';
+import axios from 'axios';
 
 const waivioSearchSchema = z.object({
   string: z.string(),
@@ -28,21 +29,19 @@ type generalSearchType = {
 export const generateSearchToolsForHost = (host: string) => {
   const waivioSearchTool = tool(
     async ({ string }) => {
-      const result = await createFetchRequest({
-        api: {
-          method: 'POST',
-          url: `https://${host}/api/generalSearch`,
-        },
-        params: {
+      const result = await axios.post(
+        `https://${host}/api/generalSearch`,
+        {
           string,
           userLimit: 5,
           wobjectsLimit: 15,
         },
-      });
+        { timeout: 20000 },
+      );
 
-      if (!result) return 'Error during request';
+      if (!result.data) return 'Error during request';
 
-      const { users, wobjects } = result as generalSearchType;
+      const { users, wobjects } = result.data as generalSearchType;
       if (!users?.length && !wobjects?.length) return 'Not found';
 
       let response = '';
