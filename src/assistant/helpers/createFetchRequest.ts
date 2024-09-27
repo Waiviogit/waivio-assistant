@@ -4,27 +4,29 @@ interface CreateFetchRequestInterface {
     url: string;
   };
   params: Record<string, any>;
+  accessHost?: string;
 }
 
 export const createFetchRequest = async (
   data: CreateFetchRequestInterface,
 ): Promise<any | null> => {
-  const { params, api } = data;
+  const { params, api, accessHost } = data;
   if (!api) throw new Error('No best API found');
 
   let response: any = null;
   try {
+    let fetchOptions: Record<string, any> = {
+      headers: {
+        'Content-Type': 'application/json',
+        ...(accessHost && { 'Access-Host': accessHost }),
+      },
+      method: api.method,
+    };
+
     if (!params) {
-      const fetchRes = await fetch(api.url, {
-        headers: { 'Content-Type': 'application/json' },
-        method: api.method,
-      });
+      const fetchRes = await fetch(api.url, fetchOptions);
       response = fetchRes.ok ? await fetchRes.json() : await fetchRes.text();
     } else {
-      let fetchOptions: Record<string, any> = {
-        headers: { 'Content-Type': 'application/json' },
-        method: api.method,
-      };
       let parsedUrl = api.url;
 
       const paramKeys = Object.entries(params);

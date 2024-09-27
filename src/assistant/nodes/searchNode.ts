@@ -7,14 +7,15 @@ export const searchNode = async (
   state: GraphState,
 ): Promise<Partial<GraphState>> => {
   const { llm, query, host } = state;
-  const { waivioSearchTool } = generateSearchToolsForHost(host);
+  const { waivioSearchTool, waivioObjectsMapTool } =
+    generateSearchToolsForHost(host);
 
   const SYSTEM_TEMPLATE = `You are support staff for ${host}.
          Your task is communicate with user and perform search-related tasks to accompany your answers with links and images and additional info to relevant objects, accounts or posts.
          use given tools
          Keep the answer concise. Don't use "AI:" in answers.`;
 
-  const searchLLM = llm.bindTools([waivioSearchTool]);
+  const searchLLM = llm.bindTools([waivioSearchTool, waivioObjectsMapTool]);
 
   const messages = [
     { role: 'system', content: SYSTEM_TEMPLATE },
@@ -28,6 +29,7 @@ export const searchNode = async (
 
   const toolsByName = {
     waivioSearchTool,
+    waivioObjectsMapTool,
   };
   messages.push(supportResponse);
 

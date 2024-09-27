@@ -1,12 +1,60 @@
 import { z } from 'zod';
 import { tool } from '@langchain/core/tools';
-// import { createFetchRequest } from '../helpers/createFetchRequest';
-import axios from 'axios';
+import { createFetchRequest } from '../helpers/createFetchRequest';
 import { configService } from '../../config';
+import { OBJECT_TYPES } from '../constants/common';
 
 const waivioSearchSchema = z.object({
   string: z.string(),
 });
+
+const waivioSearchMapSchema = z
+  .object({
+    string: z
+      .string()
+      .optional()
+      .describe(
+        'use only if query ask you do that, example: find Kfc in South America region',
+      ),
+    map: z
+      .object({
+        coordinates: z
+          .array(
+            z.number().min(-180).max(180).describe('longitude'),
+            z.number().min(-90).max(90).describe('latitude'),
+          )
+          .length(2),
+        radius: z.number().min(1).describe('radius distance in meters'),
+      })
+      .optional(),
+    box: z
+      .object({
+        topPoint: z
+          .array(
+            z.number().min(-180).max(180).describe('longitude'),
+            z.number().min(-90).max(90).describe('latitude'),
+          )
+          .length(2)
+          .describe('top right coordinate of the box'),
+        bottomPoint: z
+          .array(
+            z.number().min(-180).max(180).describe('longitude'),
+            z.number().min(-90).max(90).describe('latitude'),
+          )
+          .length(2)
+          .describe('bottom left coordinate of the box'),
+      })
+      .optional(),
+    onlyObjectTypes: z
+      .array(z.enum(Object.values(OBJECT_TYPES) as [string, ...string[]]))
+      .describe(
+        'use for filter results for particular type example: I want find restaurants in Vancouver => onlyObjectTypes: ["restaurant"]',
+      ),
+  })
+  .refine((data) => !(data.map && data.box), {
+    message: "Only one of 'map' or 'box' can be present",
+    path: ['map', 'box'],
+  });
 
 type waivioObjectType = {
   name: string;
@@ -27,54 +75,27 @@ type generalSearchType = {
   users: waivioUserType[];
 };
 
-export const generateSearchToolsForHost = (host: string) => {
-  const waivioSearchTool = tool(
-    async ({ string }) => {
-      configService.getAppHost();
-      const url = `https://${configService.getAppHost()}/api/generalSearch`;
-
-      console.log('URL _____________', url);
-
-      const result = await axios.post(
-        url,
-        {
-          string,
-          userLimit: 5,
-          wobjectsLimit: 15,
-        },
-        {
-          timeout: 20000,
-          headers: {
-            'Access-Host': host,
-          },
-        },
-      );
-
-      if (!result.data) return 'Error during request';
-
-      const { users, wobjects } = result.data as generalSearchType;
-      if (!users?.length && !wobjects?.length) return 'Not found';
-
-      let response = '';
-      if (wobjects?.length) {
-        const defaultShowLink = wobjects
-          .map(
-            (el) => `
+const wobjectsFormatResponse = (
+  objects: waivioObjectType[],
+  host: string,
+): string => {
+  return objects
+    .map(
+      (el) => `
             name: ${el.name},
             ${el.description ? `description:  ${el.description}` : ''}
             ${el.avatar ? `avatar:  ${el.avatar}` : ''}    
             objectType:  ${el.object_type}
             link:  https://${host}${el.defaultShowLink}
             `,
-          )
-          .join('\n');
-        response += `here is wobjects i found ${defaultShowLink}`;
-      }
+    )
+    .join('\n');
+};
 
-      if (users?.length) {
-        const defaultShowLink = users
-          .map(
-            (el) => `
+const usersFormatResponse = (users: waivioUserType[], host: string): string => {
+  return users
+    .map(
+      (el) => `
             account: ${el.account}, 
             ${
               el.posting_json_metadata
@@ -83,9 +104,38 @@ export const generateSearchToolsForHost = (host: string) => {
             } 
             link:  https://${host}/@${el.account}
             `,
-          )
-          .join('\n');
-        response += `here is user accounts i found :${defaultShowLink} posting_json_metadata is kind of settings for hive accounts you can find additional info there`;
+    )
+    .join('\n');
+};
+
+export const generateSearchToolsForHost = (host: string) => {
+  const waivioSearchTool = tool(
+    async ({ string }) => {
+      configService.getAppHost();
+      const url = `https://${configService.getAppHost()}/api/generalSearch`;
+
+      const result = await createFetchRequest({
+        api: { method: 'POST', url },
+        params: {
+          string,
+          userLimit: 5,
+          wobjectsLimit: 15,
+        },
+        accessHost: host,
+      });
+
+      if (!result) return 'Error during request';
+
+      const { users, wobjects } = result as generalSearchType;
+      if (!users?.length && !wobjects?.length) return 'Not found';
+
+      let response = '';
+      if (wobjects?.length) {
+        response += `here is objects i found ${wobjectsFormatResponse(wobjects, host)}`;
+      }
+
+      if (users?.length) {
+        response += `here is user accounts i found :${usersFormatResponse(users, host)} posting_json_metadata is kind of settings for hive accounts you can find additional info there`;
       }
 
       return response;
@@ -99,7 +149,35 @@ export const generateSearchToolsForHost = (host: string) => {
     },
   );
 
+  const waivioObjectsMapTool = tool(
+    async (data) => {
+      configService.getAppHost();
+      const url = `https://${configService.getAppHost()}/api/wobjectSearch`;
+
+      const result = await createFetchRequest({
+        api: { method: 'POST', url },
+        params: data,
+        accessHost: host,
+      });
+
+      if (!result) return 'Error during request';
+
+      const { wobjects } = result as generalSearchType;
+      if (!wobjects?.length) return 'Not found';
+
+      return `here is objects i found ${wobjectsFormatResponse(wobjects, host)}`;
+    },
+    {
+      name: 'waivioObjectsMapTool',
+      description:
+        'Search waivio objects in particular area for example: find objects in London etc. you have tools: map - search from center in radius or box - search in box coordinates, choose only one',
+      schema: waivioSearchMapSchema,
+      responseFormat: 'content',
+    },
+  );
+
   return {
     waivioSearchTool,
+    waivioObjectsMapTool,
   };
 };
