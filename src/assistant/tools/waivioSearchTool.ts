@@ -47,14 +47,12 @@ const waivioSearchMapSchema = z
       .optional(),
     onlyObjectTypes: z
       .array(z.enum(Object.values(OBJECT_TYPES) as [string, ...string[]]))
+      .optional()
       .describe(
         'use for filter results for particular type example: I want find restaurants in Vancouver => onlyObjectTypes: ["restaurant"]',
       ),
   })
-  .refine((data) => !(data.map && data.box), {
-    message: "Only one of 'map' or 'box' can be present",
-    path: ['map', 'box'],
-  });
+  .describe('use only map or box not both');
 
 type waivioObjectType = {
   name: string;
@@ -150,13 +148,13 @@ export const generateSearchToolsForHost = (host: string) => {
   );
 
   const waivioObjectsMapTool = tool(
-    async (data) => {
+    async ({ map, box, onlyObjectTypes, string }) => {
       configService.getAppHost();
       const url = `https://${configService.getAppHost()}/api/wobjectSearch`;
 
       const result = await createFetchRequest({
         api: { method: 'POST', url },
-        params: data,
+        params: { map, box, onlyObjectTypes, string },
         accessHost: host,
       });
 
