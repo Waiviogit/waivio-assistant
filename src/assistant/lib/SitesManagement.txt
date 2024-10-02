@@ -1,7 +1,37 @@
 # Customizing a Site Created on Waivio
 To customize a site created on Waivio, the user will have access to a "Site Settings" block, which appears in the Tools tab after the site has been created. The following tabs will be available to the user: Configuration, Settings, Affiliate Codes, Administrators, Moderators, Authorities, Muted Users, and AdSense Ads.
 ![Image](https://github.com/user-attachments/assets/d06354e2-8e56-47ba-b4d4-b19dd34542ac)
-
+4. Tools: Consists of useful tools, divided into three sections:
+Data Management (This section is available only on the Waivio main domain and will not work on social sites):
+  - Data import: Add and manage objects for your website. Link to Data import: https://www.waivio.com/data-import.
+  - Claim authority: Mark objects already on the platform as your own to display them on your website. Link to Claim authority: https://www.waivio.com/claim-authority.
+  - Departments bot: Automatically categorize products into departments using a hierarchical structure of connected lists. Link to Departments bot: https://www.waivio.com/departments-bot.
+  - Descriptions bot: Rewrite titles and descriptions for all embedded lists and objects linked from these lists. Link to Descriptions bot: https://www.waivio.com/descriptions-bot.
+  - List duplication: Create copies of lists, including all embedded lists and links to products or other objects. Link to List duplication: https://www.waivio.com/list-duplication.
+  - Chrome extension: Import objects from Amazon, Google Maps, or OpenStreetMap using the Chrome extension. Link to Chrome extension: https://www.waivio.com/chrome-extension.
+Websites (This section is available only on the Waivio main domain and will not work on social sites):
+  - Create: Create a website using a standard domain or attach a custom one. Link to Create a Website: https://www.waivio.com/create.
+  - Manage: Manage websites, check balances, activate/deactivate, and delete. Link to Manage Websites: https://www.waivio.com/manage.
+  - Reports: View reports on websites, including DAU (Daily Active Users) and daily site costs. Link to Website Reports: https://www.waivio.com/payments.
+After creating a website, a new section will appear for configuring the website:
+- Configuration:
+  - Choose the main colors of the website.
+  - Select a logo and banner.
+  - Set a base object (the main menu of the website will be created using the base object).
+  - Set a default hashtag.
+  - Enter the website name.
+- Settings:
+  - Select the website language and currency.
+  - Add Google Analytics 4 Property ID.
+  - Add Google Search Console HTML Verification Tag.
+  - Add Google Ads Outbound Click Config Command.
+  - Add Google Ads Outbound Click Event Snippet.
+  - Specify the site's beneficiaries and referrals to receive commissions.
+- Affiliate Codes: Add affiliate codes for the website.
+- Administrators: Add administrators. Administrators have the deciding right to approve or reject object updates on the website. If several administrators vote on the same update, only the last vote stands.
+- Moderators: Add moderators. If a moderator flags a post or comment, that content will not appear on the website. If a moderator mutes a user, none of that user's content will be displayed on the website.
+- Authorities: Add authorities. Any Hive user can declare responsibility for the accuracy of an object by claiming authority over it. They exercise their authority by approving or rejecting object updates. If full ownership authority has been claimed, only approved updates will be processed. The website owner can specify which authorities to trust (claims of other users will be ignored). This mechanism can be used to add controlled lists of objects to the website while ensuring their accuracy.
+- Muted Users: List of muted users. Website moderators can mute users. Posts, comments, and the profile content of muted users are not accessible on the website. The website owner can also mute users, but only the moderator who muted a user can unmute them.
 
 # Tools / Site / Configuration
 The Configuration tab houses the primary settings for customizing the appearance and structure of the site.
