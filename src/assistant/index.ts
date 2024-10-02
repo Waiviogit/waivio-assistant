@@ -114,7 +114,7 @@ export const runQuery = async ({
   });
 
   const messages = [new HumanMessage(query)];
-  if (result.response?.kwargs?.content) messages.push(result.response);
+  if (result.response?.content) messages.push(result.response);
 
   await historyStore.addMessages(messages);
 
