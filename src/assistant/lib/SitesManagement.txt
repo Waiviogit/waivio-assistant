@@ -1843,3 +1843,178 @@ For more details give a link to https://social.gifts/@social.gifts/performance-e
 
  Conclusion
  With your curated collection and expert recommendations, you're not only set to enrich the social shopping experience, but also to be at the forefront of a dynamic Web 3.0 era where collective knowledge and collaboration redefine the way we shop and engage online. Let your knowledge shine in this new era of online shopping. Happy curating! ![image](https://waivio.nyc3.digitaloceanspaces.com/1697489001_64f8d08d-eb86-4b68-b6e4-fedfea428507)
+
+
+# Boost Your SEO: Leveraging Business Maps for Effective Backlink Building on Social.Gifts
+One of the powerful strategies to build backlinks for Social.Gifts websites is by leveraging maps that feature related businesses. Social.Gifts websites are [well-optimized for Google Search indexing](https://social.gifts/@social.gifts/submitting-social-shopping-sites-to-search-engines-for-indexing), meaning that if your [social shopping site hosts](https://social.gifts/@waiviolabs/improving-seo-with-canonical-links-for-hosted-websites) numerous products, businesses, and original posts submitted through your platform, all that content should be appearing in search results.
+However, just being indexed is not enough in today's competitive SEO landscape. If your pages don't rank within the top 20 results, your site may not see much organic traffic. To improve your SERP (Search Engine Results Page) rankings, it's crucial to increase your site's page rank, and a key factor in achieving this is obtaining backlinks from relevant websites.
+The Strategy: Outreach for Backlinks Using Business Maps
+If you have a map of related businesses on your social shopping site, this can be a valuable tool for enhancing your site's reputation and increasing the number of incoming links from relevant businesses. Here’s how:
+
+1. Build the Map:
+Start by creating a detailed and well-organized map of businesses related to your niche on your social shopping site. This map should include accurate and up-to-date information about each business, including their contact details, social media profiles, and a link to their website.
+![image](https://waivio.nyc3.digitaloceanspaces.com/eed3d25b47bc77a574e38f7f883019db84ef513a7705fb3bf8eb6d29f912fccb)
+ 
+2. Outreach Campaign:
+Launch an outreach email program to inform the businesses that your site has a dedicated page featuring them, complete with a direct link to their website. In your email, invite them to verify the information and offer them the opportunity to increase their visibility on the map by adding a backlink to your site on their website.
+
+3. Utilize Waivio’s Email Drafting Tool:
+Waivio has integrated an email drafting tool accessible only to admin accounts on your site. This tool simplifies the outreach process by providing a draft email that includes all the necessary links. When you find a business with an email address on your map, click the three dots next to it, select "Request a backlink," and the tool will generate a pre-drafted email for you.
+![image](https://waivio.nyc3.digitaloceanspaces.com/f4344084a80d6ed2c1144bcd3d119924cd819d1f596695298f7cc0e3cf288027)
+
+4. Customize and Send:
+While the tool provides a draft, it's essential to customize the email to fit your brand's tone and message. Once edited, send the email from your project's associated account to maintain a professional and cohesive outreach.
+![image](https://waivio.nyc3.digitaloceanspaces.com/ffdb6d7c6a6a0691947a4aec41cce4ea5b96d3716f51c7e54d5e822d06a82218)
+ 
+5. Positive Replies and Rewards Campaigns:
+When you receive a positive response from a business, you can enhance their listing on your map by launching a rewards campaign for them. This campaign increases the visibility of their business on the general map, as businesses with active campaigns are prioritized in display.
+![image](https://waivio.nyc3.digitaloceanspaces.com/bc36cba5059d0d2363aaea650b1bd9d91f961d29836af49f64b677377cb2f060)
+ 
+6. Continuous Engagement:
+Encourage users to post feedback about these businesses and earn rewards. Over time, share the results with the business and offer to help them manage their rewards campaign on an ongoing basis, collecting managing fees along the way.
+
+Best Practices and Etiquette
+In our experience, independently operated companies are more likely to respond positively to backlink requests, as they have more direct control over their websites compared to multi-location businesses, where approvals from headquarters may be necessary.
+In the Web3 space, multiple projects may integrate the same maps, and there are a few etiquette guidelines to follow:
+Respect Existing Relationships
+    If a business already has a rewards campaign running, it's likely that another project has an established relationship with them.
+Check for Previous Outreach
+    If an email address is listed on a business’s page, it may indicate that another project has already sent a request for a backlink. You can check the edit history to see when this email was added. If it's been over a month, it’s acceptable to send your own request.
+Enhance the Listing
+    If no email address is listed, visit the business’s website to find their contact information. While you’re at it, consider adding photos, social links, and other useful information to their page on your map. This makes your outreach more compelling and increases the chances of getting a backlink.
+Conclusion
+Building backlinks through maps is just one of many strategies you can employ to boost your website’s SEO. By fostering relationships with relevant businesses and encouraging them to link back to your site, you not only improve your SERP rankings but also contribute to the overall value and credibility of your social shopping site.
+We invite you to share your own SEO strategies with us. Your feedback could help us further enhance Waivio’s social website hosting services to support your campaigns and outreach efforts more effectively.
+For more details give a link to https://social.gifts/@social.gifts/boost-your-seo-leveraging-business-maps-for-effective-backlink-building-on-social-gifts.
+
+
+# HiveFest'24: Web3 Maps on Hive
+Greetings from the beautiful shores of Split, Croatia! At HiveFest 2024, I had the exciting opportunity to unveil Web3 Maps—a game-changer for anyone building on the Hive blockchain. With maps now integrated into user profiles, you can easily showcase your favorite businesses and locations.
+But that’s just the beginning. Custom maps can also be used in social projects on Hive, offering new ways to engage communities and enhance interaction.
+
+Day 1 of the #HiveFest, Split, Croatia - Sep 2024
+Web3 Maps on Hive
+Welcome, Hive-ians, to HiveFest 2024 in Split, Croatia! As is our tradition, I'm excited to share something new and fascinating with you today—Web3 Maps on Hive.
+![image](https://waivio.nyc3.digitaloceanspaces.com/625ba90f491f6bd285719f65c355f8bee4c968b2dd30984c1f948fea2a7cff1e)
+ 
+Object Reference Protocol on Hive
+The [Object Reference Protocol](https://social.gifts/object/ylr-waivio/page) on Hive allows you to do much more than just posting and upvoting. It lets you publish and connect a diverse range of content—products, books, restaurants, businesses, wiki pages, lists, widgets, and more. Each object is given a unique URL on Hive, and when you link an object in your post, your post automatically appears on the object’s page, specifically in the reviews section. This not only provides better visibility for your posts but also contributes to the accumulation of knowledge on Hive, creating a rich, interconnected network of information.
+![image](https://waivio.nyc3.digitaloceanspaces.com/9de5aaf976e697bf7153eaf17a86cf436a69026408b7fa98a8736ea4ca81ac4e)
+Introducing Web3 Maps on Hive
+Today, we're thrilled to introduce Web3 Maps on Hive. Now, you can use maps directly in your profiles, create custom maps, and integrate them into your projects.
+![image](https://waivio.nyc3.digitaloceanspaces.com/5fa1b5dfdc05979aacdbcbd87cb6befead7578d09821b853ed096ec9854eca64)
+ 
+Adding a Business to a Profile Map - Heart a Business
+Express your appreciation for a business or restaurant by giving it a heart.
+Take Art of Sauna, for example—one of my favorite spas in the Vancouver area, complete with business details and a photo gallery. If you want to show your support, simply click the heart icon, and it will instantly be added to your profile map, allowing you to easily showcase your favorite spots.
+![image](https://waivio.nyc3.digitaloceanspaces.com/38bbb45bb16f9248d1fe456c495f795bb085f098351f6b50e6b10d74e9a78f38)
+ 
+Watch It Appear on Your Map
+From now on, every user profile will feature a dedicated 'Map' tab alongside the usual tabs like blog posts, comments, followers, and wallet. This 'Map' tab allows you to showcase your favorite destinations, businesses you love, or places you’ve visited.
+Once you’ve hearted a business or mentioned it in a post, it will instantly appear on your profile map, making it easy for you and your followers to explore those locations.
+![image](https://waivio.nyc3.digitaloceanspaces.com/c7396e480a5d6fec5629505c30fb163e2f3b49091988c045bd4e7911bf1182e9)
+ 
+Map It in a Click: Adding a Business using Waivio Chrome Extension
+What if the business you want to add isn’t listed on Hive yet? No problem—we’ve got you covered.
+The Waivio Chrome extension, compatible with any Chrome-based browser like Edge or Brave, makes adding businesses simple and seamless.
+Just select a business on OpenStreetMap or Google Maps, then click the orange Waivio icon in your browser’s toolbar to activate the extension. With one click on 'Upload to Waivio,' you can instantly add the business to the Hive blockchain and your profile map.
+![image](https://waivio.nyc3.digitaloceanspaces.com/904f2877423d45ca6ff3ea9f2d878dc4170bd5d6c61ce265b5b66544dc3a13e0)
+ 
+Now Live: On Your Profile Map
+For example, I visited Google Maps, selected 'Peak Performance' clothing store in Whistler, and clicked 'Upload to Waivio.' Now, this business has a dedicated page on Hive and is live on my profile map. Maps in profiles offer a powerful way to showcase your favorite locations, support local businesses, and contribute to the growing knowledge base on Hive.
+![image](https://waivio.nyc3.digitaloceanspaces.com/bc787c17d06f67f2c0b611484c0bebff8d2f280b95f8bc2be18cc756c709ac0e)
+ 
+Creating Custom Maps
+Creating custom maps is incredibly simple for Hive users. Start by writing a new post. On the right side of the screen (or using the 'Create New Object' button on mobile), select the 'Map' option. After giving your map a name—let’s call this one 'Coffee Map'—the map object will be created. From there, you can fully customize it to display the locations or content you want to feature.
+![image](https://waivio.nyc3.digitaloceanspaces.com/472df6231443f16d712cfdd6980630c392c317c20e4c5686ed34926a009d6e00)
+ 
+Custom Map Configuration
+Start by selecting the objects you want to display on the map.
+
+List of Objects
+One of the simplest ways to define a group of businesses or restaurants to display is by creating a list. If you want a business to appear on the map, just add it to the list. If you no longer want it displayed, simply remove it. The list can also be organized into more complex structures, such as sub-lists, for better categorization.
+
+Filter Objects by Tags
+Objects can be tagged with keywords, and you can use these tags to filter what appears on your map. For example, you can configure the map to display all locations tagged as "coffeeshop." To show a business on the map, simply add the tag, and to remove it, just delete the tag from that business.
+
+Limit the Area
+You can focus your map on a specific geographic area, such as a particular city, to avoid showing businesses with the same name in different locations. This makes it easier for users to find relevant businesses without confusion.
+
+Set Initial Map Views
+You can customize how the map is displayed when accessed on different devices. For desktop, decide whether to show a global view or zoom in on a specific region. The same goes for mobile, where you can adjust the map to provide an optimal view in vertical orientation.
+![image](https://waivio.nyc3.digitaloceanspaces.com/64ceb61b3a75da7ec8562212adaca9997f96a9b0eed5afcac8baffb616e70d2a)
+ 
+Integration of Maps into SocialWebsites
+Now, let's take a look at some examples of how maps are being integrated into various social projects on Hive. These projects showcase the power of maps in enhancing user interaction and content discovery.
+What’s even more exciting is that you can launch your own social project on Hive—including maps—[within just 10 minutes](https://social.gifts/@cryptodive/launch-a-full-shop-in-10-min).
+![image](https://waivio.nyc3.digitaloceanspaces.com/2b935ecc8c847c420a88b8f7815156c54dc9aa942d4e566bfa95758038ca537e)
+ 
+CampingMapper.com (https://campingmapper.com/)
+One great example of map integration on Hive is CampingMapper.com. This project features almost 10,000 campgrounds across North America, making it easy for users to discover new camping spots. The goal of the project is not just to list established campgrounds but also to start mapping wild camping spots—places where you can pitch a tent or park your RV.
+The CampingMapper community on Hive actively shares their camping experiences, reviews, and recommendations.
+![image](https://waivio.nyc3.digitaloceanspaces.com/8feaacf013d2aa6bd9383ca2856f336f74d7cf3eb2c1668bf8db83c8232b228b)
+ 
+CoffeeShop.Gifts (https://coffeeshop.gifts/)
+Coffee is a popular topic on Hive, and CoffeeShop.Gifts taps into that by showcasing independent coffee shops from around the world. Through map integration, users can explore locations, add reviews and mark favorites directly to their profile maps.
+![image](https://waivio.nyc3.digitaloceanspaces.com/55d10d4f02d284218211588c3138ce7dbb1977c798e7688632239bdf65eba248)
+ 
+CleanGirlLook.com (https://cleangirllook.com/)
+CleanGirlLook.com integrates maps to help users find beauty salons, nail bars, hair care, and skincare services. With map integration, users can easily locate nearby salons, add their favorite spots to their profile maps, and share reviews.
+https://waivio.nyc3.digitaloceanspaces.com/3ab5a994893aa62523163d432caece4e5e9b1dcb0be5ea86904398cba3045bd7
+ 
+AcceptCryptoMap.com (https://acceptcryptomap.com/)
+AcceptCryptoMap.com features a global map of businesses that accept cryptocurrency, including Bitcoin, Lightning, and HBD. Users can easily find crypto-friendly businesses nearby and add their favorites to their personal maps.
+They can also share their experiences of paying with crypto, and these reviews are automatically added to the business’s page.
+![image](https://waivio.nyc3.digitaloceanspaces.com/02c7c3e8370c2742180b16e1706ff78e1f212a9ed734091d2d385fd89a8532a4)
+ 
+What kind of map would you like to build?
+As you’ve seen, the integration of maps into social projects on Hive opens up countless possibilities. Whether it's supporting local businesses, sharing personal recommendations, or building unique communities, maps add immense value to the user experience. And the best part? You can launch your own social project with map integration in just minutes. So, what kind of map would you like to build today?
+![image](https://waivio.nyc3.digitaloceanspaces.com/c7e341bb6b744ad9bbeb8b6029c0814a77ec77a834068369479d670e677961c9)
+For more details give a link to https://social.gifts/@grampo/hivefest-24-web3-maps-on-hive
+
+
+# Using Perplexity.com to Find Recipes on YouTube
+Finding the perfect recipe on YouTube can be a challenge, especially when recipe names are confusing or vary across different cultures and cuisines. Waivio now supports recipes, allowing website owners on Social.Gifts to build comprehensive recipe collections. The Recipe object in Waivio serves as a hub to aggregate social posts that explain how to cook a particular dish. The most upvoted post or one pinned by the website owner is featured as the Top Recipe, enriching the recipe page with valuable content.
+However, for a recipe page to serve its purpose effectively, it needs at least one post linked to it. While the recipe object contains a description and a list of commonly used ingredients, it doesn't include the actual cooking instructions. This is where YouTube comes in handy. Many creators on YouTube offer detailed recipe videos and often endorse public resharing of their work with proper credits. But how do you find the right videos when recipe names aren't enough?
+The Solution: Using Perplexity.com with Ingredient Lists
+One effective way to find YouTube recipes is by using Perplexity.com, a powerful search engine that understands natural language queries. Instead of searching by recipe names, you can use a list of ingredients as your search query to find the most relevant YouTube videos.
+
+Highlighting Ingredients on the Recipe Page
+Visit the recipe page on Waivio or Social.Gifts.
+You'll find a list of commonly used ingredients for the dish.
+Highlight and copy these ingredients to use in your search.
+![image](https://waivio.nyc3.digitaloceanspaces.com/f10b39bca65cce8d9f4bc12435255b85d7d027e06997e5b3f027904e606db087)
+ 
+Searching on Perplexity.com
+Go to Perplexity.com.
+Paste the list of ingredients into the search bar.
+Perplexity will generate search results, including YouTube links that match the ingredients you've listed.
+Browse through the search results and select a YouTube video that best fits your recipe needs.
+![image](https://waivio.nyc3.digitaloceanspaces.com/c2e961a1f4a071c8bdcc5f2cd2caa26b06462c6f345d82fdd7d7a3cf9bb5113e)
+ 
+Using the Waivio Chrome Extension
+Install the Waivio Chrome Extension if you haven't already.
+On the YouTube video page, use the extension to create recipe draft.
+The extension can pull the video's transcript in different langauges, generating the recipe and detailed cooking instructions.
+![image](https://waivio.nyc3.digitaloceanspaces.com/8cbedcd485068d5a0c384be92602be6af1802afbb2270a8aa329b0d02a6c8963)
+ 
+Writing and Linking The Recipe
+Return to the recipe page.
+Click on the "Write Review" link to create a new post.
+Paste the generated content from the Waivio extension.
+Add any personal touches, tips, or modifications you prefer.
+![image](https://waivio.nyc3.digitaloceanspaces.com/f59bf1288c4755b3454f2608f43c02dc226482332c02ba8ed857ef0a0a02c779)
+ 
+The recipe page now includes:
+- A nicely formatted YouTube video.
+- A detailed list of ingredients.
+- Cooking tips and instructions.
+- Additional information to help others recreate the dish.
+![image](https://waivio.nyc3.digitaloceanspaces.com/0eda804f0a4c49c9f007ebad35157541d36f61855f736dca03725b3dfe885018)
+ 
+Conclusion
+By using Perplexity.com to search for recipes with a list of ingredients, you can easily find high-quality YouTube videos to enrich your recipe pages on Waivio and Social.Gifts. This method overcomes the limitations of confusing recipe names and ensures that your recipe collections are both comprehensive and user-friendly.
+Tips:
+- Always credit the original YouTube creators when sharing their content.
+- Engage with the community by upvoting helpful posts and sharing your own cooking experiences.
+For more details give a link to https://social.gifts/@social.gifts/using-perplexity-com-to-find-recipes-on-youtube.
