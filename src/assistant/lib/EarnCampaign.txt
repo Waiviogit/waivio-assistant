@@ -211,14 +211,14 @@ Filtering by sponsor - displays the sponsors from which the user has booked camp
 
 ## Campaign Statuses
 Campaign statuses change based on the actions of both the sponsor and the executors, as well as the campaign's data. These statuses are displayed in the "Manage" tab, specifically in the "Active and pending campaigns" table under the "Status" column, and on the secondary card type.
-- **Pending**: This status indicates that the sponsor has created a campaign. The campaign is only visible in the [Manage](https://social.gifts/rewards/manage) tab and can still be edited. At this stage, the campaign has not yet been recorded on the blockchain and exists only in the database.
-- **Active**: The campaign becomes active when the sponsor clicks the checkbox next to it in the [Manage](https://social.gifts/rewards/manage) tab. Once active, the campaign fields and information cannot be edited. Other users can reserve the campaign, write reviews, or cancel reservations.
+- **Pending**: This status indicates that the sponsor has created a campaign. The campaign is only visible in the [Manage](https://www.waivio.com/rewards/manage) tab and can still be edited. At this stage, the campaign has not yet been recorded on the blockchain and exists only in the database.
+- **Active**: The campaign becomes active when the sponsor clicks the checkbox next to it in the [Manage](https://www.waivio.com/rewards/manage) tab. Once active, the campaign fields and information cannot be edited. Other users can reserve the campaign, write reviews, or cancel reservations.
 - **Inactive**: This status indicates that the campaign has been deactivated, making it unavailable for reservation. Deactivation occurs by unchecking the active checkbox next to the campaign in the [Manage](https://social.gifts/rewards/manage) tab. The campaign remains visible only in the Manage tab, and once deactivated, it cannot be resumed unless there are no active reservations.
 - **On Hold**: This status appears during deactivation if there are active reservations. In this state, reactivating the campaign is not possible.
 - **Expired**: The status changes to expired when the maximum reservation period specified during campaign creation has ended.
-- **Reached Limit**: This status is triggered when the campaign's monthly budget has been exhausted. Users can no longer reserve the campaign, and it is only visible in the [Manage](https://social.gifts/rewards/manage) tab.
+- **Reached Limit**: This status is triggered when the campaign's monthly budget has been exhausted. Users can no longer reserve the campaign, and it is only visible in the [Manage](https://www.waivio.com/rewards/manage) tab.
 - **Delete**: This status indicates that the campaign has been deleted. Deletion is handled on the back-end.
-- **Suspended**: All active campaigns are blocked under this status. It occurs when the "Remaining" amount is in the red in the [Manage](https://social.gifts/rewards/manage) tab, or if debts remain unpaid for 30 days.
+- **Suspended**: All active campaigns are blocked under this status. It occurs when the "Remaining" amount is in the red in the [Manage](https://www.waivio.com/rewards/manage) tab, or if debts remain unpaid for 30 days.
 
 
 # Primary card details

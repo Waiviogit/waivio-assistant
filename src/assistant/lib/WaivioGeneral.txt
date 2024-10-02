@@ -243,12 +243,12 @@ To contact the team or customer support on Waivio, you can visit the URL https:/
 What is the structure of the Waivio platform?
 The structure of the Waivio platform is divided into 5 sections for logged-in users (My Feed, Earn, Shop, Tools, About):
 1. My Feed: This section includes different selections and feeds of posts, such as:
-  - Trending: Posts with the highest rewards. Link to Trending: https://social.gifts/trending.
-  - Hot: Posts with the largest number of comments. Link to Hot: https://social.gifts/hot.
-  - New: Newest posts. Link to New: https://social.gifts/created.
+  - Trending: Posts with the highest rewards. Link to Trending: https://www.waivio.com/trending.
+  - Hot: Posts with the largest number of comments. Link to Hot: https://www.waivio.com/hot.
+  - New: Newest posts. Link to New: https://www.waivio.com/created.
   - My Feed: Personalized feeds, which shows posts from users and objects the user is subscribed to. Available on the main Waivio domain if the user is authorized (https://social.gifts/).
-  - Earn: Rewards card from sponsors the user follows. Link to Earn in My Feed: https://social.gifts/rewards-list.
-  - Notifications: Recent notifications. Link to: https://social.gifts/notifications-list.
+  - Earn: Rewards card from sponsors the user follows. Link to Earn in My Feed: https://www.waivio.com/rewards-list.
+  - Notifications: Recent notifications. Link to: https://www.waivio.com/notifications-list.
   - Separate posts from objects and users.
 2. Earn:
   - Global: Pages in this section display current rewards available worldwide. Link to Global: https://social.gifts/rewards/global.
@@ -256,19 +256,19 @@ The structure of the Waivio platform is divided into 5 sections for logged-in us
  - Reserved: It includes reserved rewards authorized user. Link to Reserved: https://social.gifts/rewards/reserved.
   - Receivable: A list (table) of sponsors and their payment obligations. Link to Receivable: https://social.gifts/rewards/receivable.
   - History: History of reward reservations. Link to History: https://social.gifts/rewards/history.
-  - Create: Users can create and manage campaigns. Link to Create: https://social.gifts/rewards/create.
-  - Manage: Administration and managing of campaigns (campaign administration, balance control, activation/deactivation, and campaign history). Link to Manage: https://social.gifts/rewards/manage.
-  - Payable: A list (table) of users who completed campaigns and their financial responsibilities. Link to Payable: https://social.gifts/rewards/payable.
-  - Reports: View reports on quide (sponsor) campaigns. Link to Reports: https://social.gifts/rewards/reports.
-  - Reservation: History of reservations including user and campaign status. Link to Reservation: https://social.gifts/rewards/reservations.
-  - Messages: Communication with campaign executors. Link to Messages: https://social.gifts/rewards/messages.
-  - Fraud detection: List of fraudulent campaigns. Link to Fraud detection: https://social.gifts/rewards/fraud-detection.
-  - Blacklist: Prohibited users from campaign execution, references, and whitelisted users. Link to Blacklist: https://social.gifts/rewards/black-list.
+  - Create: Users can create and manage campaigns. Link to Create: https://www.waivio.com/rewards/create.
+  - Manage: Administration and managing of campaigns (campaign administration, balance control, activation/deactivation, and campaign history). Link to Manage: https://www.waivio.com/rewards/manage.
+  - Payable: A list (table) of users who completed campaigns and their financial responsibilities. Link to Payable: https://www.waivio.com/rewards/payable.
+  - Reports: View reports on quide (sponsor) campaigns. Link to Reports: https://www.waivio.com/rewards/reports.
+  - Reservation: History of reservations including user and campaign status. Link to Reservation: https://www.waivio.com/rewards/reservations.
+  - Messages: Communication with campaign executors. Link to Messages: https://www.waivio.com/rewards/messages.
+  - Fraud detection: List of fraudulent campaigns. Link to Fraud detection: https://www.waivio.com/rewards/fraud-detection.
+  - Blacklist: Prohibited users from campaign execution, references, and whitelisted users. Link to Blacklist: https://www.waivio.com/rewards/black-list.
 Match Bots: This category includes bots that automate upvoting for specific posts:
-- Author: Automatically upvotes posts by specified authors based on set criteria. Link to Authors match bot: https://social.gifts/rewards/match-bots-authors.
-- Curator: Repeats upvotes and downvotes of specified curators on posts and comments, with adjustable voting ratios. Link to Curator match bot: https://social.gifts/rewards/match-bots-curators.
-- Sponsor: Designed to offset direct rewards with upvotes in campaigns, reducing direct payment obligations. Link to Sponsor match bot: https://social.gifts/rewards/match-bots-sponsors.
-3. Shop: This is the main shop where a comprehensive catalog of all products added to the platform is collected. Link to General Shop: https://social.gifts/shop.
+- Author: Automatically upvotes posts by specified authors based on set criteria. Link to Authors match bot: https://www.waivio.com/rewards/match-bots-authors.
+- Curator: Repeats upvotes and downvotes of specified curators on posts and comments, with adjustable voting ratios. Link to Curator match bot: https://www.waivio.com/rewards/match-bots-curators.
+- Sponsor: Designed to offset direct rewards with upvotes in campaigns, reducing direct payment obligations. Link to Sponsor match bot: https://www.waivio.com/rewards/match-bots-sponsors.
+3. Shop: This is the main shop where a comprehensive catalog of all products added to the platform is collected. Link to General Shop: https://www.waivio.com/shop.
 4. Tools: Consists of useful tools, divided into three sections:
 Personal:
   - Notifications: Settings for notifications that appear in the bell icon and Telegram bot. Link to Notifications: https://social.gifts/notification-settings.
@@ -280,16 +280,16 @@ Personal:
   - New accounts: Purchase new Hive accounts. Link to New accounts: https://social.gifts/new-accounts.
   - Invite: Generate invite links for other users. Link to Invite: https://social.gifts/invite.
 Data Management:
-  - Data import: Add and manage objects for your website. Link to Data import: https://social.gifts/data-import.
-  - Claim authority: Mark objects already on the platform as your own to display them on your website. Link to Claim authority: https://social.gifts/claim-authority.
-  - Departments bot: Automatically categorize products into departments using a hierarchical structure of connected lists. Link to Departments bot: https://social.gifts/departments-bot.
-  - Descriptions bot: Rewrite titles and descriptions for all embedded lists and objects linked from these lists. Link to Descriptions bot: https://social.gifts/descriptions-bot.
-  - List duplication: Create copies of lists, including all embedded lists and links to products or other objects. Link to List duplication: https://social.gifts/list-duplication.
-  - Chrome extension: Import objects from Amazon, Google Maps, or OpenStreetMap using the Chrome extension. Link to Chrome extension: https://social.gifts/chrome-extension.
+  - Data import: Add and manage objects for your website. Link to Data import: https://www.waivio.com/data-import.
+  - Claim authority: Mark objects already on the platform as your own to display them on your website. Link to Claim authority: https://www.waivio.com/claim-authority.
+  - Departments bot: Automatically categorize products into departments using a hierarchical structure of connected lists. Link to Departments bot: https://www.waivio.com/departments-bot.
+  - Descriptions bot: Rewrite titles and descriptions for all embedded lists and objects linked from these lists. Link to Descriptions bot: https://www.waivio.com/descriptions-bot.
+  - List duplication: Create copies of lists, including all embedded lists and links to products or other objects. Link to List duplication: https://www.waivio.com/list-duplication.
+  - Chrome extension: Import objects from Amazon, Google Maps, or OpenStreetMap using the Chrome extension. Link to Chrome extension: https://www.waivio.com/chrome-extension.
 Websites:
-  - Create: Create a website using a standard domain or attach a custom one. Link to Create a Website: https://social.gifts/create.
-  - Manage: Manage websites, check balances, activate/deactivate, and delete. Link to Manage Websites: https://social.gifts/manage.
-  - Reports: View reports on websites, including DAU (Daily Active Users) and daily site costs. Link to Website Reports: https://social.gifts/payments.
+  - Create: Create a website using a standard domain or attach a custom one. Link to Create a Website: https://www.waivio.com/create.
+  - Manage: Manage websites, check balances, activate/deactivate, and delete. Link to Manage Websites: https://www.waivio.com/manage.
+  - Reports: View reports on websites, including DAU (Daily Active Users) and daily site costs. Link to Website Reports: https://www.waivio.com/payments.
 After creating a website, a new section will appear for configuring the website:
 - Configuration:
   - Choose the main colors of the website.
@@ -618,7 +618,7 @@ For more details give a link to https://social.gifts/@waiviolabs/waivio-integrat
 # HiveFest'23: Social Shopping on Hive
 Amid the spirited atmosphere of HiveFest in picturesque Rosarito, @grampo took to the stage to unveil an electrifying new feature for the Hive community: the Social Shops!
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1695758063_3e4a94ad-0ef2-4ff1-870f-77f499833a10
-In Waivio's (https://social.gifts/) relentless pursuit to elevate the Hive experience and champion its users, every Hive member will now have a personalized shop embedded in their profile. Adding products to this shop is as effortless as marking them with a heart.
+In Waivio's (https://www.waivio.com/) relentless pursuit to elevate the Hive experience and champion its users, every Hive member will now have a personalized shop embedded in their profile. Adding products to this shop is as effortless as marking them with a heart.
 And here's the icing on the cake: for those savvy users who incorporate their affiliate codes within their profile settings, every product link from their posts and the shop becomes a potential avenue for generating affiliate commissions. Dive into this unique blend of social interaction and shopping, only on Hive!
 Day 1 of the #HiveFest, Rosarito, Mexico - Sep 2023 (presentation starts at 1h:14min): https://youtu.be/wbdFtdEPhZQ
 Launching a Social Shop on Hive
