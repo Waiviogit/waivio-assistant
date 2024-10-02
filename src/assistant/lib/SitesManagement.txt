@@ -1661,7 +1661,7 @@ Get started today and take your social shop to the next level with easy-to-integ
 # What are social sites built on Waivio?
 The social site is built on the Waivio platform using the Social.Gifts template. This template is flexible and allows site owners to customize their sites according to their needs. Social sites are typically thematic. Users can manage and create sites only on the official Waivio site; this functionality is not available on social sites.
 These sites have a "Sign in" button where users can log in via HiveSigner, HiveAuth (Keychain), or Google to access Waivio platform features, such as writing posts, finding and participating in campaigns, liking content, leaving comments, and more.
-Social sites can only be created on the Waivio platform's main interface (https://social.gifts).
+Social sites can only be created on the Waivio platform's main interface (https://www.waivio.com).
 
 # What is the Structure of a Social Site Built on Waivio?
 The main navigation menu on the Waivio platform can consist of various pages depending on the site's configuration. Possible pages include:

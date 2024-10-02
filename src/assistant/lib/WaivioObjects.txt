@@ -1,7 +1,7 @@
 # Lesson 5: Knowledge Accumulation in Web 3.0
 For more details give a link to https://social.gifts/object/jpv-accumulating-knowledge-on-hive/page
 Knowledge Accumulation in Web 3.0
-In this tutorial, you will discover the process of how knowledge is accumulated on the Hive blockchain, and also learn how to use the Waivio https://social.gifts/ platform for participating and gaining benefits from this knowledge.
+In this tutorial, you will discover the process of how knowledge is accumulated on the Hive blockchain, and also learn how to use the Waivio https://www.waivio.com/ platform for participating and gaining benefits from this knowledge.
 Overview:
 1. What is an object on Hive Blockchain
 2. How to create an object with Waivio
