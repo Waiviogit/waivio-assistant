@@ -18,30 +18,24 @@ const waivioSearchMapSchema = z
       ),
     map: z
       .object({
-        coordinates: z.tuple([
-          z.number().min(-180).max(180).describe('longitude'),
-          z.number().min(-90).max(90).describe('latitude'),
-        ]),
-
+        coordinates: z
+          .array(z.number().min(-180).max(180), z.number().min(-90).max(90))
+          .describe('first element longitude, second element latitude'),
         radius: z.number().min(1).describe('radius distance in meters'),
       })
       .optional(),
     box: z
       .object({
         topPoint: z
-          .array(
-            z.number().min(-180).max(180).describe('longitude'),
-            z.number().min(-90).max(90).describe('latitude'),
-          )
-          .length(2)
-          .describe('top right coordinate of the box'),
+          .array(z.number().min(-180).max(180), z.number().min(-90).max(90))
+          .describe(
+            'top right coordinate of the box first element longitude, second element latitude',
+          ),
         bottomPoint: z
-          .array(
-            z.number().min(-180).max(180).describe('longitude'),
-            z.number().min(-90).max(90).describe('latitude'),
-          )
-          .length(2)
-          .describe('bottom left coordinate of the box'),
+          .array(z.number().min(-180).max(180), z.number().min(-90).max(90))
+          .describe(
+            'bottom left coordinate of the box first element longitude, second element latitude',
+          ),
       })
       .optional(),
     object_type: z
