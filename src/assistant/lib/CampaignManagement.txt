@@ -1,16 +1,16 @@
 # Earn section on Waivio from main navigation menu
-The Earn section on Waivio offers a comprehensive platform for both sponsors and users. It includes the Rewards block, which covers categories like Global, Local, Reserved, Receivable, and History. Within this section, users can manage Campaigns—creating, managing, and tracking them, while also handling Payable rewards, generating Reports, managing Reservations, sending Messages, detecting Fraud, and maintaining a Blacklist. Additionally, the Match Bots feature connects authors, curators, and sponsors. Overall, this section allows sponsors to create and manage campaigns, while users can discover and participate in campaigns to earn rewards. 
+The Earn section on Waivio offers a comprehensive platform for both sponsors and users. It includes the Rewards block, which covers categories like Global, Local, Reserved, Receivable, and History. Within this section, users can manage Campaigns—creating, managing, and tracking them, while also handling Payable rewards, generating Reports, managing Reservations, sending Messages, detecting Fraud, and maintaining a Blacklist. Additionally, the Match Bots feature connects authors, curators, and sponsors. Overall, this section allows sponsors to create and manage campaigns, while users can discover and participate in campaigns to earn rewards.
 
 ## Campaign Statuses
 Campaign statuses change based on the actions of both the sponsor and the executors, as well as the campaign's data. These statuses are displayed in the "Manage" tab, specifically in the "Active and pending campaigns" table under the "Status" column, and on the secondary card type.
-- **Pending**: This status indicates that the sponsor has created a campaign. The campaign is only visible in the [Manage](https://www.waivio.com/rewards/manage) tab and can still be edited. At this stage, the campaign has not yet been recorded on the blockchain and exists only in the database.
-- **Active**: The campaign becomes active when the sponsor clicks the checkbox next to it in the [Manage](https://www.waivio.com/rewards/manage) tab. Once active, the campaign fields and information cannot be edited. Other users can reserve the campaign, write reviews, or cancel reservations.
-- **Inactive**: This status indicates that the campaign has been deactivated, making it unavailable for reservation. Deactivation occurs by unchecking the active checkbox next to the campaign in the [Manage](https://www.waivio.com/rewards/manage) tab. The campaign remains visible only in the Manage tab, and once deactivated, it cannot be resumed unless there are no active reservations.
+- **Pending**: This status indicates that the sponsor has created a campaign. The campaign is only visible in the [Manage](https://social.gifts/rewards/manage) tab and can still be edited. At this stage, the campaign has not yet been recorded on the blockchain and exists only in the database.
+- **Active**: The campaign becomes active when the sponsor clicks the checkbox next to it in the [Manage](https://social.gifts/rewards/manage) tab. Once active, the campaign fields and information cannot be edited. Other users can reserve the campaign, write reviews, or cancel reservations.
+- **Inactive**: This status indicates that the campaign has been deactivated, making it unavailable for reservation. Deactivation occurs by unchecking the active checkbox next to the campaign in the [Manage](https://social.gifts/rewards/manage) tab. The campaign remains visible only in the Manage tab, and once deactivated, it cannot be resumed unless there are no active reservations.
 - **On Hold**: This status appears during deactivation if there are active reservations. In this state, reactivating the campaign is not possible.
 - **Expired**: The status changes to expired when the maximum reservation period specified during campaign creation has ended.
-- **Reached Limit**: This status is triggered when the campaign's monthly budget has been exhausted. Users can no longer reserve the campaign, and it is only visible in the [Manage](https://www.waivio.com/rewards/manage) tab.
+- **Reached Limit**: This status is triggered when the campaign's monthly budget has been exhausted. Users can no longer reserve the campaign, and it is only visible in the [Manage](https://social.gifts/rewards/manage) tab.
 - **Delete**: This status indicates that the campaign has been deleted. Deletion is handled on the back-end.
-- **Suspended**: All active campaigns are blocked under this status. It occurs when the "Remaining" amount is in the red in the [Manage](https://www.waivio.com/rewards/manage) tab, or if debts remain unpaid for 30 days.
+- **Suspended**: All active campaigns are blocked under this status. It occurs when the "Remaining" amount is in the red in the [Manage](https://social.gifts/rewards/manage) tab, or if debts remain unpaid for 30 days.
 
 
 # Primary card details
@@ -136,7 +136,7 @@ The release reservation modal window is used to confirm the cancellation of a re
 
 
 # Earn. Create (Campaign)
-Create campaign is the starting point for using the Rewards feature as a sponsor (guide). It implies the creation of a campaign with certain conditions for writing a review on the proposed objects. 
+Create campaign is the starting point for using the Rewards feature as a sponsor (guide). It implies the creation of a campaign with certain conditions for writing a review on the proposed objects.
 A sponsor can create a campaign by either going to the Create tab in Earn or by clicking the "Create new campaign" button in the Manage tab in Earn.
 To create a campaign using the Rewards (Earn) feature in Earn, you need to provide the following required fields: campaign name, type, reach, display and payment currency, budget, reward amount, maximum reservation period, minimum number of photos, primary and secondary objects, eligibility period, agreement to terms and conditions, and the campaign expiry date. The optional fields include: registered upvoting accounts, compensation account, target review days, receipt requirement, additional review requirements, minimum Waivio expertise, minimum number of followers, minimum number of posts, link to an agreement, legal notice to users, and commission percentage.
 After creating a campaign, the sponsor should activate it by going to the Manage tab, clicking the checkbox, and confirming the activation.
@@ -174,9 +174,9 @@ Basic information about every field in Create form:
 
 
 # Earn. Manage (Campaign)
-The Manage in Earn provides an overview of campaigns and user balance, helping users manage their active and inactive campaigns, as well as view detailed information. This page includes several key sections: 
-- Account Balance table, which displays the user's financial status; 
-- Campaign table, which lists and allows management of ongoing campaigns; 
+The Manage in Earn provides an overview of campaigns and user balance, helping users manage their active and inactive campaigns, as well as view detailed information. This page includes several key sections:
+- Account Balance table, which displays the user's financial status;
+- Campaign table, which lists and allows management of ongoing campaigns;
 - History table, which records past campaigns and details related to those campaigns.
 ![image](https://github.com/Waiviogit/waivio/assets/67378322/77ee9167-8194-4705-bc0e-05fc0592482f)
 
@@ -193,7 +193,7 @@ The Account Balance table provides a summary of the user's financial status with
 ## Active and pending campaigns table in Manage
 The Campaigns Table provides an overview of both active and pending campaigns, allowing users to manage and review their campaigns efficiently.
 - **Title**: "Active and Pending Campaigns" – Indicates the focus of the table.
-- **Active**: A checkbox for activating or deactivating campaigns. Clicking the checkbox triggers a confirmation window to confirm the action. Inactive campaigns are displayed with a pending status. 
+- **Active**: A checkbox for activating or deactivating campaigns. Clicking the checkbox triggers a confirmation window to confirm the action. Inactive campaigns are displayed with a pending status.
 - **Campaign**: Displays the campaign name in orange. Clicking on the name directs you to the campaign edit page. Campaigns with a status of "pending" can be edited.
 - **Status**: Shows the current status of the campaign:
   - Pending
@@ -262,7 +262,7 @@ Filters for User List:
 * Over 20 WAIV: Sponsor's outstanding amount exceeds 20 WAIV.
 ![image](https://github.com/user-attachments/assets/5736d374-596c-44be-8308-802c7fe19713)
 
-## Payable Table details 
+## Payable Table details
 This Payable table is designed to provide a comprehensive view of the history of actions and transfers between a sponsor and a selected user. It serves the purpose of tracking and managing payments, showing detailed information such as transaction dates, review specifics, and amounts. Key features include a button for initiating payments, notifications for overdue reviews, and clickable links for easy access to related reservations and reports. The table also maintains a running total of remuneration, helping sponsors stay organized and ensure timely payments:
 - **Title**: Displays as "Payables: {sponsor} → {user}".
 - **Pay**: The "Pay {sum} HIVE" button opens a modal window for processing a transaction.
@@ -371,7 +371,7 @@ Sorting cards:
 # Earn. Messages
 The tab is intended primarily for communication between the sponsor and the campaign executor (only for reviews campaign type). Secondary cards are displayed only if the message was sent either by the sponsor or the campaign executor. The Messages tab shows the entire history for this sponsor: released, expired, completed, rejected.  The tab displays these details on secondary cards for easy navigation and management.
 ![image](https://user-images.githubusercontent.com/67378322/224933510-3f8553cb-29a4-4f24-b5d5-f38360b14fa4.png)
-Cards can be filtered by status and campaign. 
+Cards can be filtered by status and campaign.
 Filtering by general status ("Case status"):
 * all;
 * open;
@@ -398,10 +398,10 @@ The selection of cards is limited to 30 days.
 Fraud detection Page Overview:
 - **Title**: "Fraud Detection Assistant"
 - **Description**: **Disclaimer**: This is an experimental service with a limited scope, provided "as is" with no guarantee of detecting probable fraud attempts. All submissions must be manually verified and confirmed by the campaign sponsor.
-- **Sorting Options**: 
+- **Sorting Options**:
   - Sort by Reservation
   - Sort by Action (date)
-- **Displayed Items**: Secondary cards with a status of "Completed" are shown. 
+- **Displayed Items**: Secondary cards with a status of "Completed" are shown.
 - **Suspicion Codes**: Codes indicating the reason for suspicion of fraud are displayed under the comment field.
 Please note that the system displays reviews flagged as suspicious based on the photos provided, and the selection of cards is limited to those from the past 30 days.
 
@@ -497,11 +497,11 @@ Whitelist List:
 ## Authors Match Bot Page
 **Title**: Authors Match Bot
 **Switch**: This switch controls the authorization status of the bot. A red switch indicates that the bot is inactive, while a green switch indicates it is active.
-**Description**: 
+**Description**:
   - The Authors match bot automatically upvotes posts published by the specified authors. It does not upvote comments or re-blogs.
   - For each author, please specify the upvoting power in the range from +1% to +100% (maximum upvote). Actual value of the upvote depends on the current upvoting mana on the account at the time of the action.
   - Important: The Authors match bot only publishes upvotes with estimated combined value of 0.01 HBD or more. Votes will be processed as long as the mana (voting power) on the account remains above the threshold as specified for each author.
-**Authorization Block**: 
+**Authorization Block**:
   - The Authors match bot requires authorization to distribute votes on your behalf.
   - The authorization is completed via HiveSigner and can be revoked at any time.
   - **Disclaimer**: The service is provided on an "as-is" and "as-available" basis.
@@ -532,7 +532,7 @@ This modal window appears when you click the "Add author" button, allowing you t
 - **Mana Dropdown**: A dropdown menu to select the token for the minimum voting power. Options include:
     - HIVE
     - WAIV
-    - HIVE OR WAIV 
+    - HIVE OR WAIV
   - The default selection is WAIV.
 - **Mana Slider**: A slider to set the minimum mana value required for the bot to upvote. The default value is 75%.
 - **Mana Note**: A note explaining that votes will only be processed if the voting power (VP) on the account is above the specified threshold, typically checked about 5 minutes after the post is published.
@@ -598,11 +598,11 @@ Here's what you will find in this modal:
 ## Curators Bot Page Information
 - **Title**: Displays as "Curators match bot."
 - **Switch**: A toggle switch for activating or deactivating the bot. It appears red when inactive and green when active.
-- **Description**: 
-  - The Curators match bot automatically repeats the upvotes and downvotes of specified users (curators) on posts and comments. 
+- **Description**:
+  - The Curators match bot automatically repeats the upvotes and downvotes of specified users (curators) on posts and comments.
   - For each curator, please specify the voting ratio - the proportion of your vote to the curator's vote. For example, 100% means that you want the same vote as the curator. Sometimes, if your vote value is less than the curator's, you can amplify your vote. If you specified a 200% vote ratio and the curator voted 10%, your vote would be 20%. Please note that all votes are capped at a maximum of 100%.
   - Important: Important: If the estimated combined value of the vote is less than 0.01 HBD, the Curator match bot will skip this vote. If you also want to repeat curator’s downvotes, please check the corresponding box. Votes will be processed as long as the mana (voting power) on the account remains above the threshold specified for each curator.
-- **Auth Block**: 
+- **Auth Block**:
   - **Authorization Requirement**: "The Curators match bot requires authorization to distribute votes on your behalf: Authorize now. Authorization is completed via HiveSigner and can be revoked at any time."
   - **Disclaimer**: "The Curators match bot service is provided on an as-is / as-available basis."
 - **Link**: A link labeled "Authorize now" for initiating the authorization process.
@@ -718,7 +718,7 @@ And confirmation of the action in the "Confirm rule inactivation" modal window
 - **Switch**: Toggles the match bot on or off. Re-authorization through Hive and confirmation via HiveSigner are required when enabling or disabling the bot.
 - **Active Switch**: The switch turns green when the match bot is active.
 - **Inactive Switch**: The switch turns red when the match bot is inactive or deactivated.
-- **Description**: 
+- **Description**:
   - Sponsors match bot is designed to offset portion of direct rewards with upvotes.
   - For example, the user has posted a review that is eligible to receive a direct reward of 5.00 WAIV. Match bot can upvote that post for a specified value of, say, 10% of the reward (assuming Match bot has enough voting value). This way, the user will receive 0.50 WAIV in author's rewards and the direct payment can be reduced to 4.50 WAIV.
   - Important: Third party campaign sponsors must register the match bot in their campaigns for the value of bot upvotes to be subtracted from the direct obligations.
@@ -833,7 +833,7 @@ e) Specify the threshold for the voting mana - votes will only be cast if the vo
 f) Set the expiration date for this rule. If no date is provided, this rule will remain active until it is manually disabled.
 g) Add some notes.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1632014739_a266a24d-03ad-44e2-b8dd-270ec18ed543
-For more details give a link to https://www.waivio.com/@waiviolabs/waivio-launches-authors-and-curators-match-bots
+For more details give a link to https://social.gifts/@waiviolabs/waivio-launches-authors-and-curators-match-bots
 
 
 # How To Manage Rebates and Payments On Waivio
@@ -879,14 +879,14 @@ Reward Indexing - this service represents the interests of the user, it indexes 
 Referral - this is a marketing partner that promotes rewards to new users and brings them to a front-end operated by an indexing service.
 Important:
 If the sponsor's accounts payable exceed 30 days, all of the sponsor's campaigns will be suspended until the sponsor's obligations are paid.
-For more details give a link to https://www.waivio.com/@grampo/how-to-manage-rebates-and-payments-on-waivio2uofrf-
+For more details give a link to https://social.gifts/@grampo/how-to-manage-rebates-and-payments-on-waivio2uofrf-
 
 
 # How to Launch a Rebate Program for a Restaurant on Waivio
 This step-by-step tutorial explains how to launch a rebate program for a restaurant on the Hive social blockchain using Waivio.
 All currently active rewards campaigns are shown in the REWARDS (EARN) section on Waivio and other sites that support attention bids. This tutorial focuses on launching a rebate program for a restaurant, but the same approach can be used to offer rewards to users for reviews of other types of products and services.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1604967701_290b9ca9-2a7f-486e-940b-b5b500fa5019
-During this tutorial we will be launching a rebate program for the Steveston Seafood House (Richmond, BC) (https://www.waivio.com/object/gei-steveston-seafood-house/menu#aag-menu) and comparing it to the already operational campaign for the El Furniture House (Whistler, BC) (https://www.waivio.com/object/wjv-el-furniture-warehouse/menu#svo-menu).
+During this tutorial we will be launching a rebate program for the Steveston Seafood House (Richmond, BC) (https://social.gifts/object/gei-steveston-seafood-house/menu#aag-menu) and comparing it to the already operational campaign for the El Furniture House (Whistler, BC) (https://social.gifts/object/wjv-el-furniture-warehouse/menu#svo-menu).
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1604971090_c840caec-ea20-44e2-ac80-b75313827c12
 Management of rewards is done in the Rewards / Campaigns section:
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1604971291_fc406f15-f122-460d-8c71-fb1421ab778e
@@ -942,4 +942,4 @@ All the sponsor's followers will receive notifications about the new campaign as
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1605039198_19c23cc0-7a4f-4c99-8160-ea32da54cc44
 Similar campaigns can be launched for all kind of objects and hashtags.
 The Waivio platform is being actively developed and new options are constantly being made available to sponsors and users. Please follow our progress on @waivio.
-For more details give a link to https://www.waivio.com/@grampo/how-to-launch-a-rebate-program-for-a-restaurant-on-waivio6kj5va-
+For more details give a link to https://social.gifts/@grampo/how-to-launch-a-rebate-program-for-a-restaurant-on-waivio6kj5va-

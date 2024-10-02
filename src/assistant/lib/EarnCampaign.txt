@@ -7,12 +7,12 @@ The Earn section on the social site offers a comprehensive platform for users. I
 This page has kind of 2 steps:
 1. feed with primary cards;
 2. feed with secondary cards for the specific primary card (after clicking on "Earn" button).
-By default, after clicking Earn tab in main menu, Global tab is opened. 
+By default, after clicking Earn tab in main menu, Global tab is opened.
 ## Feed with primary cards
 The global feed consists of the primary cards.
 ![image](https://user-images.githubusercontent.com/67378322/222443298-2fa24af8-db26-4907-97a0-a147a51543fa.png)
 ## Feed with secondary cards
-After clicking on "Earn (price) ..." all (available) secondary cards associated with the primary are opened. 
+After clicking on "Earn (price) ..." all (available) secondary cards associated with the primary are opened.
 Breadcrumbs (path) are displayed.
 ![image](https://user-images.githubusercontent.com/67378322/222453587-3524efcd-6a10-4b69-84e5-9f2c3f005cf5.png)
 ## Breadcrumbs
@@ -140,7 +140,7 @@ The reservation card is similar to the secondary card of an object, with the mai
 ## Map
 There are search by area, map with reward's marks of the location of the campaign (which is indicated on the object page - Map).
 ![2021-11-04_16-49](https://user-images.githubusercontent.com/67378322/140335969-da1c7113-f3fa-44d3-9a42-1ab6d5403d88.png)
-## Filters 
+## Filters
 * Rewards for: reviews - review filter;
 * Sponsors - by sponsor.
 ![2021-03-15_16-41](https://user-images.githubusercontent.com/67378322/111171122-506ba380-85ad-11eb-9263-405aac4899f4.png)
@@ -189,7 +189,7 @@ Filters for Sponsors List:
 The History tab in Earn shows not only active reservations but also the user's entire history as a campaign executor. This includes statuses such as released, expired, completed, and rejected. The tab displays secondary cards (Secondary Card).
 ![image](https://user-images.githubusercontent.com/67378322/223232639-56e63e92-ee0e-4276-a74f-58d096a86ffd.png)
 Sorting history cards:
-* Reservation - by the date of reservation;  
+* Reservation - by the date of reservation;
 * Action (date) - by the date of the last action.
 Filtering history cards by status:
 * Reserved;
@@ -211,14 +211,14 @@ Filtering by sponsor - displays the sponsors from which the user has booked camp
 
 ## Campaign Statuses
 Campaign statuses change based on the actions of both the sponsor and the executors, as well as the campaign's data. These statuses are displayed in the "Manage" tab, specifically in the "Active and pending campaigns" table under the "Status" column, and on the secondary card type.
-- **Pending**: This status indicates that the sponsor has created a campaign. The campaign is only visible in the [Manage](https://www.waivio.com/rewards/manage) tab and can still be edited. At this stage, the campaign has not yet been recorded on the blockchain and exists only in the database.
-- **Active**: The campaign becomes active when the sponsor clicks the checkbox next to it in the [Manage](https://www.waivio.com/rewards/manage) tab. Once active, the campaign fields and information cannot be edited. Other users can reserve the campaign, write reviews, or cancel reservations.
-- **Inactive**: This status indicates that the campaign has been deactivated, making it unavailable for reservation. Deactivation occurs by unchecking the active checkbox next to the campaign in the [Manage](https://www.waivio.com/rewards/manage) tab. The campaign remains visible only in the Manage tab, and once deactivated, it cannot be resumed unless there are no active reservations.
+- **Pending**: This status indicates that the sponsor has created a campaign. The campaign is only visible in the [Manage](https://social.gifts/rewards/manage) tab and can still be edited. At this stage, the campaign has not yet been recorded on the blockchain and exists only in the database.
+- **Active**: The campaign becomes active when the sponsor clicks the checkbox next to it in the [Manage](https://social.gifts/rewards/manage) tab. Once active, the campaign fields and information cannot be edited. Other users can reserve the campaign, write reviews, or cancel reservations.
+- **Inactive**: This status indicates that the campaign has been deactivated, making it unavailable for reservation. Deactivation occurs by unchecking the active checkbox next to the campaign in the [Manage](https://social.gifts/rewards/manage) tab. The campaign remains visible only in the Manage tab, and once deactivated, it cannot be resumed unless there are no active reservations.
 - **On Hold**: This status appears during deactivation if there are active reservations. In this state, reactivating the campaign is not possible.
 - **Expired**: The status changes to expired when the maximum reservation period specified during campaign creation has ended.
-- **Reached Limit**: This status is triggered when the campaign's monthly budget has been exhausted. Users can no longer reserve the campaign, and it is only visible in the [Manage](https://www.waivio.com/rewards/manage) tab.
+- **Reached Limit**: This status is triggered when the campaign's monthly budget has been exhausted. Users can no longer reserve the campaign, and it is only visible in the [Manage](https://social.gifts/rewards/manage) tab.
 - **Delete**: This status indicates that the campaign has been deleted. Deletion is handled on the back-end.
-- **Suspended**: All active campaigns are blocked under this status. It occurs when the "Remaining" amount is in the red in the [Manage](https://www.waivio.com/rewards/manage) tab, or if debts remain unpaid for 30 days.
+- **Suspended**: All active campaigns are blocked under this status. It occurs when the "Remaining" amount is in the red in the [Manage](https://social.gifts/rewards/manage) tab, or if debts remain unpaid for 30 days.
 
 
 # Primary card details
@@ -356,7 +356,7 @@ All users who follow an object or have expertise in the object (earned by refere
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1588127637_952ae774-f3f6-4e59-8de6-02b994a15896
 Object status notifications
 In this example @diningguide has created a "Test restaurant" object. And when @wiaviolabs changed the status of this restaurant listing to " Unavailable", @diningguide received a notification with the option to Reject this action.
-For more details give a link to https://www.waivio.com/@waiviolabs/waivio-updates-april-29-2020
+For more details give a link to https://social.gifts/@waiviolabs/waivio-updates-april-29-2020
 
 
 # Waivio update: May 25, 2020
@@ -378,7 +378,7 @@ In the current example, all services are operated by Waivio (waivio posting serv
 Post beneficiaries
 Users can now specify multiple beneficiaries for author rewards in their posts (advanced settings in the post preview):
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1590447084_9434eaa7-826b-41bd-82cf-558a9eaf5dc4
-For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-may-25-2020
+For more details give a link to https://social.gifts/@waiviolabs/waivio-update-may-25-2020
 
 
 # How To Manage Rebates and Payments On Waivio
@@ -424,7 +424,7 @@ Reward Indexing - this service represents the interests of the user, it indexes 
 Referral - this is a marketing partner that promotes rewards to new users and brings them to a front-end operated by an indexing service.
 Important:
 If the sponsor's accounts payable exceed 30 days, all of the sponsor's campaigns will be suspended until the sponsor's obligations are paid.
-For more details give a link to https://www.waivio.com/@grampo/how-to-manage-rebates-and-payments-on-waivio2uofrf-
+For more details give a link to https://social.gifts/@grampo/how-to-manage-rebates-and-payments-on-waivio2uofrf-
 
 
 # Hive 5: My Favorite Coffee Mug
@@ -451,4 +451,4 @@ This is My Favorite Coffee Mug, a souvenir from the Yellowstone National Park. A
 This is a mug, not an espresso shot. It was designed to keep you warm and cozy while contemplating about the profound meaning of the artwork and the beauty of life...
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1595913893_5c842087-6e49-4997-9d54-d7dfce55c6ee
 Good morning and Hive 5!
-For more details give a link to https://www.waivio.com/@grampo/hive-5-my-favorite-coffee-mug
+For more details give a link to https://social.gifts/@grampo/hive-5-my-favorite-coffee-mug

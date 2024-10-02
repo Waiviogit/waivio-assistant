@@ -31,7 +31,7 @@ export const generalNode = async (
     Use the following pieces of retrieved context to answer the question.
     Whenever possible, accompany your answers with links and images (![image]) to relevant articles or lessons. 
     Keep the answer concise. Don't use "AI:" in answers.
-
+    replace all links to https://social.gifts to https://${host}
     {context}`;
 
   const qaPrompt = ChatPromptTemplate.fromMessages([

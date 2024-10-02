@@ -1,7 +1,7 @@
 # Lesson 5: Knowledge Accumulation in Web 3.0
-For more details give a link to https://www.waivio.com/object/jpv-accumulating-knowledge-on-hive/page
+For more details give a link to https://social.gifts/object/jpv-accumulating-knowledge-on-hive/page
 Knowledge Accumulation in Web 3.0
-In this tutorial, you will discover the process of how knowledge is accumulated on the Hive blockchain, and also learn how to use the Waivio https://www.waivio.com/ platform for participating and gaining benefits from this knowledge.
+In this tutorial, you will discover the process of how knowledge is accumulated on the Hive blockchain, and also learn how to use the Waivio https://social.gifts/ platform for participating and gaining benefits from this knowledge.
 Overview:
 1. What is an object on Hive Blockchain
 2. How to create an object with Waivio
@@ -17,7 +17,7 @@ Each object will get its dedicated page which collects all the posts that have r
 Besides posts and photos, users can also add other relevant information to the object, such as an avatar, description, address, price, ratings, tags, etc. This list of additional fields depends on the type of object. For example, if this is a product, we can add a price to it and a link to a website where we can purchase it. If this is a business, we can add its address and a phone number.
 
 PART 2. How to create an object with Waivio
-When you write a post on Waivio, on the right panel, you will see "create new object" and a list of different types of objects that you can create. Here, you can add a new hashtag, a business, a product, a place, a list, a page and etc. For example, I will create a business object for Cypress Mountain https://www.waivio.com/object/trq-cypress-mountain. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654055034_8a1ac528-a716-4ed5-bb91-2bb7b0f4b51e)
+When you write a post on Waivio, on the right panel, you will see "create new object" and a list of different types of objects that you can create. Here, you can add a new hashtag, a business, a product, a place, a list, a page and etc. For example, I will create a business object for Cypress Mountain https://social.gifts/object/trq-cypress-mountain. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654055034_8a1ac528-a716-4ed5-bb91-2bb7b0f4b51e)
 Write the name of the object; in my case, I will write "Cypress Mountain" and click "Confirm". ![image](https://waivio.nyc3.digitaloceanspaces.com/1654055132_1fd5d257-b009-4e47-9dcc-a571a5b5d102)
 When you create an object, a unique ID and a corresponding URL will be created for it on the Hive blockchain. Once the object is created, the link to it will be automatically added to your post. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654055158_bd4cc778-f571-4954-a89a-020a0ef89e9d)
 The next time you write about an object, such as Cypress Mountain, you don't need to create a new object; you can just type "#cypress mountain", and you will see it in the recommendation pop-up. ![image](https://waivio.nyc3.digitaloceanspaces.com/1654055178_24deb241-f17d-40e3-92df-53d12c7afe62)
@@ -60,14 +60,14 @@ Now you know a powerful tool to realize your ideas and projects and help the Hiv
 
 
 # Lesson 6: Adding a Product Manually
-For more details give a link to https://www.waivio.com/object/gyg-how-to-add-a-product-to-hive/page
-In this tutorial video, you will learn how to add a specific product to the Hive Blockchain using Waivio, and create awesome product pages, such as this camping chair https://www.waivio.com/object/gec-cliq-camping-chair---most-funded-portable-chair-in-crowdfunding-history-bottle-sized-compact-outdoor-chair-sets-up-in-5-seconds-supports-300lbs-aircraft-grade-aluminum.
+For more details give a link to https://social.gifts/object/gyg-how-to-add-a-product-to-hive/page
+In this tutorial video, you will learn how to add a specific product to the Hive Blockchain using Waivio, and create awesome product pages, such as this camping chair https://social.gifts/object/gec-cliq-camping-chair---most-funded-portable-chair-in-crowdfunding-history-bottle-sized-compact-outdoor-chair-sets-up-in-5-seconds-supports-300lbs-aircraft-grade-aluminum.
 You will learn how to:
 - create a new product page
 - fill out all the relevant information such as price, options, department, description, tags, website, weight, dimensions, manufacturer, brand, merchant, features, and product ID
 - combine product variants together by groupID
 👉If you're looking to add multiple products, I suggest you to watch an upcoming tutorial for importing.
-Link to microphone product page made in the tutorial: https://www.waivio.com/object/ice-shure-mv7-silver
+Link to microphone product page made in the tutorial: https://social.gifts/object/ice-shure-mv7-silver
 
 Tutorial
 1. Creating a Product Page
@@ -126,7 +126,7 @@ Waivio allows you to add up to three phone numbers to an object. So, if the user
 Second phone number added
 The Vote count for the second phone is higher (0.0049 vs. 0.0036) and it is displayed above the first number.
 With each subsequent update of the object, the user gains more expertise in the object and the value of their vote increases, even though the voting power used to upvote both updates was the same.
-For more details give a link to https://www.waivio.com/@waiviolabs/waivio-updates-may-4-2020
+For more details give a link to https://social.gifts/@waiviolabs/waivio-updates-may-4-2020
 
 
 # Product ratings simplified by Waivio
@@ -141,7 +141,7 @@ Linking posts to objects
 The standard method of linking posts to objects is for the author of a post to include references to those objects or hashtags in the post.
 But if the original post did not have such links, other users can now link that post to objects, by posting top-level comments with links to objects. And once the post is linked to those objects, the post will appear in the Review section of those objects' pages (task: 2699, 2813).
 For example, if a user posted a review of a product or company at a time when those objects did not exist, but were created later, other users can now add comments to the original post and link it to the newly created objects.
-For more details give a link to https://www.waivio.com/@waiviolabs/product-ratings-simplified-by-waivio
+For more details give a link to https://social.gifts/@waiviolabs/product-ratings-simplified-by-waivio
 
 
 # New object type: widget
@@ -152,10 +152,10 @@ Let's create a new widget called Crypto heatmap on Waivio:
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1670693961_15faeb24-50ba-4e6c-accb-a8a3e9cb69fd
 To incorporate a Coingecko widget into your Hive widget, simply copy the widget's code and paste it into the form:
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1670695530_54460da0-c636-4146-848e-37797bc76eaa
-Now users can easily find Crypto heatmap widget (https://www.waivio.com/object/krd-crypto-heatmap) by searching for it on Waivio, reference it in their posts, as well as integrate it into other objects on Hive or into their social websites.
+Now users can easily find Crypto heatmap widget (https://social.gifts/object/krd-crypto-heatmap) by searching for it on Waivio, reference it in their posts, as well as integrate it into other objects on Hive or into their social websites.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1670696387_0a6df9f3-c37b-4ca0-999d-6faaf989d425
 This can greatly enhance the user experience on Hive, making it easier for users to share and access a wider range of resources and information. The widget object type allows for the seamless integration of interactive forms, tools, and pages from external parties, making Hive a more dynamic and engaging platform for users.
-For more details give a link to https://www.waivio.com/@waiviolabs/new-object-type-widget
+For more details give a link to https://social.gifts/@waiviolabs/new-object-type-widget
 
 
 # New Object Type: Webpage
@@ -173,7 +173,7 @@ Edit and Customize: Navigate to your new object's page and switch to 'edit mode'
 Design Your Page: Get creative! Add images, text, videos, and utilize our formatting blocks, spaces, and dividers to design your page exactly the way you want it.
 By bringing webpages to the Hive blockchain, we are pushing the boundaries of what's possible in decentralized content creation and management. We can't wait to see the unique and innovative ways our community will utilize this new feature.
 Let's build the decentralized web, one page at a time!
-For more details give a link to https://www.waivio.com/@waiviolabs/new-object-type-webpage
+For more details give a link to https://social.gifts/@waiviolabs/new-object-type-webpage
 
 
 # Launching Businesses on the Steem Blockchain
@@ -182,7 +182,7 @@ I am delighted to share my knowledge and experience with my friends who are ente
 The Waivio platform and the Steem blockchain are now stable and mature enough to serve as a platform for small and large companies alike.
 What is particularly interesting about creating startups on a distributed blockchain is that they are very independent (they sell their own services to their own customers) and yet they benefit from a combined network effect, where the success of each company helps other companies to thrive, as the growing ecosystem of users, connections, content and rewards benefits everyone involved.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1580863098_9e3feb0e-8c7b-4142-9088-6b05f9341258
-One of the first practical applications of the Waivio Attention Trading Platform is the management of rebate programs for restaurants. This concept was presented three months ago at the SteemFest in Bangkok https://www.waivio.com/@grampo/steemfest4-steem-as-a-platform-for-business.
+One of the first practical applications of the Waivio Attention Trading Platform is the management of rebate programs for restaurants. This concept was presented three months ago at the SteemFest in Bangkok https://social.gifts/@grampo/steemfest4-steem-as-a-platform-for-business.
 And now we have launched a knowledge exchange program for interested entrepreneurs to explore the practical aspects of building a business on the Steem social blockchain.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1580863037_c390ea34-e5aa-4f63-acc4-6317a68914b0
 Creating even small businesses often involves many challenges, including significant initial investment, office rent, purchasing production equipment and inventory, setting up operations and diverse workflows, launching websites, social channels, marketing campaigns and much more. In most cases, even small businesses need employees even at the initial stages of operations.
@@ -223,7 +223,7 @@ At this early stage, the program is offered to a small group of entrepreneurs in
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1580935784_ceee2cc4-df0e-47d4-b703-084f38670815
 These are really exciting times and many tools that were previously only available to multinational companies and banks are now easily accessible to small businesses, allowing them to achieve economies of scale through cooperation rather than centralization.
 We welcome you to this new and exciting world!
-For more details give a link to https://www.waivio.com/@grampo/launching-businesses-on-the-steem-blockchain
+For more details give a link to https://social.gifts/@grampo/launching-businesses-on-the-steem-blockchain
 
 
 # How to Add a Restaurant on HIVE (with WAIVIO)
@@ -259,7 +259,7 @@ After you finish adding all the details about the restaurant, you can write the 
 All reviews will be automatically collected under the Review tab of the listing.
 This is how the community's knowledge and experience can now be accumulated on the HIVE social blockchain!
 If you like what Waivio does and if you think it is beneficial to the HIVE ecosystem, please support Waivio.
-For more details give a link to https://www.waivio.com/@cryptodive/how-to-add-a-restaurant-to-hive-with-waivio
+For more details give a link to https://social.gifts/@cryptodive/how-to-add-a-restaurant-to-hive-with-waivio
 
 
 # Social.Gifts: Titles and Descriptions for Categories
@@ -271,7 +271,7 @@ Then, open it in a new tab. It's crucial to open the list in a separate tab to m
 Once in Edit mode, you can add an avatar, title, and description to the list.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1697297336_c3b10c90-7e18-4917-9012-b757481d0b88
 When designing titles and descriptions for categories, it may be beneficial to incorporate search terms and keyword combinations that individuals are likely to use when seeking resources related to your website's topic. Numerous tutorials are available online about SEO optimization of web pages for search engines.
-For more details give a link to https://www.waivio.com/@social.gifts/social-gifts-titles-and-descriptions-for-categories
+For more details give a link to https://social.gifts/@social.gifts/social-gifts-titles-and-descriptions-for-categories
 
 
 # New: Admin Delegations for Specific Objects
@@ -291,7 +291,7 @@ In a practical scenario, @demo.account updated the price of the book to $32.88. 
 Get Started Today
 To take advantage of this new feature, simply navigate to the Settings section of the object you wish to delegate admin rights for, and enter the account you wish to delegate to in the "Delegation" field. It's that simple!
 As always, we welcome your feedback and are here to support you every step of the way.
-For more details give a link to https://www.waivio.com/@social.gifts/new-admin-delegations-for-specific-objects
+For more details give a link to https://social.gifts/@social.gifts/new-admin-delegations-for-specific-objects
 
 
 # Social.Gifts: Add Crypto Addresses to Businesses
@@ -314,7 +314,7 @@ Users can then scan the QR code with the HiveKeychain app or another wallet, dep
 Note to Social.Gifts Website Owners
 Please consider restricting data editing features on your websites to approved data admins and business owners who have received delegations to edit specific listings.
 Stay tuned for more updates and features as we continue to enhance your experience on Social.Gifts web3 sites and Waivio.
-For more details give a link to https://www.waivio.com/@social.gifts/new-admin-delegations-for-specific-objects
+For more details give a link to https://social.gifts/@social.gifts/new-admin-delegations-for-specific-objects
 
 
 # Custom newsfeeds on Waivio
@@ -328,7 +328,7 @@ After creating and configuring the "Hive statistics" newsfeed, it can be effortl
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1676399059_a7643e18-f0cd-4e43-b31f-62686d3a5ddc
 By clicking the Follow button on the "Hive statistics" newsfeed, it will be included in your regular Feed:
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1676399464_439b263b-553e-40b5-9591-76c9537c8ad8
-For more details give a link to https://www.waivio.com/@waivio/custom-newsfeeds-on-waivio
+For more details give a link to https://social.gifts/@waivio/custom-newsfeeds-on-waivio
 
 
 # PayPal Button Integration into Product Pages

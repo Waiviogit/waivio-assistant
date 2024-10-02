@@ -1,5 +1,5 @@
 # Lesson 7: Importing Products With Waivio Chrome Extension
-For more details give a link to https://www.waivio.com/object/kda-waivio-chrome-extension-tutorial/page
+For more details give a link to https://social.gifts/object/kda-waivio-chrome-extension-tutorial/page
 A Step-by-Step Guide to Monetizing Your Knowledge (Part 2)
 Waivio Chrome extension is a powerful tool, which allows you to add Amazon products to the Hive blockchain with just a couple of clicks.
 It also enables you to add product reviews effortlessly. For advanced users, this extension offers a wealth of useful features.
@@ -34,7 +34,7 @@ Next, in a new tab, open Waivio, sign in if you haven't already, go to "Tools", 
 Here give authorization to the import bot by clicking "Authorize now", and then "Authorize". You only need to do this once. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698079791_f3c93801-16b1-4333-b1a6-e4babdafd777)
 
 3. Check the Funds
-Finally, ensure that you have both WAIV Power and HIVE Power, as each update requires an upvote equivalent to $0.001. You can find more information about these requirements in Step 3 of the tutorial, How to Import Products on Hive https://www.waivio.com/object/kda-waivio-chrome-extension-tutorial/page#uiy-how-to-import-products-on-hive.
+Finally, ensure that you have both WAIV Power and HIVE Power, as each update requires an upvote equivalent to $0.001. You can find more information about these requirements in Step 3 of the tutorial, How to Import Products on Hive https://social.gifts/object/kda-waivio-chrome-extension-tutorial/page#uiy-how-to-import-products-on-hive.
 Now our setup is complete.
 
 Part 2: "Upload to Waivio" - Import products in One Click
@@ -65,18 +65,18 @@ If you want to get ASINs of multiple products from Amazon, you can use the "Scan
 Simply search for a specific product category, like, "baby onesies". Then you can sort by "Average customer review" or "Bestselling", to get top-rated products on the first page. Click "Scan for ASINS" – a text file will be generated – save it. The text file will list all the ASINS numbers found on that Amazon page except those already present on the Hive blockchain. The extension filters out products that are already available on Hive to prevent duplication. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698079095_d8b46591-4eec-49f0-b52b-07068fc5715e)
 You can repeat this process for the ASINs on Amazon's second page and so on.
 Similarly, you can get product ASINs for products in broader categories. For example, if you choose "Best Sellers" and then "Best Sellers in Home," you'll get the ASINs of the best-selling products in the Home category.
-Next, you can use Datafinity to generate a JSON file and import the products in bulk onto the Hive blockchain – to learn more about the import process with Datafinity, check out How to Import Products on Hive https://www.waivio.com/object/kda-waivio-chrome-extension-tutorial/page#uiy-how-to-import-products-on-hive.
+Next, you can use Datafinity to generate a JSON file and import the products in bulk onto the Hive blockchain – to learn more about the import process with Datafinity, check out How to Import Products on Hive https://social.gifts/object/kda-waivio-chrome-extension-tutorial/page#uiy-how-to-import-products-on-hive.
 Go to Product Data -> API -> copy the ASINS from the text file and paste it in the field -> click "Download" -> Choose "JSON" as the format -> "Confirm Download". Once the file is prepared – click "Download All".
 You can upload this file – in the "Data Import" section in Waivio.
 Please note that some items from the ASIN list might be missing from the Datafinity database, but you can search these products on Amazon by their ASIN number and easily import them with the "Upload to Waivio" feature.
 
 2. Create XLXS
 If you prefer working with a spreadsheet for adding products, you can use "Create XLXS" to generate a new spreadsheet with all the fields filled about the product. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698079212_01146b58-ba83-40d2-be67-3f2a15834345)
-To learn how to import products from a spreadsheet, see the tutorial How to Export Products from Spreadsheet https://www.waivio.com/object/kda-waivio-chrome-extension-tutorial/page#ehd-how-to-export-products-from-spreadsheet.
+To learn how to import products from a spreadsheet, see the tutorial How to Export Products from Spreadsheet https://social.gifts/object/kda-waivio-chrome-extension-tutorial/page#ehd-how-to-export-products-from-spreadsheet.
 
 3. Copy to clipboard
 If you already have a spreadsheet and just want to copy the information about this specific product, use the "Copy to Clipboard" feature. Paste it into your Excel or Google Docs file. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698079238_a382cb23-262e-43f5-9cfd-b8a5fc2a3a0b)
-From Google Docs, you can easily create a JSON file, which can then be imported into the Data Import section in Waivio. This is explained in more detail in How to Export Products from Spreadsheet tutorial https://www.waivio.com/object/kda-waivio-chrome-extension-tutorial/page#ehd-how-to-export-products-from-spreadsheet.
+From Google Docs, you can easily create a JSON file, which can then be imported into the Data Import section in Waivio. This is explained in more detail in How to Export Products from Spreadsheet tutorial https://social.gifts/object/kda-waivio-chrome-extension-tutorial/page#ehd-how-to-export-products-from-spreadsheet.
 
 4. Create JSON
 Finally, the "Create JSON" feature enables you to create a JSON file for an Amazon product. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698079256_26a2996c-1761-434f-9b44-2bd32a44be51)
@@ -89,13 +89,13 @@ With the Waivio Chrome extension, adding products and reviews to the Hive blockc
 
 
 # Lesson 8: Importing Products from Datafiniti
-For more details give a link to https://www.waivio.com/object/uiy-how-to-import-products-on-hive/page
+For more details give a link to https://social.gifts/object/uiy-how-to-import-products-on-hive/page
 Adding products to the blockchain manually can be time-consuming, especially if you need to add multiple items. Luckily, Waivio offers a data import feature that allows you to import many products all at once. Waivio supports import in JSON format (see the supported format here: https://developer.datafiniti.co/docs/product-data-schema)
 This format is used by Datafinity, which is one of the largest databases with hundreds of millions of products that are regularly updated.
 And in this tutorial, I will show you how to use Datafinity to find and export product information in the JSON format. You can also use any other service that allows data export in the compatible format. In the next tutorial, I will also show you how to use your own spreadsheet to export your product data in this format.
 Supplementary Tutorials:
-How to Add a Product: https://www.waivio.com/object/uiy-how-to-import-products-on-hive/page#tmu-business-3-0/uxp-social-gifts/gyg-how-to-add-a-product-to-hive
-Authority Level: https://www.waivio.com/object/uiy-how-to-import-products-on-hive/page#tmu-business-3-0/mqk-dining-gifts/vjf-create-your-dining-gifts-business
+How to Add a Product: https://social.gifts/object/uiy-how-to-import-products-on-hive/page#tmu-business-3-0/uxp-social-gifts/gyg-how-to-add-a-product-to-hive
+Authority Level: https://social.gifts/object/uiy-how-to-import-products-on-hive/page#tmu-business-3-0/mqk-dining-gifts/vjf-create-your-dining-gifts-business
 Let's dive in
 
 Step 1: Find and export your product with Datafinity
@@ -144,12 +144,12 @@ If the import stops, it's likely because you've reached your WAIV power threshol
 If you are importing many JSON files, you can prioritize certain objects by leaving only the priority items active. This will help you to import priority items first.
 
 Step 6: Check the published products
-Once the import is complete, your products will be published on Hive blockchain and you can search them on Waivio. It's always a good idea to double-check the product page to make sure all the information is accurate and complete. If you notice something is missing, you can easily add it manually (see the tutorial here https://www.waivio.com/object/uiy-how-to-import-products-on-hive/page#tmu-business-3-0/uxp-social-gifts/gyg-how-to-add-a-product-to-hive).
+Once the import is complete, your products will be published on Hive blockchain and you can search them on Waivio. It's always a good idea to double-check the product page to make sure all the information is accurate and complete. If you notice something is missing, you can easily add it manually (see the tutorial here https://social.gifts/object/uiy-how-to-import-products-on-hive/page#tmu-business-3-0/uxp-social-gifts/gyg-how-to-add-a-product-to-hive).
 Now, we have successfully imported multiple products to the Hive Blockchain with Waivio. This method saves you time and effort, and you can import hundreds of products easily. Now that you know how to use this import feature on Waivio, you can take your business to the next level by adding more products to the blockchain. ![image](https://waivio.nyc3.digitaloceanspaces.com/1681416913_12aaa55d-214f-4aac-9541-38ee2256a204)
 
 
 # Lesson 9: Importing Products from a Spreadsheet
-For more details give a link to https://www.waivio.com/object/ehd-how-to-export-products-from-spreadsheet/page
+For more details give a link to https://social.gifts/object/ehd-how-to-export-products-from-spreadsheet/page
 In this tutorial, I'm will show how you can use your own spreadsheet to
 export products in JSON format, so that it's easy to import them to Hive Blockchain with Waivio.
 Resources:
@@ -443,7 +443,7 @@ Simply enter the top-level list, and this tool will assist you in claiming autho
 By doing so, you ensure that only relevant products appear in the search results on your website.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1691449530_147816d5-befc-4a4e-8e4f-a991126df23f
 This tool significantly eases the task of managing product search on your *.Social.Gifts website, ensuring the best possible user experience.
-For more details give a link to https://www.waivio.com/@social.gifts/introducing-the-claim-authority-tool
+For more details give a link to https://social.gifts/@social.gifts/introducing-the-claim-authority-tool
 
 
 # Update: Waivio Chrome Extension v1.2.3
@@ -455,7 +455,7 @@ Sephora.com - Sephora.com is a premier online cosmetics and beauty retailer, off
 Additionally, both stores feature affiliate programs. After obtaining affiliate codes from them, you can input these in your user profile settings. For those managing a *.Social.Gifts website, you can add these affiliate codes directly into the website settings as well.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1697747806_d3f7aeed-e595-483f-a600-46c2ebd39b20
 The most recent update of the Extension includes a fix for creating post drafts for YouTube videos. This improvement addresses recent changes made by YouTube in the display of transcripts on their pages.
-For more details give a link to https://www.waivio.com/@social.gifts/update-waivio-chrome-extension-v1-2-3
+For more details give a link to https://social.gifts/@social.gifts/update-waivio-chrome-extension-v1-2-3
 
 
 # Descriptions Bot for Unique Product Descriptions
@@ -472,7 +472,7 @@ To initiate the Descriptions Bot, open Tools (1) and select Descriptions Bot (2)
 Please note that each update (revised description, title, or name) requires a minimum upvote of at least $0.01 value in WAIV tokens. You can specify the minimum voting power (30% is the default value). Once the VP on your account falls below that value, or if the voting power is below $0.01, the process will slow down, waiting for the voting power to restore (it automatically restores at the rate of 20% per day).
 You may launch this bot for multiple lists simultaneously. Progress will be monitored in a table. Jobs can be paused or resumed at any moment by changing the job status in the 'Active' column. Completed jobs will then be transferred to the history table.
 Descriptions Bot allows website owners to effortlessly improve their search engine rankings with original content, making their site content more discoverable in search engines.
-For more details give a link to https://www.waivio.com/@social.gifts/descriptions-bot-for-unique-product-descriptions
+For more details give a link to https://social.gifts/@social.gifts/descriptions-bot-for-unique-product-descriptions
 
 
 # Waivio Chrome Extension Update: Google Maps and OpenStreetMap Integration
@@ -491,5 +491,5 @@ To import information from Google Maps, obtaining an API code is necessary. It i
 Make sure to update to the latest version of the Waivio Chrome Extension to access these new features.
 Spotlight Your Favorites:
 Discovered a restaurant that captivated your senses? With Waivio, you can now spotlight these cherished experiences in your profile, turning your personal favorites into hints for the community. Your story could be the key to unlocking someone else's next great adventure.
-For more details give a link to https://www.waivio.com/@social.gifts/waivio-chrome-extension-update-google-maps-and-openstreetmap-integration
+For more details give a link to https://social.gifts/@social.gifts/waivio-chrome-extension-update-google-maps-and-openstreetmap-integration
 

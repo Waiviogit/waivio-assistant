@@ -762,7 +762,7 @@ Each object card in the list includes the following details:
 
 
 # Lesson 10: Introduction to Social Shopping on Web 3
- For more details give a link to https://www.waivio.com/object/tso-social-shopping-on-hive/page
+ For more details give a link to https://social.gifts/object/tso-social-shopping-on-hive/page
  Have you ever browsed through endless reviews, seeking the perfect combination of products?
  Whether it's the right fashion statement, the ideal makeup routine, or the essentials for a hiking journey, we've all dedicated hours in pursuit of that ideal combination. When you've finally found and validated these choices, how do you share your expertise with friends and the wider world?
  Whether it's mastering kitchen organization, decorating a room, nurturing a lush garden, or discovering wellness hacks, we all have valuable insights to share. ![image](https://waivio.nyc3.digitaloceanspaces.com/1692043322_5615c78f-dfd6-41c3-b5b4-f363dbfd9bdc)
@@ -803,7 +803,7 @@ Each object card in the list includes the following details:
 
 
 # Lesson 12: Launching a Social Shopping Website
-For more details give a link to https://www.waivio.com/object/mev-launching-your-social-shopping-website/page
+For more details give a link to https://social.gifts/object/mev-launching-your-social-shopping-website/page
 Are you ready to take your online presence to the next level?
 Now you can transform your user profile on Waivio into a dedicated website. This transition allows you to feature your affiliate shop as the main store on your website, while your personal blog will take center stage as the key newsfeed.
 
@@ -842,7 +842,7 @@ Let's add a banner to be displayed at the top of all website pages. Here I am us
 In the "Base Object" section, you can choose to link your website to a specific user profile or even a public object on the Hive blockchain.
 By default, it's linked to your own profile, and as a result, the information from your profile is transformed into a dedicated website, including your shop and your blog. ![image](https://waivio.nyc3.digitaloceanspaces.com/1699906064_e9b1722b-df70-42a3-89f6-a5f4f8993a66)
 If you are looking to launch a themed website, you can easily create an advanced shop with just a click of a button by leveraging existing projects with thousands of products carefully organized in categories. And once you add affiliate codes, all of these thousands of products will include your codes in the purchase links.
-For example, let’s use an existing business object called the Camping Checklist https://www.waivio.com/object/7ujfq-shop“
+For example, let’s use an existing business object called the Camping Checklist https://social.gifts/object/7ujfq-shop“
 ” (lbm-camping-checklist) which has hundreds of categories and thousands of camping-related products listed. By simply setting it as the base object for my site, my entire website will instantly become one of the most comprehensive camping sites out there. ![image](https://waivio.nyc3.digitaloceanspaces.com/1699906039_bbe08d3c-0f17-4382-931c-e945e798eaaf)
 Another example is the “
 Coffee Time
@@ -850,7 +850,7 @@ Coffee Time
 One more example is the “
 Clean Girl Aesthetics
 ” object (tlc-clean-girl-aesthetics), which features thousands of make-up and beauty products that align with clean girl aesthetics.
-As the list of objects continues to expand with more people creating websites, please see the descriptions to explore other existing projects: https://www.waivio.com/object/ewg-social-gifts-projects/webpage
+As the list of objects continues to expand with more people creating websites, please see the descriptions to explore other existing projects: https://social.gifts/object/ewg-social-gifts-projects/webpage
 If your desired topic for your affiliate website isn't covered here, you can create your own business object, this will be explained in the Advanced Shop Tutorial.
 2.5 Default Hashtags
 A default hashtag will be automatically added to all new posts created by users on your website. ![image](https://waivio.nyc3.digitaloceanspaces.com/1699906202_b46aae44-1466-4231-abe8-468fff260497)
@@ -894,7 +894,7 @@ While we've covered a lot in this tutorial, there are more advanced settings to 
 
 
 # Lesson 13: Building a New Advanced Social Shop
-For more details give a link to https://www.waivio.com/object/bcl-advanced-social-shopping-website/page
+For more details give a link to https://social.gifts/object/bcl-advanced-social-shopping-website/page
 With your website up and running, it's time to take things up a notch by incorporating advanced features that will truly make your shop stand out.
 In this tutorial you will learn how to add advanced features like category organization and custom feeds to your social shopping site. By the end, your site will be neatly arranged with categories, newsfeeds, pages, contact forms, widgets, and more to improve the user experience.
 Summary:
@@ -915,7 +915,7 @@ Step 9. Sorting
 What's next?
 Links & Resources:
 Widget for YouTube gallery: https://elfsight.com/youtube-channel-plugin-yottie/
-Select Social.Gifts projects: https://www.waivio.com/object/ewg-social-gifts-projects/webpage
+Select Social.Gifts projects: https://social.gifts/object/ewg-social-gifts-projects/webpage
 
 Step 1: Discovering Your Shop's Theme
 The foundation of a successful shop lies in its theme. It's time to brainstorm and identify what resonates with you and your potential customers. Whether it's camping products, baby products, fitness gear, makeup, or any other niche, pick a theme that aligns with your interests and expertise.
@@ -988,7 +988,7 @@ You can also filter out certain posts. For example, I don't want to see posts th
 Another way to personalize your news feed is by choosing the type of object (e.g., a book, a product, a place, etc.) And only the posts related to that category will be displayed on your newsfeed. For example, to show all the posts on baby and parenting products, I can add "product" in this field.
 To show baby and parenting posts only from specific users, I can add these users in the “users field”.
 If you want to show all the posts of a specific user, like your dedicated channel, then remove all the other filters and just add that user.
-Now to link the newsfeed to our business object – let’s open our business object. Click on Menu item. Enter a name for the newsfeed as it would appear on your website's menu. In the search bar, look for your newsfeed by a name or a permlink. There might be a lot of objects with the same name, so I recommend searching by the premlink, as it is a unique identifier of the object. It’s located on the object’s link after object/ e.g. this is the object's link https://www.waivio.com/object/5xjmmi-community and the premlink is 5xjmmi-community
+Now to link the newsfeed to our business object – let’s open our business object. Click on Menu item. Enter a name for the newsfeed as it would appear on your website's menu. In the search bar, look for your newsfeed by a name or a permlink. There might be a lot of objects with the same name, so I recommend searching by the premlink, as it is a unique identifier of the object. It’s located on the object’s link after object/ e.g. this is the object's link https://social.gifts/object/5xjmmi-community and the premlink is 5xjmmi-community
 Click "Submit" once the object is found.
 
 Step 8: Adding widgets
@@ -1017,15 +1017,15 @@ Now it's time to think about how to market your website to bring it to a larger 
 
 
 # Custom domain - Connecting GoDaddy Domain to Waivio to Create a Site. (Applicable only for custom domain site)
-For more details give a link to https://www.waivio.com/object/qym-custom-domain/page.
+For more details give a link to https://social.gifts/object/qym-custom-domain/page.
 Discover how to integrate a domain from platforms like GoDaddy with Waivio, enabling you to craft a website using Waivio templates. This guide delves into Cloudflare setup, DNS record configuration, and nameserver integration. Suitable for domains from multiple platforms.
 This guide explains how to connect a domain, initially created on platforms like GoDaddy, to Waivio. This allows you to construct a website using a Waivio template while still maintaining a custom domain.
 The instructions are divided into three key sections: setting up the domain in Cloudflare, configuring the DNS record, and integrating Cloudflare's nameservers on GoDaddy.
 Although GoDaddy is highlighted as an example for domain acquisition, the methods can apply to any similar platform.
 Additional settings for custom domain:
-  - Ensuring Secure Connections: Manual HTTPS Configuration for custom domain on Cloudflare (https://www.waivio.com/object/qym-custom-domain/page#pvs-ensuring-secure-connections-manual-https-configuration-for-custom-domain-on-cloudflare)
-  - Ensuring Smooth Redirects: Manual www to Apex Domain Setup on Cloudflare (https://www.waivio.com/object/qym-custom-domain/page#ckq-ensuring-smooth-redirects-manual-www-to-apex-domain-setup-on-cloudflare)
-  - Search Engine Web Content Discovery: A Guide to Enabling Crawler Hints with Cloudflare's IndexNow Integration (https://www.waivio.com/object/qym-custom-domain/page#yfw-web-content-discovery-a-guide-to-enabling-crawler-hints-with-cloudflare-s-indexnow-integration)
+  - Ensuring Secure Connections: Manual HTTPS Configuration for custom domain on Cloudflare (https://social.gifts/object/qym-custom-domain/page#pvs-ensuring-secure-connections-manual-https-configuration-for-custom-domain-on-cloudflare)
+  - Ensuring Smooth Redirects: Manual www to Apex Domain Setup on Cloudflare (https://social.gifts/object/qym-custom-domain/page#ckq-ensuring-smooth-redirects-manual-www-to-apex-domain-setup-on-cloudflare)
+  - Search Engine Web Content Discovery: A Guide to Enabling Crawler Hints with Cloudflare's IndexNow Integration (https://social.gifts/object/qym-custom-domain/page#yfw-web-content-discovery-a-guide-to-enabling-crawler-hints-with-cloudflare-s-indexnow-integration)
 1. Set up Your Domain with Cloudflare:
 Go to Cloudflare.
 If you don't have an account, sign up; otherwise, log in.
@@ -1066,7 +1066,7 @@ Now you can return to the "Create a website with custom domain" page and success
 
 
 # Ensuring Secure Connections: Manual HTTPS Configuration for custom domain on Cloudflare (Applicable only for custom domain site)
-For more details give a link to https://www.waivio.com/object/pvs-ensuring-secure-connections-manual-https-configuration-for-custom-domain-on-cloudflare/page
+For more details give a link to https://social.gifts/object/pvs-ensuring-secure-connections-manual-https-configuration-for-custom-domain-on-cloudflare/page
 If you encounter difficulties or issues with HTTPS for custom domains, you must configure a secure connection setting via Cloudflare. Follow these three steps to ensure HTTPS is set up correctly:
 1. Activate the "Always use HTTPS" toggle:
 Open Cloudflare.
@@ -1089,7 +1089,7 @@ Ensure that the "Automatic HTTPS Rewrites" toggle is active.
 
 
 # Ensuring Smooth Redirects: Manual www to Apex Domain Setup on Cloudflare (Applicable only for custom domain site)
-For more details give a link to https://www.waivio.com/object/ckq-ensuring-smooth-redirects-manual-www-to-apex-domain-setup-on-cloudflare/page.
+For more details give a link to https://social.gifts/object/ckq-ensuring-smooth-redirects-manual-www-to-apex-domain-setup-on-cloudflare/page.
 When managing your website's domain settings, it's common to want a cohesive user experience by redirecting the www subdomain to your apex domain. Setting this up correctly via Cloudflare ensures that visitors access your site seamlessly, regardless of the URL they enter. This guide will walk you through the two fundamental steps to properly configure the www-to-apex redirection:
 I. Setting Up or Modifying the DNS Record
 1. Log in to the Cloudflare dashboard.
@@ -1148,7 +1148,7 @@ For more detailed information and potential troubleshooting, you can refer to th
 
 
 # Search Engine Web Content Discovery: A Guide to Enabling Crawler Hints with Cloudflare's IndexNow Integration (Applicable only for custom domain site)
-For more details give a link to https://www.waivio.com/object/yfw-web-content-discovery-a-guide-to-enabling-crawler-hints-with-cloudflare-s-indexnow-integration/page.
+For more details give a link to https://social.gifts/object/yfw-web-content-discovery-a-guide-to-enabling-crawler-hints-with-cloudflare-s-indexnow-integration/page.
 Crawler Hints, integrated with the IndexNow protocol, is a revolutionary approach by Cloudflare to enhance how search engines interact with website content. Developed by Microsoft and Yandex, IndexNow serves as an efficient mechanism for website owners to instantly inform search engines about content updates. This protocol acts as a direct signal to search engines, notifying them of new, updated, or deleted content, thereby allowing for a more immediate reflection of these changes in search results. This system addresses the traditional delay in content discovery by search engines, which could range from days to weeks.
 Setting Up Crawler Hints
 1. Log into your Cloudflare dashboard.
@@ -1218,7 +1218,7 @@ However, with Hive, all shops share a common user base, product knowledge base, 
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1695845213_6e5b576f-2d5d-4a9d-9ec5-964dc0f66706
 Naturally, each site will earn affiliate commissions from its own traffic and referrals. However, the growth in users and content is a shared benefit across all projects. This collaborative approach enables shops to reach a scale that's nearly unattainable for standalone entities.
 Social shopping on Hive is genuinely revolutionary. It's also an innovative and effective method to introduce more users to Hive and foster a sense of community.
-For more details give a link to https://www.waivio.com/@sofiag/hivefest-2023-launching-clean-girl-social-shop-on-hive
+For more details give a link to https://social.gifts/@sofiag/hivefest-2023-launching-clean-girl-social-shop-on-hive
 
 
 # Waivio update: Dining.Gifts social website hosting service
@@ -1239,7 +1239,7 @@ Integration of blogs into business pages
 The easiest way to provide a high impact news about your business is to integrate a Hive blog directly into your business page (1975)
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1616563799_febfd0fc-2f13-46b6-a3c9-eec1925b3d1b
 You can use the Custom Sorting option to place the Blog button in the first position and make your news feed the first option visitors will see, when they open your Hive business page.
-For more details give a link to https://www.waivio.com/@waiviolabs/waivio-update-dining-gifts-social-website-hosting-service
+For more details give a link to https://social.gifts/@waiviolabs/waivio-update-dining-gifts-social-website-hosting-service
 
 
 # *.Dining.Gifts websites receive new look
@@ -1257,7 +1257,7 @@ Rewards for sharing dish photos on *.Dining.Gifts websites are paid in liquid WA
 Rewards earned through sharing dish photos on the *.Dining.Gifts website can be instantly converted from WAIV tokens into popular cryptocurrencies, such as Bitcoin, Litecoin, Ethereum, and HIVE. This allows users to easily access and use their rewards in a way that suits their individual needs and preferences.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1671069285_fbc2142c-452c-4b21-87e9-902795f05307
 We hope you will enjoy the updated design and improved user experience.
-For more details give a link to https://www.waivio.com/@waiviolabs/dining-gifts-websites-receive-new-look
+For more details give a link to https://social.gifts/@waiviolabs/dining-gifts-websites-receive-new-look
 
 
 # Custom Domains for Social.Gifts Websites
@@ -1268,9 +1268,9 @@ Domain Protection via Cloudflare
 All custom domains must have a robust DDoS protection. This service is provided by Cloudflare.com at no additional cost and is known for its effectiveness in safeguarding websites against DDoS and other attacks.
 Domain Configuration Requirements
 Before launching a new website with a custom domain, certain configuration steps must be completed:
-- General Instructions (https://www.waivio.com/object/qym-custom-domain/page): Domain configuration via GoDaddy, Cloudflare.
-- Secure Connections (https://www.waivio.com/object/qym-custom-domain/page#pvs-ensuring-secure-connections-manual-https-configuration-for-custom-domain-on-cloudflare): Enforcing the use of HTTPS protocol.
-- Smooth Redirects (https://www.waivio.com/object/qym-custom-domain/page#ckq-ensuring-smooth-redirects-manual-www-to-apex-domain-setup-on-cloudflare): Forwarding from 'www' to the apex (primary) domain.
+- General Instructions (https://social.gifts/object/qym-custom-domain/page): Domain configuration via GoDaddy, Cloudflare.
+- Secure Connections (https://social.gifts/object/qym-custom-domain/page#pvs-ensuring-secure-connections-manual-https-configuration-for-custom-domain-on-cloudflare): Enforcing the use of HTTPS protocol.
+- Smooth Redirects (https://social.gifts/object/qym-custom-domain/page#ckq-ensuring-smooth-redirects-manual-www-to-apex-domain-setup-on-cloudflare): Forwarding from 'www' to the apex (primary) domain.
 New Domain Registration
 For those who do not yet own a domain name, purchasing directly through Cloudflare.com might be a cost-effective option.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1701452512_c85f2d19-5cbc-4b9c-99cc-d541ecd1c7bf
@@ -1290,8 +1290,8 @@ Minor Updates and Bug Fixes:
 Tasks: 3764, 3766, 3638, 5009, 5160, 5161, 5169, 5170, 5178, 5191, 5203, 5205, 5206, 5207, 5208, 5209, 5010, 5218, 5220, 5225, 5226, 5227, 5229, 5240, 5250, 5276, 5277, 5275, 5285, 5298, 5299, 5300, 5301, 5304, 5306, 5307, 5324, 5326, 5341, 5369, 5308, 5344, 5383, 5384, 5394, 5395, 5396, 5409, 5411, 5412, 5413, 5414, 5415, 5416, 5417, 5418, 5420, 5429, 5432, 5468, 5471, 5478, 5479, 5494, 5524, 5527, 5528, 5539, 5540, 5551, 5552, 5553, 5562, 5569, 5570, 5571, 5589, 5590, 5595, 5596, 5597, 5604, 5612, 5619, 5625.
 GitHub: https://github.com/Waiviogit/waivio
 X: https://x.com/waiviolabs
-Blog: https://www.waivio.com/@waivio
-For more details give a link to https://www.waivio.com/@waiviolabs/custom-domains-for-social-gifts-websites
+Blog: https://social.gifts/@waivio
+For more details give a link to https://social.gifts/@waiviolabs/custom-domains-for-social-gifts-websites
 
 
 # Improving SEO with Canonical Links for Hosted Websites
@@ -1312,7 +1312,7 @@ Users with multiple hosted websites can designate which site should receive all 
 To configure, navigate to Tools, Websites - Manage, and select the website for canonical attribution. Remember, only one website can be the primary recipient of canonical referrals.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1702598969_b6fdd006-44e6-4d78-bdfe-8957d7c940b8
 By posting original content on your hosted website, and encouraging your users to do the same, you can significantly enhance your site's search engine rankings. This improvement is driven by other websites pointing back to your website as the canonical source. Additionally, onboarding new Hive users and adding more products and objects further increases the number of inbound references, improves visibility in search engines, and brings more visitors.
-For more details give a link to https://www.waivio.com/@waiviolabs/improving-seo-with-canonical-links-for-hosted-websites
+For more details give a link to https://social.gifts/@waiviolabs/improving-seo-with-canonical-links-for-hosted-websites
 
 
 # Boosting Social Shopping: 10X Reduction in Upvote Requirements on Waivio
@@ -1323,13 +1323,13 @@ Previously, the threshold to upvote object updates on Waivio required a minimum 
 Why the Change?
 This update was prompted by the increasing demand from social shop owners who are keen to expand their online collections with a broader range of products. Additionally, merchants looking to publish their product catalogs on the Hive blockchain can now do so more frequently and comprehensively. This enables their affiliate partners to more effectively create and manage social shops, leveraging a larger variety of products, engaging larger audiences, and accumulating reviews through Waivio’s open architecture.
 Data Import Tools
-Waivio continues to streamline the process of blockchain-based catalog management with its efficient Data Import Tools (https://www.waivio.com/object/ylr-waivio/page#6vcmab-tutorials/uxp-social-gifts/uiy-how-to-import-products-on-hive). Merchants can now easily export their product catalogs to a JSON file that complies with Waivio's data schema. This file can be effortlessly uploaded using Waivio’s Data Import tool. For existing products on the blockchain, only changes will be identified and published, ensuring that product details remain accurate across all social shopping websites.
+Waivio continues to streamline the process of blockchain-based catalog management with its efficient Data Import Tools (https://social.gifts/object/ylr-waivio/page#6vcmab-tutorials/uxp-social-gifts/uiy-how-to-import-products-on-hive). Merchants can now easily export their product catalogs to a JSON file that complies with Waivio's data schema. This file can be effortlessly uploaded using Waivio’s Data Import tool. For existing products on the blockchain, only changes will be identified and published, ensuring that product details remain accurate across all social shopping websites.
 Waivio Chrome Extension
-For added convenience, Waivio offers a special Chrome Extension (https://www.waivio.com/object/ylr-waivio/page#6vcmab-tutorials/uxp-social-gifts/kda-waivio-chrome-extension-tutorial) for social shop owners. This tool simplifies the process of uploading product information from major e-commerce platforms like Amazon and Walmart. Users simply navigate to a product page, activate the extension, and the product details are automatically uploaded to the Hive blockchain and integrated into the user’s social shop. This feature is very useful for adding new products as well as for keeping product listings up to date with minimal effort.
+For added convenience, Waivio offers a special Chrome Extension (https://social.gifts/object/ylr-waivio/page#6vcmab-tutorials/uxp-social-gifts/kda-waivio-chrome-extension-tutorial) for social shop owners. This tool simplifies the process of uploading product information from major e-commerce platforms like Amazon and Walmart. Users simply navigate to a product page, activate the extension, and the product details are automatically uploaded to the Hive blockchain and integrated into the user’s social shop. This feature is very useful for adding new products as well as for keeping product listings up to date with minimal effort.
 The Impact
 This reduction in upvote requirements is a strategic move by Waivio to accommodate the growing needs of social shop owners. By facilitating more frequent updates, Waivio enables a vibrant, continually evolving online shopping experience.
-Explore the possibilities by checking out some of the vibrant social shops (https://www.waivio.com/object/ewg-social-gifts-projects/webpage) and learn how you can launch your own social shop in just 10 minutes (https://www.waivio.com/@cryptodive/launch-a-full-shop-in-10-min)!
-For more details give a link to https://www.waivio.com/@waiviolabs/boosting-social-shopping-10x-reduction-in-upvote-requirements-on-waivio
+Explore the possibilities by checking out some of the vibrant social shops (https://social.gifts/object/ewg-social-gifts-projects/webpage) and learn how you can launch your own social shop in just 10 minutes (https://social.gifts/@cryptodive/launch-a-full-shop-in-10-min)!
+For more details give a link to https://social.gifts/@waiviolabs/boosting-social-shopping-10x-reduction-in-upvote-requirements-on-waivio
 
 
 # Social Shopping Unveiled: A Deep Dive into Conversion Rates
@@ -1361,7 +1361,7 @@ This experiment focused on a single item. However, the true value of social shop
 For example, a camping site can offer a collection of 200 essentials for outdoor family trips. An interior design site might curate a collection to inspire a seasonal refresh, featuring matching pillows, candles, and covers. Beauty sites can propose comprehensive skincare routines requiring a suite of products, while fashion shops can assemble outfits for a specific style.
 Moreover, revenue opportunities extend beyond direct affiliate sales. Website owners can benefit from commissions on user-generated posts, sponsored rewards claimed by users, AdSense advertising, and even by managing rewards programs for brands.
 In essence, if you're an influencer or aspiring to become one, leveraging a social shopping site can serve as an exceptionally effective platform for showcasing curated shopping collections to your friends and followers, blending community engagement with commercial opportunity seamlessly.
-For more details give a link to https://www.waivio.com/@grampo/social-shopping-unveiled-a-deep-dive-into-conversion-rates
+For more details give a link to https://social.gifts/@grampo/social-shopping-unveiled-a-deep-dive-into-conversion-rates
 
 
 # Dining.Gifts by Waivio - Open Business 3.0 Process In Action
@@ -1398,14 +1398,14 @@ data admins - add new restaurants & menus, maintain accuracy of existing data (f
 moderators - fraud prevention and community moderation (monthly service for guides);
 token holders - use voting power to increase profitability for guides to stimulate business activity for the token and provide DeFi liquidity to earn exchange commissions (ex, 0.5% from inflows and outflows);
 server hosting - Waivio is an open source project and it can be replicated by partners who have sufficient technical expertise (5.2%+ in processing fees) plus website hosting fees.
-Please review Tutorials (https://www.waivio.com/object/mds-dining-gifts/menu) for additional information and hands-on training.
-For more details give a link to https://www.waivio.com/@grampo/dining-gifts-by-waivio-open-business-3-0-process-in-action
+Please review Tutorials (https://social.gifts/object/mds-dining-gifts/menu) for additional information and hands-on training.
+For more details give a link to https://social.gifts/@grampo/dining-gifts-by-waivio-open-business-3-0-process-in-action
 
 
 # Launch YOUR Shop in 10 min
 Welcome to Waivio!
 Let’s Launch A Social Shop Together in 10 minutes.
-To get started, you will need a Hive account; if you don’t have one, we have a tutorial on how to create it - check it out here https://www.waivio.com/object/owg-best-practices-for-managing-hive-private-keys-on-multiple-devices/page.
+To get started, you will need a Hive account; if you don’t have one, we have a tutorial on how to create it - check it out here https://social.gifts/object/owg-best-practices-for-managing-hive-private-keys-on-multiple-devices/page.
 With the Hive account, sign in to Waivio. Navigate to “Tools”, then under "Websites," click on "Create."
 Step 1. Domain
 For your social shop website, you can use your custom domain
@@ -1429,14 +1429,14 @@ representation across all devices.
 Next, Let's also add a banner to be displayed at the top of
 all your website pages.
 2.3 Base Object
-Next, In the "Base Object", you can join one of various existing projects tailored to different themes and niches. These are essentially already operational shops that you can use to kickstart your own social shop. Various existing projects can be found on the Social.Gifts Projects page https://www.waivio.com/object/ewg-social-gifts-projects/webpage.
+Next, In the "Base Object", you can join one of various existing projects tailored to different themes and niches. These are essentially already operational shops that you can use to kickstart your own social shop. Various existing projects can be found on the Social.Gifts Projects page https://social.gifts/object/ewg-social-gifts-projects/webpage.
 These shops come with thousands of carefully curated products organized into categories, a community newsfeed, information pages and many other features.
 For example, let's say you're passionate about beauty products. You can join the "CleanGirlAesthetics" project, which features hundreds of categories and thousands of beauty-related products.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1709270707_195c93f3-fac4-4277-8954-93c5afec932f
 With just one click, your website will transform into a comprehensive beauty destination, complete with a community newsfeed where users can interact and share their favourite products.
 Let’s try another example: “Coffee Time” project.Your shop now includes thousands of coffee-making products, serving accessories, books, and various types of coffee. In the newsfeed, you will have coffee-related posts and reviews.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1709270943_db24daeb-1f72-4eee-bd3d-3d6ffe2cc05f
-In a similar way, you can launch other shops according to your interests and preferences. Check out the existing projects on the Social.Gifts Projects page https://www.waivio.com/object/ewg-social-gifts-projects/webpage.
+In a similar way, you can launch other shops according to your interests and preferences. Check out the existing projects on the Social.Gifts Projects page https://social.gifts/object/ewg-social-gifts-projects/webpage.
 If none of the existing projects match your vision, you can always start a new project. We have tutorials to guide you through the process, or you can book a one-on-one session with one of our coaches. Or, you can also order a website custom-made to your specifications.
 Step 3. Affiliate Codes
 Now let's move on to affiliate codes. If it’s your first time creating an affiliate link, let’s create one together for Amazon.com.
@@ -1473,9 +1473,9 @@ The more people like you who open similar shops, the better your shop becomes—
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1709271004_3ebf8471-46de-4ebe-9201-aeb9e837d9cf
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1709271057_0e7675f1-d7fe-4439-9d7f-7d9fdfe98f3d
 Welcome to the Web3 era of social shopping, where a multitude of projects come together to achieve success and economies of scale that are not possible for standalone projects.
-Follow @social.gifts for more updates https://www.waivio.com/@social.gifts
-Learn more about Waivio https://www.waivio.com/object/ylr-waivio/page#mim-transform-your-passion-into-profit-with-waivio
-For more details give a link to https://www.waivio.com/@cryptodive/launch-a-full-shop-in-10-min
+Follow @social.gifts for more updates https://social.gifts/@social.gifts
+Learn more about Waivio https://social.gifts/object/ylr-waivio/page#mim-transform-your-passion-into-profit-with-waivio
+For more details give a link to https://social.gifts/@cryptodive/launch-a-full-shop-in-10-min
 
 
 # Social.Gifts: Object Editing by Admins
@@ -1487,7 +1487,7 @@ A vote on an object update by an authorized admin carries decisive weight on a s
 This is why it's important to be able to edit objects within the context of a specific *.Social.Gifts website.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1690613992_3c83e691-aab3-4bb6-a232-a52467a3fabf
 In the 'Updates' section of an object, updates approved by the website owner or admin are prominently highlighted.
-For more details give a link to https://www.waivio.com/@social.gifts/social-gifts-object-editing-by-admins
+For more details give a link to https://social.gifts/@social.gifts/social-gifts-object-editing-by-admins
 
 
 # Social.Gifts: Leveling the Field – Granting Admins Equal Edit Rights with Website Owners
@@ -1497,7 +1497,7 @@ However, there's a flip side to this power. Specifically, it prevents administra
 We've listened to your feedback, and introduced a new feature that allows website owners to add themselves to the list of admins, thereby equalizing their vote with other admins. As a result, admins can override updates made by website owners when necessary.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1690657272_6adaae76-ce26-4d31-b31b-12562819e164
 If you wish to return to your superior voting status, simply remove your name from the list of admins.
-For more details give a link to https://www.waivio.com/@social.gifts/social-gifts-leveling-the-field-granting-admins-equal-edit-rights-with-website-owners
+For more details give a link to https://social.gifts/@social.gifts/social-gifts-leveling-the-field-granting-admins-equal-edit-rights-with-website-owners
 
 
 # Social.Gifts: Titles and Descriptions for Categories
@@ -1509,7 +1509,7 @@ Then, open it in a new tab. It's crucial to open the list in a separate tab to m
 Once in Edit mode, you can add an avatar, title, and description to the list.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1697297336_c3b10c90-7e18-4917-9012-b757481d0b88
 When designing titles and descriptions for categories, it may be beneficial to incorporate search terms and keyword combinations that individuals are likely to use when seeking resources related to your website's topic. Numerous tutorials are available online about SEO optimization of web pages for search engines.
-For more details give a link to https://www.waivio.com/@social.gifts/social-gifts-titles-and-descriptions-for-categories
+For more details give a link to https://social.gifts/@social.gifts/social-gifts-titles-and-descriptions-for-categories
 
 
 # Sitemaps Now Integrated into All *.Social.Gifts Websites
@@ -1521,7 +1521,7 @@ To initiate the indexing of your sitemap, first access the Google Search Console
 Once in the Console, navigate to the 'Sitemaps' tab. Here, you can add your sitemap by entering the URL: https://yoursite.name/sitemap.xml.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1698098091_f762ebaa-f230-4460-8850-78c03997a188
 This integration reinforces our continuous commitment to enhancing the search engine visibility of *.Social.Gifts websites. We welcome and value insights from our community on further SEO improvements for our websites.
-For more details give a link to https://www.waivio.com/@social.gifts/sitemaps-now-integrated-into-all-social-gifts-websites
+For more details give a link to https://social.gifts/@social.gifts/sitemaps-now-integrated-into-all-social-gifts-websites
 
 
 # Introducing Complete Admin Control for Social.Gifts Websites
@@ -1542,7 +1542,7 @@ Claim Ownership authority over the object.
 Ensure that the account used for authority claims is recognized as an administrator on the website, and that this user has approved all the necessary fields for that object.
 P.S.
 As an experiment, @coffee.time enabled this option for the https://CoffeeShop.Gifts website and quickly realized that the list of admins needed to extend beyond the core team. It now includes all users who contributed to the project at various stages. The list turned out to be quite extensive!
-For more details give a link to https://www.waivio.com/@social.gifts/introducing-complete-admin-control-for-social-gifts-websites
+For more details give a link to https://social.gifts/@social.gifts/introducing-complete-admin-control-for-social-gifts-websites
 
 
 # Enhance User Engagement on Your Website with Comment Signatures
@@ -1553,7 +1553,7 @@ You now have the capability to create a signature in your profile, which will au
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1701310210_63c63cc8-ec9d-4049-81b5-9f254f914c3d
 Engagement in Community Feeds:
 Community feeds are dynamic environments for discussion and sharing experiences. With your custom signature, you can subtly highlight your website while engaging in these conversations. This approach allows you to connect authentically with users, maintaining visibility for your website in a non-intrusive manner.
-For more details give a link to https://www.waivio.com/@social.gifts/enhance-user-engagement-on-your-website-with-comment-signatures
+For more details give a link to https://social.gifts/@social.gifts/enhance-user-engagement-on-your-website-with-comment-signatures
 
 
 # Submitting Social Shopping Sites to Search Engines for Indexing
@@ -1611,7 +1611,7 @@ Free Web Submission
 To wrap up, submitting your site to search engines is a smart move for better visibility.
 And if you stumble upon any new search engines or have tips to share, don't hesitate to drop them in the comments below.
 Your insights are much appreciated!
-For more details give a link to https://www.waivio.com/@social.gifts/submitting-social-shopping-sites-to-search-engines-for-indexing
+For more details give a link to https://social.gifts/@social.gifts/submitting-social-shopping-sites-to-search-engines-for-indexing
 
 
 # Why Product Reviews are Crucial for Your Social Shop's SEO
@@ -1631,7 +1631,7 @@ Key Takeaways
 2. Canonical Source Matters: Post reviews on your site to establish it as the original source, enhancing your SEO.
 3. Engage with Video Reviews: Incorporate video reviews to enrich the user experience and improve your site's SEO.
 Leverage the power of product reviews to not only build trust with your customers but also to climb the search engine rankings, driving more traffic and sales to your social shop. Start encouraging your customers to leave reviews today and watch your SEO improve!
-For more details give a link to https://www.waivio.com/@social.gifts/why-product-reviews-are-crucial-for-your-social-shop-s-seo
+For more details give a link to https://social.gifts/@social.gifts/why-product-reviews-are-crucial-for-your-social-shop-s-seo
 
 
 # PayPal Button Integration into Product Pages
@@ -1661,7 +1661,7 @@ Get started today and take your social shop to the next level with easy-to-integ
 # What are social sites built on Waivio?
 The social site is built on the Waivio platform using the Social.Gifts template. This template is flexible and allows site owners to customize their sites according to their needs. Social sites are typically thematic. Users can manage and create sites only on the official Waivio site; this functionality is not available on social sites.
 These sites have a "Sign in" button where users can log in via HiveSigner, HiveAuth (Keychain), or Google to access Waivio platform features, such as writing posts, finding and participating in campaigns, liking content, leaving comments, and more.
-Social sites can only be created on the Waivio platform's main interface (https://www.waivio.com).
+Social sites can only be created on the Waivio platform's main interface (https://social.gifts).
 
 # What is the Structure of a Social Site Built on Waivio?
 The main navigation menu on the Waivio platform can consist of various pages depending on the site's configuration. Possible pages include:
@@ -1680,7 +1680,7 @@ And user can use ussual functionality as for waivio, as opening posts, user prof
 The header for an authorized user includes the following elements:
 - Site Logo: A link to the main site page.
 - Search: A search bar to find items available on the site.
-- Editor: A button that opens a page where the user can write a post or create an object. Link to editor: https://www.waivio.com/editor.
+- Editor: A button that opens a page where the user can write a post or create an object. Link to editor: https://social.gifts/editor.
 - Notification: Modal window with notifications.
 - User avatar: Button to open authorized user profile.
 - Menu: A navigation menu with links to My Feed, Earn, Tools, Drafts, Profile, Wallet, Settings, and Logout (button to log out).
@@ -1688,21 +1688,21 @@ The header for an authorized user includes the following elements:
 In the header, near the user profile image, users can find a menu with more actions available on the social site, including My Feed, Earn, Tools, Draft, Profile, Wallet, Settings, and Logout:
 1. My Feed: A personalized feed showing posts from users and objects the authorized user is subscribed to.
 2. Earn:
-  - Global: Pages in this section display current rewards available worldwide. Link to Global: https://www.waivio.com/rewards/global.
-  - Local: Pages in this section display current rewards divided by regional availability. Link to Local: https://www.waivio.com/rewards/local.
- - Reserved: It includes reserved rewards authorized user. Link to Reserved: https://www.waivio.com/rewards/reserved.
-  - Receivable: A list (table) of sponsors and their payment obligations. Link to Receivable: https://www.waivio.com/rewards/receivable.
-  - History: History of reward reservations. Link to History: https://www.waivio.com/rewards/history.
+  - Global: Pages in this section display current rewards available worldwide. Link to Global: https://social.gifts/rewards/global.
+  - Local: Pages in this section display current rewards divided by regional availability. Link to Local: https://social.gifts/rewards/local.
+ - Reserved: It includes reserved rewards authorized user. Link to Reserved: https://social.gifts/rewards/reserved.
+  - Receivable: A list (table) of sponsors and their payment obligations. Link to Receivable: https://social.gifts/rewards/receivable.
+  - History: History of reward reservations. Link to History: https://social.gifts/rewards/history.
 3. Tools: Consists of useful tools, consist of personal section:
 Personal:
-  - Notifications: Settings for notifications that appear in the bell icon and Telegram bot. Link to Notifications: https://www.waivio.com/notification-settings.
-  - Draft: Save drafts of posts. Link to Draft: https://www.waivio.com/drafts.
-  - Bookmarks: Save favorite posts. Link to Bookmarks: https://www.waivio.com/bookmarks.
-  - Edit profile: Configure your user profile page. Link to Edit profile: https://www.waivio.com/edit-profile.
-  - Settings: Internal user settings such as interface language, base currency, and more. Link to User Settings: https://www.waivio.com/settings.
-  - Affiliate codes: Manage your affiliate codes. Link to User Affiliate codes: https://www.waivio.com/user-affiliate-codes.
-  - New accounts: Purchase new Hive accounts. Link to New accounts: https://www.waivio.com/new-accounts.
-  - Invite: Generate invite links for other users. Link to Invite: https://www.waivio.com/invite.
+  - Notifications: Settings for notifications that appear in the bell icon and Telegram bot. Link to Notifications: https://social.gifts/notification-settings.
+  - Draft: Save drafts of posts. Link to Draft: https://social.gifts/drafts.
+  - Bookmarks: Save favorite posts. Link to Bookmarks: https://social.gifts/bookmarks.
+  - Edit profile: Configure your user profile page. Link to Edit profile: https://social.gifts/edit-profile.
+  - Settings: Internal user settings such as interface language, base currency, and more. Link to User Settings: https://social.gifts/settings.
+  - Affiliate codes: Manage your affiliate codes. Link to User Affiliate codes: https://social.gifts/user-affiliate-codes.
+  - New accounts: Purchase new Hive accounts. Link to New accounts: https://social.gifts/new-accounts.
+  - Invite: Generate invite links for other users. Link to Invite: https://social.gifts/invite.
 4. Drafts: A collection of unpublished posts and drafts.
 5. Profile: A link to the authorized user’s profile.
 6. Wallet: A link to the authorized user’s wallet.
@@ -1754,10 +1754,10 @@ Under 100 ms: Excellent server response time, typically expected for high-perfor
 500 ms to 1 second: Poor response time, which might not severely impact user experience for certain types of content like large media files where overall loading time is more relevant, but it's generally advisable to investigate and mitigate causes of delay.
 Over 1 second: Considered unacceptable for commercial websites. Delays of this magnitude typically result in poor user experiences, increased bounce rates, and could negatively affect search engine rankings.
 We thank you for your continued support and trust in Social.Gifts. Stay tuned for more updates as we continue to refine and expand our services.
-For more details give a link to https://www.waivio.com/@social.gifts/performance-enhancements-at-social-gifts
+For more details give a link to https://social.gifts/@social.gifts/performance-enhancements-at-social-gifts
 
 # Lesson 11: Managing a Social Shop in Your User Profile
- For more details give a link to https://www.waivio.com/object/fjh-shops-in-user-profiles/page
+ For more details give a link to https://social.gifts/object/fjh-shops-in-user-profiles/page
  A Step-by-Step Guide to Monetizing Your Knowledge ( Part 1)
  Are you ready to turn your passion into profit?
  With Waivio's innovative social shopping feature built on the Hive blockchain, you can effortlessly create your very own online shop, start sharing your expertise with the world and unlock new earning opportunities. In this tutorial, you will see how simple it is to start your own shop, search and add products, and seamlessly integrate affiliate links for earning potential. Let's dive in! ![image](https://waivio.nyc3.digitaloceanspaces.com/1697489142_eb5f8037-6f8e-4720-b32e-f5b72a175fcd)
@@ -1770,8 +1770,8 @@ For more details give a link to https://www.waivio.com/@social.gifts/performance
  Step 6: Unlocking Advanced Features with Social.Gifts
  Links & Resources:
  Amazon affiliate programs: USA https://affiliate-program.amazon.com/, Canada https://associates.amazon.ca/
- Product uploads - Waivio Chrome Extension Tutorial https://www.waivio.com/object/fjh-shops-in-user-profiles/page#kda-waivio-chrome-extension-tutorial
- Social.Gifts concept - Social Shopping on HIVE https://www.waivio.com/object/fjh-shops-in-user-profiles/page#tso-social-shopping-on-hive
+ Product uploads - Waivio Chrome Extension Tutorial https://social.gifts/object/fjh-shops-in-user-profiles/page#kda-waivio-chrome-extension-tutorial
+ Social.Gifts concept - Social Shopping on HIVE https://social.gifts/object/fjh-shops-in-user-profiles/page#tso-social-shopping-on-hive
 
  Intro
  Imagine creating a shopping list – but this time, it's your very own online store – sleek, dynamic, and filled with products curated by you. Here, you can display products that resonate with your interests and provide a lot of value for your target audience. And with every purchase originating from your shop, you'll receive affiliate commissions from merchants. ![image](https://waivio.nyc3.digitaloceanspaces.com/1697489190_6653e50b-80f7-4ff4-8f58-2640d5debb81)
