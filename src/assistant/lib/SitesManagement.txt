@@ -1671,9 +1671,9 @@ The main navigation menu on the Waivio platform can consist of various pages dep
 - **Map:** A map displaying key items or locations relevant to the site.
 - **Legal:** Pages containing legal information.
 - **Widget:** Embedded frames or widgets for site-specific purposes.
-- **Product Page:** A page displaying product information.
-- **Business Page:** A page showcasing information about businesses or restaurants.
-- **Recipe:** A page displaying a recipe.
+- **Product**: A page displaying product information.
+- **Business**: A page showcasing information about businesses or restaurants.
+- **Recipes**: A page displaying recipes.
 - **Shop:** A collection of items available for purchase as shop.
 And user can use ussual functionality as for waivio, as opening posts, user profile information and all related pages.
 
