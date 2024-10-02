@@ -11,7 +11,7 @@ export const createFetchRequest = async (
   data: CreateFetchRequestInterface,
 ): Promise<any | null> => {
   const { params, api, accessHost } = data;
-  if (!api) throw new Error('No best API found');
+  if (!api) throw new Error('No API found');
 
   let response: any = null;
   try {

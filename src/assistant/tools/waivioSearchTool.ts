@@ -45,11 +45,11 @@ const waivioSearchMapSchema = z
           .describe('bottom left coordinate of the box'),
       })
       .optional(),
-    onlyObjectTypes: z
-      .array(z.enum(Object.values(OBJECT_TYPES) as [string, ...string[]]))
+    object_type: z
+      .enum(Object.values(OBJECT_TYPES) as [string, ...string[]])
       .optional()
       .describe(
-        'use for filter results for particular type example: I want find restaurants in Vancouver => onlyObjectTypes: ["restaurant"]',
+        'use for filter results for particular type example: I want find restaurants in Vancouver => object_type: "restaurant"',
       ),
   })
   .describe('use only map or box not both');
@@ -148,13 +148,12 @@ export const generateSearchToolsForHost = (host: string) => {
   );
 
   const waivioObjectsMapTool = tool(
-    async ({ map, box, onlyObjectTypes, string }) => {
-      configService.getAppHost();
-      const url = `https://${configService.getAppHost()}/api/wobjectSearch`;
+    async ({ map, box, object_type, string }) => {
+      const url = `https://${configService.getAppHost()}/api/wobjects/search-area`;
 
       const result = await createFetchRequest({
         api: { method: 'POST', url },
-        params: { map, box, onlyObjectTypes, string },
+        params: { map, box, object_type, string },
         accessHost: host,
       });
 
