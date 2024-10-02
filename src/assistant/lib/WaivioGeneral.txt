@@ -251,11 +251,13 @@ The structure of the Waivio platform is divided into 5 sections for logged-in us
   - Notifications: Recent notifications. Link to: https://www.waivio.com/notifications-list.
   - Separate posts from objects and users.
 2. Earn:
+Rewards (This section is available on the Waivio main domain and on social sites as well):
   - Global: Pages in this section display current rewards available worldwide. Link to Global: https://social.gifts/rewards/global.
   - Local: Pages in this section display current rewards divided by regional availability. Link to Local: https://social.gifts/rewards/local.
- - Reserved: It includes reserved rewards authorized user. Link to Reserved: https://social.gifts/rewards/reserved.
+  - Reserved: It includes reserved rewards authorized user. Link to Reserved: https://social.gifts/rewards/reserved.
   - Receivable: A list (table) of sponsors and their payment obligations. Link to Receivable: https://social.gifts/rewards/receivable.
   - History: History of reward reservations. Link to History: https://social.gifts/rewards/history.
+Campaigns (This section is available only on the Waivio main domain and will not work on social sites):  
   - Create: Users can create and manage campaigns. Link to Create: https://www.waivio.com/rewards/create.
   - Manage: Administration and managing of campaigns (campaign administration, balance control, activation/deactivation, and campaign history). Link to Manage: https://www.waivio.com/rewards/manage.
   - Payable: A list (table) of users who completed campaigns and their financial responsibilities. Link to Payable: https://www.waivio.com/rewards/payable.
@@ -264,10 +266,10 @@ The structure of the Waivio platform is divided into 5 sections for logged-in us
   - Messages: Communication with campaign executors. Link to Messages: https://www.waivio.com/rewards/messages.
   - Fraud detection: List of fraudulent campaigns. Link to Fraud detection: https://www.waivio.com/rewards/fraud-detection.
   - Blacklist: Prohibited users from campaign execution, references, and whitelisted users. Link to Blacklist: https://www.waivio.com/rewards/black-list.
-Match Bots: This category includes bots that automate upvoting for specific posts:
-- Author: Automatically upvotes posts by specified authors based on set criteria. Link to Authors match bot: https://www.waivio.com/rewards/match-bots-authors.
-- Curator: Repeats upvotes and downvotes of specified curators on posts and comments, with adjustable voting ratios. Link to Curator match bot: https://www.waivio.com/rewards/match-bots-curators.
-- Sponsor: Designed to offset direct rewards with upvotes in campaigns, reducing direct payment obligations. Link to Sponsor match bot: https://www.waivio.com/rewards/match-bots-sponsors.
+Match Bots: This category includes bots that automate upvoting for specific posts (This section is available only on the Waivio main domain and will not work on social sites):
+  - Author: Automatically upvotes posts by specified authors based on set criteria. Link to Authors match bot: https://www.waivio.com/rewards/match-bots-authors.
+  - Curator: Repeats upvotes and downvotes of specified curators on posts and comments, with adjustable voting ratios. Link to Curator match bot: https://www.waivio.com/rewards/match-bots-curators.
+  - Sponsor: Designed to offset direct rewards with upvotes in campaigns, reducing direct payment obligations. Link to Sponsor match bot: https://www.waivio.com/rewards/match-bots-sponsors.
 3. Shop: This is the main shop where a comprehensive catalog of all products added to the platform is collected. Link to General Shop: https://www.waivio.com/shop.
 4. Tools: Consists of useful tools, divided into three sections:
 Personal:
@@ -279,14 +281,14 @@ Personal:
   - Affiliate codes: Manage your affiliate codes. Link to User Affiliate codes: https://social.gifts/user-affiliate-codes.
   - New accounts: Purchase new Hive accounts. Link to New accounts: https://social.gifts/new-accounts.
   - Invite: Generate invite links for other users. Link to Invite: https://social.gifts/invite.
-Data Management:
+Data Management (This section is available only on the Waivio main domain and will not work on social sites):
   - Data import: Add and manage objects for your website. Link to Data import: https://www.waivio.com/data-import.
   - Claim authority: Mark objects already on the platform as your own to display them on your website. Link to Claim authority: https://www.waivio.com/claim-authority.
   - Departments bot: Automatically categorize products into departments using a hierarchical structure of connected lists. Link to Departments bot: https://www.waivio.com/departments-bot.
   - Descriptions bot: Rewrite titles and descriptions for all embedded lists and objects linked from these lists. Link to Descriptions bot: https://www.waivio.com/descriptions-bot.
   - List duplication: Create copies of lists, including all embedded lists and links to products or other objects. Link to List duplication: https://www.waivio.com/list-duplication.
   - Chrome extension: Import objects from Amazon, Google Maps, or OpenStreetMap using the Chrome extension. Link to Chrome extension: https://www.waivio.com/chrome-extension.
-Websites:
+Websites (This section is available only on the Waivio main domain and will not work on social sites):
   - Create: Create a website using a standard domain or attach a custom one. Link to Create a Website: https://www.waivio.com/create.
   - Manage: Manage websites, check balances, activate/deactivate, and delete. Link to Manage Websites: https://www.waivio.com/manage.
   - Reports: View reports on websites, including DAU (Daily Active Users) and daily site costs. Link to Website Reports: https://www.waivio.com/payments.

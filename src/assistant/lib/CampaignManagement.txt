@@ -1,5 +1,25 @@
 # Earn section on Waivio from main navigation menu
 The Earn section on Waivio offers a comprehensive platform for both sponsors and users. It includes the Rewards block, which covers categories like Global, Local, Reserved, Receivable, and History. Within this section, users can manage Campaigns—creating, managing, and tracking them, while also handling Payable rewards, generating Reports, managing Reservations, sending Messages, detecting Fraud, and maintaining a Blacklist. Additionally, the Match Bots feature connects authors, curators, and sponsors. Overall, this section allows sponsors to create and manage campaigns, while users can discover and participate in campaigns to earn rewards.
+Earn:
+Rewards (This section is available on the Waivio main domain and on social sites as well):
+  - Global: Pages in this section display current rewards available worldwide. Link to Global: https://social.gifts/rewards/global.
+  - Local: Pages in this section display current rewards divided by regional availability. Link to Local: https://social.gifts/rewards/local.
+  - Reserved: It includes reserved rewards authorized user. Link to Reserved: https://social.gifts/rewards/reserved.
+  - Receivable: A list (table) of sponsors and their payment obligations. Link to Receivable: https://social.gifts/rewards/receivable.
+  - History: History of reward reservations. Link to History: https://social.gifts/rewards/history.
+Campaigns (This section is available only on the Waivio main domain and will not work on social sites):  
+  - Create: Users can create and manage campaigns. Link to Create: https://www.waivio.com/rewards/create.
+  - Manage: Administration and managing of campaigns (campaign administration, balance control, activation/deactivation, and campaign history). Link to Manage: https://www.waivio.com/rewards/manage.
+  - Payable: A list (table) of users who completed campaigns and their financial responsibilities. Link to Payable: https://www.waivio.com/rewards/payable.
+  - Reports: View reports on quide (sponsor) campaigns. Link to Reports: https://www.waivio.com/rewards/reports.
+  - Reservation: History of reservations including user and campaign status. Link to Reservation: https://www.waivio.com/rewards/reservations.
+  - Messages: Communication with campaign executors. Link to Messages: https://www.waivio.com/rewards/messages.
+  - Fraud detection: List of fraudulent campaigns. Link to Fraud detection: https://www.waivio.com/rewards/fraud-detection.
+  - Blacklist: Prohibited users from campaign execution, references, and whitelisted users. Link to Blacklist: https://www.waivio.com/rewards/black-list.
+Match Bots: This category includes bots that automate upvoting for specific posts. (This section is available only on the Waivio main domain and will not work on social sites):
+  - Author: Automatically upvotes posts by specified authors based on set criteria. Link to Authors match bot: https://www.waivio.com/rewards/match-bots-authors.
+  - Curator: Repeats upvotes and downvotes of specified curators on posts and comments, with adjustable voting ratios. Link to Curator match bot: https://www.waivio.com/rewards/match-bots-curators.
+  - Sponsor: Designed to offset direct rewards with upvotes in campaigns, reducing direct payment obligations. Link to Sponsor match bot: https://www.waivio.com/rewards/match-bots-sponsors.
 
 ## Campaign Statuses
 Campaign statuses change based on the actions of both the sponsor and the executors, as well as the campaign's data. These statuses are displayed in the "Manage" tab, specifically in the "Active and pending campaigns" table under the "Status" column, and on the secondary card type.
@@ -139,7 +159,7 @@ The release reservation modal window is used to confirm the cancellation of a re
 Create campaign is the starting point for using the Rewards feature as a sponsor (guide). It implies the creation of a campaign with certain conditions for writing a review on the proposed objects.
 A sponsor can create a campaign by either going to the Create tab in Earn or by clicking the "Create new campaign" button in the Manage tab in Earn.
 To create a campaign using the Rewards (Earn) feature in Earn, you need to provide the following required fields: campaign name, type, reach, display and payment currency, budget, reward amount, maximum reservation period, minimum number of photos, primary and secondary objects, eligibility period, agreement to terms and conditions, and the campaign expiry date. The optional fields include: registered upvoting accounts, compensation account, target review days, receipt requirement, additional review requirements, minimum Waivio expertise, minimum number of followers, minimum number of posts, link to an agreement, legal notice to users, and commission percentage.
-After creating a campaign, the sponsor should activate it by going to the Manage tab, clicking the checkbox, and confirming the activation.
+After creating a campaign, the sponsor should activate it by going to the Manage tab, clicking the checkbox, and confirming the activation. Link to Create: https://www.waivio.com/rewards/create. (This feature is available only on the Waivio main domain and will not work on social sites)
 ![image](https://github.com/user-attachments/assets/d964e37d-9014-428e-9078-bdc322edce7c)
 Basic information about every field in Create form:
 - **Campaign name** - the name of the new campaign being created by the sponsor. Campaign names are used only for internal reports (Manage tab) the field cannot be empty. Also used for the type of notification when the user sends a comment in the object's secondary card. "Campaign name" inscription above the field. "Campaign names are used only for internal reports" - inscription under the field. Required field.
@@ -174,7 +194,8 @@ Basic information about every field in Create form:
 
 
 # Earn. Manage (Campaign)
-The Manage in Earn provides an overview of campaigns and user balance, helping users manage their active and inactive campaigns, as well as view detailed information. This page includes several key sections:
+The Manage in Earn provides an overview of campaigns and user balance, helping users manage their active and inactive campaigns, as well as view detailed information. Link to Manage: https://www.waivio.com/rewards/manage. (This feature is available only on the Waivio main domain and will not work on social sites)
+This page includes several key sections:
 - Account Balance table, which displays the user's financial status;
 - Campaign table, which lists and allows management of ongoing campaigns;
 - History table, which records past campaigns and details related to those campaigns.
@@ -236,6 +257,7 @@ The History Table provides a record of campaigns that are no longer active or ha
 
 # Earn. Payable
 Payable in Earn helps sponsors keep track of their obligations to users and processing parties, ensuring timely payments. It includes a list of users who have completed campaigns and provides tables with additional details.
+Link to Payable: https://www.waivio.com/rewards/payable. (This feature is available only on the Waivio main domain and will not work on social sites)
 ![image](https://user-images.githubusercontent.com/67378322/224719513-660e6994-4160-4e4a-9e29-c7319a9495ad.png)
 When you click on the arrow next to a user's name in the list, a table appears, showing detailed information about each user and campaign.
 ![image](https://user-images.githubusercontent.com/67378322/224719634-92adb3e1-5558-48cf-be1b-7fb4e0023ef7.png)
@@ -301,7 +323,7 @@ Pay all details:
 
 
 # Earn. Reports
-Page for creation of a report on people who completed the review. The report can be compiled for any hive user, who has ever been a sponsor (Guest user can't be a sponsor).
+Page for creation of a report on people who completed the review. The report can be compiled for any hive user, who has ever been a sponsor (Guest user can't be a sponsor). Link to Reports: https://www.waivio.com/rewards/reports. (This feature is available only on the Waivio main domain and will not work on social sites.)
 The page consists of a form for filling in with data to receive a report with exactly these criteria, and a table as a result. Reports displayed in WAIV token.
 ![image](https://user-images.githubusercontent.com/67378322/224737410-3cb2b494-9375-4043-9fdf-f14183d598bf.png)
 ## To request a report, fill out the following form:
@@ -339,7 +361,9 @@ The report table provides detailed information about transfers and associated ac
 
 
 # Earn. Reservations
-The Reservations tab provides a comprehensive overview of all reservations associated with a sponsor, including active, released, expired, completed, and rejected reservations. Sponsors can manage their campaign through various actions such as viewing campaign details, releasing reservations, increasing rewards, adding users to the blacklist, showing reports, opening reviews, adding rejection notes, rejecting reviews, reinstating rewards, muting users, and hiding posts. The tab displays these details on secondary cards for easy navigation and management.
+The Reservations tab provides a comprehensive overview of all reservations associated with a sponsor, including active, released, expired, completed, and rejected reservations. 
+Sponsors can manage their campaign through various actions such as viewing campaign details, releasing reservations, increasing rewards, adding users to the blacklist, showing reports, opening reviews, adding rejection notes, rejecting reviews, reinstating rewards, muting users, and hiding posts. 
+The tab displays these details on secondary cards for easy navigation and management. Link to Reservation: https://www.waivio.com/rewards/reservations. (This feature is available only on the Waivio main domain and will not work on social sites)
 ![image](https://user-images.githubusercontent.com/67378322/224930185-545aec16-8cfc-47a5-8d56-a486ec8d3e14.png)
 Cards can be filtered by status and campaign. And sorting - by the date of reservation or by the date of the last action.
 Filtering cards by status:
@@ -369,7 +393,8 @@ Sorting cards:
 
 
 # Earn. Messages
-The tab is intended primarily for communication between the sponsor and the campaign executor (only for reviews campaign type). Secondary cards are displayed only if the message was sent either by the sponsor or the campaign executor. The Messages tab shows the entire history for this sponsor: released, expired, completed, rejected.  The tab displays these details on secondary cards for easy navigation and management.
+The tab is intended primarily for communication between the sponsor and the campaign executor (only for reviews campaign type). Secondary cards are displayed only if the message was sent either by the sponsor or the campaign executor. The Messages tab shows the entire history for this sponsor: released, expired, completed, rejected.  
+The tab displays these details on secondary cards for easy navigation and management. Link to Messages: https://www.waivio.com/rewards/messages. (This feature is available only on the Waivio main domain and will not work on social sites)
 ![image](https://user-images.githubusercontent.com/67378322/224933510-3f8553cb-29a4-4f24-b5d5-f38360b14fa4.png)
 Cards can be filtered by status and campaign.
 Filtering by general status ("Case status"):
@@ -391,6 +416,7 @@ Sorting:
 
 # Earn. Fraud detection
 Technology for detecting fraud attempts in reviews. The tab displays the results of the Fraud detection assistant.
+Link to Fraud detection: https://www.waivio.com/rewards/fraud-detection. (This feature is available only on the Waivio main domain and will not work on social sites)
 ![image](https://user-images.githubusercontent.com/67378322/224935974-59400359-a848-4086-8ca8-b70b0539b69e.png)
 Page for displaying campaigns where “dubious” photos were identified in review.
 A tab is added under the Rewards / Campaigns section and is accompanied by a disclaimer stating that this is an experimental service only and should not be relied upon.
@@ -412,6 +438,7 @@ To combat spam and fraud, campaign sponsors need a tool to manage blacklists:
 - References - links to blacklists of other sponsors (taking into account one more level of nesting so that you can have blacklist aggregators).
 - Whitelist is a list of users who can participate in campaigns, even if they are included in other blacklists.
 At the top of the page there is a navbar with three tabs.
+Link to Blacklist: https://www.waivio.com/rewards/black-list. (This feature is available only on the Waivio main domain and will not work on social sites)
 ## Blacklist
 Blacklist - a list of users who will not be able to take part in this sponsor's campaigns.
 Add User to Blacklist:
@@ -493,7 +520,7 @@ Whitelist List:
 2. The user adds an author.
 3. The author writes a post.
 4. The user's like automatically appears on the post after 5 minutes.
-
+Link to Authors match bot: https://www.waivio.com/rewards/match-bots-authors. (This feature is available only on the Waivio main domain and will not work on social sites)
 ## Authors Match Bot Page
 **Title**: Authors Match Bot
 **Switch**: This switch controls the authorization status of the bot. A red switch indicates that the bot is inactive, while a green switch indicates it is active.
@@ -587,7 +614,9 @@ Here's what you will find in this modal:
 
 
 # Earn. Match bots. Curators
-**Curators match bot** repeats the curators' voices with a specified coefficient (from 1% to 10 000%). By default, the bot repeats only positive votes, but if the user specifies (ticks the check box), then downvotes are repeated with the same coefficient. In this case, the table uses the ± symbol in front of Vote ratio to indicate that negative votes are also repeated. For each curator, min Voting Power is set (upvote / downvote mana). If the estimated value of the vote is less than 0.01 HBD, then such a vote will not be played.
+**Curators match bot** repeats the curators' voices with a specified coefficient (from 1% to 10 000%). By default, the bot repeats only positive votes, but if the user specifies (ticks the check box), then downvotes are repeated with the same coefficient. 
+In this case, the table uses the ± symbol in front of Vote ratio to indicate that negative votes are also repeated. For each curator, min Voting Power is set (upvote / downvote mana). If the estimated value of the vote is less than 0.01 HBD, then such a vote will not be played.
+Link to Curator match bot: https://www.waivio.com/rewards/match-bots-curators. (This feature is available only on the Waivio main domain and will not work on social sites)
 ![image](https://github.com/user-attachments/assets/fe9a7df2-3175-40c8-b8c3-594f619c812b)
 ## How It Works (Simplified Version)
 1. A user enables the Curator Match Bot authorization.
@@ -692,7 +721,11 @@ Elements description:
 
 
 # Earn. Match bots. Sponsors
-**Sponsors match bot** - is an account for paying part of the reward for reviews in the form of votes, thereby reducing the amount of direct payment. If a user wants to become a Match bot, he needs to activate the toggle on the "Rewards" page in the "Sponsors" tab. For example the user has posted a review that is eligible to receive a direct reward of 5.00 WAIV. Match bot can upvote that post for a specified value of, say, 10% of the reward (assuming Match bot has enough voting value). This way, the user will receive 0.50 WAIV in author's rewards and the direct payment can be reduced to 4.50 WAIV. In order for the sponsor to add a match bot to the campaign. The Match bot should in turn add a sponsor. To do this, in the "Sponsors" tab, click on the "Add sponsor" button.
+**Sponsors match bot** - is an account for paying part of the reward for reviews in the form of votes, thereby reducing the amount of direct payment. 
+If a user wants to become a Match bot, he needs to activate the toggle on the "Rewards" page in the "Sponsors" tab. For example the user has posted a review that is eligible to receive a direct reward of 5.00 WAIV. 
+Match bot can upvote that post for a specified value of, say, 10% of the reward (assuming Match bot has enough voting value). This way, the user will receive 0.50 WAIV in author's rewards and the direct payment can be reduced to 4.50 WAIV. In order for the sponsor to add a match bot to the campaign. 
+The Match bot should in turn add a sponsor. To do this, in the "Sponsors" tab, click on the "Add sponsor" button.
+Link to Sponsor match bot: https://www.waivio.com/rewards/match-bots-sponsors. (This feature is available only on the Waivio main domain and will not work on social sites)
 ![image](https://user-images.githubusercontent.com/67378322/224961310-a3ab6c86-e75c-4c18-b8ee-7cb453d19d91.png)
 In the modal window, you need to fill in the fields:
 * choose a sponsor;
