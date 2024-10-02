@@ -13,6 +13,8 @@ export const createFetchRequest = async (
   const { params, api, accessHost } = data;
   if (!api) throw new Error('No API found');
 
+  console.log('PARAMS', JSON.stringify(params, null, 2));
+
   let response: any = null;
   try {
     let fetchOptions: Record<string, any> = {
