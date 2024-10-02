@@ -18,12 +18,11 @@ const waivioSearchMapSchema = z
       ),
     map: z
       .object({
-        coordinates: z
-          .array(
-            z.number().min(-180).max(180).describe('longitude'),
-            z.number().min(-90).max(90).describe('latitude'),
-          )
-          .length(2),
+        coordinates: z.tuple([
+          z.number().min(-180).max(180).describe('longitude'),
+          z.number().min(-90).max(90).describe('latitude'),
+        ]),
+
         radius: z.number().min(1).describe('radius distance in meters'),
       })
       .optional(),
