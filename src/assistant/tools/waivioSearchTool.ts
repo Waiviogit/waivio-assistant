@@ -27,8 +27,8 @@ const waivioSearchMapSchema = z
         `search string for short tag you may retrieve from query, for example: 
         coffeeshop, coffee, btc, pizza, cafe, campground, beautysalon.
         use only one word best match the query.
-        Don't use ${restaurantTypes.join(',')} words.
-       
+        Don't use ${MAP_OBJECTS.join(',')} words, if you define them as best match send empty string.
+        You also can send empty string if you can't come up with the right tag
         `,
       ),
     box: z.object({
