@@ -29,11 +29,17 @@ const waivioSearchMapSchema = z
         use only one word best match the query
         `,
       ),
-    map: z.object({
-      coordinates: z
+    box: z.object({
+      topPoint: z
         .array(z.number().min(-180).max(180), z.number().min(-90).max(90))
-        .describe('first element longitude, second element latitude'),
-      radius: z.number().min(1).describe('radius distance in meters'),
+        .describe(
+          'top right coordinate of the box first element longitude, second element latitude',
+        ),
+      bottomPoint: z
+        .array(z.number().min(-180).max(180), z.number().min(-90).max(90))
+        .describe(
+          'bottom left coordinate of the box first element longitude, second element latitude',
+        ),
     }),
     object_type: z
       .enum(Object.values(MAP_OBJECTS) as [string, ...string[]])
@@ -143,12 +149,12 @@ export const generateSearchToolsForHost = (host: string) => {
   );
 
   const waivioObjectsMapTool = tool(
-    async ({ map, object_type, string }) => {
+    async ({ box, object_type, string }) => {
       const url = `https://${configService.getAppHost()}/api/wobjects/search-area`;
 
       const result = await createFetchRequest({
         api: { method: 'POST', url },
-        params: { map, object_type, string },
+        params: { box, object_type, string },
         accessHost: host,
       });
 
