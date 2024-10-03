@@ -12,7 +12,7 @@ export const TTL_TIME = {
   THIRTY_DAYS: 86400 * 30,
 };
 
-export const OBJECT_TYPES: Record<string, string> = Object.freeze({
+export const OBJECT_TYPES = {
   HASHTAG: 'hashtag',
   LIST: 'list',
   PAGE: 'page',
@@ -47,4 +47,6 @@ export const OBJECT_TYPES: Record<string, string> = Object.freeze({
   LINK: 'link',
   RECIPE: 'recipe',
   GROUP: 'group',
-});
+};
+
+export const MAP_OBJECTS = [OBJECT_TYPES.RESTAURANT, OBJECT_TYPES.BUSINESS];

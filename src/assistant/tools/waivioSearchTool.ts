@@ -2,7 +2,7 @@ import { z } from 'zod';
 import { tool } from '@langchain/core/tools';
 import { createFetchRequest } from '../helpers/createFetchRequest';
 import { configService } from '../../config';
-import { OBJECT_TYPES } from '../constants/common';
+import { MAP_OBJECTS } from '../constants/common';
 
 const restaurantTypes = [
   'cafe',
@@ -36,11 +36,12 @@ const waivioSearchMapSchema = z
       radius: z.number().min(1).describe('radius distance in meters'),
     }),
     object_type: z
-      .enum(Object.values(OBJECT_TYPES) as [string, ...string[]])
+      .enum(Object.values(MAP_OBJECTS) as [string, ...string[]])
       .optional()
       .describe(
         `use for filter results for particular type example:
          I want find restaurants in Vancouver => object_type: "restaurant".
+         Valid types: ${MAP_OBJECTS.join(',')}.
          Keep in mind that this and similar words are type of restaurant ${restaurantTypes.join(',')}
          Note: The terms ${restaurantTypes.join(',')} or similar words should not be used as object_type in this context.
          `,
