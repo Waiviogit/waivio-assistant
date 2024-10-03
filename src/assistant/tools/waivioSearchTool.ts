@@ -26,7 +26,9 @@ const waivioSearchMapSchema = z
       .describe(
         `search string for short tag you may retrieve from query, for example: 
         coffeeshop, coffee, btc, pizza, cafe, campground, beautysalon.
-        use only one word best match the query
+        use only one word best match the query.
+        Don't use ${restaurantTypes.join(',')} words.
+       
         `,
       ),
     box: z.object({
@@ -48,8 +50,8 @@ const waivioSearchMapSchema = z
         `use for filter results for particular type example:
          I want find restaurants in Vancouver => object_type: "restaurant".
          Valid types: ${MAP_OBJECTS.join(',')}.
-         Keep in mind that this and similar words are type of restaurant ${restaurantTypes.join(',')}
-         Note: The terms ${restaurantTypes.join(',')} or similar words should not be used as object_type in this context.
+         If you see in query words like ${restaurantTypes.join(',')} and others connected to food or drink service
+         it is restaurant type
          `,
       ),
   })

@@ -25,7 +25,8 @@ export const searchNode = async (
   const supportResponse = await searchLLM.invoke(messages);
 
   const tools = supportResponse.tool_calls;
-  if (!tools?.length) throw new Error('no tool calls for search');
+
+  if (!tools?.length) return { response: supportResponse };
 
   const toolsByName = {
     waivioSearchTool,
@@ -41,7 +42,5 @@ export const searchNode = async (
 
   const response = await searchLLM.invoke(messages);
 
-  return {
-    response: response,
-  };
+  return { response };
 };
