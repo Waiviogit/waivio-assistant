@@ -4,6 +4,16 @@ import { createFetchRequest } from '../helpers/createFetchRequest';
 import { configService } from '../../config';
 import { OBJECT_TYPES } from '../constants/common';
 
+const restaurantTypes = [
+  'cafe',
+  'restaurant',
+  'food',
+  'pizza',
+  'sushi',
+  'coffee',
+  'coffeeshop',
+];
+
 const waivioSearchSchema = z.object({
   string: z.string(),
 });
@@ -14,35 +24,25 @@ const waivioSearchMapSchema = z
       .string()
       .optional()
       .describe(
-        'use only if query ask you do that, example: find Kfc in South America region',
+        `search string for short tag you may retrieve from query, for example: 
+        coffeeshop, coffee, btc, pizza, cafe, campground, beautysalon.
+        use only one word best match the query
+        `,
       ),
-    map: z
-      .object({
-        coordinates: z
-          .array(z.number().min(-180).max(180), z.number().min(-90).max(90))
-          .describe('first element longitude, second element latitude'),
-        radius: z.number().min(1).describe('radius distance in meters'),
-      })
-      .optional(),
-    box: z
-      .object({
-        topPoint: z
-          .array(z.number().min(-180).max(180), z.number().min(-90).max(90))
-          .describe(
-            'top right coordinate of the box first element longitude, second element latitude',
-          ),
-        bottomPoint: z
-          .array(z.number().min(-180).max(180), z.number().min(-90).max(90))
-          .describe(
-            'bottom left coordinate of the box first element longitude, second element latitude',
-          ),
-      })
-      .optional(),
+    map: z.object({
+      coordinates: z
+        .array(z.number().min(-180).max(180), z.number().min(-90).max(90))
+        .describe('first element longitude, second element latitude'),
+      radius: z.number().min(1).describe('radius distance in meters'),
+    }),
     object_type: z
       .enum(Object.values(OBJECT_TYPES) as [string, ...string[]])
       .optional()
       .describe(
-        'use for filter results for particular type example: I want find restaurants in Vancouver => object_type: "restaurant"',
+        `use for filter results for particular type example:
+         I want find restaurants in Vancouver => object_type: "restaurant"
+         Keep in mind that this and similar words are type of restaurant ${restaurantTypes.join(',')}
+         `,
       ),
   })
   .describe('use only map or box not both');
@@ -141,12 +141,12 @@ export const generateSearchToolsForHost = (host: string) => {
   );
 
   const waivioObjectsMapTool = tool(
-    async ({ map, box, object_type, string }) => {
+    async ({ map, object_type, string }) => {
       const url = `https://${configService.getAppHost()}/api/wobjects/search-area`;
 
       const result = await createFetchRequest({
         api: { method: 'POST', url },
-        params: { map, box, object_type, string },
+        params: { map, object_type, string },
         accessHost: host,
       });
 
