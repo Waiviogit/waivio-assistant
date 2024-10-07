@@ -13,7 +13,7 @@ export const AGENTS_DESCRIPTION = {
   UserTools:
     'questions related to user tools, including account settings, notifications, profile management, wallet, drafts, bookmarks, user affiliate codes, new accounts (VIP tickets), inviting other users, managing user shops, and favorites',
   ObjectSearch:
-    'search of specific product, book, person, recipe, business, restaurant, or account (user)',
+    'search of specific product, book, person, recipe, business, restaurant, or account (user), contact with owner',
   CampaignManagement:
     'questions related to the creation and management of campaigns',
   EarnCampaign: 'questions related to how create review post and earn crypto',

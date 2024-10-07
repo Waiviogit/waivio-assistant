@@ -76,6 +76,10 @@ type generalSearchType = {
   users: waivioUserType[];
 };
 
+type siteFirstLoadType = {
+  owner: string;
+};
+
 const wobjectsFormatResponse = (
   objects: waivioObjectType[],
   host: string,
@@ -176,8 +180,33 @@ export const generateSearchToolsForHost = (host: string) => {
     },
   );
 
+  const waivioOwnerContactTool = tool(
+    async () => {
+      const url = `https://${configService.getAppHost()}/api/sites`;
+
+      const result = await createFetchRequest({
+        api: { method: 'POST', url },
+        params: {},
+        accessHost: host,
+      });
+
+      if (!result) return 'Error during request';
+
+      const { owner } = result as siteFirstLoadType;
+      if (!owner) return 'Not found';
+
+      return `to contact site owner go to https://${host}/@${owner}/threads`;
+    },
+    {
+      name: 'waivioOwnerContactTool',
+      description: 'Use this tool for get contacts of site owner',
+      responseFormat: 'content',
+    },
+  );
+
   return {
     waivioSearchTool,
     waivioObjectsMapTool,
+    waivioOwnerContactTool,
   };
 };
