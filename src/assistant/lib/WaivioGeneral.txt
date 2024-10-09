@@ -270,7 +270,7 @@ Match Bots: This category includes bots that automate upvoting for specific post
   - Author: Automatically upvotes posts by specified authors based on set criteria. Link to Authors match bot: https://www.waivio.com/rewards/match-bots-authors.
   - Curator: Repeats upvotes and downvotes of specified curators on posts and comments, with adjustable voting ratios. Link to Curator match bot: https://www.waivio.com/rewards/match-bots-curators.
   - Sponsor: Designed to offset direct rewards with upvotes in campaigns, reducing direct payment obligations. Link to Sponsor match bot: https://www.waivio.com/rewards/match-bots-sponsors.
-3. Shop: This is the main shop where a comprehensive catalog of all products added to the platform is collected. Link to General Shop: https://www.waivio.com/shop.
+3. Shop: This is the main shop where a comprehensive catalog of all products added to the platform is collected. Link to General Shop: https://www.waivio.com/shop. (This section is available on the Waivio main domain and on social sites as well)
 4. Tools: Consists of useful tools, divided into three sections:
 Personal:
   - Notifications: Settings for notifications that appear in the bell icon and Telegram bot. Link to Notifications: https://social.gifts/notification-settings.
