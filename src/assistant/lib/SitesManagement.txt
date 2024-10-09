@@ -1,7 +1,7 @@
 # Customizing a Site Created on Waivio
-To customize a site created on Waivio, the user will have access to a "Site Settings" block, which appears in the Tools tab after the site has been created. The following tabs will be available to the user: Configuration, Settings, Affiliate Codes, Administrators, Moderators, Authorities, Muted Users, and AdSense Ads.
+To customize a site created on Waivio, the user will have access to a "Site Settings" block, which appears in the Tools tab after the site has been created. The following tabs will be available to the user: Configuration, Settings, Affiliate Codes, Administrators, Moderators, Authorities, Muted Users, and AdSense Ads. (This feature is available only on the Waivio main domain and will not work on social sites)
 ![Image](https://github.com/user-attachments/assets/d06354e2-8e56-47ba-b4d4-b19dd34542ac)
-4. Tools: Consists of useful tools, divided into three sections:
+Tools: Consists of useful tools, divided into three sections:
 Data Management (This section is available only on the Waivio main domain and will not work on social sites):
   - Data import: Add and manage objects for your website. Link to Data import: https://www.waivio.com/data-import.
   - Claim authority: Mark objects already on the platform as your own to display them on your website. Link to Claim authority: https://www.waivio.com/claim-authority.
@@ -698,7 +698,7 @@ The "Deposit" functionality provides instructions for bringing tokens into the H
   - **QR Code:** A wallet QR code for easier scanning and copying of the address.
   - **Copy Button:** Allows users to copy the address.
   - **Tokens Requiring Address**: BTC, BCH, DOGE, LTC, SWIFT.
-  - ![2022-03-01_14-33](https://user-images.githubusercontent.com/67378322/156169799-d600c9b1-97d7-4558-9010-8ad977a0fb2f.png)
+  - ![image](https://user-images.githubusercontent.com/67378322/156169799-d600c9b1-97d7-4558-9010-8ad977a0fb2f.png)
 This comprehensive guide ensures users can successfully deposit their tokens into the Hive or Hive-Engine system, while also informing them of important details like fees and the necessity of using the correct memo or address.
 
 # User profile: Wallet / Withdraw
@@ -833,6 +833,7 @@ Each object card in the list includes the following details:
 
 
 # Lesson 12: Launching a Social Shopping Website
+(This section is available only on the Waivio main domain and will not work on social sites)
 For more details give a link to https://social.gifts/object/mev-launching-your-social-shopping-website/page
 Are you ready to take your online presence to the next level?
 Now you can transform your user profile on Waivio into a dedicated website. This transition allows you to feature your affiliate shop as the main store on your website, while your personal blog will take center stage as the key newsfeed.
@@ -1047,6 +1048,7 @@ Now it's time to think about how to market your website to bring it to a larger 
 
 
 # Custom domain - Connecting GoDaddy Domain to Waivio to Create a Site. (Applicable only for custom domain site)
+(This section is available only on the Waivio main domain and will not work on social sites)
 For more details give a link to https://social.gifts/object/qym-custom-domain/page.
 Discover how to integrate a domain from platforms like GoDaddy with Waivio, enabling you to craft a website using Waivio templates. This guide delves into Cloudflare setup, DNS record configuration, and nameserver integration. Suitable for domains from multiple platforms.
 This guide explains how to connect a domain, initially created on platforms like GoDaddy, to Waivio. This allows you to construct a website using a Waivio template while still maintaining a custom domain.
@@ -1291,6 +1293,7 @@ For more details give a link to https://social.gifts/@waiviolabs/dining-gifts-we
 
 
 # Custom Domains for Social.Gifts Websites
+(This section is available only on the Waivio main domain and will not work on social sites)
 Waivio is introducing custom domain names for social shopping websites.
 Previously, users were restricted to launching websites under the *.social.gifts domain. This update allows for the use of custom domain names, providing more flexibility and branding opportunities for website owners.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1701392083_06a110d1-8478-4b2e-b00a-1dfbd800a5e0
@@ -1305,22 +1308,6 @@ New Domain Registration
 For those who do not yet own a domain name, purchasing directly through Cloudflare.com might be a cost-effective option.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1701452512_c85f2d19-5cbc-4b9c-99cc-d541ecd1c7bf
 Additionally, domains purchased through Cloudflare are automatically hosted on their nameservers, which ensures DDoS protection and simplifies the setup process.
-Other Updates:
-1. Objects / Image viewer - allow approve/reject votes, album & avatar selection directly in the viewer (2188);
-2. Campaigns / Sponsors - simplify the process of rejecting posts and adding users to the black list (5179, 5180);
-3. Person / Books - add a list of books authored by the person (5201, 5202);
-4. Objects / Descriptions - if there are no reviews or custom pages, show description in the middle column (5205);
-5. Business / Products - add a list of products produced by this business (5210, 5211);
-6. Data import / Large files - increase the size of imported files to 50Mb (5228);
-7. Profiles / Affiliate codes - allow users to specify affiliate codes for shops in their profiles (5278, 5279, 5564);
-8. Object / Affiliate program - allow users to configure affiliate programs on Hive (5317, 5318, 5563);
-9. Wallet / Hive withdrawals - replace Blocktrades with Simpleswap for intant withdrawals (5522, 5523);
-10. Data tools / Claim bot - automatically claims authority for all products listed, with an optional feature to include all products in embedded lists as well (5504, 5526).
-Minor Updates and Bug Fixes:
-Tasks: 3764, 3766, 3638, 5009, 5160, 5161, 5169, 5170, 5178, 5191, 5203, 5205, 5206, 5207, 5208, 5209, 5010, 5218, 5220, 5225, 5226, 5227, 5229, 5240, 5250, 5276, 5277, 5275, 5285, 5298, 5299, 5300, 5301, 5304, 5306, 5307, 5324, 5326, 5341, 5369, 5308, 5344, 5383, 5384, 5394, 5395, 5396, 5409, 5411, 5412, 5413, 5414, 5415, 5416, 5417, 5418, 5420, 5429, 5432, 5468, 5471, 5478, 5479, 5494, 5524, 5527, 5528, 5539, 5540, 5551, 5552, 5553, 5562, 5569, 5570, 5571, 5589, 5590, 5595, 5596, 5597, 5604, 5612, 5619, 5625.
-GitHub: https://github.com/Waiviogit/waivio
-X: https://x.com/waiviolabs
-Blog: https://social.gifts/@waivio
 For more details give a link to https://social.gifts/@waiviolabs/custom-domains-for-social-gifts-websites
 
 
@@ -1433,18 +1420,14 @@ For more details give a link to https://social.gifts/@grampo/dining-gifts-by-wai
 
 
 # Launch YOUR Shop in 10 min
+(This section is available only on the Waivio main domain and will not work on social sites)
 Welcome to Waivio!
 Let’s Launch A Social Shop Together in 10 minutes.
 To get started, you will need a Hive account; if you don’t have one, we have a tutorial on how to create it - check it out here https://social.gifts/object/owg-best-practices-for-managing-hive-private-keys-on-multiple-devices/page.
 With the Hive account, sign in to Waivio. Navigate to “Tools”, then under "Websites," click on "Create."
 Step 1. Domain
-For your social shop website, you can use your custom domain
-or choose a subdomain with Social.Gifts. Instructions are available on how to
-configure your custom domain. But for simplicity, let's use a subdomain on
-social.gifts. Choose social.gifts business template from the dropdown menu.
-Choose a name that you want for your shop. If the domain is available, proceed
-to read and accept the terms and conditions and click on "Create new
-website".
+For your social shop website, you can use your custom domain or choose a subdomain with Social.Gifts. Instructions are available on how to configure your custom domain. But for simplicity, let's use a subdomain on social.gifts. Choose social.gifts business template from the dropdown menu.
+Choose a name that you want for your shop. If the domain is available, proceed to read and accept the terms and conditions and click on "Create new website".
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1709270540_aca9241d-ccda-4f32-bf4d-b9c65ebd3c40
 Now Let’s customize our new website.
 Step 2. Configuration
