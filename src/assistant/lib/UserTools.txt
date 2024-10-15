@@ -869,3 +869,6 @@ For more information, please read the post at https://social.gifts/@hive.recover
 
 How can I change my username?
 In general, users cannot change the username they choose during registration. However, they can add an additional name by navigating to their user profile, clicking on "Edit profile," and updating the "Name" field. ![image](https://waivio.nyc3.digitaloceanspaces.com/f588af866717754703cb18fa704e0640381c0ad88ca14a4cb20aa02e230dfa99)
+
+How can deactivate acount on Waivio?
+On Waivio, users currently can't deactivate or permanently delete their accounts. However, you can stop using your account, and your content will remain on the platform.

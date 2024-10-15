@@ -239,6 +239,9 @@ How can I contact a team or customer support?
 To contact the team or customer support on Waivio, you can visit the URL https://social.gifts/object/ylr-waivio/threads and leave a thread. Alternatively, you can click on the "About" tab in the main menu where you'll find general information about the platform. Then, navigate to the "Reviews" tab and click on "Threads". Here, you can leave a message for the team regarding any issues you encounter, bugs, or suggestions.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/b983bf7802570d9a80400206cff5cea6ac5f86e07dedc1e16d4671a2ca7f3f95)
 
+How can deactivate acount on Waivio?
+On Waivio, users currently can't deactivate or permanently delete their accounts. However, you can stop using your account, and your content will remain on the platform.
+
 
 What is the structure of the Waivio platform?
 The structure of the Waivio platform is divided into 5 sections for logged-in users (My Feed, Earn, Shop, Tools, About):
