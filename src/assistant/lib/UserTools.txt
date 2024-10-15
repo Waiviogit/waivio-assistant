@@ -487,7 +487,7 @@ Now, you're all set and can start using Waivio and the Hive Blockchain to its fu
 
 # Waivio update: VIP tickets for new Hive accounts
 Waivio makes it easy to open new Hive accounts and invite your friends to join Hive.
-HiveOnBoard.com (https://hiveonboard.com/create-account) VIP tickets are now available for purchase (5 HIVE) for regular and guest accounts on Waivio.com (Tools / New accounts).
+HiveOnBoard.com (https://hiveonboard.com/create-account) VIP tickets are now available for purchase (3 HIVE) for regular and guest accounts on Waivio.com (Tools / New accounts).
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1619558494_f7b3fc9a-d493-40af-a4e6-cb716bbaf41b
 If you started your Hive journey with a guest account on Waivio.com, Dining.Gifts or social sites (using Google account), earned a few rewards, and started to get interested in creating your own social presence on Hive, it may be time for you to create a regular Hive account and take full control of your private keys, funds, and social identity. This will allow you to power up your Hive, earn curation rewards, grow the number of your followers and use hundreds of other apps on the Hive social blockchain.
 It's now very easy to invite your friends to join you on Hive: you can offer them VIP tickets, which can be used to create a Hive account in a few steps. HiveOnBoard.com offers one of the best onboarding experiences on Hive.
