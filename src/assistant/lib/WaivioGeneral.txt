@@ -372,6 +372,7 @@ For more details give a link to https://social.gifts/@waiviolabs/waivio-updates-
 
 
 # Waivio updates: April 22, 2020
+About tags in object (not in post)
 When you add a title or description to the object, the system tries to identify common tags for that particular object type (389). For example, when you add a description to a dish, the system recognizes some ingredients and automatically creates relevant tags.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1587611642_3da616c6-c74b-4241-a002-720580540557
 Automated tags

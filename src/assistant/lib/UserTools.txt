@@ -487,9 +487,9 @@ Now, you're all set and can start using Waivio and the Hive Blockchain to its fu
 
 # Waivio update: VIP tickets for new Hive accounts
 Waivio makes it easy to open new Hive accounts and invite your friends to join Hive.
-HiveOnBoard.com (https://hiveonboard.com/create-account) VIP tickets are now available for purchase (5 HIVE) for regular and guest accounts on Waivio.com (Tools / New accounts).
+HiveOnBoard.com (https://hiveonboard.com/create-account) VIP tickets are now available for purchase (3 HIVE) for regular and guest accounts on Waivio.com (Tools / New accounts).
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1619558494_f7b3fc9a-d493-40af-a4e6-cb716bbaf41b
-If you started your Hive journey with a guest account on Waivio.com or Dining.Gifts (using Google or Facebook accounts), earned a few rewards, and started to get interested in creating your own social presence on Hive, it may be time for you to create a regular Hive account and take full control of your private keys, funds, and social identity. This will allow you to power up your Hive, earn curation rewards, grow the number of your followers and use hundreds of other apps on the Hive social blockchain.
+If you started your Hive journey with a guest account on Waivio.com, Dining.Gifts or social sites (using Google account), earned a few rewards, and started to get interested in creating your own social presence on Hive, it may be time for you to create a regular Hive account and take full control of your private keys, funds, and social identity. This will allow you to power up your Hive, earn curation rewards, grow the number of your followers and use hundreds of other apps on the Hive social blockchain.
 It's now very easy to invite your friends to join you on Hive: you can offer them VIP tickets, which can be used to create a Hive account in a few steps. HiveOnBoard.com offers one of the best onboarding experiences on Hive.
 Integration of forms into business objects
 In addition to customizable news feeds and blogs, it is now possible to integrate Google Forms and other similar services directly into Waivio business pages (task 1977).
@@ -677,3 +677,195 @@ You now have the capability to create a signature in your profile, which will au
 Engagement in Community Feeds:
 Community feeds are dynamic environments for discussion and sharing experiences. With your custom signature, you can subtly highlight your website while engaging in these conversations. This approach allows you to connect authentically with users, maintaining visibility for your website in a non-intrusive manner.
 For more details give a link to https://social.gifts/@social.gifts/enhance-user-engagement-on-your-website-with-comment-signatures
+
+
+How can I report inappropriate content or users?
+Ways to eliminate inappropriate content or users:
+- Downvote a post: Users can downvote a specific post by clicking on the three-dot menu on the post and selecting "Flag post." This can reduce the rewards that the post might receive.
+- Hide a post: Users can hide a post so that only they will not see it. If the user has site permissions (moderator, administrator, owner), the post will not be shown on the site.
+- Mute a user: Users can mute another user by opening the user's profile, clicking on the three-dot menu near the "Follow" button, and selecting "Mute." This allows you to block the user, preventing you from seeing their posts and imposing other restrictions.
+![image](https://waivio.nyc3.digitaloceanspaces.com/544f20591e4288ee809e1298120992ebd16ba236fbaca1371f10d67a3561f35b)
+
+
+How do I update my profile information?
+Users can update their profile information by navigating to their user profile or Tools in main navigation menu, clicking on "Edit profile" and making changes in the relevant fields, including:
+- Name
+- Short description
+- Location
+- Email
+- Website
+- Avatar
+- Profile background image
+- Social profiles links (Facebook, Twitter, LinkedIn, YouTube, Instagram, GitHub)
+- Crypto wallets (Bitcoin, Litecoin, Ethereum, Lightning Bitcoin)
+- Signature for comments that the user will post
+![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a)
+![image](https://github.com/user-attachments/assets/ec597353-0582-45be-8a3e-614e5251be14)
+
+
+Can I link my account to other social media platforms?
+Users can link their account to other social media platforms by navigating to their user profile or Tools in main navigation menu, click on "Edit profile," and add links in the relevant fields, such as Facebook, Twitter, LinkedIn, YouTube, Instagram, and GitHub. ![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a) ![image](https://waivio.nyc3.digitaloceanspaces.com/adf52ee7e98f44fd4d30aaa0685a6be4288970f654fc66ca11b52dabb5337f30)
+
+
+# Waivio update: Aug 5, 2020
+In June, Waivio launched Telegram notifications (https://social.gifts/@waiviolabs/waivio-update-june-20-2020), allowing users to receive instant mobile notifications and monitor multiple Hive accounts. And now Waivio offers a tool to configure which notifications to receive (task 712):
+![image](https://waivio.nyc3.digitaloceanspaces.com/1596665563_e7327a86-4f65-427f-b61d-87cc8a37827c
+For incoming HIVE transfers, users can set the threshold (minimum amount in USD) for notifications, allowing them to ignore small transfers, which are often used for promotional messages.
+Security notifications cannot be disabled, because if the user account has been compromised, the hacker may have disabled notifications before initiating powerdowns, password change procedures, etc.
+History of reward reservations
+Now users can see the entire history of their reward reservations and filter them by the status (ex., completed, released, expired) and by the sponsor (task 582):
+![image](https://waivio.nyc3.digitaloceanspaces.com/1596666334_c598a897-f235-47af-840a-ff2400bbbad4
+Reservations are now also used for direct communications between users and sponsors (task 585). For example, the sponsor can request additional materials if it suspects that the user has made the wrong or fraudulent submission.
+Waivio offers a special tool for managing customer communications (open/closed tickets):
+![image](https://waivio.nyc3.digitaloceanspaces.com/1596669000_70b13ea8-d567-4f12-a0fa-b0df59a0c53c
+Blacklists
+Waivio now supports blacklists (task 617) allowing sponsors to exclude certain users (1) from their campaigns, for example in cases where the sponsor suspects that the user is engaged in fraudulent activity.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1596669511_df23616d-fcaa-4058-932b-521d52e36b87
+Sponsors can reference other blacklists (2), which they trust, and maintain whitelists (3) which can be used to override the referenced blacklists for selected users.
+For more details give a link to https://social.gifts/@waiviolabs/waivio-update-aug-5-2020
+
+
+# Posts view on Waivio
+As a social media platform, Waivio plays a crucial role in content sharing and interaction.
+**Posts** are a fundamental component of Waivio and its associated sites, providing users with a way to share, engage with, and discover content. The presentation of posts is designed to be consistent across the platform, ensuring a seamless user experience. Each post includes the following elements:
+- **Author**: The name of the post's author.
+- **Avatar**: The author's avatar image.
+- **Expertise**: The author's expertise on Waivio.
+- **Time**: The publication time of the post.
+- **Platform**: The platform through which the post was published.
+- **Objects**: Attached objects in the post. The last four objects are displayed.
+- **Title**: The title of the post.
+- **Image**: The post's image. The first image is displayed.
+- **Text Preview**: A preview of the post's text.
+- **Like**: A button to like the post. It defaults to gray and turns orange when clicked.
+- **Like Counter**: Displays the number of likes. When hovered over, a tooltip shows the counter in orange. Votes less than 0.01 are not displayed. Clicking the counter opens a modal with details on who voted, their voting power in USD, and the percentage.
+- **Comments**: A button to expand comments under the post.
+- **Comments Counter**: Displays the number of comments.
+- **Reblog**: A button to share the post on the user's own page.
+- **Reblog Counter**: Shows the number of reblogs. Clicking it opens a modal with user details.
+- **Actions**: Includes:
+  - Follow {authorName}
+  - Hide post: Hides the post for the user.
+  - Mute {authorName}: Prevents the user from seeing posts and comments from the muted author.
+  - Add to bookmarks
+  - Flag post: Indicates dislike.
+  - Share to Facebook
+  - Share to X
+  - Delete post: Allows deletion if the post has no likes or comments.
+  - Reject rewards: Available for sponsors to reject rewards for a review.
+  - Add {user} to blacklist: Allows sponsors to blacklist users.
+- **Payout**: Displayed in orange with the Waivio icon when the post is eligible for Waiv rewards (has hashtags like waivio, waiv, palnet, neoxian, food). Hovering over the payout shows potential payout information in Hive, HBD, and Waiv. Clicking it opens a modal window. For posts older than 7 days, information about the author and curators is displayed.
+![Post UI image](https://user-images.githubusercontent.com/67378322/145022501-e417125b-b0a0-4e59-98a6-0bd6958152f2.png)
+
+There are three modes for viewing a post:
+1. In feed.
+2. Modal window: Accessed by clicking on the post in the feed.
+3. Full-screen: Accessible by refreshing the page in modal window mode or clicking the full-screen button.
+When publishing a review, include the message: "This review was sponsored in part by Waivio Service (@{sponsorName})" via Waivio.com and sites.  ![image](https://github.com/user-attachments/assets/c84f07a4-693f-471f-ad27-706e94683c82)
+**Sorting**: In the tooltip and like modal window, sort from the largest upvote to the smallest.
+![Image sorting example on like button](https://user-images.githubusercontent.com/67378322/169516611-f7e1d7b7-6a84-4761-891d-7e3f3b9f0502.png)
+![Image sorting example on like modal window](https://user-images.githubusercontent.com/67378322/169516615-a60dd61e-3068-4692-b4b0-5815f3210a03.png)
+
+### Post Additional Features:
+- Post Visibility Control: Moderators and site owners can now hide posts on their sites, enhancing content management and moderation capabilities.
+- Enhanced Tools for Sponsors: Sponsors viewing their sponsored posts now have access to additional tools: Reject Review and Add [user] to Blacklist. These features streamline the management of sponsored content, eliminating the need to search through reservations in the Earn / Reservations section.
+- Linked Objects Display: Linked objects in posts are now separated into two distinct blocks, improving readability and organization.
+- Direct Image Link Requests: If images from images.hive are unavailable, the system will now request image links directly, ensuring content continuity.
+- Image Borders: Borders have been added to images in descriptions of products, businesses, restaurants, lists, and posts, enhancing visual distinction and presentation.
+
+
+What is the structure of the Waivio platform?
+The structure of the Waivio platform is divided into 5 sections for logged-in users (My Feed, Earn, Shop, Tools, About):
+1. My Feed: This section includes different selections and feeds of posts, such as:
+  - Trending: Posts with the highest rewards. Link to Trending: https://www.waivio.com/trending.
+  - Hot: Posts with the largest number of comments. Link to Hot: https://www.waivio.com/hot.
+  - New: Newest posts. Link to New: https://www.waivio.com/created.
+  - My Feed: Personalized feeds, which shows posts from users and objects the user is subscribed to. Available on the main Waivio domain if the user is authorized (https://social.gifts/).
+  - Earn: Rewards card from sponsors the user follows. Link to Earn in My Feed: https://www.waivio.com/rewards-list.
+  - Notifications: Recent notifications. Link to: https://www.waivio.com/notifications-list.
+  - Separate posts from objects and users.
+2. Earn:
+Rewards (This section is available on the Waivio main domain and on social sites as well):
+  - Global: Pages in this section display current rewards available worldwide. Link to Global: https://social.gifts/rewards/global.
+  - Local: Pages in this section display current rewards divided by regional availability. Link to Local: https://social.gifts/rewards/local.
+  - Reserved: It includes reserved rewards authorized user. Link to Reserved: https://social.gifts/rewards/reserved.
+  - Receivable: A list (table) of sponsors and their payment obligations. Link to Receivable: https://social.gifts/rewards/receivable.
+  - History: History of reward reservations. Link to History: https://social.gifts/rewards/history.
+Campaigns (This section is available only on the Waivio main domain and will not work on social sites):  
+  - Create: Users can create and manage campaigns. Link to Create: https://www.waivio.com/rewards/create.
+  - Manage: Administration and managing of campaigns (campaign administration, balance control, activation/deactivation, and campaign history). Link to Manage: https://www.waivio.com/rewards/manage.
+  - Payable: A list (table) of users who completed campaigns and their financial responsibilities. Link to Payable: https://www.waivio.com/rewards/payable.
+  - Reports: View reports on quide (sponsor) campaigns. Link to Reports: https://www.waivio.com/rewards/reports.
+  - Reservation: History of reservations including user and campaign status. Link to Reservation: https://www.waivio.com/rewards/reservations.
+  - Messages: Communication with campaign executors. Link to Messages: https://www.waivio.com/rewards/messages.
+  - Fraud detection: List of fraudulent campaigns. Link to Fraud detection: https://www.waivio.com/rewards/fraud-detection.
+  - Blacklist: Prohibited users from campaign execution, references, and whitelisted users. Link to Blacklist: https://www.waivio.com/rewards/black-list.
+Match Bots: This category includes bots that automate upvoting for specific posts (This section is available only on the Waivio main domain and will not work on social sites):
+  - Author: Automatically upvotes posts by specified authors based on set criteria. Link to Authors match bot: https://www.waivio.com/rewards/match-bots-authors.
+  - Curator: Repeats upvotes and downvotes of specified curators on posts and comments, with adjustable voting ratios. Link to Curator match bot: https://www.waivio.com/rewards/match-bots-curators.
+  - Sponsor: Designed to offset direct rewards with upvotes in campaigns, reducing direct payment obligations. Link to Sponsor match bot: https://www.waivio.com/rewards/match-bots-sponsors.
+3. Shop: This is the main shop where a comprehensive catalog of all products added to the platform is collected. Link to General Shop: https://www.waivio.com/shop. (This section is available on the Waivio main domain and on social sites as well)
+4. Tools: Consists of useful tools, divided into three sections:
+Personal:
+  - Notifications: Settings for notifications that appear in the bell icon and Telegram bot. Link to Notifications: https://social.gifts/notification-settings.
+  - Draft: Save drafts of posts. Link to Draft: https://social.gifts/drafts.
+  - Bookmarks: Save favorite posts. Link to Bookmarks: https://social.gifts/bookmarks.
+  - Edit profile: Configure your user profile page. Link to Edit profile: https://social.gifts/edit-profile.
+  - Settings: Internal user settings such as interface language, base currency, and more. Link to User Settings: https://social.gifts/settings.
+  - Affiliate codes: Manage your affiliate codes. Link to User Affiliate codes: https://social.gifts/user-affiliate-codes.
+  - New accounts: Purchase new Hive accounts. Link to New accounts: https://social.gifts/new-accounts.
+  - Invite: Generate invite links for other users. Link to Invite: https://social.gifts/invite.
+Data Management (This section is available only on the Waivio main domain and will not work on social sites):
+  - Data import: Add and manage objects for your website. Link to Data import: https://www.waivio.com/data-import.
+  - Claim authority: Mark objects already on the platform as your own to display them on your website. Link to Claim authority: https://www.waivio.com/claim-authority.
+  - Departments bot: Automatically categorize products into departments using a hierarchical structure of connected lists. Link to Departments bot: https://www.waivio.com/departments-bot.
+  - Descriptions bot: Rewrite titles and descriptions for all embedded lists and objects linked from these lists. Link to Descriptions bot: https://www.waivio.com/descriptions-bot.
+  - List duplication: Create copies of lists, including all embedded lists and links to products or other objects. Link to List duplication: https://www.waivio.com/list-duplication.
+  - Chrome extension: Import objects from Amazon, Google Maps, or OpenStreetMap using the Chrome extension. Link to Chrome extension: https://www.waivio.com/chrome-extension.
+Websites (This section is available only on the Waivio main domain and will not work on social sites):
+  - Create: Create a website using a standard domain or attach a custom one. Link to Create a Website: https://www.waivio.com/create.
+  - Manage: Manage websites, check balances, activate/deactivate, and delete. Link to Manage Websites: https://www.waivio.com/manage.
+  - Reports: View reports on websites, including DAU (Daily Active Users) and daily site costs. Link to Website Reports: https://www.waivio.com/payments.
+After creating a website, a new section will appear for configuring the website:
+- Configuration:
+  - Choose the main colors of the website.
+  - Select a logo and banner.
+  - Set a base object (the main menu of the website will be created using the base object).
+  - Set a default hashtag.
+  - Enter the website name.
+- Settings:
+  - Select the website language and currency.
+  - Add Google Analytics 4 Property ID.
+  - Add Google Search Console HTML Verification Tag.
+  - Add Google Ads Outbound Click Config Command.
+  - Add Google Ads Outbound Click Event Snippet.
+  - Specify the site's beneficiaries and referrals to receive commissions.
+- Affiliate Codes: Add affiliate codes for the website.
+- Administrators: Add administrators. Administrators have the deciding right to approve or reject object updates on the website. If several administrators vote on the same update, only the last vote stands.
+- Moderators: Add moderators. If a moderator flags a post or comment, that content will not appear on the website. If a moderator mutes a user, none of that user's content will be displayed on the website.
+- Authorities: Add authorities. Any Hive user can declare responsibility for the accuracy of an object by claiming authority over it. They exercise their authority by approving or rejecting object updates. If full ownership authority has been claimed, only approved updates will be processed. The website owner can specify which authorities to trust (claims of other users will be ignored). This mechanism can be used to add controlled lists of objects to the website while ensuring their accuracy.
+- Muted Users: List of muted users. Website moderators can mute users. Posts, comments, and the profile content of muted users are not accessible on the website. The website owner can also mute users, but only the moderator who muted a user can unmute them.
+5. About: This section provides the main information about the platform, including tutorials, the whitepaper, and news. Link to About: https://social.gifts/object/ylr-waivio/page#mim-transform-your-passion-into-profit-with-waivio.
+6. Header:
+- Editor: Button to open a page where a user can write a post, create an object. Link to editor: https://social.gifts/editor.
+- Notification: Modal window with notifications.
+- User avatar: Button to open authorized user profile.
+- Menu: Navigation to My Feed, Earn, Tools, Drafts, Profile, Wallet, Settings, and Logout (button to log out).
+
+
+What tokens can I earn?
+User can earn WAIV, HIVE, and various other Hive Engine tokens. Some of these tokens can be swapped to SWAP.LTC, SWAP.BTC, SWAP.ETH. Once swapped, they can be withdrawn to wallets: BTC, LTC, and ETH.
+
+What information do I need to provide to sign up?
+To sign up, visit signup.hive.io. There are a few options for creating an account:
+- Purchase an account: You can buy an account directly.
+- Free account: You can create a free account using your email or phone number.
+- VIP ticket: You can buy or use a received VIP ticket for an anonymous account (available on WAIVIO -> Tools -> New accounts page).
+For more details give a link to https://social.gifts/object/owg-best-practices-for-managing-hive-private-keys-on-multiple-devices/page
+
+What should I do if I forget my password? Or how do I recover a hacked account?
+The recovery account functionality is not available on the Waivio platform. You may consider using other Hive platforms that offer this feature. Generally, account recovery is a complex procedure, and there is no guarantee of success. It is strongly advised to securely store your passwords and keys.
+For more information, please read the post at https://social.gifts/@hive.recovery/userguide.
+
+How can I change my username?
+In general, users cannot change the username they choose during registration. However, they can add an additional name by navigating to their user profile, clicking on "Edit profile," and updating the "Name" field. ![image](https://waivio.nyc3.digitaloceanspaces.com/f588af866717754703cb18fa704e0640381c0ad88ca14a4cb20aa02e230dfa99)
