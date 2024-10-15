@@ -242,6 +242,13 @@ To contact the team or customer support on Waivio, you can visit the URL https:/
 How can deactivate acount on Waivio?
 On Waivio, users currently can't deactivate or permanently delete their accounts. However, you can stop using your account, and your content will remain on the platform.
 
+What should I do if I see a pop-up saying "Something went wrong" or encounter issues like a page not loading or an error being displayed?
+Steps to resolve issues:
+1. Relaunch the page: Try refreshing or reloading the page.
+2. Restart your browser: If reloading doesn't help, close and reopen your browser.
+3. Clear cookies and cache: If the issue persists, clear your browser's cookies and cache, then try again.
+4. Contact customer support: If the problem continues, contact our customer support for further assistance.
+
 
 What is the structure of the Waivio platform?
 The structure of the Waivio platform is divided into 5 sections for logged-in users (My Feed, Earn, Shop, Tools, About):
@@ -313,7 +320,7 @@ After creating a website, a new section will appear for configuring the website:
 - Administrators: Add administrators. Administrators have the deciding right to approve or reject object updates on the website. If several administrators vote on the same update, only the last vote stands.
 - Moderators: Add moderators. If a moderator flags a post or comment, that content will not appear on the website. If a moderator mutes a user, none of that user's content will be displayed on the website.
 - Authorities: Add authorities. Any Hive user can declare responsibility for the accuracy of an object by claiming authority over it. They exercise their authority by approving or rejecting object updates. If full ownership authority has been claimed, only approved updates will be processed. The website owner can specify which authorities to trust (claims of other users will be ignored). This mechanism can be used to add controlled lists of objects to the website while ensuring their accuracy.
-- Muted Users: List of muted users. Website moderators can mute users. Posts, comments, and the profile content of muted users are not accessible on the website. The website owner can also mute users, but only the moderator who muted a user can unmute them.
+- Muted Users: List of muted users. Website moderators can mute users. Posts, comments, and the profile content of muted users are not accessible on the website. The website owner can also mute users.
 5. About: This section provides the main information about the platform, including tutorials, the whitepaper, and news. Link to About: https://social.gifts/object/ylr-waivio/page#mim-transform-your-passion-into-profit-with-waivio.
 6. Header:
 - Editor: Button to open a page where a user can write a post, create an object. Link to editor: https://social.gifts/editor.
@@ -784,3 +791,39 @@ When publishing a review, include the message: "This review was sponsored in par
 - Linked Objects Display: Linked objects in posts are now separated into two distinct blocks, improving readability and organization.
 - Direct Image Link Requests: If images from images.hive are unavailable, the system will now request image links directly, ensuring content continuity.
 - Image Borders: Borders have been added to images in descriptions of products, businesses, restaurants, lists, and posts, enhancing visual distinction and presentation.
+
+
+# What are tags, and how do I use them in posts on waivio?
+Tags on Waivio are keywords or phrases that help categorize and organize content. They make it easier for users to find posts related to specific topics, and they improve the visibility of your posts across the platform. Here's how you can use them:
+How Tags Work:
+- Categorization: Tags allow users to search for and filter posts based on shared topics. For example, a post with the tag "recipes" will be grouped with other posts about cooking and recipes.
+- Discoverability: Adding relevant tags can increase the likelihood that others will see your post when they search or browse tags on Waivio.
+How to Use Tags in Your Posts
+- Choose Relevant Tags: When creating or editing a post, think about the main themes of your content. Tags should reflect the core topics you're addressing.
+For example, if you're sharing a recipe for apple pie, you might use tags like "applepie," "baking," or "dessert."
+- Add Tags to Your Post:
+At the bottom of the post editor, there’s usually a field for tags. Type your desired tag, and press Enter to add it. You can add multiple tags to a post.
+- General Guidelines:
+Use relevant and concise tags.
+Avoid overly broad tags like "food" if a more specific tag like "veganrecipes" fits better.
+Try not to overuse tags. Focus on the few most relevant to your post.
+
+
+# What are social sites built on Waivio?
+The social site is built on the Waivio platform using the Social.Gifts template. This template is flexible and allows site owners to customize their sites according to their needs. Social sites are typically thematic. Users can manage and create sites only on the official Waivio site; this functionality is not available on social sites.
+These sites have a "Sign in" button where users can log in via HiveSigner, HiveAuth (Keychain), or Google to access Waivio platform features, such as writing posts, finding and participating in campaigns, liking content, leaving comments, and more.
+Social sites can only be created on the Waivio platform's main interface (https://www.waivio.com).
+
+# What is the Structure of a Social Site Built on Waivio?
+The main navigation menu on the Waivio platform can consist of various pages depending on the site's configuration. Possible pages include:
+- **List:** A collection of items curated on the site. Includes list items, a description, and an image.
+- **Newsfeed:** A feed of posts related to the site.
+- **Page:** A page with basic information, which can include text, videos, images, and more.
+- **Map:** A map displaying key items or locations relevant to the site.
+- **Legal:** Pages containing legal information.
+- **Widget:** Embedded frames or widgets for site-specific purposes.
+- **Product**: A page displaying product information.
+- **Business**: A page showcasing information about businesses or restaurants.
+- **Recipes**: A page displaying recipes.
+- **Shop:** A collection of items available for purchase as shop.
+And user can use ussual functionality as for waivio, as opening posts, user profile information and all related pages.

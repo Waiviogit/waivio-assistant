@@ -31,7 +31,7 @@ After creating a website, a new section will appear for configuring the website:
 - Administrators: Add administrators. Administrators have the deciding right to approve or reject object updates on the website. If several administrators vote on the same update, only the last vote stands.
 - Moderators: Add moderators. If a moderator flags a post or comment, that content will not appear on the website. If a moderator mutes a user, none of that user's content will be displayed on the website.
 - Authorities: Add authorities. Any Hive user can declare responsibility for the accuracy of an object by claiming authority over it. They exercise their authority by approving or rejecting object updates. If full ownership authority has been claimed, only approved updates will be processed. The website owner can specify which authorities to trust (claims of other users will be ignored). This mechanism can be used to add controlled lists of objects to the website while ensuring their accuracy.
-- Muted Users: List of muted users. Website moderators can mute users. Posts, comments, and the profile content of muted users are not accessible on the website. The website owner can also mute users, but only the moderator who muted a user can unmute them.
+- Muted Users: List of muted users. Website moderators can mute users. Posts, comments, and the profile content of muted users are not accessible on the website. The website owner can also mute users.
 
 # Tools / Site / Configuration
 The Configuration tab houses the primary settings for customizing the appearance and structure of the site.

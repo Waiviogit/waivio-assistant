@@ -21,7 +21,7 @@ export const AGENTS_DESCRIPTION = {
   SitesManagement:
     'questions about how to create and manage sites, including basic information about social site views, features, peculiarities, and structure - SitesManagement',
   WaivioObjects:
-    'questions related to how objects works, how create objects, how to fill objects with info - WaivioObjects',
+    'questions related to how objects works, how create objects, how to fill objects with info, object types - WaivioObjects',
   WaivioGeneral:
     'general questions related to waivio how it works, what it is, about posts, newsfeeds, shops, hive account - WaivioGeneral',
 };
