@@ -224,8 +224,15 @@ Can I create or join groups?
 No, there is no possibility to join groups or communities. However, users can follow other users and objects. Users can also leave thread messages (short messages) related to users or objects in the Threads tab.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/2ed80cbfa57e5e0de02ff2e277a3cca1f3eef36e62c1b72a612da641bdf6eb72)
 
-What are hashtags and how do I use them?
-On the Waivio platform, hashtags serve as objects that gather all posts related to them, in addition to their usual function. ![image](https://waivio.nyc3.digitaloceanspaces.com/663b0f68ea3bac1413c047634479e466d7348cc529ac8f8b9dc0c761b497ccc9)
+What are hashtags (tags) and how do I use them?
+On the Waivio platform, hashtags serve as objects that gather all posts related to them, in addition to their usual function.
+Tags on Waivio are keywords or phrases that help categorize your posts, making them more discoverable by other users. They play a crucial role in organizing content and enhancing visibility, allowing users to find posts related to specific topics more easily.
+How to Use Tags in Your Waivio Posts:
+- Relevance: Choose tags that are directly related to the content of your post. For example, if you're writing about a new restaurant, you might use tags like #restaurant, #food, or #dining.
+- Number of Tags: While there's no strict limit, it's recommended to use a few well-chosen tags to ensure your post reaches the right audience without becoming overly broad.
+- Specificity: Be specific with your tags to target a relevant audience. For example, if your post is about vegan food, use a tag like #vegan rather than a broader tag like #food.
+- Custom Tags: You can create your own custom tags if you have a niche topic or specific community in mind. Just make sure the tag is relevant and reflects your post's content.
+![image](https://waivio.nyc3.digitaloceanspaces.com/663b0f68ea3bac1413c047634479e466d7348cc529ac8f8b9dc0c761b497ccc9)
 
 Can I transfer tokens or rewards to my wallet?
 WAIV can be withdrawn to BTC, LTC, ETH, HIVE cryptocurrency, and can be swapped (converted into various other tokens). More information https://social.gifts/object/axy-your-waivio-wallet/page
@@ -827,3 +834,47 @@ The main navigation menu on the Waivio platform can consist of various pages dep
 - **Recipes**: A page displaying recipes.
 - **Shop:** A collection of items available for purchase as shop.
 And user can use ussual functionality as for waivio, as opening posts, user profile information and all related pages.
+
+
+# How does the Waivio ranking system work?
+The Waivio ranking system, much like the one on the Hive blockchain, revolves around user engagement, content curation, and stake-based influence. Both platforms share a similar approach to ranking, though Waivio introduces additional elements, such as expertise derived from post payouts in USD (excluding bidbots and upvote services).
+1. Reputation Score: On both Waivio and Hive, users have a reputation score that reflects their influence and trustworthiness within the community. Reputation increases with upvotes from high-stake or influential users and decreases with downvotes. This score serves as a social metric that helps distinguish trustworthy content creators and contributors. Users start with a base reputation score, which grows or shrinks based on their contributions and interactions.
+2. Stake-Based Voting:
+Both platforms use stake-based voting, where the more HIVE Power and WAIV Power expertise a user has, the more influence they hold over the distribution of rewards and content visibility. In Waivio, WAIV Power a similar role to HIVE Power, with the added feature of factoring in total payouts for posts (measured in USD) while excluding bidbots and vote-buying services to ensure fairness. Users with a higher stake have a more significant impact on upvotes, downvotes, and content visibility.
+3. User Tiers: Orca, Whale, Dolphin, Minnow:
+Both Hive and Waivio use a tiered ranking system to categorize users based on their stake or expertise. These tiers influence the weight of their votes and their overall influence on the platform.
+Whales: Top-tier users with the most staked tokens or expertise. They have the greatest impact on content rewards and governance.
+Orcas: Mid-level users with substantial influence but less than whales. On Waivio, orcas have significant expertise, impacting content and rewards distribution.
+Dolphins: Active users with moderate influence. They are engaged and contribute but don’t hold the same power as orcas or whales.
+Minnows: New or low-stake users. They are in the early stages of building their influence and expertise.
+In both systems, users can advance through the ranks by earning rewards, staking more tokens (HIVE Power on Hive, or expertise on Waivio), and contributing actively to the community.
+4. Content Curation and Rewards: Like Hive, Waivio rewards users for creating quality content and engaging in curation (upvoting content early that later becomes popular). These rewards are shared between authors and curators. On Waivio, the total payout from posts (measured in USD) contributes to a user's expertise, without relying on bidbots or vote manipulation services. The more upvotes a post receives from high-expertise users, the higher its ranking and rewards.
+5. Social Engagement: Both platforms value active participation in the community. Consistent posting, commenting, and interaction with other users help boost your ranking and increase your visibility. Engagement metrics such as comments, replies, and follower counts are important factors in both Waivio and Hive ranking systems.
+6. Delegation and Influence: Users on both platforms can delegate their HIVE Power or WAIV Power to others. This delegation allows users to temporarily boost their voting power or expertise, giving them more influence over the platform’s content.
+
+Expertise on Waivio
+Waivio builds on Hive’s model by introducing a unique expertise metric, which reflects a user's cumulative post payout in USD. This expertise is independent of artificial inflation from bidbots or upvote services, ensuring that only genuine contributions are rewarded.
+Expertise adds a level of authenticity to the ranking, as it tracks real contributions to the community without manipulation from vote-buying.
+Summary
+The Waivio ranking system, closely modeled after Hive's ranking structure, rewards users based on their reputation, stake, and engagement. Both systems emphasize genuine contribution and participation, while Waivio adds the expertise metric based on real post payouts in USD, providing a transparent and fair way to track and reward users' influence.
+
+
+# What are Waivio's guidelines on posting and community behavior?
+Waivio encourages a positive and respectful environment for all users. To maintain this, Waivio has established the following guidelines for posting and community interactions:
+1. **Respectful Communication**:  
+   Treat all users with respect. Avoid harassment, hate speech, personal attacks, or offensive language. Engage in discussions that are constructive and civil.
+2. **Quality Content**:  
+   Posts should be informative, relevant, and add value to the community. Avoid spamming, duplicating content, or using clickbait titles. Focus on creating thoughtful, original content that enhances discussions.
+3. **No Plagiarism**:  
+   All content should be your own. Plagiarism or posting content without proper attribution is not allowed. Always give credit to the original source if you reference someone else's work.
+4. **No Manipulative Practices**:  
+   Using bidbots, vote-buying services, or any other methods to artificially inflate votes, rankings, or rewards is prohibited. Waivio aims for fair and transparent interactions.
+5. **Safe Content**:  
+   Do not post content that is harmful, illegal, or explicit. This includes violent or graphic imagery, illegal activities, and adult content.
+6. **Engage Responsibly**:  
+   Be mindful of your interactions with others. Respect differing opinions, and avoid unnecessary arguments or disruptions within community discussions.
+7. **No Spam or Self-Promotion**:  
+   While sharing your work or business is encouraged, avoid excessive self-promotion or spamming. Post promotional content responsibly and within appropriate channels.
+8. **Use of Tags**:  
+   Use relevant tags to help others find your content.
+If these guidelines are violated, users may face consequences, such as content removal, muting, or account restrictions. Waivio aims to foster a positive and trustworthy community by encouraging responsible behavior and meaningful contributions.
