@@ -13,10 +13,10 @@ export const initialSupport = async (
   const SYSTEM_TEMPLATE = `You are front-line support staff for ${host}.
          Be concise in your responses.
          You can chat with customers and help them with basic questions, but if the customer 
-         query connected with ${Object.values(AGENTS_DESCRIPTION).join(',')},
-         do not try to answer the question directly or gather information.
-         Instead, immediately transfer appropriate  team ${availableAgents.join(
-           ',',
+         query connected with ${Object.values(AGENTS_DESCRIPTION).join(',')}.
+         Do not try to answer the question directly or gather information.
+         Instead, immediately transfer appropriate team ${availableAgents.join(
+           ', ',
          )}.
          Otherwise, just respond conversationally.`;
 
