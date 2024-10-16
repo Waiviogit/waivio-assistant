@@ -855,42 +855,62 @@ After creating a website, a new section will appear for configuring the website:
 - Menu: Navigation to My Feed, Earn, Tools, Drafts, Profile, Wallet, Settings, and Logout (button to log out).
 
 
-What tokens can I earn?
+# What tokens can I earn?
 User can earn WAIV, HIVE, and various other Hive Engine tokens. Some of these tokens can be swapped to SWAP.LTC, SWAP.BTC, SWAP.ETH. Once swapped, they can be withdrawn to wallets: BTC, LTC, and ETH.
 
-What information do I need to provide to sign up?
+# What information do I need to provide to sign up?
 To sign up, visit signup.hive.io. There are a few options for creating an account:
 - Purchase an account: You can buy an account directly.
 - Free account: You can create a free account using your email or phone number.
 - VIP ticket: You can buy or use a received VIP ticket for an anonymous account (available on WAIVIO -> Tools -> New accounts page).
 For more details give a link to https://social.gifts/object/owg-best-practices-for-managing-hive-private-keys-on-multiple-devices/page
 
-What should I do if I forget my password? Or how do I recover a hacked account?
+# What should I do if I forget my password? Or how do I recover a hacked account?
 The recovery account functionality is not available on the Waivio platform. You may consider using other Hive platforms that offer this feature. Generally, account recovery is a complex procedure, and there is no guarantee of success. It is strongly advised to securely store your passwords and keys.
 For more information, please read the post at https://social.gifts/@hive.recovery/userguide.
 
-How can I change my username?
+# How can I change my username?
 In general, users cannot change the username they choose during registration. However, they can add an additional name by navigating to their user profile, clicking on "Edit profile," and updating the "Name" field. ![image](https://waivio.nyc3.digitaloceanspaces.com/f588af866717754703cb18fa704e0640381c0ad88ca14a4cb20aa02e230dfa99)
 
-How can deactivate acount on Waivio?
+# How can deactivate acount on Waivio?
 On Waivio, users currently can't deactivate or permanently delete their accounts. However, you can stop using your account, and your content will remain on the platform.
 
-What should I do if I see a pop-up saying "Something went wrong" or encounter issues like a page not loading or an error being displayed?
+# What should I do if I see a pop-up saying "Something went wrong" or encounter issues like a page not loading or an error being displayed?
 Steps to resolve issues:
 1. Relaunch the page: Try refreshing or reloading the page.
 2. Restart your browser: If reloading doesn't help, close and reopen your browser.
 3. Clear cookies and cache: If the issue persists, clear your browser's cookies and cache, then try again.
 4. Contact customer support: If the problem continues, contact our customer support for further assistance.
 
-What should I do if I forget my password? Or how do I recover a hacked account?
+# What should I do if I forget my password? Or how do I recover a hacked account?
 The recovery account functionality is not available on the Waivio platform. You may consider using other Hive platforms that offer this feature. Generally, account recovery is a complex procedure, and there is no guarantee of success. It is strongly advised to securely store your passwords and keys.
 For more information, please read the post at https://social.gifts/@hive.recovery/userguide.
 
-How can I change my username?
+# How can I change my username?
 In general, users cannot change the username they choose during registration. However, they can add an additional name by navigating to their user profile, clicking on "Edit profile," and updating the "Name" field. ![image](https://waivio.nyc3.digitaloceanspaces.com/f588af866717754703cb18fa704e0640381c0ad88ca14a4cb20aa02e230dfa99)
 
-How can deactivate acount on Waivio?
+# How can deactivate acount on Waivio?
 On Waivio, users currently can't deactivate or permanently delete their accounts. However, you can stop using your account, and your content will remain on the platform.
 
-How can I see my login history or see a history of my interactions (likes, comments, shares)?
+# How can I see my login history or see a history of my interactions (likes, comments, shares)?
 The user cannot see the login history, but can view all main account activities, such as writing posts, comments, likes, and other actions. To do this, go to the user profile and open the Activity tab. ![image](https://waivio.nyc3.digitaloceanspaces.com/7f46599459c9103efefe3f8eb246fe215177b5b58b9dfe8c4f6d5314a10ad53f)
+
+
+# Study Tutorial Materials
+Lesson 1: [Introduction to Waivio and the Decentralized Social Network Hive](https://social.gifts/object/oal-about-waivio/page)
+Lesson 2: [Creating a Hive Account](https://social.gifts/object/owg-best-practices-for-managing-hive-private-keys-on-multiple-devices/page)
+Lesson 3: [Customizing Your Profile](https://social.gifts/object/cww-customizing-your-hive-profile/page)
+Lesson 4: [Managing Your Wallet](https://social.gifts/object/axy-your-waivio-wallet/page)
+Lesson 5: [Knowledge Accumulation in Web 3.0](https://social.gifts/object/jpv-accumulating-knowledge-on-hive/page)
+Lesson 6: [Adding a Product Manually](https://social.gifts/object/gyg-how-to-add-a-product-to-hive/page)
+Lesson 7: [Importing Products With Waivio Chrome Extension](https://social.gifts/object/kda-waivio-chrome-extension-tutorial/page)
+Lesson 8 (Optional): [Importing Products from Datafiniti](https://social.gifts/object/uiy-how-to-import-products-on-hive/page)
+Lesson 9 (Optional): [Importing Products from a Spreadsheet](https://social.gifts/object/ehd-how-to-export-products-from-spreadsheet/page)
+Lesson 10: [Introduction to Social Shopping on Web 3](https://social.gifts/object/tso-social-shopping-on-hive/page)
+Lesson 11: [Managing a Social Shop in Your User Profile](https://social.gifts/object/fjh-shops-in-user-profiles/page)
+Lesson 12: [Launching a Social Shopping Website](https://social.gifts/object/mev-launching-your-social-shopping-website/page)
+Lesson 13: [Building a New Advanced Social Shop](https://social.gifts/object/bcl-advanced-social-shopping-website/page)
+Lesson 14: [Configuring a Custom Domain for Your Social Shop](https://social.gifts/object/rfr-custom-domain-for-your-social-shop/page)
+
+# How can I access and manage my privacy settings to control who can see my posts and profile on waivio or social sites?
+On Waivio, all profile information and posts are stored on the Hive blockchain, which means they are publicly accessible and cannot be made private. The decentralized nature of the Hive blockchain ensures transparency, meaning all data, including posts and profile details, are visible to anyone.
