@@ -686,6 +686,8 @@ Ways to eliminate inappropriate content or users:
 - Mute a user: Users can mute another user by opening the user's profile, clicking on the three-dot menu near the "Follow" button, and selecting "Mute." This allows you to block the user, preventing you from seeing their posts and imposing other restrictions.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/544f20591e4288ee809e1298120992ebd16ba236fbaca1371f10d67a3561f35b)
 
+How can I mute other users?
+Muting a user: To mute a user, open their profile, click on the three-dot menu next to the "Follow" button, and select "Mute." This will prevent you from seeing their posts.
 
 How do I update my profile information?
 Users can update their profile information by navigating to their user profile or Tools in main navigation menu, clicking on "Edit profile" and making changes in the relevant fields, including:
@@ -844,7 +846,7 @@ After creating a website, a new section will appear for configuring the website:
 - Administrators: Add administrators. Administrators have the deciding right to approve or reject object updates on the website. If several administrators vote on the same update, only the last vote stands.
 - Moderators: Add moderators. If a moderator flags a post or comment, that content will not appear on the website. If a moderator mutes a user, none of that user's content will be displayed on the website.
 - Authorities: Add authorities. Any Hive user can declare responsibility for the accuracy of an object by claiming authority over it. They exercise their authority by approving or rejecting object updates. If full ownership authority has been claimed, only approved updates will be processed. The website owner can specify which authorities to trust (claims of other users will be ignored). This mechanism can be used to add controlled lists of objects to the website while ensuring their accuracy.
-- Muted Users: List of muted users. Website moderators can mute users. Posts, comments, and the profile content of muted users are not accessible on the website. The website owner can also mute users, but only the moderator who muted a user can unmute them.
+- Muted Users: List of muted users. Website moderators can mute users. Posts, comments, and the profile content of muted users are not accessible on the website. The website owner can also mute users.
 5. About: This section provides the main information about the platform, including tutorials, the whitepaper, and news. Link to About: https://social.gifts/object/ylr-waivio/page#mim-transform-your-passion-into-profit-with-waivio.
 6. Header:
 - Editor: Button to open a page where a user can write a post, create an object. Link to editor: https://social.gifts/editor.
@@ -869,3 +871,26 @@ For more information, please read the post at https://social.gifts/@hive.recover
 
 How can I change my username?
 In general, users cannot change the username they choose during registration. However, they can add an additional name by navigating to their user profile, clicking on "Edit profile," and updating the "Name" field. ![image](https://waivio.nyc3.digitaloceanspaces.com/f588af866717754703cb18fa704e0640381c0ad88ca14a4cb20aa02e230dfa99)
+
+How can deactivate acount on Waivio?
+On Waivio, users currently can't deactivate or permanently delete their accounts. However, you can stop using your account, and your content will remain on the platform.
+
+What should I do if I see a pop-up saying "Something went wrong" or encounter issues like a page not loading or an error being displayed?
+Steps to resolve issues:
+1. Relaunch the page: Try refreshing or reloading the page.
+2. Restart your browser: If reloading doesn't help, close and reopen your browser.
+3. Clear cookies and cache: If the issue persists, clear your browser's cookies and cache, then try again.
+4. Contact customer support: If the problem continues, contact our customer support for further assistance.
+
+What should I do if I forget my password? Or how do I recover a hacked account?
+The recovery account functionality is not available on the Waivio platform. You may consider using other Hive platforms that offer this feature. Generally, account recovery is a complex procedure, and there is no guarantee of success. It is strongly advised to securely store your passwords and keys.
+For more information, please read the post at https://social.gifts/@hive.recovery/userguide.
+
+How can I change my username?
+In general, users cannot change the username they choose during registration. However, they can add an additional name by navigating to their user profile, clicking on "Edit profile," and updating the "Name" field. ![image](https://waivio.nyc3.digitaloceanspaces.com/f588af866717754703cb18fa704e0640381c0ad88ca14a4cb20aa02e230dfa99)
+
+How can deactivate acount on Waivio?
+On Waivio, users currently can't deactivate or permanently delete their accounts. However, you can stop using your account, and your content will remain on the platform.
+
+How can I see my login history or see a history of my interactions (likes, comments, shares)?
+The user cannot see the login history, but can view all main account activities, such as writing posts, comments, likes, and other actions. To do this, go to the user profile and open the Activity tab. ![image](https://waivio.nyc3.digitaloceanspaces.com/7f46599459c9103efefe3f8eb246fe215177b5b58b9dfe8c4f6d5314a10ad53f)
