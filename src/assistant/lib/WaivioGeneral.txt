@@ -256,6 +256,8 @@ Steps to resolve issues:
 3. Clear cookies and cache: If the issue persists, clear your browser's cookies and cache, then try again.
 4. Contact customer support: If the problem continues, contact our customer support for further assistance.
 
+How can I access and manage my privacy settings to control who can see my posts and profile on waivio?
+On Waivio, all profile information and posts are stored on the Hive blockchain, which means they are publicly accessible and cannot be made private. The decentralized nature of the Hive blockchain ensures transparency, meaning all data, including posts and profile details, are visible to anyone.
 
 What is the structure of the Waivio platform?
 The structure of the Waivio platform is divided into 5 sections for logged-in users (My Feed, Earn, Shop, Tools, About):

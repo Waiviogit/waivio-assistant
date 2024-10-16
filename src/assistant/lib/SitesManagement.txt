@@ -2001,3 +2001,22 @@ Tips:
 - Always credit the original YouTube creators when sharing their content.
 - Engage with the community by upvoting helpful posts and sharing your own cooking experiences.
 For more details give a link to https://social.gifts/@social.gifts/using-perplexity-com-to-find-recipes-on-youtube.
+
+
+# How can I contact a team or customer support?
+To contact the team or customer support on the site, you can contact the site owner. Visit the owner's profile, go to the "Reviews" tab, and click on "Threads." There, you can leave a message for the team regarding any issues, bugs, or suggestions.
+![image](https://github.com/user-attachments/assets/03cea7bd-d6c0-4774-ad2e-d8eea2a4be3c)
+
+# What should I do if I see a pop-up saying "Something went wrong" or encounter issues like a page not loading or an error being displayed?
+Steps to resolve issues:
+1. Relaunch the page: Try refreshing or reloading the page.
+2. Restart your browser: If reloading doesn't help, close and reopen your browser.
+3. Clear cookies and cache: If the issue persists, clear your browser's cookies and cache, then try again.
+4. Contact customer support: If the problem continues, contact website owner for further assistance.
+
+How can I access and manage my privacy settings to control who can see my posts and profile on social site?
+On social sites, all profile information and posts are stored on the Hive blockchain, which means they are publicly accessible and cannot be made private. The decentralized nature of the Hive blockchain ensures transparency, meaning all data, including posts and profile details, are visible to anyone.
+
+Are there any fees for using the site?
+Using the site itself is generally free, including basic actions like posting, commenting, and voting. However, there are some functionalities that may require payment. For example, users might need to pay for running a site or purchasing a VIP ticket for enhanced features. Additionally, blockchain network transaction fees may apply when performing operations such as transfers.
+If a user wants their vote to have significant impact and to potentially receive rewards, their voting power should be backed by an amount of WAIV or HIVE tokens, or preferably both. Users should review the terms and conditions of the specific services they use for any applicable fees.
