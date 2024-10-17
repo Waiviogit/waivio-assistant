@@ -914,3 +914,6 @@ Lesson 14: [Configuring a Custom Domain for Your Social Shop](https://social.gif
 
 # How can I access and manage my privacy settings to control who can see my posts and profile on waivio or social sites?
 On Waivio, all profile information and posts are stored on the Hive blockchain, which means they are publicly accessible and cannot be made private. The decentralized nature of the Hive blockchain ensures transparency, meaning all data, including posts and profile details, are visible to anyone.
+
+# How do I use Waivio’s messaging system to communicate with other users privately?
+Waivio does not have a built-in private messaging system for direct communication between users. However, users can interact publicly through comments on posts. For private communication, users often rely on external platforms like Telegram or Discord, where they can connect using their Waivio or Hive usernames.

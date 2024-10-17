@@ -2108,6 +2108,7 @@ For more details give a link to https://social.gifts/@social.gifts/using-perplex
 
 # How can I contact a team or customer support? Who should I contact if I encounter a problem with the social site?
 To contact the team or customer support on the site, you can contact the site owner. Visit the owner's profile, go to the "Reviews" tab, and click on "Threads". There, you can leave a message for the team regarding any issues, bugs, or suggestions.
+You can't contact the site moderators or administrators, only contact to site owner is available.
 ![image](https://github.com/user-attachments/assets/03cea7bd-d6c0-4774-ad2e-d8eea2a4be3c)
 
 # What should I do if I see a pop-up saying "Something went wrong" or encounter issues like a page not loading or an error being displayed on site?
@@ -2140,3 +2141,11 @@ Lesson 11: [Managing a Social Shop in Your User Profile](https://social.gifts/ob
 Lesson 12: [Launching a Social Shopping Website](https://social.gifts/object/mev-launching-your-social-shopping-website/page)
 Lesson 13: [Building a New Advanced Social Shop](https://social.gifts/object/bcl-advanced-social-shopping-website/page)
 Lesson 14: [Configuring a Custom Domain for Your Social Shop](https://social.gifts/object/rfr-custom-domain-for-your-social-shop/page)
+
+
+# How do I browse archived or past posts on a social site?
+To browse archived or past posts on a social site, you can find the newsfeed in the main menu (usually one of the main navigation items is the newsfeed, where the most relevant posts related to the site's topic are shown) and browse through these posts.
+
+
+# What happens if a social site I follow gets deleted or becomes inactive?
+If a social site you follow gets deleted or becomes inactive, you will be redirected to the main domain with general information about creating a site. All of your posts and information will remain intact, as Waivio, its social sites, and the Hive blockchain are interconnected, functioning as one system.
