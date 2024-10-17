@@ -1701,3 +1701,61 @@ To browse archived or past posts on a social site, you can find the newsfeed in 
 
 # What happens if a social site I follow gets deleted or becomes inactive?
 If a social site you follow gets deleted or becomes inactive, you will be redirected to the main domain with general information about creating a site. All of your posts and information will remain intact, as Waivio, its social sites, and the Hive blockchain are interconnected, functioning as one system.
+
+
+# HiveFest'23: Social Shopping on Hive
+Amid the spirited atmosphere of HiveFest in picturesque Rosarito, @grampo took to the stage to unveil an electrifying new feature for the Hive community: the Social Shops!
+![image](https://waivio.nyc3.digitaloceanspaces.com/1695758063_3e4a94ad-0ef2-4ff1-870f-77f499833a10
+In Waivio's (https://www.waivio.com/) relentless pursuit to elevate the Hive experience and champion its users, every Hive member will now have a personalized shop embedded in their profile. Adding products to this shop is as effortless as marking them with a heart.
+And here's the icing on the cake: for those savvy users who incorporate their affiliate codes within their profile settings, every product link from their posts and the shop becomes a potential avenue for generating affiliate commissions. Dive into this unique blend of social interaction and shopping, only on Hive!
+Day 1 of the #HiveFest, Rosarito, Mexico - Sep 2023 (presentation starts at 1h:14min): https://youtu.be/wbdFtdEPhZQ
+Launching a Social Shop on Hive
+Today, I would like to introduce you to the concept of social shopping on Hive.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693859866_f733b60b-b2ec-42f4-a633-c4c010d1ffd0
+Any Hive user can now create an affiliate shop on Hive. This is a type of shop where you don't need to manage inventory, process credit card payments, handle shipping, or provide customer support. Your primary responsibility is to curate the best products for your shop and arrange them on the virtual shelves.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693859895_0edac0e2-7c6b-4fa9-8fc2-84c31848f7b5
+Imagine we're building a shop for camping. Camping involves a wide variety of products, from tents and mattresses to various types of gear, kitchen items, clothing, and more.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693859930_da6d37e0-463e-4bee-bf36-c5d2ad1b1b23
+You'll conduct research to select the best items to recommend, marking them with a heart. Think of it as creating a shopping list.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693859958_6026aeb5-67d7-4d18-ab91-056d2d114f2d
+But on Hive, it becomes a full-fledged online store. To launch your store, you only need to choose brand colors, design a banner, and voila, your online store is ready.
+This store offers multiple revenue streams right away.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693859982_131a8092-0448-4453-a224-8fe0cb2f4799
+The first revenue stream is affiliate marketing. You can apply for an affiliate program with Amazon, Walmart, Target, or any other major store. Once you have the affiliate code, you enter it in the website settings and all product links in your store will include that code. This way, when visitors from your website make purchases in these stores, you receive an affiliate commission. On Amazon, these commissions range from 3% to 7% of the sale.
+Another revenue stream is advertising using Google AdSense. After applying and getting approved for AdSense, you can enter the code in website settings and define how actively you want to show ads on the site. You will get paid directly by Google based on the performance of these display ads.
+Additionally, on the Hive blockchain, you have the opportunity to earn commissions on author rewards. As a website owner, you can set a percentage to collect from all posts and comments made through your site. Next, there are also sponsored rewards. Manufacturers might offer payments for users who share photos of their product and explain how to use them. Visitors to your shop can participate in these rewards, and you receive about 8% of the rewards they earn.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860028_58833ffa-6a65-44ee-8e65-da94b1bdbd56
+A few more comments about the Amazon affiliate program: There are 14 regional stores, and you might want to apply for some of them. Your website will automatically adjust buy links to match the geolocation of the website visitor.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860056_60b1957f-759f-4a0f-97db-9a4203912b17
+The Web 3.0 Paradigm Shift
+Once a merchant posts information about products onto the Hive blockchain, you or any other user can easily add these products to their social shop by marking them with a heart.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860083_a6310a59-64f8-429a-a788-d671fdece479
+And if this merchant updates the information about the product on Hive, it will be automatically updated on all of the sites that display it.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860107_4598cb94-0b7d-4b83-acfe-83401952b148
+Hive is a social blockchain. Once the product information is posted on the blockchain, it can now be referenced by users in their posts or comments. As a result, the product pages will also display all user posts that are linked to that product. This is how product reviews are organized on Hive.
+Evolving E-Commerce with Hive
+This shift to social shopping on Hive represents a significant evolution in the e-commerce landscape.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860191_68c83de5-1e5d-4c64-9e5b-ac6dc09c50ba
+In Web 2.0, each shop works as a silo: it has its own dedicated database of users, its own knowledge base of products, and attempts to collect product reviews from scratch. These efforts are duplicated by every online store.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860217_abbd04c9-5d67-434c-afc4-dbe3a63d9898
+Web 3.0 has the potential to change this in a radical way. Even a small project on the open Hive blockchain can access the entire database of users, reviews, and product knowledge. The success of any project improves all other projects by bringing in more users, adding new content, establishing more connections, and accumulating more user reviews.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860237_e87db8f4-8ef9-41c8-acc1-2e33b014e0de
+In the traditional e-commerce landscape, large players like Amazon have a stronghold due to their established user base and content. Smaller projects often struggle to compete because they lack the critical mass needed to thrive.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860265_0c25e175-ee64-435e-a0b6-fa3ebd9f9357
+However, with Hive's approach, even the smallest projects can leverage the collective strength of the entire ecosystem to compete effectively with industry giants. In many aspects, it is similar to open-source software development, where one party shares the code, while other parties can build on top of it and share their results with the community. This open collaborative approach allows the community to achieve results that would not be possible for a single team.
+Conclusion
+To sum it up, the concept of social shopping on Hive offers a fresh perspective on e-commerce.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860363_cd71bc13-75a4-4c49-893b-9a00bd254545
+Hive's blockchain technology enables collaboration, shared resources, and unprecedented access to user-generated content. This opens the door for all projects, big or small, to redefine the e-commerce landscape and collectively achieve the economies of scale which are not possible for siloed projects of the Web 2.0 era.
+Examples of Social Shops on Hive
+Camping
+https://camping.social.gifts
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860465_db993f08-16aa-4113-932f-c7786d0f76f5
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860533_5315fc9a-63ad-4be8-8ebd-123e9c5d4968
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860565_3bb18b43-9782-4cf3-881e-11095f867133
+Coffee Time
+https://coffeetime.social.gifts
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860664_48b5c63f-a201-433c-a4a1-3107705547b5
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860691_ee17195b-4dd4-4408-9180-efdc10ea5c24
+![image](https://waivio.nyc3.digitaloceanspaces.com/1693860717_0a8a5e6a-cf69-4ed6-881e-58f028944b0d
+For more details give a link to https://social.gifts/@grampo/hivefest-23-social-shopping-on-hive
