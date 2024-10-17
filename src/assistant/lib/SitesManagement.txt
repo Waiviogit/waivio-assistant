@@ -1759,3 +1759,46 @@ https://coffeetime.social.gifts
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1693860691_ee17195b-4dd4-4408-9180-efdc10ea5c24
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1693860717_0a8a5e6a-cf69-4ed6-881e-58f028944b0d
 For more details give a link to https://social.gifts/@grampo/hivefest-23-social-shopping-on-hive
+
+
+# New: Admin Delegations for Specific Objects
+It is easy to grant administrative privileges to your entire Social.Gifts website. But what if you want to give these privileges only to specific products or business listings on your social website?
+Now you can allow specific users to manage individual objects without having general admin privileges across the entire website.
+Why This Matters
+This feature is particularly useful for website owners who want to allow business owners to manage their own listings. Similarly, it can be used to allow partners to keep information about their products updated to ensure consistency and reliability of product information.
+How It Works
+In the Settings section of any object, you'll now find a "Delegation" field. Here, you can specify accounts to delegate admin rights to.
+![image](https://waivio.nyc3.digitaloceanspaces.com/e5351d2f89d8b07451e63e20558cdb3618646141fd8becde36acc92a733481a4
+Example in Action
+Consider @coffee.time, a website owner of CoffeeShop.Gifts, delegating rights to @demo.account for a specific book: Brew:Better Coffee At Home.
+![image](https://waivio.nyc3.digitaloceanspaces.com/d02d021250cba8fccc34b355c76c48d36d76e2f462ff93a0635ce2f75ce453af
+When @demo.account signs in to CoffeeShop.Gifts, they see an Edit button on that listing. Any edits made to this specific object by @demo.account are reflected on the site.
+![image](https://waivio.nyc3.digitaloceanspaces.com/dba9f8754c861fe00917aeeba1743b56cd3d492cfdf8a6deda86035535720876
+In a practical scenario, @demo.account updated the price of the book to $32.88. This edit is visible on the website. However, if @demo.account attempts to make changes to other objects, those changes will be ignored, maintaining the integrity and security of your site’s data.
+Get Started Today
+To take advantage of this new feature, simply navigate to the Settings section of the object you wish to delegate admin rights for, and enter the account you wish to delegate to in the "Delegation" field. It's that simple!
+As always, we welcome your feedback and are here to support you every step of the way.
+For more details give a link to https://social.gifts/@social.gifts/new-admin-delegations-for-specific-objects
+
+
+# Social.Gifts: Add Crypto Addresses to Businesses
+Starting today, you can add cryptocurrency addresses to businesses and restaurants, making it easier to generate crypto invoices and accept digital payments. This can be accomplished on Waivio.com or directly on a Social.Gifts web3 site (if you have admin privileges).
+![image](https://waivio.nyc3.digitaloceanspaces.com/503fa9fb1ed6b9903a8e7704879c54e5da2eb694f84cd05b1c74ae489146e62b
+How to Add Crypto Addresses to Your Business Listings
+Open the business or restaurant listing.
+Switch to Edit mode.
+Click "+Wallet".
+Provide a title (e.g., "Pay with Bitcoin," "Litecoin Donations").
+Select a cryptocurrency: Bitcoin (BTC), Hive Backed Dollars (HBD), Bitcoin Lightning, Litecoin (LTC), and more.
+Enter the crypto address.
+![image](https://waivio.nyc3.digitaloceanspaces.com/4276ad33f9768b2df58711236e1372c0b29b5097624b6b576a3a21010d10e0d8
+Seamless Payment Process for Users
+Once the crypto payment options are added to the business listing, users can:
+Select the desired payment option and enter the amount they intend to transfer.
+The system will generate a QR code based on the entered amount and address.
+Users can then scan the QR code with the HiveKeychain app or another wallet, depending on the cryptocurrency they intend to transfer. They can verify the address and amount before confirming the transaction.
+![image](https://waivio.nyc3.digitaloceanspaces.com/b312498f28186e1351e3538eff066bb402fd7e371e43867da424ce833c532b20
+Note to Social.Gifts Website Owners
+Please consider restricting data editing features on your websites to approved data admins and business owners who have received delegations to edit specific listings.
+Stay tuned for more updates and features as we continue to enhance your experience on Social.Gifts web3 sites and Waivio.
+For more details give a link to https://social.gifts/@social.gifts/new-admin-delegations-for-specific-objects
