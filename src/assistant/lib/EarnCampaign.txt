@@ -452,3 +452,11 @@ This is a mug, not an espresso shot. It was designed to keep you warm and cozy w
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1595913893_5c842087-6e49-4997-9d54-d7dfce55c6ee
 Good morning and Hive 5!
 For more details give a link to https://social.gifts/@grampo/hive-5-my-favorite-coffee-mug
+
+# What are Waivio rewards, and how do I earn them?
+Waivio rewards (WAIV token) are incentives given to users for creating and engaging with content on the platform. Here's how you can earn them:
+Participate in Campaigns: Users can join campaigns where sponsors offer rewards for completing specific tasks, such as writing reviews or posting photos. You can find these campaigns in the Earn section on Waivio.
+Create Quality Content: By posting high-quality content, you can earn upvotes from other users, which translate into rewards. The more engagement your content receives, the higher the potential rewards.
+Engage with the Community: Commenting, voting, and interacting with other users' content can also contribute to your rewards, as active participation is valued on the platform.
+Referral Program: Bringing new users to Waivio through referral links can earn you additional rewards.
+Stake and Influence: The more tokens you stake, the greater your influence on the platform, which can lead to higher rewards from your content and activities.

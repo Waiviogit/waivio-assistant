@@ -1047,6 +1047,109 @@ Your website is ready to captivate visitors, monetize your expertise, and offer 
 Now it's time to think about how to market your website to bring it to a larger audience and boost your revenue. In the upcoming tutorials, we will discuss SEO tools, marketing and analytics strategies that you can implement for your website.
 
 
+# Lesson 14: Configuring a Custom Domain for Your Social Shop
+For more details give a link to https://social.gifts/object/rfr-custom-domain-for-your-social-shop/page. 
+When creating your social shop on Waivio, you have two choices: you can create a subdomain with social.gifts (for example, camping.social.gifts or fitness.social.gifts). 
+This is the easiest way to create your social shop, and we’ve covered this option in previous tutorials (check out Launching Your Social Shopping Website). Alternatively, if you prefer to use a unique domain for a more personalized touch, here are the steps to set it up.
+Summary:
+Part 1. Choosing Domain Name
+Part 2. Registering a Dedicated Email
+Part 3. Purchasing a Domain on Cloudflare
+Part 4. Setting A DNS Record to Point to Waivio
+Part 5. Launching Your Social Shop on Waivio
+Part 6. Setting HTTPS
+Part 7. www Site Redirect
+
+Part 1. Choosing Domain Name
+Let’s begin by searching for an available domain name that aligns with your brand. You can check domain availability on a site such as GoDaddy (but we will not be buying the domain yet). If you already own a domain with a registrar, please check out Custom domain article on how to set it up.
+ • In GoDaddy, enter your desired domain name in the search bar and review the available options. GoDaddy provides good recommendations for domain names. For example, if your shop focuses on coffee, you might try ourcoffeecup.com or similar variations. You can also use ChatGPT or brand generators such as Namelix.com to brainstorm names.
+ • Once you find an available domain that aligns with your brand, note it down.
+![image](https://waivio.nyc3.digitaloceanspaces.com/b88c0daa1edeee2c9e8efb9fb9eac53b6b8e3f53c33f0e3b0498219f40554c81)
+
+Part 2. Registering a Dedicated Email
+Now, let’s create a new Google email address with a name matching your desired domain. We will need this during the registration process of the domain. It’s a good practice to create a dedicated email to manage a website. This email can be used for domain registration and integration with tools like Google Analytics.
+![image](https://waivio.nyc3.digitaloceanspaces.com/e69689134154cffcdc3f88b5d084cdf7261b04df1e16e0a0564f321595256fb1)
+Additionally, if you decide to sell your project in the future, having all domain services registered to the same email address allows you to transfer the entire project to the new owner much faster and easier. You would just transfer the email and password, which the new owner can easily change to gain full control over the project.
+![image](https://waivio.nyc3.digitaloceanspaces.com/bf337b43d7a1e3f4378840393abcb4821780be3ff72438c7143d5e621e4c667d)
+
+Part 3. Purchasing a Domain on Cloudflare
+With your domain name selected and your dedicated email address ready, it’s time to register your domain. While there are many domain registrars, here I'm showing the registration process with Cloudflare. Cloudflare offers no-markup pricing for domains and provides free protection from DDoS attacks, which is a requirement for Waivio. Registering a new domain on Cloudflare also simplifies the configuration process.
+ • Go to Cloudflare. Sign up with the email you’ve just created. Choose a Free Plan if prompted.
+ • Click “Add a website or application”. Navigate to “Domain Registration” -> “Register Domain,” and search for your domain.
+![image](https://waivio.nyc3.digitaloceanspaces.com/243b004429f4170ad75194e4c7ad4d6bdeee68da886320b13445c0eb60600e23)
+You can purchase the domain for the desired duration (such as one year, two years, and so on). You will need to fill out some personal information before registering it.
+
+Part 4. Setting A DNS Record to Point to Waivio
+Now that you have a domain registered on Cloudflare, the next step is to connect your domain to your Waivio social shop. This is done by setting up DNS records.
+ • From the Cloudflare home dashboard, click on your domain.
+![image](https://waivio.nyc3.digitaloceanspaces.com/b509c74aec51673d496c3ea37c04e822ee57b2ee2509023bf38fe6e19bf084eb)
+ • In the side menu, click on “DNS” -> “Records”
+![image](https://waivio.nyc3.digitaloceanspaces.com/9f7dec62f8fedbd1f53e4913566bfa3df432be4ef0fb9f0ab6aeb4cde4b3e88a)
+ • Look for the record type labeled “A”. For a new domain, the A record is usually missing and needs to be created. Click “Add record”.
+ • For the name, put the symbol @ (this represents the root domain), and for the IPv4 address, enter 206.189.200.117
+ • Click “Save”
+![image](https://waivio.nyc3.digitaloceanspaces.com/0287f171455949c88a33b8c762e89039c13425148a3c0add910cdd53abacd185)
+
+Part 5. Launching Your Social Shop on Waivio
+After configuring the DNS record, go to your Waivio account -> Tools -> Navigate to Create (under Websites) -> Choose “Custom Domain”, select the website template (social.gifts, for example), and enter your domain.
+Click “Create new website”. If the DNS record is set up correctly, your social shop will be created.
+![image](https://waivio.nyc3.digitaloceanspaces.com/9807143ff3ad090148121dc6f3b616d27d42317d869800f4e2f3a65f37705070)
+If you get an error message, double-check the spelling of the domain you’ve entered on Waivio and confirm that your DNS records are correctly set up on Cloudflare.
+Once your social shop is live, you can personalize it. Check out our series of Social.Gifts tutorials to learn how.
+Now, let’s configure more advanced settings to ensure your site is secure and visitors are correctly redirected to your site.
+
+Part 6. Setting HTTPS
+To enhance security, in Cloudflare’s domain dashboard:
+ 1. Click on “SSL/TLS,” then “Edge Certificates”
+ 2. Scroll down to the “Always Use HTTPS” section. Toggle to activate.
+![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/279110214-6576cd2a-fcf9-448a-9fa5-5b43b9acde6a.png)
+
+ 3. Also, verify that the toggles are active for “Opportunistic Encryption,” “TLS 1.3,” and “Automatic HTTPS Rewrites”
+![image](https://waivio.nyc3.digitaloceanspaces.com/1698737453_1a46f275-8660-47f8-b839-f147943c43c0)
+6.1 Encryption Mode
+ • Next, in the “SSL/TLS” section, navigate to the “Overview”
+ • Ensure that your SSL/TLS encryption mode is set to either “Flexible” or “Full”
+![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/279110400-534121c1-9434-4eda-a17e-14797aa768f1.png)
+
+Part 7. www Site Redirect
+Now let’s configure the settings so that if users enter “www” before your site, they will be redirected to your site.
+7.1 Setting DNS
+ 1. In Cloudflare’s domain dashboard, navigate to the “DNS” and then “Records”.
+ 2. Click “Add record”
+![image](https://waivio.nyc3.digitaloceanspaces.com/1698852986_42d819ef-a975-433d-866e-f742c430939d)
+ 3. Set the name to “www”
+ 4. For type, choose “A” and in the “IPv4 address” field, enter “192.0.2.1”
+Alternatively, you can choose “AAAA” and in the “IPv6 address” field enter “100::”
+You can use either IPv4 or IPv6. Both options will work, so choose based on your preference and needs.
+ 5. Click “Save”
+![image](https://waivio.nyc3.digitaloceanspaces.com/1698853019_bd478e62-20c6-4c67-af6f-5633f80e723b)
+7.2 Configuring Redirection Using Bulk Redirects
+ 1. Exit the domain configuration and in Cloudflare’s main dashboard, scroll down to “Bulk Redirects”
+ 2. Click on “Create Bulk Redirects List”
+![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/279362079-39af70d6-1a40-4f56-9b1b-703aa02b9c90.png)
+ 3. Provide a name for the list (such as “redirect”) and click “Next.”
+![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/279362435-b583df66-521c-4e60-86bd-f050db9d060c.png)
+ 4. Select “Or, manually add URL redirects”
+ 5. For the Source URL, enter your full domain with the “www” (e.g., www.example.com).
+ 6. For the Target URL, input the original domain, including “https://” and without “www” (e.g., https://example.com).
+ 7. Click “Next”
+![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/279363454-3bcbb721-7d3b-4da0-88d7-fdb92e73de16.png)
+ 8. Choose “Edit parameters”
+ 9. Activate the following checkboxes:
+Preserve query string
+Subpath matching
+Preserve path suffix
+ 10. Click “Next”
+![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/279363735-c853e348-f784-4324-8b97-b14ec6e0e4eb.png)
+ 11. Click on “Continue to Redirect Rules”
+![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/279363888-5154e220-926a-4f31-b3fa-6f0c970c9043.png)
+ 12. Provide a rule name (such as “www site redirect”)
+ 13. Click “Save and Deploy”
+![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/279364105-7663d951-4abb-4bb7-a5d8-a8bc1718ce2a.png)
+Now, when you enter your domain with “www,” it should redirect to your main site.
+You have successfully launched your social shop with a custom domain. For more tips on customizing your shop and maximizing its potential, explore additional Tutorials and resources on Waivio.
+
+
 # Custom domain - Connecting GoDaddy Domain to Waivio to Create a Site. (Applicable only for custom domain site)
 (This section is available only on the Waivio main domain and will not work on social sites)
 For more details give a link to https://social.gifts/object/qym-custom-domain/page.
@@ -2003,20 +2106,46 @@ Tips:
 For more details give a link to https://social.gifts/@social.gifts/using-perplexity-com-to-find-recipes-on-youtube.
 
 
-# How can I contact a team or customer support?
-To contact the team or customer support on the site, you can contact the site owner. Visit the owner's profile, go to the "Reviews" tab, and click on "Threads." There, you can leave a message for the team regarding any issues, bugs, or suggestions.
+# How can I contact a team or customer support? Who should I contact if I encounter a problem with the social site?
+To contact the team or customer support on the site, you can contact the site owner. Visit the owner's profile, go to the "Reviews" tab, and click on "Threads". There, you can leave a message for the team regarding any issues, bugs, or suggestions.
+You can't contact the site moderators or administrators, only contact to site owner is available.
 ![image](https://github.com/user-attachments/assets/03cea7bd-d6c0-4774-ad2e-d8eea2a4be3c)
 
-# What should I do if I see a pop-up saying "Something went wrong" or encounter issues like a page not loading or an error being displayed?
+# What should I do if I see a pop-up saying "Something went wrong" or encounter issues like a page not loading or an error being displayed on site?
 Steps to resolve issues:
 1. Relaunch the page: Try refreshing or reloading the page.
 2. Restart your browser: If reloading doesn't help, close and reopen your browser.
 3. Clear cookies and cache: If the issue persists, clear your browser's cookies and cache, then try again.
 4. Contact customer support: If the problem continues, contact website owner for further assistance.
 
-How can I access and manage my privacy settings to control who can see my posts and profile on social site?
+# How can I access and manage my privacy settings to control who can see my posts and profile on social site?
 On social sites, all profile information and posts are stored on the Hive blockchain, which means they are publicly accessible and cannot be made private. The decentralized nature of the Hive blockchain ensures transparency, meaning all data, including posts and profile details, are visible to anyone.
 
-Are there any fees for using the site?
+# Are there any fees for using the site?
 Using the site itself is generally free, including basic actions like posting, commenting, and voting. However, there are some functionalities that may require payment. For example, users might need to pay for running a site or purchasing a VIP ticket for enhanced features. Additionally, blockchain network transaction fees may apply when performing operations such as transfers.
 If a user wants their vote to have significant impact and to potentially receive rewards, their voting power should be backed by an amount of WAIV or HIVE tokens, or preferably both. Users should review the terms and conditions of the specific services they use for any applicable fees.
+
+
+# Social Site Study Tutorial Materials
+Lesson 1: [Introduction to Waivio and the Decentralized Social Network Hive](https://social.gifts/object/oal-about-waivio/page)
+Lesson 2: [Creating a Hive Account](https://social.gifts/object/owg-best-practices-for-managing-hive-private-keys-on-multiple-devices/page)
+Lesson 3: [Customizing Your Profile](https://social.gifts/object/cww-customizing-your-hive-profile/page)
+Lesson 4: [Managing Your Wallet](https://social.gifts/object/axy-your-waivio-wallet/page)
+Lesson 5: [Knowledge Accumulation in Web 3.0](https://social.gifts/object/jpv-accumulating-knowledge-on-hive/page)
+Lesson 6: [Adding a Product Manually](https://social.gifts/object/gyg-how-to-add-a-product-to-hive/page)
+Lesson 7: [Importing Products With Waivio Chrome Extension](https://social.gifts/object/kda-waivio-chrome-extension-tutorial/page)
+Lesson 8 (Optional): [Importing Products from Datafiniti](https://social.gifts/object/uiy-how-to-import-products-on-hive/page)
+Lesson 9 (Optional): [Importing Products from a Spreadsheet](https://social.gifts/object/ehd-how-to-export-products-from-spreadsheet/page)
+Lesson 10: [Introduction to Social Shopping on Web 3](https://social.gifts/object/tso-social-shopping-on-hive/page)
+Lesson 11: [Managing a Social Shop in Your User Profile](https://social.gifts/object/fjh-shops-in-user-profiles/page)
+Lesson 12: [Launching a Social Shopping Website](https://social.gifts/object/mev-launching-your-social-shopping-website/page)
+Lesson 13: [Building a New Advanced Social Shop](https://social.gifts/object/bcl-advanced-social-shopping-website/page)
+Lesson 14: [Configuring a Custom Domain for Your Social Shop](https://social.gifts/object/rfr-custom-domain-for-your-social-shop/page)
+
+
+# How do I browse archived or past posts on a social site?
+To browse archived or past posts on a social site, you can find the newsfeed in the main menu (usually one of the main navigation items is the newsfeed, where the most relevant posts related to the site's topic are shown) and browse through these posts.
+
+
+# What happens if a social site I follow gets deleted or becomes inactive?
+If a social site you follow gets deleted or becomes inactive, you will be redirected to the main domain with general information about creating a site. All of your posts and information will remain intact, as Waivio, its social sites, and the Hive blockchain are interconnected, functioning as one system.

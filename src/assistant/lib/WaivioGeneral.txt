@@ -880,3 +880,20 @@ Waivio encourages a positive and respectful environment for all users. To mainta
 8. **Use of Tags**:  
    Use relevant tags to help others find your content.
 If these guidelines are violated, users may face consequences, such as content removal, muting, or account restrictions. Waivio aims to foster a positive and trustworthy community by encouraging responsible behavior and meaningful contributions.
+
+
+# Waivio Study Tutorial Materials
+Lesson 1: [Introduction to Waivio and the Decentralized Social Network Hive](https://social.gifts/object/oal-about-waivio/page)
+Lesson 2: [Creating a Hive Account](https://social.gifts/object/owg-best-practices-for-managing-hive-private-keys-on-multiple-devices/page)
+Lesson 3: [Customizing Your Profile](https://social.gifts/object/cww-customizing-your-hive-profile/page)
+Lesson 4: [Managing Your Wallet](https://social.gifts/object/axy-your-waivio-wallet/page)
+Lesson 5: [Knowledge Accumulation in Web 3.0](https://social.gifts/object/jpv-accumulating-knowledge-on-hive/page)
+Lesson 6: [Adding a Product Manually](https://social.gifts/object/gyg-how-to-add-a-product-to-hive/page)
+Lesson 7: [Importing Products With Waivio Chrome Extension](https://social.gifts/object/kda-waivio-chrome-extension-tutorial/page)
+Lesson 8 (Optional): [Importing Products from Datafiniti](https://social.gifts/object/uiy-how-to-import-products-on-hive/page)
+Lesson 9 (Optional): [Importing Products from a Spreadsheet](https://social.gifts/object/ehd-how-to-export-products-from-spreadsheet/page)
+Lesson 10: [Introduction to Social Shopping on Web 3](https://social.gifts/object/tso-social-shopping-on-hive/page)
+Lesson 11: [Managing a Social Shop in Your User Profile](https://social.gifts/object/fjh-shops-in-user-profiles/page)
+Lesson 12: [Launching a Social Shopping Website](https://social.gifts/object/mev-launching-your-social-shopping-website/page)
+Lesson 13: [Building a New Advanced Social Shop](https://social.gifts/object/bcl-advanced-social-shopping-website/page)
+Lesson 14: [Configuring a Custom Domain for Your Social Shop](https://social.gifts/object/rfr-custom-domain-for-your-social-shop/page)
