@@ -70,7 +70,7 @@ export const generalNode = async (
       context: (input) => {
         if ('chatHistory' in input) {
           return contextualizeQChain
-            .pipe(vectorStore.asRetriever())
+            .pipe(vectorStore.asRetriever({ k: 10 }))
             .pipe(formatDocumentsAsString);
         }
         return '';
