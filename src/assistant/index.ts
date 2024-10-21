@@ -11,9 +11,12 @@ import { REDIS_KEYS, TTL_TIME } from './constants/common';
 import { initialSupport } from './nodes/initialNode';
 import { generalNode } from './nodes/generalNode';
 import { searchNode } from './nodes/searchNode';
+import { customNode } from './nodes/customNode';
 import { AGENTS } from './constants/nodes';
 import * as crypto from 'node:crypto';
 import { configService } from '../config';
+import { getSiteConfig } from './helpers/requestHelper';
+import { RunnableLike } from '@langchain/core/runnables';
 
 export type GraphState = {
   llm: ChatOpenAI;
@@ -57,12 +60,12 @@ const routerSettings = Object.freeze({
   conversational: END,
 });
 
-const createGraph = () => {
+const createGraph = (initialNode: RunnableLike) => {
   // add nodes
   const graph = new StateGraph<GraphState>({
     channels: graphChannels,
   })
-    .addNode('initialSupport', initialSupport)
+    .addNode('initialSupport', initialNode)
     .addNode('generalNode', generalNode)
     .addNode('searchNode', searchNode);
 
@@ -73,8 +76,7 @@ const createGraph = () => {
     .addEdge('generalNode', END)
     .addEdge('searchNode', END);
 
-  const app = graph.compile();
-  return app;
+  return graph.compile();
 };
 
 export interface RunQueryI {
@@ -89,8 +91,6 @@ export const runQuery = async ({
   id,
   host,
 }: RunQueryI): Promise<BaseMessage> => {
-  const app = createGraph();
-
   const llm = new ChatOpenAI({
     modelName: 'gpt-4o',
     temperature: 0,
@@ -105,7 +105,10 @@ export const runQuery = async ({
   });
 
   const chatHistory = await historyStore.getMessages();
+  const config = await getSiteConfig(host);
+  const initialNode = config?.advancedAI ? customNode : initialSupport;
 
+  const app = createGraph(initialNode);
   const result = await app.invoke({
     llm,
     query,

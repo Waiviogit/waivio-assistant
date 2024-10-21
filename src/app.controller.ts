@@ -6,7 +6,6 @@ import { MessageInDto } from './dto/message-in.dto';
 import { MessageOutDto } from './dto/message-out.dto';
 import { HistoryOutDto } from './dto/history-out.dto';
 import { AppControllerDoc } from './app.controller.doc';
-import { cleanNode } from './assistant/nodes/cleangirl';
 
 @Controller()
 @AppControllerDoc.main()
@@ -30,14 +29,5 @@ export class AppController {
     id: string,
   ): Promise<HistoryOutDto> {
     return this.appService.getHistory(id);
-  }
-
-  @Post('clean')
-  cleanMessage(
-    @CustomHeaders(new HostPipe())
-    host: string,
-    @Body() body: MessageInDto,
-  ) {
-    return cleanNode(body.query);
   }
 }

@@ -16,8 +16,10 @@ export const AGENTS_DESCRIPTION = {
     'search of specific product, book, person, recipe, business, restaurant, or account (user), contact with owner - ObjectSearch',
   CampaignManagement:
     'questions related to the creation and management of campaigns - CampaignManagement',
-  EarnCampaign: 'questions related to how create review post and earn crypto - EarnCampaign',
-  ObjectImport: 'questions related to how import objects to waivio - ObjectImport',
+  EarnCampaign:
+    'questions related to how create review post and earn crypto - EarnCampaign',
+  ObjectImport:
+    'questions related to how import objects to waivio - ObjectImport',
   SitesManagement:
     'questions about how to create and manage sites, including basic information about social site views, features, peculiarities, and structure - SitesManagement',
   WaivioObjects:
