@@ -27,7 +27,8 @@ const getIndexFromHostName = ({ host }) => {
 
 const newAgentsDescription = {
   ...AGENTS_DESCRIPTION,
-  ObjectSearch: 'search  account (user), contact with owner - ObjectSearch',
+  ObjectSearch:
+    'search  account (user), customer support contacts, contact with owner - ObjectSearch',
 };
 
 export const customNode = async (

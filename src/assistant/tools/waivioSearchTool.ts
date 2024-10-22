@@ -199,7 +199,8 @@ export const generateSearchToolsForHost = (host: string) => {
     },
     {
       name: 'waivioOwnerContactTool',
-      description: 'Use this tool for get contacts of site owner',
+      description:
+        'Use this tool for get contacts of site owner, customer support contacts',
       responseFormat: 'content',
     },
   );
