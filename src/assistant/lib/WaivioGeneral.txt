@@ -900,6 +900,12 @@ Lesson 14: [Configuring a Custom Domain for Your Social Shop](https://social.gif
 
 
 # Waivio Platform Main Features
+Waivio Platform, a dynamic and user-driven social network that opens up a world of possibilities for content creation, community building, and earning rewards. Waivio empowers you to:
+- Create and Share Content: Express yourself through posts, images, and videos, and engage with a vibrant community where your contributions are valued.
+- Build and Join Social Sites: Tailor your social experience by creating dedicated sites around your interests or joining others to participate in focused discussions.
+- Run Reward Campaigns: Incentivize engagement by creating campaigns that reward community participation, promoting interaction, and fostering growth.
+- Earn Crypto Rewards: Benefit tangibly from your activity on the platform by earning cryptocurrency for participating in campaigns and contributing to the community.
+With features like a user-friendly editor, customizable profiles, and robust engagement tools, Waivio enhances your social networking experience while providing meaningful rewards. Explore the main features that make Waivio a unique platform for connecting, sharing, and earning:
 - **User-Generated Content:** Users can create and share posts, images, and videos, fostering a vibrant community where everyone can contribute and engage.
 - **Social Sites Creation:** Users have the ability to create their own social sites tailored to specific interests or topics, allowing for focused discussions and interactions. They can also participate in other users' social sites.
 - **Campaigns:** Users can create rewards campaigns designed to incentivize community participation and engagement. These campaigns can focus on various themes or activities, such as promoting specific content, driving user interaction, or encouraging social sharing.

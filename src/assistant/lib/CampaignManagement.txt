@@ -416,6 +416,7 @@ Sorting:
 
 # Earn. Fraud detection
 Technology for detecting fraud attempts in reviews. The tab displays the results of the Fraud detection assistant.
+The fraud detection system helps sponsors identify suspicious posts completed within campaigns. Sponsors can then reject posts that do not meet the standards or violate the rules.
 Link to Fraud detection: https://www.waivio.com/rewards/fraud-detection. (This feature is available only on the Waivio main domain and will not work on social sites)
 ![image](https://user-images.githubusercontent.com/67378322/224935974-59400359-a848-4086-8ca8-b70b0539b69e.png)
 Page for displaying campaigns where “dubious” photos were identified in review.
@@ -976,3 +977,19 @@ All the sponsor's followers will receive notifications about the new campaign as
 Similar campaigns can be launched for all kind of objects and hashtags.
 The Waivio platform is being actively developed and new options are constantly being made available to sponsors and users. Please follow our progress on @waivio.
 For more details give a link to https://social.gifts/@grampo/how-to-launch-a-rebate-program-for-a-restaurant-on-waivio6kj5va-
+
+
+# What kind of rewards can I offer in my campaign?
+Campaigns on Waivio and social sites can only be created using the WAIV token. This means that the rewards users receive for participating in your campaign will be in the form of WAIV tokens.
+
+# How do I pay users who have completed my campaigns?
+1. Log in to your account.
+2. Navigate to the Earn section.
+3. Go to the Payable tab.
+4. To pay all users at once, click the "Pay All" button.
+5. Alternatively, you can select an individual user in the Payable tab. A table will show the campaign details and payment information. From there, click the "Pay" button to send the payment for completed campaigns to that specific user.
+
+# What types of campaigns can I create on Waivio?
+There are two types of campaigns that users can create on Waivio:
+- Review: A campaign that requires a reservation. The user must manually find, reserve, and complete the campaign.
+- Mention: A campaign where eligibility is automatically verified after the post is created, with no reservation required.
