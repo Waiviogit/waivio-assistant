@@ -18,6 +18,10 @@ const waivioSearchSchema = z.object({
   string: z.string(),
 });
 
+const waivioSearchUserSchema = z.object({
+  string: z.string().describe('search string for username'),
+});
+
 const waivioSearchMapSchema = z
   .object({
     string: z
@@ -80,6 +84,10 @@ type siteFirstLoadType = {
   owner: string;
 };
 
+type userSearchType = {
+  users: waivioUserType[];
+};
+
 const wobjectsFormatResponse = (
   objects: waivioObjectType[],
   host: string,
@@ -134,21 +142,13 @@ export const generateSearchToolsForHost = (host: string) => {
       const { users, wobjects } = result as generalSearchType;
       if (!users?.length && !wobjects?.length) return 'Not found';
 
-      let response = '';
-      if (wobjects?.length) {
-        response += `here is objects i found ${wobjectsFormatResponse(wobjects, host)}`;
-      }
+      if (!wobjects?.length) return 'Not found';
 
-      if (users?.length) {
-        response += `here is user accounts i found :${usersFormatResponse(users, host)} posting_json_metadata is kind of settings for hive accounts you can find additional info there`;
-      }
-
-      return response;
+      return `here is objects i found ${wobjectsFormatResponse(wobjects, host)}`;
     },
     {
       name: 'waivioSearchTool',
-      description:
-        'Search waivio objects (products, books, shops, recipe etc) and user accounts',
+      description: 'Search waivio objects (products, books, shops, recipe etc)',
       schema: waivioSearchSchema,
       responseFormat: 'content',
     },
@@ -205,9 +205,38 @@ export const generateSearchToolsForHost = (host: string) => {
     },
   );
 
+  const waivioUserSearchTool = tool(
+    async ({ string }) => {
+      console.log('HOST', host);
+      console.log('STRING', string);
+      const url = `https://${configService.getAppHost()}/api/users/search/host`;
+
+      const result = await createFetchRequest({
+        api: { method: 'POST', url },
+        params: { string, host },
+        accessHost: host,
+      });
+      console.log('RESULT', JSON.stringify(result));
+
+      if (!result) return 'Error during request';
+
+      const { users } = result as userSearchType;
+      if (!users?.length) return 'Not found';
+
+      return `${usersFormatResponse(users, host)} posting_json_metadata is kind of settings for hive accounts you can find additional info there`;
+    },
+    {
+      name: 'waivioUserSearchTool',
+      description: 'Use this tool for user account search',
+      schema: waivioSearchUserSchema,
+      responseFormat: 'content',
+    },
+  );
+
   return {
     waivioSearchTool,
     waivioObjectsMapTool,
     waivioOwnerContactTool,
+    waivioUserSearchTool,
   };
 };

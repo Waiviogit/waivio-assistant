@@ -7,8 +7,12 @@ export const searchNode = async (
   state: GraphState,
 ): Promise<Partial<GraphState>> => {
   const { llm, query, host } = state;
-  const { waivioSearchTool, waivioObjectsMapTool, waivioOwnerContactTool } =
-    generateSearchToolsForHost(host);
+  const {
+    waivioSearchTool,
+    waivioObjectsMapTool,
+    waivioOwnerContactTool,
+    waivioUserSearchTool,
+  } = generateSearchToolsForHost(host);
 
   const SYSTEM_TEMPLATE = `You are support staff for ${host}.
          Your task is communicate with user and perform search-related tasks to accompany your answers with links and images and additional info to relevant objects, accounts or posts.
@@ -19,6 +23,7 @@ export const searchNode = async (
     waivioSearchTool,
     waivioObjectsMapTool,
     waivioOwnerContactTool,
+    waivioUserSearchTool,
   ]);
 
   const messages = [
@@ -36,6 +41,7 @@ export const searchNode = async (
     waivioSearchTool,
     waivioObjectsMapTool,
     waivioOwnerContactTool,
+    waivioUserSearchTool,
   };
   messages.push(supportResponse);
 
