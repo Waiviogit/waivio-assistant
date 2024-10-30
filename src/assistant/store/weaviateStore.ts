@@ -1,5 +1,5 @@
 import { WeaviateStore } from '@langchain/weaviate';
-import weaviate from 'weaviate-ts-client';
+import weaviate, { WeaviateClass } from 'weaviate-ts-client';
 import { OpenAIEmbeddings } from '@langchain/openai';
 import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter';
 import { configService } from '../../config';
@@ -69,4 +69,33 @@ export const dropWeaviateIndex = async (indexName: string) => {
   } catch (error) {
     console.error(error);
   }
+};
+
+export const getWeaviateClass = async (
+  className: string,
+): Promise<WeaviateClass | null> => {
+  try {
+    const client = weaviate.client({
+      scheme: 'http',
+      host: weaviateHost,
+    });
+    return await client.schema.classGetter().withClassName(className).do();
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  } catch (error) {
+    return null;
+  }
+};
+
+export const getIndexFromHostName = ({ host }) => {
+  const cleanedHostName = host.replace(/[^a-zA-Z0-9]/g, '');
+  return (
+    cleanedHostName.charAt(0).toUpperCase() +
+    cleanedHostName.slice(1).toLowerCase()
+  );
+};
+
+export const checkClassExistByHost = async ({ host }): Promise<boolean> => {
+  const className = getIndexFromHostName({ host });
+  const result = await getWeaviateClass(className);
+  return !!result;
 };

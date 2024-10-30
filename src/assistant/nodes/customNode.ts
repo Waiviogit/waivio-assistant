@@ -9,21 +9,13 @@ import {
 } from '@langchain/core/prompts';
 import { StringOutputParser } from '@langchain/core/output_parsers';
 import { GraphState } from '../index';
-import { getWeaviateStore } from '../store/weaviateStore';
+import { getIndexFromHostName, getWeaviateStore } from '../store/weaviateStore';
 import { getSiteDescription } from '../helpers/requestHelper';
 import { z } from 'zod';
 import { AGENTS, AGENTS_DESCRIPTION } from '../constants/nodes';
 import { HumanMessage } from '@langchain/core/messages';
 
 const availableAgents = Object.values(AGENTS) as [string, ...string[]];
-
-const getIndexFromHostName = ({ host }) => {
-  const cleanedHostName = host.replace(/[^a-zA-Z0-9]/g, '');
-  return (
-    cleanedHostName.charAt(0).toUpperCase() +
-    cleanedHostName.slice(1).toLowerCase()
-  );
-};
 
 const newAgentsDescription = {
   ...AGENTS_DESCRIPTION,
