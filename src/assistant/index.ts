@@ -15,7 +15,6 @@ import { customNode } from './nodes/customNode';
 import { AGENTS } from './constants/nodes';
 import * as crypto from 'node:crypto';
 import { configService } from '../config';
-import { getSiteConfig } from './helpers/requestHelper';
 import { RunnableLike } from '@langchain/core/runnables';
 import { checkClassExistByHost } from './store/weaviateStore';
 
@@ -107,9 +106,8 @@ export const runQuery = async ({
 
   const existWeaviateClass = await checkClassExistByHost({ host });
   const chatHistory = await historyStore.getMessages();
-  const config = await getSiteConfig(host);
-  const initialNode =
-    config?.advancedAI && existWeaviateClass ? customNode : initialSupport;
+
+  const initialNode = existWeaviateClass ? customNode : initialSupport;
 
   const app = createGraph(initialNode);
   const result = await app.invoke({
