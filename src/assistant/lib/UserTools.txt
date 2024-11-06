@@ -1878,3 +1878,58 @@ Lesson 11: [Managing a Social Shop in Your User Profile](https://social.gifts/ob
 Lesson 12: [Launching a Social Shopping Website](https://social.gifts/object/mev-launching-your-social-shopping-website/page)
 Lesson 13: [Building a New Advanced Social Shop](https://social.gifts/object/bcl-advanced-social-shopping-website/page)
 Lesson 14: [Configuring a Custom Domain for Your Social Shop](https://social.gifts/object/rfr-custom-domain-for-your-social-shop/page)
+
+
+# Lesson 1: Introduction to Waivio and the Decentralized Social Network Hive
+For more details give a link to https://social.gifts/object/oal-about-waivio/page
+What is Waivio?
+Waivio is a social media platform where you can earn crypto rewards for your posts. Waivio is built on the decentralized social blockchain Hive. Your account, content, funds, and social connections are all recorded on the Hive blockchain, and this information cannot be changed or deleted by any other party.
+For the first time, you have true control over your social profile, and you can safely develop your social presence without the threat of being censored or losing access to your audience. Waivio makes it easy to access and use this advanced technology of Hive blockchain, along with many other services and applications that make up the vast Hive ecosystem.
+
+Let's talk about rewards. In contrast to social media companies, users on Hive are the primary beneficiaries of their efforts, and even small content creators are rewarded for their work.
+There are three ways how you can earn on Waivio:
+1. Author
+After you create a post, you have seven days to collect as many likes (upvotes) as possible. These likes will determine the earnings for your post.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1676691500_fd353f49-d580-4792-a7d1-daa3f64082b8)
+In traditional social media, each user has 1 vote. But on the decentralized social network, the value of each vote is determined by the amount of staked (powered up) tokens that user has. The more staked tokens, the higher the vote value. Because of that - it is better to get a single upvote from a user with a large stake (whale) than to collect many likes from small accounts (plankton). For this reason, building a reputation and social connections on Hive is a good investment of your time.
+Not to mention that Posts in the trending section may receive hundreds of dollars in rewards. At the end of day 7, the reward for the post will be finalized. Half of this amount will be paid to the author of the post and the other half to the curators.
+2. Curator
+You can also collect rewards for just upvoting posts on Waivio! The value of your vote is determined by your stake. Let's imagine that the value of your vote is $0.10. Half of your vote value ($0.05) goes to the author, and another half (approximately $0.05) goes to you.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1676691686_ac5ee8ff-a182-4ea0-b7c8-73cb9f32623b)
+The number of votes that you can cast per day is limited. You may think of it as a laser gun, which requires recharging after the use. Every time you make a 100% upvote, your voting power drops by 2%. It recharges at the rate of 20% per day. Therefore, you can give 10 upvotes per day in a sustainable way.
+Rewards to authors and curators are paid from inflation. This means that you don't lose tokens when you upvote posts. On the contrary, you increase your stake when you discover and upvote great content on Waivio!
+3. Sponsored Rewards
+These rewards are announced on the Hive blockchain by sponsors. You can collect these rewards by completing tasks, such as sharing an opinion about a specific product, book or place, or sharing a couple of photos of a dish from a restaurant or featuring sponsored products in a post, photo or video.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1676691741_009f5cfe-407b-4823-901c-98ee3266f20d)
+This is a unique feature available only on Waivio in the Earn section.
+
+Are you ready to get started?
+1) Start on Waivio by signing into the platform. ![image](https://waivio.nyc3.digitaloceanspaces.com/1676691969_266a63ea-08bd-4586-9501-51d18ca77506) (If you already have a Hive account, use the HiveSigner and your keys to sign in. If you are new to Hive, sign in with Google to use the platform immediately with a guest account.)
+2) To earn rewards, sign in to your account and go to the "Earn" section. ![image](https://waivio.nyc3.digitaloceanspaces.com/1676692306_1fc88440-78fe-4772-a2ca-b2fbb32712fa) You will find global and local rewards here. Global rewards can be claimed by writing a review about a sponsored product, and local rewards are claimable in specific locations. Each reward will have different requirements and values, so make sure to check the details before completing the task
+
+My Favorite Coffee Mug
+Let’s earn the first $5.00 reward by sharing two or more photos of your favorite coffee mug. This welcome campaign is sponsored by Waivio and can be claimed by new users.
+1) To find the reward, search for "coffee mug" in the search bar and select "My Favorite Coffee Mug" from the search results.
+2) To earn the reward click on the "Submit photos" button ![image](https://waivio.nyc3.digitaloceanspaces.com/1676692563_ae78b52d-5aed-4bf8-804e-652bce5f4a08)
+3) Check the requirements and continue.
+4) The required links will be automatically inserted into the post, so all you need to do is add the two photos of the mug and share a short story about why you like this particular one. If you decide to take the photos later, your reward will be reserved for 7 days so you can finish your post at any convenient time for you. You can find all active reservations in the "Reserved rewards" of the Earn section.
+5) Finally, publish your review on the Hive blockchain.
+After you publish your post, it will appear on your blog page. You can see the rewards you have earned, including the value of eligible sponsored rewards, which will be shown right away. Earnings from likes will accumulate for the next 7 days.
+All sponsored rewards are paid in WAIV tokens, while upvotes on posts and comments are paid out in both WAIV and HIVE (the base token of the blockchain).
+
+Cashing out rewards
+To convert your WAIV or HIVE earnings into Bitcoin, Litecoin, or Ethereum, simply follow these steps:
+1) In the Waivio wallet, select the WAIV or HIVE tab.
+2) Choose the destination cryptocurrency, such as Litecoin. ![image](https://waivio.nyc3.digitaloceanspaces.com/1676692647_4de6945f-c115-437d-8e7e-66e94d7f4f58)
+3) On the Withdraw screen:
+  1. Enter the amount you want to send,
+  2. Enter or scan the address of your Litecoin wallet, where the converted funds will be sent.
+  3. Confirm the withdrawal to start the conversion process.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1676692887_8d5fcba7-7c9b-4390-b597-dfee6174852d)
+The same process can be used to pay at stores that accept cryptocurrency payments in BTC, LTC, ETH, or to withdraw your earnings using a Bitcoin ATM.
+You have now learned the basics of Waivio and can explore the platform further.
+With a guest account, you can collect author and sponsor rewards but not curator rewards. To access all the features of the Hive decentralized social network, you will need to create a Hive account. Follow the link below to learn how to set up a Hive account and unlock all the benefits of the platform.
+In conclusion, joining Waivio can be a great way to earn rewards, build connections, and learn about the latest developments in web 3 technology. ![image](https://waivio.nyc3.digitaloceanspaces.com/1676692749_50d7add7-2470-4bb5-a433-b5c6eb96034b)
+By putting in time and effort into building a social presence and making connections on the decentralized, censorship-resistant social network, you can take control of your online presence and experience, and make a valuable investment in your future.
+
+
