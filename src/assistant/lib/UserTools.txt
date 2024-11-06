@@ -921,14 +921,18 @@ There are several ways to obtain WAIV tokens:
    - On Waivio and social sites, users can earn WAIV tokens by creating posts, engaging with content, curating, and participating in various activities on the platform.
 2. **Receive WAIV tokens from another user**:  
    - If another user has WAIV tokens, they can transfer them to your wallet. To do this, they need your account username, and they can send WAIV tokens directly to your account through the wallet transfer feature.
-3. **Buy WAIV tokens**:  
-   - You can buy WAIV tokens on Hive Engine, which is the decentralized exchange (DEX) that supports trading for WAIV. Search for WAIV in the market section of Hive Engine, and you can exchange HIVE or other supported tokens for WAIV.
-4. **Swap other tokens for WAIV**:  
+3. **Swap other tokens for WAIV**:  
    - If you have tokens on Hive Engine, you can swap them for WAIV. Use the **Swap** functionality in your Waivio wallet to convert tokens like SWAP.HIVE, SWAP.BTC, or others into WAIV tokens.
-5. **Deposit**:
+4. **Deposit**:
    - If you have tokens on Hive (HIVE or HBD), or differente currencies (LTC, BTC etc), you can deposit them so they swap-token equavalent will appear, and after that you can swap it to different needed token. For example, you can deposit from your external wallet like LTC, and you will receive SWAP.LTC, and now you can convert (swap) SWAP.LTC to WAIV. 
    ![Deposit button image](https://github.com/user-attachments/assets/12fe4491-1674-41e1-80ee-d10cf3dabb6b)
    ![Deposit modal window image](https://github.com/user-attachments/assets/eb716956-5596-4661-a605-ae270fa5b64f)
+5. **Buy WAIV tokens (swap or deposit)**:  
+   - To acquire WAIV tokens, you can use the Swap or Deposit options in your Waivio wallet. If you already hold tokens like SWAP.HIVE or SWAP.BTC, you can swap them directly for WAIV. Alternatively, you can deposit tokens such as HIVE, HBD, LTC, or BTC from an external wallet. This deposit will show up as a swap-token equivalent (e.g., SWAP.LTC), which can then be converted to WAIV through a swap. Both options let you conveniently exchange your existing tokens for WAIV.
+6. **Sell WAIV tokens (swap or withdraw)**:   
+   - To sell WAIV tokens, you can use the Swap or Withdraw options in your Waivio wallet.
+     - Swap WAIV for other tokens: If you'd like to exchange WAIV for another token on Hive Engine (e.g., SWAP.HIVE), use the Swap feature. Navigate to your Waivio wallet, select WAIV, and choose the token you want in exchange. This will convert your WAIV into the selected swap-token (like SWAP.HIVE) directly within the wallet.
+     - Withdraw WAIV to an external wallet: If you want to withdraw WAIV as a different currency to an external wallet that is not part of the Hive Engine ecosystem (e.g., LTC, BTC, ETH, HIVE), use the Withdraw feature to directly withdraw WAIV to that external wallet. Click on the Withdraw button in your WAIV wallet, choose the pair (e.g., WAIV - HIVE, WAIV - LTC, etc.), fill in the required fields, and click the Withdraw button. Alternatively, in your Wallet, under your WAIV amount, there is a menu with options for withdrawing (e.g., "Withdraw to LTC," etc.). Selecting this will open a withdrawal modal window with your chosen pair. For example, if you withdraw WAIV to LTC to an external Litecoin wallet, this step allows you to convert your WAIV tokens into other cryptocurrencies outside the platform.
 Once you have WAIV tokens, they will appear in your wallet, and you can use them for various activities on the platform or withdraw them as needed.
 
 # Study Tutorial Materials

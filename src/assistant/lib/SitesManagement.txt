@@ -1802,3 +1802,22 @@ Note to Social.Gifts Website Owners
 Please consider restricting data editing features on your websites to approved data admins and business owners who have received delegations to edit specific listings.
 Stay tuned for more updates and features as we continue to enhance your experience on Social.Gifts web3 sites and Waivio.
 For more details give a link to https://social.gifts/@social.gifts/new-admin-delegations-for-specific-objects
+
+
+# AI Chatbot Now Available on All Social Shopping Sites
+AI Chatbot is now live on all Waivio-hosted social shopping sites! Acting as your friendly, knowledgeable store manager, it’s ready to welcome visitors, answer questions, recommend products, provide detailed insights, and even create custom product collections tailored to each user’s needs.
+Here’s a look at what the AI Chatbot can do across different sites:
+CleanGirlLook.com
+Receive personalized recommendations for a dry hair care routine.
+![image](https://waivio.nyc3.digitaloceanspaces.com/99b893b4ab8e4e1ab3ee36e76b8ecf7cfce9cc7ca0245c1d5a64cda164e4310f)
+CampingMapper.com
+Discover fun outdoor games that kids will love.
+![image](https://waivio.nyc3.digitaloceanspaces.com/49193d10cd66d815651e74b055cda70ca3f63501f828d237ab93b5519ac5b554)
+CoffeeShop.Gifts
+Find authentic cafes in Richmond, BC, for a perfect coffee outing.
+![image](https://waivio.nyc3.digitaloceanspaces.com/26c392d7e5e30ac8d5a88e3c38d10cdd6ac04628438f1aa13473db0b05657ad6)
+Plus, the AI Chatbot is ready to guide users through technical questions, like cashing out WAIV rewards or setting up a Hive account, making it simple to navigate the social shopping site and experience the unique benefits Web3 brings—true account ownership, decentralized interactions, and the potential to earn crypto rewards along the way.
+CatsHive.com
+![image](https://waivio.nyc3.digitaloceanspaces.com/d9c4e61c27b8ef0740dfcb1975d971f14e778dbdf27a32aff9455a4585f2781b)
+Bring your users a smarter shopping experience. With an AI assistant that provides knowledgeable guidance, timely suggestions, and personalized recommendations, you’ll elevate their journey from browsing to finding exactly what they need—effortlessly and enjoyably.
+For more details give a link to https://social.gifts/@social.gifts/ai-chatbot-now-available-on-all-social-shopping-sites
