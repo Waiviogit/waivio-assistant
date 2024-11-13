@@ -460,36 +460,3 @@ Create Quality Content: By posting high-quality content, you can earn upvotes fr
 Engage with the Community: Commenting, voting, and interacting with other users' content can also contribute to your rewards, as active participation is valued on the platform.
 Referral Program: Bringing new users to Waivio through referral links can earn you additional rewards.
 Stake and Influence: The more tokens you stake, the greater your influence on the platform, which can lead to higher rewards from your content and activities.
-
-
-# Posts view on Waivio
-As a social media platform, Waivio plays a crucial role in content sharing and interaction.
-**Posts** are a fundamental component of Waivio and its associated sites, providing users with a way to share, engage with, and discover content. The presentation of posts is designed to be consistent across the platform, ensuring a seamless user experience. Each post includes the following elements:
-- **Author**: The name of the post's author.
-- **Avatar**: The author's avatar image.
-- **Expertise**: The author's expertise on Waivio.
-- **Time**: The publication time of the post.
-- **Platform**: The platform through which the post was published.
-- **Objects**: Attached objects in the post. The last four objects are displayed.
-- **Title**: The title of the post.
-- **Image**: The post's image. The first image is displayed.
-- **Text Preview**: A preview of the post's text.
-- **Like**: A button to like the post. It defaults to gray and turns orange when clicked.
-- **Like Counter**: Displays the number of likes. When hovered over, a tooltip shows the counter in orange. Votes less than 0.01 are not displayed. Clicking the counter opens a modal with details on who voted, their voting power in USD, and the percentage.
-- **Comments**: A button to expand comments under the post.
-- **Comments Counter**: Displays the number of comments.
-- **Reblog**: A button to share the post on the user's own page.
-- **Reblog Counter**: Shows the number of reblogs. Clicking it opens a modal with user details.
-- **Actions**: Includes:
-  - Follow {authorName}
-  - Hide post: Hides the post for the user.
-  - Mute {authorName}: Prevents the user from seeing posts and comments from the muted author.
-  - Add to bookmarks
-  - Flag post: Indicates dislike.
-  - Share to Facebook
-  - Share to X
-  - Delete post: Allows deletion if the post has no likes or comments.
-  - Reject rewards: Available for sponsors to reject rewards for a review.
-  - Add {user} to blacklist: Allows sponsors to blacklist users.
-- **Payout**: Displayed in orange with the Waivio icon when the post is eligible for Waiv rewards (has hashtags like waivio, waiv, palnet, neoxian, food). Hovering over the payout shows potential payout information in Hive, HBD, and Waiv. Clicking it opens a modal window. For posts older than 7 days, information about the author and curators is displayed.
-![Post UI image](https://user-images.githubusercontent.com/67378322/145022501-e417125b-b0a0-4e59-98a6-0bd6958152f2.png)
