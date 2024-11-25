@@ -181,14 +181,14 @@ Users can update their profile information by navigating to their user profile o
 - Website
 - Avatar
 - Profile background image
-- Social profiles links (Facebook, Twitter, LinkedIn, YouTube, Instagram, GitHub)
+- Social profiles links (Facebook, Twitter, LinkedIn, YouTube, Instagram, TikTok, GitHub)
 - Crypto wallets (Bitcoin, Litecoin, Ethereum, Lightning Bitcoin)
 - Signature for comments that the user will post
 ![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a)
 ![image](https://github.com/user-attachments/assets/ec597353-0582-45be-8a3e-614e5251be14)
 
 Can I link my account to other social media platforms?
-Users can link their account to other social media platforms by navigating to their user profile or Tools in main navigation menu, click on "Edit profile," and add links in the relevant fields, such as Facebook, Twitter, LinkedIn, YouTube, Instagram, and GitHub. ![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a) ![image](https://waivio.nyc3.digitaloceanspaces.com/adf52ee7e98f44fd4d30aaa0685a6be4288970f654fc66ca11b52dabb5337f30)
+Users can link their account to other social media platforms by navigating to their user profile or Tools in main navigation menu, click on "Edit profile," and add links in the relevant fields, such as Facebook, Twitter, LinkedIn, YouTube, Instagram, TikTok and GitHub. ![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a) ![image](https://waivio.nyc3.digitaloceanspaces.com/adf52ee7e98f44fd4d30aaa0685a6be4288970f654fc66ca11b52dabb5337f30)
 
 How can I see my login history?
 The user cannot see the login history, but can view all main account activities, such as writing posts, comments, likes, and other actions. To do this, go to the user profile and open the Activity tab. ![image](https://waivio.nyc3.digitaloceanspaces.com/7f46599459c9103efefe3f8eb246fe215177b5b58b9dfe8c4f6d5314a10ad53f)
@@ -956,3 +956,46 @@ There are several ways to obtain WAIV tokens:
      - Swap WAIV for other tokens: If you'd like to exchange WAIV for another token on Hive Engine (e.g., SWAP.HIVE), use the Swap feature. Navigate to your Waivio wallet, select WAIV, and choose the token you want in exchange. This will convert your WAIV into the selected swap-token (like SWAP.HIVE) directly within the wallet.
      - Withdraw WAIV to an external wallet: If you want to withdraw WAIV as a different currency to an external wallet that is not part of the Hive Engine ecosystem (e.g., LTC, BTC, ETH, HIVE), use the Withdraw feature to directly withdraw WAIV to that external wallet. Click on the Withdraw button in your WAIV wallet, choose the pair (e.g., WAIV - HIVE, WAIV - LTC, etc.), fill in the required fields, and click the Withdraw button. Alternatively, in your Wallet, under your WAIV amount, there is a menu with options for withdrawing (e.g., "Withdraw to LTC," etc.). Selecting this will open a withdrawal modal window with your chosen pair. For example, if you withdraw WAIV to LTC to an external Litecoin wallet, this step allows you to convert your WAIV tokens into other cryptocurrencies outside the platform.
 Once you have WAIV tokens, they will appear in your wallet, and you can use them for various activities on the platform or withdraw them as needed.
+
+
+# Introducing Food Recipes on Waivio and Social Shopping Sites
+Every chef has their own version of an Irish Stew, but which recipe is the right one? Well, that's for you to decide!
+Introducing Waivio's latest object type – the Recipe. This object gathers all the key details, like the name, description, tags, and common ingredients, while also serving as a hub for users to share their unique takes on the recipe.
+![image](https://waivio.nyc3.digitaloceanspaces.com/9f4d71fb881a79445eacdfaf3de62533847008cc0af7a93d74346a10c077ec89)
+And users can pin their favorite recipe to make it their personal top choice.
+And for those who haven’t made their selection yet, the recipe that collects the most pins becomes the top community recipe for all!
+![image](https://waivio.nyc3.digitaloceanspaces.com/9e4c19d9a7479e394d6244e5db60aa815c5562b3e672a14198c8177debee59c9)
+When you heart a recipe, it gets added to your profile. This allows you to build your personal recipe collection and share it with your friends and followers.
+![image](https://waivio.nyc3.digitaloceanspaces.com/3e8f58ce633136fcc0939ce054397ed9c264e0b0dd7f2a8808441b772a501f69)
+With the Waivio Chrome Extension, adding recipes from platforms like YouTube is a breeze! It automatically pulls in video transcripts to create detailed recipes, including ingredients, instructions, and tips.
+![image](https://waivio.nyc3.digitaloceanspaces.com/448793bdb090bf8656cf2a66598f578acd4f1d70e879990bc91b49dcd1636252)
+Even better, if you include your Instacart affiliate code in your profile, you can earn commissions when people order the ingredients from your shared recipes!
+![image](https://waivio.nyc3.digitaloceanspaces.com/7e68c9d3346f38e8594e2400f23b45a2ec848ee396c86edda3774c519d8038e7)
+Recipes truly shine on social shopping sites! Share your recipe collections with a broader audience and monetize them through grocery orders and affiliate sales of carefully chosen kitchen products.
+![image](https://waivio.nyc3.digitaloceanspaces.com/226a2377850a8968714201d37cd875bc3f7a87459321287119eba8c6692547c7)
+Try it out on HiveCooking.com where you can pin your favorite recipes, share them with followers and earn rewards. Build your personal recipe collections, connect with the community, and see how easy it is to integrate recipes into a social shopping experience.
+For more details give a link to https://www.waivio.com/@waiviolabs/introducing-food-recipes-on-waivio-and-social-shopping-sites
+
+
+# Quickly Add Businesses While Writing Posts on Waivio
+Imagine a little café—Steveston Coffee Company. The kind of place where the barista knows your name and the coffee feels like a hug in a cup. You want to tell this story, but in a way that lasts.
+On Waivio, your posts don’t just fade into blog archives. When you share a place like this, it gets its own dedicated page. Your story becomes part of the business’s story, where others can add their reviews, and your friends can easily discover it on the map in your profile.
+Here’s how it works:
+Step 1: Start Your Post
+![image](https://waivio.nyc3.digitaloceanspaces.com/cbb1637f9a7488e3c4392ff1f69c740c9edd557b25962ffa487f84745474c89e)
+Begin writing your post. Click the Nearby button to find and add local businesses.
+Step 2: Find the Café
+![image](https://waivio.nyc3.digitaloceanspaces.com/7126e63e537e0c377ec71a8a40590de91c4ec8977955e4ce33d80336c0e341ff)
+Search for the café on the map and select it. If the café is already on the Hive blockchain, your post will join the story others have started. If it’s not yet available, it will be imported, and a new dedicated page will be created for it.
+Step 3: Continue Writing the Post
+![image](https://waivio.nyc3.digitaloceanspaces.com/4fb93c942752ef639a9e96b28df23d2cc1abeaa26da825bba36ff07fa4934286)
+The café is now linked in your post, and your story will appear on the café’s dedicated page alongside other reviews and details. It’s more than a mention—it’s part of a growing collection of shared experiences.
+Step 4: Build the Story Together
+![image](https://waivio.nyc3.digitaloceanspaces.com/0dd120087b903f2fefe488187881214feb5e36ca06d2b023444eee2dd344c6f5)
+Each business you share gets a dedicated page, featuring your post as a review. Others can add their own thoughts, turning your discovery into a growing collection of experiences.
+Step 5: See It on Your Map
+![image](https://waivio.nyc3.digitaloceanspaces.com/814ee72e35d872b975fc8bbd88c56fac3b8f502b1a6fbef1e137edef0bc1e88d)
+The café appears on your Waivio map, where friends can find it and explore your recommendations.
+To add more businesses to the map in your profile, simply click the Add button and follow the same easy process.
+This feature is now live on Waivio and all social shopping sites it powers. Start sharing your favorite places today and let your stories become part of something lasting!
+For more details give a link to https://www.waivio.com/@waiviolabs/quickly-add-businesses-while-writing-posts-on-waivio

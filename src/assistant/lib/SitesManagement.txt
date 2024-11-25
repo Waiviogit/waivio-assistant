@@ -1821,3 +1821,22 @@ CatsHive.com
 ![image](https://waivio.nyc3.digitaloceanspaces.com/d9c4e61c27b8ef0740dfcb1975d971f14e778dbdf27a32aff9455a4585f2781b)
 Bring your users a smarter shopping experience. With an AI assistant that provides knowledgeable guidance, timely suggestions, and personalized recommendations, you’ll elevate their journey from browsing to finding exactly what they need—effortlessly and enjoyably.
 For more details give a link to https://social.gifts/@social.gifts/ai-chatbot-now-available-on-all-social-shopping-sites
+
+
+# Introducing Food Recipes on Waivio and Social Shopping Sites
+Every chef has their own version of an Irish Stew, but which recipe is the right one? Well, that's for you to decide!
+Introducing Waivio's latest object type – the Recipe. This object gathers all the key details, like the name, description, tags, and common ingredients, while also serving as a hub for users to share their unique takes on the recipe.
+![image](https://waivio.nyc3.digitaloceanspaces.com/9f4d71fb881a79445eacdfaf3de62533847008cc0af7a93d74346a10c077ec89)
+And users can pin their favorite recipe to make it their personal top choice.
+And for those who haven’t made their selection yet, the recipe that collects the most pins becomes the top community recipe for all!
+![image](https://waivio.nyc3.digitaloceanspaces.com/9e4c19d9a7479e394d6244e5db60aa815c5562b3e672a14198c8177debee59c9)
+When you heart a recipe, it gets added to your profile. This allows you to build your personal recipe collection and share it with your friends and followers.
+![image](https://waivio.nyc3.digitaloceanspaces.com/3e8f58ce633136fcc0939ce054397ed9c264e0b0dd7f2a8808441b772a501f69)
+With the Waivio Chrome Extension, adding recipes from platforms like YouTube is a breeze! It automatically pulls in video transcripts to create detailed recipes, including ingredients, instructions, and tips.
+![image](https://waivio.nyc3.digitaloceanspaces.com/448793bdb090bf8656cf2a66598f578acd4f1d70e879990bc91b49dcd1636252)
+Even better, if you include your Instacart affiliate code in your profile, you can earn commissions when people order the ingredients from your shared recipes!
+![image](https://waivio.nyc3.digitaloceanspaces.com/7e68c9d3346f38e8594e2400f23b45a2ec848ee396c86edda3774c519d8038e7)
+Recipes truly shine on social shopping sites! Share your recipe collections with a broader audience and monetize them through grocery orders and affiliate sales of carefully chosen kitchen products.
+![image](https://waivio.nyc3.digitaloceanspaces.com/226a2377850a8968714201d37cd875bc3f7a87459321287119eba8c6692547c7)
+Try it out on HiveCooking.com where you can pin your favorite recipes, share them with followers and earn rewards. Build your personal recipe collections, connect with the community, and see how easy it is to integrate recipes into a social shopping experience.
+For more details give a link to https://www.waivio.com/@waiviolabs/introducing-food-recipes-on-waivio-and-social-shopping-sites
