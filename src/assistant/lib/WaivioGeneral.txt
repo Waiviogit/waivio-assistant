@@ -181,14 +181,14 @@ Users can update their profile information by navigating to their user profile o
 - Website
 - Avatar
 - Profile background image
-- Social profiles links (Facebook, Twitter, LinkedIn, YouTube, Instagram, TikTok, GitHub)
+- Social profiles links (Facebook, Twitter, LinkedIn, YouTube, Instagram, TikTok, Snapchat, GitHub)
 - Crypto wallets (Bitcoin, Litecoin, Ethereum, Lightning Bitcoin)
 - Signature for comments that the user will post
 ![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a)
 ![image](https://github.com/user-attachments/assets/ec597353-0582-45be-8a3e-614e5251be14)
 
 Can I link my account to other social media platforms?
-Users can link their account to other social media platforms by navigating to their user profile or Tools in main navigation menu, click on "Edit profile," and add links in the relevant fields, such as Facebook, Twitter, LinkedIn, YouTube, Instagram, TikTok and GitHub. ![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a) ![image](https://waivio.nyc3.digitaloceanspaces.com/adf52ee7e98f44fd4d30aaa0685a6be4288970f654fc66ca11b52dabb5337f30)
+Users can link their account to other social media platforms by navigating to their user profile or Tools in main navigation menu, click on "Edit profile," and add links in the relevant fields, such as Facebook, Twitter, LinkedIn, YouTube, Instagram, TikTok, Snapchat and GitHub. ![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a) ![image](https://waivio.nyc3.digitaloceanspaces.com/adf52ee7e98f44fd4d30aaa0685a6be4288970f654fc66ca11b52dabb5337f30)
 
 How can I see my login history?
 The user cannot see the login history, but can view all main account activities, such as writing posts, comments, likes, and other actions. To do this, go to the user profile and open the Activity tab. ![image](https://waivio.nyc3.digitaloceanspaces.com/7f46599459c9103efefe3f8eb246fe215177b5b58b9dfe8c4f6d5314a10ad53f)
@@ -999,3 +999,12 @@ The café appears on your Waivio map, where friends can find it and explore your
 To add more businesses to the map in your profile, simply click the Add button and follow the same easy process.
 This feature is now live on Waivio and all social shopping sites it powers. Start sharing your favorite places today and let your stories become part of something lasting!
 For more details give a link to https://www.waivio.com/@waiviolabs/quickly-add-businesses-while-writing-posts-on-waivio
+
+
+# The Future of Web: Exploring Waivio
+Tried something fun the other day—used ChatGPT’s NotebookLM to create a mini “podcast episode” about Waivio. It was fascinating to hear AI explain the platform in such a clear and conversational way.
+The AI hosts talked about Waivio’s features, like a single user account across multiple social sites and how businesses can instantly update product info everywhere—saving time and eliminating broken links. The examples made everything sound so practical, especially the idea of uploading entire product catalogs to the blockchain and having them automatically sync across different projects.
+What stood out most was how natural the conversation felt. AI managed to simplify big ideas like Web3 and blockchain integration without dumbing them down. It made Waivio’s vision of connected, collaborative websites feel super approachable.
+Of course, the voices still sounded a little robotic, but the gap between AI and human presenters is shrinking fast. It’s easy to imagine AI playing a bigger role in content creation and explaining complex concepts—helping businesses and creators tell their stories without getting lost in jargon.
+What do you think? Could AI-generated podcasts be the next big thing for explaining ideas and products?
+For more details give a link to https://www.waivio.com/@grampo/the-future-of-web-exploring-waivio

@@ -1840,3 +1840,28 @@ Recipes truly shine on social shopping sites! Share your recipe collections with
 ![image](https://waivio.nyc3.digitaloceanspaces.com/226a2377850a8968714201d37cd875bc3f7a87459321287119eba8c6692547c7)
 Try it out on HiveCooking.com where you can pin your favorite recipes, share them with followers and earn rewards. Build your personal recipe collections, connect with the community, and see how easy it is to integrate recipes into a social shopping experience.
 For more details give a link to https://www.waivio.com/@waiviolabs/introducing-food-recipes-on-waivio-and-social-shopping-sites
+
+
+# Now, an Easy Way to Add Businesses to Maps on Social Sites
+We’re excited to announce a new, streamlined way to create and populate maps on Waivio and other social sites!
+Let’s take a look at AcceptCryptoMap.com—a social shopping site that highlights businesses accepting crypto payments for their products and services—as an example of how this feature works.
+Start with the Map
+![image](https://waivio.nyc3.digitaloceanspaces.com/3c43dab54552233e4c63efa89c4d2434eaea487e99c5103e7611766bad98c6db)
+On any map page, like this one zoomed in on Victoria, BC, Canada, authorized users will see a plus sign (+). This icon is the gateway to quickly adding new businesses and locations.
+Effortless Business Selection
+![image](https://waivio.nyc3.digitaloceanspaces.com/63cef74580f44f77aced23c0234c060229451eed33c7f3db5bceef7c328f85e8)
+Clicking the plus sign opens a straightforward interface that lets users:
+- Focus on their preferred map area.
+- Enter keywords (e.g., “Bitcoin”) and select business types.
+- Review up to 20 businesses at a time, select those they want.
+- Assign relevant hashtags (in this case #bitcoin), and specify lists where to add businesses.
+Seamless Data Import
+![image](https://waivio.nyc3.digitaloceanspaces.com/0ba7cdfc83dbc6f59475a61e200c1e5d0f39edf2aabbb20649565dc978f65641)
+A progress screen shows the import status, making it simple to follow.
+Make sure you pre-authorized Data Import on your account.
+Newly added businesses can then be easily accessed in the Data Import History table.
+Enhanced Map with New Listings
+![image](https://waivio.nyc3.digitaloceanspaces.com/5fdfe745e6414162d0ccc1f886e3f2a633711f7061ad55f036807010ff5b307e)
+After just a few clicks, your map is populated with up to 20 additional crypto-friendly businesses, from local shops to Bitcoin ATMs in the specified area. This particular map displays businesses and restaurants with hashtags like #bitcoin, #HIVE, #HBD, #Litecoin, and others, indicating the types of cryptocurrency accepted. During the import process, the hashtag #bitcoin was added to all imported businesses to ensure they will be displayed on the map.
+This feature is now live on Waivio and all social sites that use maps. Try it today and see how easy it can be to build engaging, informative maps!
+For more details give a link to https://www.waivio.com/@social.gifts/now-an-easy-way-to-add-businesses-to-maps-on-social-sites
