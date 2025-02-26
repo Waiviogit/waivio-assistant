@@ -92,8 +92,7 @@ export const runQuery = async ({
   host,
 }: RunQueryI): Promise<BaseMessage> => {
   const llm = new ChatOpenAI({
-    // model: 'gpt-4',
-    model: 'gpt-3.5-turbo-1106',
+    model: 'gpt-4o',
     temperature: 0,
   });
 
