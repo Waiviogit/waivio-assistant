@@ -517,3 +517,116 @@ Enhanced Map with New Listings
 After just a few clicks, your map is populated with up to 20 additional crypto-friendly businesses, from local shops to Bitcoin ATMs in the specified area. This particular map displays businesses and restaurants with hashtags like #bitcoin, #HIVE, #HBD, #Litecoin, and others, indicating the types of cryptocurrency accepted. During the import process, the hashtag #bitcoin was added to all imported businesses to ensure they will be displayed on the map.
 This feature is now live on Waivio and all social sites that use maps. Try it today and see how easy it can be to build engaging, informative maps!
 For more details give a link to https://www.waivio.com/@social.gifts/now-an-easy-way-to-add-businesses-to-maps-on-social-sites
+
+
+# Build Your Personal Recipe Collection on Hive with the Waivio Extension
+If you love discovering new recipes, saving your favorites, and sharing your own creations, Waivio makes it easy to build a structured recipe collection.
+https://waivio.nyc3.digitaloceanspaces.com/561f7cd2a6c1e9444507b117ced0defe61db7c52154eab63311365ae782f6ee6
+With the Waivio Chrome Extension, you can quickly transform cooking videos into detailed, well-organized recipes—complete with ingredient lists, step-by-step instructions, and beautiful formatting. Whether you're saving recipes for yourself or sharing them with others, your collection is stored on Hive, where it will never get lost or disappear.
+Save & Organize Recipes from Cooking Videos
+The internet is full of amazing recipes, but keeping track of them isn’t always easy. Instead of doing screenshots and losing them in your photo archive, Waivio lets you store and structure recipes directly in your Hive profile.
+How it works:
+1️⃣ Open a recipe video on TikTok, YouTube, or Instagram.
+2️⃣ Click "Create recipe draft" in the Waivio Extension.
+3️⃣ The extension will automatically extract details like ingredients, instructions, and captions.
+https://waivio.nyc3.digitaloceanspaces.com/f447f6659054e95b662b226871beaa3a1745511a889fa93d3ff202711eff6715
+With just one click, you can turn cooking videos into fully formatted, searchable recipes in your profile.
+Edit & Refine Recipes
+Want to adjust measurements, add missing steps, or include personal notes? The Waivio Extension allows you to edit and refine your recipes before publishing.
+✨ Regenerate Feature: After making updates, you can regenerate the recipe to maintain proper structure and formatting.
+https://waivio.nyc3.digitaloceanspaces.com/5f6be12b639996dd59d958d95039a549db8e464b4231a0dd8d8da50a8b87f01c
+This ensures that no important details are missed and keeps your recipe looking polished.
+Publishing Recipes on Hive (Two-Step Process)
+Once your recipe is ready, publishing it on Hive involves two steps:
+Step A: Create the Recipe Object
+Click "Create object" (A) - this publishes the structured recipe as an object on the Hive blockchain.
+🔹 This ensures that the recipe exists independently and can be referenced in multiple posts.
+🔹 Make sure Data Import is enabled in your account and that you have enough WAIV power to support the publishing process.
+https://waivio.nyc3.digitaloceanspaces.com/4ec6325cddeceae61e8cae68f5448c43a5193f9bf487d4dc42ebbf9a7371eb88
+Once the "Create object" button (A) becomes inactive, it means the recipe has been successfully created and is now ready to be linked in posts.
+Step B: Publish Your Recipe Post
+Click "Publish" (B) to create a blog post that showcases your recipe and links to the recipe object on Hive.
+🔹 Ensure that the Reposting bot is enabled—this helps optimize your post for SEO and social sharing.
+https://waivio.nyc3.digitaloceanspaces.com/a0194551c13f5857bb39820823c464e1c22b29739d9704458d6f5ce3d2a3aac4
+Your recipe will now be available in your profile and can be shared with others!
+https://waivio.nyc3.digitaloceanspaces.com/0e92a157d7fe6c84f43eff128a9ea59b2935cca8c05b4d91978191bbe75c280e
+Your Recipe Collection in Your Profile
+All the recipes you create and publish are automatically saved in your profile under the Recipe section.
+https://waivio.nyc3.digitaloceanspaces.com/5073a014f517628c212ef9e928d4afe9cfef88fb8aa3a624d1a5a71e42acbb2c
+Your Recipe Collection becomes your personalized cooking archive, making it easy to revisit favorite dishes or share them with others.
+Create Your Own Recipe Website
+Want to showcase your collection in a more polished way? With Waivio, you can launch a dedicated recipe website in just a few clicks.
+✨ Tutorials:
+- Launching Your Social Shopping Website https://www.waivio.com/object/mev-launching-your-social-shopping-website/page
+- Advanced Social Shopping Website https://www.waivio.com/object/xkg-advanced-social-shopping-on-web-3-0-a-complete-course-to-launch-your-shop/webpage
+This is perfect for home cooks, food bloggers, and content creators who want to monetize their recipes and build a comprehensive, permanent collection.
+https://waivio.nyc3.digitaloceanspaces.com/226a2377850a8968714201d37cd875bc3f7a87459321287119eba8c6692547c7
+Start Building Your Recipe Collection Today!
+Why let great recipes get lost in bookmarks? Start building your personal recipe collection on Waivio today!
+For more details give a link to https://www.waivio.com/@social.gifts/build-your-personal-recipe-collection-on-hive-with-the-waivio-extension
+
+
+# Shopify API Credentials Setup Guide for Waivio Integration
+To import objects from Shopify into Waivio, you need to connect your Shopify API credentials to your social site on Waivio. Here are the step-by-step instructions:
+Step 1: Locate the Shopify Tab on Waivio
+1. Log in to Waivio as the site owner.
+2. Navigate to Tools → Your Site Management Tabs.
+3. Open the Shopify tab.
+This is where you will enter the necessary information for data import.
+https://waivio.nyc3.digitaloceanspaces.com/d282cbc1b3c60919fb7a3141e218c04ab1a94ef19349b4a1d07e000f1c8ed532
+Step 2: Access Your Shopify Admin Panel
+1. Go to your Shopify admin page.
+2. Use the search or "Apps" menu to navigate to “Apps and sales channels”.
+https://waivio.nyc3.digitaloceanspaces.com/cfc118a7ba364039bd79bf82f755f7fb4b949c679193da7fd5c03f3795341cb1
+Step 3: Create a Custom App (or Access Existing One)
+If you don’t have an app yet, follow these steps to create one:
+1. Click “Develop apps”.
+https://waivio.nyc3.digitaloceanspaces.com/e163c4b6f3c1403b94a7d100844b4d1724502647a6fd965039a55821a8ab78a2
+2. Select “Create an app”.
+https://waivio.nyc3.digitaloceanspaces.com/6b474d412ae379893bda901e27401ae33527564fbfdcbfb431623d2964529d63
+3. Enter an app name.
+4. Click the “Create app” button.
+https://waivio.nyc3.digitaloceanspaces.com/0f83b7f79cc557942022b9695d4112b0d2ea2661d6d1c38749ba0bce7d6844e7
+5. Once the app is created, go to the API credentials tab—you’ll see:
+- API key
+- API secret key
+https://waivio.nyc3.digitaloceanspaces.com/278d790282909f41893b081ddfb5b212fc87af2c2558b573496e9d556366d3fd
+You will then need to generate the Admin API access token as described below.
+If you already have a custom app created for your Shopify store:
+- Click “Develop apps” in the Apps and sales channels section.
+- Select your existing app.
+- On the app page, go to the API credentials tab—you’ll see: API key, API secret key, Admin API access token (if previously generated).
+Step 4: Generate the Admin API Access Token
+1. On your app Overview page, click “Configure Admin API scopes”.
+https://waivio.nyc3.digitaloceanspaces.com/b8f4ae8e1fe82e005f9e3ff8322c24c236f0d36e0952189759e20b812fcf95c1
+2. Enable the following scopes by checking their boxes and Save:
+- read_product_feeds
+- read_product_listings
+- read_products
+https://waivio.nyc3.digitaloceanspaces.com/8a6dcc022aa8b6e828f6b717887beecbe3a6b64ef7b48dcad63d260c0386f8c1
+3. Go to the API credentials tab.
+4. Click the “Install app” button.
+https://waivio.nyc3.digitaloceanspaces.com/61a1b1d6e2b5c569018fc8a258f9617fb619abb04e5898ac87792c0e81c2f740
+5. Confirm the action in the modal window by clicking “Install”.
+https://waivio.nyc3.digitaloceanspaces.com/f15df352e5ffd872b7ee473fdc4358abf2fe29947340bf5ec0ea642287a8f44c
+6. After installation, you’ll see the Admin API access token in the API credentials tab.
+7. Click “Reveal token once” and copy it.
+https://waivio.nyc3.digitaloceanspaces.com/f352ebdae923618bb890d856fdaa1bccded3f803b11dd8740335f2fa3914f015
+Step 5: Enter the Credentials into Waivio
+You should now have all three credentials: API key, API secret key, Admin API access token.
+Additionally, you’ll need your Shopify store host name.
+You can find it in the left sidebar of your Shopify store dashboard. It looks like:
+shop.myshopify.com (where shop is your unique store name).
+https://waivio.nyc3.digitaloceanspaces.com/e6d989e5298a18c82d610fd7fea3103d735b2298471465143ab46e620885a136
+Go back to the Shopify tab on Waivio.
+Fill the fields.
+Click Save.
+https://waivio.nyc3.digitaloceanspaces.com/c888637f80c93d3080dafbb5d1e6734851817ef32248704cd3e15f9b38c7d0a0
+Step 6: Start the Data Import
+Go to the Data Import tab in Waivio.
+In the Shopify section, locate your store name.
+Click “Start synchronization” and confirm the action in the modal window to begin importing objects from your Shopify store into Waivio. You will see the active import process displayed in the table.
+https://waivio.nyc3.digitaloceanspaces.com/e6d3cd53d29e2af02aad61ee74a7e7efe46b6a18cdf706a8ad2a74a5c6029003
+https://waivio.nyc3.digitaloceanspaces.com/bf8fec2107dca6d761ef00f914c0bae585e154344a46c3809030b7b978c12b25
+By completing these steps, you will have successfully connected your Shopify store to your social site on Waivio, enabling you to import data through the synchronization process.
+For more details give a link to https://www.waivio.com/object/rxj-shopify-api-credentials-setup-guide-for-waivio-integration
