@@ -188,7 +188,9 @@ Users can update their profile information by navigating to their user profile o
 ![image](https://github.com/user-attachments/assets/ec597353-0582-45be-8a3e-614e5251be14)
 
 Can I link my account to other social media platforms?
-Users can link their account to other social media platforms by navigating to their user profile or Tools in main navigation menu, click on "Edit profile," and add links in the relevant fields, such as Facebook, Twitter, LinkedIn, YouTube, Instagram, TikTok, Snapchat and GitHub. ![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a) ![image](https://waivio.nyc3.digitaloceanspaces.com/adf52ee7e98f44fd4d30aaa0685a6be4288970f654fc66ca11b52dabb5337f30)
+Users can link their account to other social media platforms by navigating to their user profile or Tools in main navigation menu, click on "Edit profile," and add links in the relevant fields, such as Facebook, Twitter, LinkedIn, YouTube, Instagram, TikTok, Snapchat and GitHub. 
+![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a) 
+![image](https://waivio.nyc3.digitaloceanspaces.com/adf52ee7e98f44fd4d30aaa0685a6be4288970f654fc66ca11b52dabb5337f30)
 
 How can I see my login history?
 The user cannot see the login history, but can view all main account activities, such as writing posts, comments, likes, and other actions. To do this, go to the user profile and open the Activity tab. ![image](https://waivio.nyc3.digitaloceanspaces.com/7f46599459c9103efefe3f8eb246fe215177b5b58b9dfe8c4f6d5314a10ad53f)
