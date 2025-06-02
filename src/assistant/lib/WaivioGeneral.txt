@@ -181,14 +181,16 @@ Users can update their profile information by navigating to their user profile o
 - Website
 - Avatar
 - Profile background image
-- Social profiles links (Facebook, Twitter, LinkedIn, YouTube, Instagram, GitHub)
+- Social profiles links (Facebook, Twitter, LinkedIn, YouTube, Instagram, TikTok, Snapchat, GitHub)
 - Crypto wallets (Bitcoin, Litecoin, Ethereum, Lightning Bitcoin)
 - Signature for comments that the user will post
 ![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a)
 ![image](https://github.com/user-attachments/assets/ec597353-0582-45be-8a3e-614e5251be14)
 
 Can I link my account to other social media platforms?
-Users can link their account to other social media platforms by navigating to their user profile or Tools in main navigation menu, click on "Edit profile," and add links in the relevant fields, such as Facebook, Twitter, LinkedIn, YouTube, Instagram, and GitHub. ![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a) ![image](https://waivio.nyc3.digitaloceanspaces.com/adf52ee7e98f44fd4d30aaa0685a6be4288970f654fc66ca11b52dabb5337f30)
+Users can link their account to other social media platforms by navigating to their user profile or Tools in main navigation menu, click on "Edit profile," and add links in the relevant fields, such as Facebook, Twitter, LinkedIn, YouTube, Instagram, TikTok, Snapchat and GitHub. 
+![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a) 
+![image](https://waivio.nyc3.digitaloceanspaces.com/adf52ee7e98f44fd4d30aaa0685a6be4288970f654fc66ca11b52dabb5337f30)
 
 How can I see my login history?
 The user cannot see the login history, but can view all main account activities, such as writing posts, comments, likes, and other actions. To do this, go to the user profile and open the Activity tab. ![image](https://waivio.nyc3.digitaloceanspaces.com/7f46599459c9103efefe3f8eb246fe215177b5b58b9dfe8c4f6d5314a10ad53f)
@@ -956,3 +958,367 @@ There are several ways to obtain WAIV tokens:
      - Swap WAIV for other tokens: If you'd like to exchange WAIV for another token on Hive Engine (e.g., SWAP.HIVE), use the Swap feature. Navigate to your Waivio wallet, select WAIV, and choose the token you want in exchange. This will convert your WAIV into the selected swap-token (like SWAP.HIVE) directly within the wallet.
      - Withdraw WAIV to an external wallet: If you want to withdraw WAIV as a different currency to an external wallet that is not part of the Hive Engine ecosystem (e.g., LTC, BTC, ETH, HIVE), use the Withdraw feature to directly withdraw WAIV to that external wallet. Click on the Withdraw button in your WAIV wallet, choose the pair (e.g., WAIV - HIVE, WAIV - LTC, etc.), fill in the required fields, and click the Withdraw button. Alternatively, in your Wallet, under your WAIV amount, there is a menu with options for withdrawing (e.g., "Withdraw to LTC," etc.). Selecting this will open a withdrawal modal window with your chosen pair. For example, if you withdraw WAIV to LTC to an external Litecoin wallet, this step allows you to convert your WAIV tokens into other cryptocurrencies outside the platform.
 Once you have WAIV tokens, they will appear in your wallet, and you can use them for various activities on the platform or withdraw them as needed.
+
+
+# Introducing Food Recipes on Waivio and Social Shopping Sites
+Every chef has their own version of an Irish Stew, but which recipe is the right one? Well, that's for you to decide!
+Introducing Waivio's latest object type – the Recipe. This object gathers all the key details, like the name, description, tags, and common ingredients, while also serving as a hub for users to share their unique takes on the recipe.
+![image](https://waivio.nyc3.digitaloceanspaces.com/9f4d71fb881a79445eacdfaf3de62533847008cc0af7a93d74346a10c077ec89)
+And users can pin their favorite recipe to make it their personal top choice.
+And for those who haven’t made their selection yet, the recipe that collects the most pins becomes the top community recipe for all!
+![image](https://waivio.nyc3.digitaloceanspaces.com/9e4c19d9a7479e394d6244e5db60aa815c5562b3e672a14198c8177debee59c9)
+When you heart a recipe, it gets added to your profile. This allows you to build your personal recipe collection and share it with your friends and followers.
+![image](https://waivio.nyc3.digitaloceanspaces.com/3e8f58ce633136fcc0939ce054397ed9c264e0b0dd7f2a8808441b772a501f69)
+With the Waivio Chrome Extension, adding recipes from platforms like YouTube is a breeze! It automatically pulls in video transcripts to create detailed recipes, including ingredients, instructions, and tips.
+![image](https://waivio.nyc3.digitaloceanspaces.com/448793bdb090bf8656cf2a66598f578acd4f1d70e879990bc91b49dcd1636252)
+Even better, if you include your Instacart affiliate code in your profile, you can earn commissions when people order the ingredients from your shared recipes!
+![image](https://waivio.nyc3.digitaloceanspaces.com/7e68c9d3346f38e8594e2400f23b45a2ec848ee396c86edda3774c519d8038e7)
+Recipes truly shine on social shopping sites! Share your recipe collections with a broader audience and monetize them through grocery orders and affiliate sales of carefully chosen kitchen products.
+![image](https://waivio.nyc3.digitaloceanspaces.com/226a2377850a8968714201d37cd875bc3f7a87459321287119eba8c6692547c7)
+Try it out on HiveCooking.com where you can pin your favorite recipes, share them with followers and earn rewards. Build your personal recipe collections, connect with the community, and see how easy it is to integrate recipes into a social shopping experience.
+For more details give a link to https://www.waivio.com/@waiviolabs/introducing-food-recipes-on-waivio-and-social-shopping-sites
+
+
+# Quickly Add Businesses While Writing Posts on Waivio
+Imagine a little café—Steveston Coffee Company. The kind of place where the barista knows your name and the coffee feels like a hug in a cup. You want to tell this story, but in a way that lasts.
+On Waivio, your posts don’t just fade into blog archives. When you share a place like this, it gets its own dedicated page. Your story becomes part of the business’s story, where others can add their reviews, and your friends can easily discover it on the map in your profile.
+Here’s how it works:
+Step 1: Start Your Post
+![image](https://waivio.nyc3.digitaloceanspaces.com/cbb1637f9a7488e3c4392ff1f69c740c9edd557b25962ffa487f84745474c89e)
+Begin writing your post. Click the Nearby button to find and add local businesses.
+Step 2: Find the Café
+![image](https://waivio.nyc3.digitaloceanspaces.com/7126e63e537e0c377ec71a8a40590de91c4ec8977955e4ce33d80336c0e341ff)
+Search for the café on the map and select it. If the café is already on the Hive blockchain, your post will join the story others have started. If it’s not yet available, it will be imported, and a new dedicated page will be created for it.
+Step 3: Continue Writing the Post
+![image](https://waivio.nyc3.digitaloceanspaces.com/4fb93c942752ef639a9e96b28df23d2cc1abeaa26da825bba36ff07fa4934286)
+The café is now linked in your post, and your story will appear on the café’s dedicated page alongside other reviews and details. It’s more than a mention—it’s part of a growing collection of shared experiences.
+Step 4: Build the Story Together
+![image](https://waivio.nyc3.digitaloceanspaces.com/0dd120087b903f2fefe488187881214feb5e36ca06d2b023444eee2dd344c6f5)
+Each business you share gets a dedicated page, featuring your post as a review. Others can add their own thoughts, turning your discovery into a growing collection of experiences.
+Step 5: See It on Your Map
+![image](https://waivio.nyc3.digitaloceanspaces.com/814ee72e35d872b975fc8bbd88c56fac3b8f502b1a6fbef1e137edef0bc1e88d)
+The café appears on your Waivio map, where friends can find it and explore your recommendations.
+To add more businesses to the map in your profile, simply click the Add button and follow the same easy process.
+This feature is now live on Waivio and all social shopping sites it powers. Start sharing your favorite places today and let your stories become part of something lasting!
+For more details give a link to https://www.waivio.com/@waiviolabs/quickly-add-businesses-while-writing-posts-on-waivio
+
+
+# The Future of Web: Exploring Waivio
+Tried something fun the other day—used ChatGPT’s NotebookLM to create a mini “podcast episode” about Waivio. It was fascinating to hear AI explain the platform in such a clear and conversational way.
+The AI hosts talked about Waivio’s features, like a single user account across multiple social sites and how businesses can instantly update product info everywhere—saving time and eliminating broken links. The examples made everything sound so practical, especially the idea of uploading entire product catalogs to the blockchain and having them automatically sync across different projects.
+What stood out most was how natural the conversation felt. AI managed to simplify big ideas like Web3 and blockchain integration without dumbing them down. It made Waivio’s vision of connected, collaborative websites feel super approachable.
+Of course, the voices still sounded a little robotic, but the gap between AI and human presenters is shrinking fast. It’s easy to imagine AI playing a bigger role in content creation and explaining complex concepts—helping businesses and creators tell their stories without getting lost in jargon.
+What do you think? Could AI-generated podcasts be the next big thing for explaining ideas and products?
+For more details give a link to https://www.waivio.com/@grampo/the-future-of-web-exploring-waivio
+
+
+# Link Object: Catalog and Review Websites on Hive
+Waivio now supports Link objects—decentralized “about” pages for any website or URL. Think of these as dedicated profiles where you can add a description, show community feedback, and even track safety ratings.
+How Link Objects Work
+A Link object can be created just like any other Waivio object:
+- Start writing a new post.
+- In the right column, under Create new object, select Link.
+-Provide a name for the Link object.
+The first field you’ll add is the URL itself.
+Website Profile
+Add essential details such as a title, description, tags, and images to give others a quick overview of the site or page.
+![image](https://waivio.nyc3.digitaloceanspaces.com/fef97f658b987552e311e3dd00df340d279175eafd42a279e2b4c1ffee233a86)
+Scan Hive for Mentions
+Waivio automatically gathers all Hive posts that reference the URL. This means you can view the entire history of community discussion about the site in one place.
+Easily Create with the Waivio Chrome Extension
+We’ve updated the Waivio Chrome Extension so you can instantly create Link objects from your browser. If you’re on any webpage you’d like to feature or review, just click the extension and publish on Hive—no extra steps required!
+![image](https://waivio.nyc3.digitaloceanspaces.com/47b877a34ba880782266f76f4ac2745127a267a6b7d0e16d67c5f93cb035a904)
+“Hearting” Link Objects
+When viewing a Link object, users can click the heart icon to add it to their Favorites in their public profiles.
+![image](https://waivio.nyc3.digitaloceanspaces.com/cb2b9e6ce1a5244b75c5a668614303f25455808dfdc75a08ed717e7d690f02f0)
+Future Potential: Decentralized Voting & Site Safety
+One of the most exciting possibilities is a community-driven safety system:
+- Decentralized Voting: Users can rate sites based on usefulness or safety, helping the community gauge trustworthiness.
+- Warnings for Unsafe Sites: If many users flag a link as malicious or spammy, future Hive apps could display an alert before anyone clicks.
+- This approach reflects the decentralized ethos of the Hive blockchain: no single authority decides what’s “safe.” Instead, the community collaboratively shapes the reputation of each site.
+For more details give a link to https://www.waivio.com/@waiviolabs/link-object-catalog-and-review-websites-on-hive
+
+
+# Creating a Square Avatar from a Vertical TikTok Video
+Creating a square avatar from a vertical TikTok video can be tricky, as important parts of the image may get cropped out. This guide shows you how to use the MidJourney (MJ) editor to rebuild the image into a square format, perfect for recipe pages or other objects on Waivio.
+Step 1: Capture a Screenshot from TikTok
+![image](https://waivio.nyc3.digitaloceanspaces.com/7b1a72e6ee0a44fe86d12ef36b835049835f135ef2db8d6a7dc5147b931dd9a9)
+Find your video on TikTok and take a screenshot showing the part you want for your avatar.
+Step 2: Upload Screenshot to Waivio and Copy Image Link
+![image](https://waivio.nyc3.digitaloceanspaces.com/b33484838302016907d92e45aac3bcb9c58c4430d65a8998530d1fa0a3d556c7)
+Open the Waivio post editor (1) and paste the screenshot into a new post (2). Right-click on the pasted image and select "Copy image link" (3). This URL will be used for uploading to the MJ editor.
+Step 3: Edit the Image in the MidJourney Editor
+![image](https://waivio.nyc3.digitaloceanspaces.com/52f5894b4dc9175d22a14bb74ccb07dd5969a6f49e51d85826e2bc08b14adc25)
+https://www.midjourney.com/editor
+Upload the image to MJ using the URL copied from Waivio. Use the brush tool to remove and rebuild missing areas, expanding the image to a square format. Repeat the process until the avatar looks complete.
+Step 4: Use the Square Avatar on the Recipe Page
+![image](https://waivio.nyc3.digitaloceanspaces.com/2a5e0c01e0be63218f42d7c3c56c781ebfff2bdde795ec6d76dd129cece232e7)
+Copy the completed square image from MJ and paste it as the avatar on your recipe page. Adjust by cropping or zooming for the best placement.
+Your recipe page now features a high-quality square avatar, created from a vertical TikTok video, adding a polished and professional touch to your products, recipes and other types of objects on Waivio.
+For more details give a link to https://www.waivio.com/@social.gifts/creating-a-square-avatar-from-a-vertical-tiktok-video
+
+
+# Boosting Engagement with Message Bot on Waivio
+In community-driven ecosystems like Hive, reaching the right audience at the right time is key to engagement. Message Bot on Waivio is designed to automate outreach, sending thread messages to users based on their expertise (e.g., #coffee) and recent activity. This allows for highly targeted communication, making it easier to engage niche communities and drive meaningful interactions.
+![image](https://waivio.nyc3.digitaloceanspaces.com/b628fdd78488a47b2bc15ad987beecfbc0d8d3de1d36cfb1e9a51d815a506872)
+Google Analytics Report shows a significant increase in direct traffic to CoffeeShop.Gifts from 24-Jan-2025 to 23-Feb-2025.
+During this campaign, 775 targeted users received messages, resulting in 800 new direct visits (from multiple devices) to the site—demonstrating a remarkable response rate.
+Here’s how it worked.
+1️⃣ Targeting the Right Audience with a Group Object
+The campaign used a Group object to identify and filter relevant users. A Group in Waivio is a dynamic object that allows filtering users based on their expertise in specific hashtags (e.g., #coffee), objects, followers of certain Hive accounts, and their activity level (e.g., last active within 30 days). It is also possible to add or exclude specific users from the list.
+By leveraging these filters, we ensured the messages reached engaged and interested users, maximizing the campaign's effectiveness.
+![image](https://waivio.nyc3.digitaloceanspaces.com/c4d698fc8d5fd18cd21712e6c66b70901d13895f75617ba584fdf47c391df228)
+Coffee Experts group, consisting of Hive users actively engaging with coffee-related content.
+2️⃣ Crafting the Message: Gold Turmeric Coffee Challenge Invitation
+Once the audience was selected, the next step was defining what message to send.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1e67de8b625907ba4430b2b608d30360a6af9726631bf771ad19bcc4ebc76273)
+The campaign invited users to participate in the Gold Turmeric Coffee Challenge, encouraging them to:
+- Repeat the Gold Turmeric Coffee recipe
+- Publish a post linking to the Recipe page
+This challenge was designed to boost community engagement and drive traffic to CoffeeShop.Gifts.
+3️⃣ Running the Message Bot Campaign
+To start the campaign, use TOOLS > Message Bot > Add Message, which opens a dialog to configure the campaign.
+![image](https://waivio.nyc3.digitaloceanspaces.com/080c13a94cbf5256c9cb1ccce8e5e428ed5e577221df2af3b6320a43cd49832b)
+In the setup:
+✅ The Coffee Experts group was selected as the target audience.
+✅ The Gold Turmeric Coffee Challenge page was set as the message.
+✅ Daily Posting: 30 per day.
+![image](https://waivio.nyc3.digitaloceanspaces.com/96714f59b8538c5dba3d83469b9cae968f24c28237d38b97a5aae34ba6a44620)
+Once the campaign was live, the Message Bot report confirmed that 775 messages were successfully sent between 24-Jan-2025 and 18-Feb-2025, reaching a highly engaged Hive audience.
+4️⃣ Key Takeaways & Future Improvements
+✔️ High response rate – 775 targeted users received messages, leading to 800 direct visitors to the site, showing strong engagement.
+✔️ Message Bot provides efficient engagement – Automating message distribution ensured consistent outreach to an interested audience.
+✔️ Community-driven challenges drive participation – Encouraging user-generated content helped spark discussions and interactions.
+The Message Bot on Waivio has proven to be a powerful tool for targeted engagement, allowing for personalized, automated outreach to specific groups of users. Whether used for promoting challenges, driving traffic to a website, increasing awareness of a project, or re-engaging inactive users, it provides an effective way to connect with communities on Hive.
+For more details give a link to https://www.waivio.com/@social.gifts/boosting-engagement-with-message-bot-on-waivio
+
+
+# Build Your Personal Recipe Collection on Hive with the Waivio Extension
+If you love discovering new recipes, saving your favorites, and sharing your own creations, Waivio makes it easy to build a structured recipe collection.
+https://waivio.nyc3.digitaloceanspaces.com/561f7cd2a6c1e9444507b117ced0defe61db7c52154eab63311365ae782f6ee6
+With the Waivio Chrome Extension, you can quickly transform cooking videos into detailed, well-organized recipes—complete with ingredient lists, step-by-step instructions, and beautiful formatting. Whether you're saving recipes for yourself or sharing them with others, your collection is stored on Hive, where it will never get lost or disappear.
+Save & Organize Recipes from Cooking Videos
+The internet is full of amazing recipes, but keeping track of them isn’t always easy. Instead of doing screenshots and losing them in your photo archive, Waivio lets you store and structure recipes directly in your Hive profile.
+How it works:
+1️⃣ Open a recipe video on TikTok, YouTube, or Instagram.
+2️⃣ Click "Create recipe draft" in the Waivio Extension.
+3️⃣ The extension will automatically extract details like ingredients, instructions, and captions.
+https://waivio.nyc3.digitaloceanspaces.com/f447f6659054e95b662b226871beaa3a1745511a889fa93d3ff202711eff6715
+With just one click, you can turn cooking videos into fully formatted, searchable recipes in your profile.
+Edit & Refine Recipes
+Want to adjust measurements, add missing steps, or include personal notes? The Waivio Extension allows you to edit and refine your recipes before publishing.
+✨ Regenerate Feature: After making updates, you can regenerate the recipe to maintain proper structure and formatting.
+https://waivio.nyc3.digitaloceanspaces.com/5f6be12b639996dd59d958d95039a549db8e464b4231a0dd8d8da50a8b87f01c
+This ensures that no important details are missed and keeps your recipe looking polished.
+Publishing Recipes on Hive (Two-Step Process)
+Once your recipe is ready, publishing it on Hive involves two steps:
+Step A: Create the Recipe Object
+Click "Create object" (A) - this publishes the structured recipe as an object on the Hive blockchain.
+🔹 This ensures that the recipe exists independently and can be referenced in multiple posts.
+🔹 Make sure Data Import is enabled in your account and that you have enough WAIV power to support the publishing process.
+https://waivio.nyc3.digitaloceanspaces.com/4ec6325cddeceae61e8cae68f5448c43a5193f9bf487d4dc42ebbf9a7371eb88
+Once the "Create object" button (A) becomes inactive, it means the recipe has been successfully created and is now ready to be linked in posts.
+Step B: Publish Your Recipe Post
+Click "Publish" (B) to create a blog post that showcases your recipe and links to the recipe object on Hive.
+🔹 Ensure that the Reposting bot is enabled—this helps optimize your post for SEO and social sharing.
+https://waivio.nyc3.digitaloceanspaces.com/a0194551c13f5857bb39820823c464e1c22b29739d9704458d6f5ce3d2a3aac4
+Your recipe will now be available in your profile and can be shared with others!
+https://waivio.nyc3.digitaloceanspaces.com/0e92a157d7fe6c84f43eff128a9ea59b2935cca8c05b4d91978191bbe75c280e
+Your Recipe Collection in Your Profile
+All the recipes you create and publish are automatically saved in your profile under the Recipe section.
+https://waivio.nyc3.digitaloceanspaces.com/5073a014f517628c212ef9e928d4afe9cfef88fb8aa3a624d1a5a71e42acbb2c
+Your Recipe Collection becomes your personalized cooking archive, making it easy to revisit favorite dishes or share them with others.
+Create Your Own Recipe Website
+Want to showcase your collection in a more polished way? With Waivio, you can launch a dedicated recipe website in just a few clicks.
+✨ Tutorials:
+- Launching Your Social Shopping Website https://www.waivio.com/object/mev-launching-your-social-shopping-website/page
+- Advanced Social Shopping Website https://www.waivio.com/object/xkg-advanced-social-shopping-on-web-3-0-a-complete-course-to-launch-your-shop/webpage
+This is perfect for home cooks, food bloggers, and content creators who want to monetize their recipes and build a comprehensive, permanent collection.
+https://waivio.nyc3.digitaloceanspaces.com/226a2377850a8968714201d37cd875bc3f7a87459321287119eba8c6692547c7
+Start Building Your Recipe Collection Today!
+Why let great recipes get lost in bookmarks? Start building your personal recipe collection on Waivio today!
+For more details give a link to https://www.waivio.com/@social.gifts/build-your-personal-recipe-collection-on-hive-with-the-waivio-extension
+
+
+# Enhancing Images with ChatGPT 4o
+We tested many image enhancement tools to improve avatars. Most of them offered only small improvements — basic contrast adjustments, color filters, or slight sharpening. But these didn’t do much when starting with stills from TikTok videos, which often have low resolution and washed-out colors.
+That changed with the arrival of ChatGPT 4o’s image processing.
+![image](https://waivio.nyc3.digitaloceanspaces.com/fbb20b3d770d1d7411fba6e26fe091fc24fd23fa9d9978448f5303ee5ba2bac3)
+On the left is the original image. On the right is the enhanced version. The colors are deeper, the structure is more defined, and the image has a much stronger visual appeal.
+Unlike older tools, ChatGPT 4o doesn’t just apply filters. It analyzes the content of the image and enhances it in a way that brings out natural texture, detail, and lighting. The result is an image that feels more real, rich, and appetizing.
+![image](https://waivio.nyc3.digitaloceanspaces.com/862c9a3972b47e32fbfd628fc5acd54189f17a119db0a296b26daa11459b8a08)
+We simply uploaded this image and used the following request:
+"Enhance this square photo of Beef and Italian Sausage Spaghetti"
+The result brought out the depth of the sauce, lifted the lighting across the plate, and sharpened the noodles without making the image look artificial. It feels like a professionally shot food photo — but it's just one prompt away.
+Recipe Page with Original Avatars
+![image](https://waivio.nyc3.digitaloceanspaces.com/cbb28d9d65e7ad83523841d68a1d4fda1904215504d7bfce6519251861d304df)
+This page shows five recipe avatars taken directly from TikTok video stills. They serve the purpose but look flat, low-contrast, and a bit dull.
+Recipe Page with Enhanced Avatars
+![image](https://waivio.nyc3.digitaloceanspaces.com/65cb7b19ffeb2c30f2bebacb0dafa605e553a0c69c5f5742794f0761a7fd60a8)
+The same five recipes, now with enhanced avatars using ChatGPT 4o. The difference is noticeable — sharper images, better lighting, and colors that make the food stand out. The overall page looks more polished and engaging.
+https://mrsbakerskitchen.com/object/63frhd-mains?breadcrumbs=6tppg4-recipes/63frhd-mains
+If you're working with video content or low-quality images, ChatGPT 4o provides a real upgrade. It goes beyond filters to help you create strong, high-quality visuals that make an impact.
+For more details give a link to https://www.waivio.com/@social.gifts/enhancing-images-with-chatgpt-o4
+
+
+# Jose Goes Web3: Explore 500+ Recipes on His Social Site on Hive!
+No Way Jose Cuisine (@nowayjosecuisine) — the beloved creator with 330K TikTok followers, 204K on Instagram, and a booming food-loving community — launched his official social shopping site on the Hive blockchain, built with Waivio.
+https://nowayjosecuisineshop.com/
+![image](https://waivio.nyc3.digitaloceanspaces.com/086169a337e93e4d292c8cc68925ebb1b07422fde2eff484c8d0477b622a5f06)
+This isn’t just a site. It’s a Web3-powered hub for recipes, product picks, discounts, and Jose’s signature content — all open, searchable, and secured by the Hive blockchain.
+📲 Explore 500+ Recipes, Categorized and Searchable
+From tacos to soups to pan dulce — everything is organized and easy to browse.
+![image](https://waivio.nyc3.digitaloceanspaces.com/9476b6b60e73a2b20b74340e0e1d197ad6bfa3f2db304bdb1e41f2e244e566a9)
+🛒 Instant Shopping with Instacart
+Each recipe includes an ingredient list with 1-click Instacart shopping, so you can go from craving to cooking instantly.
+![image](https://waivio.nyc3.digitaloceanspaces.com/0a0de7a8a9844e3372e6e78ded921762556767a1f0a3d12bdb179fa1a0d17817)
+✅ Kitchen Picks Jose Actually Recommends
+From hot sauces to essential tools, the shop includes 150+ curated kitchen products Jose personally uses — like these Maggi Hot & Spicy noodles.
+![image](https://waivio.nyc3.digitaloceanspaces.com/24b7c2a3af5876d6058c0e9eb7c79f1b314608bd75fb68546b645407da0ff792)
+🔍 Smart Search Meets AI Assistant
+Looking for a spicy weeknight dinner? A vegan dish? Just start typing.
+The site’s predictive search gets you there faster — surfacing recipes, ingredients, products, even discount codes as you type.
+![image](https://waivio.nyc3.digitaloceanspaces.com/717ed1eab552271552aaaa3d8a83c15830f00f1aca5bb7e3a3ba2a6359c2976e)
+And if you need a little more help?
+Meet your built-in AI assistant — your personal kitchen buddy who:
+🤖 Knows every recipe and product on the site
+💡 Offers cooking tips, smart substitutions, and serving ideas
+🛒 Helps you pick the right tools, shop faster, and explore new dishes
+💚 Save It. Share It. Make It Yours.
+On Hive, it’s more than just browsing — it’s about collecting what you love and sharing it with your friends.
+When you explore Jose’s new site, you can:
+Heart your favorite recipes to instantly save them to your own personal recipe collection
+Add products you love to your own social shop — curated just the way you like it
+Share your collections with friends, followers, or the whole Hive community!
+https://nowayjosecuisineshop.com/
+🚀 Start your own recipe collection on Hive!
+Find something delicious on nowayjosecuisineshop.com, hit that 💚, and make it part of your world.
+For more details give a link to https://www.waivio.com/@social.gifts/jose-goes-web3-explore-500-recipes-on-his-social-site-on-hive
+
+
+# No Way José Cuisine Blends Home Cooking with Web3 Rewards
+Offering crypto rewards for recreating featured recipes is a fresh and creative way to engage an audience — and No Way José Cuisine is turning that idea into reality. With his newly launched recipe challenge, José is inviting his community not just to follow along, but to actively participate. By combining food, fun, and blockchain incentives, this initiative demonstrates how creators can reward engagement in a way that’s both meaningful and accessible.
+![image](https://waivio.nyc3.digitaloceanspaces.com/01da87905177e659382326b5da51beed40165dcfbf1be2fdfc481269808c25a0)
+Hosted on his official Challenges page, the challenge invites participants to recreate one of José’s featured recipes and submit two photos of their dish. In return, they receive a guaranteed reward of $5–$8 in WAIV tokens — a cryptocurrency that can be converted into Bitcoin, Litecoin, Ethereum, HIVE, and more.
+This isn’t a contest — there’s no competition or ranking. Instead, it’s a challenge with guaranteed rewards for everyone who participates with care and creativity. The goal is to give back to José’s audience while encouraging shared moments around food.
+![image](https://waivio.nyc3.digitaloceanspaces.com/a465ef4636fbbc7fa2b04cc32b17d6b719428aee5d5c2c41417ec40eb05ba016)
+https://nowayjosecuisineshop.com/object/2phxn7-challenges
+This initiative highlights what Web3 innovation can offer: a shift from passive content consumption to interactive, value-driven participation. By linking real crypto rewards to community engagement, José demonstrates how blockchain tools — from social tokens to wallet-based access — can empower creators to build more meaningful and rewarding experiences. It’s a flexible, low-barrier model that showcases the unique potential of Web3 to strengthen creator–audience relationships in authentic and practical ways.
+For guides and partners, it presents a compelling model: a lightweight, replicable approach to creator engagement that blends authenticity, accessibility, and innovation.
+For more details give a link to https://www.waivio.com/@social.gifts/no-way-jose-cuisine-blends-home-cooking-with-web3-rewards
+
+
+# Adding a Challenges Tab to a Social Site
+What is the Challenges Feature?
+The Challenges feature is an interactive way to engage your community by offering guaranteed crypto rewards for completing simple, creative tasks — such as recreating a featured recipe and submitting proof of participation. It transforms passive audiences into active contributors by rewarding care and effort, not competition.
+Participants are invited to:
+- View a featured challenge
+- Complete the task (e.g., recreate a dish)
+- Submit photos as proof
+- Receive a reward in WAIV tokens, which are easily exchangeable for major cryptocurrencies like Bitcoin, Ethereum, and more.
+This is not a contest — there are no rankings or winners. Every valid entry receives a guaranteed reward, making the experience accessible and welcoming to all. The goal is to create shared moments around a theme while building stronger, value-based connections between creators and their communities.
+Built on Web3 infrastructure, the Challenges feature uses blockchain tools to ensure transparent, secure, and scalable engagement. It’s a lightweight, repeatable model for creators who want to encourage participation in a meaningful, rewarding way.
+Below, you’ll find detailed instructions on how to enable the Challenges tab and configure it for your own site.
+How to Add a Challenges Tab to a Social Site
+To add a Challenges tab to a social site where the base object is of type Object (not User), follow these steps to configure the menu items for the base object:
+1. Navigate to the base object.
+2. Click on Edit button.
+3. Click on add menu item.
+4. Fill in the Title (this will be the name of the menu item).
+5. In the Link type dropdown, select Website (not "Link").
+6. In the Link to a Website field, enter the full URL pointing to the challenges section. Site URL + /active-campaigns. Example: https://test.social.gifts/active-campaigns.
+7. Submit the update.
+Now, when you visit the user site, you will see the newly added Challenges tab in the main menu.
+https://waivio.nyc3.digitaloceanspaces.com/0c3455db6895bf380d1226d011cd49c91988cf32b135cc0b6c82b28ae25bfa7a
+https://waivio.nyc3.digitaloceanspaces.com/87ed8131b831da2301b6881c3d07ad1f5e0a1295f428df8ae61fbb378a2dd1a0
+
+# Recipes on Waivio
+Every chef has their own version of an Irish Stew, but which recipe is the right one? That’s for you to decide!
+Waivio’s new Recipe Object is a powerful tool that enables users to explore, collect, showcase, and effortlessly share their favourite recipes with friends and followers.
+https://vimeo.com/1041585014
+Sign up for Instacart Affiliate Program here(https://www.instacart.com/tastemakers).
+Overview
+1. What is Recipe?
+2. Adding Recipes to Your Profile
+3. Creating a New Recipe Object
+4. Linking Posts to the Recipe
+4.1 Creating a New Post for the Recipe
+4.2 Linking Existing Posts to the Recipe
+4.3 Recipes from YouTube
+5. Profile
+6. Website
+6.1 Adding Instacart Affiliate Links
+
+1. What is Recipe?
+The Recipe serves as a placeholder for a specific dish. The object contains all the key details about the dish, like the name, common ingredients, description, and tags. What’s important is that it collects all the user posts with their unique takes on this recipe.
+![image](https://waivio.nyc3.digitaloceanspaces.com/278f984223b4147d44dc946ccf289b55f816199701dbc2995d3a3ebdba873950)
+These posts with recipes compete with one another, and you can choose your favorite one by pinning it📍.
+The pinned recipe will be shown first for you. And if you haven’t made your selection yet, the recipe that collects the most pins from the community becomes the top recipe for all by default.
+![image](https://waivio.nyc3.digitaloceanspaces.com/153fe2a3e0937eaf17d6d59649bfb67c69bdcd533062c26ce8e663620ec960f4)
+When you pin the post, the Recipe will automatically be added to your recipe collection in your profile. In your profile, click on Recipes to see your collection.
+
+2. Adding Recipes to Your Profile
+To add more Recipes to your collection, you can enter the name in the search bar; click on “Recipe” to view all associated recipes.
+![image](https://waivio.nyc3.digitaloceanspaces.com/f866ec2eff82ecf2c8b8807f4dc926bb4c0751908cd7db630ed58c8527b24e72)
+You can add the recipe to your collection by clicking the heart icon♥️ next to it.
+![image](https://waivio.nyc3.digitaloceanspaces.com/652b97b66d8efde86a274c2bd56cf91e78d0fb3766a0212c2b3b7a2962a39d06)
+If there is no Recipe object for your dish, or if your recipe is significantly different from the existing ones (for example, you’re making a version of the dish with additional ingredients that change the flavor), it’s a good idea to create a new Recipe Object.
+
+3. Creating a New Recipe Object
+For example, let’s say you want to add [Spaghetti Carbonara]:
+- Click on the “Write a Post” button.
+- In the left panel, look for the “Recipe” object. If you don’t see it, click “Show More” to expand the list of objects.
+![image](https://waivio.nyc3.digitaloceanspaces.com/a93a81e8e77c61540fb670302e80ef404ef426f68fba2f09b741e96ab06eb723)
+- Click on “Recipe” and give a name to your dish, for example, “Spaghetti Carbonara”.
+- Click “Confirm”. The new Recipe Object will be created.
+Click on the created object. Here you can add some information to it. Click Edit, and let’s add an ingredients list. Let’s also add an avatar.
+![image](https://waivio.nyc3.digitaloceanspaces.com/e6e2c93d2566c4dd250a588b8f88b7e368b68487719429dba0e0d51107ef19b9)
+Another key field you’ll want to add is the “Product ID”—this would allow ordering this recipe’s ingredients with Instacart:
+- Click on “Product ID.”
+- In the “Product ID Type,” enter “Instacart.”
+- For the “Product ID,” click “Need an ID”—this will generate a unique ID.
+- Click “Submit.”
+![image](https://waivio.nyc3.digitaloceanspaces.com/c94041e041f042c7ea800ba702a444a05c372fcf40acf23f8983eaafd0ccfbc0)
+Now our Recipe Object is ready and looking great for others to explore, pin, build upon, and order ingredients!
+
+4. Linking Posts to the Recipe
+4.1 Creating a New Post for the Recipe
+To add your recipe to this object, simply click on “Write a New Review.” Add your text, appetizing photos of the dish, and publish the post. Your post will be automatically linked to this Recipe Object.
+![image](https://waivio.nyc3.digitaloceanspaces.com/d57de571188b4bf519161291835f04f2bfa4fbb2add8fbba7061f09a85dd5fd2)
+4.2 Linking Existing Posts to the Recipe
+If you already have existing posts you’d like to link to this Recipe, or if you want to link someone else’s post, simply add the Recipe Object’s URL in the comments. The post will get linked to the Recipe. This way, you’re helping the community build a richer knowledge base. The linked posts will appear in the recipe feed, making it easier for others to explore and discover.
+![image](https://waivio.nyc3.digitaloceanspaces.com/e02ebaf06d768c1f6d47b03776339f7e17a7b7254ae6ad8218c9902d2d679e9f)
+4.3 Recipes from YouTube
+If you come across a great recipe outside of Hive, such as on YouTube, you can add it to your collection too, and the Waivio Chrome Extension (add link to a tutorial) can help with this:
+Click on the Waivio Extension above the video with the recipe and select "Create Recipe Draft."
+![image](https://waivio.nyc3.digitaloceanspaces.com/e1193cea32b37094914d1432860ecfcdf4990fa01dc087623b9c86235a57fca5)
+The extension will pull the video’s transcript and generate a draft recipe post, which you can then edit and personalize.
+Before publishing the post, you can change the title and embed the video to enhance the viewing experience.
+
+5. Profile
+Once you’ve collected recipes—they all come together in your profile. Your profile becomes your personal cookbook, showcasing all the recipes you’ve gathered and created. You can easily share this collection with friends and followers. If someone likes a recipe from your profile, they just need to click the heart icon to add it to their own collection.
+![image](https://waivio.nyc3.digitaloceanspaces.com/2981077afa53839bc5beca942e8108477605a97af3d0b6aaf2bb4f7f1cb5aac9)
+
+6. Website
+If you want to share your recipes with a wider audience, Waivio makes it remarkably simple to launch your own website. Plus, it’s a great way to monetize your passion—the site comes with Instacart integration, allowing visitors to quickly and easily order all the ingredients they need for your recipes. And with every grocery order, you’ll earn an affiliate commission from Instacart.
+Launching a full recipe website can be done in less than 10 minutes:
+- Go to the Tools section.
+- Under Websites, click Create.
+- Select the social.gifts template and choose a subdomain name (e.g., worldfoods.social.gifts or healthyfoods.social.gifts). If you want to use your own domain, we have a video tutorial explaining that process.
+- Read and agree to the terms and conditions, and click Create New Website.
+![image](https://waivio.nyc3.digitaloceanspaces.com/40adf6f56101b2410986b0f00d21d9198cc24f9d63bac9ed1b0ffb5cbb803080)
+Once your website is created, you’ll have instant access to a management panel:
+- Go to Configuration to change website colors, add your logo, and add a banner.
+By default, your profile will be the base for the website, showing sections like Blog, Map, Shop, and Recipes.
+You can turn off any sections you don’t need. For example, if you only want to display your recipes, click Details and deselect everything except Recipes and Blog. Only your recipe collection and Blog will then be shown on the website.
+![image](https://waivio.nyc3.digitaloceanspaces.com/a51f57ea25a260f5d7275e59babe58b15847938d3cddfe541ed8120bfc036c26)
+Adding Instacart Affiliate Links
+- Go to Affiliate Codes.
+- Search for Instacart and click on it.
+- Add your Instacart affiliate code and click Submit.
+![image](https://waivio.nyc3.digitaloceanspaces.com/83a1ed571dd830cdefcacdc528faaa070ea7c68dc586e36cb1a15b1b568495b5)
+To sign up for the affiliate program and learn more about commission percentages, visit the Instacart Affiliate Program page.
+Now you have your own personalized recipe hub, where you can showcase all your favorite dishes.
+![image](https://waivio.nyc3.digitaloceanspaces.com/226a2377850a8968714201d37cd875bc3f7a87459321287119eba8c6692547c7)
+Your site visitors can easily browse your collection, save their favorite recipes to their profiles, and order ingredients directly for each recipe. You’re making their cooking experience easier and more convenient—and in return, you have earning opportunities.
+For more details give a link to https://www.waivio.com/object/ogs-recipes-on-waivio/page

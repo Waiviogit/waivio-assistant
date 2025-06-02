@@ -103,6 +103,8 @@ Edit Profile page details:
   - LinkedIn
   - YouTube
   - Instagram
+  - TikTok
+  - Snapchat
   - GitHub
   - Bitcoin
   - Litecoin
@@ -303,7 +305,7 @@ Also there are security alerts such as outgoing transfers, withdrawals and so on
 Next, let's set up your profile. On the side menu, choose "Edit Profile." Here, you can change your name, add "about me, information " add your country, or email if you want—but keep in mind that this information will be public, so don't include anything sensitive like your home address.
 Then, add your website—for example, if you are a shop owner, you can add your link here. I have a CleoBaby social shop, so I will add my link; if you want to learn how to create a beautiful shop yourself in under 10 minutes, check out this tutorial. ![image](https://waivio.nyc3.digitaloceanspaces.com/1713156934_1c3cee01-d1d2-47e1-b5e3-38ec4e6b1200)
 Next, let's upload your avatar. Click “Upload” and choose an image from your computer. Then, let's also add a cover image.
-You can also add your social network accounts, such as Facebook, Twitter, LinkedIn, YouTube, Instagram, GitHub, and even your public Bitcoin and Ethereum wallet addresses.
+You can also add your social network accounts, such as Facebook, Twitter, LinkedIn, YouTube, Instagram, TikTok, Snapchat, GitHub, and even your public Bitcoin and Ethereum wallet addresses.
 Finally, let's also add a signature. This functions the same as the email signature—whenever you make a comment on a post or reply to a comment, it will automatically be added. For example, shop owners can add their link here. ![image](https://waivio.nyc3.digitaloceanspaces.com/1713155391_57c5c688-8e70-4d9a-adc8-81011ea6f97a) ![image](https://waivio.nyc3.digitaloceanspaces.com/1713155495_bd6d4061-ad10-41e8-997c-2090dada137b)
 
 3. Settings
@@ -698,7 +700,7 @@ Users can update their profile information by navigating to their user profile o
 - Website
 - Avatar
 - Profile background image
-- Social profiles links (Facebook, Twitter, LinkedIn, YouTube, Instagram, GitHub)
+- Social profiles links (Facebook, Twitter, LinkedIn, YouTube, Instagram, TikTok, Snapchat, GitHub)
 - Crypto wallets (Bitcoin, Litecoin, Ethereum, Lightning Bitcoin)
 - Signature for comments that the user will post
 ![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a)
@@ -706,7 +708,9 @@ Users can update their profile information by navigating to their user profile o
 
 
 Can I link my account to other social media platforms?
-Users can link their account to other social media platforms by navigating to their user profile or Tools in main navigation menu, click on "Edit profile," and add links in the relevant fields, such as Facebook, Twitter, LinkedIn, YouTube, Instagram, and GitHub. ![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a) ![image](https://waivio.nyc3.digitaloceanspaces.com/adf52ee7e98f44fd4d30aaa0685a6be4288970f654fc66ca11b52dabb5337f30)
+Users can link their account to other social media platforms by navigating to their user profile or Tools in main navigation menu, click on "Edit profile," and add links in the relevant fields, such as Facebook, Twitter, LinkedIn, YouTube, Instagram, TikTok, Snapchat and GitHub. 
+![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a) 
+![image](https://waivio.nyc3.digitaloceanspaces.com/adf52ee7e98f44fd4d30aaa0685a6be4288970f654fc66ca11b52dabb5337f30)
 
 
 # Waivio update: Aug 5, 2020
@@ -1496,7 +1500,9 @@ Congratulations! Now, you have learnt a very important skill to manage passwords
 
 
 Can I link my account to other social media platforms?
-Users can link their account to other social media platforms by navigating to their user profile or Tools in main navigation menu, click on "Edit profile," and add links in the relevant fields, such as Facebook, Twitter, LinkedIn, YouTube, Instagram, and GitHub. ![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a) ![image](https://waivio.nyc3.digitaloceanspaces.com/adf52ee7e98f44fd4d30aaa0685a6be4288970f654fc66ca11b52dabb5337f30)
+Users can link their account to other social media platforms by navigating to their user profile or Tools in main navigation menu, click on "Edit profile," and add links in the relevant fields, such as Facebook, Twitter, LinkedIn, YouTube, Instagram, TikTok, Snapchat and GitHub. 
+![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a) 
+![image](https://waivio.nyc3.digitaloceanspaces.com/adf52ee7e98f44fd4d30aaa0685a6be4288970f654fc66ca11b52dabb5337f30)
 
 How can I see my login history?
 The user cannot see the login history, but can view all main account activities, such as writing posts, comments, likes, and other actions. To do this, go to the user profile and open the Activity tab. ![image](https://waivio.nyc3.digitaloceanspaces.com/7f46599459c9103efefe3f8eb246fe215177b5b58b9dfe8c4f6d5314a10ad53f)
