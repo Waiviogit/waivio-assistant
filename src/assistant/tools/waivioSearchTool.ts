@@ -122,6 +122,7 @@ const usersFormatResponse = (users: waivioUserType[], host: string): string => {
 };
 
 export const generateSearchToolsForHost = (host: string) => {
+  //@ts-expect-error
   const waivioSearchTool = tool(
     async ({ string }) => {
       configService.getAppHost();
@@ -153,7 +154,7 @@ export const generateSearchToolsForHost = (host: string) => {
       responseFormat: 'content',
     },
   );
-
+  //@ts-expect-error
   const waivioObjectsMapTool = tool(
     async ({ box, object_type, string }) => {
       const url = `https://${configService.getAppHost()}/api/wobjects/search-area`;
@@ -204,7 +205,7 @@ export const generateSearchToolsForHost = (host: string) => {
       responseFormat: 'content',
     },
   );
-
+  //@ts-expect-error
   const waivioUserSearchTool = tool(
     async ({ string }) => {
       console.log('HOST', host);
