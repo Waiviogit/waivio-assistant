@@ -464,14 +464,9 @@ Stake and Influence: The more tokens you stake, the greater your influence on th
 
 # Adding a Challenges Tab to a Social Site
 What is the Challenges Feature?
-The Challenges feature is an interactive way to engage your community by offering guaranteed crypto rewards for completing simple, creative tasks — such as recreating a featured recipe and submitting proof of participation. It transforms passive audiences into active contributors by rewarding care and effort, not competition.
-Participants are invited to:
-- View a featured challenge
-- Complete the task (e.g., recreate a dish)
-- Submit photos as proof
-- Receive a reward in WAIV tokens, which are easily exchangeable for major cryptocurrencies like Bitcoin, Ethereum, and more.
-This is not a contest — there are no rankings or winners. Every valid entry receives a guaranteed reward, making the experience accessible and welcoming to all. The goal is to create shared moments around a theme while building stronger, value-based connections between creators and their communities.
-Built on Web3 infrastructure, the Challenges feature uses blockchain tools to ensure transparent, secure, and scalable engagement. It’s a lightweight, repeatable model for creators who want to encourage participation in a meaningful, rewarding way.
+Challenges is a collection of crypto reward opportunities available on a particular site. 
+A sponsor creates a reward campaign through the Earn tab on Waivio, selecting specific objects (such as products, recipes, etc.) already featured on their site. 
+Then, by adding a Challenges tab as a menu item, all site visitors can easily view and participate in the available rewards in a convenient, user-friendly way.
 Below, you’ll find detailed instructions on how to enable the Challenges tab and configure it for your own site.
 How to Add a Challenges Tab to a Social Site
 To add a Challenges tab to a social site where the base object is of type Object (not User), follow these steps to configure the menu items for the base object:

@@ -1210,14 +1210,9 @@ For more details give a link to https://www.waivio.com/@social.gifts/no-way-jose
 
 # Adding a Challenges Tab to a Social Site
 What is the Challenges Feature?
-The Challenges feature is an interactive way to engage your community by offering guaranteed crypto rewards for completing simple, creative tasks — such as recreating a featured recipe and submitting proof of participation. It transforms passive audiences into active contributors by rewarding care and effort, not competition.
-Participants are invited to:
-- View a featured challenge
-- Complete the task (e.g., recreate a dish)
-- Submit photos as proof
-- Receive a reward in WAIV tokens, which are easily exchangeable for major cryptocurrencies like Bitcoin, Ethereum, and more.
-This is not a contest — there are no rankings or winners. Every valid entry receives a guaranteed reward, making the experience accessible and welcoming to all. The goal is to create shared moments around a theme while building stronger, value-based connections between creators and their communities.
-Built on Web3 infrastructure, the Challenges feature uses blockchain tools to ensure transparent, secure, and scalable engagement. It’s a lightweight, repeatable model for creators who want to encourage participation in a meaningful, rewarding way.
+Challenges is a collection of crypto reward opportunities available on a particular site. 
+A sponsor creates a reward campaign through the Earn tab on Waivio, selecting specific objects (such as products, recipes, etc.) already featured on their site. 
+Then, by adding a Challenges tab as a menu item, all site visitors can easily view and participate in the available rewards in a convenient, user-friendly way.
 Below, you’ll find detailed instructions on how to enable the Challenges tab and configure it for your own site.
 How to Add a Challenges Tab to a Social Site
 To add a Challenges tab to a social site where the base object is of type Object (not User), follow these steps to configure the menu items for the base object:
@@ -1229,8 +1224,10 @@ To add a Challenges tab to a social site where the base object is of type Object
 6. In the Link to a Website field, enter the full URL pointing to the challenges section. Site URL + /active-campaigns. Example: https://test.social.gifts/active-campaigns.
 7. Submit the update.
 Now, when you visit the user site, you will see the newly added Challenges tab in the main menu.
-https://waivio.nyc3.digitaloceanspaces.com/0c3455db6895bf380d1226d011cd49c91988cf32b135cc0b6c82b28ae25bfa7a
-https://waivio.nyc3.digitaloceanspaces.com/87ed8131b831da2301b6881c3d07ad1f5e0a1295f428df8ae61fbb378a2dd1a0
+![image](https://waivio.nyc3.digitaloceanspaces.com/0c3455db6895bf380d1226d011cd49c91988cf32b135cc0b6c82b28ae25bfa7a)
+![image](https://waivio.nyc3.digitaloceanspaces.com/87ed8131b831da2301b6881c3d07ad1f5e0a1295f428df8ae61fbb378a2dd1a0)
+For more details give a link to https://www.waivio.com/object/cej-adding-a-challenges-tab-to-a-social-site
+
 
 # Recipes on Waivio
 Every chef has their own version of an Irish Stew, but which recipe is the right one? That’s for you to decide!
