@@ -99,6 +99,7 @@ export const customNode = async (
     ),
   });
 
+  // @ts-expect-error Type instantiation is excessively deep and possibly infinite.
   const categorizationResponse = await llm.withStructuredOutput(schema).invoke([
     {
       role: 'system',
