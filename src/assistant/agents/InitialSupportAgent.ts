@@ -1,16 +1,23 @@
 import { z } from 'zod';
 import { HumanMessage } from '@langchain/core/messages';
+import { ChatOpenAI } from '@langchain/openai';
+import { Agent } from './Agent';
 import { GraphState } from '../index';
 import { AGENTS, AGENTS_DESCRIPTION } from '../constants/nodes';
 
 const availableAgents = Object.values(AGENTS) as [string, ...string[]];
 
-export const initialSupport = async (
-  state: GraphState,
-): Promise<Partial<GraphState>> => {
-  const { llm, query, chatHistory, host } = state;
+export class InitialSupportAgent implements Agent {
+  private llm: ChatOpenAI;
 
-  const SYSTEM_TEMPLATE = `You are front-line support staff for ${host}.
+  constructor(llm: ChatOpenAI) {
+    this.llm = llm;
+  }
+
+  async invoke(state: GraphState): Promise<Partial<GraphState>> {
+    const { query, chatHistory, host } = state;
+
+    const SYSTEM_TEMPLATE = `You are front-line support staff for ${host}.
          Be concise in your responses.
          You can chat with customers and help them with basic questions, but if the customer 
          query connected with ${Object.values(AGENTS_DESCRIPTION).join(', ')}.
@@ -20,24 +27,24 @@ export const initialSupport = async (
          )}.
          Otherwise, just respond conversationally.`;
 
-  const supportResponse = await llm.invoke([
-    { role: 'system', content: SYSTEM_TEMPLATE },
-    ...chatHistory,
-    new HumanMessage(query),
-  ]);
+    const supportResponse = await this.llm.invoke([
+      { role: 'system', content: SYSTEM_TEMPLATE },
+      ...chatHistory,
+      new HumanMessage(query),
+    ]);
 
-  const CATEGORIZATION_SYSTEM_TEMPLATE = `You are an expert customer support routing system.
+    const CATEGORIZATION_SYSTEM_TEMPLATE = `You are an expert customer support routing system.
     Your job is to detect whether a customer support representative is routing a user to a ${availableAgents.join(
       ',',
     )}, or if they are just responding conversationally.`;
 
-  const CATEGORIZATION_HUMAN_TEMPLATE = `The previous conversation is an interaction between a customer support representative and a user.
+    const CATEGORIZATION_HUMAN_TEMPLATE = `The previous conversation is an interaction between a customer support representative and a user.
          Extract whether the representative is routing the user one of agents, or whether they are just responding conversationally.
     `;
 
-  const schema = z.object({
-    nextRepresentative: z.enum([...availableAgents, 'RESPOND']).describe(
-      ` Extract whether the representative is routing the user one of agents, or whether they are just responding conversationally.
+    const schema = z.object({
+      nextRepresentative: z.enum([...availableAgents, 'RESPOND']).describe(
+        ` Extract whether the representative is routing the user one of agents, or whether they are just responding conversationally.
                     Respond with a JSON object containing a single key called "nextRepresentative" with one of the following values:
                     ${availableAgents
                       .map((a) => {
@@ -50,24 +57,26 @@ export const initialSupport = async (
                       .join('\n')}
                     Otherwise, respond only with the word "RESPOND"
                     `,
-    ),
-  });
+      ),
+    });
 
-  // @ts-expect-error Type instantiation is excessively deep and possibly infinite.
-  const categorizationResponse = await llm.withStructuredOutput(schema).invoke([
-    {
-      role: 'system',
-      content: CATEGORIZATION_SYSTEM_TEMPLATE,
-    },
-    new HumanMessage(query),
-    {
-      role: 'user',
-      content: CATEGORIZATION_HUMAN_TEMPLATE,
-    },
-  ]);
+    const categorizationResponse = await this.llm
+      .withStructuredOutput(schema)
+      .invoke([
+        {
+          role: 'system',
+          content: CATEGORIZATION_SYSTEM_TEMPLATE,
+        },
+        new HumanMessage(query),
+        {
+          role: 'user',
+          content: CATEGORIZATION_HUMAN_TEMPLATE,
+        },
+      ]);
 
-  return {
-    response: supportResponse,
-    nextRepresentative: categorizationResponse.nextRepresentative,
-  };
-};
+    return {
+      response: supportResponse,
+      nextRepresentative: categorizationResponse.nextRepresentative,
+    };
+  }
+}

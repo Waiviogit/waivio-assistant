@@ -8,14 +8,16 @@ import {
   MessageType,
 } from '@langchain/core/messages';
 import { REDIS_KEYS, TTL_TIME } from './constants/common';
-import { initialSupport } from './nodes/initialNode';
-import { generalNode } from './nodes/generalNode';
-import { searchNode } from './nodes/searchNode';
-import { customNode } from './nodes/customNode';
+import {
+  InitialSupportAgent,
+  GeneralAgent,
+  SearchAgent,
+  CustomAgent,
+  Agent,
+} from './agents';
 import { AGENTS } from './constants/nodes';
 import * as crypto from 'node:crypto';
 import { configService } from '../config';
-import { RunnableLike } from '@langchain/core/runnables';
 import { checkClassExistByHost } from './store/weaviateStore';
 
 export type GraphState = {
@@ -60,14 +62,14 @@ const routerSettings = Object.freeze({
   conversational: END,
 });
 
-const createGraph = (initialNode: RunnableLike) => {
+const createGraph = (agents: { [key: string]: Agent }) => {
   // add nodes
   const graph = new StateGraph<GraphState>({
     channels: graphChannels,
   })
-    .addNode('initialSupport', initialNode)
-    .addNode('generalNode', generalNode)
-    .addNode('searchNode', searchNode);
+    .addNode('initialSupport', (state) => agents.initialSupport.invoke(state))
+    .addNode('generalNode', (state) => agents.generalNode.invoke(state))
+    .addNode('searchNode', (state) => agents.searchNode.invoke(state));
 
   //add Edges
   graph
@@ -107,9 +109,16 @@ export const runQuery = async ({
   const existWeaviateClass = await checkClassExistByHost({ host });
   const chatHistory = await historyStore.getMessages();
 
-  const initialNode = existWeaviateClass ? customNode : initialSupport;
+  // Create agents
+  const agents = {
+    initialSupport: existWeaviateClass
+      ? new CustomAgent(llm)
+      : new InitialSupportAgent(llm),
+    generalNode: new GeneralAgent(llm),
+    searchNode: new SearchAgent(llm),
+  };
 
-  const app = createGraph(initialNode);
+  const app = createGraph(agents);
   const result = await app.invoke({
     llm,
     query,
