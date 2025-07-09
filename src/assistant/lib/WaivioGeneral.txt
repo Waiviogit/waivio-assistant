@@ -1210,11 +1210,10 @@ For more details give a link to https://www.waivio.com/@social.gifts/no-way-jose
 
 # Adding a Challenges Tab to a Social Site
 What is the Challenges Feature?
-Challenges is a collection of crypto reward opportunities available on a particular site. 
-A sponsor creates a reward campaign through the Earn tab on Waivio, selecting specific objects (such as products, recipes, etc.) already featured on their site. 
+Challenges is a collection of crypto reward opportunities available on a specific site, similar to the Earn page on Waivio. However, while Waivio displays all rewards available across the platform, Challenges is tailored to each individual site and includes only objects from that site. A sponsor creates a reward campaign through the Earn tab on Waivio, selecting specific objects (such as products, recipes, etc.) already featured on their site. 
 Then, by adding a Challenges tab as a menu item, all site visitors can easily view and participate in the available rewards in a convenient, user-friendly way.
 Below, you’ll find detailed instructions on how to enable the Challenges tab and configure it for your own site.
-How to Add a Challenges Tab to a Social Site
+## How to Add a Challenges Tab to a Social Site (only for users who have a social site)
 To add a Challenges tab to a social site where the base object is of type Object (not User), follow these steps to configure the menu items for the base object:
 1. Navigate to the base object.
 2. Click on Edit button.
