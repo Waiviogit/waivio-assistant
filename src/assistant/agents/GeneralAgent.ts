@@ -42,7 +42,8 @@ export class GeneralAgent implements Agent {
       Whenever possible, accompany your answers with links and images (![image]) to relevant articles or lessons. 
       Don't use "AI:" in answers.
       replace all links to https://social.gifts to https://${host}
-      {context} ${intention}`;
+      ${intention}
+      {context}`;
 
     const qaPrompt = ChatPromptTemplate.fromMessages([
       ['system', qaSystemPrompt],
