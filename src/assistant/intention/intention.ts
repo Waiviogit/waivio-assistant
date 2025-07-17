@@ -66,7 +66,7 @@ export const getIntention = async ({ host, currentUser }: IntentionI) => {
   if (!currentUser) {
     prompt += `\n[User Status]\n- The user is not logged in.\n`;
     prompt += `\n[Your Goals]\n- Encourage the user to log in or register, preferably using a Google account.\n- Explain the benefits of having an account.\n`;
-    prompt += `\n[Instructions]\n- Be friendly and persuasive.\n- Highlight features available after login.\n`;
+    prompt += `\n[Instructions]\n- Be friendly and persuasive.\n- Highlight features available after login. Follow up with a relevant, open-ended question that invites the user to respond, clarify, or request further help \n`;
     return prompt;
   }
 
