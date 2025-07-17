@@ -25,6 +25,7 @@ export class InitialSupportAgent implements Agent {
          Instead, immediately transfer appropriate team ${availableAgents.join(
            ', ',
          )}.
+         ${intention}
          Otherwise, just respond conversationally.`;
 
     const supportResponse = await this.llm.invoke([
@@ -36,7 +37,7 @@ export class InitialSupportAgent implements Agent {
     const CATEGORIZATION_SYSTEM_TEMPLATE = `You are an expert customer support routing system.
     Your job is to detect whether a customer support representative is routing a user to a ${availableAgents.join(
       ',',
-    )}, or if they are just responding conversationally. ${intention}`;
+    )}, or if they are just responding conversationally.`;
 
     const CATEGORIZATION_HUMAN_TEMPLATE = `The previous conversation is an interaction between a customer support representative and a user.
          Extract whether the representative is routing the user one of agents, or whether they are just responding conversationally.
