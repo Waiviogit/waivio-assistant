@@ -36,7 +36,7 @@ const requestToAvailableRewards = async (host: string) => {
   return wobjects
     .map(
       (o) =>
-        `object name: ${o.name}, object avatar:${o.avatar} link: https://${host}/object/${o.author_permlink}, object type: ${o.object_type}`,
+        `object name: ${o.name},link: https://${host}/object/${o.author_permlink}`,
     )
     .join(';');
 };
