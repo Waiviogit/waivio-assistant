@@ -33,7 +33,7 @@ export class CustomAgent implements Agent {
   }
 
   async invoke(state: GraphState): Promise<Partial<GraphState>> {
-    const { query, chatHistory, host } = state;
+    const { query, chatHistory, host, intention } = state;
     const vectorStore = await getWeaviateStore(getIndexFromHostName({ host }));
     const siteDescription = await getSiteDescription(host);
 
@@ -47,7 +47,7 @@ export class CustomAgent implements Agent {
     ]);
 
     const qaSystemPrompt = `You are assistant at ${host},  ${siteDescription ? `short description: ${siteDescription}` : ''}. Use the following context to answer the question
-      {context}   Provide helpful tips and include links to relevant products and avatar`;
+      {context}   Provide helpful tips and include links to relevant products and avatar ${intention}`;
 
     const qaPrompt = ChatPromptTemplate.fromMessages([
       ['system', qaSystemPrompt],

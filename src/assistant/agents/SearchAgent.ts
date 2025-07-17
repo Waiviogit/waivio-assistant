@@ -12,7 +12,7 @@ export class SearchAgent implements Agent {
   }
 
   async invoke(state: GraphState): Promise<Partial<GraphState>> {
-    const { query, host } = state;
+    const { query, host, intention } = state;
     const {
       waivioSearchTool,
       waivioObjectsMapTool,
@@ -23,7 +23,7 @@ export class SearchAgent implements Agent {
     const SYSTEM_TEMPLATE = `You are support staff for ${host}.
          Your task is communicate with user and perform search-related tasks to accompany your answers with links and images and additional info to relevant objects, accounts or posts.
          use given tools
-         Keep the answer concise. Don't use "AI:" in answers.`;
+         Keep the answer concise. Don't use "AI:" in answers. ${intention}`;
 
     const searchLLM = this.llm.bindTools([
       waivioSearchTool,

@@ -3,8 +3,8 @@ import { RunQueryI, runQuery, getHistory } from './assistant';
 
 @Injectable()
 export class AppService {
-  async writeMessage({ id, query, userName, host }: RunQueryI) {
-    const result = await runQuery({ query, id, userName, host });
+  async writeMessage({ id, query, userName, host, currentUser }: RunQueryI) {
+    const result = await runQuery({ query, id, userName, host, currentUser });
 
     return { result };
   }

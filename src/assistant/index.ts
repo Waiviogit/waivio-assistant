@@ -19,6 +19,7 @@ import { AGENTS } from './constants/nodes';
 import * as crypto from 'node:crypto';
 import { configService } from '../config';
 import { checkClassExistByHost } from './store/weaviateStore';
+import { getIntention } from './intention/intention';
 
 export type GraphState = {
   llm: ChatOpenAI;
@@ -27,6 +28,7 @@ export type GraphState = {
   response: BaseMessage;
   nextRepresentative: string;
   host: string;
+  intention: string;
 };
 
 const graphChannels = {
@@ -36,6 +38,7 @@ const graphChannels = {
   response: null,
   nextRepresentative: null,
   host: null,
+  intention: null,
 };
 
 const router = (state: GraphState): string => {
@@ -86,15 +89,17 @@ export interface RunQueryI {
   userName: string;
   id: string;
   host: string;
+  currentUser?: string;
 }
 
 export const runQuery = async ({
   query,
   id,
   host,
+  currentUser,
 }: RunQueryI): Promise<BaseMessage> => {
   const llm = new ChatOpenAI({
-    model: 'gpt-4o-mini',
+    model: 'gpt-4o',
     temperature: 0,
   });
 
@@ -108,6 +113,10 @@ export const runQuery = async ({
 
   const existWeaviateClass = await checkClassExistByHost({ host });
   const chatHistory = await historyStore.getMessages();
+  const intention = await getIntention({
+    host,
+    currentUser,
+  });
 
   // Create agents
   const agents = {
@@ -118,12 +127,15 @@ export const runQuery = async ({
     searchNode: new SearchAgent(llm),
   };
 
+  console.log('INTENTION', intention);
+
   const app = createGraph(agents);
   const result = await app.invoke({
     llm,
     query,
     chatHistory,
     host,
+    intention,
   });
 
   const messages = [new HumanMessage(query)];

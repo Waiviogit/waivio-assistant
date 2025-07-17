@@ -3,6 +3,7 @@ import { AppModule } from './app.module';
 import { configService } from './config';
 import { ValidationPipe } from '@nestjs/common';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
+import * as cookieParser from 'cookie-parser';
 
 const PREFIX = 'assistant';
 
@@ -25,6 +26,7 @@ async function bootstrap() {
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup(`${PREFIX}/docs`, app, document);
   app.setGlobalPrefix(PREFIX);
+  app.use(cookieParser());
 
   await app.listen(configService.getPort());
 }

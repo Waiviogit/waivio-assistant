@@ -22,7 +22,7 @@ export class GeneralAgent implements Agent {
   }
 
   async invoke(state: GraphState): Promise<Partial<GraphState>> {
-    const { query, chatHistory, nextRepresentative, host } = state;
+    const { query, chatHistory, nextRepresentative, host, intention } = state;
 
     const vectorStore = await getWeaviateStore(nextRepresentative);
     const siteDescription = await getSiteDescription(host);
@@ -42,7 +42,7 @@ export class GeneralAgent implements Agent {
       Whenever possible, accompany your answers with links and images (![image]) to relevant articles or lessons. 
       Don't use "AI:" in answers.
       replace all links to https://social.gifts to https://${host}
-      {context}`;
+      {context} ${intention}`;
 
     const qaPrompt = ChatPromptTemplate.fromMessages([
       ['system', qaSystemPrompt],
