@@ -1510,7 +1510,7 @@ The user cannot see the login history, but can view all main account activities,
 How do I logout from all devices?
 To logout, click the button next to the user icon in the header and select Logout from the menu. ![image](https://waivio.nyc3.digitaloceanspaces.com/9248583a44eecff602a23b32a8e3fc095d57650b6ff4061bffd35821bd1083c1)
 
-How do I post content?
+How do I post content and additionally upload images or videos to my posts?
 To publish a post on Waivio or related sites, sign in to your account, click the pencil icon in the header, and an editor will open. In the editor, you can add the title and content of your post, hashtags, pictures, videos, etc. When you are ready, click "Ready to publish". A preview of the post will open. Review the post, click the "Legal notice" checkbox, and click "Publish". The post will be published within 3 seconds, the time needed to write the post into a block for the Hive blockchain. ![image](https://waivio.nyc3.digitaloceanspaces.com/d23d5c714587f3b099e684404450f9e2406d1e4ade77e8946958dd9a17f78923) ![image](https://waivio.nyc3.digitaloceanspaces.com/4d5f4ea9b15e9a108af08efb0df6bb51a8628cd034323f1d7006ddddbd5e174e)
 
 How do I follow other users?
