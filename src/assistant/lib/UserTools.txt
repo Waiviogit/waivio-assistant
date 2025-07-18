@@ -1937,3 +1937,40 @@ In conclusion, joining Waivio can be a great way to earn rewards, build connecti
 By putting in time and effort into building a social presence and making connections on the decentralized, censorship-resistant social network, you can take control of your online presence and experience, and make a valuable investment in your future.
 
 
+# Introducing Places on Waivio: From City Streets to Mountain Peaks
+Waivio now has a new feature: Places!
+Now, in addition to businesses and restaurants, you can highlight and explore all kinds of places, from lakes and mountains to cities, villages, and beaches.
+![image](https://waivio.nyc3.digitaloceanspaces.com/38f8cb5fbe906564558405eba55c30702693fc3a06503fe20e62ee79fafb3383)
+Adding Places
+You can add places manually or use the Waivio Chrome Extension (v 1.7.6 and up) for added convenience, allowing you to quickly import places directly from Google Maps.
+![image](https://waivio.nyc3.digitaloceanspaces.com/4e964cb73a7115ad5839b3333bc3d805ef79d65e38e46c3be9b01df87ca57a15)
+Each place will have its own dedicated page on social gift websites, complete with details, galleries, maps, and descriptions.
+Maps On Social Sites
+![image](https://waivio.nyc3.digitaloceanspaces.com/4949e12bf8209120e9447ef8db0d8cd81bd39da882fdbe2556e64cdf9a545930)
+For influencers and content creators, you can now reference these places in your posts and create maps that showcase all the locations you've visited, making it easier to share your favorite spots with your audience.
+Favorite Places in User Profiles
+For all users, you can now "heart" these locations to save them, share your own stories, and see these places reflected on your personal profile map.
+![image](https://waivio.nyc3.digitaloceanspaces.com/47c5d7a023575a49b758b7d027c64940579de79689fbc281ac4ecde64761e1d6)
+Whether it’s hidden gems or popular favorites, you can now put them all on the map.
+For more details give a link to https://www.waivio.com/@social.gifts/introducing-places-on-waivio-from-city-streets-to-mountain-peaks
+
+
+# Social Experiment: Recipe Comments + Waivio Extension 1.7.8 Update
+Sharing some fun results from a recent social experiment with the Waivio team!
+We tried posting detailed, step-by-step recipes as comments under YouTube Shorts from some of the biggest food creators. The idea was to see if genuinely useful info would stand out in busy comment sections.
+The results?
+On Albert Can Cook’s channel (25M followers), Hive Cooking recipe comment reached #2 out of 822, with 838 likes and 32 replies.
+https://waivio.nyc3.digitaloceanspaces.com/ea4a8a396d8125fbeb4b1c2d429e5e4b878aa6219b2ee85f4dcad9e7a7173b8f
+On Bayashi TV (32M followers), Hive Cooking comment was #1 out of 1,800, with 1.2K likes and 35 replies.
+https://waivio.nyc3.digitaloceanspaces.com/af698e8e97a0596fa1af0b76b1a144f9d2012e200c0f5a9cea8272a18e030afd
+This level of engagement suggests that detailed, useful content resonates strongly with audiences. Exploring ways to make entire collections of shoppable recipes easily available could further enhance the experience for followers and open up new opportunities for creators.
+Waivio Extension 1.7.8: Expanding What’s Possible
+With the latest Waivio Chrome Extension update, these same strategies can now be applied beyond food. It’s now possible to create detailed tutorials and shoppable guides for beauty, skincare, makeup, fitness, and other lifestyle content—complete with product lists and actionable steps.
+This makes it easier to:
+Engage creators and communities in a variety of niches
+Tag and attract brands by showcasing their products in real, practical guides
+Introduce brands to social shopping and blockchain catalog publishing, so their products can be easily featured by influencers
+https://waivio.nyc3.digitaloceanspaces.com/a59a9639f8aac7adaa578d6e928598ef0d779b3a1d500b331eb00cae6136b4c4
+These experiments and tools are all about finding creative ways to engage creators, communities, and brands—and demonstrating the real-world value of social shopping. The goal is to make life easier for followers with instant access to the products they see and love, while building stable, passive income streams for influencers and fresh engagement opportunities for brands.
+New ideas, results, and experiments are always welcome—let’s keep exploring what’s possible together.
+For more details give a link to https://www.waivio.com/@social.gifts/social-experiment-recipe-comments-waivio-extension-1-7-8-update
