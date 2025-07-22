@@ -198,7 +198,7 @@ The user cannot see the login history, but can view all main account activities,
 How do I logout from all devices?
 To logout, click the button next to the user icon in the header and select Logout from the menu. ![image](https://waivio.nyc3.digitaloceanspaces.com/9248583a44eecff602a23b32a8e3fc095d57650b6ff4061bffd35821bd1083c1)
 
-How do I post content?
+How do I post content and additionally upload images or videos to my posts?
 To publish a post on Waivio or related sites, sign in to your account, click the pencil icon in the header, and an editor will open. In the editor, you can add the title and content of your post, hashtags, pictures, videos, etc. When you are ready, click "Ready to publish". A preview of the post will open. Review the post, click the "Legal notice" checkbox, and click "Publish". The post will be published within 3 seconds, the time needed to write the post into a block for the Hive blockchain. ![image](https://waivio.nyc3.digitaloceanspaces.com/d23d5c714587f3b099e684404450f9e2406d1e4ade77e8946958dd9a17f78923) ![image](https://waivio.nyc3.digitaloceanspaces.com/4d5f4ea9b15e9a108af08efb0df6bb51a8628cd034323f1d7006ddddbd5e174e)
 
 How do I follow other users?
@@ -210,6 +210,7 @@ Users can write comments under posts. To do this, the user should log in, view t
 
 How can I share a post?
 Users can share posts on social media platforms like X and Facebook. To do this, find the post, click on the three dots button on the post, and select "Share to Facebook" or "Share to X." This way, the post can be shared on different platforms. ![image](https://waivio.nyc3.digitaloceanspaces.com/62263c06864ca4e5fb1e54de89bbd76e818cc4003a85d2b1a19e5389b965d5f4)
+Additionally, you can reblog (reblog) the post within the platform itself. To do this, click the Reblog icon (located after the comment icon), then confirm the action. The post will appear in your profile feed. This action cannot be undone, so make sure you want to share it before confirming. ![image](https://waivio.nyc3.digitaloceanspaces.com/e2946532d7227cb7c85f7b5d62d5be889f106abe86d8f1d4052eba3b3b1ede3e)
 
 How do I find friends or contacts on this site?
 To find friends or contacts on this site, users can use the search bar in the header to find users, restaurants, businesses, etc. Users should click on the search field, enter their search query, and the search results will appear.
@@ -1210,16 +1211,10 @@ For more details give a link to https://www.waivio.com/@social.gifts/no-way-jose
 
 # Adding a Challenges Tab to a Social Site
 What is the Challenges Feature?
-The Challenges feature is an interactive way to engage your community by offering guaranteed crypto rewards for completing simple, creative tasks — such as recreating a featured recipe and submitting proof of participation. It transforms passive audiences into active contributors by rewarding care and effort, not competition.
-Participants are invited to:
-- View a featured challenge
-- Complete the task (e.g., recreate a dish)
-- Submit photos as proof
-- Receive a reward in WAIV tokens, which are easily exchangeable for major cryptocurrencies like Bitcoin, Ethereum, and more.
-This is not a contest — there are no rankings or winners. Every valid entry receives a guaranteed reward, making the experience accessible and welcoming to all. The goal is to create shared moments around a theme while building stronger, value-based connections between creators and their communities.
-Built on Web3 infrastructure, the Challenges feature uses blockchain tools to ensure transparent, secure, and scalable engagement. It’s a lightweight, repeatable model for creators who want to encourage participation in a meaningful, rewarding way.
+Challenges is a collection of crypto reward opportunities available on a specific site, similar to the Earn page on Waivio. However, while Waivio displays all rewards available across the platform, Challenges is tailored to each individual site and includes only objects from that site. A sponsor creates a reward campaign through the Earn tab on Waivio, selecting specific objects (such as products, recipes, etc.) already featured on their site. 
+Then, by adding a Challenges tab as a menu item, all site visitors can easily view and participate in the available rewards in a convenient, user-friendly way.
 Below, you’ll find detailed instructions on how to enable the Challenges tab and configure it for your own site.
-How to Add a Challenges Tab to a Social Site
+## How to Add a Challenges Tab to a Social Site (only for users who have a social site)
 To add a Challenges tab to a social site where the base object is of type Object (not User), follow these steps to configure the menu items for the base object:
 1. Navigate to the base object.
 2. Click on Edit button.
@@ -1229,8 +1224,10 @@ To add a Challenges tab to a social site where the base object is of type Object
 6. In the Link to a Website field, enter the full URL pointing to the challenges section. Site URL + /active-campaigns. Example: https://test.social.gifts/active-campaigns.
 7. Submit the update.
 Now, when you visit the user site, you will see the newly added Challenges tab in the main menu.
-https://waivio.nyc3.digitaloceanspaces.com/0c3455db6895bf380d1226d011cd49c91988cf32b135cc0b6c82b28ae25bfa7a
-https://waivio.nyc3.digitaloceanspaces.com/87ed8131b831da2301b6881c3d07ad1f5e0a1295f428df8ae61fbb378a2dd1a0
+![image](https://waivio.nyc3.digitaloceanspaces.com/0c3455db6895bf380d1226d011cd49c91988cf32b135cc0b6c82b28ae25bfa7a)
+![image](https://waivio.nyc3.digitaloceanspaces.com/87ed8131b831da2301b6881c3d07ad1f5e0a1295f428df8ae61fbb378a2dd1a0)
+For more details give a link to https://www.waivio.com/object/cej-adding-a-challenges-tab-to-a-social-site
+
 
 # Recipes on Waivio
 Every chef has their own version of an Irish Stew, but which recipe is the right one? That’s for you to decide!
@@ -1322,3 +1319,59 @@ Now you have your own personalized recipe hub, where you can showcase all your f
 ![image](https://waivio.nyc3.digitaloceanspaces.com/226a2377850a8968714201d37cd875bc3f7a87459321287119eba8c6692547c7)
 Your site visitors can easily browse your collection, save their favorite recipes to their profiles, and order ingredients directly for each recipe. You’re making their cooking experience easier and more convenient—and in return, you have earning opportunities.
 For more details give a link to https://www.waivio.com/object/ogs-recipes-on-waivio/page
+
+
+# Introducing Places on Waivio: From City Streets to Mountain Peaks
+Waivio now has a new feature: Places!
+Now, in addition to businesses and restaurants, you can highlight and explore all kinds of places, from lakes and mountains to cities, villages, and beaches.
+![image](https://waivio.nyc3.digitaloceanspaces.com/38f8cb5fbe906564558405eba55c30702693fc3a06503fe20e62ee79fafb3383)
+Adding Places
+You can add places manually or use the Waivio Chrome Extension (v 1.7.6 and up) for added convenience, allowing you to quickly import places directly from Google Maps.
+![image](https://waivio.nyc3.digitaloceanspaces.com/4e964cb73a7115ad5839b3333bc3d805ef79d65e38e46c3be9b01df87ca57a15)
+Each place will have its own dedicated page on social gift websites, complete with details, galleries, maps, and descriptions.
+Maps On Social Sites
+![image](https://waivio.nyc3.digitaloceanspaces.com/4949e12bf8209120e9447ef8db0d8cd81bd39da882fdbe2556e64cdf9a545930)
+For influencers and content creators, you can now reference these places in your posts and create maps that showcase all the locations you've visited, making it easier to share your favorite spots with your audience.
+Favorite Places in User Profiles
+For all users, you can now "heart" these locations to save them, share your own stories, and see these places reflected on your personal profile map.
+![image](https://waivio.nyc3.digitaloceanspaces.com/47c5d7a023575a49b758b7d027c64940579de79689fbc281ac4ecde64761e1d6)
+Whether it’s hidden gems or popular favorites, you can now put them all on the map.
+For more details give a link to https://www.waivio.com/@social.gifts/introducing-places-on-waivio-from-city-streets-to-mountain-peaks
+
+
+# Social Experiment: Recipe Comments + Waivio Extension 1.7.8 Update
+Sharing some fun results from a recent social experiment with the Waivio team!
+We tried posting detailed, step-by-step recipes as comments under YouTube Shorts from some of the biggest food creators. The idea was to see if genuinely useful info would stand out in busy comment sections.
+The results?
+On Albert Can Cook’s channel (25M followers), Hive Cooking recipe comment reached #2 out of 822, with 838 likes and 32 replies.
+https://waivio.nyc3.digitaloceanspaces.com/ea4a8a396d8125fbeb4b1c2d429e5e4b878aa6219b2ee85f4dcad9e7a7173b8f
+On Bayashi TV (32M followers), Hive Cooking comment was #1 out of 1,800, with 1.2K likes and 35 replies.
+https://waivio.nyc3.digitaloceanspaces.com/af698e8e97a0596fa1af0b76b1a144f9d2012e200c0f5a9cea8272a18e030afd
+This level of engagement suggests that detailed, useful content resonates strongly with audiences. Exploring ways to make entire collections of shoppable recipes easily available could further enhance the experience for followers and open up new opportunities for creators.
+Waivio Extension 1.7.8: Expanding What’s Possible
+With the latest Waivio Chrome Extension update, these same strategies can now be applied beyond food. It’s now possible to create detailed tutorials and shoppable guides for beauty, skincare, makeup, fitness, and other lifestyle content—complete with product lists and actionable steps.
+This makes it easier to:
+Engage creators and communities in a variety of niches
+Tag and attract brands by showcasing their products in real, practical guides
+Introduce brands to social shopping and blockchain catalog publishing, so their products can be easily featured by influencers
+https://waivio.nyc3.digitaloceanspaces.com/a59a9639f8aac7adaa578d6e928598ef0d779b3a1d500b331eb00cae6136b4c4
+These experiments and tools are all about finding creative ways to engage creators, communities, and brands—and demonstrating the real-world value of social shopping. The goal is to make life easier for followers with instant access to the products they see and love, while building stable, passive income streams for influencers and fresh engagement opportunities for brands.
+New ideas, results, and experiments are always welcome—let’s keep exploring what’s possible together.
+For more details give a link to https://www.waivio.com/@social.gifts/social-experiment-recipe-comments-waivio-extension-1-7-8-update
+
+
+# All Waivio Sites Get an Advanced Editor for Effortless Content Creation
+Markup editors have been the standard across Hive apps, but for many users, they’re a barrier to getting started. With Waivio’s new advanced editor, powerful features now come together in a user-friendly package—now live on every Waivio-hosted social site.
+Automatic Draft Saving
+![image](https://waivio.nyc3.digitaloceanspaces.com/85f2ddbfd6b6a3e8441831cc6e55f284734896123e443a53f1423bd5fbd3df5e)
+With Waivio’s advanced editor, your work is always protected. Drafts are automatically saved for every post, comment, and page object—even if you’re editing several at once. You can switch between devices, or even reload the page while writing, and your progress will always be preserved. Pick up right where you left off, without ever worrying about lost work or having to start over.
+Rich Copy & Paste
+Bring your content together, your way. Easily paste formatted text—from web pages, blog posts, Word documents, or AI chat conversations—and the editor preserves as much of your original layout and styling as possible.
+![image](https://waivio.nyc3.digitaloceanspaces.com/3b33666f465e74e1a9d8216e1340f73f1bde99fca449d88172423ad67906a851)
+Want to add images? Just copy and paste them right in—no extra steps needed.
+Prefer classic markup? Paste it in and watch the editor convert it instantly.
+And yes, even extra empty lines for perfect spacing and readability are supported.
+Complex Table Editing
+![image](https://waivio.nyc3.digitaloceanspaces.com/f6b4b9b64e1cf49e8b65862b75412a48a2ffdba0f1f961a93a740a264c157b96)
+Designing tables in markup is brutal—but with the Waivio editor, it’s a breeze. Bring your tables to life with images, bullet lists, links, even headers or section titles—all directly inside your table cells. Whether you’re building a meal plan, a comparison chart, or something more visual, you have full creative freedom and flexible formatting at your fingertips.
+For more details give a link to https://www.waivio.com/@waiviolabs/all-waivio-sites-get-an-advanced-editor-for-effortless-content-creation
