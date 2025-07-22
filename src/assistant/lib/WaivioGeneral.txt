@@ -1358,3 +1358,20 @@ https://waivio.nyc3.digitaloceanspaces.com/a59a9639f8aac7adaa578d6e928598ef0d779
 These experiments and tools are all about finding creative ways to engage creators, communities, and brands—and demonstrating the real-world value of social shopping. The goal is to make life easier for followers with instant access to the products they see and love, while building stable, passive income streams for influencers and fresh engagement opportunities for brands.
 New ideas, results, and experiments are always welcome—let’s keep exploring what’s possible together.
 For more details give a link to https://www.waivio.com/@social.gifts/social-experiment-recipe-comments-waivio-extension-1-7-8-update
+
+
+# All Waivio Sites Get an Advanced Editor for Effortless Content Creation
+Markup editors have been the standard across Hive apps, but for many users, they’re a barrier to getting started. With Waivio’s new advanced editor, powerful features now come together in a user-friendly package—now live on every Waivio-hosted social site.
+Automatic Draft Saving
+![image](https://waivio.nyc3.digitaloceanspaces.com/85f2ddbfd6b6a3e8441831cc6e55f284734896123e443a53f1423bd5fbd3df5e)
+With Waivio’s advanced editor, your work is always protected. Drafts are automatically saved for every post, comment, and page object—even if you’re editing several at once. You can switch between devices, or even reload the page while writing, and your progress will always be preserved. Pick up right where you left off, without ever worrying about lost work or having to start over.
+Rich Copy & Paste
+Bring your content together, your way. Easily paste formatted text—from web pages, blog posts, Word documents, or AI chat conversations—and the editor preserves as much of your original layout and styling as possible.
+![image](https://waivio.nyc3.digitaloceanspaces.com/3b33666f465e74e1a9d8216e1340f73f1bde99fca449d88172423ad67906a851)
+Want to add images? Just copy and paste them right in—no extra steps needed.
+Prefer classic markup? Paste it in and watch the editor convert it instantly.
+And yes, even extra empty lines for perfect spacing and readability are supported.
+Complex Table Editing
+![image](https://waivio.nyc3.digitaloceanspaces.com/f6b4b9b64e1cf49e8b65862b75412a48a2ffdba0f1f961a93a740a264c157b96)
+Designing tables in markup is brutal—but with the Waivio editor, it’s a breeze. Bring your tables to life with images, bullet lists, links, even headers or section titles—all directly inside your table cells. Whether you’re building a meal plan, a comparison chart, or something more visual, you have full creative freedom and flexible formatting at your fingertips.
+For more details give a link to https://www.waivio.com/@waiviolabs/all-waivio-sites-get-an-advanced-editor-for-effortless-content-creation
