@@ -6,13 +6,18 @@ interface IntentionI {
   currentUser?: string;
 }
 
+type Object = {
+  name: string;
+  avatar: string;
+  author_permlink: string;
+  object_type: string;
+  campaigns: {
+    campaignTypes: string[];
+  };
+};
+
 type WobjectsWithActiveCampaignResponse = {
-  wobjects: {
-    name: string;
-    avatar: string;
-    author_permlink: string;
-    object_type: string;
-  }[];
+  wobjects: Object[];
 };
 
 type UsersPostsTitleResponse = {
@@ -33,12 +38,20 @@ const requestToAvailableRewards = async (host: string) => {
 
   const { wobjects } = response as WobjectsWithActiveCampaignResponse;
 
+  const getCampaignNames = (object: Object) => {
+    if (!object?.campaigns?.campaignTypes?.length) return '';
+    if (object.campaigns.campaignTypes.length === 1) {
+      return `campaign type: ${object.campaigns.campaignTypes[0]},`;
+    }
+    return `campaign types: ${object.campaigns.campaignTypes.join(', ')},`;
+  };
+
   return wobjects
     .map(
       (o) =>
-        `object name: ${o.name},link: https://${host}/object/${o.author_permlink}`,
+        `name: ${o.name}, ${getCampaignNames(o)} link: https://${host}/object/${o.author_permlink}`,
     )
-    .join(';');
+    .join('\n');
 };
 
 const requestRecentTitles = async (userName: string, host: string) => {
