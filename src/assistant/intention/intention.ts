@@ -14,6 +14,7 @@ type Object = {
   campaigns: {
     campaignTypes: string[];
   };
+  propositions: { type: string }[];
 };
 
 type WobjectsWithActiveCampaignResponse = {
@@ -39,11 +40,18 @@ const requestToAvailableRewards = async (host: string) => {
   const { wobjects } = response as WobjectsWithActiveCampaignResponse;
 
   const getCampaignNames = (object: Object) => {
-    if (!object?.campaigns?.campaignTypes?.length) return '';
-    if (object.campaigns.campaignTypes.length === 1) {
-      return `campaign type: ${object.campaigns.campaignTypes[0]},`;
+    const propositionTypes = (object.propositions || []).map((el) => el.type);
+
+    const typesArr = [
+      ...(object?.campaigns?.campaignTypes || []),
+      ...propositionTypes,
+    ].filter((el, index, self) => index === self.indexOf(el));
+
+    if (!typesArr.length) return '';
+    if (typesArr.length === 1) {
+      return `campaign type: ${typesArr[0]},`;
     }
-    return `campaign types: ${object.campaigns.campaignTypes.join(', ')},`;
+    return `campaign types: ${typesArr.join(', ')},`;
   };
 
   return wobjects
