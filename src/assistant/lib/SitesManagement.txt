@@ -466,7 +466,7 @@ It's useful to occasionally check that your affiliate codes are active, especial
 
 Step 5: Website Hosting
 To keep your website up and running, there are hosting fees associated with maintaining your online presence on Social.Gifts. When you're ready to fund your website, navigate to the "Manage" tab, where you'll find the button "Pay Now." Here choose the amount you can transfer in WAIV tokens to pay the hosting fees. WAIV tokens will be converted to USD at the current market rate. Click Continue to sign and finish the transaction. ![image](https://waivio.nyc3.digitaloceanspaces.com/1699907415_7755a35e-993d-4c29-a2e5-0e778f5bbdad)
-For hosting prices check the info in the section. Currently, for active websites, the plan starts at 1 USD/day, which includes up to 200 daily visitors. There is an additional fee of 0.005 USD per day for every extra active user. If you want to retain your website name without running the website, a fee of 0.20 USD/day is applied. You can change the status of your website by checking or unchecking the checkmark under the "active" column.
+For hosting prices check the info in the section. Currently, the plan for active websites costs 1 USD/day. If you want to retain your website name without running the website, a fee of 0.20 USD/day is applied. You can change the status of your website by checking or unchecking the checkmark under the "active" column.
 
 What's next? 😉
 Now that your configuration and setup are complete, it's time to reveal your Social.Gifts shop to the world.
@@ -2185,3 +2185,18 @@ https://waivio.nyc3.digitaloceanspaces.com/a59a9639f8aac7adaa578d6e928598ef0d779
 These experiments and tools are all about finding creative ways to engage creators, communities, and brands—and demonstrating the real-world value of social shopping. The goal is to make life easier for followers with instant access to the products they see and love, while building stable, passive income streams for influencers and fresh engagement opportunities for brands.
 New ideas, results, and experiments are always welcome—let’s keep exploring what’s possible together.
 For more details give a link to https://www.waivio.com/@social.gifts/social-experiment-recipe-comments-waivio-extension-1-7-8-update
+
+
+# Meet the New AI Chat Manager for Social Shopping Sites!
+The AI chat assistant—the friendly store manager behind the scenes—just got an interesting update!
+While the AI has always answered questions about products, brands, businesses, and recipes, and provided help with site features, this update adds smarter, more personalized touches.
+Personalized for Logged-in Users
+![image](https://waivio.nyc3.digitaloceanspaces.com/a4a2567f6ca60f0847469932b9ff631c8ee39cc59dff5d2fcb67bfd85a0099fa)
+For users who are signed in, the AI now takes into account their public profile and recent posts to offer more tailored suggestions. It can also invite logged-in users to collect WAIV rewards and join campaigns that match their interests—making it easier to get the most out of every visit.
+Smarter Onboarding for New Visitors
+![image](https://waivio.nyc3.digitaloceanspaces.com/d5bb7edea121a28336a425ad34c1a8e898db8a15fb9f84e169f88f90c36a61b2)
+After answering direct questions (1)—like “Where can I camp in Chilliwack, BC?”—the AI invites visitors to register for a guest account (2) and keeps the conversation going by asking follow-up questions (3) to help them discover more.
+![image](https://waivio.nyc3.digitaloceanspaces.com/b35a45571bc79b7481ca588c29fc61ee3faf9d6040c16043afef34e3d6feef2e)
+This smarter AI assistant does more than just answer questions—it actively engages visitors, encourages registration, and helps users discover everything the site has to offer. By addressing support questions instantly, guiding users to rewards, and keeping conversations going, the AI helps boost engagement, improve user satisfaction, and ultimately drive more activity.
+Best of all, these features now come standard on every social site using Waivio platform.
+For more details give a link to https://www.waivio.com/@social.gifts/meet-the-new-ai-chat-manager-for-social-shopping-sites
