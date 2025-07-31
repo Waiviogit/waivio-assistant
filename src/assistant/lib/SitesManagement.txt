@@ -466,7 +466,7 @@ It's useful to occasionally check that your affiliate codes are active, especial
 
 Step 5: Website Hosting
 To keep your website up and running, there are hosting fees associated with maintaining your online presence on Social.Gifts. When you're ready to fund your website, navigate to the "Manage" tab, where you'll find the button "Pay Now." Here choose the amount you can transfer in WAIV tokens to pay the hosting fees. WAIV tokens will be converted to USD at the current market rate. Click Continue to sign and finish the transaction. ![image](https://waivio.nyc3.digitaloceanspaces.com/1699907415_7755a35e-993d-4c29-a2e5-0e778f5bbdad)
-For hosting prices check the info in the section. Currently, for active websites, the plan starts at 1 USD/day, which includes up to 200 daily visitors. There is an additional fee of 0.005 USD per day for every extra active user. If you want to retain your website name without running the website, a fee of 0.20 USD/day is applied. You can change the status of your website by checking or unchecking the checkmark under the "active" column.
+For hosting prices check the info in the section. Currently, the plan for active websites costs 1 USD/day. If you want to retain your website name without running the website, a fee of 0.20 USD/day is applied. You can change the status of your website by checking or unchecking the checkmark under the "active" column.
 
 What's next? 😉
 Now that your configuration and setup are complete, it's time to reveal your Social.Gifts shop to the world.
