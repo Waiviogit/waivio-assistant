@@ -37,12 +37,12 @@ const waivioSearchMapSchema = z
       ),
     box: z.object({
       topPoint: z
-        .array(z.number().min(-180).max(180), z.number().min(-90).max(90))
+        .tuple([z.number().min(-180).max(180), z.number().min(-90).max(90)])
         .describe(
           'top right coordinate of the box first element longitude, second element latitude',
         ),
       bottomPoint: z
-        .array(z.number().min(-180).max(180), z.number().min(-90).max(90))
+        .tuple([z.number().min(-180).max(180), z.number().min(-90).max(90)])
         .describe(
           'bottom left coordinate of the box first element longitude, second element latitude',
         ),
@@ -122,7 +122,6 @@ const usersFormatResponse = (users: waivioUserType[], host: string): string => {
 };
 
 export const generateSearchToolsForHost = (host: string) => {
-  //@ts-expect-error
   const waivioSearchTool = tool(
     async ({ string }) => {
       configService.getAppHost();
@@ -154,7 +153,6 @@ export const generateSearchToolsForHost = (host: string) => {
       responseFormat: 'content',
     },
   );
-  //@ts-expect-error
   const waivioObjectsMapTool = tool(
     async ({ box, object_type, string }) => {
       const url = `https://${configService.getAppHost()}/api/wobjects/search-area`;
@@ -205,7 +203,6 @@ export const generateSearchToolsForHost = (host: string) => {
       responseFormat: 'content',
     },
   );
-  //@ts-expect-error
   const waivioUserSearchTool = tool(
     async ({ string }) => {
       console.log('HOST', host);

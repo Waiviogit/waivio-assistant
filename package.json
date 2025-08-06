@@ -38,9 +38,9 @@
   },
   "dependencies": {
     "@langchain/community": "^0.3.32",
-    "@langchain/core": "^0.3.40",
+    "@langchain/core": "^0.3.66",
     "@langchain/langgraph": "^0.2.49",
-    "@langchain/openai": "^0.4.4",
+    "@langchain/openai": "^0.6.3",
     "@langchain/redis": "^0.1.0",
     "@langchain/weaviate": "^0.1.0",
     "@nestjs/common": "^10.0.0",
@@ -57,7 +57,7 @@
     "rxjs": "^7.8.1",
     "tsx": "^3.12.3",
     "weaviate-ts-client": "^2.2.0",
-    "zod": "^3.22.4"
+    "zod": "^4.0.15"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",

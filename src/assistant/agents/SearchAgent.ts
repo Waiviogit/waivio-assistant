@@ -54,7 +54,7 @@ export class SearchAgent implements Agent {
     for (const toolCall of tools) {
       const selectedTool =
         toolsByName[toolCall.name as keyof typeof toolsByName];
-      const toolMessage = await selectedTool.invoke(toolCall);
+      const toolMessage = await (selectedTool as any).invoke(toolCall.args);
       messages.push(toolMessage);
     }
 
