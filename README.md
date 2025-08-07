@@ -1,85 +1,207 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
-</p>
+# Waivio Assistant
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+An intelligent AI assistant service built with NestJS, LangChain, and advanced AI agents for providing contextual responses and support.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## 🚀 Features
 
-## Description
+- **Multi-Agent AI System**: Intelligent routing between different specialized agents
+- **Vector Search**: Powered by Weaviate for semantic search and context retrieval
+- **Chat History**: Redis-based conversation persistence
+- **Image Generation**: Built-in image generation capabilities
+- **Host-Based Customization**: Dynamic behavior based on host domain
+- **Swagger API Documentation**: Auto-generated API docs
+- **Docker Support**: Containerized deployment ready
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## 🏗️ Architecture
 
-## Project setup
+The service uses a sophisticated agent-based architecture:
 
-```bash
-$ npm install
-```
+- **Initial Support Agent**: Handles first-time interactions
+- **General Agent**: Provides contextual responses using vector search
+- **Search Agent**: Specialized for search-related queries
+- **Custom Agent**: Host-specific customizations
 
-## Compile and run the project
+## 📋 Prerequisites
+
+- Node.js 20.10+
+- Redis
+- Weaviate Vector Database
+- OpenAI API Key
+
+## 🛠️ Installation
 
 ```bash
-# development
-$ npm run start
+# Clone the repository
+git clone <repository-url>
+cd waivio-assistant
 
-# watch mode
-$ npm run start:dev
+# Install dependencies
+npm install
 
-# production mode
-$ npm run start:prod
+# Set up environment variables
+cp .env.example .env
 ```
 
-## Run tests
+## ⚙️ Configuration
+
+Create a `.env` file with the following required variables:
+
+```env
+OPENAI_API_KEY=your_openai_api_key
+OPENAI_API_ORG=your_openai_org_id
+WEAVIATE_CONNECTION_STRING=your_weaviate_url
+REDIS_URL=your_redis_url
+PORT=3000
+APP_HOST=your_app_host
+```
+
+## 🚀 Running the Application
+
+### Development
 
 ```bash
-# unit tests
-$ npm run test
+# Start in development mode with hot reload
+npm run start:dev
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+# Start in debug mode
+npm run start:debug
 ```
 
-## Resources
+### Production
 
-Check out a few resources that may come in handy when working with NestJS:
+```bash
+# Build the application
+npm run build
 
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
+# Start in production mode
+npm run start:prod
+```
 
-## Support
+### Docker
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+```bash
+# Build and run with Docker Compose
+docker-compose up --build
 
-## Stay in touch
+# Run in background
+docker-compose up -d
+```
 
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+## 📊 Vector Database Setup
 
-## License
+Initialize the vector database with your data:
 
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+```bash
+# Run vector database migration
+npm run addVectorAll
+```
+
+## 🧪 Testing
+
+```bash
+# Run unit tests
+npm run test
+
+# Run tests with coverage
+npm run test:cov
+
+# Run e2e tests
+npm run test:e2e
+
+# Run tests in watch mode
+npm run test:watch
+```
+
+## 📚 API Documentation
+
+Once the application is running, access the Swagger documentation at:
+
+```
+http://localhost:3000/assistant/docs
+```
+
+## 🔌 API Endpoints
+
+### Send Message
+```http
+POST /assistant
+Content-Type: application/json
+
+{
+  "query": "Your question here",
+  "userName": "user123",
+  "id": "session-id",
+  "images": ["base64-image-1", "base64-image-2"]
+}
+```
+
+### Get Chat History
+```http
+GET /assistant/history/{sessionId}
+```
+
+## 🏗️ Project Structure
+
+```
+src/
+├── assistant/           # AI assistant core
+│   ├── agents/         # AI agent implementations
+│   ├── constants/      # Configuration constants
+│   ├── helpers/        # Utility functions
+│   ├── images/         # Image generation
+│   ├── intention/      # Intent detection
+│   ├── lib/           # Knowledge base files
+│   ├── migrations/    # Database migrations
+│   └── store/         # Vector store integration
+├── clients/           # External API clients
+├── config/           # Configuration management
+├── decorators/       # Custom decorators
+├── dto/             # Data transfer objects
+├── middleware/      # HTTP middleware
+└── pipes/          # Validation pipes
+```
+
+## 🔧 Development
+
+### Code Quality
+
+```bash
+# Format code
+npm run format
+
+# Lint code
+npm run lint
+```
+
+### Adding New Agents
+
+1. Create a new agent class implementing the `Agent` interface
+2. Add the agent to the routing logic in `src/assistant/index.ts`
+3. Update the agent constants in `src/assistant/constants/nodes.ts`
+
+## 🐳 Docker
+
+The application includes Docker support for easy deployment:
+
+- **Dockerfile**: Multi-stage build optimized for production
+- **docker-compose.yml**: Complete stack with environment configuration
+- **Host networking**: Configured for production deployment
+
+## 📝 License
+
+MIT License - see LICENSE file for details.
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests if applicable
+5. Submit a pull request
+
+## 🆘 Support
+
+For issues and questions:
+- Check the API documentation at `/assistant/docs`
+- Review the logs for debugging information
+- Ensure all environment variables are properly configured
