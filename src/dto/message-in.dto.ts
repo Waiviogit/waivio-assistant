@@ -1,5 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsOptional, IsString } from 'class-validator';
+import { IsOptional, IsString, IsArray, ArrayMaxSize } from 'class-validator';
 
 export class MessageInDto {
   @IsString()
@@ -14,4 +14,11 @@ export class MessageInDto {
   @IsString()
   @ApiProperty({ type: String })
   id: string;
+
+  @IsOptional()
+  @IsArray()
+  @ArrayMaxSize(2)
+  @IsString({ each: true })
+  @ApiProperty({ type: [String], required: false })
+  images?: string[];
 }

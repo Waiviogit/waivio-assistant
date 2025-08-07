@@ -6,6 +6,7 @@ import {
   HumanMessage,
   MessageContent,
   MessageType,
+  SystemMessage,
 } from '@langchain/core/messages';
 import { REDIS_KEYS, TTL_TIME } from './constants/common';
 import {
@@ -20,6 +21,7 @@ import * as crypto from 'node:crypto';
 import { configService } from '../config';
 import { checkClassExistByHost } from './store/weaviateStore';
 import { getIntention } from './intention/intention';
+import { imageGenerator } from './images/imageGenerator';
 
 export type GraphState = {
   llm: ChatOpenAI;
@@ -90,25 +92,44 @@ export interface RunQueryI {
   id: string;
   host: string;
   currentUser?: string;
+  images?: string[];
 }
+
+const CONTROL_ROUTES = Object.freeze({
+  IMAGINE: /^\/imagine/,
+} as const);
+
+const COMMAND_CONTROLLERS = {
+  IMAGINE: imageGenerator,
+};
 
 export const runQuery = async ({
   query,
   id,
   host,
   currentUser,
+  images,
 }: RunQueryI): Promise<BaseMessage> => {
-  const llm = new ChatOpenAI({
-    model: 'gpt-4o',
-    temperature: 0,
-  });
-
   const historyStore = new RedisChatMessageHistory({
     sessionId: `${REDIS_KEYS.API_RES_CACHE}:${REDIS_KEYS.ASSISTANT}:${id}`,
     sessionTTL: TTL_TIME.TEN_MINUTES,
     config: {
       url: configService.getRedisUrl(),
     },
+  });
+
+  for (const [key, regEx] of Object.entries(CONTROL_ROUTES)) {
+    if (regEx.test(query)) {
+      const result = await COMMAND_CONTROLLERS[key].invoke({ query, images });
+      const reply = new SystemMessage(result as string);
+      await historyStore.addMessages([new HumanMessage(result), reply]);
+      return reply;
+    }
+  }
+
+  const llm = new ChatOpenAI({
+    model: 'gpt-4o',
+    temperature: 0,
   });
 
   const existWeaviateClass = await checkClassExistByHost({ host });
