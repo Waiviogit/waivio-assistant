@@ -26,7 +26,8 @@ export class AppControllerDoc {
     return applyDecorators(
       ApiOperation({
         summary: 'send message',
-        description: 'send message',
+        description:
+          'send message. /imagine at the start of query will trigger image generation. If images are in body and /imagine is at the start of query, edit command will run.',
       }),
       ApiResponse({
         status: HttpStatus.OK,

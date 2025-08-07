@@ -40,6 +40,14 @@ class ConfigService {
   public getAppHost(): string {
     return this.getValue('APP_HOST', true);
   }
+
+  public getOpenAiKey(): string {
+    return this.getValue('OPENAI_API_KEY', true);
+  }
+
+  public getOpenAiOrg(): string {
+    return this.getValue('OPENAI_API_ORG', true);
+  }
 }
 
 const configService = new ConfigService(process.env).ensureValues(
