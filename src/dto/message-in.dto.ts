@@ -21,4 +21,9 @@ export class MessageInDto {
   @IsString({ each: true })
   @ApiProperty({ type: [String], required: false })
   images?: string[];
+
+  @IsString()
+  @IsOptional()
+  @ApiProperty({ type: String, required: false })
+  currentPageContent?: string;
 }

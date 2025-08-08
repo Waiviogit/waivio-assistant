@@ -31,6 +31,7 @@ export type GraphState = {
   nextRepresentative: string;
   host: string;
   intention: string;
+  currentPageContent: string;
 };
 
 const graphChannels = {
@@ -41,6 +42,7 @@ const graphChannels = {
   nextRepresentative: null,
   host: null,
   intention: null,
+  currentPageContent: null,
 };
 
 const router = (state: GraphState): string => {
@@ -93,6 +95,7 @@ export interface RunQueryI {
   host: string;
   currentUser?: string;
   images?: string[];
+  currentPageContent?: string;
 }
 
 const CONTROL_ROUTES = Object.freeze({
@@ -109,6 +112,7 @@ export const runQuery = async ({
   host,
   currentUser,
   images,
+  currentPageContent,
 }: RunQueryI): Promise<BaseMessage> => {
   const historyStore = new RedisChatMessageHistory({
     sessionId: `${REDIS_KEYS.API_RES_CACHE}:${REDIS_KEYS.ASSISTANT}:${id}`,
@@ -157,6 +161,7 @@ export const runQuery = async ({
     chatHistory,
     host,
     intention,
+    currentPageContent,
   });
 
   const messages = [new HumanMessage(query)];
