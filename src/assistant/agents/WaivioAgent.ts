@@ -17,7 +17,8 @@ export class WaivioAgent implements Agent {
     const tools = [...(await getVectorStores(this.llm))];
 
     if (await checkClassExistByHost({ host })) {
-      tools.push(...(await getSiteVectorTool(host, this.llm)));
+      const siteTools = await getSiteVectorTool(host, this.llm);
+      if (siteTools.length > 0) tools.push(...siteTools);
     }
 
     const {

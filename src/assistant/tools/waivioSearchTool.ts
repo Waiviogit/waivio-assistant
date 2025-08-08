@@ -37,15 +37,25 @@ const waivioSearchMapSchema = z
       ),
     box: z.object({
       topPoint: z
-        .tuple([z.number().min(-180).max(180), z.number().min(-90).max(90)])
-        .describe(
-          'top right coordinate of the box first element longitude, second element latitude',
-        ),
+        .object({
+          longitude: z
+            .number()
+            .min(-180)
+            .max(180)
+            .describe('longitude coordinate'),
+          latitude: z.number().min(-90).max(90).describe('latitude coordinate'),
+        })
+        .describe('top right coordinate of the box'),
       bottomPoint: z
-        .tuple([z.number().min(-180).max(180), z.number().min(-90).max(90)])
-        .describe(
-          'bottom left coordinate of the box first element longitude, second element latitude',
-        ),
+        .object({
+          longitude: z
+            .number()
+            .min(-180)
+            .max(180)
+            .describe('longitude coordinate'),
+          latitude: z.number().min(-90).max(90).describe('latitude coordinate'),
+        })
+        .describe('bottom left coordinate of the box'),
     }),
     object_type: z
       .enum(Object.values(MAP_OBJECTS) as [string, ...string[]])
