@@ -26,4 +26,4 @@ export const AGENTS_DESCRIPTION = {
     'questions related to how objects works, how create objects, how to fill objects with info, object types - WaivioObjects',
   WaivioGeneral:
     'general questions related to waivio how it works, what it is, about posts, newsfeeds, shops, hive account - WaivioGeneral',
-};
+} as const;

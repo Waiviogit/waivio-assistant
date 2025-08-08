@@ -10,11 +10,12 @@ import {
 } from '@langchain/core/messages';
 import { REDIS_KEYS, TTL_TIME } from './constants/common';
 import {
-  InitialSupportAgent,
-  GeneralAgent,
-  SearchAgent,
-  CustomAgent,
+  // InitialSupportAgent,
+  // GeneralAgent,
+  // SearchAgent,
+  // CustomAgent,
   Agent,
+  WaivioAgent,
 } from './agents';
 import { AGENTS } from './constants/nodes';
 import * as crypto from 'node:crypto';
@@ -24,18 +25,16 @@ import { getIntention } from './intention/intention';
 import { imageGenerator } from './images/imageGenerator';
 
 export type GraphState = {
-  llm: ChatOpenAI;
   query: string;
   chatHistory: BaseMessage[];
-  response: BaseMessage;
-  nextRepresentative: string;
+  response?: BaseMessage;
+  nextRepresentative?: string;
   host: string;
-  intention: string;
-  currentPageContent: string;
+  intention?: string;
+  currentPageContent?: string;
 };
 
 const graphChannels = {
-  llm: null,
   query: null,
   chatHistory: null,
   response: null,
@@ -143,20 +142,21 @@ export const runQuery = async ({
     currentUser,
   });
 
-  // Create agents
-  const agents = {
-    initialSupport: existWeaviateClass
-      ? new CustomAgent(llm)
-      : new InitialSupportAgent(llm),
-    generalNode: new GeneralAgent(llm),
-    searchNode: new SearchAgent(llm),
-  };
+  const app = new WaivioAgent(llm);
 
-  console.log('INTENTION', intention);
-
-  const app = createGraph(agents);
+  // // Create agents
+  // const agents = {
+  //   initialSupport: existWeaviateClass
+  //     ? new CustomAgent(llm)
+  //     : new InitialSupportAgent(llm),
+  //   generalNode: new GeneralAgent(llm),
+  //   searchNode: new SearchAgent(llm),
+  // };
+  //
+  //
+  //
+  // const app = createGraph(agents);
   const result = await app.invoke({
-    llm,
     query,
     chatHistory,
     host,
