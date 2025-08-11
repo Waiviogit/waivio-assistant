@@ -37,25 +37,29 @@ const waivioSearchMapSchema = z
       ),
     box: z.object({
       topPoint: z
-        .object({
-          longitude: z
-            .number()
-            .min(-180)
-            .max(180)
-            .describe('longitude coordinate'),
-          latitude: z.number().min(-90).max(90).describe('latitude coordinate'),
-        })
-        .describe('top right coordinate of the box'),
+        .array(z.number())
+        .length(2)
+        .refine(
+          (coords) =>
+            coords[0] >= -180 &&
+            coords[0] <= 180 &&
+            coords[1] >= -90 &&
+            coords[1] <= 90,
+          'Invalid coordinates: first element must be longitude (-180..180), second element must be latitude (-90..90)',
+        )
+        .describe('top right coordinate of the box [longitude, latitude]'),
       bottomPoint: z
-        .object({
-          longitude: z
-            .number()
-            .min(-180)
-            .max(180)
-            .describe('longitude coordinate'),
-          latitude: z.number().min(-90).max(90).describe('latitude coordinate'),
-        })
-        .describe('bottom left coordinate of the box'),
+        .array(z.number())
+        .length(2)
+        .refine(
+          (coords) =>
+            coords[0] >= -180 &&
+            coords[0] <= 180 &&
+            coords[1] >= -90 &&
+            coords[1] <= 90,
+          'Invalid coordinates: first element must be longitude (-180..180), second element must be latitude (-90..90)',
+        )
+        .describe('bottom left coordinate of the box [longitude, latitude]'),
     }),
     object_type: z
       .enum(Object.values(MAP_OBJECTS) as [string, ...string[]])

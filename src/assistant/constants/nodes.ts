@@ -21,7 +21,7 @@ export const AGENTS_DESCRIPTION = {
   ObjectImport:
     'questions related to how import objects to waivio - ObjectImport',
   SitesManagement:
-    'questions about how to create and manage sites, including basic information about social site views, features, peculiarities, and structure - SitesManagement',
+    'questions about how to create and manage sites, including basic information about social site views, features, peculiarities, and structure - SitesManagement, also some info about existing sites',
   WaivioObjects:
     'questions related to how objects works, how create objects, how to fill objects with info, object types - WaivioObjects',
   WaivioGeneral:
