@@ -4,9 +4,7 @@ import { AGENTS } from '../constants/nodes';
 import { dropWeaviateIndex, createWeaviateIndex } from '../store/weaviateStore';
 
 const lunchAll = async (): Promise<void> => {
-  const agentNames = Object.values(AGENTS).filter(
-    (a) => a !== AGENTS.ObjectSearch,
-  );
+  const agentNames = Object.values(AGENTS);
 
   for (const indexName of agentNames) {
     await dropWeaviateIndex(indexName);

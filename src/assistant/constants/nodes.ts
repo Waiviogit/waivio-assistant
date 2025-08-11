@@ -1,6 +1,6 @@
 export const AGENTS = {
   UserTools: 'UserTools',
-  ObjectSearch: 'ObjectSearch',
+  // ObjectSearch: 'ObjectSearch',
   CampaignManagement: 'CampaignManagement',
   EarnCampaign: 'EarnCampaign',
   ObjectImport: 'ObjectImport',
@@ -12,8 +12,8 @@ export const AGENTS = {
 export const AGENTS_DESCRIPTION = {
   UserTools:
     'questions related to user tools, including account settings, notifications, profile management, wallet, WAIV token, drafts, bookmarks, user affiliate codes, new accounts (VIP tickets), inviting other users, managing user shops, and favorites - UserTools',
-  ObjectSearch:
-    'search of specific product, book, person, recipe, business, restaurant, or user account, customer support contacts, contact with owner - ObjectSearch',
+  // ObjectSearch:
+  //   'search of specific product, book, person, recipe, business, restaurant, or user account, customer support contacts, contact with owner - ObjectSearch',
   CampaignManagement:
     'questions related to the creation and management of campaigns - CampaignManagement',
   EarnCampaign:

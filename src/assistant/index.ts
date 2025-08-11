@@ -20,7 +20,7 @@ import {
 import { AGENTS } from './constants/nodes';
 import * as crypto from 'node:crypto';
 import { configService } from '../config';
-import { checkClassExistByHost } from './store/weaviateStore';
+// import { checkClassExistByHost } from './store/weaviateStore';
 import { getIntention } from './intention/intention';
 import { imageGenerator } from './images/imageGenerator';
 
@@ -47,7 +47,7 @@ const graphChannels = {
 const router = (state: GraphState): string => {
   const routes = {
     [AGENTS.UserTools]: 'generalNode',
-    [AGENTS.ObjectSearch]: 'searchNode',
+    // [AGENTS.ObjectSearch]: 'searchNode',
     [AGENTS.CampaignManagement]: 'generalNode',
     [AGENTS.EarnCampaign]: 'generalNode',
     [AGENTS.ObjectImport]: 'generalNode',
@@ -135,7 +135,7 @@ export const runQuery = async ({
     temperature: 0,
   });
 
-  const existWeaviateClass = await checkClassExistByHost({ host });
+  // const existWeaviateClass = await checkClassExistByHost({ host });
   const chatHistory = await historyStore.getMessages();
   const intention = await getIntention({
     host,
