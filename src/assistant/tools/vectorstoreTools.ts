@@ -1,9 +1,5 @@
-import { VectorStoreInfo } from 'langchain/agents';
-import {
-  VectorStoreRouterToolkit,
-  VectorStoreToolkit,
-} from 'langchain/agents/toolkits';
-import type { BaseLanguageModelInterface } from '@langchain/core/language_models/base';
+import { z } from 'zod';
+import { tool } from '@langchain/core/tools';
 import { AGENTS_DESCRIPTION } from '../constants/nodes';
 import {
   getIndexFromHostName,
@@ -11,8 +7,12 @@ import {
   getWeaviateClass,
 } from '../store/weaviateStore';
 
-export const getVectorStores = async (llm: BaseLanguageModelInterface) => {
-  const vectorStores: VectorStoreInfo[] = [];
+const vectorSearchSchema = z.object({
+  query: z.string().describe('Search query to find relevant information'),
+});
+
+export const getVectorStores = async () => {
+  const tools = [];
 
   for (const [collection, description] of Object.entries(AGENTS_DESCRIPTION)) {
     try {
@@ -25,45 +25,99 @@ export const getVectorStores = async (llm: BaseLanguageModelInterface) => {
 
       const vectorStore = await getWeaviateStore(collection);
 
-      const vectorStoreInfo: VectorStoreInfo = {
-        name: collection,
-        description,
-        vectorStore,
-      };
+      const vectorSearchTool = tool(
+        async ({ query }) => {
+          console.log(`Searching in ${collection} for: "${query}"`);
+          try {
+            const results = await vectorStore.similaritySearch(query, 4);
+            console.log(`Found ${results.length} results in ${collection}`);
 
-      vectorStores.push(vectorStoreInfo);
+            if (!results || results.length === 0) {
+              return `No relevant information found in ${collection} for: "${query}"`;
+            }
+
+            const formattedResults = results
+              .map((doc, index) => {
+                const content = doc.pageContent || '';
+                const metadata = doc.metadata || {};
+                return `Result ${index + 1}:\nContent: ${content}\nMetadata: ${JSON.stringify(metadata)}`;
+              })
+              .join('\n\n');
+
+            return `Found ${results.length} relevant results from ${collection}:\n\n${formattedResults}`;
+          } catch (error) {
+            console.error(`Error searching in ${collection}:`, error);
+            return `Error searching in ${collection}: ${error.message}`;
+          }
+        },
+        {
+          name: `${collection}Search`,
+          description: `Search for information in ${collection}: ${description}`,
+          schema: vectorSearchSchema,
+          responseFormat: 'content',
+        },
+      );
+
+      tools.push(vectorSearchTool);
     } catch (error) {
-      console.error(`Failed to create vector store for ${collection}:`, error);
+      console.error(
+        `Failed to create vector store tool for ${collection}:`,
+        error,
+      );
       // Continue with other collections even if one fails
     }
   }
 
-  if (vectorStores.length === 0) {
-    console.warn('No vector stores could be created, returning empty array');
+  if (tools.length === 0) {
+    console.warn(
+      'No vector store tools could be created, returning empty array',
+    );
     return [];
   }
 
-  const toolkit = new VectorStoreRouterToolkit(vectorStores, llm);
-  return toolkit.getTools();
+  return tools;
 };
 
-export const getSiteVectorTool = async (
-  host: string,
-  llm: BaseLanguageModelInterface,
-) => {
+export const getSiteVectorTool = async (host: string) => {
   const vectorStore = await getWeaviateStore(getIndexFromHostName({ host }));
   if (!vectorStore) {
     console.log(`Failed to create vector store for ${host}`);
     return [];
   }
 
-  const vectorStoreInfo: VectorStoreInfo = {
-    name: 'siteProductInfo',
-    description:
-      'information about site product, recipe, books business object catalog',
-    vectorStore,
-  };
+  const siteSearchTool = tool(
+    async ({ query }) => {
+      console.log(`Searching in site ${host} for: "${query}"`);
+      try {
+        const results = await vectorStore.similaritySearch(query, 4);
+        console.log(`Found ${results.length} results in site ${host}`);
 
-  const toolkit = new VectorStoreToolkit(vectorStoreInfo, llm);
-  return toolkit.getTools();
+        if (!results || results.length === 0) {
+          return `No relevant information found in site ${host} for: "${query}"`;
+        }
+
+        const formattedResults = results
+          .map((doc, index) => {
+            const content = doc.pageContent || '';
+            const metadata = doc.metadata || {};
+            return `Result ${index + 1}:\nContent: ${content}\nMetadata: ${JSON.stringify(metadata)}`;
+          })
+          .join('\n\n');
+
+        return `Found ${results.length} relevant results from site ${host}:\n\n${formattedResults}`;
+      } catch (error) {
+        console.error(`Error searching in site ${host}:`, error);
+        return `Error searching in site ${host}: ${error.message}`;
+      }
+    },
+    {
+      name: 'siteProductInfoSearch',
+      description:
+        'Search for information about site products, recipes, books, business objects, and catalog',
+      schema: vectorSearchSchema,
+      responseFormat: 'content',
+    },
+  );
+
+  return [siteSearchTool];
 };
