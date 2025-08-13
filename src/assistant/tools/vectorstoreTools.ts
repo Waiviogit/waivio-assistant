@@ -11,6 +11,80 @@ const vectorSearchSchema = z.object({
   query: z.string().describe('Search query to find relevant information'),
 });
 
+// Enhanced similarity search with multiple strategies
+const enhancedSimilaritySearch = async (
+  vectorStore: any,
+  query: string,
+  k: number = 4,
+) => {
+  try {
+    // Try different search strategies
+    const strategies = [
+      // Strategy 1: Standard similarity search
+      () => vectorStore.similaritySearch(query, k),
+
+      // Strategy 2: Similarity search with higher k and then filter
+      async () => {
+        const results = await vectorStore.similaritySearch(query, k * 2);
+        return results.slice(0, k);
+      },
+
+      // Strategy 3: Try with different query variations
+      async () => {
+        const queryVariations = [
+          query,
+          query.toLowerCase(),
+          query.toUpperCase(),
+          query.replace(/\s+/g, ' ').trim(),
+        ];
+
+        const allResults = [];
+        for (const variation of queryVariations) {
+          try {
+            const results = await vectorStore.similaritySearch(
+              variation,
+              Math.ceil(k / queryVariations.length),
+            );
+            allResults.push(...results);
+          } catch (error) {
+            console.warn(
+              `Failed to search with variation "${variation}":`,
+              error,
+            );
+          }
+        }
+
+        // Remove duplicates and return top k
+        const uniqueResults = allResults.filter(
+          (result, index, self) =>
+            index ===
+            self.findIndex((r) => r.pageContent === result.pageContent),
+        );
+        return uniqueResults.slice(0, k);
+      },
+    ];
+
+    // Try each strategy until we get results
+    for (const strategy of strategies) {
+      try {
+        const results = await strategy();
+        if (results && results.length > 0) {
+          return results;
+        }
+      } catch (error) {
+        console.warn(`Strategy failed:`, error);
+        continue;
+      }
+    }
+
+    // If all strategies fail, return empty array
+    return [];
+  } catch (error) {
+    console.error('Enhanced similarity search failed:', error);
+    return [];
+  }
+};
+
 export const getVectorStores = async () => {
   const tools = [];
 
@@ -29,7 +103,11 @@ export const getVectorStores = async () => {
         async ({ query }) => {
           console.log(`Searching in ${collection} for: "${query}"`);
           try {
-            const results = await vectorStore.similaritySearch(query, 4);
+            const results = await enhancedSimilaritySearch(
+              vectorStore,
+              query,
+              5,
+            );
             console.log(`Found ${results.length} results in ${collection}`);
 
             if (!results || results.length === 0) {
@@ -89,7 +167,7 @@ export const getSiteVectorTool = async (host: string) => {
     async ({ query }) => {
       console.log(`Searching in site ${host} for: "${query}"`);
       try {
-        const results = await vectorStore.similaritySearch(query, 4);
+        const results = await enhancedSimilaritySearch(vectorStore, query, 8);
         console.log(`Found ${results.length} results in site ${host}`);
 
         if (!results || results.length === 0) {

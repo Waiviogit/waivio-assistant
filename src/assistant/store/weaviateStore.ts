@@ -35,7 +35,9 @@ export const createWeaviateIndex = async ({
 }: CreateWeaviateIndexI): Promise<void> => {
   try {
     const textSplitter = new RecursiveCharacterTextSplitter({
-      chunkSize: 2000,
+      chunkSize: 1000,
+      chunkOverlap: 200,
+      separators: ['\n\n', '\n', '. ', '! ', '? ', ' ', ''],
     });
 
     const docs = await textSplitter.createDocuments([text]);
