@@ -108,7 +108,7 @@ export const getIntention = async ({ host, currentUser }: IntentionI) => {
     prompt += `\n[Your Goals]\n- Motivate the user to check the rewards page and participate when new campaigns are available.\n- Direct the user to https://${host}/rewards/global.\n`;
   }
 
-  prompt += `\n[Instructions]\n- Be concise, friendly, and proactive.\n- Personalize your message using the user's name and available rewards info/post info. Follow up with a relevant, open-ended question that invites the user to respond, clarify, or request further help \n`;
+  prompt += `\n[Instructions]\n- Be concise, friendly.\n- Personalize your message using the user's name and available rewards info/post info. Follow up with a relevant, open-ended question that invites the user to respond, clarify, or request further help \n`;
 
   return prompt;
 };
