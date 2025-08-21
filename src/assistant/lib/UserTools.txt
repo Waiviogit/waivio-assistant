@@ -787,7 +787,7 @@ The structure of the Waivio platform is divided into 5 sections for logged-in us
   - Hot: Posts with the largest number of comments. Link to Hot: https://www.waivio.com/hot.
   - New: Newest posts. Link to New: https://www.waivio.com/created.
   - My Feed: Personalized feeds, which shows posts from users and objects the user is subscribed to. Available on the main Waivio domain if the user is authorized (https://social.gifts/).
-  - Earn: Rewards card from sponsors the user follows. Link to Earn in My Feed: https://www.waivio.com/rewards-list.
+  - Earn (for specific logged-in users): Rewards card from sponsors the user follows. Link to Earn in My Feed: https://www.waivio.com/rewards-list. Link to Earn (for any user): https://www.waivio.com/rewards/global?showAll=true
   - Notifications: Recent notifications. Link to: https://www.waivio.com/notifications-list.
   - Separate posts from objects and users.
 2. Earn:
