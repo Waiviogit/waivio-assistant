@@ -8,6 +8,7 @@ import { configService } from '../../config';
 
 type GeneralImagePrompt = {
   query: string;
+  size: `1024x1024` | `1536x1024` | `1024x1536`;
 };
 
 type EditImagePrompt = GeneralImagePrompt & {
@@ -45,10 +46,10 @@ class ImageGenerator {
     }
   }
 
-  private generateImage = async ({ query }: GeneralImagePrompt) => {
+  private generateImage = async ({ query, size }: GeneralImagePrompt) => {
     try {
       const response = await this.openAiClient.images.generate(
-        { prompt: query, ...GENERATION_PARAMS },
+        { prompt: query, size, ...GENERATION_PARAMS },
         {
           timeout: GENERATION_TIMEOUT,
         },
@@ -63,10 +64,10 @@ class ImageGenerator {
     }
   };
 
-  async editImageFromUrl({ files, query }: EditImagePrompt) {
+  async editImageFromUrl({ files, query, size }: EditImagePrompt) {
     try {
       const response = await this.openAiClient.images.edit(
-        { image: files, prompt: query, ...GENERATION_PARAMS },
+        { image: files, prompt: query, size, ...GENERATION_PARAMS },
         {
           timeout: GENERATION_TIMEOUT,
         },
@@ -82,8 +83,8 @@ class ImageGenerator {
     }
   }
 
-  async invoke({ query, images }: InputImageRequest) {
-    if (!images?.length) return this.generateImage({ query });
+  async invoke({ query, images, size = '1024x1024' }: InputImageRequest) {
+    if (!images?.length) return this.generateImage({ query, size });
     const files: File[] = [];
 
     for (const [index, image] of images.entries()) {
@@ -91,9 +92,9 @@ class ImageGenerator {
       if (file) files.push(file);
     }
 
-    if (!files?.length) return this.generateImage({ query });
+    if (!files?.length) return this.generateImage({ query, size });
     console.info('EDIT IMAGE');
-    return this.editImageFromUrl({ files, query });
+    return this.editImageFromUrl({ files, query, size });
   }
 }
 

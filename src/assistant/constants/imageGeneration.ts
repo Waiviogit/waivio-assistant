@@ -5,5 +5,4 @@ export const GENERATION_PARAMS = Object.freeze({
   output_format: 'webp',
   quality: 'medium',
   n: 1,
-  size: '1024x1024',
 } as const);

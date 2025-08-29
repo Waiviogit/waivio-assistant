@@ -6,6 +6,7 @@ import { HumanMessage, ToolMessage } from '@langchain/core/messages';
 import { checkClassExistByHost } from '../store/weaviateStore';
 import { generateSearchToolsForHost } from '../tools/waivioSearchTool';
 import { getSiteDescription } from '../helpers/requestHelper';
+import { getImageTool } from '../tools/imageTool';
 
 export class WaivioAgent implements Agent {
   private readonly llm: ChatOpenAI;
@@ -17,10 +18,10 @@ export class WaivioAgent implements Agent {
     return input.replace(/[<>]/g, '').trim();
   }
 
-  private async getTools(host: string) {
+  private async getTools(host: string, images?: string[]) {
     const sanitizedHost = this.sanitizeInput(host);
 
-    const tools = [...(await getVectorStores())];
+    const tools = [...(await getVectorStores()), getImageTool(images)];
 
     if (await checkClassExistByHost({ host: sanitizedHost })) {
       const siteTools = await getSiteVectorTool(sanitizedHost);
@@ -182,10 +183,11 @@ ${this.getPageContentPrompt(currentPageContent)}
   }
 
   async invoke(state: GraphState): Promise<Partial<GraphState>> {
-    const { query, chatHistory, host, intention, currentPageContent } = state;
+    const { query, chatHistory, host, intention, currentPageContent, images } =
+      state;
 
     try {
-      const tools = await this.getTools(host);
+      const tools = await this.getTools(host, images);
 
       // Always rebind tools to ensure latest tool set is available
       // This prevents issues where tools change between calls

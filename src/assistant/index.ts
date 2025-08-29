@@ -32,6 +32,7 @@ export type GraphState = {
   host: string;
   intention?: string;
   currentPageContent?: string;
+  images?: string[];
 };
 
 const graphChannels = {
@@ -42,6 +43,7 @@ const graphChannels = {
   host: null,
   intention: null,
   currentPageContent: null,
+  images: null,
 };
 
 const router = (state: GraphState): string => {
@@ -121,19 +123,19 @@ export const runQuery = async ({
     },
   });
 
-  for (const [key, regEx] of Object.entries(CONTROL_ROUTES)) {
-    if (regEx.test(query)) {
-      const result = await COMMAND_CONTROLLERS[key].invoke({ query, images });
-      const reply = new SystemMessage(result as string);
-      await historyStore.addMessages([new HumanMessage(result), reply]);
-      return reply;
-    }
-  }
+  // for (const [key, regEx] of Object.entries(CONTROL_ROUTES)) {
+  //   if (regEx.test(query)) {
+  //     const result = await COMMAND_CONTROLLERS[key].invoke({ query, images });
+  //     const reply = new SystemMessage(result as string);
+  //     await historyStore.addMessages([new HumanMessage(result), reply]);
+  //     return reply;
+  //   }
+  // }
 
   const llm = new ChatOpenAI({
-    model: 'gpt-5-mini',
-    // model: 'gpt-4o',
-    // temperature: 0,
+    // model: 'gpt-5-mini',
+    model: 'gpt-4o',
+    temperature: 0,
   });
 
   // const existWeaviateClass = await checkClassExistByHost({ host });
@@ -163,6 +165,7 @@ export const runQuery = async ({
     host,
     intention,
     currentPageContent,
+    images,
   });
 
   const messages = [new HumanMessage(query)];
