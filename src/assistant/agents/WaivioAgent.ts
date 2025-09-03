@@ -48,8 +48,6 @@ export class WaivioAgent implements Agent {
   private getPageContentPrompt(currentPageContent?: string): string {
     if (!currentPageContent) return '';
 
-
-
     return `PAGE CONTEXT:
       ${currentPageContent}
       - This content is from the current user page and may be used for proofreading or context`;
