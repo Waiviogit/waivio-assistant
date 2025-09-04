@@ -1,5 +1,5 @@
 import { OpenAIClient } from '@langchain/openai';
-import { loadBase64Image } from '../../clients/waivio-api';
+import { waivioApiClient } from '../../clients/waivio-api';
 import {
   GENERATION_PARAMS,
   GENERATION_TIMEOUT,
@@ -55,7 +55,7 @@ class ImageGenerator {
         },
       );
       const result = response?.data?.[0]?.b64_json;
-      const { result: link } = await loadBase64Image(result);
+      const { result: link } = await waivioApiClient.loadBase64Image(result);
 
       return link || IMAGE_GENERATION_ERROR;
     } catch (error) {
@@ -74,7 +74,7 @@ class ImageGenerator {
       );
       const result = response?.data?.[0]?.b64_json;
 
-      const { result: link } = await loadBase64Image(result);
+      const { result: link } = await waivioApiClient.loadBase64Image(result);
 
       return link || IMAGE_GENERATION_ERROR + '(editing error)';
     } catch (error) {

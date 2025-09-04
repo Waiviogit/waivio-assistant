@@ -7,6 +7,26 @@ import { checkClassExistByHost } from '../store/weaviateStore';
 import { generateSearchToolsForHost } from '../tools/waivioSearchTool';
 import { getSiteDescription } from '../helpers/requestHelper';
 import { getImageTool } from '../tools/imageTool';
+import {
+  userCheckImportTool,
+  userProfileTool,
+  userRecentPostTitlesTool,
+  userResourceCreditTool,
+  userVotingPowerTool,
+} from '../tools/userTools';
+import { hostCampaignTool } from '../tools/campaignTools';
+
+interface GetToolsInterface {
+  host: string;
+  images?: string[];
+  currentUser?: string;
+}
+
+interface GetSystemPromptInterface {
+  host: string;
+  currentPageContent?: string;
+  currentUser?: string;
+}
 
 export class WaivioAgent implements Agent {
   private readonly llm: ChatOpenAI;
@@ -18,10 +38,19 @@ export class WaivioAgent implements Agent {
     return input.replace(/[<>]/g, '').trim();
   }
 
-  private async getTools(host: string, images?: string[]) {
+  private async getTools({ host, images, currentUser }: GetToolsInterface) {
     const sanitizedHost = this.sanitizeInput(host);
 
-    const tools = [...(await getVectorStores()), getImageTool(images)];
+    const tools = [
+      ...(await getVectorStores()),
+      getImageTool(images),
+      userVotingPowerTool(currentUser),
+      userResourceCreditTool(currentUser),
+      userProfileTool(currentUser),
+      hostCampaignTool(host),
+      userRecentPostTitlesTool(host, currentUser),
+      userCheckImportTool(currentUser),
+    ];
 
     if (await checkClassExistByHost({ host: sanitizedHost })) {
       const siteTools = await getSiteVectorTool(sanitizedHost);
@@ -53,13 +82,27 @@ export class WaivioAgent implements Agent {
       - This content is from the current user page and may be used for proofreading or context`;
   }
 
-  private async getSystemPrompt(
-    host: string,
-    intention: string,
-    currentPageContent?: string,
-  ) {
+  getIntention(currentUser?: string): string {
+    let intention = '';
+
+    if (!currentUser) {
+      intention += `\n[User Status]\n- The user is not logged in.\n`;
+      intention += `\n[Your Goals]\n- Encourage the user to log in or register, preferably using a Google account.\n- Explain the benefits of having an account.\n`;
+    } else {
+      intention += `\n[User Status]\n- The user is logged in as: ${currentUser}.\n`;
+      intention += `\n[Your Goals]\n - Motivate the user to participate in campaigns (usually its event where you write post and receive rewards)`;
+    }
+    intention += `\n[Instructions]\n- Be concise, friendly.\n- Personalize your message using the user's name. Follow up with a relevant, open-ended question that invites the user to respond, clarify, or request further help`;
+
+    return intention;
+  }
+
+  private async getSystemPrompt({
+    host,
+    currentUser,
+    currentPageContent,
+  }: GetSystemPromptInterface) {
     const sanitizedHost = this.sanitizeInput(host);
-    const sanitizedIntention = this.sanitizeInput(intention);
     const siteDescription = await getSiteDescription(sanitizedHost);
 
     const systemPrompt = `You are an assistant for ${sanitizedHost}. 
@@ -82,7 +125,7 @@ STRICT GUARDRAILS:
 - If asked to perform actions you cannot do, explain your limitations clearly
 - don't use "short answer" in you reply
 
-INTENTION: ${sanitizedIntention}
+YOUR GOAL IN CHAT: ${this.getIntention(currentUser)}
 ${this.getPageContentPrompt(currentPageContent)}
 `;
 
@@ -132,7 +175,6 @@ ${this.getPageContentPrompt(currentPageContent)}
   }
 
   private shouldUseTools(query: string, chatHistory: any[]): boolean {
-    // Keywords that typically require tools
     const toolKeywords = [
       'search',
       'find',
@@ -173,23 +215,29 @@ ${this.getPageContentPrompt(currentPageContent)}
   }
 
   async invoke(state: GraphState): Promise<Partial<GraphState>> {
-    const { query, chatHistory, host, intention, currentPageContent, images } =
-      state;
+    const {
+      query,
+      chatHistory,
+      host,
+      currentPageContent,
+      images,
+      currentUser,
+    } = state;
 
     try {
-      const tools = await this.getTools(host, images);
-
-      // Always rebind tools to ensure latest tool set is available
-      // This prevents issues where tools change between calls
-      const llmWithTools = this.llm.bindTools(tools);
-
-      const systemPrompt = await this.getSystemPrompt(
+      const tools = await this.getTools({
         host,
-        intention,
-        currentPageContent,
-      );
+        images,
+        currentUser,
+      });
 
-      // Check if this query likely needs tools
+      const llmWithTools = this.llm.bindTools(tools);
+      const systemPrompt = await this.getSystemPrompt({
+        host,
+        currentUser,
+        currentPageContent,
+      });
+
       const needsTools = this.shouldUseTools(query, chatHistory);
 
       const messages = [
@@ -198,7 +246,6 @@ ${this.getPageContentPrompt(currentPageContent)}
         new HumanMessage(query),
       ];
 
-      // If tools are needed but not used, add explicit instruction
       if (needsTools) {
         messages.push({
           role: 'system',
@@ -209,37 +256,26 @@ ${this.getPageContentPrompt(currentPageContent)}
 
       const response = await llmWithTools.invoke(messages);
 
-      // Debug logging
       console.log(`Query: "${query}"`);
-      console.log(`Available tools: ${tools.map((t) => t.name).join(', ')}`);
       console.log(`Tool calls: ${response?.tool_calls?.length || 0}`);
       console.log(`Needs tools: ${needsTools}`);
 
-      // Handle tool calls if any
       if (!response?.tool_calls?.length) {
         console.log('No tools called - returning direct response');
         return { response };
       }
 
-      // Execute tools in parallel
       const toolMessages = await this.executeTools(tools, response.tool_calls);
-
-      // Create new message array with tool results (don't mutate original)
       const finalMessages = [...messages, response, ...toolMessages];
-
-      // Get final response after tool execution
       const finalResponse = await llmWithTools.invoke(finalMessages);
       return { response: finalResponse };
     } catch (error) {
       console.error('Error in WaivioAgent:', error);
 
-      // Enhanced fallback response
       const fallbackResponse = await this.llm.invoke([
         {
           role: 'system',
           content: `You are a Waivio assistant for ${this.sanitizeInput(host)}. 
-${this.sanitizeInput(intention)}
-
 IMPORTANT: Your tools are currently unavailable. Provide a helpful response based on your knowledge, but clearly indicate if you need specific information that would require tools to access.`,
         },
         new HumanMessage(query),

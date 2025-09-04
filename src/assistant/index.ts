@@ -10,7 +10,6 @@ import { REDIS_KEYS, TTL_TIME } from './constants/common';
 import { WaivioAgent } from './agents';
 import * as crypto from 'node:crypto';
 import { configService } from '../config';
-import { getIntention } from './intention/intention';
 
 export type GraphState = {
   query: string;
@@ -18,9 +17,9 @@ export type GraphState = {
   response?: BaseMessage;
   nextRepresentative?: string;
   host: string;
-  intention?: string;
   currentPageContent?: string;
   images?: string[];
+  currentUser?: string;
 };
 
 export interface RunQueryI {
@@ -32,6 +31,12 @@ export interface RunQueryI {
   images?: string[];
   currentPageContent?: string;
 }
+
+export type historyType = {
+  id: `${string}-${string}-${string}-${string}-${string}`;
+  text: MessageContent;
+  role: MessageType;
+};
 
 export const runQuery = async ({
   query,
@@ -56,20 +61,15 @@ export const runQuery = async ({
   });
 
   const chatHistory = await historyStore.getMessages();
-  const intention = await getIntention({
-    host,
-    currentUser,
-  });
-
   const app = new WaivioAgent(llm);
 
   const result = await app.invoke({
     query,
     chatHistory,
     host,
-    intention,
     currentPageContent,
     images,
+    currentUser,
   });
 
   const messages = [new HumanMessage(query)];
@@ -78,12 +78,6 @@ export const runQuery = async ({
   await historyStore.addMessages(messages);
 
   return result.response;
-};
-
-export type historyType = {
-  id: `${string}-${string}-${string}-${string}-${string}`;
-  text: MessageContent;
-  role: MessageType;
 };
 
 export const getHistory = async ({ id }): Promise<historyType[]> => {
