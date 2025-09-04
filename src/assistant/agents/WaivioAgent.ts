@@ -6,7 +6,7 @@ import { HumanMessage, ToolMessage } from '@langchain/core/messages';
 import { checkClassExistByHost } from '../store/weaviateStore';
 import { generateSearchToolsForHost } from '../tools/waivioSearchTool';
 import { getSiteDescription } from '../helpers/requestHelper';
-import { getImageTool } from '../tools/imageTool';
+import { getImageTool, imageToTextTool } from '../tools/imageTool';
 import {
   userCheckImportTool,
   userProfileTool,
@@ -44,6 +44,7 @@ export class WaivioAgent implements Agent {
     const tools = [
       ...(await getVectorStores()),
       getImageTool(images),
+      imageToTextTool(images),
       userVotingPowerTool(currentUser),
       userResourceCreditTool(currentUser),
       userProfileTool(currentUser),

@@ -45,6 +45,10 @@ class ConfigService {
     return this.getValue('OPENAI_API_KEY', true);
   }
 
+  public getGoogleAIKey(): string {
+    return this.getValue('GOOGLE_AI_API_KEY', true);
+  }
+
   public getOpenAiOrg(): string {
     return this.getValue('OPENAI_API_ORG', true);
   }

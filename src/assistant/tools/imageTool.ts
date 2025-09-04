@@ -1,8 +1,9 @@
 import { tool } from '@langchain/core/tools';
 import { z } from 'zod';
 import { imageGenerator } from '../images/imageGenerator';
+import { googleGenAi } from '../images/googleGenAi';
 
-const waivioSearchUserSchema = z.object({
+const waivioImageToolSchema = z.object({
   query: z.string().describe('query for generation / edit image'),
   size: z
     .enum(['1024x1024', '1536x1024', '1024x1536'])
@@ -18,7 +19,25 @@ export const getImageTool = (images?: string[]) =>
       name: 'waivioImageTool',
       description:
         'Use this tool for image generation. Always use if you have "/imagine" in prompt',
-      schema: waivioSearchUserSchema,
+      schema: waivioImageToolSchema,
+      responseFormat: 'content',
+    },
+  );
+
+const waivioImageToTextToolSchema = z.object({
+  prompt: z.string().describe('prompt for analyzing image'),
+});
+export const imageToTextTool = (images?: string[]) =>
+  tool(
+    async ({ prompt }) => {
+      if (!images?.length) return 'No image to analyze';
+      return googleGenAi.imageToText(prompt, images[0]);
+    },
+    {
+      name: 'imageToTextTool',
+      description:
+        'Always use this tool for analyzing image: image to text or describing what on picture',
+      schema: waivioImageToTextToolSchema,
       responseFormat: 'content',
     },
   );
