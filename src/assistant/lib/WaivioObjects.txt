@@ -358,6 +358,8 @@ Get started today and take your social shop to the next level with easy-to-integ
 # Object types and object creation
 On the Waivio platform, users can interact with the following types of objects: list, page, product, book, business, person, hashtag, newsfeed, widget, webpage, map, link, shop, affiliate program, recipe, restaurant, dish, drink, service, place, group, company, organization, app, crypto, indices, commodity, currency, stocks, currencies, hotel, motel, resort, b&b, car.
 
+In order for a user to create objects and post updates, they must meet the minimum requirement of having WAIV Power. It is recommended that a user have at least $10 worth of WAIV Power to create objects and add updates.
+
 ### Create an object
 1. To Open "Create new object" modal window, go to Editor. Link "Create new object";
 2. or to open "Create new object" modal window, click on one of the types in the right sidebar "Create new object", after clicking "Create new object" modal window opens with blocked type selected.
