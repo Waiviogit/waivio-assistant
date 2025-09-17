@@ -19,4 +19,38 @@ export class AgentQaRepository
   ) {
     super(model, new Logger(AgentQaRepository.name));
   }
+
+  async getDistinctTopics(): Promise<string[]> {
+    try {
+      return await this.model.distinct('topic').lean();
+    } catch (error) {
+      this.logger.error('Error getting distinct topics:', error.message);
+      return [];
+    }
+  }
+
+  async getQnaItemsByTopic(
+    topic?: string,
+    skip: number = 0,
+    limit: number = 10,
+  ): Promise<{ result: AgentQADocType[]; hasMore: boolean }> {
+    try {
+      const filter = topic ? { topic } : {};
+
+      // Get items with limit + 1 to check if there are more
+      const items = (await this.model
+        .find(filter)
+        .skip(skip)
+        .limit(limit + 1)
+        .lean()) as AgentQADocType[];
+
+      const hasMore = items.length > limit;
+      const result = hasMore ? items.slice(0, limit) : items;
+
+      return { result, hasMore };
+    } catch (error) {
+      this.logger.error('Error getting QnA items by topic:', error.message);
+      return { result: [], hasMore: false };
+    }
+  }
 }

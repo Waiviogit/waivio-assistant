@@ -4,9 +4,10 @@ import { AppService } from './app.service';
 import { LoggerMiddleware } from './middleware/logger-middleware';
 import { DatabaseModule } from './database/database.module';
 import { PersistenceModule } from './persistance/persistence.module';
+import { QnaModule } from './qna/qna.module';
 
 @Module({
-  imports: [DatabaseModule, PersistenceModule],
+  imports: [DatabaseModule, PersistenceModule, QnaModule],
   controllers: [AppController],
   providers: [AppService],
 })
