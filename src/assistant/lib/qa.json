@@ -763,5 +763,465 @@
         "question": "How does the object creation modal work?",
         "answer": "The modal includes: object name input, name style selection (sentence case, lowercase, UPPERCASE, etc.), language dropdown, object type selection, like checkbox (required for updates to take effect), vote slider for voting power strength, vote value display (minimum $0.001), follow checkbox for automatic subscription, and explanation text about the process.",
         "topic": "WaivioObjects"
+    },
+    {
+        "question": "Can I create sites on Waivio?",
+        "answer": "Yes. Go to Tools > Websites > Create, choose the social.gifts template, pick a subdomain or custom domain, then configure colors, logos, base object, and settings.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What is a social site? Why is it called social?",
+        "answer": "A thematic website built with the Social.Gifts template on Waivio. It's social because it shares users, objects, posts, and rewards across the Hive Web3 graph, enabling community interaction and shared knowledge.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How can I log in?",
+        "answer": "Three options: HiveSigner (password/keys), HiveAuth/Keychain (QR), or Google (guest mode, limited features).",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "I don't have a Hive account. What should I do?",
+        "answer": "Create one via Tools > New Accounts using VIP tickets (HiveOnBoard), or use Google guest login (limited).",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "If I don't want a Hive account, are there other methods?",
+        "answer": "Yes. Sign in with Google as a guest; you'll have 0 voting power and limited features but can still post and earn sponsor rewards.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "Why is there a need for a Hive account?",
+        "answer": "Hive accounts provide keys, voting power, and resource credits; they enable full posting, campaigns, wallet ops, and on-chain records.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "I authorized my account. What should I do next?",
+        "answer": "Customize profile and settings, explore Earn for rewards, and start posting via the editor.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "Can I write a post?",
+        "answer": "Yes. Click the pencil icon, compose, preview, accept legal notice, publish to Hive (~3s).",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What are the benefits of writing posts here?",
+        "answer": "Earn author rewards, gain expertise/reputation, receive curation, and access sponsored rewards via Earn.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "Can I earn from posts?",
+        "answer": "Yes: author rewards (7-day window), curator rewards, and sponsored rewards (Earn campaigns).",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What are rewards?",
+        "answer": "Crypto payouts for posts and campaigns. Sponsored rewards are paid in WAIV; author/curator rewards are via Hive mechanics.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What types of rewards exist?",
+        "answer": "Author rewards, curator rewards, and sponsored campaign rewards (WAIV).",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "Can I withdraw rewards?",
+        "answer": "Yes. Swap to SWAP.* tokens and withdraw BTC/LTC/ETH (and HIVE/HBD routes) via the wallet.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is the HIVE blockchain?",
+        "answer": "A decentralized social blockchain where accounts, posts, funds, and object data are recorded immutably.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is the Hive token?",
+        "answer": "HIVE is the native token of the Hive blockchain; it can be powered up to Hive Power (HP) for influence and RC.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is the price of Hive compared to USD?",
+        "answer": "It fluctuates; the app displays live USD equivalents for rewards and wallet balances.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is Hive Power? Why do I need it?",
+        "answer": "Staked HIVE (HP) that grants voting influence and resource credits. More HP = higher vote value and more on-chain capacity.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "Is there a stablecoin in the Hive ecosystem?",
+        "answer": "Yes. HBD (Hive Dollar), a USD-pegged token on Hive.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is Hive Dollar?",
+        "answer": "HBD is Hive's USD-pegged stablecoin used for savings/payments; it can be swapped and withdrawn via supported routes.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "Can I withdraw Hive Dollars?",
+        "answer": "Yes. Swap HBD↔SWAP.HBD and withdraw supported assets; or convert through wallet swap paths, then withdraw.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How can I deposit Hive?",
+        "answer": "Use Wallet > Deposit to bring external crypto (e.g., LTC/BTC) to Hive Engine and swap to SWAP.HIVE/HIVE.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How can I deposit Hive Power?",
+        "answer": "Deposit HIVE, then Power Up to convert to Hive Power (HP).",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How can I deposit Hive Dollars?",
+        "answer": "Deposit or swap into SWAP.HBD/HBD via the wallet's Deposit and Swap flows.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "Where is the wallet?",
+        "answer": "Open your profile and use wallet tabs (HIVE, HBD, WAIV, Hive Engine, etc.) to manage balances and transfers.",
+        "topic": "UserTools"
+    },
+    {
+        "question": "Where is the profile?",
+        "answer": "Click your avatar in the header to open your profile page (or another user's for theirs).",
+        "topic": "UserTools"
+    },
+    {
+        "question": "What is the Hive Engine tab?",
+        "answer": "A wallet tab for Hive Engine tokens with Swap/Withdraw support (e.g., SWAP.HIVE, SWAP.HBD, SWAP.LTC/BTC/ETH).",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is the Rebalancing tab?",
+        "answer": "A wallet tool to adjust holdings across tokens/power states (e.g., balancing HIVE/HBD/HP/WAIV via swaps/power ops).",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How can I withdraw HIVE?",
+        "answer": "Wallet > HIVE > Withdraw. Choose destination (BTC/LTC/ETH), enter address/amount, confirm via HiveSigner.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "Can I exchange Hive for another token? Which tokens?",
+        "answer": "Yes. Swap HIVE/HBD into SWAP.* and other Hive Engine tokens. Common: SWAP.HIVE, SWAP.HBD, SWAP.BTC/LTC/ETH.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What can I do with Hive? (List all available actions)",
+        "answer": "Post/comment, vote/curate, transfer, deposit/withdraw, swap, power up/down, delegate, create/manage campaigns (on Waivio), more.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How can I buy Hive?",
+        "answer": "Deposit external crypto to Hive Engine (Wallet > Deposit) and swap to SWAP.HIVE/HIVE, or buy on exchanges then deposit.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is Power Up?",
+        "answer": "Convert liquid HIVE into Hive Power (HP) to increase voting influence and resource credits.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is Power Down?",
+        "answer": "Convert Hive Power (HP) back to liquid HIVE via scheduled withdrawals over time.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is the Waiv token?",
+        "answer": "WAIV is Waivio's token used to fund campaigns and pay sponsored rewards; it can be staked as Waiv Power.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is the price of Waiv compared to USD?",
+        "answer": "Market-based; the app shows estimated USD equivalents in wallet/rewards where relevant.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is Waiv Power? Why do I need it?",
+        "answer": "Staked WAIV that powers small on-chain updates and determines the value of WAIV-based upvotes (imports/bots).",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "Hive Power vs Waiv Power which do I need more?",
+        "answer": "Both. HP gives RC and Hive vote influence; Waiv Power fuels WAIV-based updates/bots. Suggested ratio ~4:1 (WAIV:HP) for imports.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "Is Waiv a stablecoin?",
+        "answer": "No. WAIV is a utility/reward token. Hive's stablecoin is HBD.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How can I deposit Waiv?",
+        "answer": "Deposit external assets to Hive Engine and swap to WAIV, or receive WAIV transfers from other users.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How can I deposit Waiv Power?",
+        "answer": "Acquire WAIV and stake it to Waiv Power in the wallet.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is the relationship between Hive and Waiv tokens?",
+        "answer": "WAIV is a Hive Engine token used on Waivio for campaigns/rewards; HIVE/HP/HBD are native Hive assets for social, RC, and liquidity.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How can I withdraw Waiv?",
+        "answer": "Swap WAIV to SWAP.HIVE/other routes, then withdraw supported assets (BTC/LTC/ETH) from the wallet.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What can I do with Waiv? (List all available actions)",
+        "answer": "Transfer, stake (Waiv Power), fund imports/bots, create/manage campaigns, pay sponsored rewards, swap/withdraw via Hive Engine.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How can I buy Waiv?",
+        "answer": "Use wallet swaps on Hive Engine (e.g., SWAP.HIVE→WAIV) or receive transfers from other users.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What are delegations?",
+        "answer": "Temporary lending of staked power (HP/VP) to another account, granting voting/RC capacity without transferring ownership.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How fast is a transfer?",
+        "answer": "On-chain Hive transfers settle in seconds. External withdrawals depend on bridge/target chain (typically minutes).",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "I see a transfer button what can I send and to whom?",
+        "answer": "Send HIVE, HBD, WAIV, and SWAP.* tokens to any Hive username. External withdrawals go to crypto addresses.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How reliable are transfers?",
+        "answer": "Hive transfers are blockchain-final. External withdrawals rely on established bridges and target network confirmations.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What technology is used for transfers?",
+        "answer": "Native Hive blockchain ops; swaps/withdrawals use Hive Engine bridges for SWAP.* assets.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is the minimum amount I can send?",
+        "answer": "Hive has negligible minimums; practical limits are dust thresholds and bridge minimums (shown in the UI).",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is the maximum amount I can send?",
+        "answer": "No hard on-chain max beyond your balance; bridges may cap per-transaction amounts (shown in UI).",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "I see different tabs in the user profile. What are they about?",
+        "answer": "Profile shows posts, shop, favorites, recipes, and wallet tabs (HIVE/HBD/WAIV/Hive Engine), plus settings, drafts, bookmarks, etc.",
+        "topic": "UserTools"
+    },
+    {
+        "question": "What is the main menu (Earn, Tools, Shop) about?",
+        "answer": "Earn: rewards/campaigns. Tools: personal, data management, websites. Shop: product catalogs and social shopping.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What can I earn in the Earn tab?",
+        "answer": "Sponsored rewards (WAIV) from campaigns listed in Global/Local, with tracking in Reserved/Receivable/History.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "What are these cards?",
+        "answer": "Primary cards summarize a main object with an Earn entry; secondary cards list specific reward tasks with payout/details and submit actions.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "Can I really earn the $8 I see in the Earn tab (Global)?",
+        "answer": "Yes—if eligible and you complete requirements. Payouts are set in WAIV at reservation-time rates via upvotes and direct payments.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "What is the difference between the Global and Local tabs?",
+        "answer": "Global: location-agnostic rewards. Local: location-tied rewards with map and proximity features.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "Can I easily participate in campaigns? What's the catch?",
+        "answer": "Yes. Reserve (reviews) or post (mentions), meet eligibility and post requirements; sponsors verify and can reject fraud/spam.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "When will I receive earnings from campaigns?",
+        "answer": "After your qualified review is published and verified. Receivables list owed WAIV; sponsors pay via Payable.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "I completed a global campaign when do I get rewarded? Who pays me?",
+        "answer": "Once verified, the sponsor pays you. Rewards combine registered upvotes and direct WAIV transfers; track in Receivable.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "Where can I see my completed campaigns?",
+        "answer": "Earn > History shows completed/released/expired/rejected; Earn > Receivable lists sponsors who owe you.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "Where can I see how much I will be paid for completed campaigns?",
+        "answer": "In Receivable (user view) and Payable (sponsor view) tables with per-review amounts and running balances.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "What are campaigns?",
+        "answer": "Sponsor-created reward offers (reviews/mentions) tied to objects; users reserve/complete tasks to earn WAIV.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "I see a Submit Photos button what is it for?",
+        "answer": "To reserve and start a review campaign: opens reservation modal, then editor to write and submit your review.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "Give me detailed instructions on how to complete a Global campaign.",
+        "answer": "Earn > Global → pick a primary → Earn → select a secondary → Submit Photos → read requirements → reserve → write required photos/links → publish → track Receivable.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "If I can complete campaigns, how can I create one as a sponsor?",
+        "answer": "Go to Earn > Campaigns > Create (waivio.com), fill required fields (type, reach, budget, reward, objects, eligibility), then activate in Manage.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "What tokens do I need to create a campaign? How much?",
+        "answer": "WAIV only. Set monthly budget and per-review reward in USD terms; payments/obligations are calculated in WAIV.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "I see Shop in the main menu what is it?",
+        "answer": "The social shopping/catalog area with products, lists, and object pages users can browse, heart, and reference in posts.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "I see Tools in the main menu what is it?",
+        "answer": "User tools (notifications, drafts, bookmarks, profile, settings, affiliate codes) plus Data Management and Websites tools.",
+        "topic": "UserTools"
+    },
+    {
+        "question": "Can I create a site?",
+        "answer": "Yes. Tools > Websites > Create lets you launch a social.gifts site quickly.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What is a social site?",
+        "answer": "A customizable Web3 site (Social.Gifts template) showing objects, lists, feeds, maps, with Earn integration.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What tokens do I need to create my site? How much?",
+        "answer": "Hosting is paid in WAIV (converted to USD/day). Ensure enough WAIV to cover daily hosting and optional features.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "How much does it cost to run a site?",
+        "answer": "Active: $1/day. Inactive (name reservation): $0.20/day. Paid in WAIV at current USD rate.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What technology is used to run sites?",
+        "answer": "Web3 front-ends backed by the Hive blockchain (objects, posts, rewards) with Waivio hosting/indexing services.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "Are only default domains available, or can I use my own?",
+        "answer": "Both: use a social.gifts subdomain or configure a custom domain (DNS A record, HTTPS).",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What settings are available for sites?",
+        "answer": "Configuration (colors, logos, banner, base object), Settings (language, currency, analytics, ads, beneficiaries, referrals, editing).",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "Can I change the layout of my site?",
+        "answer": "Yes. Build menu via the base object (lists/pages/maps/widgets), reorder items, and customize appearance/content.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "Can I see examples of running sites?",
+        "answer": "Yes. Explore existing social.gifts sites (e.g., AcceptCryptoMap.com) from the Websites tools and docs.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "If I don't pay for my site, what happens?",
+        "answer": "Your site can be switched to inactive (name reservation) or suspended until hosting is funded again.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "How can I pay for a site?",
+        "answer": "In the site Manage tab, click Pay Now and fund hosting in WAIV (converted at the current USD rate).",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "How can I build my site (add pages, menu, basic settings)?",
+        "answer": "Create a base object and add menu items (lists/pages/newsfeeds/maps/widgets). Configure colors/logos in Configuration; set language/currency in Settings.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What is an object?",
+        "answer": "A blockchain record/page for anything—business, product, place, list, page, etc.—that aggregates posts and structured fields.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "What do I need to create an object?",
+        "answer": "WAIV Power (recommend ≥$10) and enough voting power (≥$0.001) to record updates on-chain.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "Can anyone create them?",
+        "answer": "Yes—any Hive user meeting minimal power requirements can create objects and submit updates.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "Why should I use objects?",
+        "answer": "They organize knowledge, aggregate related posts, power social sites/SEO, enable ratings/tags, and support campaigns.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "How do I add an object?",
+        "answer": "In the editor, choose Create new object (type), name it, Confirm; then edit to add avatar and fields.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "What can I add inside an object?",
+        "answer": "Avatars, galleries, titles/descriptions, addresses/phones, prices, tags, ratings, maps, links, wallets, more (type-dependent).",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "What are the fields for an object?",
+        "answer": "Fields depend on type (product/business/place/etc.) and include media, text, ratings, tags, options, IDs, maps, widgets, etc.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "What do I need to add or update fields?",
+        "answer": "Enough WAIV Power and voting power to record updates; community/admin approvals (≥70%) determine displayed values.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "Can only I see my created object?",
+        "answer": "No. Objects are public on-chain; visibility on a given site depends on admin approvals but data is public.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "Can I create a private object?",
+        "answer": "Objects are public on-chain. Sites can choose what to display, but the underlying record isn't private.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "Can anyone add fields to my created object?",
+        "answer": "Yes. Anyone can propose updates; displayed values are selected by community/admin approvals and site preferences.",
+        "topic": "WaivioObjects"
     }
 ]
