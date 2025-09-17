@@ -60,6 +60,17 @@ class ConfigService {
   public getOpenAiOrg(): string {
     return this.getValue('OPENAI_API_ORG', true);
   }
+
+  public getAdmins(): string[] {
+    const adminsString = this.getValue('WAIVIO_ADMINS', false);
+    if (!adminsString) {
+      return [];
+    }
+    return adminsString
+      .split(',')
+      .map((admin) => admin.trim())
+      .filter((admin) => admin.length > 0);
+  }
 }
 
 const configService = new ConfigService(process.env).ensureValues(

@@ -9,6 +9,7 @@ import {
   Patch,
   Post,
   Query,
+  UseGuards,
 } from '@nestjs/common';
 import { QnaService } from './qna.service';
 import { CreateQnaItemDto } from '../dto/qna-item-in.dto';
@@ -20,6 +21,7 @@ import {
 } from '../dto/qna-item-out.dto';
 import { QnaControllerDoc } from './qna.controller.doc';
 import { QAWeaviateMigrationService } from '../cli/migrate-qa-to-weaviate';
+import { AuthGuard, AdminGuard } from '../guards';
 
 @Controller('qna')
 @QnaControllerDoc.main()
@@ -30,6 +32,7 @@ export class QnaController {
   ) {}
 
   @Get('topics')
+  @UseGuards(AuthGuard, AdminGuard)
   @QnaControllerDoc.getTopics()
   async getTopics(): Promise<TopicsResponseDto> {
     const topics = await this.qnaService.getTopics();
@@ -37,6 +40,7 @@ export class QnaController {
   }
 
   @Get()
+  @UseGuards(AuthGuard, AdminGuard)
   @QnaControllerDoc.getQnaItems()
   async getQnaItems(
     @Query('topic') topic?: string,
@@ -61,6 +65,7 @@ export class QnaController {
   }
 
   @Post()
+  @UseGuards(AuthGuard, AdminGuard)
   @QnaControllerDoc.createQnaItem()
   async createQnaItem(
     @Body() createQnaItemDto: CreateQnaItemDto,
@@ -76,6 +81,7 @@ export class QnaController {
   }
 
   @Patch(':id')
+  @UseGuards(AuthGuard, AdminGuard)
   @QnaControllerDoc.updateQnaItem()
   async updateQnaItem(
     @Param('id') id: string,
@@ -98,6 +104,7 @@ export class QnaController {
   }
 
   @Delete(':id')
+  @UseGuards(AuthGuard, AdminGuard)
   @QnaControllerDoc.deleteQnaItem()
   async deleteQnaItem(@Param('id') id: string): Promise<{ message: string }> {
     const result = await this.qnaService.deleteQnaItem(id);
@@ -108,6 +115,7 @@ export class QnaController {
   }
 
   @Post('migrate-to-weaviate')
+  @UseGuards(AuthGuard, AdminGuard)
   @QnaControllerDoc.migrateToWeaviate()
   async migrateToWeaviate(): Promise<{ message: string; migrated: number }> {
     try {
