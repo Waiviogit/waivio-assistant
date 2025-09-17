@@ -51,7 +51,7 @@ class ConfigService {
   public getMongoWaivioConnectionString(): string {
     const defaultConnectionString = `mongodb://localhost:27017/waivio`;
     const connectionString = process.env.MONGO_CONNECTION_WAIVIO
-      ? process.env.MONGO_URI_WAIVIO
+      ? process.env.MONGO_CONNECTION_WAIVIO
       : defaultConnectionString;
 
     return connectionString;
