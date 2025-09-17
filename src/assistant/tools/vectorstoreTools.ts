@@ -1,6 +1,6 @@
 import { z } from 'zod';
 import { tool } from '@langchain/core/tools';
-import { AGENTS_DESCRIPTION } from '../constants/nodes';
+import { AGENTS_DESCRIPTION, QA_COLLECTION } from '../constants/nodes';
 import {
   getIndexFromHostName,
   getWeaviateStore,
@@ -11,74 +11,111 @@ const vectorSearchSchema = z.object({
   query: z.string().describe('Search query to find relevant information'),
 });
 
-// Enhanced similarity search with multiple strategies
+// Enhanced similarity search with QA collection priority
 const enhancedSimilaritySearch = async (
   vectorStore: any,
   query: string,
   k: number = 4,
 ) => {
   try {
-    // Try different search strategies
-    const strategies = [
-      // Strategy 1: Standard similarity search
-      () => vectorStore.similaritySearch(query, k),
+    // First, try to search in QA collection
+    let qaResults = [];
+    try {
+      const qaStore = await getWeaviateStore(QA_COLLECTION);
+      qaResults = await qaStore.similaritySearch(query, Math.min(k, 3));
+      console.log(`Found ${qaResults.length} QA results for: "${query}"`);
 
-      // Strategy 2: Similarity search with higher k and then filter
-      async () => {
-        const results = await vectorStore.similaritySearch(query, k * 2);
-        return results.slice(0, k);
-      },
+      // If we found good QA results, prioritize them
+      if (qaResults && qaResults.length > 0) {
+        // Mark QA results as such
+        qaResults = qaResults.map((result) => ({
+          ...result,
+          metadata: { ...result.metadata, source: 'qa' },
+        }));
+      }
+    } catch (error) {
+      console.warn('QA collection search failed:', error);
+    }
 
-      // Strategy 3: Try with different query variations
-      async () => {
-        const queryVariations = [
-          query,
-          query.toLowerCase(),
-          query.toUpperCase(),
-          query.replace(/\s+/g, ' ').trim(),
-        ];
+    // Calculate remaining slots for regular vector store
+    const remainingK = Math.max(0, k - qaResults.length);
+    let vectorResults = [];
 
-        const allResults = [];
-        for (const variation of queryVariations) {
-          try {
-            const results = await vectorStore.similaritySearch(
-              variation,
-              Math.ceil(k / queryVariations.length),
-            );
-            allResults.push(...results);
-          } catch (error) {
-            console.warn(
-              `Failed to search with variation "${variation}":`,
-              error,
-            );
+    if (remainingK > 0 && vectorStore) {
+      // Try different search strategies on the regular vector store
+      const strategies = [
+        // Strategy 1: Standard similarity search
+        () => vectorStore.similaritySearch(query, remainingK),
+
+        // Strategy 2: Similarity search with higher k and then filter
+        async () => {
+          const results = await vectorStore.similaritySearch(
+            query,
+            remainingK * 2,
+          );
+          return results.slice(0, remainingK);
+        },
+
+        // Strategy 3: Try with different query variations
+        async () => {
+          const queryVariations = [
+            query,
+            query.toLowerCase(),
+            query.toUpperCase(),
+            query.replace(/\s+/g, ' ').trim(),
+          ];
+
+          const allResults = [];
+          for (const variation of queryVariations) {
+            try {
+              const results = await vectorStore.similaritySearch(
+                variation,
+                Math.ceil(remainingK / queryVariations.length),
+              );
+              allResults.push(...results);
+            } catch (error) {
+              console.warn(
+                `Failed to search with variation "${variation}":`,
+                error,
+              );
+            }
           }
-        }
 
-        // Remove duplicates and return top k
-        const uniqueResults = allResults.filter(
-          (result, index, self) =>
-            index ===
-            self.findIndex((r) => r.pageContent === result.pageContent),
-        );
-        return uniqueResults.slice(0, k);
-      },
-    ];
+          // Remove duplicates and return top remainingK
+          const uniqueResults = allResults.filter(
+            (result, index, self) =>
+              index ===
+              self.findIndex((r) => r.pageContent === result.pageContent),
+          );
+          return uniqueResults.slice(0, remainingK);
+        },
+      ];
 
-    // Try each strategy until we get results
-    for (const strategy of strategies) {
-      try {
-        const results = await strategy();
-        if (results && results.length > 0) {
-          return results;
+      // Try each strategy until we get results
+      for (const strategy of strategies) {
+        try {
+          const results = await strategy();
+          if (results && results.length > 0) {
+            vectorResults = results.map((result) => ({
+              ...result,
+              metadata: { ...result.metadata, source: 'vector' },
+            }));
+            break;
+          }
+        } catch (error) {
+          console.warn(`Vector strategy failed:`, error);
+          continue;
         }
-      } catch (error) {
-        console.warn(`Strategy failed:`, error);
-        continue;
       }
     }
 
-    // If all strategies fail, return empty array
-    return [];
+    // Combine QA results (prioritized) with vector results
+    const combinedResults = [...qaResults, ...vectorResults];
+    console.log(
+      `Total combined results: ${combinedResults.length} (${qaResults.length} QA + ${vectorResults.length} vector)`,
+    );
+
+    return combinedResults;
   } catch (error) {
     console.error('Enhanced similarity search failed:', error);
     return [];

@@ -9,6 +9,8 @@ export const AGENTS = {
   WaivioGeneral: 'WaivioGeneral',
 };
 
+export const QA_COLLECTION = 'WaivioQnA';
+
 export const AGENTS_DESCRIPTION = {
   UserTools:
     'questions related to user tools, including account settings, notifications, profile management, wallet, WAIV token, drafts, bookmarks, user affiliate codes, new accounts (VIP tickets), inviting other users, managing user shops, and favorites - UserTools',

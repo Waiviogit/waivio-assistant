@@ -2,6 +2,7 @@ import { WeaviateStore } from '@langchain/weaviate';
 import weaviate, { WeaviateClass } from 'weaviate-ts-client';
 import { OpenAIEmbeddings } from '@langchain/openai';
 import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter';
+import { Document } from '@langchain/core/documents';
 import { configService } from '../../config';
 
 const weaviateHost = configService.getWeaviateHost();
@@ -100,4 +101,47 @@ export const checkClassExistByHost = async ({ host }): Promise<boolean> => {
   const className = getIndexFromHostName({ host });
   const result = await getWeaviateClass(className);
   return !!result;
+};
+
+interface QAItem {
+  question: string;
+  answer: string;
+  topic: string;
+}
+
+export const createQAWeaviateIndex = async (
+  qaData: QAItem[],
+  indexName: string,
+): Promise<void> => {
+  try {
+    // Convert QA pairs into documents
+    const docs = qaData.map((item, index) => {
+      const content = `Question: ${item.question}\nAnswer: ${item.answer}`;
+      return new Document({
+        pageContent: content,
+        metadata: {
+          question: item.question,
+          answer: item.answer,
+          topic: item.topic,
+          type: 'qa',
+          index: index,
+        },
+      });
+    });
+
+    const client = weaviate.client({
+      scheme: 'http',
+      host: weaviateHost,
+    });
+
+    await WeaviateStore.fromDocuments(docs, new OpenAIEmbeddings(), {
+      client,
+      indexName,
+      textKey: 'pageContent',
+    });
+
+    console.log(`QA Vectors Created, ${indexName}`);
+  } catch (error) {
+    console.log('Error creating QA index:', error);
+  }
 };

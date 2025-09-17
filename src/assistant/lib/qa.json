@@ -1,0 +1,767 @@
+[
+    {
+        "question": "What is the Global Earn section?",
+        "answer": "The Global Earn section displays all campaigns in the global category that are not tied to a specific location. It has two steps: first showing primary cards in a feed, and second showing secondary cards for a specific primary card after clicking the 'Earn' button. By default, the Global tab opens when accessing the Earn section.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "What sorting options are available in Global Earn?",
+        "answer": "Global Earn offers several sorting options for primary cards: Default (combines payouts + proximity), Payouts (calculates max profit for index server), Amount (sort by campaign amount max to min), Expiry (by campaign expiration date nearest to farthest), and Proximity (closest distance to user).",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "What filters are available in Global and Local Earn sections?",
+        "answer": "Filters include: Eligibility (show all rewards checkbox - by default users see only campaigns they can execute), Rewards for (filter by 'reviews' and 'mentions' campaign types), and Sponsors (filter by specific sponsor). The eligibility filter is only available on the first step with primary cards.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "What is the Local Earn section?",
+        "answer": "The Local Earn section displays campaigns tied to specific locations. Like Global, it has two steps: primary cards feed and secondary cards for specific primaries. It includes the same sorting and filtering options as Global, plus an interactive map that shows reward icons based on user location with search area functionality.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "How does the map feature work in Local Earn?",
+        "answer": "The Local Earn map shows campaigns based on user location with reward icons displayed. It includes: map title, search area button (to correct campaign list by map display), zoom in/out buttons, full-screen mode button, and user location button to move map to user's approximate location.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "What is the Reserved section in Earn?",
+        "answer": "The Reserved section displays campaign cards that the user has reserved. Only 'Review' type campaigns can be reserved. It shows campaigns with 'active' and 'onHold' statuses. Reserved cards are similar to secondary cards but with different footer showing reservation period and submission options.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "What features are available on Reserved cards?",
+        "answer": "Reserved cards include: reward information, sponsor details, object information (avatar, name, rating, type, price, tags, address), reservation period display ('Reserved - X days left'), comment functionality, 'Submit photos' button for review writing, and three-dots menu with options like view/release reservation, decrease reward, and follow sponsor/object.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "What is the Receivable section in Earn?",
+        "answer": "The Receivable section displays sponsors who owe payments to users for completed campaigns. It shows sponsor lists with amounts owed and detailed payment history tables. Users can track rewards in WAIV tokens and view chronological transaction records including review details, beneficiaries, and running balances.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "What sorting and filtering options exist in Receivable?",
+        "answer": "Receivable offers sorting by Amount (reward amount) and Time. Filters include: Over 15 Days (sponsor delay exceeding 15 days), Over 30 Days (sponsor delay exceeding 30 days), and Over 20 WAIV (sponsor's outstanding amount exceeds 20 WAIV).",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "What is the History section in Earn?",
+        "answer": "The History section shows the user's complete history as a campaign executor, including all statuses: reserved, completed, released, expired, and rejected. It displays secondary cards and allows sorting by reservation date or action date, with filtering by status and sponsor.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "What actions are available in the History section?",
+        "answer": "The three-dot menu on history cards provides different actions based on campaign status: view reservation, release reservation, decrease reward, show report, open review, and rejection note. Available actions depend on the current status of each campaign.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "What details are shown on Primary Reward Cards?",
+        "answer": "Primary Reward Cards show: avatar and name (clickable to object page), parent information, rating with voting stars, object type, tags (two highest-weighted), address, price, potential earnings ('YOU EARN'), 'Earn' button linking to secondary objects, and heart button for adding to shop (for books/products).",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "What details are shown on Secondary Cards?",
+        "answer": "Secondary Cards display: campaign title (varies by type), reward amount in user currency, sponsor avatar and username, object details (avatar, parent name, name, rating, type, price, tags, address), title/description, submission button ('Submit Photos' or 'Mention Now!'), reservation period, details link, and heart button.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "How does the reservation modal window work?",
+        "answer": "The reservation modal opens when clicking 'Earn' button, 'Submit photos', 'Mention Now!', or 'Details' link. It shows campaign requirements, sponsor details, user eligibility criteria, post requirements, reward details, legal agreements, and provides Cancel/Submit options. Unmet requirements are highlighted in red.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "What are the user eligibility requirements shown in reservation modal?",
+        "answer": "User eligibility requirements include: minimum Waivio expertise, minimum followers, minimum posts, no recent reward from same sponsor for same object (15 days), not blacklisted by sponsor, no active reservation for same reward, and frequency limits if set by sponsor. Items with asterisks are automatically checked.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "What are the post requirements for campaign eligibility?",
+        "answer": "Post requirements typically include: minimum number of original photos of the secondary object, link to secondary object, link to primary object, and any special sponsor requirements. The sponsor reserves the right to refuse payment for fraudulent, spam, or poorly written reviews.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "How do WAIV token rewards work?",
+        "answer": "WAIV tokens are used for creating campaigns and making payments. Rewards are displayed in user's currency but paid in WAIV. The WAIV token value in user's currency is a key metric. Rewards can be paid through combination of upvotes and direct payments, with only registered account upvotes counting toward reward fulfillment.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "What is the Challenges feature for social sites?",
+        "answer": "Challenges is a collection of crypto reward opportunities tailored to specific social sites, similar to Waivio's Earn page but showing only objects from that particular site. Sponsors create campaigns through Waivio's Earn tab, and site owners can add a Challenges tab to their menu for easy visitor access to available rewards.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "How do you add a Challenges tab to a social site?",
+        "answer": "To add a Challenges tab: 1) Navigate to the base object, 2) Click Edit button, 3) Click add menu item, 4) Fill in Title, 5) Select 'Website' in Link type dropdown, 6) Enter full URL (Site URL + /active-campaigns), 7) Submit update. The tab will then appear in the main menu.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "How do breadcrumbs work in Global and Local Earn sections?",
+        "answer": "Breadcrumbs show navigation path: 1st step shows 'Global rewards' or 'Local rewards', 2nd step shows 'Eligible rewards' or 'All rewards' (depending on eligibility filter) plus primary object name. Primary object name is not clickable, but Eligible/All is clickable to return to first step.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "What happens when unauthorized users access Earn sections?",
+        "answer": "Unauthorized users can view Global and Local Earn pages, but the 'show all rewards' eligibility filter is blocked. They can see available campaigns but cannot participate or make reservations until they log in and meet eligibility requirements.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "How does the comment system work on Reserved cards?",
+        "answer": "Reserved cards include a comment box for correspondence between campaign executor and sponsor. It features: user avatar (clickable to object page), text area (highlighted in orange when active), editor menu for adding photos/videos, and send button (arrow icon, can also send with Enter key).",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "What information is displayed in the Receivable Table?",
+        "answer": "The Receivable Table shows chronological transaction history with: date of transfer, action details (review information, primary/secondary objects, beneficiaries), links to reservation and report, amount for specific review, and running balance total. All names and objects are clickable links highlighted in orange.",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "How do processing fees work in reward distribution?",
+        "answer": "Processing fees are shared between three parties: Campaign Management (represents sponsor interests, publishes campaigns, checks eligibility), Reward Indexing (represents user interests, indexes rewards, maximizes transaction success), and Referral (marketing partners who bring new users to the platform).",
+        "topic": "EarnCampaign"
+    },
+    {
+        "question": "How do I set up the Waivio Chrome Extension?",
+        "answer": "To set up the extension: 1) Download the .zip file from Waivio Tools > Data Management > Chrome Extension, 2) Unzip and load it in your browser (Settings > Extensions > Enable Developer mode > Load unpacked), 3) Pin the extension, 4) Authorize the import bot in Waivio Tools > Data Import, 5) Ensure you have enough WAIV Power and HIVE Power for upvotes ($0.001 equivalent per update).",
+        "topic": "ObjectImport"
+    },
+    {
+        "question": "How do I import products from Amazon using the Chrome Extension?",
+        "answer": "Open the Amazon product page, click the Waivio extension, and click 'Upload to Waivio'. If prompted about URL format, click 'Ok' and the page will reload. Click 'Upload to Waivio' again. You'll see a notification confirming the import started. Check progress in Data Import section and review the product page when complete.",
+        "topic": "ObjectImport"
+    },
+    {
+        "question": "How can I add video reviews to imported products?",
+        "answer": "After importing a product, go to the product page and click Reviews > Write a new review. Search for the product on YouTube, find a video review, click the extension's 'Create Post Draft' button. This generates a post draft using ChatGPT with title, summary, and hashtags. Copy the draft, paste it into your review, and enhance with the video embed and relevant hashtags.",
+        "topic": "ObjectImport"
+    },
+    {
+        "question": "What advanced features does the Chrome Extension offer for bulk importing?",
+        "answer": "Advanced features include: 1) Scan for ASINS - extracts ASIN numbers from Amazon search pages, filtering out existing products, 2) Create XLSX - generates spreadsheets with product fields filled, 3) Copy to Clipboard - copies product info for pasting into existing spreadsheets, 4) Create JSON - generates JSON files for individual products that can be imported via Data Import.",
+        "topic": "ObjectImport"
+    },
+    {
+        "question": "How do I import products from Datafiniti?",
+        "answer": "1) Find your product on Datafiniti using ASIN or other filters, 2) Download as JSON format with all matching records, 3) For variants, use parent ASIN to get all product colors/sizes, 4) Authorize data import bot on Waivio, 5) Ensure sufficient WAIV and HIVE power, 6) Upload JSON file in Tools > Data Import, optionally enable ChatGPT description optimization, 7) Choose authority level and confirm.",
+        "topic": "ObjectImport"
+    },
+    {
+        "question": "What are the power requirements for importing products?",
+        "answer": "You need WAIV Power (each upvote equivalent to $0.001) and HIVE Power for Resource Credits. With $0.01 WAIV power, you can make hundreds of updates since each $0.001 upvote uses only 10% of a full upvote. Default voting power threshold is 30%, and power recharges 20% daily. Recommended ratio is 4:1 (400 WAIV Power to 100 HIVE Power).",
+        "topic": "ObjectImport"
+    },
+    {
+        "question": "How do I import products from a spreadsheet?",
+        "answer": "1) Create Google Spreadsheet using provided templates, 2) Install the corresponding script from GitHub, 3) Set up Apps Script with the provided code, 4) Fill in product fields following format guidelines (use ';' separators for arrays, '*' for nested fields), 5) Export JSON using the script, 6) Upload the JSON file in Waivio Data Import section.",
+        "topic": "ObjectImport"
+    },
+    {
+        "question": "What object types can be imported from spreadsheets?",
+        "answer": "Spreadsheet import supports: Products/Books, Links, Recipes, Businesses/Restaurants/Persons. Each type has specific templates, scripts, and field requirements. All follow similar setup process but use different field structures and formatting requirements specific to the object type.",
+        "topic": "ObjectImport"
+    },
+    {
+        "question": "What are the key fields for importing products from spreadsheets?",
+        "answer": "Key product fields include: asins, brand, categories (separated by ';'), descriptions, imageURLs (separated by ';'), name, primaryImageURLs, features (format: 'key: name; value: description*'), waivio_tags (format: 'key: category; value: tag*'), prices, dimensions, and various optional fields like ISBN, manufacturer, merchants, etc.",
+        "topic": "ObjectImport"
+    },
+    {
+        "question": "How does the Claim Authority Tool work?",
+        "answer": "The Claim Authority Tool in Tools > Data Management helps website owners claim authority for products in bulk. Enter a top-level list and the tool claims authority for all products in embedded lists, including product options. This ensures only relevant products appear in search results on *.Social.Gifts websites, solving the problem of admin-added products not appearing in search.",
+        "topic": "ObjectImport"
+    },
+    {
+        "question": "What stores are supported by the Waivio Chrome Extension?",
+        "answer": "The extension supports importing from Amazon.com, Walmart.com, and Sephora.com. For Walmart and Sephora, you can also add affiliate codes in your profile settings or website settings. The extension also works with Google Maps and OpenStreetMap for importing business information.",
+        "topic": "ObjectImport"
+    },
+    {
+        "question": "How does the Descriptions Bot work?",
+        "answer": "The Descriptions Bot in Tools > Data Management uses ChatGPT to rewrite product names, descriptions, and list titles for all products in a chain of lists. This creates unique content for your website while the same products may have different descriptions on other sites. Requires minimum $0.01 WAIV upvote per update and respects voting power thresholds.",
+        "topic": "ObjectImport"
+    },
+    {
+        "question": "How can I import businesses from Google Maps?",
+        "answer": "Use the Waivio Chrome Extension v1.4.0+ with Google Maps integration. You need a Google Maps API key for this feature. Open a business on Google Maps, click the extension, and select 'Upload to Waivio'. Imported businesses can be favorited in profiles and referenced in posts, creating engagement opportunities.",
+        "topic": "ObjectImport"
+    },
+    {
+        "question": "How do I quickly add businesses to maps on social sites?",
+        "answer": "On map pages, authorized users see a plus sign (+). Click it to open an interface where you can: focus on preferred map area, enter keywords and business types, review up to 20 businesses, select desired ones, assign hashtags, and specify lists. A progress screen shows import status, and new businesses appear in Data Import History.",
+        "topic": "ObjectImport"
+    },
+    {
+        "question": "How does recipe creation work with the Waivio Extension?",
+        "answer": "Open recipe videos on TikTok, YouTube, or Instagram, click 'Create recipe draft' in the extension. It extracts ingredients, instructions, and captions automatically. You can edit and refine recipes, then publish in two steps: A) Create the recipe object on Hive blockchain, B) Publish a blog post linking to the recipe. Requires Data Import enabled and sufficient WAIV power.",
+        "topic": "ObjectImport"
+    },
+    {
+        "question": "How do I set up Shopify integration with Waivio?",
+        "answer": "1) In Waivio, go to Tools > Your Site Management > Shopify tab, 2) In Shopify admin, create custom app with required scopes (read_product_feeds, read_product_listings, read_products), 3) Generate Admin API access token, 4) Enter API key, secret key, access token, and store hostname in Waivio, 5) Start synchronization in Data Import tab.",
+        "topic": "ObjectImport"
+    },
+    {
+        "question": "What is the Places feature and how do I add places?",
+        "answer": "Places feature allows highlighting locations like lakes, mountains, cities, and beaches. Add places manually or use Waivio Chrome Extension v1.7.6+ to import from Google Maps. Each place gets a dedicated page with details, galleries, maps, and descriptions. Users can 'heart' places to save them and reference them in posts.",
+        "topic": "ObjectImport"
+    },
+    {
+        "question": "What are the formatting requirements for spreadsheet fields?",
+        "answer": "Key formatting rules: Use ';' to separate items in array fields (categories, imageURLs), use '*' to separate entries in nested fields (features, waivio_tags), format nested fields as 'key: value; key2: value2*', don't use ';' or '*' as actual values in these fields, freeze first row with field names, don't change field order or delete columns.",
+        "topic": "ObjectImport"
+    },
+    {
+        "question": "How do I create custom lists and organize imported products?",
+        "answer": "After importing products, save ASIN numbers for adding to custom lists later. Product lists with custom avatars enhance user experience on social shopping websites. Use the heart button to add products to your shop. Organize products into themed lists and use the Claim Authority Tool to ensure they appear in your website's search results.",
+        "topic": "ObjectImport"
+    },
+    {
+        "question": "How do I create a social shopping website on Waivio?",
+        "answer": "Navigate to Tools > Websites > Create and choose social.gifts template. Select a subdomain name or custom domain, customize with your logo, colors, and banner in Configuration. Set a base object for your menu structure, add affiliate codes, configure settings like language and currency, and set up hosting payments. Your website will be ready with features like product catalogs, newsfeeds, and user interactions.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What website customization options are available in Configuration?",
+        "answer": "Configuration allows you to: customize website colors (main and text colors), upload desktop and mobile logos, set list default images, add main banner, choose base object for menu structure, set default hashtag for posts, and customize website header name. All changes provide real-time preview and can be saved instantly.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What settings can I configure for my social shopping website?",
+        "answer": "In Settings you can: select default language and base currency, add Google Analytics 4 property ID, enter Google Search Console verification tag, configure Google Ads tracking, set beneficiary account and percentage (default 5%), configure referral payments account, and enable/disable object editing by users. Settings control website functionality and revenue streams.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "How do affiliate codes work on social shopping websites?",
+        "answer": "Add affiliate codes in the Affiliate Codes section by searching for programs like Amazon, Walmart, or Sephora. Enter your affiliate code and it automatically integrates into all 'Buy Now' links. The system supports geo-targeting for location-specific shops and automatically validates codes. If you delete and re-add the same code, it gets automatically approved.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What is the difference between Administrators, Moderators, and Authorities?",
+        "answer": "Administrators have decisive voting power on object updates for the website - their last vote stands. Moderators can flag posts/comments and mute users, removing content from the site. Authorities claim responsibility for object accuracy and can approve/reject updates. Website owners can specify which authorities to trust, and admin votes override authority decisions.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "How does the muting and blacklisting system work?",
+        "answer": "Muted users (by moderators or owner) have their posts, comments, and profile content hidden from the website - only username shows on profile. Blacklisted users have all their object updates and votes ignored. Website owners can override blacklists by adding users to whitelist, restoring their privileges.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "How do I set up Google AdSense ads on my website?",
+        "answer": "In AdSense ads section: add your AdSense code (embedded in site header), input ads.txt content for verification, and choose ad intensity level (Minimal, Moderate, or Intensive). Note that Google AdSense approval depends on meeting their policy criteria and may not approve all domains.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "How do I configure a custom domain for my social shopping website?",
+        "answer": "Purchase domain through registrar like Cloudflare, set DNS A record to point to 206.189.200.117, ensure DDoS protection via Cloudflare, then create website in Waivio using Custom Domain option. Configure HTTPS settings, set up www redirects, and submit sitemap to search engines for proper indexing.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What are the revenue streams for social shopping websites?",
+        "answer": "Four main revenue streams: 1) Affiliate commissions (3%-10% from referrals), 2) Beneficiary commissions (5% of author rewards from posts), 3) Referral commissions (7.8%+ from sponsored rewards claimed by users), 4) Advertising revenue from Google AdSense integration. Website owners can configure percentages and recipient accounts.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "How do I create an advanced social shop with categories and menus?",
+        "answer": "Create a business object, build main menu with items like Shop (list type), add categories and subcategories as lists, populate with products, create additional menu items like Books, Pages, Newsfeeds, and Widgets. Use ChatGPT for category suggestions, sort menu items, and add custom avatars to enhance visual appeal.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What is a base object and how does it affect my website?",
+        "answer": "Base object serves as core reference for creating the website's main menu. Can be product, business, restaurant, or user. If using existing projects like 'Clean Girl Aesthetics' or 'Coffee Time', your site inherits thousands of organized products and categories. If no menu items exist, site defaults to Home and Legal tabs.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "How do I set up newsfeeds and content filtering?",
+        "answer": "Create newsfeed object, configure filters by hashtags (e.g., 'baby', 'parenting'), set ignore rules for unwanted content, filter by object types (product, business, etc.), specify users to include, and link to business object menu. Supports multiple filter rules and can show posts from specific users or general community.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "How do I add widgets and forms to my website?",
+        "answer": "Create widget object, configure in Edit mode by adding forms (Google Forms, Calendly, etc.), choose column layout (middle, entire width, etc.), select form type (link or embed code), enter form URL or widget embed code. Link widget to business object menu and arrange in desired order.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What hosting costs are associated with social shopping websites?",
+        "answer": "Active websites cost $1 USD/day, inactive websites (name reservation) cost $0.20 USD/day. Payments made in WAIV tokens converted to USD at current market rate. Access hosting payments through Manage tab with 'Pay Now' button. Website status can be changed via active/inactive checkbox.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "How do maps work on social shopping websites?",
+        "answer": "Maps can be added to user profiles and custom maps for projects. Create by selecting 'Map' object type, configure to display businesses by lists, hashtag filters, or geographic areas. Set initial views for desktop/mobile, populate using Chrome extension from Google Maps/OpenStreetMap, and users can heart locations to add to personal maps.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "How do I improve SEO for my social shopping website?",
+        "answer": "Submit sitemap to Google Search Console and Bing Webmaster Tools, add titles and descriptions to categories, post original content to establish canonical attribution, encourage user reviews, use maps for backlink building through business outreach, and ensure proper HTTPS and redirect configuration.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What is the difference between Web 2.0 and Web 3.0 social shopping?",
+        "answer": "Web 2.0: Each shop operates as isolated island with own user database, product knowledge base, and reviews from scratch. Web 3.0: All shops share common user base, product knowledge, reviews, and sponsored rewards through Hive blockchain. Success of one project benefits all others through shared data and connections.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "How do I manage user roles and permissions on my website?",
+        "answer": "Website owners can assign roles: Administrators (decisive voting on updates), Moderators (content flagging and user muting), Authorities (object accuracy management). Control object editing through 'Object editing by users' setting to restrict updates to approved administrators only. Delegation feature allows specific object management rights.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What tools are available for website management?",
+        "answer": "Data Management tools include: Data import, Claim authority, Departments bot, Descriptions bot, List duplication, Chrome extension. Website tools include: Create, Manage, Reports. Personal tools cover notifications, drafts, bookmarks, profile editing, affiliate codes, and user settings. All accessible through Tools section.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What is the Earn section on Waivio?",
+        "answer": "The Earn section on Waivio offers a comprehensive platform for both sponsors and users. It includes the Rewards block (Global, Local, Reserved, Receivable, and History), Campaigns management, Match Bots feature, and allows sponsors to create and manage campaigns while users can discover and participate in campaigns to earn rewards.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "What are the different campaign statuses in Waivio?",
+        "answer": "Campaign statuses include: Pending (newly created, editable), Active (live campaign, non-editable), Inactive (deactivated), On Hold (deactivating with active reservations), Expired (maximum reservation period ended), Reached Limit (monthly budget exhausted), Delete (deleted on back-end), and Suspended (blocked due to unpaid debts for 30+ days).",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "What is a Primary Card in campaign management?",
+        "answer": "A Primary Card represents an object that serves as the main focus of a campaign, such as a restaurant, brand, or business. It provides a comprehensive overview including avatar, name, parent, rating, object type, tags, address, price information, and an 'Earn' button showing potential earnings.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "What is a Secondary Card in campaign management?",
+        "answer": "A Secondary Card represents a specific object within a campaign context, such as a dish from a restaurant or a product from a brand. It's more detailed and focused, showing title, reward amount, sponsor information, object details, and submission buttons for completing campaigns.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "How do I create a campaign on Waivio?",
+        "answer": "To create a campaign, go to the Create tab in Earn or click 'Create new campaign' in the Manage tab. You need to provide: campaign name, type (reviews/mentions), reach (global/local), currencies, budget, reward amount, reservation period, photos requirement, primary/secondary objects, eligibility criteria, and legal agreements. After creation, activate it in the Manage tab.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "What are the two types of campaigns available?",
+        "answer": "There are two campaign types: 1) Reviews - requires manual reservation where users must find, reserve, and complete the campaign, and 2) Mentions - automatic eligibility verification after post creation with no reservation needed.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "What is the reservation modal window?",
+        "answer": "The reservation modal window is an interactive interface that guides users through reserving and submitting content for rewards campaigns. It shows sponsor details, reward amount, eligibility requirements, post requirements, legal agreements, and provides options to reserve or submit content directly.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "How do I manage campaigns in Waivio?",
+        "answer": "Use the Manage tab in Earn to view account balance, active/pending campaigns table, and history. You can activate/deactivate campaigns, edit pending campaigns, view budget and completion status, and create new campaigns. The page shows balance, payable amounts, reserved funds, and remaining budget.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "What is the Payable section used for?",
+        "answer": "The Payable section helps sponsors track payment obligations to users who completed campaigns. It shows a list of users owed payments, detailed payment history tables, and provides 'Pay All' or individual payment options. Payments overdue by 21+ days are highlighted in orange.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "What are Match Bots in Waivio?",
+        "answer": "Match Bots are automated services that vote on content. There are three types: Authors Match Bot (automatically upvotes specified authors' posts), Curators Match Bot (repeats upvotes/downvotes of specified curators), and Sponsors Match Bot (offsets direct rewards with upvotes to reduce payment obligations).",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "How does the Authors Match Bot work?",
+        "answer": "The Authors Match Bot monitors specified authors and automatically upvotes their new posts after 5 minutes if voting power meets the threshold. You can set upvote strength (1-100%), minimum voting power requirements, and expiry dates. It only votes on posts with estimated value ≥0.01 HBD and doesn't vote on comments or reblogs.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "How does the Curators Match Bot work?",
+        "answer": "The Curators Match Bot repeats curators' votes with a specified ratio (1%-10,000%). You can choose to match upvotes only or include downvotes, set voting ratios, minimum voting power thresholds, and target specific curators. It works on both posts and comments if configured.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "How does the Sponsors Match Bot work?",
+        "answer": "The Sponsors Match Bot is designed to offset direct reward payments with upvotes. When a review qualifies for a reward, the match bot can upvote the post for a portion of the reward value, reducing the direct payment obligation. The sponsor must register the match bot in their campaigns for upvote values to be subtracted from direct payments.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "What is the Blacklist feature?",
+        "answer": "The Blacklist feature helps combat spam and fraud with three components: Blacklist (users who cannot participate in sponsor's campaigns), References (links to other sponsors' blacklists for aggregation), and Whitelist (users who can participate even if blacklisted elsewhere). It helps maintain campaign integrity.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "What is Fraud Detection in campaigns?",
+        "answer": "Fraud Detection is an experimental service that helps sponsors identify suspicious posts in completed campaigns. It analyzes photos in reviews and flags potentially fraudulent content with suspicion codes. The system displays flagged reviews from the past 30 days, but all submissions must be manually verified by sponsors.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "How do I pay users for completed campaigns?",
+        "answer": "To pay users: 1) Log in to your account, 2) Navigate to Earn section, 3) Go to Payable tab, 4) Click 'Pay All' for bulk payments or select individual users and click 'Pay' button. Payments require active key confirmation and are processed through HiveSigner.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "What currencies are used for campaign rewards?",
+        "answer": "Campaigns on Waivio can only be created using the WAIV token. All rewards users receive for participating in campaigns will be in the form of WAIV tokens. Display currency can be set to various currencies (USD, CAD, etc.) but payments are calculated and made in WAIV.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "What happens if I don't pay campaign obligations on time?",
+        "answer": "If sponsor accounts payable exceed 30 days, all of the sponsor's campaigns will be automatically suspended until payment obligations are fulfilled. The system tracks payment delays and shows orange warnings for overdue payments exceeding 21 days.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "What are the minimum requirements for creating a campaign?",
+        "answer": "Required fields include: campaign name, type (reviews/mentions), reach (global/local), display currency, payment currency (WAIV), budget, reward amount, maximum reservation period, minimum photos, primary and secondary objects, eligibility period, agreement to terms, and campaign expiry date. Optional fields include upvoting accounts, target days, additional requirements, and user eligibility criteria.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "How do reservations work in campaigns?",
+        "answer": "Users can reserve rewards for a specified number of days, ensuring the offer won't disappear while they prepare their review. Reservations reduce available campaign budget temporarily. Both sponsors and users can cancel reservations. Reserved campaigns appear in the Reserved tab and must be completed within the reservation period or they expire.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "What is the Reports section used for?",
+        "answer": "The Reports section allows creation of detailed reports on completed reviews for any sponsor. You can filter by sponsor, date range, total amount, and specific objects. Reports display transfer dates, review details, beneficiary information, amounts, and running balances. Reports are displayed in WAIV tokens and include links to reservations and detailed reports.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "How to buy WAIV token?",
+        "answer": "You can buy WAIV by using the Hive Engine Wallet. You can tranfer bitcoin or ethereum/ hive etc to Hive Engine Wallet and then swap it to WAIV. You can do it by clicking deposit on waivio wallet and then select the token you want to deposit.",
+        "topic": "CampaignManagement"
+    },
+    {
+        "question": "What tools are available in the Tools section on Waivio?",
+        "answer": "The Tools section offers features for managing your Waivio account including: Notification Settings for configuring alerts, Drafts for managing unpublished posts, Bookmarks for saved posts, Edit Profile for updating personal information, Settings for user preferences, Affiliate Codes for managing commissions, New Accounts for creating Hive accounts, and Invite for sharing referral links.",
+        "topic": "UserTools"
+    },
+    {
+        "question": "How do I configure notification settings on Waivio?",
+        "answer": "Go to Tools > Notifications to configure which notifications you receive. You can set up notifications for Community actions (likes, re-blogs, replies, mentions, downvotes, follow), Wallet transactions (incoming transfers with minimum amount thresholds, market operations, power ups, claimed rewards), My actions (posts, comments, likes), and Security alerts (always enabled for account safety). Notifications are sent to both the platform and Telegram via @WaivioNotificationsBot.",
+        "topic": "UserTools"
+    },
+    {
+        "question": "How do I manage drafts and bookmarks on Waivio?",
+        "answer": "Drafts: Access Tools > Drafts to manage unpublished posts. You can publish or delete drafts, with options to select multiple drafts for bulk deletion. Bookmarks: Access Tools > Bookmarks to view saved posts in news feed format. Add posts to bookmarks by clicking the three dots on any post and selecting 'Add to bookmarks'. Bookmarks are sorted with newest at the top.",
+        "topic": "UserTools"
+    },
+    {
+        "question": "What can I customize in my Waivio profile settings?",
+        "answer": "In Edit Profile, you can update: Name, About Me description, Location, Email, Website, Profile Picture (avatar), Cover Picture, Social media links (Facebook, Twitter, LinkedIn, YouTube, Instagram, TikTok, Snapchat, GitHub), Crypto wallets (Bitcoin, Litecoin, Ethereum, Lightning Bitcoin), and Signature for comments. All profile information becomes public when saved.",
+        "topic": "UserTools"
+    },
+    {
+        "question": "How do I configure user preferences in Settings?",
+        "answer": "In Tools > Settings, configure: Voting Power slider to specify exact voting percentage, Default Vote Percent (defaults to 100%), Interface Language, Content Language Preferences for filtering posts, Base Currency for displaying rewards and earnings, NSFW Posts display options, Shop and Favorites visibility settings, Nightmode for dark theme, automatic post liking, and exit page settings for external links.",
+        "topic": "UserTools"
+    },
+    {
+        "question": "How does voting power and vote percentage work on Waivio?",
+        "answer": "Voting power determines how much influence your votes have. Enable the voting slider to specify exact percentages (1-100%) for each vote. Default vote percent is used when the slider is disabled. Each 100% vote reduces your voting power by 2%, and it recharges at 20% per day. You can sustainably make 10 votes of 100%, 20 votes of 50%, or 100 votes of 1% daily.",
+        "topic": "UserTools"
+    },
+    {
+        "question": "How do affiliate codes work for earning commissions?",
+        "answer": "In Tools > Affiliate Codes, search for affiliate programs (like Amazon.com, Walmart.com) and input your codes. These codes are automatically integrated into 'Buy Now' links across your profile, posts, and comments, ensuring you earn commissions from sales. The system supports geo-targeting with location-specific codes (Amazon.ca, Amazon.co.uk) to maximize affiliate revenues based on user location.",
+        "topic": "UserTools"
+    },
+    {
+        "question": "How do I create new Hive accounts using VIP tickets?",
+        "answer": "In Tools > New Accounts, purchase HiveOnBoard VIP tickets (5 HIVE each) for creating anonymous accounts or helping friends join Hive. Enter the quantity, pay via WAIV tokens to waivio.vip, and receive active VIP tickets. Each ticket can be shared via email and is valid for one account creation at HiveOnBoard.com. Used tickets are archived in a separate table.",
+        "topic": "UserTools"
+    },
+    {
+        "question": "How does the referral system work on Waivio?",
+        "answer": "In Tools > Invite, get your referral link to invite new users. For Hive users: earn referral commissions from sponsored rewards for 90 days, paid by sponsors in addition to user rewards. For guest users: earn 10% of their rewards for 30 days. Share your referral link via copy button or social media platforms (Facebook, Twitter, Mail).",
+        "topic": "UserTools"
+    },
+    {
+        "question": "What is the VIP ticket system and how does it work?",
+        "answer": "VIP tickets are purchased through Waivio (3-5 HIVE each) for creating new Hive accounts via HiveOnBoard.com. They provide an anonymous account creation option and can be gifted to friends. Each ticket includes a unique ID, shareable link, note functionality, and one-time use validation. The system supports both account protection and friend invitation workflows.",
+        "topic": "UserTools"
+    },
+    {
+        "question": "How do I set up Telegram notifications for my Waivio account?",
+        "answer": "Navigate to Tools > Notifications and click on @WaivioNotificationsBot link to open Telegram. Click 'Send Message', then 'Start' in the chat and enter your Hive username (you can add multiple accounts). Configure which notifications to receive: community actions, wallet transactions, security alerts, etc. Notifications will be sent to both Waivio platform and your Telegram.",
+        "topic": "UserTools"
+    },
+    {
+        "question": "What are the different notification categories and their purposes?",
+        "answer": "Community actions: likes, re-blogs, replies, mentions, downvotes, follows, status changes, campaign activations, claimed object updates, Group ID control, followed user threads. Wallet transactions: incoming transfers (with minimum USD threshold), internal market operations, power ups, claimed rewards. My actions: your posts, comments, likes. Security alerts: outgoing transfers, power downs, withdrawals, delegations, password recovery (always enabled).",
+        "topic": "UserTools"
+    },
+    {
+        "question": "How do I manage my shop and favorites visibility settings?",
+        "answer": "In Settings, manage your public shopping list and favorites in your profile. By default, both sections display objects linked from your posts or first-level comments. Use the checkbox 'Do not show objects linked in posts' in either Shop or Favorites sections to prevent automatic addition of referenced objects, giving you more control over what appears in these public sections.",
+        "topic": "UserTools"
+    },
+    {
+        "question": "What customization options are available for the user interface?",
+        "answer": "Customize your Waivio experience with: Interface Language selection from 24 available languages, Content Language Preferences for filtering blockchain posts/comments, Base Currency from top 10 world currencies (USD, EUR, GBP, CAD, AUD, CNY, JPY, MXN, UAH, RUB), Nightmode for dark theme, and various display preferences for posts, voting, and external links.",
+        "topic": "UserTools"
+    },
+    {
+        "question": "How do I manage profile customization and social media integration?",
+        "answer": "In Edit Profile, upload avatar and cover images (≤30MB, JPG/GIF/PNG), add personal information (name, about me, location, email, website), link social media accounts (Facebook, Twitter, LinkedIn, YouTube, Instagram, TikTok, Snapchat, GitHub), add crypto wallet addresses (Bitcoin, Litecoin, Ethereum, Lightning Bitcoin), and create a signature that automatically appears in your comments.",
+        "topic": "UserTools"
+    },
+    {
+        "question": "What security features are built into the notification system?",
+        "answer": "Security notifications cannot be disabled to protect your account. They automatically alert you about: outgoing transfers, power downs, withdrawals from savings, delegations, password recovery requests, recovery address changes, and app authorizations. These alerts help detect unauthorized access and potential account compromise, with notifications sent via both Waivio platform and Telegram.",
+        "topic": "UserTools"
+    },
+    {
+        "question": "How do I share VIP tickets and manage account creation for others?",
+        "answer": "In the Share VIP Ticket modal, view the ticket ID and HiveOnBoard link, copy either for sharing, add personal notes for organization, and save changes. Tickets can be shared via email or other digital means. Each ticket is valid for one account creation, after which it's automatically archived. You can track both active and used tickets in separate tables.",
+        "topic": "UserTools"
+    },
+    {
+        "question": "What are the key features of the modern Waivio user interface?",
+        "answer": "The interface includes: comprehensive notification management with Telegram integration, draft and bookmark organization, extensive profile customization with social media linking, flexible voting and currency settings, affiliate code management for earning commissions, VIP ticket system for account creation, referral program for user growth, and security-focused notification system with always-on protection alerts.",
+        "topic": "UserTools"
+    },
+    {
+        "question": "How does the voting power system work and what are the recommendations?",
+        "answer": "Voting power (mana) allows you to upvote posts and comments. Each vote decreases your voting power, but it recharges by 20% daily. You can make 10 votes at 100%, 20 votes at 50%, or 100 votes at 1% sustainably per day. Use the voting slider to choose percentages for each post, or disable it to use your default percentage. Lower than 50% is not recommended unless you curate extensively.",
+        "topic": "UserTools"
+    },
+    {
+        "question": "What wallet integration features are available in user profiles?",
+        "answer": "User profiles display public wallet addresses for HIVE, HBD, Bitcoin, Litecoin, Ethereum, and Lightning Bitcoin. Clicking any wallet opens a modal with the address and QR code for easy sharing. You can also showcase your expertise through WAIV and HIVE token sections showing upvoting/downvoting mana, resource credits, and vote values in your preferred currency.",
+        "topic": "UserTools"
+    },
+    {
+        "question": "What is Waivio and how does it work?",
+        "answer": "Waivio is a social media platform built on the decentralized Hive blockchain where you can earn crypto rewards for your posts. Your account, content, funds, and social connections are recorded on the Hive blockchain and cannot be changed or deleted by any other party. You have true control over your social profile without threat of censorship or losing access to your audience.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What are the three ways to earn on Waivio?",
+        "answer": "1. Author rewards: After creating a post, you have 7 days to collect upvotes that determine your earnings. Half goes to the author, half to curators. 2. Curator rewards: Earn by upvoting posts. Your vote value depends on your stake, and you get approximately half of your vote value back as rewards. 3. Sponsored rewards: Complete tasks like sharing opinions about products, posting photos, or featuring sponsored items in posts, available in the Earn section.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How does voting power work on Waivio and Hive?",
+        "answer": "Voting power is like a laser gun that requires recharging. Each 100% upvote drops your voting power by 2%, and it recharges at 20% per day. You can sustainably make 10 votes at 100%, 20 votes at 50%, or 100 votes at 1% daily. Vote value depends on your staked tokens (WAIV Power and HIVE Power). More staked tokens = higher vote value and influence.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What are the different types of Hive account keys and their purposes?",
+        "answer": "Posting key: Social actions like posting, commenting, following, upvoting, claiming rewards. Active key: All social actions plus wallet actions like financial transactions. Owner key: All social/wallet actions plus ability to recover or change other keys. Memo key: For decrypting private messages. Master password: Seed phrase that can generate all private keys - most important for account recovery.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How do I sign in to Waivio?",
+        "answer": "There are three authorization options: 1. HiveSigner - Use your Hive account password or private keys through the trusted HiveSigner system. 2. HiveAuth (Hive Keychain) - Scan QR code with Keychain app on your phone for secure mobile authentication. 3. Google - Social authorization for guest users (limited functionality, no voting power, username gets 'waivio_' prefix).",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What are the differences between Hive-users and guest-users?",
+        "answer": "Hive-users have full functionality including creating campaigns and voting power based on their stake. Guest-users (authorized via Google) have limited functionality: cannot create campaigns, have 0 voting power, and their username is distinguished by 'waivio_' prefix. Guest-users can collect author and sponsor rewards but not curator rewards.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How do I cash out WAIV and HIVE rewards?",
+        "answer": "To withdraw: 1. Go to Waivio wallet and select WAIV or HIVE tab. 2. Choose destination cryptocurrency (Bitcoin, Litecoin, Ethereum). 3. Enter amount and destination wallet address or scan QR code. 4. Confirm withdrawal. The same process works for paying at crypto-accepting stores or withdrawing via Bitcoin ATMs. WAIV can be withdrawn to BTC, LTC, ETH, HIVE.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is the Waivio platform structure?",
+        "answer": "Waivio has 5 main sections: 1. My Feed (Trending, Hot, New, personalized feeds, Earn, Notifications). 2. Earn (Global/Local rewards, Reserved, Receivable, History, Campaigns, Match Bots). 3. Shop (comprehensive product catalog). 4. Tools (Personal tools, Data Management, Websites). 5. About (tutorials, whitepaper, news). Plus header with Editor, Notifications, User avatar, and Menu.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How do I post content on Waivio?",
+        "answer": "Click the pencil icon in the header to open the editor. Add title, content, hashtags, pictures, videos, etc. When ready, click 'Ready to publish' to open preview. Review the post, check the 'Legal notice' checkbox, and click 'Publish'. The post will be published within 3 seconds to the Hive blockchain. The editor supports mobile use, multiple image uploads, and copy/paste functionality.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is domain expertise on Waivio?",
+        "answer": "Domain expertise is the total sum of author and curation rewards accumulated by a user, calculated in USD and proportionally allocated to hashtags and object references in posts. It differs from standard reputation by providing granular analysis of user interests. Combined domain expertise equals the sum of expertise across all hashtags referenced or upvoted. Users and hashtags both have associated expert rankings.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How does the Waivio ranking system work?",
+        "answer": "Similar to Hive, Waivio uses: 1. Reputation score based on upvotes/downvotes from influential users. 2. Stake-based voting where WAIV Power and HIVE Power determine influence. 3. User tiers: Whales (top-tier), Orcas (mid-level), Dolphins (moderate), Minnows (new/low-stake). 4. Content curation rewards for quality posts. 5. Social engagement metrics. 6. Delegation capabilities. Waivio adds expertise metric based on real USD payouts excluding bidbots.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What are Waivio's community guidelines?",
+        "answer": "1. Respectful communication - no harassment, hate speech, or personal attacks. 2. Quality content - informative, relevant, original posts without spam or clickbait. 3. No plagiarism - always credit original sources. 4. No manipulative practices - no bidbots or vote-buying. 5. Safe content - no harmful, illegal, or explicit material. 6. Responsible engagement and minimal self-promotion. 7. Relevant tag usage. Violations may result in content removal, muting, or account restrictions.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What are the main features of the Waivio platform?",
+        "answer": "User-generated content creation, social sites creation for specific interests, reward campaigns for community engagement, crypto rewards earning, user-friendly editor with mobile compatibility, customizable profiles, engagement features (likes, comments, shares), robust search functionality, moderation tools for site admins, support resources, and AI Assistant for help and translation services.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How do tags work on Waivio?",
+        "answer": "Tags are keywords that categorize and organize content, making posts discoverable. They serve as objects that gather all related posts. Use relevant, specific tags that reflect your content's core topics. Add tags in the post editor field at the bottom. Guidelines: choose relevant tags, be specific rather than broad, don't overuse tags, focus on the most relevant ones for your post.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What are social sites built on Waivio?",
+        "answer": "Social sites use the Social.Gifts template and are typically thematic. They're flexible and customizable according to site owner needs. Users can only create and manage sites on the official Waivio platform (waivio.com). Social sites have Sign in buttons for HiveSigner, HiveAuth (Keychain), or Google access to full Waivio functionality including posting, campaigns, and commenting.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is the structure of a social site built on Waivio?",
+        "answer": "Social sites can include various page types: List (curated collections), Newsfeed (site-related posts), Page (basic information with text/videos/images), Map (key locations), Legal (legal information), Widget (embedded frames), Product (product information), Business (business/restaurant info), Recipes (recipe displays), Shop (purchasable items collection). Users get usual Waivio functionality including posts, profiles, and related pages.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How does the Waivio AI Assistant work?",
+        "answer": "The AI Assistant provides: 1. Instant answers to Waivio questions - click the AI button and type your query. 2. Step-by-step instructions with images and tutorial links for platform features. 3. Proofreading and translation services for posts in various languages. Access by clicking the AI chat button on the front page. It helps users navigate the platform efficiently and ensures content is polished and accessible.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What token withdrawals are supported on Waivio?",
+        "answer": "Tokens eligible for withdrawal typically have 'SWAP' in their name (SWAP.HIVE, SWAP.HBD, SWAP.LTC, SWAP.BTC, SWAP.ETH). You can swap non-withdrawable tokens into withdrawable ones, then withdraw to external wallets. Check available withdrawals in your wallet's Withdraw button, and use Swap button to see conversion options. All Hive Engine tokens can usually convert to at least SWAP.HIVE.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How can I receive or buy WAIV tokens?",
+        "answer": "5 ways to get WAIV: 1. Earn through posts, engagement, and platform activities. 2. Receive transfers from other users via account username. 3. Swap other Hive Engine tokens (SWAP.HIVE, SWAP.BTC, etc.) for WAIV. 4. Deposit external currencies (LTC, BTC, HIVE, HBD) which become swap-tokens, then swap to WAIV. 5. Use Deposit feature in wallet to bring external tokens into the system.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What are recipes on Waivio and how do they work?",
+        "answer": "Recipe objects serve as placeholders for specific dishes, containing key details like name, common ingredients, description, and tags. They collect all user posts with unique takes on the recipe. Users can pin their favorite version, and the most-pinned recipe becomes the community default. Pinning automatically adds recipes to your profile collection. The Waivio Chrome Extension can create recipes from YouTube videos.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How do I create and manage a recipe website?",
+        "answer": "Launch a recipe website in under 10 minutes: 1. Go to Tools > Websites > Create. 2. Select social.gifts template and choose subdomain. 3. Agree to terms and create. 4. Configure colors, logo, banner in management panel. 5. Set profile as base object, enable only Recipes and Blog sections. 6. Add Instacart affiliate code for commission earnings. Visitors can browse, save recipes, and order ingredients directly.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What are Places on Waivio?",
+        "answer": "Places is a feature for highlighting and exploring locations like lakes, mountains, cities, villages, and beaches beyond just businesses and restaurants. Add places manually or use Waivio Chrome Extension to import from Google Maps. Each place gets a dedicated page with details, galleries, maps, and descriptions. Users can heart locations to save them and see them on their personal profile map.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What are Link objects on Waivio?",
+        "answer": "Link objects are decentralized 'about' pages for any website or URL, functioning as dedicated profiles where you can add descriptions, show community feedback, and track safety ratings. Create by starting a new post, selecting Link object, providing name and URL. Waivio automatically gathers all Hive posts referencing the URL. The Chrome Extension allows instant creation from any webpage.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What are the Waivio study tutorial materials?",
+        "answer": "14 comprehensive lessons: 1. Introduction to Waivio and Hive. 2. Creating a Hive Account. 3. Customizing Your Profile. 4. Managing Your Wallet. 5. Knowledge Accumulation in Web 3.0. 6. Adding a Product Manually. 7. Importing Products With Chrome Extension. 8-9. Optional: Datafiniti and Spreadsheet imports. 10. Social Shopping intro. 11. User Profile Shop. 12. Launching Website. 13. Advanced Social Shop. 14. Custom Domain.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What are the key Waivio platform updates and features?",
+        "answer": "Major updates include: HiveAuth integration for secure sign-ins, advanced editor with auto-save and rich copy/paste, Message Bot for targeted community engagement, recipe objects with Instacart integration, social shopping sites, affiliate code management, VIP ticket system, referral programs, notification system with Telegram integration, fraud detection, and comprehensive wallet features supporting multiple cryptocurrencies and withdrawals.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is an object on the Hive blockchain?",
+        "answer": "An object on Hive is a social record on the blockchain that users can create and reference from their posts and comments. Each object gets its own dedicated page that collects all posts referencing it, has its own photo gallery, and can include additional information like avatar, description, address, price, ratings, and tags depending on the object type.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "How do I create an object with Waivio?",
+        "answer": "When writing a post on Waivio, look for 'create new object' on the right panel with different object types (hashtag, business, product, place, list, page, etc.). Write the object name and click 'Confirm'. A unique ID and URL will be created on the Hive blockchain, and the link will be automatically added to your post.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "How do I add details to an object I created?",
+        "answer": "Go to the Edit section and click the + button next to fields like 'Avatar'. Upload images, add phone numbers, addresses, descriptions, tags, and other information. Each update creates a new record in the Updates section. You automatically approve updates you create, but can reject them later if needed.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "How does consensus work for object updates?",
+        "answer": "Anyone on Hive can contribute to objects, but the community decides what's displayed. When new information is added, users who previously contributed or referenced the object are notified and can approve or reject updates. Vote value depends on combined voting power (staked HIVE and WAIV tokens) and accumulated expertise in that specific object.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "Can multiple versions of the same object exist?",
+        "answer": "Yes, multiple versions of objects can exist simultaneously. Different website administrators can approve different updates for their platforms. For example, one site might show a winter avatar for a mountain while another shows a summer version. Website admins have full control over what information displays on their site.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "How does knowledge accumulation work on Hive blockchain?",
+        "answer": "When multiple users and projects contribute information to the blockchain, it becomes public knowledge accessible to others. The Hive blockchain acts like open cloud storage containing user profiles, connections, posts, and information about businesses, products, places, and other objects that can be collectively enhanced by the community.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "How do I add a product manually on Waivio?",
+        "answer": "First, search to ensure the product doesn't exist. Go to 'New Post' > 'Create New Object' > 'Product' > write product name > 'Confirm'. Then fill out relevant information: price, options category, department, description, tags, weight, dimensions, manufacturer, brand, merchant, features, product ID, group ID, avatar, title, and gallery images.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "What is the Group ID field for in product creation?",
+        "answer": "Group ID is used to combine product variants together into a 'master' product. If your product comes in different colors or options, create separate product pages for each variant and assign the same Group ID to group them together. The option values become an interactive menu on the master product page.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "How do object update approvals and vote counts work?",
+        "answer": "Approval (%) ranges from 0% (reject votes only) to 100% (approve votes only). A minimum 70% threshold is required for updates to be displayed. Vote count is used to sort approved updates - the highest vote count wins for fields that can only have one value. Vote count can be positive or negative depending on approve/reject vote balance.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "How do product ratings work on Waivio?",
+        "answer": "Users can rate products and companies with a single click using star ratings. Restaurants can be rated by value, ambience, service, and food. Other businesses and products have their own rating systems. Votes are recorded on the Hive blockchain and visible to logged-in users as reminders of their experiences.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "How can I link existing posts to objects?",
+        "answer": "If an original post didn't have object links but objects were created later, other users can link posts to objects by posting top-level comments with links to those objects. Once linked, the post will appear in the Review section of the object's page, allowing retroactive content organization.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "What is a widget object type and how do I use it?",
+        "answer": "Widget objects allow integration of third-party pages, forms, and widgets onto the Hive blockchain. You can incorporate external content like Coingecko widgets into Hive posts and objects. Create a new widget, copy the widget's code, and paste it into the form to add interactive functionality to your content.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "How do I create webpage objects on Waivio?",
+        "answer": "Click 'new post', select 'webpage' object type, enter a name for your webpage object. Navigate to the object's page, switch to 'edit mode', and use the editing tools to add images, text, videos, formatting blocks, spaces, and dividers to design your page exactly as you want it.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "What are the requirements for creating objects on Waivio?",
+        "answer": "Users must meet the minimum requirement of having WAIV Power to create objects and post updates. It's recommended to have at least $10 worth of WAIV Power. Users also need voting power that generates at least $0.001 equivalent to ensure validity of posted content, and they receive 70% of author rewards plus standard curation rewards.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "How do I add a restaurant to Hive using Waivio?",
+        "answer": "First verify the restaurant isn't already listed by searching. Create new listing: write post > restaurant > write restaurant name > confirm. Add details in Edit mode: avatar, address, phone, hours, map coordinates, etc. Write a review with ratings for ambience, food, service, and value. All reviews are automatically collected under the Review tab.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "How do I add titles and descriptions to categories?",
+        "answer": "Navigate to the category you want to enhance, open it in a new tab, switch to Edit mode, then add avatar, title, and description to the list. When designing titles and descriptions, incorporate search terms and keyword combinations for SEO optimization that people might use when searching for your website's topic.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "What are admin delegations for specific objects?",
+        "answer": "Website owners can grant administrative privileges to specific users for individual objects without giving general admin privileges across the entire website. In the Settings section of any object, use the 'Delegation' field to specify accounts that can manage that specific object, allowing business owners to manage their own listings.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "How do I add crypto addresses to business listings?",
+        "answer": "Open the business listing, switch to Edit mode, click '+Wallet', provide a title (e.g., 'Pay with Bitcoin'), select cryptocurrency (BTC, HBD, Bitcoin Lightning, LTC, etc.), and enter the crypto address. Users can then select payment options, enter amounts, and get QR codes for easy crypto payments.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "How do custom newsfeeds work on Waivio?",
+        "answer": "Create personalized feeds using hashtags, objects, object types, and users. Click 'write new post' and select 'Newsfeed' from 'Create new object' menu. Configure your newsfeed with relevant hashtags and users who post quality content. Others can find and follow your newsfeed, and it will appear in their regular feed.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "How do I integrate PayPal into product pages?",
+        "answer": "Create a product in PayPal and get the ProductID from the URL. Create a product on Waivio with detailed description and photos. Add ProductID: set name to 'paypal' and value to the ProductID. Add PayPal affiliate code in website settings. The PayPal button will then appear on your social shopping site for easy payments.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "What object types are available on Waivio?",
+        "answer": "Available object types include: list, page, product, book, business, person, hashtag, newsfeed, widget, webpage, map, link, shop, affiliate program, recipe, restaurant, dish, drink, service, place, group, company, organization, app, crypto, indices, commodity, currency, stocks, hotel, motel, resort, b&b, and car.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "How do Places work on Waivio?",
+        "answer": "Places allow you to highlight and explore locations from lakes and mountains to cities, villages, and beaches. Add places manually or use the Waivio Chrome Extension to import from Google Maps. Each place gets its own page with details, galleries, maps, and descriptions. Users can 'heart' locations to save them and see them on their personal profile map.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "What are the automatic updates added when creating a restaurant object?",
+        "answer": "When creating a restaurant, 9 automatic updates are added: tag categories (Good For, Feature, Cuisine), ratings (Food, Ambience, Value, Service), gallery album (Photos), and a Related album that pulls pictures from posts referencing this object. These provide a comprehensive foundation for the restaurant listing.",
+        "topic": "WaivioObjects"
+    },
+    {
+        "question": "How does the object creation modal work?",
+        "answer": "The modal includes: object name input, name style selection (sentence case, lowercase, UPPERCASE, etc.), language dropdown, object type selection, like checkbox (required for updates to take effect), vote slider for voting power strength, vote value display (minimum $0.001), follow checkbox for automatic subscription, and explanation text about the process.",
+        "topic": "WaivioObjects"
+    }
+]
