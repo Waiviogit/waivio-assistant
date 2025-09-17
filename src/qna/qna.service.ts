@@ -56,6 +56,11 @@ export class QnaService {
     return result.deletedCount > 0;
   }
 
+  async getTotalCount(): Promise<number> {
+    const result = await this.agentQaRepository.find({ filter: {} });
+    return result.length;
+  }
+
   private mapToDto(doc: AgentQADocType): QnaItemDto {
     return {
       _id: doc._id.toString(),

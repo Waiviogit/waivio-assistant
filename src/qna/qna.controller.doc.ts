@@ -1,6 +1,16 @@
-import { ApiOperation, ApiResponse, ApiTags, ApiQuery, ApiParam } from '@nestjs/swagger';
+import {
+  ApiOperation,
+  ApiResponse,
+  ApiTags,
+  ApiQuery,
+  ApiParam,
+} from '@nestjs/swagger';
 import { applyDecorators, HttpStatus } from '@nestjs/common';
-import { QnaItemDto, QnaItemsResponseDto, TopicsResponseDto } from '../dto/qna-item-out.dto';
+import {
+  QnaItemDto,
+  QnaItemsResponseDto,
+  TopicsResponseDto,
+} from '../dto/qna-item-out.dto';
 
 export class QnaControllerDoc {
   static main(): ClassDecorator {
@@ -25,7 +35,8 @@ export class QnaControllerDoc {
     return applyDecorators(
       ApiOperation({
         summary: 'Get all available topics',
-        description: 'Returns a list of all distinct topics available in the Q&A system',
+        description:
+          'Returns a list of all distinct topics available in the Q&A system',
       }),
       ApiResponse({
         status: HttpStatus.OK,
@@ -39,7 +50,8 @@ export class QnaControllerDoc {
     return applyDecorators(
       ApiOperation({
         summary: 'Get Q&A items',
-        description: 'Get Q&A items with optional topic filtering and pagination',
+        description:
+          'Get Q&A items with optional topic filtering and pagination',
       }),
       ApiQuery({
         name: 'topic',
@@ -87,7 +99,8 @@ export class QnaControllerDoc {
     return applyDecorators(
       ApiOperation({
         summary: 'Update Q&A item',
-        description: 'Update an existing Q&A item by ID. At least one field is required.',
+        description:
+          'Update an existing Q&A item by ID. At least one field is required.',
       }),
       ApiParam({
         name: 'id',
@@ -124,6 +137,47 @@ export class QnaControllerDoc {
       ApiResponse({
         status: HttpStatus.NOT_FOUND,
         description: 'Q&A item not found',
+      }),
+    );
+  }
+
+  static migrateToWeaviate(): MethodDecorator {
+    return applyDecorators(
+      ApiOperation({
+        summary: 'Migrate Q&A data to Weaviate',
+        description:
+          'Migrates all Q&A data from MongoDB to Weaviate vector store for semantic search. This will drop the existing Weaviate collection and recreate it with all current Q&A data.',
+      }),
+      ApiResponse({
+        status: HttpStatus.OK,
+        description: 'Migration completed successfully',
+        schema: {
+          type: 'object',
+          properties: {
+            message: {
+              type: 'string',
+              example: 'QA data migration to Weaviate completed successfully',
+            },
+            migrated: {
+              type: 'number',
+              example: 153,
+              description: 'Number of Q&A items migrated',
+            },
+          },
+        },
+      }),
+      ApiResponse({
+        status: HttpStatus.INTERNAL_SERVER_ERROR,
+        description: 'Migration failed',
+        schema: {
+          type: 'object',
+          properties: {
+            message: {
+              type: 'string',
+              example: 'Migration failed: Connection to Weaviate failed',
+            },
+          },
+        },
       }),
     );
   }

@@ -1,4 +1,15 @@
-# QA Import CLI Tool
+# CLI Tools
+
+Command-line utilities for managing Q&A data in the Waivio Assistant project.
+
+## Tools Overview
+
+1. **QA Import Tool** - Import Q&A data from JSON files into MongoDB
+2. **QA to Weaviate Migration Tool** - Migrate Q&A data from MongoDB to Weaviate vector store
+
+---
+
+## QA Import CLI Tool
 
 A command-line utility to import Q&A data from JSON files into MongoDB.
 
@@ -108,3 +119,82 @@ The tool creates documents in the `waivio_agent_qa` collection with:
 
 Unique index: `{ question: 1, answer: 1 }`
 Topic index: `{ topic: 1 }`
+
+---
+
+## QA to Weaviate Migration CLI Tool
+
+A command-line utility to migrate Q&A data from MongoDB to Weaviate vector store for semantic search capabilities.
+
+### Usage
+
+```bash
+# Migrate all QA data from MongoDB to Weaviate
+npm run migrate-qa-weaviate
+
+# Show MongoDB statistics without migrating
+npm run migrate-qa-weaviate --stats
+
+# Show help
+npm run migrate-qa-weaviate --help
+```
+
+### Features
+
+- ✅ Drops existing Weaviate QA collection before migration
+- ✅ Cursor-based pagination for large datasets
+- ✅ Batch processing to avoid memory issues (1000 items per batch)
+- ✅ Progress tracking and detailed logging
+- ✅ Error handling and recovery
+- ✅ Converts QA pairs into searchable vector embeddings
+- ✅ Preserves metadata (question, answer, topic)
+
+### Environment Variables
+
+- `MONGO_URI_WAIVIO`: MongoDB connection string
+- `WEAVIATE_HOST`: Weaviate host (default: `localhost:8080`)
+- `OPENAI_API_KEY`: OpenAI API key for generating embeddings
+
+### Migration Process
+
+1. **Drop Existing Collection**: Removes the existing Weaviate QA collection
+2. **Fetch from MongoDB**: Retrieves all QA items using cursor-based pagination
+3. **Convert to Documents**: Transforms each QA pair into a searchable document
+4. **Create Embeddings**: Uses OpenAI to generate vector embeddings
+5. **Index in Weaviate**: Stores the vectorized documents in Weaviate
+
+### Document Structure in Weaviate
+
+Each QA item is stored as:
+```typescript
+{
+  pageContent: "Question: {question}\nAnswer: {answer}",
+  metadata: {
+    question: string,
+    answer: string,
+    topic: string,
+    type: "qa",
+    index: number
+  }
+}
+```
+
+### Examples
+
+```bash
+# Standard migration
+npm run migrate-qa-weaviate
+
+# Check MongoDB stats before migration
+npm run migrate-qa-weaviate --stats
+
+# View help and options
+npm run migrate-qa-weaviate --help
+```
+
+### Notes
+
+- The migration will **drop the existing Weaviate collection** before creating a new one
+- Large datasets are processed in batches to prevent memory issues
+- The tool uses OpenAI embeddings, so ensure you have sufficient API quota
+- Progress is logged every batch for monitoring large migrations

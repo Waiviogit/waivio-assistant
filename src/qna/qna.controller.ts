@@ -19,11 +19,15 @@ import {
   TopicsResponseDto,
 } from '../dto/qna-item-out.dto';
 import { QnaControllerDoc } from './qna.controller.doc';
+import { QAWeaviateMigrationService } from '../cli/migrate-qa-to-weaviate';
 
 @Controller('qna')
 @QnaControllerDoc.main()
 export class QnaController {
-  constructor(private readonly qnaService: QnaService) {}
+  constructor(
+    private readonly qnaService: QnaService,
+    private readonly migrationService: QAWeaviateMigrationService,
+  ) {}
 
   @Get('topics')
   @QnaControllerDoc.getTopics()
@@ -101,5 +105,27 @@ export class QnaController {
       throw new HttpException('Q&A item not found', HttpStatus.NOT_FOUND);
     }
     return { message: 'Q&A item deleted successfully' };
+  }
+
+  @Post('migrate-to-weaviate')
+  @QnaControllerDoc.migrateToWeaviate()
+  async migrateToWeaviate(): Promise<{ message: string; migrated: number }> {
+    try {
+      // Get total count before migration
+      const totalCount = await this.qnaService.getTotalCount();
+
+      // Run the migration
+      await this.migrationService.migrateQADataToWeaviate();
+
+      return {
+        message: 'QA data migration to Weaviate completed successfully',
+        migrated: totalCount,
+      };
+    } catch (error) {
+      throw new HttpException(
+        `Migration failed: ${error.message}`,
+        HttpStatus.INTERNAL_SERVER_ERROR,
+      );
+    }
   }
 }
