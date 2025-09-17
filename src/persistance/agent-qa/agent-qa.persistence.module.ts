@@ -19,6 +19,6 @@ import { AgentQASchema, AgentQA } from './agent-qa.schema';
     ),
   ],
   providers: [AgentQaRepository, AgentQaPersistenceProvider],
-  exports: [AgentQaPersistenceProvider],
+  exports: [AgentQaRepository, AgentQaPersistenceProvider],
 })
 export class AgentQaPersistenceModule {}
