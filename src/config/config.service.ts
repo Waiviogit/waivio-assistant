@@ -48,6 +48,14 @@ class ConfigService {
   public getGoogleAIKey(): string {
     return this.getValue('GOOGLE_AI_API_KEY', true);
   }
+  public getMongoWaivioConnectionString(): string {
+    const defaultConnectionString = `mongodb://localhost:27017/waivio`;
+    const connectionString = process.env.MONGO_URI_WAIVIO
+      ? process.env.MONGO_URI_WAIVIO
+      : defaultConnectionString;
+
+    return connectionString;
+  }
 
   public getOpenAiOrg(): string {
     return this.getValue('OPENAI_API_ORG', true);
