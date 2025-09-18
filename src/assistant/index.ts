@@ -20,6 +20,7 @@ export type GraphState = {
   currentPageContent?: string;
   images?: string[];
   currentUser?: string;
+  toolsCalled?: string[];
 };
 
 export interface RunQueryI {
@@ -45,7 +46,7 @@ export const runQuery = async ({
   currentUser,
   images,
   currentPageContent,
-}: RunQueryI): Promise<BaseMessage> => {
+}: RunQueryI): Promise<{ response: BaseMessage; toolsCalled: string[] }> => {
   const historyStore = new RedisChatMessageHistory({
     sessionId: `${REDIS_KEYS.API_RES_CACHE}:${REDIS_KEYS.ASSISTANT}:${id}`,
     sessionTTL: TTL_TIME.TEN_MINUTES,
@@ -77,7 +78,10 @@ export const runQuery = async ({
 
   await historyStore.addMessages(messages);
 
-  return result.response;
+  return {
+    response: result.response,
+    toolsCalled: result.toolsCalled || [],
+  };
 };
 
 export const getHistory = async ({ id }): Promise<historyType[]> => {

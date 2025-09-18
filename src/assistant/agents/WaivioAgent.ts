@@ -30,12 +30,20 @@ interface GetSystemPromptInterface {
 
 export class WaivioAgent implements Agent {
   private readonly llm: ChatOpenAI;
+  private toolsCalled: string[] = [];
+
   constructor(llm: ChatOpenAI) {
     this.llm = llm;
   }
 
   private sanitizeInput(input: string): string {
     return input.replace(/[<>]/g, '').trim();
+  }
+
+  getToolsCalled(): string[] {
+    const tools = [...this.toolsCalled];
+    this.toolsCalled = []; // Reset after getting
+    return tools;
   }
 
   private async getTools({ host, images, currentUser }: GetToolsInterface) {
@@ -156,6 +164,11 @@ ${this.getPageContentPrompt(currentPageContent)}
           });
         }
 
+        // Track the tool call
+        if (!this.toolsCalled.includes(toolCall.name)) {
+          this.toolsCalled.push(toolCall.name);
+        }
+
         const toolResult = await selectedTool.invoke(toolCall.args);
         return new ToolMessage({
           content: toolResult,
@@ -263,13 +276,19 @@ ${this.getPageContentPrompt(currentPageContent)}
 
       if (!response?.tool_calls?.length) {
         console.log('No tools called - returning direct response');
-        return { response };
+        return {
+          response,
+          toolsCalled: this.getToolsCalled(),
+        };
       }
 
       const toolMessages = await this.executeTools(tools, response.tool_calls);
       const finalMessages = [...messages, response, ...toolMessages];
       const finalResponse = await llmWithTools.invoke(finalMessages);
-      return { response: finalResponse };
+      return {
+        response: finalResponse,
+        toolsCalled: this.getToolsCalled(),
+      };
     } catch (error) {
       console.error('Error in WaivioAgent:', error);
 
@@ -284,6 +303,7 @@ IMPORTANT: Your tools are currently unavailable. Provide a helpful response base
 
       return {
         response: fallbackResponse,
+        toolsCalled: this.getToolsCalled(),
       };
     }
   }

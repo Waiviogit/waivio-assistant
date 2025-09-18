@@ -8,6 +8,7 @@ export const CONNECTION_MONGO = Object.freeze({
 
 export const COLLECTION = Object.freeze({
   AGENT_QA: 'agent_qa',
+  AGENT_STATISTIC: 'agent_statistic',
 } as const);
 
 @Module({
