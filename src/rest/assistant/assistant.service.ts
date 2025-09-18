@@ -1,9 +1,9 @@
 import { Injectable } from '@nestjs/common';
-import { RunQueryI, runQuery, getHistory } from './assistant';
-import { AgentStatisticRepository } from './persistance/agent-statistic/agent-statistic.repository';
+import { RunQueryI, runQuery, getHistory } from '../../assistant';
+import { AgentStatisticRepository } from '../../persistance/agent-statistic/agent-statistic.repository';
 
 @Injectable()
-export class AppService {
+export class AssistantService {
   constructor(
     private readonly agentStatisticRepository: AgentStatisticRepository,
   ) {}

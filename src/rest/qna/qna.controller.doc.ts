@@ -10,7 +10,7 @@ import {
   QnaItemDto,
   QnaItemsResponseDto,
   TopicsResponseDto,
-} from '../dto/qna-item-out.dto';
+} from '../../dto/qna-item-out.dto';
 
 export class QnaControllerDoc {
   static main(): ClassDecorator {

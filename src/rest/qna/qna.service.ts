@@ -1,9 +1,9 @@
 import { Injectable } from '@nestjs/common';
-import { AgentQaRepository } from '../persistance/agent-qa/agent-qa.repository';
-import { CreateQnaItemDto } from '../dto/qna-item-in.dto';
-import { UpdateQnaItemDto } from '../dto/qna-item-update.dto';
-import { QnaItemDto, QnaItemsResponseDto } from '../dto/qna-item-out.dto';
-import { AgentQADocType } from '../persistance/agent-qa/types';
+import { AgentQaRepository } from '../../persistance/agent-qa/agent-qa.repository';
+import { CreateQnaItemDto } from '../../dto/qna-item-in.dto';
+import { UpdateQnaItemDto } from '../../dto/qna-item-update.dto';
+import { QnaItemDto, QnaItemsResponseDto } from '../../dto/qna-item-out.dto';
+import { AgentQADocType } from '../../persistance/agent-qa/types';
 
 @Injectable()
 export class QnaService {

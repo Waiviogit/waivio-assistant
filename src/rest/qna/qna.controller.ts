@@ -12,16 +12,16 @@ import {
   UseGuards,
 } from '@nestjs/common';
 import { QnaService } from './qna.service';
-import { CreateQnaItemDto } from '../dto/qna-item-in.dto';
-import { UpdateQnaItemDto } from '../dto/qna-item-update.dto';
+import { CreateQnaItemDto } from '../../dto/qna-item-in.dto';
+import { UpdateQnaItemDto } from '../../dto/qna-item-update.dto';
 import {
   QnaItemDto,
   QnaItemsResponseDto,
   TopicsResponseDto,
-} from '../dto/qna-item-out.dto';
+} from '../../dto/qna-item-out.dto';
 import { QnaControllerDoc } from './qna.controller.doc';
-import { QAWeaviateMigrationService } from '../cli/migrate-qa-to-weaviate';
-import { AuthGuard, AdminGuard } from '../guards';
+import { QAWeaviateMigrationService } from '../../cli/migrate-qa-to-weaviate';
+import { AuthGuard, AdminGuard } from '../../guards';
 
 @Controller('qna')
 @QnaControllerDoc.main()
