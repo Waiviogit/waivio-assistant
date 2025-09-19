@@ -146,7 +146,7 @@
     },
     {
         "question": "What are the power requirements for importing products?",
-        "answer": "You need WAIV Power (each upvote equivalent to $0.0001) and HIVE Power for Resource Credits. With $0.01 WAIV Power, you can make about 1,000 updates since each $0.0001 upvote uses only 10% of a full upvote. The default voting power threshold is 30%, and power recharges at 20% daily. The recommended ratio is 4:1 (400 WAIV Power to 100 HIVE Power).",
+        "answer": "You need WAIV Power (each full upvote is equivalent to $0.0001) and HIVE Power for Resource Credits. With $0.01 WAIV Power, you can make hundreds of updates because each $0.0001 upvote uses only 10% of a full upvote along with some Resource Credits. The default voting power threshold is 30%, and voting power recharges at 20% per day. This means you need HIVE Power to have enough Resource Credits for smooth importing and other actions, while WAIV Power determines the value of your votes and the strength of your updates.",
         "topic": "ObjectImport"
     },
     {
@@ -520,7 +520,7 @@
         "topic": "WaivioGeneral"
     },
     {
-        "question": "How do I cash out/withdraw WAIV?",
+        "question": "How do I cash out or withdraw WAIV?",
         "answer": "To withdraw WAIV, go to your Waivio wallet and open the WAIV tab. Click on the Withdraw button in the right sidebar, then choose the cryptocurrency pair you want to withdraw to (WAIV-HIVE, WAIV-BTC, WAIV-LTC, etc.). Enter the amount, fill in or check the destination wallet address (or scan the QR code), and confirm the withdrawal by clicking Withdraw and following the instructions. You can track the status of your withdrawals in the transaction history section of the WAIV tab. All crypto withdrawals are processed by Hive-Engine.com. The same process can also be used for paying at crypto-accepting stores or withdrawing through Bitcoin ATMs. WAIV can be withdrawn to BTC, LTC, ETH, or HIVE.",
         "topic": "WaivioGeneral"
     },
@@ -531,12 +531,17 @@
     },
     {
         "question": "How do I withdraw other cryptocurrencies from my Hive Engine wallet (not HIVE, or WAIV)?”",
-        "answer": "To withdraw different tokens that exist via Hive Engine ecosystem, if don;t see direct withdraw option, you can swap your currency to other for example SWAP.HIVE, that can be withdrawn easinly. So idea is that you need to find in what currecy  go to your Waivio wallet and open the HIVE tab. Click on the Withdraw button in the right sidebar, then choose the cryptocurrency you want to withdraw to. Enter the amount, fill in and check the destination wallet address (or scan the QR code), and confirm the withdrawal by clicking Withdraw and following the instructions. You can track the status of your withdrawals in the transaction history section of the HIVE tab. All crypto withdrawals are processed by Changelly. The same process can also be used for paying at crypto-accepting stores or withdrawing through Bitcoin ATMs. WAIV can be withdrawn to BTC, LTC, ETH, or HIVE.",
+        "answer": "To withdraw other tokens from the Hive Engine ecosystem, you first need to check if there is a direct withdrawal option available. If not, you can swap your token into a currency that supports withdrawals, such as SWAP.HIVE. Once swapped, you can easily withdraw that currency. The main idea is to convert your token into one of the supported withdrawal currencies, and then complete the withdrawal process.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What are all the tokens shown in the Waivio wallet?",
+        "answer": "The Waivio platform supports tokens from the Hive blockchain as well as tokens created through the Hive Engine sidechain. The Hive blockchain is a decentralized social blockchain that powers Hive-based applications and uses HIVE and HBD as its main tokens. Hive Engine is a secondary layer (sidechain) built on top of Hive that allows the creation and trading of custom tokens for different communities, projects, and utilities. In your Waivio wallet, you will see both Hive's native tokens (HIVE and HBD) and a wide variety of Hive Engine tokens, each serving its own purpose within the ecosystem.",
         "topic": "WaivioGeneral"
     },
     {
         "question": "What is the Waivio platform structure?",
-        "answer": "Waivio has 5 main sections: 1. My Feed (Trending, Hot, New, personalized feeds, Earn, Notifications). 2. Earn (Global/Local rewards, Reserved, Receivable, History, Campaigns, Match Bots). 3. Shop (comprehensive product catalog). 4. Tools (Personal tools, Data Management, Websites). 5. About (tutorials, whitepaper, news). Plus header with Editor, Notifications, User avatar, and Menu.",
+        "answer": "Waivio has 5 main sections: 1. My Feed (Trending, Hot, New, personalized feeds etc). 2. Earn (Global/Local rewards, Reserved, Receivable, History, Campaigns Management, Match Bots). 3. Shop (comprehensive product catalog). 4. Tools (Personal tools, Data Management, Websites Management). 5. About (tutorials, whitepaper, news). Plus header with Editor, Notifications, User avatar, and Menu.",
         "topic": "WaivioGeneral"
     },
     {
@@ -546,32 +551,32 @@
     },
     {
         "question": "What is domain expertise on Waivio?",
-        "answer": "Domain expertise is the total sum of author and curation rewards accumulated by a user, calculated in USD and proportionally allocated to hashtags and object references in posts. It differs from standard reputation by providing granular analysis of user interests. Combined domain expertise equals the sum of expertise across all hashtags referenced or upvoted. Users and hashtags both have associated expert rankings.",
+        "answer": "Domain expertise is the total sum of author rewards accumulated by a user, calculated in USD and proportionally allocated to hashtags and object references in posts. It differs from standard reputation by providing granular analysis of user interests. Combined domain expertise equals the sum of expertise across all objects referenced or upvoted. Users and objects both have associated expert rankings.",
         "topic": "WaivioGeneral"
     },
     {
         "question": "How does the Waivio ranking system work?",
-        "answer": "Similar to Hive, Waivio uses: 1. Reputation score based on upvotes/downvotes from influential users. 2. Stake-based voting where WAIV Power and HIVE Power determine influence. 3. User tiers: Whales (top-tier), Orcas (mid-level), Dolphins (moderate), Minnows (new/low-stake). 4. Content curation rewards for quality posts. 5. Social engagement metrics. 6. Delegation capabilities. Waivio adds expertise metric based on real USD payouts excluding bidbots.",
+        "answer": "Similar to Hive, Waivio uses: 1. Reputation score based on upvotes from influential users. 2. Stake-based voting where WAIV Power and HIVE Power determine influence. 3. User tiers: Whales (top-tier), Orcas (mid-level), Dolphins (moderate), Minnows (new/low-stake). 4. Content curation rewards for quality posts. 5. Social engagement metrics. 6. Delegation capabilities. Waivio adds expertise metric based on real USD payouts excluding bidbots.",
         "topic": "WaivioGeneral"
     },
     {
         "question": "What are Waivio's community guidelines?",
-        "answer": "1. Respectful communication - no harassment, hate speech, or personal attacks. 2. Quality content - informative, relevant, original posts without spam or clickbait. 3. No plagiarism - always credit original sources. 4. No manipulative practices - no bidbots or vote-buying. 5. Safe content - no harmful, illegal, or explicit material. 6. Responsible engagement and minimal self-promotion. 7. Relevant tag usage. Violations may result in content removal, muting, or account restrictions.",
+        "answer": "Waivio's community guidelines are designed to create a safe, respectful, and high-quality environment for all users. The main rules are: 1. Respectful communication no harassment, hate speech, or personal attacks. 2. Quality content: posts should be informative, relevant, original, and free from spam or clickbait. 3. No plagiarism: always credit original sources. 4. No manipulative practices: no bidbots or vote-buying. 5. Safe content: no harmful, illegal, or explicit material. 6. Responsible engagement: minimal self-promotion and constructive interaction with others. 7. Proper tag usage: use relevant tags for your content. 8. Careful AI usage: ensure AI-generated content is used responsibly. Violations of these guidelines may result in content removal, muting, or account restrictions.",
         "topic": "WaivioGeneral"
     },
     {
         "question": "What are the main features of the Waivio platform?",
-        "answer": "User-generated content creation, social sites creation for specific interests, reward campaigns for community engagement, crypto rewards earning, user-friendly editor with mobile compatibility, customizable profiles, engagement features (likes, comments, shares), robust search functionality, moderation tools for site admins, support resources, and AI Assistant for help and translation services.",
+        "answer": "User-generated content creation, social sites creation for specific interests, reward campaigns for community engagement, crypto rewards earning, user-friendly editor with mobile compatibility, customizable profiles, engagement features (likes, comments, shares), robust search functionality, moderation tools for site admins, support resources, and AI Assistant for help.",
         "topic": "WaivioGeneral"
     },
     {
         "question": "How do tags work on Waivio?",
-        "answer": "Tags are keywords that categorize and organize content, making posts discoverable. They serve as objects that gather all related posts. Use relevant, specific tags that reflect your content's core topics. Add tags in the post editor field at the bottom. Guidelines: choose relevant tags, be specific rather than broad, don't overuse tags, focus on the most relevant ones for your post.",
+        "answer": "Tags are entities that categorize and organize content, making posts easier to discover. Each tag acts as an object that collects all related posts in one place. To use tags, add them in the post editor field at the bottom of your post. For best results, follow these guidelines: choose relevant tags that reflect your main topics, be specific rather than broad, avoid overusing tags, and focus only on the most relevant ones for your content.",
         "topic": "WaivioGeneral"
     },
     {
-        "question": "What are social sites built on Waivio?",
-        "answer": "Social sites use the Social.Gifts template and are typically thematic. They're flexible and customizable according to site owner needs. Users can only create and manage sites on the official Waivio platform (waivio.com). Social sites have Sign in buttons for HiveSigner, HiveAuth (Keychain), or Google access to full Waivio functionality including posting, campaigns, and commenting.",
+        "question": "What are social sites on Waivio?",
+        "answer": "Social sites on Waivio use the social.gifts template and are usually thematic. They are flexible and customizable based on the needs of the site owner. Users can create and manage social sites only on the official Waivio platform (waivio.com). Social sites have a sign-in system similar to Waivio and include the same core functionality, such as posting, commenting, and participating in campaigns.",
         "topic": "WaivioGeneral"
     },
     {
@@ -581,7 +586,7 @@
     },
     {
         "question": "How does the Waivio AI Assistant work?",
-        "answer": "The AI Assistant provides: 1. Instant answers to Waivio questions - click the AI button and type your query. 2. Step-by-step instructions with images and tutorial links for platform features. 3. Proofreading and translation services for posts in various languages. Access by clicking the AI chat button on the front page. It helps users navigate the platform efficiently and ensures content is polished and accessible.",
+        "answer": "The AI Assistant provides: 1. Instant answers to Waivio-related questions—just click the AI button and type your query. 2. Step-by-step instructions with images and tutorial links for platform features. 3. Proofreading and translation services for posts in multiple languages. 4. Image creation and image-to-text functionality—images can be generated, and the assistant can also answer questions about a given image. Access the assistant by clicking the AI chat button on the front page. It helps users navigate the platform efficiently while ensuring content is polished and accessible.",
         "topic": "WaivioGeneral"
     },
     {
@@ -591,12 +596,12 @@
     },
     {
         "question": "How can I receive or buy WAIV tokens?",
-        "answer": "5 ways to get WAIV: 1. Earn through posts, engagement, and platform activities. 2. Receive transfers from other users via account username. 3. Swap other Hive Engine tokens (SWAP.HIVE, SWAP.BTC, etc.) for WAIV. 4. Deposit external currencies (LTC, BTC, HIVE, HBD) which become swap-tokens, then swap to WAIV. 5. Use Deposit feature in wallet to bring external tokens into the system.",
+        "answer": "5 ways to get WAIV: 1. Earn through posts, engagement, and platform activities. 2. Receive transfers from other users via account username. 3. Swap other Hive Engine tokens (SWAP.HIVE, SWAP.BTC, etc.) for WAIV. 4. Deposit external currencies (LTC, BTC, HIVE, HBD) which become swap-tokens, then swap to WAIV.",
         "topic": "WaivioGeneral"
     },
     {
         "question": "What are recipes on Waivio and how do they work?",
-        "answer": "Recipe objects serve as placeholders for specific dishes, containing key details like name, common ingredients, description, and tags. They collect all user posts with unique takes on the recipe. Users can pin their favorite version, and the most-pinned recipe becomes the community default. Pinning automatically adds recipes to your profile collection. The Waivio Chrome Extension can create recipes from YouTube videos.",
+        "answer": "Recipe objects serve as placeholders for specific dishes, containing key details like name, ingredients, description, and tags. They collect all user posts with unique takes on the recipe. Users can pin their favorite version, and the most-pinned recipe becomes the community default. Pinning automatically adds recipes to your profile collection. The Waivio Chrome Extension can create recipes from YouTube videos.",
         "topic": "WaivioGeneral"
     },
     {
@@ -606,7 +611,7 @@
     },
     {
         "question": "What are Places on Waivio?",
-        "answer": "Places is a feature for highlighting and exploring locations like lakes, mountains, cities, villages, and beaches beyond just businesses and restaurants. Add places manually or use Waivio Chrome Extension to import from Google Maps. Each place gets a dedicated page with details, galleries, maps, and descriptions. Users can heart locations to save them and see them on their personal profile map.",
+        "answer": "Places is a feature for highlighting and exploring locations such as lakes, mountains, cities, villages, and beaches—not just businesses and restaurants. You can add places manually or use the Waivio Chrome Extension to import them from Google Maps. Each place has its own dedicated page with details, galleries, maps, and descriptions. Users can 'heart' locations to save them and view them on their personal profile map. 'Place' is one of the object types that can be created on Waivio.",
         "topic": "WaivioGeneral"
     },
     {
@@ -620,28 +625,23 @@
         "topic": "WaivioGeneral"
     },
     {
-        "question": "What are the key Waivio platform updates and features?",
-        "answer": "Major updates include: HiveAuth integration for secure sign-ins, advanced editor with auto-save and rich copy/paste, Message Bot for targeted community engagement, recipe objects with Instacart integration, social shopping sites, affiliate code management, VIP ticket system, referral programs, notification system with Telegram integration, fraud detection, and comprehensive wallet features supporting multiple cryptocurrencies and withdrawals.",
-        "topic": "WaivioGeneral"
-    },
-    {
         "question": "What is an object on the Hive blockchain?",
         "answer": "An object on Hive is a social record on the blockchain that users can create and reference from their posts and comments. Each object gets its own dedicated page that collects all posts referencing it, has its own photo gallery, and can include additional information like avatar, description, address, price, ratings, and tags depending on the object type.",
         "topic": "WaivioObjects"
     },
     {
         "question": "How do I create an object with Waivio?",
-        "answer": "When writing a post on Waivio, look for 'create new object' on the right panel with different object types (hashtag, business, product, place, list, page, etc.). Write the object name and click 'Confirm'. A unique ID and URL will be created on the Hive blockchain, and the link will be automatically added to your post.",
+        "answer": "When writing a post on Waivio, look for the 'Create new object' link or check the right panel with different object types (hashtag, business, product, place, list, page, etc.). Enter the object name and click 'Confirm'. A unique ID and URL will be generated on the Hive blockchain, and the link will be automatically added to your post.",
         "topic": "WaivioObjects"
     },
     {
         "question": "How do I add details to an object I created?",
-        "answer": "Go to the Edit section and click the + button next to fields like 'Avatar'. Upload images, add phone numbers, addresses, descriptions, tags, and other information. Each update creates a new record in the Updates section. You automatically approve updates you create, but can reject them later if needed.",
+        "answer": "Go to the object, click on 'Edit', and then click the + button next to fields like 'Avatar'. You can upload images, add phone numbers, addresses, descriptions, tags, and other information. Each update creates a new record in the Updates section. Updates you create are automatically approved, but you can reject them later if needed.",
         "topic": "WaivioObjects"
     },
     {
         "question": "How does consensus work for object updates?",
-        "answer": "Anyone on Hive can contribute to objects, but the community decides what's displayed. When new information is added, users who previously contributed or referenced the object are notified and can approve or reject updates. Vote value depends on combined voting power (staked HIVE and WAIV tokens) and accumulated expertise in that specific object.",
+        "answer": "Anyone on Hive can contribute to objects, but the community decides what is displayed. When new information is added, users who previously contributed to or referenced the object are notified and can approve or reject updates. The weight of each vote depends on WAIV and HIVE voting power, and the user's accumulated expertise in that specific object.",
         "topic": "WaivioObjects"
     },
     {
@@ -656,7 +656,7 @@
     },
     {
         "question": "How do I add a product manually on Waivio?",
-        "answer": "First, search to ensure the product doesn't exist. Go to 'New Post' > 'Create New Object' > 'Product' > write product name > 'Confirm'. Then fill out relevant information: price, options category, department, description, tags, weight, dimensions, manufacturer, brand, merchant, features, product ID, group ID, avatar, title, and gallery images.",
+        "answer": "First, search to make sure the product doesn't already exist. Then go to 'New Post' > 'Create New Object' > enter the product name > choose the type 'Product' > and click 'Confirm'. After that, go to the product's object page and fill out the relevant information: price, options, category, department, description, tags, weight, dimensions, manufacturer, brand, merchant, features, product ID, group ID, avatar, title, gallery images, and more.",
         "topic": "WaivioObjects"
     },
     {
@@ -676,32 +676,32 @@
     },
     {
         "question": "How can I link existing posts to objects?",
-        "answer": "If an original post didn't have object links but objects were created later, other users can link posts to objects by posting top-level comments with links to those objects. Once linked, the post will appear in the Review section of the object's page, allowing retroactive content organization.",
+        "answer": "If an original post didn't have object links but objects were created later, other users can link posts to objects by posting top-level comments with links to those objects. To do this: open the post, start writing a comment, find the object using '#' or the object search in the + button menu, and publish the comment. The object will then be linked to the post. Once linked, the post will appear in the Review section of the object's page, allowing retroactive content organization.",
         "topic": "WaivioObjects"
     },
     {
         "question": "What is a widget object type and how do I use it?",
-        "answer": "Widget objects allow integration of third-party pages, forms, and widgets onto the Hive blockchain. You can incorporate external content like Coingecko widgets into Hive posts and objects. Create a new widget, copy the widget's code, and paste it into the form to add interactive functionality to your content.",
+        "answer": "Widget objects allow the integration of third-party pages, forms, and widgets onto the Hive blockchain. This makes it possible to embed external content, such as Coingecko widgets, into Hive posts and objects. To use it: create a widget object, go to the object page, click the + button near the Form field, paste the widget's code or URL, fill in the fields, and submit. Your widget will then be embedded and ready to use.",
         "topic": "WaivioObjects"
     },
     {
         "question": "How do I create webpage objects on Waivio?",
-        "answer": "Click 'new post', select 'webpage' object type, enter a name for your webpage object. Navigate to the object's page, switch to 'edit mode', and use the editing tools to add images, text, videos, formatting blocks, spaces, and dividers to design your page exactly as you want it.",
+        "answer": "Click to write a new post, select 'webpage' object type, enter a name for your webpage object. Navigate to the object's page, click to 'Edit', and use the editing tools to add images, text, videos, formatting blocks, spaces, and dividers to design your page exactly as you want it.",
         "topic": "WaivioObjects"
     },
     {
         "question": "What are the requirements for creating objects on Waivio?",
-        "answer": "Users must meet the minimum requirement of having WAIV Power to create objects and post updates. It's recommended to have at least $10 worth of WAIV Power. Users also need voting power that generates at least $0.001 equivalent to ensure validity of posted content, and they receive 70% of author rewards plus standard curation rewards.",
+        "answer": "To create objects and post updates on Waivio, users must have WAIV Power. It is recommended to hold at least $10 worth of WAIV Power, which provides voting power that generates a minimum of $0.0001 per vote. For comfortable use of the platform, it is also helpful to deposit both WAIV and HIVE according to your ability. The more you have, the more actions you can perform without interruptions for recovery. HIVE Power is required for Resource Credits, while WAIV Power determines the value of your upvotes and rewards.",
         "topic": "WaivioObjects"
     },
     {
         "question": "How do I add a restaurant to Hive using Waivio?",
-        "answer": "First verify the restaurant isn't already listed by searching. Create new listing: write post > restaurant > write restaurant name > confirm. Add details in Edit mode: avatar, address, phone, hours, map coordinates, etc. Write a review with ratings for ambience, food, service, and value. All reviews are automatically collected under the Review tab.",
+        "answer": "First, verify that the restaurant isn't already listed by searching. To create a new object: start a new post, click on 'Restaurant' in the right sidebar, enter the restaurant name, and confirm. Then, in Edit mode, add details such as avatar, address, phone, hours, and map coordinates. You can also write a review with ratings for ambience, food, service, and value. All reviews are automatically collected under the Review tab.",
         "topic": "WaivioObjects"
     },
     {
         "question": "How do I add titles and descriptions to categories?",
-        "answer": "Navigate to the category you want to enhance, open it in a new tab, switch to Edit mode, then add avatar, title, and description to the list. When designing titles and descriptions, incorporate search terms and keyword combinations for SEO optimization that people might use when searching for your website's topic.",
+        "answer": "Navigate to the category (the list object) you want to enhance, open it in a new tab, switch to Edit mode, then add avatar, title, and description to the list. When designing titles and descriptions, incorporate search terms and keyword combinations for SEO optimization that people might use when searching for your website's topic.",
         "topic": "WaivioObjects"
     },
     {
@@ -715,11 +715,6 @@
         "topic": "WaivioObjects"
     },
     {
-        "question": "How do custom newsfeeds work on Waivio?",
-        "answer": "Create personalized feeds using hashtags, objects, object types, and users. Click 'write new post' and select 'Newsfeed' from 'Create new object' menu. Configure your newsfeed with relevant hashtags and users who post quality content. Others can find and follow your newsfeed, and it will appear in their regular feed.",
-        "topic": "WaivioObjects"
-    },
-    {
         "question": "How do I integrate PayPal into product pages?",
         "answer": "Create a product in PayPal and get the ProductID from the URL. Create a product on Waivio with detailed description and photos. Add ProductID: set name to 'paypal' and value to the ProductID. Add PayPal affiliate code in website settings. The PayPal button will then appear on your social shopping site for easy payments.",
         "topic": "WaivioObjects"
@@ -730,18 +725,13 @@
         "topic": "WaivioObjects"
     },
     {
-        "question": "How do Places work on Waivio?",
-        "answer": "Places allow you to highlight and explore locations from lakes and mountains to cities, villages, and beaches. Add places manually or use the Waivio Chrome Extension to import from Google Maps. Each place gets its own page with details, galleries, maps, and descriptions. Users can 'heart' locations to save them and see them on their personal profile map.",
-        "topic": "WaivioObjects"
-    },
-    {
         "question": "What are the automatic updates added when creating a restaurant object?",
         "answer": "When creating a restaurant, 9 automatic updates are added: tag categories (Good For, Feature, Cuisine), ratings (Food, Ambience, Value, Service), gallery album (Photos), and a Related album that pulls pictures from posts referencing this object. These provide a comprehensive foundation for the restaurant listing.",
         "topic": "WaivioObjects"
     },
     {
         "question": "How does the object creation modal work?",
-        "answer": "The modal includes: object name input, name style selection (sentence case, lowercase, UPPERCASE, etc.), language dropdown, object type selection, like checkbox (required for updates to take effect), vote slider for voting power strength, vote value display (minimum $0.001), follow checkbox for automatic subscription, and explanation text about the process.",
+        "answer": "The modal includes: object name input, name style selection (sentence case, lowercase, UPPERCASE, etc.), language dropdown, object type selection, like checkbox (required for updates to take effect), vote slider for voting power strength, vote value display (minimum $0.0001), follow checkbox for automatic subscription, and explanation text about the process.",
         "topic": "WaivioObjects"
     },
     {
@@ -755,28 +745,8 @@
         "topic": "WaivioGeneral"
     },
     {
-        "question": "How can I log in?",
-        "answer": "Three options: HiveSigner (password/keys), HiveAuth/Keychain (QR), or Google (guest mode, limited features).",
-        "topic": "WaivioGeneral"
-    },
-    {
-        "question": "I don't have a Hive account. What should I do?",
-        "answer": "Create one via Tools > New Accounts using VIP tickets (HiveOnBoard), or use Google guest login (limited).",
-        "topic": "WaivioGeneral"
-    },
-    {
-        "question": "If I don't want a Hive account, are there other methods?",
-        "answer": "Yes. Sign in with Google as a guest; you'll have 0 voting power and limited features but can still post and earn sponsor rewards.",
-        "topic": "WaivioGeneral"
-    },
-    {
         "question": "Why is there a need for a Hive account?",
         "answer": "Hive accounts provide keys, voting power, and resource credits; they enable full posting, campaigns, wallet ops, and on-chain records.",
-        "topic": "WaivioGeneral"
-    },
-    {
-        "question": "I authorized my account. What should I do next?",
-        "answer": "Customize profile and settings, explore Earn for rewards, and start posting via the editor.",
         "topic": "WaivioGeneral"
     },
     {
@@ -795,33 +765,8 @@
         "topic": "WaivioGeneral"
     },
     {
-        "question": "What are rewards?",
-        "answer": "Crypto payouts for posts and campaigns. Sponsored rewards are paid in WAIV; author/curator rewards are via Hive mechanics.",
-        "topic": "WaivioGeneral"
-    },
-    {
-        "question": "What types of rewards exist?",
-        "answer": "Author rewards, curator rewards, and sponsored campaign rewards (WAIV).",
-        "topic": "WaivioGeneral"
-    },
-    {
-        "question": "Can I withdraw rewards?",
-        "answer": "Yes. Swap to SWAP.* tokens and withdraw BTC/LTC/ETH (and HIVE/HBD routes) via the wallet.",
-        "topic": "WaivioGeneral"
-    },
-    {
-        "question": "What is the HIVE blockchain?",
-        "answer": "A decentralized social blockchain where accounts, posts, funds, and object data are recorded immutably.",
-        "topic": "WaivioGeneral"
-    },
-    {
-        "question": "What is the Hive token?",
-        "answer": "HIVE is the native token of the Hive blockchain; it can be powered up to Hive Power (HP) for influence and RC.",
-        "topic": "WaivioGeneral"
-    },
-    {
         "question": "What is the price of Hive compared to USD?",
-        "answer": "It fluctuates; the app displays live USD equivalents for rewards and wallet balances.",
+        "answer": "The price of Hive fluctuates. The app displays live USD equivalents for rewards and wallet balances. To check, go to Wallet, where the right sidebar shows market information and current price values.",
         "topic": "WaivioGeneral"
     },
     {
@@ -837,11 +782,6 @@
     {
         "question": "What is Hive Dollar?",
         "answer": "HBD is Hive's USD-pegged stablecoin used for savings/payments; it can be swapped and withdrawn via supported routes.",
-        "topic": "WaivioGeneral"
-    },
-    {
-        "question": "Can I withdraw Hive Dollars?",
-        "answer": "Yes. Swap HBD↔SWAP.HBD and withdraw supported assets; or convert through wallet swap paths, then withdraw.",
         "topic": "WaivioGeneral"
     },
     {
@@ -861,7 +801,7 @@
     },
     {
         "question": "Where is the wallet?",
-        "answer": "Open your profile and use wallet tabs (HIVE, HBD, WAIV, Hive Engine, etc.) to manage balances and transfers.",
+        "answer": "Open your profile and use wallet tabs (WAIV, HIVE, Hive Engine, Rebalancing) to manage balances and transfers.",
         "topic": "UserTools"
     },
     {
@@ -881,7 +821,7 @@
     },
     {
         "question": "How can I withdraw HIVE?",
-        "answer": "Wallet > HIVE > Withdraw. Choose destination (BTC/LTC/ETH), enter address/amount, confirm via HiveSigner.",
+        "answer": "Go to Wallet > HIVE tab > Withdraw. Choose destination (BTC/LTC/ETH), enter address/amount, confirm via HiveSigner.",
         "topic": "WaivioGeneral"
     },
     {
@@ -901,12 +841,12 @@
     },
     {
         "question": "What is Power Up?",
-        "answer": "Convert liquid HIVE into Hive Power (HP) to increase voting influence and resource credits.",
+        "answer": "Power Up means converting liquid HIVE, WAIV, or other tokens into their Power equivalent (HIVE Power or WAIV Power). This increases your voting influence and provides additional resource credits.",
         "topic": "WaivioGeneral"
     },
     {
         "question": "What is Power Down?",
-        "answer": "Convert Hive Power (HP) back to liquid HIVE via scheduled withdrawals over time.",
+        "answer": "Power Down means converting HIVE Power (HP) or WAIV Power back into liquid HIVE or WAIV. The conversion happens gradually through scheduled weekly withdrawals—over a 13-week period for HIVE and a 4-week period for WAIV—until the full amount has been returned as liquid tokens.",
         "topic": "WaivioGeneral"
     },
     {
@@ -916,27 +856,22 @@
     },
     {
         "question": "What is the price of Waiv compared to USD?",
-        "answer": "Market-based; the app shows estimated USD equivalents in wallet/rewards where relevant.",
+        "answer": "The price of Waiv is market-based and fluctuates. The app shows estimated USD equivalents in your wallet and rewards where relevant. To check, go to Wallet—on the right sidebar you'll see the current market price. You can also visit the page https://www.waivio.com/object/ylr-waivio/form/waivio-n0q9lmqve6.",
         "topic": "WaivioGeneral"
     },
     {
         "question": "What is Waiv Power? Why do I need it?",
-        "answer": "Staked WAIV that powers small on-chain updates and determines the value of WAIV-based upvotes (imports/bots).",
+        "answer": "Waiv Power is WAIV tokens that are staked to support on-chain operations and to determine the value of WAIV-based upvotes. It is required for actions such as imports, bots, and other internal Waivio procedures. The more Waiv Power you have, the stronger your upvotes will be, which increases the rewards you can distribute. If a post is eligible for WAIV rewards (tagged with 'waivio' or 'waiv'), users with Waiv Power can upvote it to allocate rewards. If the user themselves writes a post with these tags, they can receive rewards not only in HIVE but also in WAIV. In short, Waiv Power is needed both to perform updates on the platform and to influence reward distribution.",
         "topic": "WaivioGeneral"
     },
     {
-        "question": "Hive Power vs Waiv Power which do I need more?",
-        "answer": "Both. HP gives RC and Hive vote influence; Waiv Power fuels WAIV-based updates/bots. Suggested ratio ~4:1 (WAIV:HP) for imports.",
+        "question": "How can I write a post and receive WAIV rewards?",
+        "answer": "To receive WAIV rewards, you need to create a post that is eligible for WAIV upvotes. A post becomes eligible when it includes the tags 'waiv' or 'waivio' (these are the main tags, though other related tags may also apply). Users with Waiv Power can then upvote your post, and those upvotes allocate WAIV rewards in addition to the regular HIVE rewards. In this way, Waiv Power is used not only to perform updates on the platform but also to influence and distribute rewards to posts.",
         "topic": "WaivioGeneral"
     },
     {
         "question": "Is Waiv a stablecoin?",
         "answer": "No. WAIV is a utility/reward token. Hive's stablecoin is HBD.",
-        "topic": "WaivioGeneral"
-    },
-    {
-        "question": "How can I deposit Waiv?",
-        "answer": "Deposit external assets to Hive Engine and swap to WAIV, or receive WAIV transfers from other users.",
         "topic": "WaivioGeneral"
     },
     {
@@ -946,22 +881,12 @@
     },
     {
         "question": "What is the relationship between Hive and Waiv tokens?",
-        "answer": "WAIV is a Hive Engine token used on Waivio for campaigns/rewards; HIVE/HP/HBD are native Hive assets for social, RC, and liquidity.",
-        "topic": "WaivioGeneral"
-    },
-    {
-        "question": "How can I withdraw Waiv?",
-        "answer": "Swap WAIV to SWAP.HIVE/other routes, then withdraw supported assets (BTC/LTC/ETH) from the wallet.",
+        "answer": "WAIV is a Hive Engine token used on Waivio for campaigns/rewards/objects; HIVE/HP/HBD are native Hive assets for social, RC, and liquidity.",
         "topic": "WaivioGeneral"
     },
     {
         "question": "What can I do with Waiv? (List all available actions)",
         "answer": "Transfer, stake (Waiv Power), fund imports/bots, create/manage campaigns, pay sponsored rewards, swap/withdraw via Hive Engine.",
-        "topic": "WaivioGeneral"
-    },
-    {
-        "question": "How can I buy Waiv?",
-        "answer": "Use wallet swaps on Hive Engine (e.g., SWAP.HIVE→WAIV) or receive transfers from other users.",
         "topic": "WaivioGeneral"
     },
     {
@@ -976,7 +901,7 @@
     },
     {
         "question": "I see a transfer button what can I send and to whom?",
-        "answer": "Send HIVE, HBD, WAIV, and SWAP.* tokens to any Hive username. External withdrawals go to crypto addresses.",
+        "answer": "Send HIVE, HBD, WAIV, and SWAP.* tokens to any Hive username.",
         "topic": "WaivioGeneral"
     },
     {
@@ -1000,11 +925,6 @@
         "topic": "WaivioGeneral"
     },
     {
-        "question": "I see different tabs in the user profile. What are they about?",
-        "answer": "Profile shows posts, shop, favorites, recipes, and wallet tabs (HIVE/HBD/WAIV/Hive Engine), plus settings, drafts, bookmarks, etc.",
-        "topic": "UserTools"
-    },
-    {
         "question": "What is the main menu (Earn, Tools, Shop) about?",
         "answer": "Earn: rewards/campaigns. Tools: personal, data management, websites. Shop: product catalogs and social shopping.",
         "topic": "WaivioGeneral"
@@ -1020,23 +940,13 @@
         "topic": "EarnCampaign"
     },
     {
-        "question": "Can I really earn the $8 I see in the Earn tab (Global)?",
-        "answer": "Yes—if eligible and you complete requirements. Payouts are set in WAIV at reservation-time rates via upvotes and direct payments.",
-        "topic": "EarnCampaign"
-    },
-    {
         "question": "What is the difference between the Global and Local tabs?",
         "answer": "Global: location-agnostic rewards. Local: location-tied rewards with map and proximity features.",
         "topic": "EarnCampaign"
     },
     {
-        "question": "Can I easily participate in campaigns? What's the catch?",
-        "answer": "Yes. Reserve (reviews) or post (mentions), meet eligibility and post requirements; sponsors verify and can reject fraud/spam.",
-        "topic": "EarnCampaign"
-    },
-    {
         "question": "When will I receive earnings from campaigns?",
-        "answer": "After your qualified review is published and verified. Receivables list owed WAIV; sponsors pay via Payable.",
+        "answer": "You receive earnings after your qualified review is published and verified. The Receivables list shows the WAIV owed, and sponsors make payments via Payable. After submitting your post or review, the sponsor will verify it. If the post meets the campaign requirements and has no violations, the sponsor will pay you. The payment will then appear in your Wallet WAIV history and on balance.",
         "topic": "CampaignManagement"
     },
     {
@@ -1061,7 +971,7 @@
     },
     {
         "question": "I see a Submit Photos button what is it for?",
-        "answer": "To reserve and start a review campaign: opens reservation modal, then editor to write and submit your review.",
+        "answer": "The Submit Photos button is used to reserve and start a review campaign. It opens a reservation modal where you can see the requirements. After reviewing them, click the orange button to proceed with writing and submitting your review.",
         "topic": "EarnCampaign"
     },
     {
@@ -1080,11 +990,6 @@
         "topic": "CampaignManagement"
     },
     {
-        "question": "I see Shop in the main menu what is it?",
-        "answer": "The social shopping/catalog area with products, lists, and object pages users can browse, heart, and reference in posts.",
-        "topic": "WaivioGeneral"
-    },
-    {
         "question": "I see Tools in the main menu what is it?",
         "answer": "User tools (notifications, drafts, bookmarks, profile, settings, affiliate codes) plus Data Management and Websites tools.",
         "topic": "UserTools"
@@ -1092,16 +997,6 @@
     {
         "question": "Can I create a site?",
         "answer": "Yes. Tools > Websites > Create lets you launch a social.gifts site quickly.",
-        "topic": "SitesManagement"
-    },
-    {
-        "question": "What is a social site?",
-        "answer": "A customizable Web3 site (Social.Gifts template) showing objects, lists, feeds, maps, with Earn integration.",
-        "topic": "SitesManagement"
-    },
-    {
-        "question": "What tokens do I need to create my site? How much?",
-        "answer": "Hosting is paid in WAIV (converted to USD/day). Ensure enough WAIV to cover daily hosting and optional features.",
         "topic": "SitesManagement"
     },
     {
@@ -1131,12 +1026,12 @@
     },
     {
         "question": "Can I see examples of running sites?",
-        "answer": "Yes. Explore existing social.gifts sites (e.g., AcceptCryptoMap.com) from the Websites tools and docs.",
+        "answer": "Yes. Explore existing social.gifts sites: https://www.waivio.com/object/pmu-social-shopping-projects, such as https://missbitcoinshop.com/, https://nowayjosecuisineshop.com/, https://cleangirllook.com/, https://coffeeshop.gifts/",
         "topic": "SitesManagement"
     },
     {
         "question": "If I don't pay for my site, what happens?",
-        "answer": "Your site can be switched to inactive (name reservation) or suspended until hosting is funded again.",
+        "answer": "Your site will be suspended until hosting is funded again.",
         "topic": "SitesManagement"
     },
     {
@@ -1145,33 +1040,13 @@
         "topic": "SitesManagement"
     },
     {
-        "question": "How can I build my site (add pages, menu, basic settings)?",
-        "answer": "Create a base object and add menu items (lists/pages/newsfeeds/maps/widgets). Configure colors/logos in Configuration; set language/currency in Settings.",
-        "topic": "SitesManagement"
-    },
-    {
-        "question": "What is an object?",
-        "answer": "A blockchain record/page for anything—business, product, place, list, page, etc.—that aggregates posts and structured fields.",
-        "topic": "WaivioObjects"
-    },
-    {
-        "question": "What do I need to create an object?",
-        "answer": "WAIV Power (recommend ≥$10) and enough voting power (≥$0.001) to record updates on-chain.",
-        "topic": "WaivioObjects"
-    },
-    {
-        "question": "Can anyone create them?",
+        "question": "Can anyone create objects?",
         "answer": "Yes—any Hive user meeting minimal power requirements can create objects and submit updates.",
         "topic": "WaivioObjects"
     },
     {
-        "question": "Why should I use objects?",
-        "answer": "They organize knowledge, aggregate related posts, power social sites/SEO, enable ratings/tags, and support campaigns.",
-        "topic": "WaivioObjects"
-    },
-    {
         "question": "How do I add an object?",
-        "answer": "In the editor, choose Create new object (type), name it, Confirm; then edit to add avatar and fields.",
+        "answer": "In the editor (click on pencil button in header), choose Create new object (type), name it, Confirm; then go to the object, edit to add avatar and fields.",
         "topic": "WaivioObjects"
     },
     {
