@@ -14,7 +14,11 @@ import {
   userResourceCreditTool,
   userVotingPowerTool,
 } from '../tools/userTools';
-import { hostCampaignTool } from '../tools/campaignTools';
+import {
+  hostCampaignTool,
+  keywordCampaignSearchTool,
+} from '../tools/campaignTools';
+import { WobjectRepository } from '../../persistance/wobject/wobject.repository';
 
 interface GetToolsInterface {
   host: string;
@@ -30,10 +34,12 @@ interface GetSystemPromptInterface {
 
 export class WaivioAgent implements Agent {
   private readonly llm: ChatOpenAI;
+  private readonly wobjectRepository?: WobjectRepository;
   private toolsCalled: string[] = [];
 
-  constructor(llm: ChatOpenAI) {
+  constructor(llm: ChatOpenAI, wobjectRepository?: WobjectRepository) {
     this.llm = llm;
+    this.wobjectRepository = wobjectRepository;
   }
 
   private sanitizeInput(input: string): string {
@@ -60,6 +66,13 @@ export class WaivioAgent implements Agent {
       userRecentPostTitlesTool(host, currentUser),
       userCheckImportTool(currentUser),
     ];
+
+    // Add keyword campaign search tool if repository is available
+    if (this.wobjectRepository) {
+      tools.push(
+        keywordCampaignSearchTool(sanitizedHost, this.wobjectRepository),
+      );
+    }
 
     if (await checkClassExistByHost({ host: sanitizedHost })) {
       const siteTools = await getSiteVectorTool(sanitizedHost);

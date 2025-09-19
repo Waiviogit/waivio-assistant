@@ -1,11 +1,13 @@
 import { Injectable } from '@nestjs/common';
 import { RunQueryI, runQuery, getHistory } from '../../assistant';
 import { AgentStatisticRepository } from '../../persistance/agent-statistic/agent-statistic.repository';
+import { WobjectRepository } from '../../persistance/wobject/wobject.repository';
 
 @Injectable()
 export class AssistantService {
   constructor(
     private readonly agentStatisticRepository: AgentStatisticRepository,
+    private readonly wobjectRepository: WobjectRepository,
   ) {}
 
   private getCurrentDateString(): string {
@@ -14,7 +16,10 @@ export class AssistantService {
   }
 
   async writeMessage(params: RunQueryI) {
-    const result = await runQuery(params);
+    const result = await runQuery({
+      ...params,
+      wobjectRepository: this.wobjectRepository,
+    });
     const dateString = this.getCurrentDateString();
     const userName = params.userName || 'unauthorized';
 
