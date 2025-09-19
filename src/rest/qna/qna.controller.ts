@@ -20,7 +20,7 @@ import {
   TopicsResponseDto,
 } from '../../dto/qna-item-out.dto';
 import { QnaControllerDoc } from './qna.controller.doc';
-import { QAWeaviateMigrationService } from '../../cli/migrate-qa-to-weaviate';
+import { QAWeaviateMigrationService } from './qa-weaviate-migration.service';
 import { AuthGuard, AdminGuard } from '../../guards';
 
 @Controller('qna')
