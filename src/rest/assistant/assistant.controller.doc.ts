@@ -1,9 +1,9 @@
 import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { applyDecorators, HttpStatus } from '@nestjs/common';
-import { MessageOutDto } from './dto/message-out.dto';
-import { HistoryOutDto } from './dto/history-out.dto';
+import { MessageOutDto } from '../../dto/message-out.dto';
+import { HistoryOutDto } from '../../dto/history-out.dto';
 
-export class AppControllerDoc {
+export class AssistantControllerDoc {
   static main(): ClassDecorator {
     return applyDecorators(
       ApiTags('assistant'),
@@ -25,13 +25,13 @@ export class AppControllerDoc {
   static writeMessage(): MethodDecorator {
     return applyDecorators(
       ApiOperation({
-        summary: 'send message',
+        summary: 'Send message to assistant',
         description:
-          'send message. /imagine at the start of query will trigger image generation. If images are in body and /imagine is at the start of query, edit command will run.',
+          'Send message to the AI assistant. Use /imagine at the start of query to trigger image generation. If images are in body and /imagine is at the start of query, edit command will run.',
       }),
       ApiResponse({
         status: HttpStatus.OK,
-        description: 'blacklist',
+        description: 'Assistant response',
         type: MessageOutDto,
       }),
     );
@@ -40,12 +40,12 @@ export class AppControllerDoc {
   static getHistory(): MethodDecorator {
     return applyDecorators(
       ApiOperation({
-        summary: 'get history',
-        description: 'get history',
+        summary: 'Get chat history',
+        description: 'Get chat history for a specific session ID',
       }),
       ApiResponse({
         status: HttpStatus.OK,
-        description: 'blacklist',
+        description: 'Chat history',
         type: HistoryOutDto,
       }),
     );

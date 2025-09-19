@@ -10,6 +10,7 @@ import { REDIS_KEYS, TTL_TIME } from './constants/common';
 import { WaivioAgent } from './agents';
 import * as crypto from 'node:crypto';
 import { configService } from '../config';
+import { WobjectRepository } from '../persistance/wobject/wobject.repository';
 
 export type GraphState = {
   query: string;
@@ -20,6 +21,7 @@ export type GraphState = {
   currentPageContent?: string;
   images?: string[];
   currentUser?: string;
+  toolsCalled?: string[];
 };
 
 export interface RunQueryI {
@@ -30,6 +32,7 @@ export interface RunQueryI {
   currentUser?: string;
   images?: string[];
   currentPageContent?: string;
+  wobjectRepository?: WobjectRepository;
 }
 
 export type historyType = {
@@ -45,7 +48,8 @@ export const runQuery = async ({
   currentUser,
   images,
   currentPageContent,
-}: RunQueryI): Promise<BaseMessage> => {
+  wobjectRepository,
+}: RunQueryI): Promise<{ response: BaseMessage; toolsCalled: string[] }> => {
   const historyStore = new RedisChatMessageHistory({
     sessionId: `${REDIS_KEYS.API_RES_CACHE}:${REDIS_KEYS.ASSISTANT}:${id}`,
     sessionTTL: TTL_TIME.TEN_MINUTES,
@@ -61,7 +65,7 @@ export const runQuery = async ({
   });
 
   const chatHistory = await historyStore.getMessages();
-  const app = new WaivioAgent(llm);
+  const app = new WaivioAgent(llm, wobjectRepository);
 
   const result = await app.invoke({
     query,
@@ -77,7 +81,10 @@ export const runQuery = async ({
 
   await historyStore.addMessages(messages);
 
-  return result.response;
+  return {
+    response: result.response,
+    toolsCalled: result.toolsCalled || [],
+  };
 };
 
 export const getHistory = async ({ id }): Promise<historyType[]> => {

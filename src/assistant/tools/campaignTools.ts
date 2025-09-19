@@ -1,5 +1,7 @@
 import { tool } from '@langchain/core/tools';
+import { z } from 'zod';
 import { waivioApiClient } from '../../clients/waivio-api';
+import { WobjectRepository } from '../../persistance/wobject/wobject.repository';
 
 export const hostCampaignTool = (host: string) =>
   tool(
@@ -20,6 +22,73 @@ export const hostCampaignTool = (host: string) =>
       name: 'hostCampaignTool',
       description:
         'Use this tool to get campaigns that currently active on site',
+      responseFormat: 'content',
+    },
+  );
+
+export const keywordCampaignSearchTool = (
+  host: string,
+  wobjectRepository: WobjectRepository,
+) =>
+  tool(
+    async ({ keywords }: { keywords: string[] }) => {
+      let response = '';
+      const searchResults = [];
+
+      for (const keyword of keywords) {
+        try {
+          // Search for wobjects with active campaigns that match the keyword
+          const objects = await wobjectRepository.find({
+            filter: {
+              $and: [
+                { $text: { $search: keyword } },
+                { activeCampaignsCount: { $gt: 0 } },
+              ],
+            },
+            projection: {
+              default_name: 1,
+              author_permlink: 1,
+              activeCampaignsCount: 1,
+            },
+            options: { limit: 5 },
+          });
+
+          if (objects.length > 0) {
+            const matchedObjects = objects
+              .map(
+                (obj) =>
+                  `${obj.default_name}, link https://${host}/object/${obj.author_permlink}`,
+              )
+              .join(', ');
+            searchResults.push(
+              `${keyword} - search match results: ${matchedObjects}`,
+            );
+          }
+        } catch (error) {
+          console.error(`Error searching for keyword "${keyword}":`, error);
+        }
+      }
+
+      if (searchResults.length > 0) {
+        response += `\n[Active Campaign Objects Found]\n${searchResults.join('\n')}\n`;
+        response += `\n[Your Goals]\n- Encourage the user to visit these object pages to participate in active campaigns and earn WAIV tokens.\n- Highlight that these objects have ongoing rewards opportunities.`;
+      } else {
+        response += `\n[Active Campaign Objects]\n- No objects with active campaigns found for the provided keywords.\n`;
+      }
+
+      return response;
+    },
+    {
+      name: 'keywordCampaignSearchTool',
+      description:
+        'ALWAYS use this tool when user mentions ANY topic, interest, product, food, travel, hobby, activity, place, brand, or asks questions. Extract keywords from user query about restaurants, hotels, books, movies, shopping, recipes, travel destinations, activities, products, services, brands, locations, interests, hobbies, entertainment, lifestyle topics. This tool finds objects with active WAIV token earning opportunities and should be triggered on most user interactions to help them discover rewards.',
+      schema: z.object({
+        keywords: z
+          .array(z.string())
+          .describe(
+            'Array of keywords to search for in wobject names and content',
+          ),
+      }),
       responseFormat: 'content',
     },
   );
