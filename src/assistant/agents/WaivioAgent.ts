@@ -9,6 +9,7 @@ import { getSiteDescription } from '../helpers/requestHelper';
 import { getImageTool, imageToTextTool } from '../tools/imageTool';
 import {
   userCheckImportTool,
+  userPageContextTool,
   userProfileTool,
   userRecentPostTitlesTool,
   userResourceCreditTool,
@@ -24,11 +25,11 @@ interface GetToolsInterface {
   host: string;
   images?: string[];
   currentUser?: string;
+  currentPageContent?: string;
 }
 
 interface GetSystemPromptInterface {
   host: string;
-  currentPageContent?: string;
   currentUser?: string;
 }
 
@@ -52,7 +53,12 @@ export class WaivioAgent implements Agent {
     return tools;
   }
 
-  private async getTools({ host, images, currentUser }: GetToolsInterface) {
+  private async getTools({
+    host,
+    images,
+    currentUser,
+    currentPageContent,
+  }: GetToolsInterface) {
     const sanitizedHost = this.sanitizeInput(host);
 
     const tools = [
@@ -66,6 +72,10 @@ export class WaivioAgent implements Agent {
       userRecentPostTitlesTool(host, currentUser),
       userCheckImportTool(currentUser),
     ];
+
+    if (currentPageContent) {
+      tools.push(userPageContextTool(currentPageContent));
+    }
 
     // Add keyword campaign search tool if repository is available
     if (this.wobjectRepository) {
@@ -96,14 +106,6 @@ export class WaivioAgent implements Agent {
     return tools;
   }
 
-  private getPageContentPrompt(currentPageContent?: string): string {
-    if (!currentPageContent) return '';
-
-    return `PAGE CONTEXT:
-      ${currentPageContent}
-      - This content is from the current user page and may be used for proofreading or context`;
-  }
-
   getIntention(currentUser?: string): string {
     let intention = '';
 
@@ -122,7 +124,6 @@ export class WaivioAgent implements Agent {
   private async getSystemPrompt({
     host,
     currentUser,
-    currentPageContent,
   }: GetSystemPromptInterface) {
     const sanitizedHost = this.sanitizeInput(host);
     const siteDescription = await getSiteDescription(sanitizedHost);
@@ -148,7 +149,6 @@ STRICT GUARDRAILS:
 - don't use "short answer" in you reply
 
 YOUR GOAL IN CHAT: ${this.getIntention(currentUser)}
-${this.getPageContentPrompt(currentPageContent)}
 `;
 
     return systemPrompt;
@@ -256,13 +256,13 @@ ${this.getPageContentPrompt(currentPageContent)}
         host,
         images,
         currentUser,
+        currentPageContent,
       });
 
       const llmWithTools = this.llm.bindTools(tools);
       const systemPrompt = await this.getSystemPrompt({
         host,
         currentUser,
-        currentPageContent,
       });
 
       const needsTools = this.shouldUseTools(query, chatHistory);

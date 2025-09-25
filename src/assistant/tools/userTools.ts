@@ -106,3 +106,18 @@ export const userCheckImportTool = (currentUser?: string) =>
       responseFormat: 'content',
     },
   );
+
+export const userPageContextTool = (currentPageContent?: string) =>
+  tool(
+    async () => {
+      if (!currentPageContent) return 'no page context';
+
+      return currentPageContent;
+    },
+    {
+      name: 'userPageContextTool',
+      description:
+        "Use this tool to see user's current page content (if he asks to proofread post with no details or answer about some data on page he currently on)",
+      responseFormat: 'content',
+    },
+  );
