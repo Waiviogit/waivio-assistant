@@ -91,11 +91,9 @@ export const userCheckImportTool = (currentUser?: string) =>
     async () => {
       if (!currentUser) return 'user is not logged in';
 
-      const methodToCall = currentUser.includes('_')
-        ? waivioApiClient.isActiveObjectImport
-        : hiveClient.isActiveObjectImport;
-
-      const response = await methodToCall(currentUser);
+      const response = currentUser.includes('_')
+        ? await waivioApiClient.isActiveObjectImport(currentUser)
+        : await hiveClient.isActiveObjectImport(currentUser);
 
       return response ? 'Import is enabled' : 'Import is disabled';
     },
