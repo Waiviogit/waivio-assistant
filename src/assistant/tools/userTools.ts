@@ -91,11 +91,9 @@ export const userCheckImportTool = (currentUser?: string) =>
     async () => {
       if (!currentUser) return 'user is not logged in';
 
-      const methodToCall = currentUser.includes('_')
-        ? waivioApiClient.isActiveObjectImport
-        : hiveClient.isActiveObjectImport;
-
-      const response = await methodToCall(currentUser);
+      const response = currentUser.includes('_')
+        ? await waivioApiClient.isActiveObjectImport(currentUser)
+        : await hiveClient.isActiveObjectImport(currentUser);
 
       return response ? 'Import is enabled' : 'Import is disabled';
     },
@@ -103,6 +101,21 @@ export const userCheckImportTool = (currentUser?: string) =>
       name: 'userCheckImportTool',
       description:
         'Use this tool check if user activated Object import service',
+      responseFormat: 'content',
+    },
+  );
+
+export const userPageContextTool = (currentPageContent?: string) =>
+  tool(
+    async () => {
+      if (!currentPageContent) return 'no page context';
+
+      return currentPageContent;
+    },
+    {
+      name: 'userPageContextTool',
+      description:
+        "Use this tool to see user's current page content (if he asks to proofread post with no details or answer about some data on page he currently on)",
       responseFormat: 'content',
     },
   );

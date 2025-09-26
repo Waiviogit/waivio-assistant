@@ -102,7 +102,7 @@ type userSearchType = {
   users: waivioUserType[];
 };
 
-const wobjectsFormatResponse = (
+export const wobjectsFormatResponse = (
   objects: waivioObjectType[],
   host: string,
 ): string => {
@@ -162,7 +162,8 @@ export const generateSearchToolsForHost = (host: string) => {
     },
     {
       name: 'waivioSearchTool',
-      description: 'Search waivio objects (products, books, shops, recipe etc)',
+      description:
+        'Use this tool to search for general information about objects (products, books, shops, recipes, etc). Provides comprehensive object details including descriptions, images, and links. Use TOGETHER with keywordCampaignSearchTool to get both general object info AND campaign reward opportunities.',
       schema: waivioSearchSchema,
       responseFormat: 'content',
     },

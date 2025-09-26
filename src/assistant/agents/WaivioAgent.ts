@@ -9,6 +9,7 @@ import { getSiteDescription } from '../helpers/requestHelper';
 import { getImageTool, imageToTextTool } from '../tools/imageTool';
 import {
   userCheckImportTool,
+  userPageContextTool,
   userProfileTool,
   userRecentPostTitlesTool,
   userResourceCreditTool,
@@ -24,11 +25,11 @@ interface GetToolsInterface {
   host: string;
   images?: string[];
   currentUser?: string;
+  currentPageContent?: string;
 }
 
 interface GetSystemPromptInterface {
   host: string;
-  currentPageContent?: string;
   currentUser?: string;
 }
 
@@ -52,7 +53,12 @@ export class WaivioAgent implements Agent {
     return tools;
   }
 
-  private async getTools({ host, images, currentUser }: GetToolsInterface) {
+  private async getTools({
+    host,
+    images,
+    currentUser,
+    currentPageContent,
+  }: GetToolsInterface) {
     const sanitizedHost = this.sanitizeInput(host);
 
     const tools = [
@@ -66,6 +72,10 @@ export class WaivioAgent implements Agent {
       userRecentPostTitlesTool(host, currentUser),
       userCheckImportTool(currentUser),
     ];
+
+    if (currentPageContent) {
+      tools.push(userPageContextTool(currentPageContent));
+    }
 
     // Add keyword campaign search tool if repository is available
     if (this.wobjectRepository) {
@@ -96,14 +106,6 @@ export class WaivioAgent implements Agent {
     return tools;
   }
 
-  private getPageContentPrompt(currentPageContent?: string): string {
-    if (!currentPageContent) return '';
-
-    return `PAGE CONTEXT:
-      ${currentPageContent}
-      - This content is from the current user page and may be used for proofreading or context`;
-  }
-
   getIntention(currentUser?: string): string {
     let intention = '';
 
@@ -114,7 +116,18 @@ export class WaivioAgent implements Agent {
       intention += `\n[User Status]\n- The user is logged in as: ${currentUser}.\n`;
       intention += `\n[Your Goals]\n - Motivate the user to participate in campaigns (usually its event where you write post and receive rewards)`;
     }
-    intention += `\n[Instructions]\n- Be concise, friendly.\n- Personalize your message using the user's name. Follow up with a relevant, open-ended question that invites the user to respond, clarify, or request further help`;
+    intention += `\n[Instructions]\n- Be concise, friendly.\n- Personalize your message using the user's name when available.
+
+[Follow-up Question Guidelines]
+- ALWAYS end with a contextual follow-up question that relates directly to your answer
+- Make questions specific to the topic discussed, not generic
+- Use these patterns based on context:
+  * For product/object searches: "Would you like to see similar products?" or "Are you looking for something specific about [product category]?"
+  * For campaign info: "Would you like me to find campaigns related to [specific topic/product]?" or "Are you interested in learning how to participate in [campaign type]?"
+  * For user account questions: "Would you like help setting up [specific feature]?" or "Are you looking to explore [specific functionality]?"
+  * For general info: "Would you like more details about [specific aspect mentioned]?" or "Is there a particular part of [topic] you'd like to explore?"
+- AVOID generic phrases like "Write me if you have more questions", "Let me know if you need help", "Feel free to ask"
+- Reference specific elements from your response to create natural conversation flow`;
 
     return intention;
   }
@@ -122,7 +135,6 @@ export class WaivioAgent implements Agent {
   private async getSystemPrompt({
     host,
     currentUser,
-    currentPageContent,
   }: GetSystemPromptInterface) {
     const sanitizedHost = this.sanitizeInput(host);
     const siteDescription = await getSiteDescription(sanitizedHost);
@@ -131,7 +143,8 @@ export class WaivioAgent implements Agent {
 Short description: ${siteDescription || 'N/A'}.
 
 CORE INSTRUCTIONS:
-- Use available tools to find relevant information and answer user questions
+- Use available tools to find relevant information and answer user questions use multiple tools if needed
+- IMPORTANT: When searching for objects/products, use BOTH waivioSearchTool AND keywordCampaignSearchTool together to provide comprehensive results (general info + campaign opportunities)
 - Whenever possible, accompany your answers with links and images (![image]) to relevant articles or lessons. 
 - Keep responses helpful, concise, and accurate, user-friendly, relevant to main question
 - When providing links, replace any references to "https://social.gifts" with "https://${sanitizedHost}"
@@ -148,7 +161,6 @@ STRICT GUARDRAILS:
 - don't use "short answer" in you reply
 
 YOUR GOAL IN CHAT: ${this.getIntention(currentUser)}
-${this.getPageContentPrompt(currentPageContent)}
 `;
 
     return systemPrompt;
@@ -256,13 +268,13 @@ ${this.getPageContentPrompt(currentPageContent)}
         host,
         images,
         currentUser,
+        currentPageContent,
       });
 
       const llmWithTools = this.llm.bindTools(tools);
       const systemPrompt = await this.getSystemPrompt({
         host,
         currentUser,
-        currentPageContent,
       });
 
       const needsTools = this.shouldUseTools(query, chatHistory);

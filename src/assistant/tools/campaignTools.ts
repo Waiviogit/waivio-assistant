@@ -81,7 +81,7 @@ export const keywordCampaignSearchTool = (
     {
       name: 'keywordCampaignSearchTool',
       description:
-        'ALWAYS use this tool when user mentions ANY topic, interest, product, food, travel, hobby, activity, place, brand, or asks questions. Extract keywords from user query about restaurants, hotels, books, movies, shopping, recipes, travel destinations, activities, products, services, brands, locations, interests, hobbies, entertainment, lifestyle topics. This tool finds objects with active WAIV token earning opportunities and should be triggered on most user interactions to help them discover rewards.',
+        'Use this tool to find objects with active campaigns that offer WAIV token rewards. Specifically searches for objects that have ongoing earning opportunities. Use ALONGSIDE waivioSearchTool for comprehensive results - this tool focuses on campaign rewards while waivioSearchTool provides general object information.',
       schema: z.object({
         keywords: z
           .array(z.string())
