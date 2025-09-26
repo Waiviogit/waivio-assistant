@@ -59,7 +59,6 @@ export const runQuery = async ({
   });
 
   const llm = new ChatOpenAI({
-    // model: 'gpt-5-mini',
     model: 'gpt-4o',
     temperature: 0,
   });

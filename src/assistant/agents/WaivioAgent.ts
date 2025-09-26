@@ -116,7 +116,18 @@ export class WaivioAgent implements Agent {
       intention += `\n[User Status]\n- The user is logged in as: ${currentUser}.\n`;
       intention += `\n[Your Goals]\n - Motivate the user to participate in campaigns (usually its event where you write post and receive rewards)`;
     }
-    intention += `\n[Instructions]\n- Be concise, friendly.\n- Personalize your message using the user's name. Follow up with a relevant, open-ended question that invites the user to respond, clarify, or request further help`;
+    intention += `\n[Instructions]\n- Be concise, friendly.\n- Personalize your message using the user's name when available.
+
+[Follow-up Question Guidelines]
+- ALWAYS end with a contextual follow-up question that relates directly to your answer
+- Make questions specific to the topic discussed, not generic
+- Use these patterns based on context:
+  * For product/object searches: "Would you like to see similar products?" or "Are you looking for something specific about [product category]?"
+  * For campaign info: "Would you like me to find campaigns related to [specific topic/product]?" or "Are you interested in learning how to participate in [campaign type]?"
+  * For user account questions: "Would you like help setting up [specific feature]?" or "Are you looking to explore [specific functionality]?"
+  * For general info: "Would you like more details about [specific aspect mentioned]?" or "Is there a particular part of [topic] you'd like to explore?"
+- AVOID generic phrases like "Write me if you have more questions", "Let me know if you need help", "Feel free to ask"
+- Reference specific elements from your response to create natural conversation flow`;
 
     return intention;
   }
