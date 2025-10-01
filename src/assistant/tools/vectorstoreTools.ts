@@ -16,25 +16,29 @@ const enhancedSimilaritySearch = async (
   vectorStore: any,
   query: string,
   k: number = 4,
+  useQa = true,
 ) => {
   try {
     // First, try to search in QA collection
     let qaResults = [];
-    try {
-      const qaStore = await getWeaviateStore(QA_COLLECTION);
-      qaResults = await qaStore.similaritySearch(query, Math.min(k, 3));
-      console.log(`Found ${qaResults.length} QA results for: "${query}"`);
 
-      // If we found good QA results, prioritize them
-      if (qaResults && qaResults.length > 0) {
-        // Mark QA results as such
-        qaResults = qaResults.map((result) => ({
-          ...result,
-          metadata: { ...result.metadata, source: 'qa' },
-        }));
+    if (useQa) {
+      try {
+        const qaStore = await getWeaviateStore(QA_COLLECTION);
+        qaResults = await qaStore.similaritySearch(query, Math.min(k, 3));
+        console.log(`Found ${qaResults.length} QA results for: "${query}"`);
+
+        // If we found good QA results, prioritize them
+        if (qaResults && qaResults.length > 0) {
+          // Mark QA results as such
+          qaResults = qaResults.map((result) => ({
+            ...result,
+            metadata: { ...result.metadata, source: 'qa' },
+          }));
+        }
+      } catch (error) {
+        console.warn('QA collection search failed:', error);
       }
-    } catch (error) {
-      console.warn('QA collection search failed:', error);
     }
 
     // Calculate remaining slots for regular vector store
@@ -204,7 +208,12 @@ export const getSiteVectorTool = async (host: string) => {
     async ({ query }) => {
       console.log(`Searching in site ${host} for: "${query}"`);
       try {
-        const results = await enhancedSimilaritySearch(vectorStore, query, 8);
+        const results = await enhancedSimilaritySearch(
+          vectorStore,
+          query,
+          8,
+          false,
+        );
         console.log(`Found ${results.length} results in site ${host}`);
 
         if (!results || results.length === 0) {
@@ -228,7 +237,7 @@ export const getSiteVectorTool = async (host: string) => {
     {
       name: 'siteProductInfoSearch',
       description:
-        'Search for information about site products, recipes, books, business objects, and catalog',
+        'Search for information about site products, recipes, books, business objects, and catalog. If you have results with links dont say you have no results just direct the user to the link',
       schema: vectorSearchSchema,
       responseFormat: 'content',
     },

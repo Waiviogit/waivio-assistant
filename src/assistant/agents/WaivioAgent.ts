@@ -144,7 +144,7 @@ Short description: ${siteDescription || 'N/A'}.
 
 CORE INSTRUCTIONS:
 - Use available tools to find relevant information and answer user questions use multiple tools if needed
-- IMPORTANT: When searching for objects/products, use BOTH waivioSearchTool AND keywordCampaignSearchTool together to provide comprehensive results (general info + campaign opportunities)
+- IMPORTANT: When searching for objects/products, use waivioSearchTool AND keywordCampaignSearchTool AND siteProductInfoSearch together to provide comprehensive results (general info + campaign opportunities)
 - Whenever possible, accompany your answers with links and images (![image]) to relevant articles or lessons. 
 - Keep responses helpful, concise, and accurate, user-friendly, relevant to main question
 - When providing links, replace any references to "https://social.gifts" with "https://${sanitizedHost}"
