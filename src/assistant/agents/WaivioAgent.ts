@@ -1,6 +1,5 @@
-import { Agent } from './Agent';
+import { Agent, GraphState } from './Agent';
 import { ChatOpenAI } from '@langchain/openai';
-import { GraphState } from '../index';
 import { getSiteVectorTool, getVectorStores } from '../tools/vectorstoreTools';
 import { HumanMessage, ToolMessage } from '@langchain/core/messages';
 import { checkClassExistByHost } from '../store/weaviateStore';
@@ -20,6 +19,7 @@ import {
   keywordCampaignSearchTool,
 } from '../tools/campaignTools';
 import { WobjectRepository } from '../../persistance/wobject/wobject.repository';
+import { AppRepository } from '../../persistance/app/app.repository';
 
 interface GetToolsInterface {
   host: string;
@@ -36,11 +36,17 @@ interface GetSystemPromptInterface {
 export class WaivioAgent implements Agent {
   private readonly llm: ChatOpenAI;
   private readonly wobjectRepository?: WobjectRepository;
+  private readonly appRepository?: AppRepository;
   private toolsCalled: string[] = [];
 
-  constructor(llm: ChatOpenAI, wobjectRepository?: WobjectRepository) {
+  constructor(
+    llm: ChatOpenAI,
+    wobjectRepository?: WobjectRepository,
+    appRepository?: AppRepository,
+  ) {
     this.llm = llm;
     this.wobjectRepository = wobjectRepository;
+    this.appRepository = appRepository;
   }
 
   private sanitizeInput(input: string): string {
@@ -78,9 +84,13 @@ export class WaivioAgent implements Agent {
     }
 
     // Add keyword campaign search tool if repository is available
-    if (this.wobjectRepository) {
+    if (this.wobjectRepository && this.appRepository) {
       tools.push(
-        keywordCampaignSearchTool(sanitizedHost, this.wobjectRepository),
+        keywordCampaignSearchTool(
+          sanitizedHost,
+          this.wobjectRepository,
+          this.appRepository,
+        ),
       );
     }
 

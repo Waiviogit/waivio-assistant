@@ -1,6 +1,6 @@
-import { historyType } from '../assistant';
 import { MessageContent, MessageType } from '@langchain/core/messages';
 import { ApiProperty } from '@nestjs/swagger';
+import { historyType } from '../rest/assistant/assistant.service';
 
 class HistoryDto {
   @ApiProperty({ type: String })

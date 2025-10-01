@@ -2,6 +2,8 @@ import { tool } from '@langchain/core/tools';
 import { z } from 'zod';
 import { waivioApiClient } from '../../clients/waivio-api';
 import { WobjectRepository } from '../../persistance/wobject/wobject.repository';
+import { AppRepository } from '../../persistance/app/app.repository';
+import { App } from '../../persistance/app/app.schema';
 
 export const hostCampaignTool = (host: string) =>
   tool(
@@ -21,25 +23,56 @@ export const hostCampaignTool = (host: string) =>
     {
       name: 'hostCampaignTool',
       description:
-        'Use this tool to get campaigns that currently active on site',
+        'Use this tool to get campaigns that currently active on site, if user ask about specific product use keywordCampaignSearchTool instead of this tool',
       responseFormat: 'content',
     },
   );
 
+const getAppAuthorities = (app: App) => {
+  const userShop = app?.configuration?.shopSettings?.type === 'user';
+  const authorities = [...app.authority];
+  if (userShop) {
+    const shopUser = app?.configuration?.shopSettings?.value;
+
+    const sameAsOwner = shopUser === app.owner;
+    const pushFalse = sameAsOwner && app.disableOwnerAuthority;
+
+    if (!pushFalse) authorities.push(shopUser);
+
+    return authorities;
+  }
+  if (!app.disableOwnerAuthority) authorities.push(app.owner);
+
+  return authorities;
+};
+
 export const keywordCampaignSearchTool = (
   host: string,
   wobjectRepository: WobjectRepository,
+  appRepository: AppRepository,
 ) =>
   tool(
     async ({ keywords }: { keywords: string[] }) => {
+      console.log('keywordCampaignSearchTool called with keywords:', keywords);
       let response = '';
       const searchResults = [];
+
+      const app = await appRepository.findOneByHost(host);
+      console.log('App found for host:', host, 'app:', app ? 'exists' : 'null');
+      let limitCondition = {};
+      if (app && app.inherited && !app.canBeExtended) {
+        limitCondition = {
+          'authority.administrative': { $in: getAppAuthorities(app) },
+        };
+      }
+      console.log('Limit condition:', limitCondition);
 
       for (const keyword of keywords) {
         try {
           // Search for wobjects with active campaigns that match the keyword
           const objects = await wobjectRepository.find({
             filter: {
+              ...limitCondition,
               $and: [
                 { $text: { $search: keyword } },
                 { activeCampaignsCount: { $gt: 0 } },

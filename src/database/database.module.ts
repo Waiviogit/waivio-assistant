@@ -10,6 +10,7 @@ export const COLLECTION = Object.freeze({
   AGENT_QA: 'agent_qa',
   AGENT_STATISTIC: 'agent_statistic',
   WOBJECTS: 'wobjects',
+  APPS: 'apps',
 } as const);
 
 @Module({
