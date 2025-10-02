@@ -72,18 +72,17 @@ export const keywordCampaignSearchTool = (
           // Search for wobjects with active campaigns that match the keyword
           const objects = await wobjectRepository.find({
             filter: {
+              $text: { $search: keyword },
+              activeCampaignsCount: { $gt: 0 },
               ...limitCondition,
-              $and: [
-                { $text: { $search: keyword } },
-                { activeCampaignsCount: { $gt: 0 } },
-              ],
             },
             projection: {
               default_name: 1,
               author_permlink: 1,
               activeCampaignsCount: 1,
+              score: { $meta: 'textScore' },
             },
-            options: { limit: 5 },
+            options: { sort: { score: { $meta: 'textScore' } }, limit: 5 },
           });
 
           if (objects.length > 0) {
