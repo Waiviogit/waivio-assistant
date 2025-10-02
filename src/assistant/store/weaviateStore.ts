@@ -163,11 +163,10 @@ export const searchAllSitesClasses = async (
         const results = await store.similaritySearchWithScore(query, limit);
 
         // Add className to each result
-        const resultsWithClass = results.map(([doc, score]) => ({
+        const resultsWithClass = results.map(([doc, distance]) => ({
           pageContent: doc.pageContent,
           metadata: doc.metadata,
-          score,
-          distance: 1 - score, // Convert score to distance
+          score: 1 - distance, // Convert distance to score
           className,
         }));
 
