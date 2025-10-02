@@ -67,37 +67,45 @@ export const keywordCampaignSearchTool = (
       }
       console.log('Limit condition:', limitCondition);
 
-      for (const keyword of keywords) {
-        try {
-          // Search for wobjects with active campaigns that match the keyword
-          const objects = await wobjectRepository.find({
-            filter: {
-              $text: { $search: keyword },
-              activeCampaignsCount: { $gt: 0 },
-              ...limitCondition,
-            },
-            projection: {
-              default_name: 1,
-              author_permlink: 1,
-              activeCampaignsCount: 1,
-              score: { $meta: 'textScore' },
-            },
-            options: { sort: { score: { $meta: 'textScore' } }, limit: 5 },
-          });
+      const settledResults = await Promise.allSettled(
+        keywords.map(async (keyword) => {
+          try {
+            const objects = await wobjectRepository.find({
+              filter: {
+                $and: [
+                  { $text: { $search: keyword } },
+                  { activeCampaignsCount: { $gt: 0 } },
+                ],
+                ...limitCondition,
+              },
+              projection: {
+                default_name: 1,
+                author_permlink: 1,
+                activeCampaignsCount: 1,
+              },
+              options: { limit: 5 },
+            });
 
-          if (objects.length > 0) {
+            if (objects.length === 0) return null;
+
             const matchedObjects = objects
               .map(
                 (obj) =>
                   `${obj.default_name}, link https://${host}/object/${obj.author_permlink}`,
               )
               .join(', ');
-            searchResults.push(
-              `${keyword} - search match results: ${matchedObjects}`,
-            );
+
+            return `${keyword} - search match results: ${matchedObjects}`;
+          } catch (error) {
+            console.error(`Error searching for keyword "${keyword}":`, error);
+            return null;
           }
-        } catch (error) {
-          console.error(`Error searching for keyword "${keyword}":`, error);
+        }),
+      );
+
+      for (const result of settledResults) {
+        if (result.status === 'fulfilled' && result.value) {
+          searchResults.push(result.value);
         }
       }
 
