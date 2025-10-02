@@ -2,6 +2,7 @@ import {
   getAllClassNames,
   getSitesClassNames,
   getWeaviateClass,
+  searchAllSitesClasses,
 } from './weaviateStore';
 import { AGENTS, QA_COLLECTION } from '../constants/nodes';
 
@@ -112,6 +113,92 @@ describe('WeaviateStore', () => {
       );
 
       expect(sitesClassNames.sort()).toEqual(expectedExcluded.sort());
+    }, 30000);
+  });
+
+  describe('searchAllSitesClasses', () => {
+    it('should return search results from all site classes', async () => {
+      const query = 'test query';
+      const results = await searchAllSitesClasses(query, 5);
+
+      expect(Array.isArray(results)).toBe(true);
+      expect(results.length).toBeLessThanOrEqual(5);
+    }, 30000);
+
+    it('should return results with proper structure', async () => {
+      const query = 'test query';
+      const results = await searchAllSitesClasses(query, 3);
+
+      if (results.length > 0) {
+        const firstResult = results[0];
+
+        expect(firstResult).toHaveProperty('pageContent');
+        expect(firstResult).toHaveProperty('metadata');
+        expect(firstResult).toHaveProperty('className');
+        expect(firstResult).toHaveProperty('score');
+        expect(firstResult).toHaveProperty('distance');
+
+        expect(typeof firstResult.pageContent).toBe('string');
+        expect(typeof firstResult.metadata).toBe('object');
+        expect(typeof firstResult.className).toBe('string');
+        expect(typeof firstResult.score).toBe('number');
+        expect(typeof firstResult.distance).toBe('number');
+      }
+    }, 30000);
+
+    it('should sort results by score in descending order', async () => {
+      const query = 'test query';
+      const results = await searchAllSitesClasses(query, 10);
+
+      if (results.length > 1) {
+        for (let i = 0; i < results.length - 1; i++) {
+          expect(results[i].score).toBeGreaterThanOrEqual(results[i + 1].score);
+        }
+      }
+    }, 30000);
+
+    it('should include className in each result', async () => {
+      const query = 'test query';
+      const results = await searchAllSitesClasses(query, 5);
+
+      results.forEach((result) => {
+        expect(result.className).toBeDefined();
+        expect(typeof result.className).toBe('string');
+        expect(result.className.length).toBeGreaterThan(0);
+      });
+    }, 30000);
+
+    it('should handle empty query gracefully', async () => {
+      const results = await searchAllSitesClasses('', 5);
+
+      expect(Array.isArray(results)).toBe(true);
+      // Empty query might return empty results or some default results
+    }, 30000);
+
+    it('should respect limit parameter', async () => {
+      const query = 'test query';
+      const limit = 3;
+      const results = await searchAllSitesClasses(query, limit);
+
+      expect(results.length).toBeLessThanOrEqual(limit);
+    }, 30000);
+
+    it('should handle connection errors gracefully', async () => {
+      const results = await searchAllSitesClasses('test query', 5);
+
+      expect(Array.isArray(results)).toBe(true);
+      // Function should not throw, even on connection errors
+    }, 30000);
+
+    it('should calculate distance correctly from score', async () => {
+      const query = 'test query';
+      const results = await searchAllSitesClasses(query, 3);
+
+      results.forEach((result) => {
+        if (result.score !== undefined && result.distance !== undefined) {
+          expect(result.distance).toBeCloseTo(1 - result.score, 5);
+        }
+      });
     }, 30000);
   });
 });

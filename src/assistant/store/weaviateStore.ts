@@ -139,6 +139,54 @@ export const getSitesClassNames = async (): Promise<string[]> => {
   }
 };
 
+interface SearchResult {
+  pageContent: string;
+  metadata: Record<string, any>;
+  score?: number;
+  distance?: number;
+  className: string;
+}
+
+export const searchAllSitesClasses = async (
+  query: string,
+  limit: number = 10,
+): Promise<SearchResult[]> => {
+  try {
+    const siteClassNames = await getSitesClassNames();
+    const allResults: SearchResult[] = [];
+
+    // Search in each site class
+    for (const className of siteClassNames) {
+      try {
+        const store = await getWeaviateStore(className);
+        const results = await store.similaritySearchWithScore(query, limit);
+
+        // Add className to each result
+        const resultsWithClass = results.map(([doc, score]) => ({
+          pageContent: doc.pageContent,
+          metadata: doc.metadata,
+          score,
+          distance: 1 - score, // Convert score to distance
+          className,
+        }));
+
+        allResults.push(...resultsWithClass);
+      } catch (error) {
+        console.error(`Error searching in class ${className}:`, error);
+        // Continue with other classes even if one fails
+      }
+    }
+
+    // Sort by score (descending) - higher score = better match
+    return allResults
+      .sort((a, b) => (b.score || 0) - (a.score || 0))
+      .slice(0, limit);
+  } catch (error) {
+    console.error('Error searching all sites classes:', error);
+    return [];
+  }
+};
+
 export const createQAWeaviateIndex = async (
   qaData: QAItem[],
   indexName: string,

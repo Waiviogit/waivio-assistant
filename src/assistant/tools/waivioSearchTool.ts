@@ -3,6 +3,7 @@ import { tool } from '@langchain/core/tools';
 import { createFetchRequest } from '../helpers/createFetchRequest';
 import { configService } from '../../config';
 import { MAP_OBJECTS } from '../constants/common';
+import { searchAllSitesClasses } from '../store/weaviateStore';
 
 const restaurantTypes = [
   'cafe',
@@ -156,7 +157,18 @@ export const generateSearchToolsForHost = (host: string) => {
       const { users, wobjects } = result as generalSearchType;
       if (!users?.length && !wobjects?.length) return 'Not found';
 
-      if (!wobjects?.length) return 'Not found';
+      if (!wobjects?.length) {
+        if (host.includes('waivio')) {
+          const vectorResult = await searchAllSitesClasses(string);
+          if (vectorResult?.length) {
+            console.log(
+              `vectorResult searchAllSitesClasses, result count: ${vectorResult?.length}`,
+            );
+            return `${vectorResult.map((el) => el.pageContent).join('\n')}`;
+          }
+        }
+        return 'Not found';
+      }
 
       return `here is objects i found ${wobjectsFormatResponse(wobjects, host)}`;
     },
