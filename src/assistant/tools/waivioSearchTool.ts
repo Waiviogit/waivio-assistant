@@ -154,8 +154,7 @@ export const generateSearchToolsForHost = (host: string) => {
 
       if (!result) return 'Error during request';
 
-      const { users, wobjects } = result as generalSearchType;
-      if (!users?.length && !wobjects?.length) return 'Not found';
+      const { wobjects } = result as generalSearchType;
 
       if (!wobjects?.length) {
         if (host.includes('waivio')) {
