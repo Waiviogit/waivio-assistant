@@ -70,14 +70,18 @@ export const keywordCampaignSearchTool = (
       const settledResults = await Promise.allSettled(
         keywords.map(async (keyword) => {
           try {
+            const filterCampaign = {
+              $and: [
+                { $text: { $search: keyword } },
+                { activeCampaignsCount: { $gt: 0 } },
+              ],
+              ...limitCondition,
+            };
+
+            console.log(JSON.stringify(filterCampaign));
+
             const objects = await wobjectRepository.find({
-              filter: {
-                $and: [
-                  { $text: { $search: keyword } },
-                  { activeCampaignsCount: { $gt: 0 } },
-                ],
-                ...limitCondition,
-              },
+              filter: filterCampaign,
               projection: {
                 default_name: 1,
                 author_permlink: 1,
