@@ -179,13 +179,22 @@ export const searchAllSitesClasses = async (
     // Flatten all results into single array
     const allResults = searchResults.flat();
 
-    // Filter duplicate pageContent, keeping the one with highest score
+    // Filter duplicate pageContent based on object name pattern [${name}] (${link}), keeping the one with highest score
     const uniqueResults = new Map<string, SearchResult>();
 
     allResults.forEach((result) => {
-      const existing = uniqueResults.get(result.pageContent);
+      // Extract object name from pattern [${name}] (${link})
+      const match = result.pageContent.match(/^\[([^\]]+)\]/);
+
+      // Skip results that don't match the expected pattern
+      if (!match) {
+        return;
+      }
+
+      const objectName = match[1];
+      const existing = uniqueResults.get(objectName);
       if (!existing || (result.score || 0) > (existing.score || 0)) {
-        uniqueResults.set(result.pageContent, result);
+        uniqueResults.set(objectName, result);
       }
     });
 

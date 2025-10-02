@@ -201,15 +201,27 @@ describe('WeaviateStore', () => {
       });
     }, 30000);
 
-    it('should filter duplicate pageContent and keep highest score', async () => {
+    it('should filter duplicate pageContent based on object name pattern and keep highest score', async () => {
       const query = 'test query';
       const results = await searchAllSitesClasses(query, 10);
 
-      // Check that all pageContent values are unique
-      const pageContents = results.map((result) => result.pageContent);
-      const uniquePageContents = new Set(pageContents);
+      // Check that all results follow the [object name] pattern
+      results.forEach((result) => {
+        const match = result.pageContent.match(/^\[([^\]]+)\]/);
+        expect(match).toBeTruthy();
+        expect(match[1]).toBeTruthy(); // object name should exist
+      });
 
-      expect(uniquePageContents.size).toBe(pageContents.length);
+      // Check that all object names are unique
+      const objectNames = results
+        .map((result) => {
+          const match = result.pageContent.match(/^\[([^\]]+)\]/);
+          return match ? match[1] : null;
+        })
+        .filter(Boolean);
+
+      const uniqueObjectNames = new Set(objectNames);
+      expect(uniqueObjectNames.size).toBe(objectNames.length);
     }, 30000);
   });
 });
