@@ -154,28 +154,30 @@ export const searchAllSitesClasses = async (
   try {
     const siteClassNames = await getSitesClassNames();
     console.log('siteClassNames', siteClassNames);
-    const allResults: SearchResult[] = [];
 
-    // Search in each site class
-    for (const className of siteClassNames) {
+    const searchPromises = siteClassNames.map(async (className) => {
       try {
         const store = await getWeaviateStore(className);
         const results = await store.similaritySearchWithScore(query, limit);
 
         // Add className to each result
-        const resultsWithClass = results.map(([doc, distance]) => ({
+        return results.map(([doc, distance]) => ({
           pageContent: doc.pageContent,
           metadata: doc.metadata,
           score: 1 - distance, // Convert distance to score
           className,
         }));
-
-        allResults.push(...resultsWithClass);
       } catch (error) {
         console.error(`Error searching in class ${className}:`, error);
-        // Continue with other classes even if one fails
+        return []; // Return empty array for failed searches
       }
-    }
+    });
+
+    // Wait for all searches to complete
+    const searchResults = await Promise.all(searchPromises);
+
+    // Flatten all results into single array
+    const allResults = searchResults.flat();
 
     // Sort by score (descending) - higher score = better match
     return allResults
