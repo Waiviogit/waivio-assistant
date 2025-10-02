@@ -153,6 +153,7 @@ export const searchAllSitesClasses = async (
 ): Promise<SearchResult[]> => {
   try {
     const siteClassNames = await getSitesClassNames();
+    console.log('siteClassNames', siteClassNames);
     const allResults: SearchResult[] = [];
 
     // Search in each site class
