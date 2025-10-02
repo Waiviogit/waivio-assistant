@@ -172,18 +172,33 @@ export const generateSearchToolsForHost = (host: string) => {
     async ({ box, object_type, string }) => {
       const url = `https://${configService.getAppHost()}/api/wobjects/search-area`;
 
-      const result = await createFetchRequest({
-        api: { method: 'POST', url },
-        params: { box, object_type, string },
-        accessHost: host,
-      });
+      const [exactResult, objectTypeResult] = await Promise.all([
+        createFetchRequest({
+          api: { method: 'POST', url },
+          params: { box, object_type, string },
+          accessHost: host,
+        }),
+        createFetchRequest({
+          api: { method: 'POST', url },
+          params: { box, object_type, string: '' },
+          accessHost: host,
+        }),
+      ]);
 
-      if (!result) return 'Error during request';
+      if (!exactResult) return 'Error during request';
 
-      const { wobjects } = result as generalSearchType;
-      if (!wobjects?.length) return 'Not found';
+      let { wobjects } = exactResult as generalSearchType;
+      if (wobjects?.length) {
+        return `here is objects i found ${wobjectsFormatResponse(wobjects, host)}`;
+      }
 
-      return `here is objects i found ${wobjectsFormatResponse(wobjects, host)}`;
+      if (!objectTypeResult) return 'Error during request';
+      ({ wobjects } = objectTypeResult as generalSearchType);
+      if (wobjects?.length) {
+        return `here is objects i found (only object type match) ${wobjectsFormatResponse(wobjects, host)}`;
+      }
+
+      return 'Not found';
     },
     {
       name: 'waivioObjectsMapTool',
