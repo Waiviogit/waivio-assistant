@@ -4,6 +4,7 @@ import { OpenAIEmbeddings } from '@langchain/openai';
 import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter';
 import { Document } from '@langchain/core/documents';
 import { configService } from '../../config';
+import { AGENTS, QA_COLLECTION } from '../constants/nodes';
 
 const weaviateHost = configService.getWeaviateHost();
 
@@ -108,6 +109,35 @@ interface QAItem {
   answer: string;
   topic: string;
 }
+
+export const getAllClassNames = async (): Promise<string[]> => {
+  try {
+    const client = weaviate.client({
+      scheme: 'http',
+      host: weaviateHost,
+    });
+
+    const schema = await client.schema.getter().do();
+    return schema.classes?.map((cls) => cls.class) || [];
+  } catch (error) {
+    console.error('Error getting class names:', error);
+    return [];
+  }
+};
+
+export const getSitesClassNames = async (): Promise<string[]> => {
+  try {
+    const allClassNames = await getAllClassNames();
+    const excludedNames = [...Object.values(AGENTS), QA_COLLECTION];
+
+    return allClassNames.filter(
+      (className) => !excludedNames.includes(className),
+    );
+  } catch (error) {
+    console.error('Error getting sites class names:', error);
+    return [];
+  }
+};
 
 export const createQAWeaviateIndex = async (
   qaData: QAItem[],
