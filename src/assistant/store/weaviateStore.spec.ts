@@ -200,5 +200,16 @@ describe('WeaviateStore', () => {
         }
       });
     }, 30000);
+
+    it('should filter duplicate pageContent and keep highest score', async () => {
+      const query = 'test query';
+      const results = await searchAllSitesClasses(query, 10);
+
+      // Check that all pageContent values are unique
+      const pageContents = results.map((result) => result.pageContent);
+      const uniquePageContents = new Set(pageContents);
+
+      expect(uniquePageContents.size).toBe(pageContents.length);
+    }, 30000);
   });
 });

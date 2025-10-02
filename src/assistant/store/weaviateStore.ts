@@ -179,8 +179,18 @@ export const searchAllSitesClasses = async (
     // Flatten all results into single array
     const allResults = searchResults.flat();
 
-    // Sort by score (descending) - higher score = better match
-    return allResults
+    // Filter duplicate pageContent, keeping the one with highest score
+    const uniqueResults = new Map<string, SearchResult>();
+
+    allResults.forEach((result) => {
+      const existing = uniqueResults.get(result.pageContent);
+      if (!existing || (result.score || 0) > (existing.score || 0)) {
+        uniqueResults.set(result.pageContent, result);
+      }
+    });
+
+    // Convert back to array, sort by score, and limit
+    return Array.from(uniqueResults.values())
       .sort((a, b) => (b.score || 0) - (a.score || 0))
       .slice(0, limit);
   } catch (error) {
