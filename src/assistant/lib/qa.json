@@ -1081,66 +1081,82 @@
     },
     {
         "question": "What Waivio study tutorial materials are available?",
-        "answer": "Link to Waivio study tutorial materials https://www.waivio.com/object/xkg-advanced-social-shopping-on-web-3-0-a-complete-course-to-launch-your-shop/webpage"
+        "answer": "Link to Waivio study tutorial materials https://www.waivio.com/object/xkg-advanced-social-shopping-on-web-3-0-a-complete-course-to-launch-your-shop/webpage",
+        "topic": "WaivioGeneral"
     },
     {
         "question": "Where can I find Lesson 1: Introduction to Waivio and the Decentralized Social Network Hive?",
-        "answer": "https://social.gifts/object/oal-about-waivio/page"
+        "answer": "https://social.gifts/object/oal-about-waivio/page",
+        "topic": "WaivioGeneral"
     },
     {
         "question": "Where can I find Lesson 2: Creating a Hive Account?",
-        "answer": "https://social.gifts/object/owg-best-practices-for-managing-hive-private-keys-on-multiple-devices/page"
+        "answer": "https://social.gifts/object/owg-best-practices-for-managing-hive-private-keys-on-multiple-devices/page",
+        "topic": "WaivioGeneral"
     },
     {
         "question": "Where can I find Lesson 3: Customizing Your Profile?",
-        "answer": "https://social.gifts/object/cww-customizing-your-hive-profile/page"
+        "answer": "https://social.gifts/object/cww-customizing-your-hive-profile/page",
+        "topic": "UserTools"
     },
     {
         "question": "Where can I find Lesson 4: Managing Your Wallet?",
-        "answer": "https://social.gifts/object/axy-your-waivio-wallet/page"
+        "answer": "https://social.gifts/object/axy-your-waivio-wallet/page",
+        "topic": "UserTools"
     },
     {
         "question": "Where can I find Lesson 5: Knowledge Accumulation in Web 3.0?",
-        "answer": "https://social.gifts/object/jpv-accumulating-knowledge-on-hive/page"
+        "answer": "https://social.gifts/object/jpv-accumulating-knowledge-on-hive/page",
+        "topic": "WaivioGeneral"
     },
     {
         "question": "Where can I find Lesson 6: Adding a Product Manually?",
-        "answer": "https://social.gifts/object/gyg-how-to-add-a-product-to-hive/page"
+        "answer": "https://social.gifts/object/gyg-how-to-add-a-product-to-hive/page",
+        "topic": "WaivioObjects"
     },
     {
         "question": "Where can I find Lesson 7: Importing Products With Waivio Chrome Extension?",
-        "answer": "https://social.gifts/object/kda-waivio-chrome-extension-tutorial/page"
+        "answer": "https://social.gifts/object/kda-waivio-chrome-extension-tutorial/page",
+        "topic": "ObjectImport"
     },
     {
         "question": "Where can I find Lesson 8 (Optional): Importing Products from Datafiniti?",
-        "answer": "https://social.gifts/object/uiy-how-to-import-products-on-hive/page"
+        "answer": "https://social.gifts/object/uiy-how-to-import-products-on-hive/page",
+        "topic": "ObjectImport"
     },
     {
         "question": "Where can I find Lesson 9 (Optional): Importing Products from a Spreadsheet?",
-        "answer": "https://social.gifts/object/ehd-how-to-export-products-from-spreadsheet/page"
+        "answer": "https://social.gifts/object/ehd-how-to-export-products-from-spreadsheet/page",
+        "topic": "ObjectImport"
     },
     {
         "question": "Where can I find Lesson 10: Introduction to Social Shopping on Web 3?",
-        "answer": "https://social.gifts/object/tso-social-shopping-on-hive/page"
+        "answer": "https://social.gifts/object/tso-social-shopping-on-hive/page",
+        "topic": "WaivioGeneral"
     },
     {
         "question": "Where can I find Lesson 11: Managing a Social Shop in Your User Profile?",
-        "answer": "https://social.gifts/object/fjh-shops-in-user-profiles/page"
+        "answer": "https://social.gifts/object/fjh-shops-in-user-profiles/page",
+        "topic": "SitesManagement"
     },
     {
         "question": "Where can I find Lesson 12: Launching a Social Shopping Website?",
-        "answer": "https://social.gifts/object/mev-launching-your-social-shopping-website/page"
+        "answer": "https://social.gifts/object/mev-launching-your-social-shopping-website/page",
+        "topic": "SitesManagement"
     },
     {
         "question": "Where can I find Lesson 13: Building a New Advanced Social Shop?",
-        "answer": "https://social.gifts/object/bcl-advanced-social-shopping-website/page"
+        "answer": "https://social.gifts/object/bcl-advanced-social-shopping-website/page",
+        "topic": "SitesManagement"
     },
     {
         "question": "Where can I find Lesson 14: Configuring a Custom Domain for Your Social Shop?",
-        "answer": "https://social.gifts/object/rfr-custom-domain-for-your-social-shop/page"
+        "answer": "https://social.gifts/object/rfr-custom-domain-for-your-social-shop/page",
+        "topic": "SitesManagement"
     },
     {
         "question": "How to start importing objects?",
-        "answer": "Before importing, decide which platform you want to import products from (Amazon, Walmart, Sephora, Shopify, or any other). Make sure you have enough power requirements: WAIV Power (each full upvote ≈ $0.0001) and HIVE Power for Resource Credits. Then log in to Waivio, go to Tools → Data Import and activate Data Import (switch should be green). In the same section, go to the Chrome Extension tab, download and set it up. After that, go to the site you want to import from, click on the Waivio extension, choose an import method, and press the Import button. The imported objects will appear in the Data Import tab on Waivio.  Some platforms (like Amazon or Walmart) offer more advanced export options, while others use the common 'Analyze with AI' feature."
-    }  
+        "answer": "Before importing, decide which platform you want to import products from (Amazon, Walmart, Sephora, Shopify, or any other). Make sure you have enough power requirements: WAIV Power (each full upvote ≈ $0.0001) and HIVE Power for Resource Credits. Then log in to Waivio, go to Tools → Data Import and activate Data Import (switch should be green). In the same section, go to the Chrome Extension tab, download and set it up. After that, go to the site you want to import from, click on the Waivio extension, choose an import method, and press the Import button. The imported objects will appear in the Data Import tab on Waivio.  Some platforms (like Amazon or Walmart) offer more advanced export options, while others use the common 'Analyze with AI' feature.",
+        "topic": "ObjectImport"
+    }
 ]
