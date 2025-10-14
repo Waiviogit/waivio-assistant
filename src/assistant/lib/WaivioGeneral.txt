@@ -1375,3 +1375,79 @@ Complex Table Editing
 ![image](https://waivio.nyc3.digitaloceanspaces.com/f6b4b9b64e1cf49e8b65862b75412a48a2ffdba0f1f961a93a740a264c157b96)
 Designing tables in markup is brutal—but with the Waivio editor, it’s a breeze. Bring your tables to life with images, bullet lists, links, even headers or section titles—all directly inside your table cells. Whether you’re building a meal plan, a comparison chart, or something more visual, you have full creative freedom and flexible formatting at your fingertips.
 For more details give a link to https://www.waivio.com/@waiviolabs/all-waivio-sites-get-an-advanced-editor-for-effortless-content-creation
+
+# Waivio Wallet: Unified Across All Social Sites
+Every social site hosted on Waivio includes an advanced wallet for both Hive and guest accounts. It provides access to balances, rewards, and transaction history across all social sites — from shops and business pages to interest-based communities — while supporting multiple currencies and advanced reporting. Users can track their earnings in WAIV, HIVE/HBD, and other Hive Engine tokens, with tools for easy swaps, staking and delegations, and instant withdrawals into major cryptocurrencies.
+![image](https://waivio.nyc3.digitaloceanspaces.com/04cb7c5feb34a2ecf3aaa9b9cf736bcf133b2e583d60a31867d5e2a507295319)
+Withdrawals and Payments
+Liquid WAIV and HIVE can be withdrawn instantly into major cryptocurrencies such as BTC, ETH, and LTC. The process is simple and designed for real-world use.
+Imagine paying a bill at a restaurant where the merchant accepts LTC. The total is 0.5 LTC (about $53.99 USD). To pay, you open your WAIV wallet and choose Withdraw to LTC (1).
+![image](https://waivio.nyc3.digitaloceanspaces.com/612f43486773cb364a530576f7b2473f32fa60a58c974c33720b1f7777829796)
+Next, you scan the QR code provided by the merchant (2,3), and the wallet automatically calculates the exact amount of WAIV needed for conversion. With a single click to confirm (4), the payment is sent — your bill is settled instantly using WAIV tokens you’ve earned on Waivio. ![image](https://waivio.nyc3.digitaloceanspaces.com/b1f51d384b4b72a571d610a841446b39dfe343c6b3c3df26a812a7c887f12062)
+Account Management Tools
+The Waivio wallet provides a range of features for managing on-chain assets, including delegations of WAIV Power, HIVE Power, and Resource Credits, clear visualizations for the progress of power downs, and interest tracking for HBD Savings, along with more tools to support long-term account management.
+![image](https://waivio.nyc3.digitaloceanspaces.com/88e202601ca666505c0055226b28e3880cdb3ad4d7786534049eddda00c7f112)
+Advanced Reporting
+The Waivio wallet includes advanced reporting for both WAIV and HIVE/HBD. Balances and transactions can be displayed in many local currencies — including USD, CAD, EUR, GBP, CHF, AUD, MXN, CNY, JPY, UAH, and RUB — with historical conversion rates applied to the dates of each operation. Reports can be exported to CSV for further processing and support manual corrections, allowing users to exclude specific transactions when preparing their records. These tools make the wallet highly flexible and tax-reporting friendly across different jurisdictions.
+WAIV Token Page
+There is a dedicated WAIV token status page where users can track real-time price movements alongside supply and market data. The page features a price chart with selectable time ranges, giving a clear view of short-term fluctuations and long-term trends.
+https://www.waivio.com/object/ylr-waivio/form/waivio-n0q9lmqve6
+In addition to the chart, the page provides:
+Tokens in circulation
+Total market capitalization
+Annual inflation rate
+Breakdown of liquid WAIV vs. WAIV Power (staking)
+Number of accounts holding WAIV
+Monthly active accounts
+Inflation distribution (development fund, liquidity providers, rewards pool)
+Rewards pool split (authors vs. curators)
+Development fund status (available and distributed amounts)
+![image](https://waivio.nyc3.digitaloceanspaces.com/47b45e41dd4a450ed38c08def52857cd12db3c24fadbacaccd6afbf3b8466120)
+For more details give a link to https://www.waivio.com/@waiviolabs/waivio-wallet-unified-across-all-social-sites
+
+# Why Publish Content on the Blockchain: Embracing the Free Flow of Information
+When we talk about publishing content on the blockchain, we often highlight the main benefits:
+Permissionless: You can share your content freely—no need for approval or gatekeepers.
+Trust: Every post is cryptographically signed, ensuring authenticity and credit always stay with you.
+Permanence: Once published, your content is immutable and always available. Only you can update it—no one can remove or alter it without your signature.
+![image](https://waivio.nyc3.digitaloceanspaces.com/7a9ac3a5fcb20dbbcfe9c6b68f236b7512a2655cb9d2d8daa6c834b154ff2ee5)
+https://www.waivio.com/@grampo
+These advantages are powerful, but there’s another, often overlooked transformation the blockchain brings: the free flow of information.
+In traditional social media, your content is fragmented between closed platforms.
+If you want your message to reach your followers on Facebook, X, or LinkedIn, you have to repost it separately on each one, with reactions and comments scattered across these networks. Each platform keeps its own version of your post—isolated and disconnected from the rest.
+On the public blockchain, this changes completely. Your post is no longer limited to your profile on one app—it can appear across multiple apps, projects, and communities that draw from the same blockchain. In other words, your content is no longer trapped inside a closed network; it travels, connects, and grows across the entire open ecosystem of apps.
+Imagine sharing a story about your favorite café. On the blockchain, that post can appear in many places beyond newsfeeds—in coffee-lover communities, café maps, or local discovery projects. Suddenly, your story isn’t just for your followers—it’s part of a broader ecosystem of apps and projects, where other users can discover and like your content. Those likes aren’t just digital applause—on the social blockchain, they translate into real earnings.
+![image](https://waivio.nyc3.digitaloceanspaces.com/6b2f4bfc08110dcdd5741d59dd44e59e33faba57760f16d2d6ef051f448e6b63)
+https://coffeeshop.gifts/object/car3n-community/newsfeed
+And once you share your favorite Peach Cobbler recipe, it could be recognized by a cooking-loving community and even added to a collection of their recipes. This gives your content continuous exposure, expands your social reach, and brings you new followers. More people see it, more engagement flows your way, and each interaction helps you earn visibility and rewards directly through the blockchain.
+![image](https://waivio.nyc3.digitaloceanspaces.com/e4d9bba52fac4b1608cc6034c14466cb76766cf374055795f20dad17fbc440880)
+https://hivecooking.com/
+This free flow of information fuels a powerful network effect. Every new post, every app, and every project enriches the ecosystem as a whole. Growth becomes collaborative—when one part of the network thrives, everyone benefits.
+And when you launch a new project within this open environment, you’re not starting from zero. You’re stepping into an interconnected web of users, data, and engagement that already exists. Your project gains instant visibility and momentum from the network’s collective energy.
+In the Web3 world, your content doesn’t compete for attention—it flows freely within an open ecosystem, fueling the network effect that drives growth for every participant. That’s the real power of publishing content on the blockchain.
+For more details give a link to https://www.waivio.com/@grampo/why-publish-content-on-the-blockchain-embracing-the-free-flow-of-information
+
+
+# Advanced Image Processing in AI Chat Assistants on All Waivio Sites
+We’re excited to introduce a powerful new capability available on Waivio and across all Social.Gifts sites. You can now process images directly in the AI assistant—just like having a graphics designer by your side.
+![image](https://waivio.nyc3.digitaloceanspaces.com/bb6c79ffc76394dd98d7dc24e6fd65bc7bb9488be1ec4452366b8652c3bbadcd)
+Simply copy and paste an image into the chat and describe the changes you’d like to see. The assistant can enhance the photo, switch backgrounds, adjust the color scheme, or create entirely new variations with ease.
+![image](https://waivio.nyc3.digitaloceanspaces.com/dfb891f6588b7bfed5ab08e01f77a60b482abb2e997a07ab90ca076d7ec6a3f6)
+This upgrade makes it simple to keep your visuals consistent and creative. From clean product shots on white backgrounds to stylized edits for social media, everything can be done instantly without leaving the platform.
+And yes—you can generate images too. Just type /imagine followed by your prompt.
+For more details give a link to https://www.waivio.com/@social.gifts/advanced-image-processing-in-ai-chat-assistants-on-all-waivio-sites
+
+
+# An Easier Way to Find and Add Product Reviews
+Adding authentic product reviews to product pages has always been valuable, but finding them across YouTube, Instagram, and TikTok has been time-consuming. With recent updates, there’s now a much faster and more accurate way to do it.
+Improved Search with ChatGPT
+![image](https://waivio.nyc3.digitaloceanspaces.com/7827f2ae1858341ff576a8cce502d4a1abbc7806b06bec05f3688642ccea1277)
+ChatGPT has upgraded its search capabilities and can accurately locate YouTube, Instagram, or TikTok videos that feature a specific product. By pasting the product page URL into ChatGPT, it automatically extracts all product details and runs a focused search. This produces results that are often more accurate than searching directly on YouTube and other social platforms.
+From Discovery to Publishing
+![image](https://waivio.nyc3.digitaloceanspaces.com/0809f3f9b7bcdf3d5bbf445056c5e7c5f1bd2741e1fc1d84b63e764474b0f148)
+Once ChatGPT suggests videos, review them for quality. If they meet your standards, use the Waivio Chrome Extension to create a review (1) or tutorial post. After drafting, paste the product page link (2) from your social site and click Publish (3).
+Product Reviews on the Blockchain
+![image](https://waivio.nyc3.digitaloceanspaces.com/8abdf8cd1af5f029f806026df7993de46dea6703c485cc5ff81963785a1dc2fc)
+Your post will be published to the Hive blockchain and appear directly on the product page. This allows reviews from multiple social platforms to be gathered in one place, where shoppers can see them alongside the product details.
+By combining ChatGPT’s precision search with Waivio’s publishing tools, it is now easier than ever to enrich product pages with authentic social reviews and deliver greater informational value to users.
+For more details give a link to https://www.waivio.com/@social.gifts/an-easier-way-to-find-and-add-product-reviews

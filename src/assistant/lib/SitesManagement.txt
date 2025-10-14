@@ -1324,6 +1324,7 @@ Note: This field is not required in the URL, but it is necessary for the button 
 Simple Integration
 Now you can effortlessly integrate PayPal payments into your social shopping site. Whether you’re selling online training courses, physical products, or services, the PayPal integration ensures a smooth and trusted transaction process.
 Get started today and take your social shop to the next level with easy-to-integrate PayPal payments!
+For more details give a link to https://social.gifts/@social.gifts/paypal-button-integration-into-product-pages
 
 
 # What are social sites built on Waivio?
@@ -2200,3 +2201,53 @@ After answering direct questions (1)—like “Where can I camp in Chilliwack, B
 This smarter AI assistant does more than just answer questions—it actively engages visitors, encourages registration, and helps users discover everything the site has to offer. By addressing support questions instantly, guiding users to rewards, and keeping conversations going, the AI helps boost engagement, improve user satisfaction, and ultimately drive more activity.
 Best of all, these features now come standard on every social site using Waivio platform.
 For more details give a link to https://www.waivio.com/@social.gifts/meet-the-new-ai-chat-manager-for-social-shopping-sites
+
+
+# AdSense Display Ad Unit Guide
+For AdSense ads to function properly, we recommend that the site owner generate an AdSense Display Ad Unit and paste it into the AdSense settings. This will ensure that ads are shown in the correct places.
+Preconditions: Your site must already be approved by AdSense. This means you have added your site to AdSense, and the approval status is Ready.
+![image](https://waivio.nyc3.digitaloceanspaces.com/208f2bc9365e1c99ad33e36f3d376932b12504dad7618c14898fb19d9f4730ba)
+How to Generate an AdSense Display Ad Unit
+1. Go to the official AdSense site.
+2. Log in to your account.
+3. In the left menu, click on the Ads tab.
+4. In the central submenu, click on By ad unit.
+5. In the Create new ad unit section, select Display ads.
+![image](https://waivio.nyc3.digitaloceanspaces.com/5439cfd75640ba9bca966692ecb1dd27632eb5192af93d0c206ec4c44a759bdb)
+6. Enter an Ad unit name.
+7. Click Create.
+![image](https://waivio.nyc3.digitaloceanspaces.com/b98984866368a71db69a5346dc28e9edd535fe310b627f2132ba750a3c4b3705)
+8. You will now see the "Copy and paste the ad unit code" instructions. Copy the full widget code and click Done.
+![image](https://waivio.nyc3.digitaloceanspaces.com/de7cd7f9bd5b3ee63262d3b1d0a9e6387b3650c1f4191def4440718b79172643)
+9. Go to the AdSense site settings on Waivio and paste this code into the Display ad unit code field.
+10. Click Save.
+![image](https://waivio.nyc3.digitaloceanspaces.com/c35c87d0b275bd7dd295b9729dabc298b44c432c1317df845ad6c1a313268c9f)
+That’s it — the ads will now appear in our predefined ad spaces, designed to give users a pleasant and non-intrusive experience.
+If you want more ads, you can skip adding this widget and instead switch on Auto ads in the By site page. This will make ads appear more frequently and automatically in various places where the AdSense system considers appropriate.
+If you have added the widget but ads are still not appearing in the correct locations, check that the Auto ads option is turned off. ![image](https://waivio.nyc3.digitaloceanspaces.com/26954e09c71846dab7261d8109ef6ae929c690597a125d013f61d87e499c1ed2)
+For more details give a link to https://www.waivio.com/object/nvo-adsense-display-ad-unit-guide
+
+
+# Advanced Image Processing in AI Chat Assistants on All Waivio Sites
+We’re excited to introduce a powerful new capability available on Waivio and across all Social.Gifts sites. You can now process images directly in the AI assistant—just like having a graphics designer by your side.
+![image](https://waivio.nyc3.digitaloceanspaces.com/bb6c79ffc76394dd98d7dc24e6fd65bc7bb9488be1ec4452366b8652c3bbadcd)
+Simply copy and paste an image into the chat and describe the changes you’d like to see. The assistant can enhance the photo, switch backgrounds, adjust the color scheme, or create entirely new variations with ease.
+![image](https://waivio.nyc3.digitaloceanspaces.com/dfb891f6588b7bfed5ab08e01f77a60b482abb2e997a07ab90ca076d7ec6a3f6)
+This upgrade makes it simple to keep your visuals consistent and creative. From clean product shots on white backgrounds to stylized edits for social media, everything can be done instantly without leaving the platform.
+And yes—you can generate images too. Just type /imagine followed by your prompt.
+For more details give a link to https://www.waivio.com/@social.gifts/advanced-image-processing-in-ai-chat-assistants-on-all-waivio-sites
+
+
+# An Easier Way to Find and Add Product Reviews
+Adding authentic product reviews to product pages has always been valuable, but finding them across YouTube, Instagram, and TikTok has been time-consuming. With recent updates, there’s now a much faster and more accurate way to do it.
+Improved Search with ChatGPT
+![image](https://waivio.nyc3.digitaloceanspaces.com/7827f2ae1858341ff576a8cce502d4a1abbc7806b06bec05f3688642ccea1277)
+ChatGPT has upgraded its search capabilities and can accurately locate YouTube, Instagram, or TikTok videos that feature a specific product. By pasting the product page URL into ChatGPT, it automatically extracts all product details and runs a focused search. This produces results that are often more accurate than searching directly on YouTube and other social platforms.
+From Discovery to Publishing
+![image](https://waivio.nyc3.digitaloceanspaces.com/0809f3f9b7bcdf3d5bbf445056c5e7c5f1bd2741e1fc1d84b63e764474b0f148)
+Once ChatGPT suggests videos, review them for quality. If they meet your standards, use the Waivio Chrome Extension to create a review (1) or tutorial post. After drafting, paste the product page link (2) from your social site and click Publish (3).
+Product Reviews on the Blockchain
+![image](https://waivio.nyc3.digitaloceanspaces.com/8abdf8cd1af5f029f806026df7993de46dea6703c485cc5ff81963785a1dc2fc)
+Your post will be published to the Hive blockchain and appear directly on the product page. This allows reviews from multiple social platforms to be gathered in one place, where shoppers can see them alongside the product details.
+By combining ChatGPT’s precision search with Waivio’s publishing tools, it is now easier than ever to enrich product pages with authentic social reviews and deliver greater informational value to users.
+For more details give a link to https://www.waivio.com/@social.gifts/an-easier-way-to-find-and-add-product-reviews
