@@ -705,51 +705,65 @@ You have successfully launched your social shop with a custom domain. For more t
 # Custom domain - Connecting GoDaddy Domain to Waivio to Create a Site. (Applicable only for custom domain site)
 (This section is available only on the Waivio main domain and will not work on social sites)
 For more details give a link to https://social.gifts/object/qym-custom-domain/page.
-Discover how to integrate a domain from platforms like GoDaddy with Waivio, enabling you to craft a website using Waivio templates. This guide delves into Cloudflare setup, DNS record configuration, and nameserver integration. Suitable for domains from multiple platforms.
-This guide explains how to connect a domain, initially created on platforms like GoDaddy, to Waivio. This allows you to construct a website using a Waivio template while still maintaining a custom domain.
-The instructions are divided into three key sections: setting up the domain in Cloudflare, configuring the DNS record, and integrating Cloudflare's nameservers on GoDaddy.
-Although GoDaddy is highlighted as an example for domain acquisition, the methods can apply to any similar platform.
-Additional settings for custom domain:
-  - Ensuring Secure Connections: Manual HTTPS Configuration for custom domain on Cloudflare (https://social.gifts/object/qym-custom-domain/page#pvs-ensuring-secure-connections-manual-https-configuration-for-custom-domain-on-cloudflare)
-  - Ensuring Smooth Redirects: Manual www to Apex Domain Setup on Cloudflare (https://social.gifts/object/qym-custom-domain/page#ckq-ensuring-smooth-redirects-manual-www-to-apex-domain-setup-on-cloudflare)
-  - Search Engine Web Content Discovery: A Guide to Enabling Crawler Hints with Cloudflare's IndexNow Integration (https://social.gifts/object/qym-custom-domain/page#yfw-web-content-discovery-a-guide-to-enabling-crawler-hints-with-cloudflare-s-indexnow-integration)
-1. Set up Your Domain with Cloudflare:
-Go to Cloudflare.
-If you don't have an account, sign up; otherwise, log in.
-On the main page, click "Get started."
-![image](https://user-images.githubusercontent.com/67378322/268044728-0cdbca0c-ef86-4676-a8bb-39033543259b.png)
-Enter your domain in the provided field and click "Continue."
-![image](https://user-images.githubusercontent.com/67378322/268044757-27c97718-ef7d-401e-b40f-300352728d11.png)
-Select the free plan and proceed by clicking "Continue."
-![image](https://user-images.githubusercontent.com/67378322/268044804-142ad312-6524-4d77-809e-8befa153cbdc.png)
-You'll now be provided with nameservers specific to Cloudflare. Make a note of these.
-![image](https://waivio.nyc3.digitaloceanspaces.com/1700745415_f3236af9-dd48-4309-9eca-7cf61aa9349b)
-2. Set Up A Record (DNS Type A) to point to Waivio:
-(You can perform this step on either GoDaddy or Cloudflare. Here's how to do it on Cloudflare)
-Go to the DNS page in your Cloudflare dashboard.
-Look for the record type labeled "A".
-Click the "Edit" button next to it.
-![image](https://user-images.githubusercontent.com/67378322/268045318-54eeb954-0403-4afc-b359-4b880088a7ce.png)
-Update the IPv4 address field to 206.189.200.117
-    The "Name" field typically auto-populates with your primary domain, which is correct.
-   If you face any issues or need to create this record from scratch, and the 'Name' field is empty, just enter '@'. This symbol, used by itself without any extra text, signifies the root of your main address. To summarize, your settings should be:
-    Type: A
-    Name: @
-    IPv4 address: 206.189.200.117
-Save the changes.
-![image](https://user-images.githubusercontent.com/67378322/268045551-d79abcec-010f-423a-ba2e-049a695788a2.png)
-3. Update Nameservers on GoDaddy:
-Head to GoDaddy and log in.
-Navigate to "DNS Management."
-Find and click on the "Nameservers" section.
-Click "Change Nameservers."
-![image](https://user-images.githubusercontent.com/67378322/268044950-5eea7531-85ca-4dcf-ad5f-260c31ec9521.png)
-Select the option "I'll use my own nameservers."
-Enter the nameservers provided by Cloudflare in the respective fields.
-![image](https://user-images.githubusercontent.com/67378322/268044995-3d3164e5-41c3-43e2-9297-7b314df249dc.png)
-Save your changes.
-![image](https://waivio.nyc3.digitaloceanspaces.com/1700745502_819a38dc-e5d2-49c5-a2d2-5c84fce2729f)
+This guide explains how to connect a domain purchased on a platform like GoDaddy to Waivio. This will allow you to create a website on Waivio using your custom domain.
+The process consists of two main steps:
+1. Setting up your domain configuration in Cloudflare.
+2. Updating the nameservers on GoDaddy to use Cloudflare’s.
+Although GoDaddy is used as an example, the same steps apply to other platforms that offer domain purchasing and management.
+If you bought your domain on GoDaddy: Log in to your GoDaddy account. Go to the My Products tab to view your domains. You’ll find all domain-related details there, including additional settings under the Domain and DNS sections.
+Preconditions:
+- You must have a registered domain and access to the platform where you purchased it.
+- You need an active Cloudflare account.
+Part 1: Add your domain to Cloudflare
+1. Go to the official Cloudflare website.
+2. Log in. If you don't have an account, sign up.
+3. On the main homepage, you can add your domain.![image](https://waivio.nyc3.digitaloceanspaces.com/fbef57402c99e5bc19dd26170b6b4dc170be221d9f3681fc67a7dba3cbb39551)
+4. Enter the existing domain in the field. ![image](https://waivio.nyc3.digitaloceanspaces.com/32b8e23e89bba263d175d2aeb9ecffe208de27c18f1d24e96e36ba7f008bc167)
+5. Choose "Manually enter DNS records". ![image](https://waivio.nyc3.digitaloceanspaces.com/aa1325f318da3922cfc4d9c8172559254796a007d66558adf778235061abdfaa)
+6. Click Continue. ![image](https://waivio.nyc3.digitaloceanspaces.com/f36db14ee3033070c57a50806c0bfbd7b5d66bb7a697f8bb696b3bcda8f6c021)
+7. Select the Free plan. ![image](https://waivio.nyc3.digitaloceanspaces.com/995d233eef9547a945328abc5319e4c69f9e75bdb7693153e1b28bccf4ec56f4)
+8. On the manual entry page, you need to add an A type record. ![image](https://waivio.nyc3.digitaloceanspaces.com/9fd1e5fbcc488af4fb5336968a78fc88c0e51835cff9ef10d2a0394e195e8185)
+9. Click on Add Record. ![image](https://waivio.nyc3.digitaloceanspaces.com/f1295d6736c0b73cb77d15e4deac853dbe997936efaaef0b1bcae5a7c35cf6fa)
+10. Fill the fields as follows:
+  1) Type: A (already selected by default, correct type).
+  2) Name: @
+  3) IPv4 address: 206.189.200.117
+![image](https://waivio.nyc3.digitaloceanspaces.com/59eb13d710faa81a47838e4fc03647f0b7e8cdf4b7f93b34ab657011cb68ce1d)
+11. Click Save.
+The new record will appear as the first one. You can delete other A type records if they exist, since they are not needed.
+12. Click Continue to activation. ![image](https://waivio.nyc3.digitaloceanspaces.com/22312d28bb14283ddb31bceafcacce2ae9156b657db865f2ad6e3f39d6621000)
+13. In the last step, you will see new Cloudflare nameservers. Copy them or leave the tab open. You can also click Continue and later find the nameservers in the Overview tab. ![image](https://waivio.nyc3.digitaloceanspaces.com/7c1c47ca63bcb34188f029194e34b1e623ce836c5a0a8bfc12bbc3cad4f40430)
+
+Part 2: Add Cloudflare nameservers to your domain provider (GoDaddy example)
+1. Log in to GoDaddy or another domain provider.
+2. Go to My Products. ![image](https://waivio.nyc3.digitaloceanspaces.com/c7b7d40a8375c97f885ef786d58f245dcc8b39ed4e4109ffdfebe5ec77cbab0b)
+3. Find the needed domain and click DNS. ![image](https://waivio.nyc3.digitaloceanspaces.com/ec05f7612e52894f9d503b6180b9b808842acbb2bb030a6939fc391525030054)
+4. On the page menu, click on Nameservers. Here you will see the current default nameservers. ![image](https://waivio.nyc3.digitaloceanspaces.com/ecb84bf713baad2fa200fe6bf7439478e1d7a560ba6198028b9a59b450b09d53)
+5. Click Change Nameservers. ![image](https://waivio.nyc3.digitaloceanspaces.com/f85fe1392266bad6422a73ebbfdd8cfc39e3e995bbc5b7dbede6592556e0a155)
+6. Select the option "I'll use my own nameservers". ![image](https://waivio.nyc3.digitaloceanspaces.com/ba18a2bf2fa140d49fd0b93fa367be48d67127b05b2f431ad31ff365f23074fb)
+7. In the fields that appear, copy and paste the nameservers from Cloudflare (from the last step or the Overview tab). ![image](https://waivio.nyc3.digitaloceanspaces.com/b241044bea7a2fcd1b19e10f53d12d12fab606c783ddec6b45c910de19a1d0ea)
+8. Click Save.
+9. Click Continue. ![image](https://waivio.nyc3.digitaloceanspaces.com/85b66387e1195639dcb21b70771aef039c927136a0e75a647696b44d22a705f3)
+10. A success message will appear. ![image](https://waivio.nyc3.digitaloceanspaces.com/884201ab345e2abd2e98c817aa1e3b6516b7bf6b36e5cface8805aba19d3d4da)
+Now in the Nameservers tab, you should see the Cloudflare nameservers you added. ![image](https://waivio.nyc3.digitaloceanspaces.com/af68a2c7e5ecc81e68f92bd587c5b3485658c7bc7078b1822ad26b1101f6bdb2)
+This completes the setup. Now go back to Cloudflare and check if the changes are updated. It may take some time for the new nameservers to become active. You will receive an email when everything is activated, and the domain label will change from "Invalid nameservers" to "Active". 
+![image](https://waivio.nyc3.digitaloceanspaces.com/3af0f00b049af29762064f05e9f1880cb28bf45f6903e2687755c20d4b5aaa14) 
+![image](https://waivio.nyc3.digitaloceanspaces.com/a284ed85678d82e9a4a6fce05e7ba7a99f11e51a7fa0eef0c687ff952830a71c)
+![image](https://waivio.nyc3.digitaloceanspaces.com/a529d8d9bac87f221e15fe79f557e6bbe751beff63e9c3c5e012f1a922ed7698)
 Now you can return to the "Create a website with custom domain" page and successfully create a site on Waivio!
+Connect your domain to Waivio:
+1. Go to Waivio.
+2. Open Tools > Create > Custom domain page.
+3. Fill the domain name field with your domain.
+4. Accept Web Hosting Service Agreement.
+5. Click Create new website.
+![image](https://waivio.nyc3.digitaloceanspaces.com/ebe7faba169293a0fce294f87e5172b4d82e301e53eaa07ddf9070d8f1931fd7)
+
+Congratulations! You’ve created a site on Waivio using your custom domain!
+Additional settings for custom domain:
+- Ensuring Secure Connections: Manual HTTPS Configuration for custom domain on Cloudflare https://www.waivio.com/object/pvs-ensuring-secure-connections-manual-https-configuration-for-custom-domain-on-cloudflare/page
+- Ensuring Smooth Redirects: Manual www to Apex Domain Setup on Cloudflare https://www.waivio.com/object/ckq-ensuring-smooth-redirects-manual-www-to-apex-domain-setup-on-cloudflare/page
+- Search Engine Web Content Discovery: A Guide to Enabling Crawler Hints with Cloudflare's IndexNow Integration https://www.waivio.com/object/yfw-web-content-discovery-a-guide-to-enabling-crawler-hints-with-cloudflare-s-indexnow-integration/page
 
 
 # Ensuring Secure Connections: Manual HTTPS Configuration for custom domain on Cloudflare (Applicable only for custom domain site)
@@ -2251,3 +2265,69 @@ Product Reviews on the Blockchain
 Your post will be published to the Hive blockchain and appear directly on the product page. This allows reviews from multiple social platforms to be gathered in one place, where shoppers can see them alongside the product details.
 By combining ChatGPT’s precision search with Waivio’s publishing tools, it is now easier than ever to enrich product pages with authentic social reviews and deliver greater informational value to users.
 For more details give a link to https://www.waivio.com/@social.gifts/an-easier-way-to-find-and-add-product-reviews
+
+
+# Creating a Website with ChatGPT and Waivio HTML Object
+For more details give a link to https://www.waivio.com/object/qci-creating-a-website-with-chatgpt-and-waivio-html-object/page
+Use the Waivio HTML Object together with the code generated by ChatGPT to design unique pages or create a complete landing page.
+The process includes two main steps: creating a website in ChatGPT and adding it to Waivio.
+This example uses ChatGPT as an AI instrument that can generate code based on text prompts. You can use any source of code you prefer.https://www.waivio.com/object/qci-creating-a-website-with-chatgpt-and-waivio-html-object/page
+Part 1: Create a Website in ChatGPT
+1. Go to ChatGPT and log in.
+2. Write a prompt asking it to create a website and send it. The requirements for the site are to use only HTML and CSS (no scripts). Include as many details and preferences as you want.
+For example:
+Create a site for ... .
+Create a landing page for ... It should include ... Use HTML and CSS, don’t use scripts.
+![image](https://waivio.nyc3.digitaloceanspaces.com/9c8c88b4f377f137cefea1b027daac73c9797a8035ad1ba75349231e986fa508)
+3. You should see the generated code along with terminal-style buttons that allow you to copy, edit, download, or preview your code. If you don’t see them, try sending another prompt explicitly saying "Create a site".
+![image](https://waivio.nyc3.digitaloceanspaces.com/ffff5ab764f67421b2e7d5f0eb08bee49c075b2990ba513ec70baaf0cdb8a923)
+4. Click “Preview” to see your site.
+![image](https://waivio.nyc3.digitaloceanspaces.com/7ffa6c32d2991b23792e947a1b8cca5ec93306628f3d4ae894700b066eef5b07)
+5. The full-screen preview mode will appear. You can see your chat on the left side and the site preview on the right side of the screen.
+![image](https://waivio.nyc3.digitaloceanspaces.com/19fae1513529f2b80f20ac7f98d2e0dd244d96e4a5524ab61444299ad6d5a02a)
+6. A nice addition to your site is a main menu for navigation, especially if this page will be one of your social sites. To add a main menu, you need to prepare links. Go to Waivio and search for the needed objects. Once you have your objects, tell ChatGPT that you want a main menu that links to these URLs.
+Prompt example: Add a main navigation menu:
+Shop: https://coffeeshop.gifts/object/7ujfq-shop
+Books: https://coffeeshop.gifts/object/41sbwx-books
+Camp life: https://coffeeshop.gifts/object/vpe-camp-life/newsfeed
+Legal: https://coffeeshop.gifts/object/ljc-legal
+![image](https://waivio.nyc3.digitaloceanspaces.com/e989b755e4904f0a44f72eb6a7ea50c0b773f4efcbab475117c4007a6d879eb4)
+In the same way, you can fix or improve the site that ChatGPT gives you by adding new sections, buttons, images, and other details. You can experiment and explore. In the header, you can close the preview by clicking the cross button or “Stop.” You can share, copy the code, or return to a previous version.
+![image](https://waivio.nyc3.digitaloceanspaces.com/2fcbd33cef519f0cb8ceb99f73fadfff990022ef8f7da799f0b73c523ae4c531)
+When you are satisfied with the result, copy the code.
+![image](https://waivio.nyc3.digitaloceanspaces.com/5d96af50bd5848b0b5419d58d34b6ccce20b189d08de5637fe4142c41d08405e)
+Now you have the source code that you can use.
+
+Part 2: Add Code to Waivio
+1. Go to Waivio.
+2. Log in.
+3. Click the pencil button in the header.
+![image](https://waivio.nyc3.digitaloceanspaces.com/c0a441fc438c40d99a56473e6acc8019e42121389e864fc020d4f942a09ee2db)
+4. Click "Create new object".
+![image](https://waivio.nyc3.digitaloceanspaces.com/12f411de918a460d30d3f8da240523ca562442c4c57d046ca865ee64694bdbf0)
+5. Fill the object name (your site/landing).
+6. Choose the type: html.
+7. Click "Create".
+![image](https://waivio.nyc3.digitaloceanspaces.com/84ebf5127c31e63b00bef3ac8d6fbcacf21e5b238736f0a878b2c9eea49eab1a)
+8. Click on the created object card name to open your object.
+![image](https://waivio.nyc3.digitaloceanspaces.com/2ecfdbaefc15e3063d33cd3de83e79e0927bd842dd1917c9ad6b2465984f94f0)
+9. Click "Edit".
+![image](https://waivio.nyc3.digitaloceanspaces.com/018b764cf24a791e679eebaad5636f0126347020f421d267366df1ebf2e38f55)
+10. Copy and paste your source code from ChatGPT to "Write your code" area.
+![image](https://waivio.nyc3.digitaloceanspaces.com/81b91130bab1ff7d9b0039a1581175e89e1548b41987f7ba7a97ac327a56fdc1)
+![image](https://waivio.nyc3.digitaloceanspaces.com/4786dd4fe20d699f60c027cc218398aeb4888289268e45cb6910a94bbb8dd5c7)
+11. Click "Ready to publish", button in the end.
+![image](https://waivio.nyc3.digitaloceanspaces.com/b2bdcb5c7b13629217b9620ac8109bd36a6e465f8f3e1c1be2b1c343314aed33)
+Preview your site. Note that it is view based on the windows size in the full screen on social sites it will look better when all screen size will be used. But here rough preview of your site.
+You can hide the main sections of the site, such as the header with the search and Sign In buttons, as well as the main menu of the site using checkboxes in Preview their located after the code: "Hide sign-in section", "Hide site main menu section". You can go back to Edit clicking on cross button in the top.
+12. Click "Submit".
+![image](https://waivio.nyc3.digitaloceanspaces.com/2e4c2bda9c34b7d3695ba3d8d2344d868ce30c810d9dae46671d8f06609d0948)
+Now your site page is running on Waivio.
+![image](https://waivio.nyc3.digitaloceanspaces.com/60617c2f5e4ed8f0462be03a850589a1b134b34f728440115a87be26c0a6fd4b)
+To view it in full, mark it with a heart, then go to your social site, find the object, or make a direct link. You can also change the site domain in your browser’s address bar to your site name, or visit any of the following social sites for examples:
+https://social.gifts/
+https://hivecooking.com/
+https://luxitasolutions.com/
+https://coffeeshop.gifts/
+![image](https://waivio.nyc3.digitaloceanspaces.com/44a8a46354f2557911039cc5c8cbea80d77c10846f6bd26fd25859dce8e5b708)
+For more details give a link to https://www.waivio.com/object/qci-creating-a-website-with-chatgpt-and-waivio-html-object/page

@@ -1168,5 +1168,50 @@
         "question": "Why should I publish my content on the blockchain instead of traditional social media platforms?",
         "answer": "Publishing on the blockchain gives you complete freedom, ownership, and reach that traditional social media can't match. Unlike closed platforms where each post is isolated, blockchain posts are permissionless, cryptographically verified, and permanent—meaning no one can remove or alter them without your consent. Once published, your content can appear across multiple apps and communities using the same blockchain, allowing it to travel freely and gain visibility beyond your followers. For example, a post about your favorite café could show up in coffee-lover communities or café discovery apps, where likes can even translate into real rewards. This open ecosystem creates a continuous flow of information and collaboration, fueling collective growth and giving your projects instant exposure and credibility.![image](https://waivio.nyc3.digitaloceanspaces.com/7a9ac3a5fcb20dbbcfe9c6b68f236b7512a2655cb9d2d8daa6c834b154ff2ee5) https://www.waivio.com/@grampo",
         "topic":"WaivioGeneral"
+    },
+    {
+        "question": "How can you connect a purchased domain to Waivio to create a custom website?",
+        "answer": "To connect a GoDaddy domain to Waivio, first add your domain to Cloudflare, log in or sign up, and manually enter DNS records by creating an A record with the IPv4 address 206.189.200.117. Then, note the new Cloudflare nameservers. Next, go to your GoDaddy account, open the DNS settings of your domain, and replace the existing nameservers with those provided by Cloudflare. Once the setup is complete and Cloudflare verifies activation, go back to Waivio, open Tools > Create > Custom domain, enter your domain, accept the hosting agreement, and create your new website. Full guide: https://social.gifts/object/qym-custom-domain/page ![image](https://waivio.nyc3.digitaloceanspaces.com/fbef57402c99e5bc19dd26170b6b4dc170be221d9f3681fc67a7dba3cbb39551) ![image](https://waivio.nyc3.digitaloceanspaces.com/ecb84bf713baad2fa200fe6bf7439478e1d7a560ba6198028b9a59b450b09d53) ![image](https://waivio.nyc3.digitaloceanspaces.com/ebe7faba169293a0fce294f87e5172b4d82e301e53eaa07ddf9070d8f1931fd7)",
+        "topic":"SitesManagement"
+    },
+    {
+        "question": "What are the preconditions required before connecting your domain to Waivio?",
+        "answer": "Before connecting a domain to Waivio, you need to have a registered domain (for example, purchased on GoDaddy) and an active Cloudflare account. Access to both platforms is essential since you’ll use Cloudflare for DNS configuration and GoDaddy (or another domain provider) to update your nameservers. ![image](https://waivio.nyc3.digitaloceanspaces.com/c7b7d40a8375c97f885ef786d58f245dcc8b39ed4e4109ffdfebe5ec77cbab0b)",
+        "topic":"SitesManagement"
+    },
+    {
+        "question": "How do you manually add DNS records in Cloudflare for a custom Waivio site?",
+        "answer": "After logging into Cloudflare, add your domain and choose to manually enter DNS records. Then create an A type record with “@” as the name and “206.189.200.117” as the IPv4 address. Save the record, delete any other A records, and proceed to activation. Cloudflare will then display your new nameservers to use with your domain provider. ![image](https://waivio.nyc3.digitaloceanspaces.com/59eb13d710faa81a47838e4fc03647f0b7e8cdf4b7f93b34ab657011cb68ce1d)",
+        "topic":"SitesManagement"
+    },
+    {
+        "question": "What additional settings can be configured after connecting a custom domain to Waivio?",
+        "answer": "After connecting your domain, you can enhance your website with additional Cloudflare settings like enabling HTTPS for secure connections, setting up a www-to-apex redirect for smooth navigation, and enabling Cloudflare's IndexNow integration for better search engine discovery. More details are available on the Waivio documentation pages.",
+        "topic":"SitesManagement"
+    },
+    {
+        "question": "How can you use ChatGPT and Waivio together to create a custom website or landing page?",
+        "answer": "You can use ChatGPT to generate website code in HTML and CSS, then add that code to Waivio using the HTML Object feature. In ChatGPT, write a detailed prompt asking it to create a site (without scripts), copy the generated code, and preview it. Then, go to Waivio, create a new HTML object, paste the code, and publish it. Your new website will be live on Waivio and visible across connected social sites. ![image](https://waivio.nyc3.digitaloceanspaces.com/9c8c88b4f377f137cefea1b027daac73c9797a8035ad1ba75349231e986fa508) ![image](https://waivio.nyc3.digitaloceanspaces.com/60617c2f5e4ed8f0462be03a850589a1b134b34f728440115a87be26c0a6fd4b)",
+        "topic":"WaivioObjects"
+    },
+    {
+        "question": "What should you include when asking ChatGPT to create your website for HTML object?",
+        "answer": "When prompting ChatGPT, specify that the website should use only HTML and CSS and avoid using scripts. Include detailed descriptions such as what the site is for, what sections it should have, and any specific design preferences. You can also ask ChatGPT to add navigation menus, links, and buttons to different sections or pages for easier navigation. ![image](https://waivio.nyc3.digitaloceanspaces.com/e989b755e4904f0a44f72eb6a7ea50c0b773f4efcbab475117c4007a6d879eb4)",
+        "topic":"WaivioObjects"
+    },
+    {
+        "question": "How can you preview and improve your site in ChatGPT before uploading it to Waivio, as HTML object?",
+        "answer": "After ChatGPT generates your site code, click the “Preview” button to open a split-screen view where you can see your chat on one side and the live site preview on the other. You can ask ChatGPT to make changes like adding sections, images, or menus. When satisfied, copy the final HTML and CSS code to use it in Waivio. ![image](https://waivio.nyc3.digitaloceanspaces.com/7ffa6c32d2991b23792e947a1b8cca5ec93306628f3d4ae894700b066eef5b07)",
+        "topic":"WaivioObjects"
+    },
+    {
+        "question": "What steps are required to add ChatGPT-generated code to Waivio to HTML object?",
+        "answer": "In Waivio, log in and click the pencil icon to create a new object. Name it, set the type to “html,” and paste your copied code into the editor. You can preview it, hide optional sections like the sign-in or main menu, and adjust the layout. When done, click “Ready to publish” and then “Submit” to make your site live. ![image](https://waivio.nyc3.digitaloceanspaces.com/81b91130bab1ff7d9b0039a1581175e89e1548b41987f7ba7a97ac327a56fdc1) ![image](https://waivio.nyc3.digitaloceanspaces.com/b2bdcb5c7b13629217b9620ac8109bd36a6e465f8f3e1c1be2b1c343314aed33)",
+        "topic":"WaivioObjects"
+    },
+    {
+        "question": "Where can you view your published website on Waivio?",
+        "answer": "Once your website is published, you can view it on Waivio by marking it with a heart, finding it on your social site, or accessing it directly through its link. You can also open it from social sites like social.gifts, hivecooking.com, luxitasolutions.com, or coffeeshop.gifts. ![image](https://waivio.nyc3.digitaloceanspaces.com/44a8a46354f2557911039cc5c8cbea80d77c10846f6bd26fd25859dce8e5b708)",
+        "topic":"WaivioObjects"
     }
 ]
