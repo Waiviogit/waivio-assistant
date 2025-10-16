@@ -90,7 +90,7 @@ With the Waivio Chrome extension, adding products and reviews to the Hive blockc
 
 # Lesson 8: Importing Products from Datafiniti
 For more details give a link to https://social.gifts/object/uiy-how-to-import-products-on-hive/page
-Adding products to the blockchain manually can be time-consuming, especially if you need to add multiple items. Luckily, Waivio offers a data import feature that allows you to import many products all at once. Waivio supports import in JSON format (see the supported format here: https://developer.datafiniti.co/docs/product-data-schema)
+Adding products to the blockchain manually can be time-consuming, especially if you need to add multiple items. Luckily, Waivio offers a data import feature that allows you to import many products all at once. Waivio supports import in JSON format (see the supported format here: https://social.gifts/object/vbt-datafiniti-product-data-schema)
 This format is used by Datafinity, which is one of the largest databases with hundreds of millions of products that are regularly updated.
 And in this tutorial, I will show you how to use Datafinity to find and export product information in the JSON format. You can also use any other service that allows data export in the compatible format. In the next tutorial, I will also show you how to use your own spreadsheet to export your product data in this format.
 Supplementary Tutorials:
