@@ -34,7 +34,7 @@ export class AgentStatisticRepository
         .sort({ dateString: -1 })
         .skip(skip)
         .limit(limit + 1)
-        .lean()) as AgentStatisticDocType[];
+        .lean()) as unknown as AgentStatisticDocType[];
 
       const hasMore = items.length > limit;
       const result = hasMore ? items.slice(0, limit) : items;
@@ -63,7 +63,7 @@ export class AgentStatisticRepository
         .sort({ dateString: -1, userName: 1 })
         .skip(skip)
         .limit(limit + 1)
-        .lean()) as AgentStatisticDocType[];
+        .lean()) as unknown as AgentStatisticDocType[];
 
       const hasMore = items.length > limit;
       const result = hasMore ? items.slice(0, limit) : items;
@@ -89,7 +89,7 @@ export class AgentStatisticRepository
           { $inc: { chatRequests: 1 } },
           { new: true, upsert: true, setDefaultsOnInsert: true },
         )
-        .lean()) as AgentStatisticDocType;
+        .lean()) as unknown as AgentStatisticDocType;
     } catch (error) {
       this.logger.error('Error incrementing chat requests:', error.message);
       throw error;
@@ -107,7 +107,7 @@ export class AgentStatisticRepository
           { $inc: { imageRequests: 1 } },
           { new: true, upsert: true, setDefaultsOnInsert: true },
         )
-        .lean()) as AgentStatisticDocType;
+        .lean()) as unknown as AgentStatisticDocType;
     } catch (error) {
       this.logger.error('Error incrementing image requests:', error.message);
       throw error;
@@ -126,7 +126,7 @@ export class AgentStatisticRepository
           { $addToSet: { toolsUsed: tool } },
           { new: true, upsert: true, setDefaultsOnInsert: true },
         )
-        .lean()) as AgentStatisticDocType;
+        .lean()) as unknown as AgentStatisticDocType;
     } catch (error) {
       this.logger.error('Error adding tool used:', error.message);
       throw error;
@@ -145,7 +145,7 @@ export class AgentStatisticRepository
           { $addToSet: { toolsUsed: { $each: tools } } },
           { new: true, upsert: true, setDefaultsOnInsert: true },
         )
-        .lean()) as AgentStatisticDocType;
+        .lean()) as unknown as AgentStatisticDocType;
     } catch (error) {
       this.logger.error('Error adding tools used:', error.message);
       throw error;
@@ -174,7 +174,7 @@ export class AgentStatisticRepository
           upsert: true,
           setDefaultsOnInsert: true,
         })
-        .lean()) as AgentStatisticDocType;
+        .lean()) as unknown as AgentStatisticDocType;
     } catch (error) {
       this.logger.error('Error updating statistics:', error.message);
       throw error;

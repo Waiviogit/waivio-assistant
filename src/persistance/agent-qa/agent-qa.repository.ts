@@ -42,7 +42,7 @@ export class AgentQaRepository
         .find(filter)
         .skip(skip)
         .limit(limit + 1)
-        .lean()) as AgentQADocType[];
+        .lean()) as unknown as AgentQADocType[];
 
       const hasMore = items.length > limit;
       const result = hasMore ? items.slice(0, limit) : items;
