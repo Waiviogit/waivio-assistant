@@ -185,7 +185,7 @@ Users can update their profile information by navigating to their user profile o
 - Crypto wallets (Bitcoin, Litecoin, Ethereum, Lightning Bitcoin)
 - Signature for comments that the user will post
 ![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a)
-![image](https://github.com/user-attachments/assets/ec597353-0582-45be-8a3e-614e5251be14)
+![image](https://waivio.nyc3.digitaloceanspaces.com/d51f89267592f31720c1064025c567c2f92608ffc8b7eeca63f700d12d7078b0)
 
 Can I link my account to other social media platforms?
 Users can link their account to other social media platforms by navigating to their user profile or Tools in main navigation menu, click on "Edit profile," and add links in the relevant fields, such as Facebook, Twitter, LinkedIn, YouTube, Instagram, TikTok, Snapchat and GitHub. 
@@ -792,7 +792,7 @@ There are three modes for viewing a post:
 1. In feed.
 2. Modal window: Accessed by clicking on the post in the feed.
 3. Full-screen: Accessible by refreshing the page in modal window mode or clicking the full-screen button.
-When publishing a review, include the message: "This review was sponsored in part by Waivio Service (@{sponsorName})" via Waivio.com and sites.  ![image](https://github.com/user-attachments/assets/c84f07a4-693f-471f-ad27-706e94683c82)
+When publishing a review, include the message: "This review was sponsored in part by Waivio Service (@{sponsorName})" via Waivio.com and sites.  ![image](https://waivio.nyc3.digitaloceanspaces.com/a498efff68517b8f6ddadd19ce732c0606140157a58e856bd6001ddb3f24e610)
 **Sorting**: In the tooltip and like modal window, sort from the largest upvote to the smallest.
 ![Image sorting example on like button](https://user-images.githubusercontent.com/67378322/169516611-f7e1d7b7-6a84-4761-891d-7e3f3b9f0502.png)
 ![Image sorting example on like modal window](https://user-images.githubusercontent.com/67378322/169516615-a60dd61e-3068-4692-b4b0-5815f3210a03.png)
@@ -934,7 +934,7 @@ To withdraw WAIV, users can:
 3. In the central feed, there is a dropdown menu next to the WAIV balance with options: "Withdraw to LTC", "Withdraw to BTC", "Withdraw to ETH", and "Withdraw to HIVE".
 4. Alternatively, in the right sidebar, there is a **Withdraw** button. Clicking it opens a modal window where users can choose which token to withdraw and the token they wish to receive.
 5. For LTC, BTC, or ETH withdrawals, users must enter the destination address or scan the destination address QR code. After clicking **Withdraw**, the user’s balance should update within a few minutes. For HIVE, the funds will be transferred to the user's HIVE account balance.
-![Image](https://github.com/user-attachments/assets/bdde17ac-0dac-4f11-b5d4-d6f75887b28c)
+![Image](https://waivio.nyc3.digitaloceanspaces.com/d7bcb2f1c38de433cb404fda60948755b5821f72292da8e9a00818ddc0b8f55e)
 Thus, users can withdraw WAIV to external wallets like LTC, BTC, or ETH. From there, the funds can be cashed out or converted based on the exchange.
 
 # Can I withdraw only WAIV tokens or other tokens too?
@@ -952,8 +952,8 @@ There are several ways to obtain WAIV tokens:
    - If you have tokens on Hive Engine, you can swap them for WAIV. Use the Swap functionality in your Waivio wallet to convert tokens like SWAP.HIVE, SWAP.BTC, or others into WAIV tokens. If you already hold tokens such as SWAP.HIVE or SWAP.BTC, you can conveniently swap them directly for WAIV within the wallet.
 4. **Deposit**:
    - If you hold tokens on Hive (such as HIVE or HBD) or other currencies like LTC or BTC, you can deposit them into your Waivio wallet. Once deposited, these tokens will appear as swap-token equivalents (e.g., SWAP.LTC). You can then use the Swap function to convert these swap-tokens into WAIV. For example, if you deposit LTC from an external wallet, you’ll receive SWAP.LTC, which can then be swapped to WAIV.
-   ![Deposit button image](https://github.com/user-attachments/assets/12fe4491-1674-41e1-80ee-d10cf3dabb6b)
-   ![Deposit modal window image](https://github.com/user-attachments/assets/eb716956-5596-4661-a605-ae270fa5b64f)
+   ![Deposit button image](https://waivio.nyc3.digitaloceanspaces.com/3836d461a8b54d28944825d9e809bdcb444534071cd57746573c53a613aac6a2)
+   ![Deposit modal window image](https://waivio.nyc3.digitaloceanspaces.com/a7d0c2d47384e1568086536a9bbaad9a95e965573c2e224609b78044374ba8c4)
 5. **Sell WAIV tokens (swap or withdraw)**:   
    - To sell WAIV tokens, you can use the Swap or Withdraw options in your Waivio wallet.
      - Swap WAIV for other tokens: If you'd like to exchange WAIV for another token on Hive Engine (e.g., SWAP.HIVE), use the Swap feature. Navigate to your Waivio wallet, select WAIV, and choose the token you want in exchange. This will convert your WAIV into the selected swap-token (like SWAP.HIVE) directly within the wallet.

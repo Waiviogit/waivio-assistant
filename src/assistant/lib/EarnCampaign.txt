@@ -129,14 +129,14 @@ The reservation card is similar to the secondary card of an object, with the mai
 - **Text Area**: A field for entering text. The field is highlighted in orange when the cursor is inside.
 - **Editor Menu**: The main editor button for adding photos, videos, etc.
 - **Send Button**: An arrow icon used to send a message, which can also be sent by pressing Enter.
-![image](https://github.com/user-attachments/assets/f51d9621-f526-4a48-b0d7-7107dbcef35d)
+![image](https://waivio.nyc3.digitaloceanspaces.com/6ff96fab26a183a181f6b7b38861d04df8afdd75f86a88e45a706f0b8c8d24af)
 ## Sorting Reserved Secondary Cards
 * Default - consists of 2 sorts: payouts + proximity. This means that first there is sorting by payouts, and if there are objects with the same payout, then sorting by proximity will be added (that is, the object that is closer to the user will be displayed above). By default.
 * payouts - the meaning of which is to calculate which of the Rewards brings max. profit for the index server. If campaign has completed reviews - quantity completed review * reward * processing fees (commissionAgreement). For zero - reward * processing fees (commissionAgreement);
 * proximity - for the nearest campaigns;
 * amount - amount of reward;
 * expiry - the expiration date of the campaign.
-![image](https://github.com/Waiviogit/waivio/assets/67378322/48f225c2-53f0-4a9f-9146-ab534721f56c)
+![image](https://waivio.nyc3.digitaloceanspaces.com/81946784b6a6551b99ec8526c6b288b56210aa3ef89bebead306390d026de5d9)
 ## Map
 There are search by area, map with reward's marks of the location of the campaign (which is indicated on the object page - Map).
 ![2021-11-04_16-49](https://user-images.githubusercontent.com/67378322/140335969-da1c7113-f3fa-44d3-9a42-1ab6d5403d88.png)
@@ -174,7 +174,7 @@ The **Receivable Table** provides a detailed view of the history of actions and 
   - The report.
 - **Amount**: Shows the remuneration for a specific review. If a new review appears, the amount is added to the existing total.
 - **Balance**: Displays the running total of the balance.
-![image](https://github.com/user-attachments/assets/59e091b0-88ad-45e2-9e0f-682ed6747331)
+![image](https://waivio.nyc3.digitaloceanspaces.com/052bebec511ebc4471d5d46936954192781e337d8701a23514ee10582f4f8c54)
 Sorting Sponsors List:
 * Amount: Sort by the amount of reward.
 * Time: Sort by time.
@@ -182,7 +182,7 @@ Filters for Sponsors List:
 * Over 15 Days: Sponsor delay exceeding 15 days.
 * Over 30 Days: Sponsor delay exceeding 30 days.
 * Over 20 WAIV: Sponsor's outstanding amount exceeds 20 WAIV.
-![image](https://github.com/user-attachments/assets/49db8777-61ba-4552-aac1-9aa54d6df4f2)
+![image](https://waivio.nyc3.digitaloceanspaces.com/12dc5b4ca93253c82427863ad4d9be56fc03af7e634be1e29c7805bc0a404960)
 
 
 # Earn. History
@@ -198,7 +198,7 @@ Filtering history cards by status:
 * Expired;
 * Rejected.
 Filtering by sponsor - displays the sponsors from which the user has booked campaigns.
-![image](https://github.com/user-attachments/assets/67d57f3e-a7b5-414f-8e83-1529b8ab86ae)
+![image](https://waivio.nyc3.digitaloceanspaces.com/ffda89e6564c38225f6f4811561648cc25d73b0d7355925154cea2c711fcd8d1)
 `Three-dot menu` on history cards provides the opportunity to perform the following actions, depending on the campaign status:
   * View reservation;
   * Release reservation;
@@ -206,7 +206,7 @@ Filtering by sponsor - displays the sponsors from which the user has booked camp
   * Show report;
   * Open review;
   * Rejection note.
-![image](https://github.com/user-attachments/assets/8224001a-881f-4d34-be7a-486893addf57)
+![image](https://waivio.nyc3.digitaloceanspaces.com/ff6effbf46a0a24e23b6226a3ce57e6e0b85512f116b937a4446c29e8b381b82)
 
 
 ## Campaign Statuses
@@ -244,7 +244,7 @@ The **Primary Reward Card** is a key element on social sites, providing users wi
 - **Title**: Displays the text "Share photos & earn $ {amount}," indicating the reward amount available.
 - **Sponsor**: Shows the sponsor’s avatar and name, linking to the sponsor's profile. It also includes a "(sponsor)" label for clarification.
 - **Earn Button**: A button labeled "Earn {price} {currency}" that directs users to a list of secondary objects related to the campaign.
-![image](https://github.com/user-attachments/assets/cad39d4a-61d0-4326-a5f0-16bd338bb0f0)
+![image](https://waivio.nyc3.digitaloceanspaces.com/447f59c0bb06fd2aabe3c7fc78d2a05732e80d75660992a4f9fa22c9b50b11b9)
 
 
 # Secondary Card Details

@@ -31,7 +31,7 @@
     },
     {
         "question": "What features are available on Reserved cards?",
-        "answer": "Reserved cards include: reward information, sponsor details, object information (avatar, name, rating, type, price, tags, address), reservation period display ('Reserved - X days left'), comment functionality, 'Submit photos' button for review writing, and three-dots menu with options like view/release reservation, decrease reward, and follow sponsor/object.\n\n![image](https://github.com/user-attachments/assets/f51d9621-f526-4a48-b0d7-7107dbcef35d)",
+        "answer": "Reserved cards include: reward information, sponsor details, object information (avatar, name, rating, type, price, tags, address), reservation period display ('Reserved - X days left'), comment functionality, 'Submit photos' button for review writing, and three-dots menu with options like view/release reservation, decrease reward, and follow sponsor/object.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/6ff96fab26a183a181f6b7b38861d04df8afdd75f86a88e45a706f0b8c8d24af)",
         "topic": "EarnCampaign"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
         "question": "What sorting and filtering options exist in Receivable?",
-        "answer": "Receivable offers sorting by Amount (reward amount) and Time. Filters include: Over 15 Days (sponsor delay exceeding 15 days), Over 30 Days (sponsor delay exceeding 30 days), and Over 20 WAIV (sponsor's outstanding amount exceeds 20 WAIV).\n\n![image](https://github.com/user-attachments/assets/49db8777-61ba-4552-aac1-9aa54d6df4f2)",
+        "answer": "Receivable offers sorting by Amount (reward amount) and Time. Filters include: Over 15 Days (sponsor delay exceeding 15 days), Over 30 Days (sponsor delay exceeding 30 days), and Over 20 WAIV (sponsor's outstanding amount exceeds 20 WAIV).\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/12dc5b4ca93253c82427863ad4d9be56fc03af7e634be1e29c7805bc0a404960)",
         "topic": "EarnCampaign"
     },
     {
@@ -51,7 +51,7 @@
     },
     {
         "question": "What actions are available in the History section?",
-        "answer": "The three-dot menu on history cards provides different actions based on campaign status: view reservation, release reservation, decrease reward, show report, open review, and rejection note. Available actions depend on the current status of each campaign.\n\n![image](https://github.com/user-attachments/assets/8224001a-881f-4d34-be7a-486893addf57)",
+        "answer": "The three-dot menu on history cards provides different actions based on campaign status: view reservation, release reservation, decrease reward, show report, open review, and rejection note. Available actions depend on the current status of each campaign.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/ff6effbf46a0a24e23b6226a3ce57e6e0b85512f116b937a4446c29e8b381b82)",
         "topic": "EarnCampaign"
     },
     {
@@ -66,27 +66,27 @@
     },
     {
         "question": "How does the reservation modal window work?",
-        "answer": "The reservation modal opens when the user clicks the 'Earn' button on the primary card, then interacts with the secondary card by clicking 'Submit photos', 'Mention Now!', or the 'Details' link. It displays campaign requirements, sponsor details, user eligibility criteria, post requirements, reward details, and legal agreements, along with Cancel/Submit options. Unmet requirements are highlighted in red. If the campaign type is 'Review', the user reserves the campaign directly so they can complete it later. For other campaign types, the modal shows the campaign details, and the user can immediately proceed with the campaign. The main purpose of this modal is to display campaign details before the user starts participating.\n\n![image](https://github.com/user-attachments/assets/8c1d2168-f0c1-4047-aa7e-72aa8a033ccd)",
+        "answer": "The reservation modal opens when the user clicks the 'Earn' button on the primary card, then interacts with the secondary card by clicking 'Submit photos', 'Mention Now!', or the 'Details' link. It displays campaign requirements, sponsor details, user eligibility criteria, post requirements, reward details, and legal agreements, along with Cancel/Submit options. Unmet requirements are highlighted in red. If the campaign type is 'Review', the user reserves the campaign directly so they can complete it later. For other campaign types, the modal shows the campaign details, and the user can immediately proceed with the campaign. The main purpose of this modal is to display campaign details before the user starts participating.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/621ac022a5ff0b5c859a53bfc2a384773ab56f25288994321fa20e2467eaa73a)",
         "topic": "EarnCampaign"
     },
     {
         "question": "What are the user eligibility requirements shown in reservation modal?",
-        "answer": "User eligibility requirements are the conditions a user must meet to qualify for participating in campaigns. They represent the minimum criteria set by the sponsor before a user can join. These requirements may include: minimum Waivio expertise, minimum number of followers, minimum number of posts, no recent reward from the same sponsor for the same object (within 15 days), not being blacklisted by the sponsor, no active reservation for the same reward, and compliance with frequency limits if set by the sponsor. Items marked with an asterisk are automatically checked.\n\n![image](https://github.com/user-attachments/assets/78e66158-09f6-4743-a6ba-cd1e079218e4)",
+        "answer": "User eligibility requirements are the conditions a user must meet to qualify for participating in campaigns. They represent the minimum criteria set by the sponsor before a user can join. These requirements may include: minimum Waivio expertise, minimum number of followers, minimum number of posts, no recent reward from the same sponsor for the same object (within 15 days), not being blacklisted by the sponsor, no active reservation for the same reward, and compliance with frequency limits if set by the sponsor. Items marked with an asterisk are automatically checked.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/7a173257554b13edbbc6c24030964051eb68ca7bd2aebd89baa950c5c5e9cfa7)",
         "topic": "EarnCampaign"
     },
     {
         "question": "What are the post requirements for campaign eligibility?",
-        "answer": "Post requirements are the conditions a user must meet for their post to qualify as part of a campaign and to receive a reward. They define the minimum standards of post quality and required elements (such as links or images) set by the sponsor. Typical post requirements include: a minimum number of original photos of the secondary object, a link to the secondary object, a link to the primary object, inclusion of the Waivio hashtag, and any additional requirements specified by the sponsor. The sponsor reserves the right to refuse payment for fraudulent, spam, or poorly written reviews.\n\n![image](https://github.com/user-attachments/assets/aaf7bf0d-574d-4b2c-937d-4faa7367d26d)",
+        "answer": "Post requirements are the conditions a user must meet for their post to qualify as part of a campaign and to receive a reward. They define the minimum standards of post quality and required elements (such as links or images) set by the sponsor. Typical post requirements include: a minimum number of original photos of the secondary object, a link to the secondary object, a link to the primary object, inclusion of the Waivio hashtag, and any additional requirements specified by the sponsor. The sponsor reserves the right to refuse payment for fraudulent, spam, or poorly written reviews.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/ac70114f9e015e7b4ab3098f1c2bb0557cf91634c263153bed01c88c72dd0ab4)",
         "topic": "EarnCampaign"
     },
     {
         "question": "How do WAIV token rewards work?",
-        "answer": "On Waivio, rewards can be understood in two main ways: campaign-based rewards offered by sponsors and ongoing rewards for regular activity on the platform. Both are paid in WAIV tokens, which are the native reward and utility token of Waivio. WAIV tokens are used for creating campaigns, making payments, and rewarding user participation. Rewards shown in the Earn tab are displayed in the user's local currency but paid in WAIV, with the token's value in that currency serving as a key metric.\n\n![image](https://github.com/user-attachments/assets/3f651489-9067-477b-882f-a05fa1c70742) They may be delivered through a combination of upvotes and direct payments, with only registered account upvotes counting toward fulfillment. Sponsored rewards are announced on the Hive blockchain by sponsors, and users can qualify for these rewards by completing specific tasks such as sharing opinions about products, books, or places, or by featuring sponsored products in posts, photos, or videos. These rewards are the primary way sponsors engage with users. Beyond campaigns, users can also earn WAIV tokens through ongoing activity on the platform—creating posts, engaging with content, curating, and participating in community-driven initiatives. This ensures that active contributors are consistently rewarded. Once earned, WAIV tokens can be held in two forms: liquid WAIV and WAIV Power. Liquid WAIV is flexible and can be spent on services such as hosting social shopping websites or purchasing VIP tickets, while WAIV Power represents a longer-term commitment and is used for voting, creating objects, and importing products. Users can convert between liquid WAIV and WAIV Power as needed. Finally, WAIV tokens are not limited to the Waivio ecosystem—they can be swapped for other tokens on Hive Engine or withdrawn into cryptocurrencies such as BTC, LTC, ETH, and HIVE. The Waivio Wallet provides tools for viewing transaction history, managing balances, and accessing swapping options.\n\n![image](https://github.com/user-attachments/assets/d05cf22f-79b9-4c1a-a537-39d51da9b431)",
+        "answer": "On Waivio, rewards can be understood in two main ways: campaign-based rewards offered by sponsors and ongoing rewards for regular activity on the platform. Both are paid in WAIV tokens, which are the native reward and utility token of Waivio. WAIV tokens are used for creating campaigns, making payments, and rewarding user participation. Rewards shown in the Earn tab are displayed in the user's local currency but paid in WAIV, with the token's value in that currency serving as a key metric.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/19f065eaf0d19c4731f9f2b8abb7e9b561386cf721a15411b0e2cf4cde8faf19) They may be delivered through a combination of upvotes and direct payments, with only registered account upvotes counting toward fulfillment. Sponsored rewards are announced on the Hive blockchain by sponsors, and users can qualify for these rewards by completing specific tasks such as sharing opinions about products, books, or places, or by featuring sponsored products in posts, photos, or videos. These rewards are the primary way sponsors engage with users. Beyond campaigns, users can also earn WAIV tokens through ongoing activity on the platform—creating posts, engaging with content, curating, and participating in community-driven initiatives. This ensures that active contributors are consistently rewarded. Once earned, WAIV tokens can be held in two forms: liquid WAIV and WAIV Power. Liquid WAIV is flexible and can be spent on services such as hosting social shopping websites or purchasing VIP tickets, while WAIV Power represents a longer-term commitment and is used for voting, creating objects, and importing products. Users can convert between liquid WAIV and WAIV Power as needed. Finally, WAIV tokens are not limited to the Waivio ecosystem—they can be swapped for other tokens on Hive Engine or withdrawn into cryptocurrencies such as BTC, LTC, ETH, and HIVE. The Waivio Wallet provides tools for viewing transaction history, managing balances, and accessing swapping options.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/e9b18884102085fe2b57b3ff4b2f76b6e71ebe461d155e2f85cc293ebca376fd)",
         "topic": "EarnCampaign"
     },
     {
         "question": "What is the Challenges feature for social sites?",
-        "answer": "Challenges is a collection of crypto reward opportunities tailored to specific social sites, similar to Waivio's Earn page but showing only objects from that particular site. Sponsors create campaigns through Waivio's Earn tab, and site owners can add a Challenges tab to their menu for easy visitor access to available rewards.\n\n![image](https://github.com/user-attachments/assets/0f3b6ae2-9ae3-435a-a16e-c6237fccde41)",
+        "answer": "Challenges is a collection of crypto reward opportunities tailored to specific social sites, similar to Waivio's Earn page but showing only objects from that particular site. Sponsors create campaigns through Waivio's Earn tab, and site owners can add a Challenges tab to their menu for easy visitor access to available rewards.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/b0dd73cb235f83b8dee54a95a3b798462310c03774129ae9fdbfab8b4c76854c)",
         "topic": "EarnCampaign"
     },
     {
@@ -96,7 +96,7 @@
     },
     {
         "question": "How do breadcrumbs work in Global and Local Earn sections?",
-        "answer": "Breadcrumbs show navigation path: 1st step shows 'Global rewards' or 'Local rewards', 2nd step shows 'Eligible rewards' or 'All rewards' (depending on eligibility filter) plus primary object name. Primary object name is not clickable, but Eligible/All is clickable to return to first step.\n\n![image](https://github.com/user-attachments/assets/97766be7-f061-4463-b0e8-bd861ebeea13)",
+        "answer": "Breadcrumbs show navigation path: 1st step shows 'Global rewards' or 'Local rewards', 2nd step shows 'Eligible rewards' or 'All rewards' (depending on eligibility filter) plus primary object name. Primary object name is not clickable, but Eligible/All is clickable to return to first step.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/5fe71082f6a9823d5bfa3fb4b4fbe987626be8155591064ce14d772c990282c0)",
         "topic": "EarnCampaign"
     },
     {
@@ -141,7 +141,7 @@
     },
     {
         "question": "How do I import products from Datafiniti?",
-        "answer": "1) Find your product on Datafiniti using ASIN or other filters, 2) Download as JSON format with all matching records, 3) For variants, use parent ASIN to get all product colors/sizes, 4) Authorize data import bot on Waivio, 5) Ensure sufficient WAIV and HIVE power, 6) Upload JSON file in Tools > Data Import, optionally enable ChatGPT description optimization, 7) Choose authority level and confirm.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/1681417996_c3e23a31-aa8f-4dcf-87de-46a9f133e5ba)\n![image](https://github.com/user-attachments/assets/33654c06-8ee3-4aef-acb1-9907fbef5fca)",
+        "answer": "1) Find your product on Datafiniti using ASIN or other filters, 2) Download as JSON format with all matching records, 3) For variants, use parent ASIN to get all product colors/sizes, 4) Authorize data import bot on Waivio, 5) Ensure sufficient WAIV and HIVE power, 6) Upload JSON file in Tools > Data Import, optionally enable ChatGPT description optimization, 7) Choose authority level and confirm.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/1681417996_c3e23a31-aa8f-4dcf-87de-46a9f133e5ba)\n![image](https://waivio.nyc3.digitaloceanspaces.com/f92228b7cd0a9b9e898253cd629dedcf7e6ef5e6931239dcbbdac0b36b8ea737)",
         "topic": "ObjectImport"
     },
     {
@@ -191,7 +191,7 @@
     },
     {
         "question": "How does recipe creation work with the Waivio Extension?",
-        "answer": "Open a recipe video on TikTok, YouTube, or Instagram, then click 'Recipe Draft' in the extension. It will automatically extract ingredients, instructions, and captions, and analyze the video. You can edit and refine the recipe before publishing in two steps: A) Create the recipe object on the Hive blockchain, and B) Publish a blog post linking to the recipe. This requires Data Import to be enabled and sufficient WAIV Power.\n\n![image](https://github.com/user-attachments/assets/020729a0-5811-4980-9b08-5848bd837e85) ![image](https://github.com/user-attachments/assets/ca370549-d57f-416d-90d9-0d115ef23404)",
+        "answer": "Open a recipe video on TikTok, YouTube, or Instagram, then click 'Recipe Draft' in the extension. It will automatically extract ingredients, instructions, and captions, and analyze the video. You can edit and refine the recipe before publishing in two steps: A) Create the recipe object on the Hive blockchain, and B) Publish a blog post linking to the recipe. This requires Data Import to be enabled and sufficient WAIV Power.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/7e7cbb8775686189b0908a32d03dcd09fce8fb7f8b7e77045bb456e27779d2fa) ![image](https://waivio.nyc3.digitaloceanspaces.com/afa4933b34e742ea5043a4d66dba49d2e8651a5827d979a0086084a58657fae6)",
         "topic": "ObjectImport"
     },
     {
@@ -231,17 +231,17 @@
     },
     {
         "question": "What is the difference between Administrators, Moderators, and Authorities?",
-        "answer": "Administrators have decisive voting power on object updates for the website - their last vote stands. Moderators can flag posts/comments and mute users, removing (hiding) content from the site. Authorities claim responsibility for object accuracy and can approve/reject updates. Website owners can specify which authorities to trust, and admin votes override authority decisions.\n\n![image](https://github.com/user-attachments/assets/431dbbfe-7edf-425d-96a8-d984cbda7348)",
+        "answer": "Administrators have decisive voting power on object updates for the website - their last vote stands. Moderators can flag posts/comments and mute users, removing (hiding) content from the site. Authorities claim responsibility for object accuracy and can approve/reject updates. Website owners can specify which authorities to trust, and admin votes override authority decisions.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/ae0e5604e5c0016a8956d75d2d75a6885f317193e0274ea358c6321514fd2499)",
         "topic": "SitesManagement"
     },
     {
         "question": "How does the muting and blacklisting system work?",
-        "answer": "Muted users (by moderators or the owner) have their posts, comments, and profile content hidden from the platform. Blacklisted users have all of their updates and votes ignored; they also cannot participate in campaigns to earn rewards. Website owners can override blacklists by adding users to the whitelist, which restores their privileges.\n\n![image](https://user-images.githubusercontent.com/67378322/141988499-ac1f0d58-1420-4c08-bf73-523e75b643ce.png) https://github.com/user-attachments/assets/0fff561e-ef3f-40b7-85fe-d8684c19385a",
+        "answer": "Muted users (by moderators or the owner) have their posts, comments, and profile content hidden from the platform. Blacklisted users have all of their updates and votes ignored; they also cannot participate in campaigns to earn rewards. Website owners can override blacklists by adding users to the whitelist, which restores their privileges.\n\n![image](https://user-images.githubusercontent.com/67378322/141988499-ac1f0d58-1420-4c08-bf73-523e75b643ce.png) https://waivio.nyc3.digitaloceanspaces.com/2300223ea84e0606582220f7481211ff6d68d31d7a28f7c6f6b6a824f5a087e7",
         "topic": "SitesManagement"
     },
     {
         "question": "How do I set up Google AdSense ads on my website?",
-        "answer": "In the AdSense ads section, add your AdSense code (embedded in the site header), enter the ads.txt content for verification, and choose the ad intensity level (Minimal, Moderate, or Intensive). You can also optionally add a Display Ad Unit code. Note that Google AdSense approval depends on meeting their policy criteria and may not approve all domains. To display ads, you have two options: first, enable Auto Ads directly in your Google AdSense account, and ads will automatically appear where AdSense finds suitable placements; second (preferred), add a Display Ad Unit code. For details, see this guide https://www.waivio.com/object/nvo-adsense-display-ad-unit-guide. To do this, go to your AdSense account, create an ad unit of the “Display ads” type, copy the code snippet, and paste it into our AdSense settings. \n\n![image](https://github.com/user-attachments/assets/3841b524-4569-45d9-803a-5a490876c64a)",
+        "answer": "In the AdSense ads section, add your AdSense code (embedded in the site header), enter the ads.txt content for verification, and choose the ad intensity level (Minimal, Moderate, or Intensive). You can also optionally add a Display Ad Unit code. Note that Google AdSense approval depends on meeting their policy criteria and may not approve all domains. To display ads, you have two options: first, enable Auto Ads directly in your Google AdSense account, and ads will automatically appear where AdSense finds suitable placements; second (preferred), add a Display Ad Unit code. For details, see this guide https://www.waivio.com/object/nvo-adsense-display-ad-unit-guide. To do this, go to your AdSense account, create an ad unit of the “Display ads” type, copy the code snippet, and paste it into our AdSense settings. \n\n![image](https://waivio.nyc3.digitaloceanspaces.com/9213b03403419062ab88c6b026ce6c089ab2c3e69fea2ca7f57e6658df063ac6)",
         "topic": "SitesManagement"
     },
     {
@@ -261,7 +261,7 @@
     },
     {
         "question": "What is a base object and how does it affect my website?",
-        "answer": "A base object is the core reference that defines the structure of your website's main menu. It can be a product, business, restaurant, or user. If you select an existing project such as 'Clean Girl Aesthetics' or 'Coffee Time,' your site will automatically inherit thousands of organized products and categories. If no menu items are linked to the base object, the site will use default tabs such as Blog, Map, Shop, and Recipes, which are generated from the user profile information and Legal tabs.\n\n![image](https://github.com/user-attachments/assets/eeeee254-b5db-4a9f-b409-232ab833364f)",
+        "answer": "A base object is the core reference that defines the structure of your website's main menu. It can be a product, business, restaurant, or user. If you select an existing project such as 'Clean Girl Aesthetics' or 'Coffee Time,' your site will automatically inherit thousands of organized products and categories. If no menu items are linked to the base object, the site will use default tabs such as Blog, Map, Shop, and Recipes, which are generated from the user profile information and Legal tabs.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/51121126257321526459895898310b910630dc53a921313147c885f4edf1940e)",
         "topic": "SitesManagement"
     },
     {
@@ -296,17 +296,17 @@
     },
     {
         "question": "What tools are available for website management?",
-        "answer": "Website management is divided into three sections. The first section is Data Management, which includes tools such as Data Import, Claim Authority, Departments Bot, Descriptions Bot, List Duplication, Message Bot, Reposting Bot, Tags Bot, and the Chrome extension. The second section covers general information for all websites, including creating websites, managing payments, activating, deactivating or removing sites, and viewing reports (Create, Manage, Reports tabs). The third section is dedicated to managing each individual site, with options for Configuration, Settings, Affiliate Codes, Administrators, Moderators, Authorities, Trusted Accounts, Muted Users, AdSense Ads, and Integrations. All of these tools are located in the Tools section.\n\n![image](https://github.com/user-attachments/assets/43a17a09-a31b-40f1-962d-8f6291cf65ef)",
+        "answer": "Website management is divided into three sections. The first section is Data Management, which includes tools such as Data Import, Claim Authority, Departments Bot, Descriptions Bot, List Duplication, Message Bot, Reposting Bot, Tags Bot, and the Chrome extension. The second section covers general information for all websites, including creating websites, managing payments, activating, deactivating or removing sites, and viewing reports (Create, Manage, Reports tabs). The third section is dedicated to managing each individual site, with options for Configuration, Settings, Affiliate Codes, Administrators, Moderators, Authorities, Trusted Accounts, Muted Users, AdSense Ads, and Integrations. All of these tools are located in the Tools section.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/eb0a1b66031437ebf4f267f48718a93c9e2aaad6dfe795209c8265cd098643fa)",
         "topic": "SitesManagement"
     },
     {
         "question": "What is the Earn section on Waivio?",
-        "answer": "The Earn section on Waivio is designed to connect sponsors and users through rewards. It exists to encourage community engagement, support the creation of quality content, and promote products and services. Users can participate in campaigns, complete tasks, and receive rewards, usually in WAIV tokens, while sponsors can create and manage these campaigns to reach a wider audience. In the Earn section, users can join campaigns where sponsors offer rewards for activities such as writing reviews or posting photos. They can also use the Rewards block, which includes Global, Local, Reserved, Receivable, and History, to track and manage their earnings. By creating and sharing quality content, users can earn upvotes from others, which translate into rewards. Active participation through commenting, voting, and interacting with other users' content also contributes to rewards. Overall, the Earn section provides tools for sponsors to run promotional activities and for users to discover opportunities to earn tokens by being active and creative within the community.\n\n![image](https://github.com/user-attachments/assets/886062ad-855b-42d2-ade0-2f4e8ca8fd64)",
+        "answer": "The Earn section on Waivio is designed to connect sponsors and users through rewards. It exists to encourage community engagement, support the creation of quality content, and promote products and services. Users can participate in campaigns, complete tasks, and receive rewards, usually in WAIV tokens, while sponsors can create and manage these campaigns to reach a wider audience. In the Earn section, users can join campaigns where sponsors offer rewards for activities such as writing reviews or posting photos. They can also use the Rewards block, which includes Global, Local, Reserved, Receivable, and History, to track and manage their earnings. By creating and sharing quality content, users can earn upvotes from others, which translate into rewards. Active participation through commenting, voting, and interacting with other users' content also contributes to rewards. Overall, the Earn section provides tools for sponsors to run promotional activities and for users to discover opportunities to earn tokens by being active and creative within the community.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/c70afb4ecdfd40f2c57bd6e77e3a973c8524e6ffb01b536ad1774eb235252d4e)",
         "topic": "CampaignManagement"
     },
     {
         "question": "What are the different campaign statuses in Waivio?",
-        "answer": "Campaign statuses include: Pending (newly created, editable), Active (live campaign, non-editable), Inactive (deactivated), On Hold (deactivating with active reservations), Expired (maximum reservation period ended), Reached Limit (monthly budget exhausted), Delete (deleted on back-end), and Suspended (blocked due to unpaid debts for 30+ days).\n\n![image](https://github.com/user-attachments/assets/16fb3611-07cb-4653-83d5-f04c0f2ad597)",
+        "answer": "Campaign statuses include: Pending (newly created, editable), Active (live campaign, non-editable), Inactive (deactivated), On Hold (deactivating with active reservations), Expired (maximum reservation period ended), Reached Limit (monthly budget exhausted), Delete (deleted on back-end), and Suspended (blocked due to unpaid debts for 30+ days).\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/05c6f94807a38d8b6ae51d0c52165d09822b67a25777fecad89f0ffee460a5eb)",
         "topic": "CampaignManagement"
     },
     {
@@ -321,12 +321,12 @@
     },
     {
         "question": "How do I create a campaign on Waivio?",
-        "answer": "To create a campaign, go to the Create tab in Earn or click 'Create new campaign' in the Manage tab. You need to provide: campaign name, type (reviews/mentions), reach (global/local), currencies, budget, reward amount, reservation period, photos requirement, primary/secondary objects, eligibility criteria, and legal agreements. After creation, activate it in the Manage tab.\n\n![image](https://github.com/user-attachments/assets/d964e37d-9014-428e-9078-bdc322edce7c)",
+        "answer": "To create a campaign, go to the Create tab in Earn or click 'Create new campaign' in the Manage tab. You need to provide: campaign name, type (reviews/mentions), reach (global/local), currencies, budget, reward amount, reservation period, photos requirement, primary/secondary objects, eligibility criteria, and legal agreements. After creation, activate it in the Manage tab.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/5bbf7c0ab7988f647354c65fc643909d46929e16d7ca31f011e54700f53c80e4)",
         "topic": "CampaignManagement"
     },
     {
         "question": "What are types of campaigns available?",
-        "answer": "There are several types of campaigns available on Waivio. The first type is Reviews, which require manual reservation where users must find, reserve, and complete the campaign. The second type is Mentions, where eligibility is verified automatically after a post is created, with no reservation needed. The third type is Giveaway Post, which motivates users to take simple actions such as following, liking, or leaving a comment under a specific post. These are created from the Editor using the 'Add giveaway' button, and sponsors add them as part of their post. The fourth type is Giveaway, which involves random reward allocation for users who post content according to campaign rules. The fifth type is Contest, where users compete by creating posts, judges vote on them, and up to three winners receive different prizes for first, second, and third place.![image](https://github.com/user-attachments/assets/df7ce7f0-07b9-4efc-bf2e-2b02c95f57e1)",
+        "answer": "There are several types of campaigns available on Waivio. The first type is Reviews, which require manual reservation where users must find, reserve, and complete the campaign. The second type is Mentions, where eligibility is verified automatically after a post is created, with no reservation needed. The third type is Giveaway Post, which motivates users to take simple actions such as following, liking, or leaving a comment under a specific post. These are created from the Editor using the 'Add giveaway' button, and sponsors add them as part of their post. The fourth type is Giveaway, which involves random reward allocation for users who post content according to campaign rules. The fifth type is Contest, where users compete by creating posts, judges vote on them, and up to three winners receive different prizes for first, second, and third place.![image](https://waivio.nyc3.digitaloceanspaces.com/3c577e005d1d5df03dde6dbf1cd06aedd7033539142f6927f84806eaf3f734dd)",
         "topic": "CampaignManagement"
     },
     {
@@ -341,17 +341,17 @@
     },
     {
         "question": "What are Match Bots in Waivio?",
-        "answer": "Match Bots are automated services that vote on content. There are three types: Authors Match Bot (automatically upvotes specified authors' posts), Curators Match Bot (repeats upvotes/downvotes of specified curators), and Sponsors Match Bot (offsets direct rewards with upvotes to reduce payment obligations).\n\n![image](https://github.com/user-attachments/assets/d6b21893-9afa-4e9e-ba8d-ba94d35b84f0)",
+        "answer": "Match Bots are automated services that vote on content. There are three types: Authors Match Bot (automatically upvotes specified authors' posts), Curators Match Bot (repeats upvotes/downvotes of specified curators), and Sponsors Match Bot (offsets direct rewards with upvotes to reduce payment obligations).\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/37dba0d17940c870f4d5bab588fcb38b9803d5c42944802b3dbdf74c33a9a9b5)",
         "topic": "CampaignManagement"
     },
     {
         "question": "How does the Authors Match Bot work?",
-        "answer": "The Authors Match Bot monitors specified authors and automatically upvotes their new posts after 5 minutes if voting power meets the threshold. You can set upvote strength (1-100%), minimum voting power requirements, and expiry dates. It only votes on posts with estimated value ≥0.01 HBD and doesn't vote on comments or reblogs.\n\n![image](https://github.com/user-attachments/assets/0b62214d-e2c1-45f0-bab0-7c443ec23938)",
+        "answer": "The Authors Match Bot monitors specified authors and automatically upvotes their new posts after 5 minutes if voting power meets the threshold. You can set upvote strength (1-100%), minimum voting power requirements, and expiry dates. It only votes on posts with estimated value ≥0.01 HBD and doesn't vote on comments or reblogs.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/aa526f6002186d4c5b5692e2d7b45b0cdb74f6b35ca55b27085fd28666d3ae8b)",
         "topic": "CampaignManagement"
     },
     {
         "question": "How does the Curators Match Bot work?",
-        "answer": "The Curators Match Bot repeats curators' votes with a specified ratio (1%-10,000%). You can choose to match upvotes only or include downvotes, set voting ratios, minimum voting power thresholds, and target specific curators. It works on both posts and comments if configured.\n\n![image](https://github.com/user-attachments/assets/fe9a7df2-3175-40c8-b8c3-594f619c812b)",
+        "answer": "The Curators Match Bot repeats curators' votes with a specified ratio (1%-10,000%). You can choose to match upvotes only or include downvotes, set voting ratios, minimum voting power thresholds, and target specific curators. It works on both posts and comments if configured.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/2be0c8860ae46a62f5e4f23baa80eebef35ec57cc836c48d310bba497458613b)",
         "topic": "CampaignManagement"
     },
     {
@@ -376,22 +376,22 @@
     },
     {
         "question": "What currencies are used for campaign rewards?",
-        "answer": "Campaigns on Waivio can only be created using the WAIV token. All rewards users receive for participating in campaigns will be in the form of WAIV tokens. Display currency can be set to various currencies (USD, CAD, etc.) but payments are calculated and made in WAIV.\n\n![image](https://github.com/user-attachments/assets/ec3fd5b8-9244-400f-b681-892430860338)",
+        "answer": "Campaigns on Waivio can only be created using the WAIV token. All rewards users receive for participating in campaigns will be in the form of WAIV tokens. Display currency can be set to various currencies (USD, CAD, etc.) but payments are calculated and made in WAIV.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/7d940b2641270fc2660c6f5eaaa7e53193f02679cbdc83b83e7444f01112cfb6)",
         "topic": "CampaignManagement"
     },
     {
         "question": "What happens if I don't pay campaign obligations on time?",
-        "answer": "If sponsor accounts payable exceed 30 days, all of the sponsor's campaigns will be automatically suspended until payment obligations are fulfilled. The system tracks payment delays and shows orange warnings for overdue payments exceeding 21 days.\n\n![image](https://github.com/user-attachments/assets/efc2b2b7-daaf-49f3-b79c-ebfef8d84599) ![image](https://github.com/user-attachments/assets/082fe020-bef5-4086-b939-f312176b9538)",
+        "answer": "If sponsor accounts payable exceed 30 days, all of the sponsor's campaigns will be automatically suspended until payment obligations are fulfilled. The system tracks payment delays and shows orange warnings for overdue payments exceeding 21 days.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/01844fb6f53e41300b1f2f90e4d66124fdbc5669ea5445ca7863f22eefb6e52b) ![image](https://waivio.nyc3.digitaloceanspaces.com/7a53d8eb1d5e8aa679abc861ff146078aac9bf73c900d8831c05e06960c0c443)",
         "topic": "CampaignManagement"
     },
     {
         "question": "What are the minimum requirements for creating a campaign?",
-        "answer": "Required fields include: campaign name, type (reviews/mentions), reach (global/local), display currency, payment currency (WAIV), budget, reward amount, maximum reservation period, minimum photos, primary and secondary objects, eligibility period, agreement to terms, and campaign expiry date. Optional fields include upvoting accounts, target days, additional requirements, and user eligibility criteria.\n\n![image](https://github.com/user-attachments/assets/d964e37d-9014-428e-9078-bdc322edce7c)",
+        "answer": "Required fields include: campaign name, type (reviews/mentions), reach (global/local), display currency, payment currency (WAIV), budget, reward amount, maximum reservation period, minimum photos, primary and secondary objects, eligibility period, agreement to terms, and campaign expiry date. Optional fields include upvoting accounts, target days, additional requirements, and user eligibility criteria.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/a8c2d8a5ae43dde554a9d273b88d2eefa7d1b7dd96ab61f27e0b4c0f574fedea)",
         "topic": "CampaignManagement"
     },
     {
         "question": "How do reservations work in campaigns?",
-        "answer": "Reservations apply only to the Review campaign type. Users can reserve rewards for a specified number of days, ensuring the offer doesn't disappear while they prepare their review. Reservations temporarily reduce the available campaign budget, and both sponsors and users can cancel them. Reserved campaigns appear in the Reserved tab and must be completed within the reservation period or they will expire. To reserve a campaign, click Submit photos in the reservation (details) modal window to automatically reserve it, or use the three dots menu and select Reserve item if you don't want to complete it immediately but save for later. \n\n![image](https://github.com/user-attachments/assets/beea9da6-770c-41ac-99a6-3d8573466779)",
+        "answer": "Reservations apply only to the Review campaign type. Users can reserve rewards for a specified number of days, ensuring the offer doesn't disappear while they prepare their review. Reservations temporarily reduce the available campaign budget, and both sponsors and users can cancel them. Reserved campaigns appear in the Reserved tab and must be completed within the reservation period or they will expire. To reserve a campaign, click Submit photos in the reservation (details) modal window to automatically reserve it, or use the three dots menu and select Reserve item if you don't want to complete it immediately but save for later. \n\n![image](https://waivio.nyc3.digitaloceanspaces.com/ab90d8815128d9450afd48c944414b64bf353264cfed9b29683343252715034e)",
         "topic": "CampaignManagement"
     },
     {
@@ -401,27 +401,27 @@
     },
     {
         "question": "How to buy WAIV token?",
-        "answer": "You can buy WAIV tokens through the Waivio platform or social sites. The easiest way to buy WAIV tokens is through the Hive Engine Wallet, where you can deposit another cryptocurrency (such as BTC, LTC, or HIVE) and swap it for WAIV. To do this, go to your Waivio wallet, click on Deposit button in left sidebar, select the token you want to deposit, and follow the instructions. After sending your cryptocurrency, it will appear in your Hive Engine Wallet (one of the tabs in the Wallet) as a swap version (for example SWAP.LTC if you deposited LTC). Once you receive the swap currency, you can exchange it for WAIV by opening the Hive Engine Wallet tab, clicking the 'Swap to WAIV' button next to your swap currency, choosing the amount, and submitting the transaction. Alternatively, you can use the general Swap button, where you select the 'from' and 'to' fields manually. After the swap, go to the WAIV tab to see your updated balance. Transactions may take some time to process, so if your balance does not appear immediately, refresh the page and check again later.\n\n![image](https://github.com/user-attachments/assets/16a766f4-0bdc-4e9b-b06a-6626fffe7f25)",
+        "answer": "You can buy WAIV tokens through the Waivio platform or social sites. The easiest way to buy WAIV tokens is through the Hive Engine Wallet, where you can deposit another cryptocurrency (such as BTC, LTC, or HIVE) and swap it for WAIV. To do this, go to your Waivio wallet, click on Deposit button in left sidebar, select the token you want to deposit, and follow the instructions. After sending your cryptocurrency, it will appear in your Hive Engine Wallet (one of the tabs in the Wallet) as a swap version (for example SWAP.LTC if you deposited LTC). Once you receive the swap currency, you can exchange it for WAIV by opening the Hive Engine Wallet tab, clicking the 'Swap to WAIV' button next to your swap currency, choosing the amount, and submitting the transaction. Alternatively, you can use the general Swap button, where you select the 'from' and 'to' fields manually. After the swap, go to the WAIV tab to see your updated balance. Transactions may take some time to process, so if your balance does not appear immediately, refresh the page and check again later.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/4f0247a5ea2063a9aae499c2e7e46cfb8be55a7e4f3a35889048564ea5a9508f)",
         "topic": "CampaignManagement"
     },
     {
         "question": "What tools are available in the Tools section on Waivio?",
-            "answer": "The Tools section offers features for managing your Waivio account including: Notification Settings for configuring alerts, Drafts for managing unpublished posts, Bookmarks for saved posts, Edit Profile for updating personal information, Settings for user preferences, Affiliate Codes for managing commissions, New Accounts for creating Hive accounts via VIP tickets, and Invite for sharing referral links. And Website management that divided into three sections. The first section is Data Management, which includes tools such as Data Import, Claim Authority, Departments Bot, Descriptions Bot, List Duplication, Message Bot, Reposting Bot, Tags Bot, and the Chrome extension. The second section covers general information for all websites, including creating websites, managing payments, activating, deactivating or removing sites, and viewing reports (Create, Manage, Reports tabs). The third section is dedicated to managing each individual site, with options for Configuration, Settings, Affiliate Codes, Administrators, Moderators, Authorities, Trusted Accounts, Muted Users, AdSense Ads, and Integrations. All of these tools are located in the Tools section.\n\n![image](https://github.com/user-attachments/assets/7f9b9a11-f6ce-4aef-bb58-3efc607c651d)",
+            "answer": "The Tools section offers features for managing your Waivio account including: Notification Settings for configuring alerts, Drafts for managing unpublished posts, Bookmarks for saved posts, Edit Profile for updating personal information, Settings for user preferences, Affiliate Codes for managing commissions, New Accounts for creating Hive accounts via VIP tickets, and Invite for sharing referral links. And Website management that divided into three sections. The first section is Data Management, which includes tools such as Data Import, Claim Authority, Departments Bot, Descriptions Bot, List Duplication, Message Bot, Reposting Bot, Tags Bot, and the Chrome extension. The second section covers general information for all websites, including creating websites, managing payments, activating, deactivating or removing sites, and viewing reports (Create, Manage, Reports tabs). The third section is dedicated to managing each individual site, with options for Configuration, Settings, Affiliate Codes, Administrators, Moderators, Authorities, Trusted Accounts, Muted Users, AdSense Ads, and Integrations. All of these tools are located in the Tools section.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/4873a3f0816070327881e4e5102366240db5fb1002acb4ff2f1bb4d9dab7702d)",
         "topic": "UserTools"
     },
     {
         "question": "How do I configure notification settings on Waivio?",
-            "answer": "Go to Tools > Notifications to configure which notifications you receive. You can set up notifications for Community actions (likes, re-blogs, replies, mentions, downvotes, follow), Wallet transactions (incoming transfers with minimum amount thresholds, market operations, power ups, claimed rewards), My actions (posts, comments, likes), and Security alerts (always enabled for account safety). Notifications are sent to both the platform and Telegram via @WaivioNotificationsBot.\n\n![image](https://github.com/user-attachments/assets/fdc24f9a-b6b6-4b31-99d4-65d6a2312321)",
+            "answer": "Go to Tools > Notifications to configure which notifications you receive. You can set up notifications for Community actions (likes, re-blogs, replies, mentions, downvotes, follow), Wallet transactions (incoming transfers with minimum amount thresholds, market operations, power ups, claimed rewards), My actions (posts, comments, likes), and Security alerts (always enabled for account safety). Notifications are sent to both the platform and Telegram via @WaivioNotificationsBot.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/ecb22229837937d7ed7503c4bf0fa9b525fb0d46f9ca72c8162db6041f99a7b2)",
         "topic": "UserTools"
     },
     {
         "question": "How do I manage drafts and bookmarks on Waivio?",
-            "answer": "Drafts: Access Tools > Drafts to manage unpublished posts. You can publish or delete drafts, with options to select multiple drafts for bulk deletion. Bookmarks: Access Tools > Bookmarks to view saved posts in news feed format. Add posts to bookmarks by clicking the three dots on any post and selecting 'Add to bookmarks'. Bookmarks are sorted with newest at the top.\n\n![image](https://github.com/user-attachments/assets/c6b8923f-4e16-407e-8886-f240b5ec7e89)\n\n![image](https://github.com/user-attachments/assets/c96f5808-3f43-47a1-bb7f-94b42d25aa80)",
+            "answer": "Drafts: Access Tools > Drafts to manage unpublished posts. You can publish or delete drafts, with options to select multiple drafts for bulk deletion. Bookmarks: Access Tools > Bookmarks to view saved posts in news feed format. Add posts to bookmarks by clicking the three dots on any post and selecting 'Add to bookmarks'. Bookmarks are sorted with newest at the top.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/3bbe81ece668ce580387cfafe0879c2156bdd19b757de0dffa59356d1dcb7d5b)\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/f713b3b677abb96954121e65a09c8e0dded19c485af0d7860e2669113802eba9)",
         "topic": "UserTools"
     },
     {
         "question": "What can I customize in my Waivio profile settings?",
-            "answer": "In Edit Profile, you can update: Name, About Me (description), Location, Email, Website, Profile Picture (avatar), Cover Picture, Social media links (Facebook, Twitter, YouTube, Instagram, TikTok, Snapchat, GitHub, Reddit, Telegram, WhatsApp, Pinterest, Twitch, LinkedIn) Crypto wallets (Bitcoin, Litecoin, Ethereum, Lightning Bitcoin), and Signature for comments. All profile information becomes public when saved.\n\n![image](https://github.com/user-attachments/assets/ec597353-0582-45be-8a3e-614e5251be14)",
+            "answer": "In Edit Profile, you can update: Name, About Me (description), Location, Email, Website, Profile Picture (avatar), Cover Picture, Social media links (Facebook, Twitter, YouTube, Instagram, TikTok, Snapchat, GitHub, Reddit, Telegram, WhatsApp, Pinterest, Twitch, LinkedIn) Crypto wallets (Bitcoin, Litecoin, Ethereum, Lightning Bitcoin), and Signature for comments. All profile information becomes public when saved.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/d51f89267592f31720c1064025c567c2f92608ffc8b7eeca63f700d12d7078b0)",
         "topic": "UserTools"
     },
     {
@@ -441,7 +441,7 @@
     },
     {
         "question": "How do I create a Hive account",
-            "answer": "Users can create a Hive account by using Waivio VIP tickets. These tickets allow the creation of new Hive accounts, and they can be purchased by both Hive users and guest accounts authorized through Google. To purchase tickets, go to Tools > New Accounts and select the number of HiveOnBoard VIP tickets you want (each costs 3 HIVE). Click Pay Now and confirm the payment in WAIV tokens to waivio.vip. After payment, the tickets will appear as active in your account. To use a ticket, simply click on the link provided and follow the instructions. Each VIP ticket is valid for creating one account at HiveOnBoard.com and can also be shared with others by email. Once a ticket is used, it is automatically moved to the archive section for reference.\n\n![image](https://github.com/user-attachments/assets/4dcc54fe-1bd3-482e-b1de-81bfa1abb1a0)",
+            "answer": "Users can create a Hive account by using Waivio VIP tickets. These tickets allow the creation of new Hive accounts, and they can be purchased by both Hive users and guest accounts authorized through Google. To purchase tickets, go to Tools > New Accounts and select the number of HiveOnBoard VIP tickets you want (each costs 3 HIVE). Click Pay Now and confirm the payment in WAIV tokens to waivio.vip. After payment, the tickets will appear as active in your account. To use a ticket, simply click on the link provided and follow the instructions. Each VIP ticket is valid for creating one account at HiveOnBoard.com and can also be shared with others by email. Once a ticket is used, it is automatically moved to the archive section for reference.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/eadba4e8804eae971907f6d128441693a78c1ecc6d9edbcc2109c7e72cfa6762)",
         "topic": "UserTools"
     },
     {
@@ -451,7 +451,7 @@
     },
     {
         "question": "What is the VIP ticket system and how does it work?",
-            "answer": "The VIP ticket system is a way to create new Hive accounts through Waivio. Each ticket costs 3 HIVE and can be purchased by both Hive users and guest accounts (authorized through Google). After purchase, tickets appear as active in your account and can be used to create one Hive account at HiveOnBoard.com. A ticket contains a unique ID and shareable link, so it can also be sent to friends or family to help them join Hive. Tickets are one-time use only and are moved to the archive section after they are used. This system makes account creation simple, supports invitations, and allows users to create multiple accounts if needed.\n\n![image](https://github.com/user-attachments/assets/4dcc54fe-1bd3-482e-b1de-81bfa1abb1a0)",
+            "answer": "The VIP ticket system is a way to create new Hive accounts through Waivio. Each ticket costs 3 HIVE and can be purchased by both Hive users and guest accounts (authorized through Google). After purchase, tickets appear as active in your account and can be used to create one Hive account at HiveOnBoard.com. A ticket contains a unique ID and shareable link, so it can also be sent to friends or family to help them join Hive. Tickets are one-time use only and are moved to the archive section after they are used. This system makes account creation simple, supports invitations, and allows users to create multiple accounts if needed.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/eadba4e8804eae971907f6d128441693a78c1ecc6d9edbcc2109c7e72cfa6762)",
         "topic": "UserTools"
     },
     {
@@ -461,37 +461,37 @@
     },
     {
         "question": "What are the different notification categories and their purposes?",
-            "answer": "Community actions: likes, re-blogs, replies, mentions, downvotes, follows, status changes, campaign activations, claimed object updates, Group ID control, followed user threads. Wallet transactions: incoming transfers (with minimum USD threshold), internal market operations, power ups, claimed rewards. My actions: your posts, comments, likes. Security alerts: outgoing transfers, power downs, withdrawals, delegations, password recovery (always enabled).\n\n![image](https://github.com/user-attachments/assets/cc8c5cd5-21dd-4841-b7aa-9a023391954c)",
+            "answer": "Community actions: likes, re-blogs, replies, mentions, downvotes, follows, status changes, campaign activations, claimed object updates, Group ID control, followed user threads. Wallet transactions: incoming transfers (with minimum USD threshold), internal market operations, power ups, claimed rewards. My actions: your posts, comments, likes. Security alerts: outgoing transfers, power downs, withdrawals, delegations, password recovery (always enabled).\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/7d797b121bfbd219047394f33b9a511c0ac7351f6cda1b7dcf286f9a67a70eed)",
         "topic": "UserTools"
     },
     {
         "question": "How do I manage my shop, recipe and favorites visibility settings?",
-            "answer": "In Tools > Settings, manage your public shopping list, recipes and favorites in your profile. By default, all sections display objects linked from your posts or first-level comments. Use the checkbox 'Do not show objects linked in posts' in either Shop, Recipe or Favorites sections to prevent automatic addition of referenced objects, giving you more control over what appears in these public sections.\n\n![image](https://github.com/user-attachments/assets/009bdb40-dfab-44ca-8d13-acf49185f362)",
+            "answer": "In Tools > Settings, manage your public shopping list, recipes and favorites in your profile. By default, all sections display objects linked from your posts or first-level comments. Use the checkbox 'Do not show objects linked in posts' in either Shop, Recipe or Favorites sections to prevent automatic addition of referenced objects, giving you more control over what appears in these public sections.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/5922bc081a4192ba48e18fb3bdbb8083b47e7cb2fe94eac4a450077cb197f6aa)",
         "topic": "UserTools"
     },
     {
         "question": "What customization options are available for the user interface?",
-            "answer": "Customize your Waivio experience with: Interface Language selection from 24 available languages, Content Language Preferences for filtering blockchain posts/comments, Base Currency from top 10 world currencies (USD, EUR, GBP, CAD, AUD, CNY, JPY, MXN, UAH, RUB), Nightmode for dark theme, and various display preferences for posts, voting, and external links.\n\n![image](https://github.com/user-attachments/assets/bfacfdc4-9b0a-453f-8ed9-b70e4675f8d0)",
+            "answer": "Customize your Waivio experience with: Interface Language selection from 24 available languages, Content Language Preferences for filtering blockchain posts/comments, Base Currency from top 10 world currencies (USD, EUR, GBP, CAD, AUD, CNY, JPY, MXN, UAH, RUB), Nightmode for dark theme, and various display preferences for posts, voting, and external links.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/f08eae949b6be785da1ec7d93d44a04abb8e392ce6717c9a18c70c33e4db2ebd)",
         "topic": "UserTools"
     },
     {
         "question": "How do I manage profile customization and social media integration?",
-            "answer": "In Edit Profile, upload avatar and cover images (≤30MB, JPG/GIF/PNG), add personal information (name, about me, location, email, website), link social media accounts (Facebook, Twitter, YouTube, Instagram, TikTok, Snapchat, GitHub, Reddit, Telegram, WhatsApp, Pinterest, Twitch, LinkedIn), add crypto wallet addresses (Bitcoin, Litecoin, Ethereum, Lightning Bitcoin), and create a signature that automatically appears in your comments.\n\n![image](https://github.com/user-attachments/assets/ec597353-0582-45be-8a3e-614e5251be14)",
+            "answer": "In Edit Profile, upload avatar and cover images (≤30MB, JPG/GIF/PNG), add personal information (name, about me, location, email, website), link social media accounts (Facebook, Twitter, YouTube, Instagram, TikTok, Snapchat, GitHub, Reddit, Telegram, WhatsApp, Pinterest, Twitch, LinkedIn), add crypto wallet addresses (Bitcoin, Litecoin, Ethereum, Lightning Bitcoin), and create a signature that automatically appears in your comments.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/d51f89267592f31720c1064025c567c2f92608ffc8b7eeca63f700d12d7078b0)",
         "topic": "UserTools"
     },
     {
         "question": "What security features are built into the notification system?",
-            "answer": "Security notifications cannot be disabled to protect your account. They automatically alert you about: outgoing transfers, power downs, withdrawals from savings, delegations, password recovery requests, recovery address changes, and app authorizations. These alerts help detect unauthorized access and potential account compromise, with notifications sent via both Waivio platform and Telegram.\n\n![image](https://github.com/user-attachments/assets/240bf9e5-bf58-414e-bc1e-94ca99e20316)",
+            "answer": "Security notifications cannot be disabled to protect your account. They automatically alert you about: outgoing transfers, power downs, withdrawals from savings, delegations, password recovery requests, recovery address changes, and app authorizations. These alerts help detect unauthorized access and potential account compromise, with notifications sent via both Waivio platform and Telegram.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/4e5a3043bb6723d5605729faca4fdb45ab9e75d1362af05d792a7d64ac33c759)",
         "topic": "UserTools"
     },
     {
         "question": "How do I share VIP tickets and manage account creation for others?",
-            "answer": "In the Share VIP Ticket modal, view the ticket ID and HiveOnBoard link, copy either for sharing, add personal notes for organization, and save changes. Tickets can be shared via email or other digital means. Each ticket is valid for one account creation, after which it's automatically archived. You can track both active and used tickets in separate tables.\n\n![image](https://github.com/user-attachments/assets/46c4a92f-180b-44e4-a7eb-f6117c231a92)",
+            "answer": "In the Share VIP Ticket modal, view the ticket ID and HiveOnBoard link, copy either for sharing, add personal notes for organization, and save changes. Tickets can be shared via email or other digital means. Each ticket is valid for one account creation, after which it's automatically archived. You can track both active and used tickets in separate tables.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/1a323ea3b73158ee4a178e594d0101f94fba5a2cc60d91074bb02ad9059d8154)",
         "topic": "UserTools"
     },
     {
         "question": "What wallet integration features are available in user profiles?",
-            "answer": "User profiles display public wallet addresses for HIVE, HBD, Bitcoin, Litecoin, Ethereum, and Lightning Bitcoin. Clicking any wallet opens a modal with the address and QR code for easy sharing. You can also showcase your expertise through WAIV and HIVE token sections showing upvoting/downvoting mana, resource credits, and vote values in your preferred currency.\n\n![image](https://github.com/user-attachments/assets/46e890e7-9b96-44ce-a908-37656dd502b4)",
+            "answer": "User profiles display public wallet addresses for HIVE, HBD, Bitcoin, Litecoin, Ethereum, and Lightning Bitcoin. Clicking any wallet opens a modal with the address and QR code for easy sharing. You can also showcase your expertise through WAIV and HIVE token sections showing upvoting/downvoting mana, resource credits, and vote values in your preferred currency.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/f197dc912ba999f3d2b1bf1ea23de99c2d0329f8df75ea8b831b44fc06c1f045)",
         "topic": "UserTools"
     },
     {
@@ -501,7 +501,7 @@
     },
     {
         "question": "How does voting power work?",
-        "answer": "Voting power on Waivio determines the strength of your upvotes and how much influence they have on rewards. It starts at 100% and decreases with each vote you cast. A full 100% upvote reduces your voting power by about 2%. Voting power regenerates automatically at around 20% per day, so if you use all of it, it takes about five days to fully recharge. On average, this allows you to make around 10 full-strength votes at 100% each day, or more votes at lower percentages. The value of your vote depends on the amount of staked tokens you hold (WAIV Power and HIVE Power). The more tokens you have staked, the higher the value and influence of your votes. To maximize your impact, it is best to use your voting power strategically by voting on content you find most valuable when your voting power is higher.\n\n![image](https://github.com/user-attachments/assets/e34af901-a96f-4305-8be1-01a53e092b45)",
+        "answer": "Voting power on Waivio determines the strength of your upvotes and how much influence they have on rewards. It starts at 100% and decreases with each vote you cast. A full 100% upvote reduces your voting power by about 2%. Voting power regenerates automatically at around 20% per day, so if you use all of it, it takes about five days to fully recharge. On average, this allows you to make around 10 full-strength votes at 100% each day, or more votes at lower percentages. The value of your vote depends on the amount of staked tokens you hold (WAIV Power and HIVE Power). The more tokens you have staked, the higher the value and influence of your votes. To maximize your impact, it is best to use your voting power strategically by voting on content you find most valuable when your voting power is higher.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/2c01a2bf3fc9319358bfb72b91485e185c1f45055ab0c9e5291863ed6463074a)",
         "topic": "WaivioGeneral"
     },
     {
@@ -511,7 +511,7 @@
     },
     {
         "question": "How do I sign in to Waivio?",
-        "answer": "To sign in to Waivio, you can choose one of three authorization options. If you are new, the easiest way is to use Google login. This creates a guest account with limited functionality: you will not have voting power, but you can still post, create a social site, and your username will include the prefix 'waivio_'. For full access, you need a Hive account. You can sign in with HiveSigner by using your Hive account credentials, or with HiveAuth (Hive Keychain) by scanning a QR code with the Keychain app on your phone for secure mobile authentication. If you don't yet have a Hive account, one option is to start by signing in with Google. As you participate in the platform by writing posts and earning rewards, you can accumulate the equivalent of 3 HIVE in WAIV tokens. Once you have enough, you can create a Hive account through the VIP ticket system (Tools > New Accounts). After that, you will be able to sign in using HiveSigner or HiveAuth (Hive Keychain) and gain full access to all platform features.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/1651446189_b2ddf46a-a173-4b8e-b62d-0988892e9fbd)\n![image](https://github.com/user-attachments/assets/ec2f4773-4a65-4d5f-8b1d-4fa5ad983c02)",
+        "answer": "To sign in to Waivio, you can choose one of three authorization options. If you are new, the easiest way is to use Google login. This creates a guest account with limited functionality: you will not have voting power, but you can still post, create a social site, and your username will include the prefix 'waivio_'. For full access, you need a Hive account. You can sign in with HiveSigner by using your Hive account credentials, or with HiveAuth (Hive Keychain) by scanning a QR code with the Keychain app on your phone for secure mobile authentication. If you don't yet have a Hive account, one option is to start by signing in with Google. As you participate in the platform by writing posts and earning rewards, you can accumulate the equivalent of 3 HIVE in WAIV tokens. Once you have enough, you can create a Hive account through the VIP ticket system (Tools > New Accounts). After that, you will be able to sign in using HiveSigner or HiveAuth (Hive Keychain) and gain full access to all platform features.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/1651446189_b2ddf46a-a173-4b8e-b62d-0988892e9fbd)\n![image](https://waivio.nyc3.digitaloceanspaces.com/29368e21bae0746a6c596be89a3860aaee32903829b378f64ad59b63758d4086)",
         "topic": "WaivioGeneral"
     },
     {
@@ -526,12 +526,12 @@
     },
     {
         "question": "How do I cash out/withdraw HIVE?",
-        "answer": "To withdraw HIVE, go to your Waivio wallet and open the HIVE tab. Click on the Withdraw button in the right sidebar, then choose the cryptocurrency you want to withdraw to. Enter the amount, fill in and check the destination wallet address (or scan the QR code), and confirm the withdrawal by clicking Withdraw and following the instructions. You can track the status of your withdrawals in the transaction history section of the HIVE tab. All crypto withdrawals are processed by Changelly. The same process can also be used for paying at crypto-accepting stores or withdrawing through Bitcoin ATMs. WAIV can be withdrawn to BTC, LTC, ETH, or HIVE.\n\n![image](https://github.com/user-attachments/assets/e7fae06f-0841-42ea-b0e0-8ac1f7f3923f)",
+        "answer": "To withdraw HIVE, go to your Waivio wallet and open the HIVE tab. Click on the Withdraw button in the right sidebar, then choose the cryptocurrency you want to withdraw to. Enter the amount, fill in and check the destination wallet address (or scan the QR code), and confirm the withdrawal by clicking Withdraw and following the instructions. You can track the status of your withdrawals in the transaction history section of the HIVE tab. All crypto withdrawals are processed by Changelly. The same process can also be used for paying at crypto-accepting stores or withdrawing through Bitcoin ATMs. WAIV can be withdrawn to BTC, LTC, ETH, or HIVE.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/9e2b3a0562ebafbee7423341966d833a7a93a25201e8bae9997678ea28987cbc)",
         "topic": "WaivioGeneral"
     },
     {
         "question": "How do I withdraw other cryptocurrencies from my Hive Engine wallet (not HIVE, or WAIV)?”",
-        "answer": "To withdraw other tokens from the Hive Engine ecosystem, you first need to check if there is a direct withdrawal option available. If not, you can swap your token into a currency that supports withdrawals, such as SWAP.HIVE. Once swapped, you can easily withdraw that currency. The main idea is to convert your token into one of the supported withdrawal currencies, and then complete the withdrawal process.\n\n![image](https://github.com/user-attachments/assets/bdde17ac-0dac-4f11-b5d4-d6f75887b28c)",
+        "answer": "To withdraw other tokens from the Hive Engine ecosystem, you first need to check if there is a direct withdrawal option available. If not, you can swap your token into a currency that supports withdrawals, such as SWAP.HIVE. Once swapped, you can easily withdraw that currency. The main idea is to convert your token into one of the supported withdrawal currencies, and then complete the withdrawal process.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/d7bcb2f1c38de433cb404fda60948755b5821f72292da8e9a00818ddc0b8f55e)",
         "topic": "WaivioGeneral"
     },
     {
@@ -541,7 +541,7 @@
     },
     {
         "question": "What is the Waivio platform structure?",
-        "answer": "Waivio has 5 main sections: 1. My Feed (Trending, Hot, New, personalized feeds etc). 2. Earn (Global/Local rewards, Reserved, Receivable, History, Campaigns Management, Match Bots). 3. Shop (comprehensive product catalog). 4. Tools (Personal tools, Data Management, Websites Management). 5. About (tutorials, whitepaper, news). Plus header with Editor, Notifications, User avatar, and Menu.\n\n![image](https://github.com/user-attachments/assets/2cf372db-1506-4b36-b565-79ed0c864b63)",
+        "answer": "Waivio has 5 main sections: 1. My Feed (Trending, Hot, New, personalized feeds etc). 2. Earn (Global/Local rewards, Reserved, Receivable, History, Campaigns Management, Match Bots). 3. Shop (comprehensive product catalog). 4. Tools (Personal tools, Data Management, Websites Management). 5. About (tutorials, whitepaper, news). Plus header with Editor, Notifications, User avatar, and Menu.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/f8597c688bf14b7ba417783f4d586bfd1d73491902422f788d58d09341e7d2e9)",
         "topic": "WaivioGeneral"
     },
     {
@@ -566,7 +566,7 @@
     },
     {
         "question": "What are the main features of the Waivio platform?",
-        "answer": "User-generated content creation, social sites creation for specific interests, reward campaigns for community engagement, crypto rewards earning, user-friendly editor with mobile compatibility, customizable profiles, engagement features (likes, comments, shares), robust search functionality, moderation tools for site admins, support resources, and AI Assistant for help.\n\n![image](https://github.com/user-attachments/assets/188a84e7-0aed-48e7-8439-2609dd1e3034)",
+        "answer": "User-generated content creation, social sites creation for specific interests, reward campaigns for community engagement, crypto rewards earning, user-friendly editor with mobile compatibility, customizable profiles, engagement features (likes, comments, shares), robust search functionality, moderation tools for site admins, support resources, and AI Assistant for help.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/e849f8b2ba00afe1144509b3af065dcc903d223b3dbe5277153c994848d045eb)",
         "topic": "WaivioGeneral"
     },
     {
@@ -576,12 +576,12 @@
     },
     {
         "question": "What are social sites on Waivio?",
-        "answer": "Social sites on Waivio use the social.gifts template and are usually thematic. They are flexible and customizable based on the needs of the site owner. Users can create and manage social sites only on the official Waivio platform (waivio.com). Social sites have a sign-in system similar to Waivio and include the same core functionality, such as posting, commenting, and participating in campaigns.\n\n![image](https://github.com/user-attachments/assets/188a84e7-0aed-48e7-8439-2609dd1e3034)",
+        "answer": "Social sites on Waivio use the social.gifts template and are usually thematic. They are flexible and customizable based on the needs of the site owner. Users can create and manage social sites only on the official Waivio platform (waivio.com). Social sites have a sign-in system similar to Waivio and include the same core functionality, such as posting, commenting, and participating in campaigns.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/e849f8b2ba00afe1144509b3af065dcc903d223b3dbe5277153c994848d045eb)",
         "topic": "WaivioGeneral"
     },
     {
         "question": "What is the structure of a social site built on Waivio?",
-        "answer": "Social sites can include various page types: List (curated collections), Newsfeed (site-related posts), Page (basic information with text/videos/images), Map (key locations), Legal (legal information), Widget (embedded frames), Product (product information), Business (business/restaurant info), Recipes (recipe displays), Shop (purchasable items collection). Users get usual Waivio functionality including posts, profiles, and related pages.\n\n![image](https://github.com/user-attachments/assets/6f882968-d921-4ffa-af69-50a9929918d9)",
+        "answer": "Social sites can include various page types: List (curated collections), Newsfeed (site-related posts), Page (basic information with text/videos/images), Map (key locations), Legal (legal information), Widget (embedded frames), Product (product information), Business (business/restaurant info), Recipes (recipe displays), Shop (purchasable items collection). Users get usual Waivio functionality including posts, profiles, and related pages.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/3f334bea16fbb0072cb627d1f1a91b1c942fdaa79da6b753aa98a6ef2a2b2320)",
         "topic": "WaivioGeneral"
     },
     {
@@ -591,12 +591,12 @@
     },
     {
         "question": "What token withdrawals are supported on Waivio?",
-        "answer": "Tokens eligible for withdrawal typically have 'SWAP' in their name (SWAP.HIVE, SWAP.HBD, SWAP.LTC, SWAP.BTC, SWAP.ETH). You can swap non-withdrawable tokens into withdrawable ones, then withdraw to external wallets. Check available withdrawals in your wallet's Withdraw button, and use Swap button to see conversion options. All Hive Engine tokens can usually convert to at least SWAP.HIVE.\n\n![image](https://github.com/user-attachments/assets/bdde17ac-0dac-4f11-b5d4-d6f75887b28c)",
+        "answer": "Tokens eligible for withdrawal typically have 'SWAP' in their name (SWAP.HIVE, SWAP.HBD, SWAP.LTC, SWAP.BTC, SWAP.ETH). You can swap non-withdrawable tokens into withdrawable ones, then withdraw to external wallets. Check available withdrawals in your wallet's Withdraw button, and use Swap button to see conversion options. All Hive Engine tokens can usually convert to at least SWAP.HIVE.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/d7bcb2f1c38de433cb404fda60948755b5821f72292da8e9a00818ddc0b8f55e)",
         "topic": "WaivioGeneral"
     },
     {
         "question": "How can I receive or buy WAIV tokens?",
-        "answer": "5 ways to get WAIV: 1. Earn through posts, engagement, and platform activities. 2. Receive transfers from other users via account username. 3. Swap other Hive Engine tokens (SWAP.HIVE, SWAP.BTC, etc.) for WAIV. 4. Deposit external currencies (LTC, BTC, HIVE, HBD) which become swap-tokens, then swap to WAIV.\n\n![image](https://github.com/user-attachments/assets/12fe4491-1674-41e1-80ee-d10cf3dabb6b)",
+        "answer": "5 ways to get WAIV: 1. Earn through posts, engagement, and platform activities. 2. Receive transfers from other users via account username. 3. Swap other Hive Engine tokens (SWAP.HIVE, SWAP.BTC, etc.) for WAIV. 4. Deposit external currencies (LTC, BTC, HIVE, HBD) which become swap-tokens, then swap to WAIV.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/3836d461a8b54d28944825d9e809bdcb444534071cd57746573c53a613aac6a2)",
         "topic": "WaivioGeneral"
     },
     {
@@ -676,7 +676,7 @@
     },
     {
         "question": "How can I link existing posts to objects?",
-        "answer": "If an original post didn't have object links but objects were created later, other users can link posts to objects by posting top-level comments with links to those objects. To do this: open the post, start writing a comment, find the object using '#' or the object search in the + button menu, and publish the comment. The object will then be linked to the post. Once linked, the post will appear in the Review section of the object's page, allowing retroactive content organization.\n\n![image](https://github.com/user-attachments/assets/dadbe3e2-854b-41ac-8b7f-c367ac563cf5)",
+        "answer": "If an original post didn't have object links but objects were created later, other users can link posts to objects by posting top-level comments with links to those objects. To do this: open the post, start writing a comment, find the object using '#' or the object search in the + button menu, and publish the comment. The object will then be linked to the post. Once linked, the post will appear in the Review section of the object's page, allowing retroactive content organization.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/37f92c875d86d24b910129b39406060fe6d5c8e661b72384b37d96fca83756bb)",
         "topic": "WaivioObjects"
     },
     {
@@ -691,7 +691,7 @@
     },
     {
         "question": "What are the requirements for creating objects on Waivio?",
-        "answer": "To create objects and post updates on Waivio, users must have WAIV Power. It is recommended to hold at least $10 worth of WAIV Power, which provides voting power that generates a minimum of $0.0001 per vote. For comfortable use of the platform, it is also helpful to deposit both WAIV and HIVE according to your ability. The more you have, the more actions you can perform without interruptions for recovery. HIVE Power is required for Resource Credits, while WAIV Power determines the value of your upvotes and rewards.\n\n![image](https://github.com/user-attachments/assets/2cf1c12b-4650-40b0-8b61-9afc768f6cb1)",
+        "answer": "To create objects and post updates on Waivio, users must have WAIV Power. It is recommended to hold at least $10 worth of WAIV Power, which provides voting power that generates a minimum of $0.0001 per vote. For comfortable use of the platform, it is also helpful to deposit both WAIV and HIVE according to your ability. The more you have, the more actions you can perform without interruptions for recovery. HIVE Power is required for Resource Credits, while WAIV Power determines the value of your upvotes and rewards.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/eac9ea4e3cf3259779fdb7b61cee841abd7b7d62bfa63bbecb916f570aead8e1)",
         "topic": "WaivioObjects"
     },
     {
@@ -721,17 +721,17 @@
     },
     {
         "question": "What object types are available on Waivio?",
-        "answer": "Available object types include: list, page, product, book, business, person, hashtag, newsfeed, widget, webpage, map, link, shop, affiliate program, recipe, restaurant, dish, drink, service, place, group, company, organization, app, crypto, indices, commodity, currency, stocks, hotel, motel, resort, b&b, and car. ![image](https://github.com/user-attachments/assets/83ffea33-b1f4-4cdc-9870-d58077601ab9)",
+        "answer": "Available object types include: list, page, product, book, business, person, hashtag, newsfeed, widget, webpage, map, link, shop, affiliate program, recipe, restaurant, dish, drink, service, place, group, company, organization, app, crypto, indices, commodity, currency, stocks, hotel, motel, resort, b&b, and car. ![image](https://waivio.nyc3.digitaloceanspaces.com/3298b7dcd01fceec8271272418c4429540865631549d399c66b3e08c84f4aff4)",
         "topic": "WaivioObjects"
     },
     {
         "question": "What are the automatic updates added when creating a restaurant object?",
-        "answer": "When creating a restaurant, 9 automatic updates are added: tag categories (Good For, Feature, Cuisine), ratings (Food, Ambience, Value, Service), gallery album (Photos), and a Related album that pulls pictures from posts referencing this object. These provide a comprehensive foundation for the restaurant listing. ![image](https://github.com/user-attachments/assets/182cf1b2-766d-46e6-96c2-17c839daf0c3)",
+        "answer": "When creating a restaurant, 9 automatic updates are added: tag categories (Good For, Feature, Cuisine), ratings (Food, Ambience, Value, Service), gallery album (Photos), and a Related album that pulls pictures from posts referencing this object. These provide a comprehensive foundation for the restaurant listing. ![image](https://waivio.nyc3.digitaloceanspaces.com/313f70fcd1576ff5405b4404a59820bf321454e38d58c369b16c1810132d8e2e)",
         "topic": "WaivioObjects"
     },
     {
         "question": "How does the object creation modal work?",
-        "answer": "The modal includes: object name input, name style selection (sentence case, lowercase, UPPERCASE, etc.), language dropdown, object type selection, like checkbox (required for updates to take effect), vote slider for voting power strength, vote value display (minimum $0.0001), follow checkbox for automatic subscription, and explanation text about the process. ![image](https://github.com/user-attachments/assets/2cf1c12b-4650-40b0-8b61-9afc768f6cb1)",
+        "answer": "The modal includes: object name input, name style selection (sentence case, lowercase, UPPERCASE, etc.), language dropdown, object type selection, like checkbox (required for updates to take effect), vote slider for voting power strength, vote value display (minimum $0.0001), follow checkbox for automatic subscription, and explanation text about the process. ![image](https://waivio.nyc3.digitaloceanspaces.com/eac9ea4e3cf3259779fdb7b61cee841abd7b7d62bfa63bbecb916f570aead8e1)",
         "topic": "WaivioObjects"
     },
     {
@@ -751,7 +751,7 @@
     },
     {
         "question": "Can I write a post?",
-        "answer": "Yes. Click the pencil icon, compose, preview, accept legal notice, publish to Hive (~3s) ![image](https://github.com/user-attachments/assets/5e476af0-5e08-4968-8f9a-054a53bedac8).",
+        "answer": "Yes. Click the pencil icon, compose, preview, accept legal notice, publish to Hive (~3s) ![image](https://waivio.nyc3.digitaloceanspaces.com/1f9f633c6ef2d1905204cdf729bf5b760f8c9a158c39a322c42ab5a04e1d630c).",
         "topic": "WaivioGeneral"
     },
     {
@@ -766,67 +766,67 @@
     },
     {
         "question": "What is the price of Hive compared to USD?",
-        "answer": "The price of Hive fluctuates. The app displays live USD equivalents for rewards and wallet balances. To check, go to Wallet, where the right sidebar shows market information and current price values.![image](https://github.com/user-attachments/assets/edfef8eb-2782-4a5c-806d-4d1718e4a5d4)",
+        "answer": "The price of Hive fluctuates. The app displays live USD equivalents for rewards and wallet balances. To check, go to Wallet, where the right sidebar shows market information and current price values.![image](https://waivio.nyc3.digitaloceanspaces.com/4176eceae44b3d1236825b24e39a0b2cbe11fc3ff182ddce6a9a3f30a74004f3)",
         "topic": "WaivioGeneral"
     },
     {
         "question": "What is Hive Power? Why do I need it?",
-        "answer": "Staked HIVE (HP) that grants voting influence and resource credits. More HP = higher vote value and more on-chain capacity. ![image](https://github.com/user-attachments/assets/df5a4fc2-dc48-4223-b405-f52b8aa095f1)",
+        "answer": "Staked HIVE (HP) that grants voting influence and resource credits. More HP = higher vote value and more on-chain capacity. ![image](https://waivio.nyc3.digitaloceanspaces.com/c4ab32af4f8c5d95c2a372c5d052f27d1e8efbe4db45e78b97d28e7a64300fc0)",
         "topic": "WaivioGeneral"
     },
     {
         "question": "Is there a stablecoin in the Hive ecosystem?",
-        "answer": "Yes. HBD (Hive Dollar), a USD-pegged token on Hive. ![image](https://github.com/user-attachments/assets/adfd691c-98d9-49b9-8e1c-0f55161363e1)",
+        "answer": "Yes. HBD (Hive Dollar), a USD-pegged token on Hive. ![image](https://waivio.nyc3.digitaloceanspaces.com/3400781941c1fcbfb4af302d9a01a05c27a4d154ffa86e7e07ebbef3579d5055)",
         "topic": "WaivioGeneral"
     },
     {
         "question": "What is Hive Dollar?",
-        "answer": "HBD is Hive's USD-pegged stablecoin used for savings/payments; it can be swapped and withdrawn via supported routes. ![image](https://github.com/user-attachments/assets/adfd691c-98d9-49b9-8e1c-0f55161363e1)",
+        "answer": "HBD is Hive's USD-pegged stablecoin used for savings/payments; it can be swapped and withdrawn via supported routes. ![image](https://waivio.nyc3.digitaloceanspaces.com/3400781941c1fcbfb4af302d9a01a05c27a4d154ffa86e7e07ebbef3579d5055)",
         "topic": "WaivioGeneral"
     },
     {
         "question": "How can I deposit Hive?",
-        "answer": "Use Wallet > Deposit to bring external crypto (e.g., LTC/BTC) to Hive Engine and swap to SWAP.HIVE/HIVE. ![image](https://github.com/user-attachments/assets/2d21d7f0-9fdc-4567-990e-354cdc163d1e)",
+        "answer": "Use Wallet > Deposit to bring external crypto (e.g., LTC/BTC) to Hive Engine and swap to SWAP.HIVE/HIVE. ![image](https://waivio.nyc3.digitaloceanspaces.com/10accac2501890bfe572cd86d4b8f197c5f34d6d6cd9afb37d9d1d1685a33387)",
         "topic": "WaivioGeneral"
     },
     {
         "question": "How can I deposit Hive Power?",
-        "answer": "Deposit HIVE, then Power Up to convert to Hive Power (HP). ![image](https://github.com/user-attachments/assets/9000c6ef-aa49-40da-bb55-2a4869a7797b)",
+        "answer": "Deposit HIVE, then Power Up to convert to Hive Power (HP). ![image](https://waivio.nyc3.digitaloceanspaces.com/24c4c7f3c908a0d7963de8f3c8221ea1c3c7acc27d55900f3d1632681e107bbd)",
         "topic": "WaivioGeneral"
     },
     {
         "question": "How can I deposit Hive Dollars?",
-        "answer": "Deposit or swap into SWAP.HBD/HBD via the wallet's Deposit and Swap flows. ![image](https://github.com/user-attachments/assets/2d21d7f0-9fdc-4567-990e-354cdc163d1e)",
+        "answer": "Deposit or swap into SWAP.HBD/HBD via the wallet's Deposit and Swap flows. ![image](https://waivio.nyc3.digitaloceanspaces.com/10accac2501890bfe572cd86d4b8f197c5f34d6d6cd9afb37d9d1d1685a33387)",
         "topic": "WaivioGeneral"
     },
     {
         "question": "Where is the wallet?",
-        "answer": "Open your profile and use wallet tabs (WAIV, HIVE, Hive Engine, Rebalancing) to manage balances and transfers. ![image](https://github.com/user-attachments/assets/19b2f16f-d424-4c71-ac2d-99663f1e1466)",
+        "answer": "Open your profile and use wallet tabs (WAIV, HIVE, Hive Engine, Rebalancing) to manage balances and transfers. ![image](https://waivio.nyc3.digitaloceanspaces.com/70d26a01efb4004abfe81934a4485796c451c8994d6fd2c785e2be6366c549a2)",
         "topic": "UserTools"
     },
     {
         "question": "Where is the profile?",
-        "answer": "Click your avatar in the header to open your profile page (or another user's for theirs). ![image](https://github.com/user-attachments/assets/35ae249a-6aa4-49ff-943e-dcd43aeed4bf)",
+        "answer": "Click your avatar in the header to open your profile page (or another user's for theirs). ![image](https://waivio.nyc3.digitaloceanspaces.com/941a2e133e9b700f4aeb9bb188e9ab15df088021602e9149558ec79a42cf9028)",
         "topic": "UserTools"
     },
     {
         "question": "What is the Hive Engine tab?",
-        "answer": "A wallet tab for Hive Engine tokens with Swap/Withdraw support (e.g., SWAP.HIVE, SWAP.HBD, SWAP.LTC/BTC/ETH). ![image](https://github.com/user-attachments/assets/6c2b8a73-4ac8-4658-9173-67a1aa872b8f)",
+        "answer": "A wallet tab for Hive Engine tokens with Swap/Withdraw support (e.g., SWAP.HIVE, SWAP.HBD, SWAP.LTC/BTC/ETH). ![image](https://waivio.nyc3.digitaloceanspaces.com/c13569d0c26e44f340f9a6607444b821b66be0ac66c685a96b9e6fb94eb59d16)",
         "topic": "WaivioGeneral"
     },
     {
         "question": "What is the Rebalancing tab?",
-        "answer": "A wallet tool to adjust holdings across tokens/power states (e.g., balancing HIVE/HBD/HP/WAIV via swaps/power ops). ![image](https://github.com/user-attachments/assets/9e069481-53d7-414c-b710-37b70a94edd6)",
+        "answer": "A wallet tool to adjust holdings across tokens/power states (e.g., balancing HIVE/HBD/HP/WAIV via swaps/power ops). ![image](https://waivio.nyc3.digitaloceanspaces.com/ac0570d9c5c826d8cc730d577a63879c8a8e9f77294fc7b3e0a4cbdbfcc650f5)",
         "topic": "WaivioGeneral"
     },
     {
         "question": "How can I withdraw HIVE?",
-        "answer": "Go to Wallet > HIVE tab > Withdraw. Choose destination (BTC/LTC/ETH), enter address/amount, confirm via HiveSigner. ![image](https://github.com/user-attachments/assets/c55967df-ce35-4467-9ff9-f9bf8c4b8883)",
+        "answer": "Go to Wallet > HIVE tab > Withdraw. Choose destination (BTC/LTC/ETH), enter address/amount, confirm via HiveSigner. ![image](https://waivio.nyc3.digitaloceanspaces.com/97530b2294bb088c56c8ea2286025210e5af4b21f156f2dc4d36fa4921457e37)",
         "topic": "WaivioGeneral"
     },
     {
         "question": "Can I exchange Hive for another token? Which tokens?",
-        "answer": "Yes. Swap HIVE/HBD into SWAP.* and other Hive Engine tokens. Common: SWAP.HIVE, SWAP.HBD, SWAP.BTC/LTC/ETH. ![image](https://github.com/user-attachments/assets/10a0a135-130e-47b0-8d4c-04071377548a)",
+        "answer": "Yes. Swap HIVE/HBD into SWAP.* and other Hive Engine tokens. Common: SWAP.HIVE, SWAP.HBD, SWAP.BTC/LTC/ETH. ![image](https://waivio.nyc3.digitaloceanspaces.com/f0382aae7a99d0505e649fa98c2205701b0f59cbf3e51801e6c583e5210a32c3)",
         "topic": "WaivioGeneral"
     },
     {
@@ -836,37 +836,37 @@
     },
     {
         "question": "How can I buy Hive?",
-        "answer": "Deposit external crypto to Hive Engine (Wallet > Deposit) and swap to SWAP.HIVE/HIVE, or buy on exchanges then deposit. ![image](https://github.com/user-attachments/assets/bf6c309a-5277-4818-9f49-251a034384a8)",
+        "answer": "Deposit external crypto to Hive Engine (Wallet > Deposit) and swap to SWAP.HIVE/HIVE, or buy on exchanges then deposit. ![image](https://waivio.nyc3.digitaloceanspaces.com/4446121d0d36685582449801c4ec2657839aac48c973bcff825dd87db19f476f)",
         "topic": "WaivioGeneral"
     },
     {
         "question": "What is Power Up?",
-        "answer": "Power Up means converting liquid HIVE, WAIV, or other tokens into their Power equivalent (HIVE Power or WAIV Power). This increases your voting influence and provides additional resource credits. ![image](https://github.com/user-attachments/assets/353be76f-c58a-43cf-9c0a-aad90bec4701)",
+        "answer": "Power Up means converting liquid HIVE, WAIV, or other tokens into their Power equivalent (HIVE Power or WAIV Power). This increases your voting influence and provides additional resource credits. ![image](https://waivio.nyc3.digitaloceanspaces.com/7931f66ec05900b50d0dcba730a84d17b132c93401ab26c5e872994e2e5d90c3)",
         "topic": "WaivioGeneral"
     },
     {
         "question": "What is Power Down?",
-        "answer": "Power Down means converting HIVE Power (HP) or WAIV Power back into liquid HIVE or WAIV. The conversion happens gradually through scheduled weekly withdrawals—over a 13-week period for HIVE and a 4-week period for WAIV—until the full amount has been returned as liquid tokens. ![image](https://github.com/user-attachments/assets/73005289-0071-4299-8995-a0e8de6ad431)",
+        "answer": "Power Down means converting HIVE Power (HP) or WAIV Power back into liquid HIVE or WAIV. The conversion happens gradually through scheduled weekly withdrawals—over a 13-week period for HIVE and a 4-week period for WAIV—until the full amount has been returned as liquid tokens. ![image](https://waivio.nyc3.digitaloceanspaces.com/a36e6be01b9afe607d31e7bc1b23b2d566a420451f043b4b2520f5f9418f6e82)",
         "topic": "WaivioGeneral"
     },
     {
         "question": "What is the Waiv token?",
-        "answer": "WAIV is Waivio's token used to fund campaigns and pay sponsored rewards; it can be staked as Waiv Power. ![image](https://github.com/user-attachments/assets/9fb796fd-59de-4ab9-9266-3c1a0d9d9e18)",
+        "answer": "WAIV is Waivio's token used to fund campaigns and pay sponsored rewards; it can be staked as Waiv Power. ![image](https://waivio.nyc3.digitaloceanspaces.com/79608d47ec1da81aa43e0efb8264c13ce8f02add10875cbe3695cb9e59c47845)",
         "topic": "WaivioGeneral"
     },
     {
         "question": "What is the price of Waiv compared to USD?",
-        "answer": "The price of Waiv is market-based and fluctuates. The app shows estimated USD equivalents in your wallet and rewards where relevant. To check, go to Wallet—on the right sidebar you'll see the current market price. You can also visit the page https://www.waivio.com/object/ylr-waivio/form/waivio-n0q9lmqve6. ![image](https://github.com/user-attachments/assets/21206414-64dc-484e-bcb3-7a70334d8260)",
+        "answer": "The price of Waiv is market-based and fluctuates. The app shows estimated USD equivalents in your wallet and rewards where relevant. To check, go to Wallet—on the right sidebar you'll see the current market price. You can also visit the page https://www.waivio.com/object/ylr-waivio/form/waivio-n0q9lmqve6. ![image](https://waivio.nyc3.digitaloceanspaces.com/ffd6fec10d494f7490f32db11ca6fef188040c79337bc63fc52c3962c85a46f5)",
         "topic": "WaivioGeneral"
     },
     {
         "question": "What is Waiv Power? Why do I need it?",
-        "answer": "Waiv Power is WAIV tokens that are staked to support on-chain operations and to determine the value of WAIV-based upvotes. It is required for actions such as imports, bots, and other internal Waivio procedures. The more Waiv Power you have, the stronger your upvotes will be, which increases the rewards you can distribute. If a post is eligible for WAIV rewards (tagged with 'waivio' or 'waiv'), users with Waiv Power can upvote it to allocate rewards. If the user themselves writes a post with these tags, they can receive rewards not only in HIVE but also in WAIV. In short, Waiv Power is needed both to perform updates on the platform and to influence reward distribution. ![image](https://github.com/user-attachments/assets/6f984489-6313-4c5b-9810-2e92e885ca7e)",
+        "answer": "Waiv Power is WAIV tokens that are staked to support on-chain operations and to determine the value of WAIV-based upvotes. It is required for actions such as imports, bots, and other internal Waivio procedures. The more Waiv Power you have, the stronger your upvotes will be, which increases the rewards you can distribute. If a post is eligible for WAIV rewards (tagged with 'waivio' or 'waiv'), users with Waiv Power can upvote it to allocate rewards. If the user themselves writes a post with these tags, they can receive rewards not only in HIVE but also in WAIV. In short, Waiv Power is needed both to perform updates on the platform and to influence reward distribution. ![image](https://waivio.nyc3.digitaloceanspaces.com/4ec859fe53dd5aeea7b9787d294753fdb56af668e7419d77f5668569dda5ef7e)",
         "topic": "WaivioGeneral"
     },
     {
         "question": "How can I write a post and receive WAIV rewards?",
-        "answer": "To receive WAIV rewards, you need to create a post that is eligible for WAIV upvotes. A post becomes eligible when it includes the tags 'waiv' or 'waivio' (these are the main tags, though other related tags may also apply). Users with Waiv Power can then upvote your post, and those upvotes allocate WAIV rewards in addition to the regular HIVE rewards. In this way, Waiv Power is used not only to perform updates on the platform but also to influence and distribute rewards to posts. ![image](https://github.com/user-attachments/assets/3b9df684-b408-4e1d-be0b-05935a9a98a7)",
+        "answer": "To receive WAIV rewards, you need to create a post that is eligible for WAIV upvotes. A post becomes eligible when it includes the tags 'waiv' or 'waivio' (these are the main tags, though other related tags may also apply). Users with Waiv Power can then upvote your post, and those upvotes allocate WAIV rewards in addition to the regular HIVE rewards. In this way, Waiv Power is used not only to perform updates on the platform but also to influence and distribute rewards to posts. ![image](https://waivio.nyc3.digitaloceanspaces.com/070a9c97ff9b1f14921ebce73260b9a7eec4849e05d924da40cc89a43da667f1)",
         "topic": "WaivioGeneral"
     },
     {
@@ -876,7 +876,7 @@
     },
     {
         "question": "How can I deposit Waiv Power?",
-        "answer": "Acquire WAIV and stake it to Waiv Power in the wallet. ![image](https://github.com/user-attachments/assets/466e5bf0-cf4d-43a5-9f8c-8ac5e44a5862)",
+        "answer": "Acquire WAIV and stake it to Waiv Power in the wallet. ![image](https://waivio.nyc3.digitaloceanspaces.com/1d83011d68461efa0a560303bccabb42f4f26c4b491460f76520bdaa5634bf5b)",
         "topic": "WaivioGeneral"
     },
     {
@@ -891,7 +891,7 @@
     },
     {
         "question": "What are delegations?",
-        "answer": "Temporary lending of staked power (HP/VP) to another account, granting voting/RC capacity without transferring ownership. ![image](https://github.com/user-attachments/assets/830c3a60-2ab1-41bc-b7f0-1592b6f449b5)",
+        "answer": "Temporary lending of staked power (HP/VP) to another account, granting voting/RC capacity without transferring ownership. ![image](https://waivio.nyc3.digitaloceanspaces.com/26344ed11b027ca50b7479867ea923f17bd149f573e3be507d37127d1fb59be4)",
         "topic": "WaivioGeneral"
     },
     {
@@ -901,7 +901,7 @@
     },
     {
         "question": "I see a transfer button what can I send and to whom?",
-        "answer": "Send HIVE, HBD, WAIV, and SWAP.* tokens to any Hive username. ![image](https://github.com/user-attachments/assets/79901359-1aea-4f0a-9967-5f697cceed9f)",
+        "answer": "Send HIVE, HBD, WAIV, and SWAP.* tokens to any Hive username. ![image](https://waivio.nyc3.digitaloceanspaces.com/ef03f00fbac315fb5d344a31c15f907d696041533b482fb2627c3c0ccd451c50)",
         "topic": "WaivioGeneral"
     },
     {
@@ -926,7 +926,7 @@
     },
     {
         "question": "What is the main menu (Earn, Tools, Shop) about?",
-        "answer": "Earn: rewards/campaigns. Tools: personal, data management, websites. Shop: product catalogs and social shopping. ![image](https://github.com/user-attachments/assets/529858fe-56d6-41d6-8033-6a055f4715d3)",
+        "answer": "Earn: rewards/campaigns. Tools: personal, data management, websites. Shop: product catalogs and social shopping. ![image](https://waivio.nyc3.digitaloceanspaces.com/b0c16f7376795ad554e47cf8c9aabdf6e5ca3c8ba24faa23de13bba59c84ef6d)",
         "topic": "WaivioGeneral"
     },
     {
@@ -946,12 +946,12 @@
     },
     {
         "question": "When will I receive earnings from campaigns?",
-        "answer": "You receive earnings after your qualified review is published and verified. The Receivables list shows the WAIV owed, and sponsors make payments via Payable. After submitting your post or review, the sponsor will verify it. If the post meets the campaign requirements and has no violations, the sponsor will pay you. The payment will then appear in your Wallet WAIV history and on balance. ![image](https://github.com/user-attachments/assets/3406d1e8-ed21-4fa8-9e13-1e7e37ef3b99) ![image](https://github.com/user-attachments/assets/3b728945-4fb9-4301-bc24-7de4544b659c)",
+        "answer": "You receive earnings after your qualified review is published and verified. The Receivables list shows the WAIV owed, and sponsors make payments via Payable. After submitting your post or review, the sponsor will verify it. If the post meets the campaign requirements and has no violations, the sponsor will pay you. The payment will then appear in your Wallet WAIV history and on balance. ![image](https://waivio.nyc3.digitaloceanspaces.com/1b772073e71af9ecde2aedb427f448e8bed0eb2fe1232acadc698e8c7d62d021) ![image](https://waivio.nyc3.digitaloceanspaces.com/e7df79cad8fd39cd1c5c5396837a84f63fefec7b4236b03be4a15fa8d9818433)",
         "topic": "CampaignManagement"
     },
     {
         "question": "I completed a global campaign when do I get rewarded? Who pays me?",
-        "answer": "Once verified, the sponsor pays you. Rewards combine registered upvotes and direct WAIV transfers; track in Receivable. ![image](https://github.com/user-attachments/assets/3406d1e8-ed21-4fa8-9e13-1e7e37ef3b99) ![image](https://github.com/user-attachments/assets/3b728945-4fb9-4301-bc24-7de4544b659c)",
+        "answer": "Once verified, the sponsor pays you. Rewards combine registered upvotes and direct WAIV transfers; track in Receivable. ![image](https://waivio.nyc3.digitaloceanspaces.com/1b772073e71af9ecde2aedb427f448e8bed0eb2fe1232acadc698e8c7d62d021) ![image](https://waivio.nyc3.digitaloceanspaces.com/e7df79cad8fd39cd1c5c5396837a84f63fefec7b4236b03be4a15fa8d9818433)",
         "topic": "CampaignManagement"
     },
     {
@@ -966,7 +966,7 @@
     },
     {
         "question": "What are campaigns?",
-        "answer": "Campaigns are sponsor-created reward offers (such as reviews, mentions, giveaways, post-giveaways, or contests) linked to specific objects. Users can complete tasks within these campaigns to earn WAIV tokens. Campaigns can be accessed from the 'Earn' section in the main menu on Waivio, or by clicking the header button next to the user avatar and selecting 'Earn'. ![image](https://github.com/user-attachments/assets/ca19df01-454a-4784-9ff4-c8e3d1a631cc)",
+        "answer": "Campaigns are sponsor-created reward offers (such as reviews, mentions, giveaways, post-giveaways, or contests) linked to specific objects. Users can complete tasks within these campaigns to earn WAIV tokens. Campaigns can be accessed from the 'Earn' section in the main menu on Waivio, or by clicking the header button next to the user avatar and selecting 'Earn'. ![image](https://waivio.nyc3.digitaloceanspaces.com/26b79aeeeccc841639a623fc27575de45974ae19e31a8a02996d94aa0587f73e)",
         "topic": "CampaignManagement"
     },
     {
@@ -981,17 +981,17 @@
     },
     {
         "question": "If I can complete campaigns, how can I create one as a sponsor?",
-        "answer": "Go to Earn > Campaigns > Create (waivio.com), fill required fields (type, reach, budget, reward, objects, eligibility), then activate in Manage. \n\n![image](https://github.com/user-attachments/assets/d964e37d-9014-428e-9078-bdc322edce7c)",
+        "answer": "Go to Earn > Campaigns > Create (waivio.com), fill required fields (type, reach, budget, reward, objects, eligibility), then activate in Manage. \n\n![image](https://waivio.nyc3.digitaloceanspaces.com/a8c2d8a5ae43dde554a9d273b88d2eefa7d1b7dd96ab61f27e0b4c0f574fedea)",
         "topic": "CampaignManagement"
     },
     {
         "question": "What tokens do I need to create a campaign? How much?",
-        "answer": "WAIV only. Set monthly budget and per-review reward in USD terms; payments/obligations are calculated in WAIV. ![image](https://github.com/user-attachments/assets/c88091f6-d68e-4c59-a261-83d02fcabe2a)",
+        "answer": "WAIV only. Set monthly budget and per-review reward in USD terms; payments/obligations are calculated in WAIV. ![image](https://waivio.nyc3.digitaloceanspaces.com/9378ca3bdbc6800ec07645717dbb500b6cf09153fe1b446a98151d281405f48a)",
         "topic": "CampaignManagement"
     },
     {
         "question": "I see Tools in the main menu what is it?",
-        "answer": "User tools (notifications, drafts, bookmarks, profile, settings, affiliate codes) plus Data Management and Websites tools. ![image](https://github.com/user-attachments/assets/63c9f64f-38a7-432f-bd8b-3ac74c4c4b0d)",
+        "answer": "User tools (notifications, drafts, bookmarks, profile, settings, affiliate codes) plus Data Management and Websites tools. ![image](https://waivio.nyc3.digitaloceanspaces.com/d0b88c12bc3c27eb575299d97c751542a1b576effdd870abfcdbc51cdae013f5)",
         "topic": "UserTools"
     },
     {
@@ -1001,7 +1001,7 @@
     },
     {
         "question": "How much does it cost to run a site?",
-        "answer": "Active: $1/day. Inactive (name reservation): $0.20/day. Paid in WAIV at current USD rate. ![image](https://github.com/user-attachments/assets/61917cc3-b1b9-438f-b0aa-dce481550757)",
+        "answer": "Active: $1/day. Inactive (name reservation): $0.20/day. Paid in WAIV at current USD rate. ![image](https://waivio.nyc3.digitaloceanspaces.com/d8659550873fd1fee50c1fb492bd8bdbb83414a232b249e77c9a96e59a061121)",
         "topic": "SitesManagement"
     },
     {
@@ -1011,7 +1011,7 @@
     },
     {
         "question": "Are only default domains available, or can I use my own?",
-        "answer": "Both: use a social.gifts subdomain or configure a custom domain (DNS A record, HTTPS). ![image](https://github.com/user-attachments/assets/c5789155-d3c9-4b99-afc2-600dd2cca529)",
+        "answer": "Both: use a social.gifts subdomain or configure a custom domain (DNS A record, HTTPS). ![image](https://waivio.nyc3.digitaloceanspaces.com/2c77621629a365e122987b4e3fe262ba3d04c39a2e09d5d50b36b0f797d7ad0e)",
         "topic": "SitesManagement"
     },
     {
@@ -1051,12 +1051,12 @@
     },
     {
         "question": "What can I add inside an object?",
-        "answer": "Avatars, galleries, titles/descriptions, addresses/phones, prices, tags, ratings, maps, links, wallets, more (type-dependent). ![image](https://github.com/user-attachments/assets/7af100c1-af40-465b-8264-819f39522de7)",
+        "answer": "Avatars, galleries, titles/descriptions, addresses/phones, prices, tags, ratings, maps, links, wallets, more (type-dependent). ![image](https://waivio.nyc3.digitaloceanspaces.com/10b8b00e5c289c6841b63eded58852ca8ad56e32006fd68facde8c12a8bc12ad)",
         "topic": "WaivioObjects"
     },
     {
         "question": "What are the fields for an object?",
-        "answer": "Fields depend on type (product/business/place/etc.) and include media, text, ratings, tags, options, IDs, maps, widgets, etc. ![image](https://github.com/user-attachments/assets/7af100c1-af40-465b-8264-819f39522de7)",
+        "answer": "Fields depend on type (product/business/place/etc.) and include media, text, ratings, tags, options, IDs, maps, widgets, etc. ![image](https://waivio.nyc3.digitaloceanspaces.com/10b8b00e5c289c6841b63eded58852ca8ad56e32006fd68facde8c12a8bc12ad)",
         "topic": "WaivioObjects"
     },
     {
@@ -1156,7 +1156,7 @@
     },
     {
         "question": "How to start importing objects?",
-        "answer": "Before importing, decide which platform you want to import products from (Amazon, Walmart, Sephora, Shopify, or any other). Make sure you have enough power requirements: WAIV Power (each full upvote ≈ $0.0001) and HIVE Power for Resource Credits. Then log in to Waivio, go to Tools → Data Import and activate Data Import (switch should be green). In the same section, go to the Chrome Extension tab, download and set it up. After that, go to the site you want to import from, click on the Waivio extension, choose an import method, and press the Import button. The imported objects will appear in the Data Import tab on Waivio.  Some platforms (like Amazon or Walmart) offer more advanced export options, while others use the common 'Analyze with AI' feature. ![image](https://github.com/user-attachments/assets/3ff18718-60c6-4135-92b9-58c2d6790ed0)",
+        "answer": "Before importing, decide which platform you want to import products from (Amazon, Walmart, Sephora, Shopify, or any other). Make sure you have enough power requirements: WAIV Power (each full upvote ≈ $0.0001) and HIVE Power for Resource Credits. Then log in to Waivio, go to Tools → Data Import and activate Data Import (switch should be green). In the same section, go to the Chrome Extension tab, download and set it up. After that, go to the site you want to import from, click on the Waivio extension, choose an import method, and press the Import button. The imported objects will appear in the Data Import tab on Waivio.  Some platforms (like Amazon or Walmart) offer more advanced export options, while others use the common 'Analyze with AI' feature. ![image](https://waivio.nyc3.digitaloceanspaces.com/391d5e1737d2c4d4acd4c94a24e77406e99925d5581d5c9e8d47952dfdb46720)",
         "topic": "ObjectImport"
     },
     {

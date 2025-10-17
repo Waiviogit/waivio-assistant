@@ -9,18 +9,18 @@ The **Tools** section offers a variety of features for managing your Waivio acco
 - **New Accounts**: Create new Hive accounts or invite friends using VIP tickets.
 - **Invite**: Share referral links to invite new users to Waivio and earn rewards.
 Each of these tools is designed to help you optimize your Waivio experience by providing more control over how you interact with the platform and its community.
-![Image](https://github.com/user-attachments/assets/7f9b9a11-f6ce-4aef-bb58-3efc607c651d)
+![Image](https://waivio.nyc3.digitaloceanspaces.com/4873a3f0816070327881e4e5102366240db5fb1002acb4ff2f1bb4d9dab7702d)
 
 # Tools / Notifications
 **Notification Settings** - This page allows users to configure notifications. Notifications from active checkboxes will be sent to both the notification bell and the bot's Telegram account.
 By default, almost all checkboxes are active. When changing the state of a notification checkbox, users should click the "Save" button to apply the new settings.
-![image](https://github.com/user-attachments/assets/fdc24f9a-b6b6-4b31-99d4-65d6a2312321)
+![image](https://waivio.nyc3.digitaloceanspaces.com/ecb22229837937d7ed7503c4bf0fa9b525fb0d46f9ca72c8162db6041f99a7b2)
 
 ### Notification Settings page details:
 **Title**: "Notification Settings".
 **Information title**: "Instant mobile notifications".
 **Note**: You can now receive instant mobile notifications via the Telegram app when someone replies to or re-blogs your post on Hive, mentions you, follows you, transfers funds to you, and so on. Open the Telegram chart with @WaivioNotificationsBot and enter the Hive usernames to subscribe.
-![image](https://github.com/user-attachments/assets/f0495917-7d2a-47fb-b459-3579bde714b3)
+![image](https://waivio.nyc3.digitaloceanspaces.com/bc4cc7ec8f0d79abf596e5bdaf37cc88caafa3e6f6982a1a9efe516638e7a3ef)
 
 Notification checkboxes information is divided into four sections (Community actions, Wallet transactions, My actions, Security alerts):
 1. **Community actions section**:
@@ -35,21 +35,21 @@ Notification checkboxes information is divided into four sections (Community act
 * Claimed Object Updates: Enables notifications about all changes to an object (addition/rejection) if the user claims authority (gives a heart) to this object.
 * Group ID Control: Notifies you about the addition or rejection of a Group ID. The Group ID is taken from objects over which the user has claimed authority. For example, if a user claims an object that has a Group ID, and this Group ID is added by another user to a different object, this notification will be sent.
 * Followed User Threads: Receive notifications for threads created by followed users. This applies to users who have activated the bell on another user's profile to receive notifications about threads initiated by that user.
-![image](https://github.com/user-attachments/assets/cc8c5cd5-21dd-4841-b7aa-9a023391954c)
+![image](https://waivio.nyc3.digitaloceanspaces.com/7d797b121bfbd219047394f33b9a511c0ac7351f6cda1b7dcf286f9a67a70eed)
 2. **Wallet transactions section**:
 * Incoming transfers: Receive notifications for incoming transfers. You can specify a minimum amount for notifications (min. amount: {number} USD).
 * Internal market (HIVE/HBD conversions): Receive notifications about market operations involving HIVE/HBD conversions.
 * Power ups: Receive notifications about power-up actions.
 * Claimed rewards: Receive notifications when rewards are claimed.
-![image](https://github.com/user-attachments/assets/1b64b94f-bd84-438b-8878-f09c41d5ef0e)
+![image](https://waivio.nyc3.digitaloceanspaces.com/321300b8610f898865f06ab11eab941af85c3e6d54c65fb19a81caa3d2ab89be)
 3. My actions section:
 * My posts: Receive notifications when your posts are published.
 * My comments: Receive notifications when your comments are published.
 * My likes: Receive notifications when you leave likes.
-![image](https://github.com/user-attachments/assets/d802bdf8-0473-4f7f-8271-cb597ac52c77)
+![image](https://waivio.nyc3.digitaloceanspaces.com/7c18d7d478c5c5cdda948675e2e4756c1d6a8bc2371400947cd6cfa3508dc30b)
 4. **Security alerts section**:
 * Security: This checkbox is disabled to ensure users always receive notifications about outgoing transfers, power downs, withdrawals from savings, delegations, password recovery requests, recovery address changes, and app authorizations.
-![image](https://github.com/user-attachments/assets/240bf9e5-bf58-414e-bc1e-94ca99e20316)
+![image](https://waivio.nyc3.digitaloceanspaces.com/4e5a3043bb6723d5605729faca4fdb45ab9e75d1362af05d792a7d64ac33c759)
 
 
 # Tools / Drafts
@@ -70,7 +70,7 @@ Notification checkboxes information is divided into four sections (Community act
 - **Text:** Are you sure you want to delete this draft permanently?
 - **Confirm:** "Confirm" button to submit actions
 - **Cancel:** "Cancel" button to cancel actions
-![image](https://github.com/user-attachments/assets/c6b8923f-4e16-407e-8886-f240b5ec7e89)
+![image](https://waivio.nyc3.digitaloceanspaces.com/3bbe81ece668ce580387cfafe0879c2156bdd19b757de0dffa59356d1dcb7d5b)
 
 
 # Toools / Bookmarks
@@ -78,12 +78,12 @@ The **Bookmarks** page displays posts that have been added to user bookmarks. Po
 ## How to add to bookmarks:
 1. On the post, click on button three points.
 2. Click "Add to bookmarks".
-![image](https://github.com/user-attachments/assets/c96f5808-3f43-47a1-bb7f-94b42d25aa80)
+![image](https://waivio.nyc3.digitaloceanspaces.com/f713b3b677abb96954121e65a09c8e0dded19c485af0d7860e2669113802eba9)
 
 
 # Tools / Edit profile
 The **Edit Profile** page allows users to update their personal information.
-![image](https://github.com/user-attachments/assets/ec597353-0582-45be-8a3e-614e5251be14)
+![image](https://waivio.nyc3.digitaloceanspaces.com/d51f89267592f31720c1064025c567c2f92608ffc8b7eeca63f700d12d7078b0)
 Edit Profile page details:
 - **Title:** Edit Profile.
 - **Name:** "Name" - Field to add your name. Placeholder: "Name to display on your profile".
@@ -119,52 +119,52 @@ The **Settings** page allows you to configure various user preferences. Access i
 ![image](https://github.com/Waiviogit/waivio/assets/67378322/7d31bfe7-7b82-4528-8b3c-f9f45c1a8263)
 Settings page information:
 - **Title:** Settings
-- **Voting Power** ![image](https://github.com/user-attachments/assets/0a8b1f70-0a41-41c5-a601-68a7ca77030c)
+- **Voting Power** ![image](https://waivio.nyc3.digitaloceanspaces.com/ba24e189becdde62af25a051a510f747bd3fbfa840506f4cb47c5a7c7b22aec9)
   - **Title:** Voting Power
   - **Description:** Enable the Voting Power slider to specify the exact percentage of your Voting Power used for likes.
   - **Disable:** If the checkbox is active, the slider is not displayed by default.
   - **Enable:** If the checkbox is active, the slider is displayed.
-- **Default Vote Percent** ![image](https://github.com/user-attachments/assets/4ec05efc-9a04-4daf-a8c6-c89d974781b6)
+- **Default Vote Percent** ![image](https://waivio.nyc3.digitaloceanspaces.com/5cc9fe56e40e388a0e813cf86c0d50b29b25cfa4256eee06a90c34745f5ce295)
   - **Title:** Default Vote Percent
   - **Description:** Select your default voting percentage. This value will be used as the default in the voting slider and as the vote value when the slider is disabled.
   - **Slider:** Defaults to 100%. You can adjust values by dragging the slider or selecting a percentage at the bottom.
-- **Language** ![image](https://github.com/user-attachments/assets/88879d30-a477-4c31-b310-ad38020f5ade)
+- **Language** ![image](https://waivio.nyc3.digitaloceanspaces.com/32c82cd5f1f7556a518eb4a51d67df16566b26467722dca12a0f41bfffffa54d)
   - **Title:** Interface Language
   - **Description:** Select your preferred language for the website and its objects.
   - **Dropdown:** Placeholder "Select your language" or the language you have chosen, with a dropdown menu listing.
-- **Content Language Preferences** ![image](https://github.com/user-attachments/assets/cfc1e965-84a7-4170-a165-6c137a60504d)
+- **Content Language Preferences** ![image](https://waivio.nyc3.digitaloceanspaces.com/e9835cffd5f29dcb9b2cd269ad023d638b237c9fdf65b1252f869cecaca346e2)
   - **Title:** Content Language Preferences
   - **Description:** Content from the blockchain (posts, comments) will be filtered according to these language preferences.
   - **Field:** Field to select preferred languages.
-- **Base Currency** ![image](https://github.com/user-attachments/assets/e9fc6ca9-87e4-4d6a-a420-76b3323bb05c)
+- **Base Currency** ![image](https://waivio.nyc3.digitaloceanspaces.com/b10d35f8f58b29a1c84872954ab218b1e749e106fb75f853d0d280dcf0507f6e)
   - **Title:** Base Currency
   - **Description:** Choose the currency in which content will be displayed. This currency is used for displaying rewards, vote values, and post earnings.
   - **Dropdown:** Dropdown menu with currencies.
-- **NSFW Posts** ![image](https://github.com/user-attachments/assets/a52c4949-42d5-4548-8ee0-cdde91a396a9)
+- **NSFW Posts** ![image](https://waivio.nyc3.digitaloceanspaces.com/83f130c1f249dfdd29136bad6c1f7df6b2cc497b293b234f25edb2de182512b0)
   - **Title:** NSFW Posts
   - **Description:** Enable this option to show all posts tagged with NSFW by default, with a minimized view and a link indicating that the content is not safe.
   - **Checkbox:** Checkbox "Display NSFW Posts," inactive by default.
-- **Shop** ![image](https://github.com/user-attachments/assets/44c732e4-2767-4b87-bea5-3af817d1233f)
+- **Shop** ![image](https://waivio.nyc3.digitaloceanspaces.com/7bd94a0c9a27278502fd2d1b8831cfeecf5637a20298d6e4cfd50378dbe8ba50)
   - **Title:** Shop
   - **Description:** Manage your public shopping list in your profile. By default, the Shop section displays objects linked from your posts (or first-level comments). You can choose not to show these objects.
   - **Checkbox:** Checkbox "Do not show objects linked in posts," inactive by default.
-- **Favorites** ![image](https://github.com/user-attachments/assets/009bdb40-dfab-44ca-8d13-acf49185f362)
+- **Favorites** ![image](https://waivio.nyc3.digitaloceanspaces.com/5922bc081a4192ba48e18fb3bdbb8083b47e7cb2fe94eac4a450077cb197f6aa)
   - **Title:** Favorites
   - **Description:** Manage your public favorites list in your profile. By default, the Favorites section displays objects linked from your posts (or first-level comments). You can choose not to show these objects.
   - **Checkbox:** Checkbox "Do not show objects linked in posts," inactive by default.
-- **Nightmode** ![image](https://github.com/user-attachments/assets/cfbc874c-d4f6-4a07-9c5c-c677b7806311)
+- **Nightmode** ![image](https://waivio.nyc3.digitaloceanspaces.com/69adb14ef59158896d1602d5d79d6863a1e34109c0cfb3357987b0425b77d4f6)
   - **Title:** Nightmode
   - **Description:** Enable this option for a more eye-friendly experience at night with a dark version of the app.
   - **Checkbox:** Checkbox "Use Nightmode," inactive by default.
-- **Like My Posts** ![image](https://github.com/user-attachments/assets/34cb553b-3df6-4924-a521-27e5bf40c807)
+- **Like My Posts** ![image](https://waivio.nyc3.digitaloceanspaces.com/774bcc98d3374b1a7d2ffa8a95ffd4f9920946deefc52d94a5b8d7d418dc1e17)
   - **Title:** Like My Posts
   - **Description:** Enable this option to automatically like your own posts.
   - **Checkbox:** Checkbox "Like my posts," inactive by default.
-- **Enable Exit Page** ![image](https://github.com/user-attachments/assets/e0140f65-606a-499b-a003-1f015ce435ea)
+- **Enable Exit Page** ![image](https://waivio.nyc3.digitaloceanspaces.com/a99e22a8562a7e308f05596577c8ff26e8edf4ee6ea5e0c4debd755c54eb85d1)
   - **Title:** Enable Exit Page
   - **Description:** Enable this option to use an exit page when clicking on an external link.
   - **Checkbox:** Checkbox "Enable exit page," inactive by default.
-- **Save** ![image](https://github.com/user-attachments/assets/413ce3ca-916c-4430-83fa-d4f081dfa230)
+- **Save** ![image](https://waivio.nyc3.digitaloceanspaces.com/4ff4ba1d6a504314e0cd0e9e219f4a81189d29a0a241e37007e3063eab9ab9e9)
   - **Button:** "Save" - Click to save changes. After clicking, the profile page will open.
 
 
@@ -191,12 +191,12 @@ When a user finds an affiliate program, they must specify a code value. To do th
 - **Submit/Cancel:**
   - **Submit:** Action button to add the code. Upon clicking "Submit," the update will be published and added to the affiliate program object.
   - **Cancel:** Action button to cancel the action.
-![image](https://github.com/user-attachments/assets/66b70870-38f7-4d3a-97a4-7de05b046ea2)
+![image](https://waivio.nyc3.digitaloceanspaces.com/0d1a90a3a292f8ad1c09b65ac876b1f2dd4bbcbfd5a0b248a7de3b63b0bd19dd)
 
 
 # Tools / New accounts
 **New Accounts** - page to make it easy for users to create new accounts or invite friends, the VIP tickets system supported by HiveOnBoard.com is proposed.
-![image](https://github.com/user-attachments/assets/4dcc54fe-1bd3-482e-b1de-81bfa1abb1a0)
+![image](https://waivio.nyc3.digitaloceanspaces.com/eadba4e8804eae971907f6d128441693a78c1ecc6d9edbcc2109c7e72cfa6762)
 New Accounts Page details:
 - **Title:** Create New Hive Accounts
 - **Description:**
@@ -210,7 +210,7 @@ New Accounts Page details:
   - **Calculation:** `{QUANTITY} X 5 HIVE = {sum} HIVE`
     - `{sum}` is dynamically generated based on the entered quantity.
   - **Button:** "Pay Now" button opens the "Transfer Funds" modal window.
-![image](https://github.com/user-attachments/assets/a3e69aa1-6464-4f40-ab79-ab0abb23b5a9)
+![image](https://waivio.nyc3.digitaloceanspaces.com/12c3972ca3e299f0f49ea41b178f3fe7b6062ae64bd2c6eae806e33e8454cc69)
 
 **Tables for VIP Tickets:**
 1. **Active VIP Tickets Table:**
@@ -219,12 +219,12 @@ New Accounts Page details:
    - **VIP Ticket:** Displays the unique ID of the ticket with a link to "(add note)" or "edit" if a note already exists. Clicking opens the "Share VIP Ticket" modal window.
    - **Link:** Displays an "apply" link for directly creating an account.
    - **Share:** Displays a "details" link to the "Share VIP Ticket" modal window.
-![image](https://github.com/user-attachments/assets/59f37547-5145-4ff2-9041-cbd200809caa)
+![image](https://waivio.nyc3.digitaloceanspaces.com/a37c1d74ea27c4c7b1457c3965e938341863ba9b7bb355c8950bc7d45454d14c)
 2. **Used VIP Tickets Table:**
    - **Title:** Used VIP Tickets
    - **Purchased:** Displays the creation date of the ticket.
    - **VIP Ticket:** Displays the unique ID of the ticket with a link to "(add note)" or "edit" if a note already exists. Clicking opens the "Share VIP Ticket" modal window.
-![image](https://github.com/user-attachments/assets/8bbb48f9-10a1-41f1-b251-ad1ad1f0eecc)
+![image](https://waivio.nyc3.digitaloceanspaces.com/dcf21bcdae586187ff3c7c3fe0d2bd3fd12edae0a25573b59c1c4f9eec14c367)
 
 ### Share VIP Ticket Modal Window:
 - **Title:** Share VIP Ticket
@@ -236,7 +236,7 @@ New Accounts Page details:
 - **Note:** Textarea to enter a note. Placeholder: "Note to self".
 - **Save:** Button to save changes, active if there are changes.
 - **Cancel:** Button to cancel the action and close the modal window.
-![image](https://github.com/user-attachments/assets/46c4a92f-180b-44e4-a7eb-f6117c231a92)
+![image](https://waivio.nyc3.digitaloceanspaces.com/103c684886a6295d0bcd2d03250376f5ca075688c0b9a22ae41dea82ef9341a9)
 
 ### Transfer Funds Modal Window
 When the user clicks on "Pay now," a transfer modal window appears. The user must review the payment details and click "Continue" to confirm the transaction.
@@ -245,7 +245,7 @@ When the user clicks on "Pay now," a transfer modal window appears. The user mus
 - The currency is defaulted and locked to WAIV.
 - Your balance is displayed and locked.
 - The memo field is also locked.
-![image](https://github.com/user-attachments/assets/866e7647-fb15-4db5-b6b4-1671710ccce4)
+![image](https://waivio.nyc3.digitaloceanspaces.com/5e3bbdd13db12d9d686ae2f548a15bf9588518655c309f6ff771c2fa44a80bd6)
 
 
 # Tools / Invite
@@ -704,7 +704,7 @@ Users can update their profile information by navigating to their user profile o
 - Crypto wallets (Bitcoin, Litecoin, Ethereum, Lightning Bitcoin)
 - Signature for comments that the user will post
 ![image](https://waivio.nyc3.digitaloceanspaces.com/ef4b73b8e5011a0432cbec20548dc9559698102b9d9320594d50ebc63c7c573a)
-![image](https://github.com/user-attachments/assets/ec597353-0582-45be-8a3e-614e5251be14)
+![image](https://waivio.nyc3.digitaloceanspaces.com/d51f89267592f31720c1064025c567c2f92608ffc8b7eeca63f700d12d7078b0)
 
 
 Can I link my account to other social media platforms?
@@ -767,7 +767,7 @@ There are three modes for viewing a post:
 1. In feed.
 2. Modal window: Accessed by clicking on the post in the feed.
 3. Full-screen: Accessible by refreshing the page in modal window mode or clicking the full-screen button.
-When publishing a review, include the message: "This review was sponsored in part by Waivio Service (@{sponsorName})" via Waivio.com and sites.  ![image](https://github.com/user-attachments/assets/c84f07a4-693f-471f-ad27-706e94683c82)
+When publishing a review, include the message: "This review was sponsored in part by Waivio Service (@{sponsorName})" via Waivio.com and sites.  ![image](https://waivio.nyc3.digitaloceanspaces.com/a498efff68517b8f6ddadd19ce732c0606140157a58e856bd6001ddb3f24e610)
 **Sorting**: In the tooltip and like modal window, sort from the largest upvote to the smallest.
 ![Image sorting example on like button](https://user-images.githubusercontent.com/67378322/169516611-f7e1d7b7-6a84-4761-891d-7e3f3b9f0502.png)
 ![Image sorting example on like modal window](https://user-images.githubusercontent.com/67378322/169516615-a60dd61e-3068-4692-b4b0-5815f3210a03.png)
@@ -911,7 +911,7 @@ To withdraw WAIV, users can:
 3. In the central feed, there is a dropdown menu next to the WAIV balance with options: "Withdraw to LTC", "Withdraw to BTC", "Withdraw to ETH", and "Withdraw to HIVE".
 4. Alternatively, in the right sidebar, there is a **Withdraw** button. Clicking it opens a modal window where users can choose which token to withdraw and the token they wish to receive.
 5. For LTC, BTC, or ETH withdrawals, users must enter the destination address or scan the destination address QR code. After clicking **Withdraw**, the user’s balance should update within a few minutes. For HIVE, the funds will be transferred to the user's HIVE account balance.
-![Image](https://github.com/user-attachments/assets/bdde17ac-0dac-4f11-b5d4-d6f75887b28c)
+![Image](https://waivio.nyc3.digitaloceanspaces.com/d7bcb2f1c38de433cb404fda60948755b5821f72292da8e9a00818ddc0b8f55e)
 Thus, users can withdraw WAIV to external wallets like LTC, BTC, or ETH. From there, the funds can be cashed out or converted based on the exchange.
 
 # Can I withdraw only WAIV tokens or other tokens too?
@@ -929,8 +929,8 @@ There are several ways to obtain WAIV tokens:
    - If you have tokens on Hive Engine, you can swap them for WAIV. Use the Swap functionality in your Waivio wallet to convert tokens like SWAP.HIVE, SWAP.BTC, or others into WAIV tokens. If you already hold tokens such as SWAP.HIVE or SWAP.BTC, you can conveniently swap them directly for WAIV within the wallet.
 4. **Deposit**:
    - If you hold tokens on Hive (such as HIVE or HBD) or other currencies like LTC or BTC, you can deposit them into your Waivio wallet. Once deposited, these tokens will appear as swap-token equivalents (e.g., SWAP.LTC). You can then use the Swap function to convert these swap-tokens into WAIV. For example, if you deposit LTC from an external wallet, you’ll receive SWAP.LTC, which can then be swapped to WAIV.
-   ![Deposit button image](https://github.com/user-attachments/assets/12fe4491-1674-41e1-80ee-d10cf3dabb6b)
-   ![Deposit modal window image](https://github.com/user-attachments/assets/eb716956-5596-4661-a605-ae270fa5b64f)
+   ![Deposit button image](https://waivio.nyc3.digitaloceanspaces.com/3836d461a8b54d28944825d9e809bdcb444534071cd57746573c53a613aac6a2)
+   ![Deposit modal window image](https://waivio.nyc3.digitaloceanspaces.com/a7d0c2d47384e1568086536a9bbaad9a95e965573c2e224609b78044374ba8c4)
 5. **Sell WAIV tokens (swap or withdraw)**:   
    - To sell WAIV tokens, you can use the Swap or Withdraw options in your Waivio wallet.
      - Swap WAIV for other tokens: If you'd like to exchange WAIV for another token on Hive Engine (e.g., SWAP.HIVE), use the Swap feature. Navigate to your Waivio wallet, select WAIV, and choose the token you want in exchange. This will convert your WAIV into the selected swap-token (like SWAP.HIVE) directly within the wallet.
@@ -964,7 +964,7 @@ User can earn WAIV, HIVE, and various other Hive Engine tokens. Some of these to
 
 # User profile
 The User Profile section is a comprehensive overview of a user's identity and activities on the platform. It includes key elements such as the profile header with visual and financial details, a left sidebar with personal information and financial metrics, and a navigation menu for accessing various tabs. These tabs cover posts, threads, comments, mentions, and activity, along with sections for managing the user's shop, favorites, map, and wallet. This section serves as a central hub for users to view and manage their personal details, contributions, and financial transactions.
-![Image](https://github.com/user-attachments/assets/30222e22-02a1-430c-b4c7-591abe9ea954)
+![Image](https://waivio.nyc3.digitaloceanspaces.com/8a84d883e6015a4565bf31c817ecf21210c91674c3ed348d8e79ce62475ba479)
 
 ## User Profile Header
 The header contains the Cover Picture, Avatar, Service Name, Total Payout, Edit Profile Button, Username, and User's Level:
@@ -975,7 +975,7 @@ The header contains the Cover Picture, Avatar, Service Name, Total Payout, Edit 
 - **Edit Profile Button**: Allows the user to navigate to the Edit Profile page to update their profile information.
 - **Username**: The name entered during the registration of the user's account.
 - **User's Level**: A system that tracks the user's level based on their activity on the platform. User's Level: 1. Plankton; 2. Minnow; 3. Whale; 4. Dolphin; 5. Orca.
-![image](https://github.com/user-attachments/assets/62bcd95b-4b0d-4d47-aa4c-5f758be45939)
+![image](https://waivio.nyc3.digitaloceanspaces.com/cf63f9826bff1f34538a93a15962becf52deee2294ea4ff48a0ebd655211522b)
 
 ## User Left Sidebar
 Contains basic information about the user in the left sidebar:
@@ -997,7 +997,7 @@ Contains basic information about the user in the left sidebar:
   - **Downvoting Mana**: Indicates the percentage of voting power available for downvoting.
   - **Resource Credits**: Shows the available resource credits for performing various actions on the platform.
   - **HIVE Vote**: The value of the vote in the user's currency (e.g., USD).
-![image](https://github.com/user-attachments/assets/46e890e7-9b96-44ce-a908-37656dd502b4)
+![image](https://waivio.nyc3.digitaloceanspaces.com/f197dc912ba999f3d2b1bf1ea23de99c2d0329f8df75ea8b831b44fc06c1f045)
 
 
 # User Profile Navigation Menu
@@ -1009,13 +1009,13 @@ The user profile includes a navigation menu with the following sections and sub-
 - **Wallet**: WAIV, HIVE, Hive Engine, Rebalancing.
 - **Followers**: Followers, Following, Objects.
 - **Expertise**: Hashtags, Objects.
-![image](https://github.com/user-attachments/assets/f6c855f6-e5c5-41f1-ab5e-7cca90ee3ebe)
+![image](https://waivio.nyc3.digitaloceanspaces.com/7a93986a7d418ccfa358caaf2fa26913c25ca7d94caa7820172145e47cfbe6b2)
 
 
 # User profile: Posts
 The Posts tab in the user profile displays the user's posts.
 The right sidebar includes a Filter Posts section, where users can filter posts by tags.
-![image](https://github.com/user-attachments/assets/e80d06ec-3bc0-465f-8f6e-b7a1576d09ff)
+![image](https://waivio.nyc3.digitaloceanspaces.com/ae2bad6ce44626804e508134583ebbc1bae1e903f34986f3f28c3744cb2e1fae)
 
 # User profile: Threads
  The **Threads** on user profile page displays threads that the user has written, as well as threads that other users have addressed to the user.
@@ -1027,24 +1027,24 @@ Elements description:
 
 Edit thread:
 Threads can be edited in the feed. After clicking on the three dots button, there will be an option 'Edit thread,' and a "small" editor will appear.
-![image](https://github.com/user-attachments/assets/0c092ec0-f4d5-4851-a1ca-b73929da26a4) ![image](https://github.com/user-attachments/assets/5162875d-d3e8-40e8-98f7-8543f2202a1c)
+![image](https://waivio.nyc3.digitaloceanspaces.com/bed151b2eee828c83821c0de60580d9b3178446792ea4c4f66b594a2a95bd1c9) ![image](https://waivio.nyc3.digitaloceanspaces.com/4dfcbf67a0a9949a11b5a2f9dae7805a946bb1b4a89defeb403cf14fdacb6a09)
 Threads can be edited in the post modal window mode and full-screen. After clicking on the three dots button, there will be an option 'Edit thread,' and a "comments" editor will appear.
-![image](https://github.com/user-attachments/assets/0d83dcce-4d08-4e5f-95a8-4106c7f42d97)
-![image](https://github.com/user-attachments/assets/a618dd7c-0eeb-485a-b0f4-92675696a30b)
+![image](https://waivio.nyc3.digitaloceanspaces.com/16d74b278e0a95eab21c8c7ed83de8d4129984348fb54572811be9981c11a70b)
+![image](https://waivio.nyc3.digitaloceanspaces.com/a26072508f1ff1c9461e6da4623e0e2a4b013b8ec9e8cdb58ca56f8b1eeb4c02)
 
 # User profile: Comments
 The Comments tab in the user profile displays the user's comments.
-![image](https://github.com/user-attachments/assets/049bf428-4cf0-4477-ada0-bb949e1e359d)
+![image](https://waivio.nyc3.digitaloceanspaces.com/5b8f3cbbc6266f2f7248cf53b5add5949624523ea357b536124b7023a6b82456)
 
 # User profile: Mentions
 The Mentions tab in the user profile displays posts where the user has been mentioned.
-![image](https://github.com/user-attachments/assets/1a27c808-5bc0-480c-90dd-fab8fe5dcd55)
+![image](https://waivio.nyc3.digitaloceanspaces.com/a0eb4091ba32598121e0fdcd7cc89495d62ead002711a204c4e243cab1ac9c74)
 
 # User profile: Activity
 The Activity tab in the user profile displays records of actions that the user has performed and that have been recorded on the blockchain.
 The right sidebar includes a Filter Activities section, where users can filter records by specific actions: General (Upvoted, Downvoted, Unvoted, Followed, Unfollowed, Replied to, Reblogged), Finance (Powered up, Received from, Transferred to, Savings), Rewards (Author reward,
  Curation reward, Claim rewards).
-![image](https://github.com/user-attachments/assets/bb5ccc7b-793d-4f5f-b581-274d70f77f8f)
+![image](https://waivio.nyc3.digitaloceanspaces.com/125f8d0fb5a7e99a0e45aaaded714efc0e4c2c5518efba5b4da741502250064b)
 
 # User profile: Shop
 The Shop section in the user profile includes objects linked in posts, as well as those to which the user has claimed authority. All claimed objects (marked with a heart) are displayed here, allowing users to create their own shop.
@@ -1071,7 +1071,7 @@ On object cards, there is a heart icon that allows users to add or remove items 
 
 # User profile: Map
 The Map section in the user profile displays all favorite (hearted) objects that have a map field, such as businesses, restaurants, etc. The main page content features a map with these objects, and the left sidebar shows object cards corresponding to the locations on the map.
-![image](https://github.com/user-attachments/assets/5c1d2022-a0f9-438c-81b3-0732b3eebb79)
+![image](https://waivio.nyc3.digitaloceanspaces.com/f74fa5c88d33d54bf5dc45eacbb9972dc3db99ada34227468c4f4f5631e05226)
 
 # User profile: Wallet
 Main action in wallet: Transfer, Power up, power down, manage delegation, claim rewards, swap, deposit, withdraw.
@@ -1108,7 +1108,7 @@ The transfer functionality allows users to send money to one another. When a use
   - "Amount has to be higher than 0."
   - "Amount is required."
   - "Insufficient funds."
-![image](https://github.com/user-attachments/assets/2de1111a-15be-4ebb-b463-dda943b4f011)
+![image](https://waivio.nyc3.digitaloceanspaces.com/2911f474d758a043af6b941c538fa68563a0f17eafe5f91698c829d7f47199f2)
 
 # User profile: Wallet / Power Up
 The power-up functionality allows users to stake liquid tokens for themselves. When a user clicks the "Power Up" button, a "Power Up" modal window opens.
@@ -1139,7 +1139,7 @@ The power-up functionality allows users to stake liquid tokens for themselves. W
 - "Amount has to be higher than 0."
 - "Amount is required."
 - "Insufficient funds."
-![image](https://github.com/user-attachments/assets/054654e7-3fa9-419f-af40-aac097bc2848)
+![image](https://waivio.nyc3.digitaloceanspaces.com/4a19360204472381996337d1780e8347b0819a168d50e637f7220fdae242d107)
 
 # User profile: Wallet / Power Down
 The power-down functionality allows users to unstake their tokens. When a user clicks the "Power Down" button, a "Power Down" modal window opens.
@@ -1170,7 +1170,7 @@ The power-down functionality allows users to unstake their tokens. When a user c
 - "Amount has to be higher than 0."
 - "Amount is required."
 - "Insufficient funds."
-![image](https://github.com/user-attachments/assets/72442558-726b-4db8-91f4-a434962f707b)
+![image](https://waivio.nyc3.digitaloceanspaces.com/24f43ea549888c9403986cb9319b2e6ce69e65a5119987cc1763210237e37c5b)
 
 # User profile: Wallet / Manage Delegations
 The "Manage Delegations" functionality allows users to delegate their staked tokens to another user. Upon clicking the "Manage Delegations" button, a "Manage Delegations" modal window opens.
@@ -1188,7 +1188,7 @@ The "Manage Delegations" functionality allows users to delegate their staked tok
   - Edit button to modify the delegation
 - **Edit Button:** Opens the "Edit Delegation" modal window.
 - **Delegate Button:** Opens the "Delegate" modal window.
-![image](https://github.com/user-attachments/assets/f1ecca53-092d-4743-8685-4ddedd4505fe)
+![image](https://waivio.nyc3.digitaloceanspaces.com/541846b0c22e2364bf90009a01175715c1a4c59e1ecfcec42019c4dad538aca1)
 
 ### Delegate Modal Window Components:
 - **Title:** "Delegate"
@@ -1213,7 +1213,7 @@ The "Manage Delegations" functionality allows users to delegate their staked tok
   - "Click the button below to be redirected to HiveSigner to complete your transaction."
 - **Delegate Button:** Clicking this button redirects the user to HiveSigner. The button is inactive if the user or amount fields are empty.
 - **Cancel Button:** Cancels the transaction and closes the modal window.
-![image](https://github.com/user-attachments/assets/82cc1107-7441-4547-9779-67e39dce265a)
+![image](https://waivio.nyc3.digitaloceanspaces.com/5460ff68935c6d65d8f15bab51e34b72b4fada8de30fde2b86b4fb8cc25fbcf6)
 
 ### Edit Delegation Modal Window Components:
 - **Title:** "Edit Delegation"
@@ -1233,7 +1233,7 @@ The "Manage Delegations" functionality allows users to delegate their staked tok
 - **Delegation Note:** Provides information on how to remove the delegation.
   - "To remove delegation, click undelegate."
 - **Undelegate Button:** Allows the user to undelegate (return the delegation to the authorized user).
-![image](https://github.com/user-attachments/assets/37961ffc-b8ca-451c-9183-cfc5a5d058a0)
+![image](https://waivio.nyc3.digitaloceanspaces.com/ea3f11268061e94790d3b38e8f201e4a98808de1023c39632cff4ec0adb19561)
 
 ### Additional Information about Manage Delegations:
 - **Undelegation:**
@@ -1280,7 +1280,7 @@ The "Swap" functionality allows users to exchange one token for another.
   - "Click the button below to be redirected to HiveSigner to complete your transaction."
 - **Submit Button:** Redirects the user to HiveSigner to complete the transaction.
 - **Cancel Button:** Cancels the transaction and closes the modal window.
-![image](https://github.com/user-attachments/assets/38b957ad-d5e5-4588-8fab-7fb5791f51d4)
+![image](https://waivio.nyc3.digitaloceanspaces.com/22642abfff9ea737f18f9360379e563e9501aecb8935b10447b8067cfaac8fdb)
 
 # User profile: Wallet / Deposit
 The "Deposit" functionality provides instructions for bringing tokens into the Hive or Hive-Engine system.
@@ -1303,7 +1303,7 @@ The "Deposit" functionality provides instructions for bringing tokens into the H
 - **Done Button:** For some tokens, after clicking "Done," the user is redirected to HiveSigner, where a record of the deposit instruction is broadcast to the blockchain. This transaction will appear in the account history of the Hive Engine wallet.
 - **Continue Button:** For HIVE and HBD, instead of a "Done" button, there is a "Continue" button. Clicking this button redirects the user to the Transfer page with the fields pre-filled.
 - **Cancel Button:** Cancels the transaction and closes the modal window.
-![image](https://github.com/user-attachments/assets/4bb0f1f5-cd74-4f0d-b7db-a2d8a0061d7a)
+![image](https://waivio.nyc3.digitaloceanspaces.com/3b31d96c803cc219793cc19643c8351ac82c9fb338b6eceabfa84e75191bdcc4)
 ### Additional Instructions Based on Token Type:
 - **For Tokens with an Account and Memo:**
   - **Account Field:** A blocked (read-only) field displaying a specific username for the transaction.
@@ -1345,7 +1345,7 @@ The "Withdraw" functionality allows users to withdraw tokens from the Hive and H
 - **QR Code:** For tokens that require an address, users can scan the QR code using a web camera.
 - **Note:** "Click the button below to be redirected to HiveSigner to complete your transaction."
 - **Withdraw Button:** Submits the action and redirects the user to HiveSigner.
-![image](https://github.com/user-attachments/assets/43fc74b9-aadc-41f3-ab74-8ea5ad6c9263)
+![image](https://waivio.nyc3.digitaloceanspaces.com/0740f3593786b28355a214db44773d593e70b110c3ef2368fcea0aa4b915305b)
 ### Withdrawal Pairs
 **For Hive Accounts:**
 - WAIV - HIVE
@@ -1368,11 +1368,11 @@ The "Withdraw" functionality allows users to withdraw tokens from the Hive and H
 # User profile: Followers
 The **Followers** tab provides lists related to users and objects, showing who follows the user, who the user follows, and which objects the user is following. This tab includes three sub-menu items:
 - **Followers:** A list of users who are following the user.
-![image](https://github.com/user-attachments/assets/501886cf-cfa8-45c1-991b-cf414bc5d594)
+![image](https://waivio.nyc3.digitaloceanspaces.com/424212cd522870acff0a91c7e537f78ce5c98f6dadf46b9b226c475a1f751240)
 - **Following:** A list of users that the user is following.
-![image](https://github.com/user-attachments/assets/1fd174da-37c6-4b7f-9748-5e6027c34851)
+![image](https://waivio.nyc3.digitaloceanspaces.com/136f41ee7d24567ec6152c93eddc01b6cbdb74f959fc5495bd32ab5a3dfc805f)
 - **Objects:** A list of objects that the user is following.
-![image](https://github.com/user-attachments/assets/d9774bbc-bc2d-4b70-8647-b5451bb526e7)
+![image](https://waivio.nyc3.digitaloceanspaces.com/f2e0dc86a5541eb363c45f0cb3edc1f8224d10e93e2b2651e8887f2990e3b570)
 The **Followers** and **Following** tabs include sorting options to help users organize the lists according to their preferences. The available sorting options are:
 - **Rank:** Sorts users based on their expertise ranking.
 - **A..Z:** Sorts users alphabetically by name.
@@ -1386,20 +1386,20 @@ For users:
 - **Expertise:** The user's area of expertise.
 - **Count of Followers:** The number of followers the user has.
 - **Follow/Unfollow Button:** Allows the user to follow or unfollow the listed user.
-![image](https://github.com/user-attachments/assets/ed6f4df4-7478-4b2f-aad7-cdbf1a7d73db)
+![image](https://waivio.nyc3.digitaloceanspaces.com/7ed1f1986b346b3a5efe7713e710138aa4ac602eca47a55e556b90c32c0fdc93)
 For objects:
 - **Avatar:** Displays the object’s image.
 - **Name:** The name of the object.
 - **Object Expertise:** The total payout for all related posts in USD, excluding bidbots and upvote services.
 - **Follow/Unfollow Button:** Allows the user to follow or unfollow the listed object.
-![image](https://github.com/user-attachments/assets/ea335b54-7cfd-4eba-9b09-62516218fc51)
+![image](https://waivio.nyc3.digitaloceanspaces.com/d08121e1bd84c3c9c29558c33f5af2bdf0753cd59929f22cdbcef6d0dee72919)
 
 # User profile: Expertise
 The **Expertise** tab displays a list of objects where the user has gained expertise. This tab includes two sub-menu items:
 - **Hashtags:** A list of objects that are of the hashtag type.
-![image](https://github.com/user-attachments/assets/25a8551a-3cfb-4464-8142-2a4e2831eae1)
+![image](https://waivio.nyc3.digitaloceanspaces.com/6d5cce17dd2dd13d035dcb703fe0c089ac83fb160fdec945cdb98e3d95ce7020)
 - **Objects:** A list of all object types (except hashtags) where the user has gained expertise.
-![image](https://github.com/user-attachments/assets/4a5fad56-a1da-47ec-9985-65df3c2ba4af)
+![image](https://waivio.nyc3.digitaloceanspaces.com/4a0ac7e13996f916516db9a05f44bd563a5f43fb333cd759e75dcf5cdec280bc)
 
 ### User Profile Expertise List View Details
 Each object card in the list includes the following details:
@@ -1407,7 +1407,7 @@ Each object card in the list includes the following details:
 - **Name:** The name of the object.
 - **Object Expertise:** Shows the total payout for all related posts in USD, excluding earnings from bidbots and upvote services.
 - **Follow/Unfollow Button:** Allows the user to follow or unfollow the object.
-![image](https://github.com/user-attachments/assets/658366e3-5a3a-48f0-819d-c6baa89fdf36)
+![image](https://waivio.nyc3.digitaloceanspaces.com/11781d1fc52a9f874663770748ab24f9d98375df60b2bb2f3d8bb2e5153b5f20)
 
 
 # Lesson 2: Creating a Hive Account
@@ -1833,7 +1833,7 @@ There are three modes for viewing a post:
 1. In feed.
 2. Modal window: Accessed by clicking on the post in the feed.
 3. Full-screen: Accessible by refreshing the page in modal window mode or clicking the full-screen button.
-When publishing a review, include the message: "This review was sponsored in part by Waivio Service (@{sponsorName})" via Waivio.com and sites.  ![image](https://github.com/user-attachments/assets/c84f07a4-693f-471f-ad27-706e94683c82)
+When publishing a review, include the message: "This review was sponsored in part by Waivio Service (@{sponsorName})" via Waivio.com and sites.  ![image](https://waivio.nyc3.digitaloceanspaces.com/a498efff68517b8f6ddadd19ce732c0606140157a58e856bd6001ddb3f24e610)
 **Sorting**: In the tooltip and like modal window, sort from the largest upvote to the smallest.
 ![Image sorting example on like button](https://user-images.githubusercontent.com/67378322/169516611-f7e1d7b7-6a84-4761-891d-7e3f3b9f0502.png)
 ![Image sorting example on like modal window](https://user-images.githubusercontent.com/67378322/169516615-a60dd61e-3068-4692-b4b0-5815f3210a03.png)
