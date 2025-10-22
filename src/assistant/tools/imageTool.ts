@@ -36,7 +36,7 @@ export const imageToTextTool = (images?: string[]) =>
     {
       name: 'imageToTextTool',
       description:
-        'Always use this tool for analyzing image: image to text or describing what on picture',
+        'Use this tool when you need image to text or describing what on picture; do not use when asked edit or change image',
       schema: waivioImageToTextToolSchema,
       responseFormat: 'content',
     },

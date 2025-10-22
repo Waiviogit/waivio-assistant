@@ -44,7 +44,10 @@ class WaivioApi {
         timeout: 60000,
       });
       const result = resp?.data?.image as string;
-      if (!result) return { error: new Error('Internal server error') };
+      if (!result) {
+        console.log('Waivio Api failed uploading image');
+        return { error: new Error('Internal server error') };
+      }
       return { result };
     } catch (error) {
       console.error(error.message);

@@ -48,6 +48,7 @@ class ImageGenerator {
 
   private generateImage = async ({ query, size }: GeneralImagePrompt) => {
     try {
+      console.log('CALL generateImage');
       const response = await this.openAiClient.images.generate(
         { prompt: query, size, ...GENERATION_PARAMS },
         {
@@ -66,6 +67,7 @@ class ImageGenerator {
 
   async editImageFromUrl({ files, query, size }: EditImagePrompt) {
     try {
+      console.log('CALL editImageFromUrl');
       const response = await this.openAiClient.images.edit(
         { image: files, prompt: query, size, ...GENERATION_PARAMS },
         {
@@ -84,6 +86,7 @@ class ImageGenerator {
   }
 
   async invoke({ query, images, size = '1024x1024' }: InputImageRequest) {
+    console.log('INVOKE IMAGE TOOL');
     if (!images?.length) return this.generateImage({ query, size });
     const files: File[] = [];
 
