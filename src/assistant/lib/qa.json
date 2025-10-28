@@ -461,7 +461,7 @@
     },
     {
         "question": "What are the different notification categories and their purposes?",
-            "answer": "Community actions: likes, re-blogs, replies, mentions, downvotes, follows, status changes, campaign activations, claimed object updates, Group ID control, followed user threads. Wallet transactions: incoming transfers (with minimum USD threshold), internal market operations, power ups, claimed rewards. My actions: your posts, comments, likes. Security alerts: outgoing transfers, power downs, withdrawals, delegations, password recovery (always enabled).\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/7d797b121bfbd219047394f33b9a511c0ac7351f6cda1b7dcf286f9a67a70eed)",
+            "answer": "Community actions: likes, re-blogs, replies, mentions, downvotes, follows, status changes, campaign activations, claimed object updates, Group ID control, followed user threads. Wallet transactions: incoming transfers (with minimum USD threshold), internal market operations, power ups, claimed rewards. My actions: your posts, comments, likes. Security alerts: outgoing transfers, power downs (unstaking), withdrawals, delegations, password recovery (always enabled).\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/7d797b121bfbd219047394f33b9a511c0ac7351f6cda1b7dcf286f9a67a70eed)",
         "topic": "UserTools"
     },
     {
@@ -481,7 +481,7 @@
     },
     {
         "question": "What security features are built into the notification system?",
-            "answer": "Security notifications cannot be disabled to protect your account. They automatically alert you about: outgoing transfers, power downs, withdrawals from savings, delegations, password recovery requests, recovery address changes, and app authorizations. These alerts help detect unauthorized access and potential account compromise, with notifications sent via both Waivio platform and Telegram.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/4e5a3043bb6723d5605729faca4fdb45ab9e75d1362af05d792a7d64ac33c759)",
+            "answer": "Security notifications cannot be disabled to protect your account. They automatically alert you about: outgoing transfers, power downs (unstaking), withdrawals from savings, delegations, password recovery requests, recovery address changes, and app authorizations. These alerts help detect unauthorized access and potential account compromise, with notifications sent via both Waivio platform and Telegram.\n\n![image](https://waivio.nyc3.digitaloceanspaces.com/4e5a3043bb6723d5605729faca4fdb45ab9e75d1362af05d792a7d64ac33c759)",
         "topic": "UserTools"
     },
     {
@@ -846,7 +846,7 @@
     },
     {
         "question": "What is Power Down?",
-        "answer": "Power Down means converting HIVE Power (HP) or WAIV Power back into liquid HIVE or WAIV. The conversion happens gradually through scheduled weekly withdrawals—over a 13-week period for HIVE and a 4-week period for WAIV—until the full amount has been returned as liquid tokens. ![image](https://waivio.nyc3.digitaloceanspaces.com/a36e6be01b9afe607d31e7bc1b23b2d566a420451f043b4b2520f5f9418f6e82)",
+        "answer": "Power Down (unstaking) means converting HIVE Power (HP) or WAIV Power back into liquid HIVE or WAIV. The conversion happens gradually through scheduled weekly withdrawals—over a 13-week period for HIVE and a 4-week period for WAIV—until the full amount has been returned as liquid tokens. ![image](https://waivio.nyc3.digitaloceanspaces.com/a36e6be01b9afe607d31e7bc1b23b2d566a420451f043b4b2520f5f9418f6e82)",
         "topic": "WaivioGeneral"
     },
     {
@@ -1213,5 +1213,205 @@
         "question": "Where can you view your published website on Waivio?",
         "answer": "Once your website is published, you can view it on Waivio by marking it with a heart, finding it on your social site, or accessing it directly through its link. You can also open it from social sites like social.gifts, hivecooking.com, luxitasolutions.com, or coffeeshop.gifts. ![image](https://waivio.nyc3.digitaloceanspaces.com/44a8a46354f2557911039cc5c8cbea80d77c10846f6bd26fd25859dce8e5b708)",
         "topic":"WaivioObjects"
+    },
+    {
+        "question": "What is the purpose of configuring HTTPS manually for a custom domain on Cloudflare?",
+        "answer": "Manual HTTPS configuration ensures that your custom domain uses a secure connection via Cloudflare, protecting data transmission between the user and the website. ![image](https://waivio.nyc3.digitaloceanspaces.com/bf23fe8aa9e1f47de45f000a8bd945270728021acd691ed8981ca27559f7b3ab)",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "Where can you find more details about configuring HTTPS for a custom domain on Cloudflare?",
+        "answer": "You can find more details at https://social.gifts/object/pvs-ensuring-secure-connections-manual-https-configuration-for-custom-domain-on-cloudflare/page",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What is the first step to enable HTTPS on a custom domain using Cloudflare?",
+        "answer": "Activate the 'Always Use HTTPS' toggle under 'SSL/TLS' > 'Edge Certificates' in the Cloudflare dashboard.![image](https://waivio.nyc3.digitaloceanspaces.com/77b2a2e81ed67759082dc375d15b45a6eaa761693bd4d1efdf430630f9548152)",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "Where can you find the 'Always Use HTTPS' toggle in Cloudflare?",
+        "answer": "It can be found under the 'SSL/TLS' section, in the 'Edge Certificates' tab of your selected domain settings. ![image](https://waivio.nyc3.digitaloceanspaces.com/77b2a2e81ed67759082dc375d15b45a6eaa761693bd4d1efdf430630f9548152)",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What should the SSL/TLS encryption mode be set to when configuring HTTPS manually on Cloudflare?",
+        "answer": "It should be set to either 'Flexible' or 'Full' to ensure proper encryption between Cloudflare and your origin server. ![image](https://waivio.nyc3.digitaloceanspaces.com/98960dfd3bd59606695d7f55cca6169b1cd0400f959441e744b73698481d2b44)",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "How do you check and configure the SSL/TLS encryption mode in Cloudflare?",
+        "answer": "Go to the 'Overview' section under 'SSL/TLS', click 'Configure' in 'SSL/TLS encryption', select 'Custom SSL/TLS', and ensure it's set to 'Flexible' or 'Full'. ![image](https://waivio.nyc3.digitaloceanspaces.com/dea510959a6a1738b1bdefb7a49674d6d94cf90fcfa63a39f305de0169e16425)",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What additional settings should be verified under 'Edge Certificates'?",
+        "answer": "You should verify that 'Opportunistic Encryption', 'TLS 1.3', and 'Automatic HTTPS Rewrites' toggles are all active. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698737453_1a46f275-8660-47f8-b839-f147943c43c0)",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "Why is it important to activate 'Automatic HTTPS Rewrites' in Cloudflare?",
+        "answer": "Activating 'Automatic HTTPS Rewrites' ensures that all HTTP links are automatically rewritten to HTTPS, preventing mixed content issues and improving security. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698737453_1a46f275-8660-47f8-b839-f147943c43c0)",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What does 'Opportunistic Encryption' do in Cloudflare settings?",
+        "answer": "It allows browsers that support HTTP/2 to use encryption even when the site doesn't enforce HTTPS, providing better privacy and security. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698737453_1a46f275-8660-47f8-b839-f147943c43c0)",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What version of TLS should be enabled in Cloudflare settings for secure connections?",
+        "answer": "TLS 1.3 should be enabled to provide the latest and most secure encryption protocol for HTTPS connections. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698737453_1a46f275-8660-47f8-b839-f147943c43c0)",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What is the purpose of setting up a www to apex domain redirect on Cloudflare?",
+        "answer": "The purpose is to ensure a consistent user experience by automatically redirecting visitors from the www subdomain to the apex (root) domain, allowing seamless access to the website regardless of the URL entered.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "Where can you find more details about the manual www to apex domain setup on Cloudflare?",
+        "answer": "You can find more details at https://social.gifts/object/ckq-ensuring-smooth-redirects-manual-www-to-apex-domain-setup-on-cloudflare/page",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What is the first major step in configuring the www to apex domain redirect?",
+        "answer": "The first major step is setting up or modifying the DNS record for the 'www' subdomain in Cloudflare. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698852913_f7965efa-8557-4cec-923d-fde364272272)",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "Where can you find the DNS settings to modify the 'www' record in Cloudflare?",
+        "answer": "In the Cloudflare dashboard, select your domain, navigate to the 'DNS' section, and then open the 'Records' page. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698852913_f7965efa-8557-4cec-923d-fde364272272)",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What should you do if a 'www' DNS record does not exist?",
+        "answer": "Click 'Add record', select the type 'A' and enter '192.0.2.1' for IPv4 or type 'AAAA' and enter '100::' for IPv6, set the name to 'www', and click 'Save'. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698852986_42d819ef-a975-433d-866e-f742c430939d)",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What should you do if a 'www' DNS record already exist?",
+        "answer": "Click 'Edit' in www record, select the type 'A' and enter '192.0.2.1' for IPv4 or type 'AAAA' and enter '100::' for IPv6, set the name to 'www', and click 'Save'. ![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/279360991-c9b1e163-d32f-43e6-bae3-0ef505e8d702.png)",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What IP address should be used for the IPv4 type record when adding or editing the 'www' DNS record?",
+        "answer": "Use '192.0.2.1' for the IPv4 address field. ![image](https://waivio.nyc3.digitaloceanspaces.com/1698853019_bd478e62-20c6-4c67-af6f-5633f80e723b)",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What IP address should be used for the IPv6 type record when adding or editing the 'www' DNS record?",
+        "answer": "Use '100::' for the IPv6 address field.",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What is the second major step in setting up the www to apex domain redirect on Cloudflare?",
+        "answer": "The second step is configuring a redirect rule for the 'www' subdomain in the 'Rules' section of Cloudflare. ![image](https://waivio.nyc3.digitaloceanspaces.com/0039bcab0a99119d2fa17197ed37cda310199330b0c7d000cdc49e747757a742)",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "Where can you create a redirect rule in Cloudflare?",
+        "answer": "Go to your Cloudflare dashboard, click on your domain, then in the left sidebar, navigate to 'Rules' > 'Overview', and click 'Create rule'. ![image](https://waivio.nyc3.digitaloceanspaces.com/0039bcab0a99119d2fa17197ed37cda310199330b0c7d000cdc49e747757a742)",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "Which template should you use to redirect from www to the root domain?",
+        "answer": "Select the 'Redirect from WWW to root' template on the Redirect Rules page. ![image](https://waivio.nyc3.digitaloceanspaces.com/1b1a7f5d60486ba5a6819b1d5a0219c45cb679473e164f7fd4cb6a5b6c9f43c2)",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What should you do after selecting the 'Redirect from WWW to root' template?",
+        "answer": "Click 'Preview template', optionally edit the rule name, then click 'Deploy' and confirm the action to activate the rule. ![image](https://waivio.nyc3.digitaloceanspaces.com/f7a0c42679597d9fc92a37eed5be35a37d4e9c4056a424b13913e5b6ac47ed5b)",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "How can you verify that the redirect rule is working correctly?",
+        "answer": "Wait 1-2 minutes after deployment, open a new incognito or private window, and test your site using the www subdomain. It should automatically redirect to your apex domain. ![image](https://waivio.nyc3.digitaloceanspaces.com/c9806c4bdc64765704bd103f4a6e94840df438e72ae9e9f2747ff1d51330fbcb)",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What are the official Cloudflare resources for more information or troubleshooting on www-to-root redirects?",
+        "answer": "You can refer to Cloudflare's official documentation at https://developers.cloudflare.com/pages/how-to/www-redirect/ and https://developers.cloudflare.com/rules/",
+        "topic": "SitesManagement"
+    },
+    {
+        "question": "What is WAIV mana and how does it work?",
+        "answer": "WAIV mana consists of two types: Upvoting Mana and Downvoting Mana. Upvoting Mana is a 100% indicator that depends on the power-up of the token, showing how many votes a user can make. The more staked (powered up), the slower the voting power is depleted. Downvoting Mana indicates how many downvotes a user can make (used to flag posts on Waivio). WAIV Vote shows the value of the vote in the user's currency (e.g., USD) - the more staked (powered up), the higher the vote value.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is HIVE mana and how does it work?",
+        "answer": "HIVE mana consists of Upvoting Mana and Downvoting Mana. Upvoting Mana indicates the percentage of voting power available for upvoting. Downvoting Mana indicates the percentage of voting power available for downvoting. HIVE also has Resource Credits which show the available resource credits for performing various actions on the platform. HIVE Vote shows the value of the vote in the user's currency (e.g., USD).",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What are Resource Credits (RC) on HIVE?",
+        "answer": "Resource Credits (RC) are essential for performing various actions on the Hive blockchain, from sending payments to writing posts. They are displayed as a percentage (min 0% max 100%) and are required for most blockchain operations. The more HIVE Power you have, the more Resource Credits you receive, allowing you to perform more actions on the platform.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How do I check my WAIV and HIVE mana?",
+        "answer": "You can check your WAIV and HIVE mana in your user profile wallet section. The WAIV Token section displays Upvoting Mana, Downvoting Mana, and WAIV Vote value. The HIVE Token section displays Upvoting Mana, Downvoting Mana, Resource Credits, and HIVE Vote value. These indicators show your current voting power and available resources for platform activities.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What's the difference between WAIV mana and HIVE mana?",
+        "answer": "WAIV mana is specific to the Waivio platform and includes Upvoting Mana (100% indicator based on power-up) and Downvoting Mana for flagging posts. HIVE mana is for the broader Hive blockchain and includes Upvoting Mana, Downvoting Mana, plus Resource Credits (RC) which are essential for blockchain operations like posting and transferring. WAIV mana is more focused on content curation, while HIVE mana includes broader blockchain functionality.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "Do guest users have mana on Waivio?",
+        "answer": "Yes, guest users have mana on Waivio, but it's limited compared to full Hive users. Guest users have only mana (voting power) and cannot access all the features available to users with full Hive accounts. The mana system allows guest users to participate in basic voting activities on the platform.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is staking on Waivio?",
+        "answer": "Staking on Waivio involves converting liquid tokens into their Power equivalents (WAIV Power or HIVE Power) to increase your voting influence and platform capabilities. WAIV Power is needed for voting on posts and comments, creating objects, and importing products. HIVE Power provides Resource Credits essential for blockchain operations like posting and transferring. Staking is done instantly through the 'Power up' function in your wallet.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How do I stake WAIV tokens?",
+        "answer": "To stake WAIV tokens, go to your wallet's WAIV section and click 'Power up.' Choose the amount you want to stake and click continue. The staking happens instantly, converting your liquid WAIV into WAIV Power. This gives you voting power for posts and comments, and allows you to create objects and import products for your social shop.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How do I stake HIVE tokens?",
+        "answer": "To stake HIVE tokens, go to your wallet's HIVE section and click 'Power up.' Choose the amount you want to stake and click continue. The staking happens instantly, converting your liquid HIVE into HIVE Power. This provides Resource Credits essential for blockchain operations and increases your voting influence on the Hive blockchain.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is unstaking (power down) on Waivio?",
+        "answer": "Unstaking (power down) is the process of converting staked tokens back to liquid form. For WAIV Power, unstaking takes 4 weeks with funds released every week in equal amounts. For HIVE Power, unstaking takes 13 weeks with funds released weekly. You can initiate unstaking through the 'Power down' function in your wallet, and you can cancel the process at any time to stop the weekly releases.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What is delegation on Waivio?",
+        "answer": "Delegation on Waivio allows you to lend your staked tokens (WAIV Power, HIVE Power, or other powered-up tokens) to other users. This gives them additional voting power while you maintain ownership of your tokens. Delegations happen instantly, but it takes 7 days for funds to be returned to your account after undelegation. You can manage delegations through the 'Manage Delegations' function in your wallet.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How do I delegate my staked tokens to another user?",
+        "answer": "To delegate your staked tokens, go to your wallet and click 'Manage Delegations.' Choose the token you want to delegate (WAIV, HIVE, or other), enter the target user's name, specify the amount, and click delegate. The delegation happens instantly. You can edit or undelegate at any time, but it takes 7 days for the funds to be returned to your account after undelegation.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What are the benefits of staking on Waivio?",
+        "answer": "Staking on Waivio provides several benefits: increased voting power and influence on content rewards, ability to create objects and import products for your social shop, access to Resource Credits for blockchain operations, higher user tier classification (Whale, Orca, Dolphin, Minnow), and the ability to delegate tokens to support other users while earning potential rewards.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "Can I stake other tokens besides WAIV and HIVE?",
+        "answer": "Yes, you can stake various tokens available on the Hive blockchain through the 'Power up' function in your wallet. This includes wrapped tokens like SWAP.BTC and SWAP.ETH, as well as other tokens in the Hive ecosystem. The staking process works similarly for all supported tokens, converting them to their Power equivalents for increased voting influence.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "What happens if I undelegate my tokens?",
+        "answer": "When you undelegate your tokens, the delegation is removed instantly, but it takes 7 days for the funds to be returned to your account. During this 7-day period, the delegated amount will be displayed as a negative balance in parentheses next to the respective token. You can click on it to view more details about the undelegation process.",
+        "topic": "WaivioGeneral"
+    },
+    {
+        "question": "How much should I stake to get started on Waivio?",
+        "answer": "For a good start on Waivio, it's recommended to deposit around $400 and use a ratio of 1 liquid WAIV to 2 WAIV Power plus some HIVE Power. With a $250 WAIV Power investment, you'll have a vote value of approximately $0.006 and be able to import around 15 products per day. This balance provides sufficient voting power and platform capabilities for active participation.",
+        "topic": "WaivioGeneral"
     }
 ]

@@ -462,7 +462,7 @@ We hope that the accurate estimation of vote value will help users better unders
 Security Notifications
 To provide users with an additional level of security, Waivio now sends notifications on the following user-initiated transactions (670):
 transfer of funds;
-initiate power down;
+initiate power down (unstaking);
 withdraw funds from the Savings account;
 set withdraw route;
 outgoing power ups;
@@ -927,7 +927,7 @@ On Waivio and social sites, users can earn WAIV tokens (the official token of Wa
 - **Liquid WAIV**: Used for services such as hosting social shopping websites and purchasing VIP tickets.
 - **WAIV Power**: Used for voting, creating objects, and importing products. You can convert liquid WAIV to WAIV Power and vice versa.
 Users can also earn rewards in **HIVE**. In addition to WAIV tokens, users may receive rewards in other tokens from the Hive Engine ecosystem.
-- **HIVE Assets**: Liquid HIVE, HIVE Power, and Hive-backed dollars (HBD). HIVE Power is essential for blockchain activities, like sending payments or posting content. You can convert liquid HIVE into HIVE Power or "power down" over 13 weeks to convert it back into liquid HIVE.
+- **HIVE Assets**: Liquid HIVE, HIVE Power, and Hive-backed dollars (HBD). HIVE Power is essential for blockchain activities, like sending payments or posting content. You can convert liquid HIVE into HIVE Power or "power down" (unstaking) over 13 weeks to convert it back into liquid HIVE.
 To withdraw WAIV, users can:
 1. Log in.
 2. Go to the Wallet tab.
@@ -1385,7 +1385,7 @@ Imagine paying a bill at a restaurant where the merchant accepts LTC. The total 
 ![image](https://waivio.nyc3.digitaloceanspaces.com/612f43486773cb364a530576f7b2473f32fa60a58c974c33720b1f7777829796)
 Next, you scan the QR code provided by the merchant (2,3), and the wallet automatically calculates the exact amount of WAIV needed for conversion. With a single click to confirm (4), the payment is sent — your bill is settled instantly using WAIV tokens you’ve earned on Waivio. ![image](https://waivio.nyc3.digitaloceanspaces.com/b1f51d384b4b72a571d610a841446b39dfe343c6b3c3df26a812a7c887f12062)
 Account Management Tools
-The Waivio wallet provides a range of features for managing on-chain assets, including delegations of WAIV Power, HIVE Power, and Resource Credits, clear visualizations for the progress of power downs, and interest tracking for HBD Savings, along with more tools to support long-term account management.
+The Waivio wallet provides a range of features for managing on-chain assets, including delegations of WAIV Power, HIVE Power, and Resource Credits, clear visualizations for the progress of power downs (unstaking), and interest tracking for HBD Savings, along with more tools to support long-term account management.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/88e202601ca666505c0055226b28e3880cdb3ad4d7786534049eddda00c7f112)
 Advanced Reporting
 The Waivio wallet includes advanced reporting for both WAIV and HIVE/HBD. Balances and transactions can be displayed in many local currencies — including USD, CAD, EUR, GBP, CHF, AUD, MXN, CNY, JPY, UAH, and RUB — with historical conversion rates applied to the dates of each operation. Reports can be exported to CSV for further processing and support manual corrections, allowing users to exclude specific transactions when preparing their records. These tools make the wallet highly flexible and tax-reporting friendly across different jurisdictions.

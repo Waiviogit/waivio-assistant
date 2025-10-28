@@ -776,11 +776,13 @@ Click on "SSL/TLS."
 Navigate to "Edge Certificates"
 Scroll down to the "Always Use HTTPS" section.
 Toggle to activate.
-![image](https://user-images.githubusercontent.com/67378322/279110214-6576cd2a-fcf9-448a-9fa5-5b43b9acde6a.png)
+![image](https://waivio.nyc3.digitaloceanspaces.com/77b2a2e81ed67759082dc375d15b45a6eaa761693bd4d1efdf430630f9548152)
 2. Checking the Encryption Mode:
 Navigate to the "Overview" in the "SSL/TLS" section.
+Click on "Configure" button in "SSL/TLS encryption". ![image](https://waivio.nyc3.digitaloceanspaces.com/dea510959a6a1738b1bdefb7a49674d6d94cf90fcfa63a39f305de0169e16425)
+Choose "Custom SSL/TLS" option.
 Ensure that your SSL/TLS encryption mode is set to either "Flexible" or "Full".
-![image](https://user-images.githubusercontent.com/67378322/279110400-534121c1-9434-4eda-a17e-14797aa768f1.png)
+![image](https://waivio.nyc3.digitaloceanspaces.com/98960dfd3bd59606695d7f55cca6169b1cd0400f959441e744b73698481d2b44)
 3. Reviewing additional settings:
 Navigate to "Edge Certificates."
 Verify that the toggle is active in the "Opportunistic Encryption" section.
@@ -798,54 +800,52 @@ I. Setting Up or Modifying the DNS Record
 3. Navigate to the DNS section and then the Records page.
 4. Look for a record with the name "www".
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1698852913_f7965efa-8557-4cec-923d-fde364272272)
-5. If a "www" record exists:
-    5.1. Click Edit.
-    5.2. Decide if you're basing the record on IPv4 or IPv6. Either will work.
-    5.3. Choose the type:
-    "A" and enter "192.0.2.1" in the "IPv4 address" field (for IPv4)
-    OR
-    "AAAA" and enter "100::" in the "IPv6 address" field (both options are functional, so choose based on your preference or needs).
-    5.4. Ensure the name remains as "www".
-    5.5. Click Save.
-![image](https://user-images.githubusercontent.com/67378322/279360991-c9b1e163-d32f-43e6-bae3-0ef505e8d702.png)
-6. If a "www" record does not exist:
-    6.1. Click "Add record".
+5. If a "www" record does not exist:
+5.1. Click "Add record".
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1698852986_42d819ef-a975-433d-866e-f742c430939d)
-    6.2. Choose the type:
-     "A" and enter "192.0.2.1" in the "IPv4 address" field (for IPv4)
-    OR
-    "AAAA" and enter "100::" in the "IPv6 address" field
-    (Both options are functional, so choose based on your preference or needs).
-    6.3. Set the name to "www".
-    6.4. Click Save.
+5.2. Choose the type:
+"A" and enter "192.0.2.1" in the "IPv4 address" field (for IPv4)
+OR
+"AAAA" and enter "100::" in the "IPv6 address" field
+(Both options are functional, so choose based on your preference or needs).
+5.3. Set the name to "www".
+5.4. Click Save.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1698853019_bd478e62-20c6-4c67-af6f-5633f80e723b)
-II. Configuring Redirection Using Bulk Redirects
-1. Exit the domain configuration.
-2. Access the main dashboard.
-3. Navigate to Bulk Redirects.
-4. Click on "Create Bulk Redirects List".
-![image](https://user-images.githubusercontent.com/67378322/279362079-39af70d6-1a40-4f56-9b1b-703aa02b9c90.png)
-5. Provide a name for the list and click "Next".
-![image](https://user-images.githubusercontent.com/67378322/279362435-b583df66-521c-4e60-86bd-f050db9d060c.png)
-6. Select "Or, manually add URL redirects".
-7. For the Source URL, enter your full domain with the "www" (e.g., www.example.com).
-8. For the Target URL, input the original domain, including "https://", and without "www" (e.g., https://example.com).
-9. Click "Next".
-![image](https://user-images.githubusercontent.com/67378322/279363454-3bcbb721-7d3b-4da0-88d7-fdb92e73de16.png)
-10. Choose "Edit parameters".
-11. Activate the following checkboxes:
-    - Preserve query string
-    - Subpath matching
-    - Preserve path suffix
-![image](https://user-images.githubusercontent.com/67378322/279363735-c853e348-f784-4324-8b97-b14ec6e0e4eb.png)
-12. Proceed by clicking "Next".
-13. Click on "Continue to Redirect Rules".
-![image](https://user-images.githubusercontent.com/67378322/279363888-5154e220-926a-4f31-b3fa-6f0c970c9043.png)
-14. Provide a rule name.
-15. Click "Save and Deploy".
-![image](https://user-images.githubusercontent.com/67378322/279364105-7663d951-4abb-4bb7-a5d8-a8bc1718ce2a.png)
-Now, when you enter your domain with "www", it should redirect to the main domain.
-For more detailed information and potential troubleshooting, you can refer to the original documentation from Cloudflare https://developers.cloudflare.com/pages/how-to/www-redirect/.
+6. If a "www" record exists:
+6.1. Click Edit.
+6.2. Decide if you're basing the record on IPv4 or IPv6. Either will work.
+6.3. Choose the type:
+"A" and enter "192.0.2.1" in the "IPv4 address" field (for IPv4)
+OR
+"AAAA" and enter "100::" in the "IPv6 address" field (both options are functional, so choose based on your preference or needs).
+6.4. Ensure the name remains as "www".
+6.5. Click Save.
+![image](https://images.hive.blog/0x0/https://user-images.githubusercontent.com/67378322/279360991-c9b1e163-d32f-43e6-bae3-0ef505e8d702.png)
+
+
+II. Configuring Rule for WWW.
+1. Go the main dashboard (Account home tab).
+2. Click on your domain to open its configuration and settings tabs.
+3. Look for Rules in the left sidebar and click on Overview.
+![image](https://waivio.nyc3.digitaloceanspaces.com/0039bcab0a99119d2fa17197ed37cda310199330b0c7d000cdc49e747757a742)
+4. Click on the Create rule button.
+5. Click on Redirect Rule in the menu.
+![image](https://waivio.nyc3.digitaloceanspaces.com/5209e572c4ae0b590f29e4e0e768b56d6c839e81fb15f8267290515dc3ea4002)
+6. On the Redirect Rules page, you will see ready-made templates that can be used.
+7. Find the "Redirect from WWW to root" template.
+8. Click on the Preview template button.
+![image](https://waivio.nyc3.digitaloceanspaces.com/1b1a7f5d60486ba5a6819b1d5a0219c45cb679473e164f7fd4cb6a5b6c9f43c2)
+9. You can edit the Rule name if needed.
+10. Click Deploy.
+![image](https://waivio.nyc3.digitaloceanspaces.com/f7a0c42679597d9fc92a37eed5be35a37d4e9c4056a424b13913e5b6ac47ed5b)
+11. Confirm the "Deploy rule" action.
+![image](https://waivio.nyc3.digitaloceanspaces.com/654b4855a8dae7485477028a228522f6da9efc0315a064d5e6637cb9a571f689)
+You will now see that the rule is created and active. Wait about 1–2 minutes, then open a new incognito or private window and test your site with www. It should now immediately redirect to your working site.
+![image](https://waivio.nyc3.digitaloceanspaces.com/c9806c4bdc64765704bd103f4a6e94840df438e72ae9e9f2747ff1d51330fbcb)
+
+For more detailed information and potential troubleshooting, you can refer to the original documentation from Cloudflare:
+https://developers.cloudflare.com/pages/how-to/www-redirect/
+https://developers.cloudflare.com/rules/
 
 
 # Search Engine Web Content Discovery: A Guide to Enabling Crawler Hints with Cloudflare's IndexNow Integration (Applicable only for custom domain site)
@@ -854,7 +854,6 @@ Crawler Hints, integrated with the IndexNow protocol, is a revolutionary approac
 Setting Up Crawler Hints
 1. Log into your Cloudflare dashboard.
 2. Select your domain.
-![image](https://waivio.nyc3.digitaloceanspaces.com/1701854740_9228a2b3-8ba2-40ee-8f17-32552c0e7a2e)
 3. Navigate to 'Caching' in the left sidebar.
 4. Go to 'Configuration'.
 5. Scroll to the 'Crawler Hints' section.

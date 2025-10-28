@@ -48,7 +48,7 @@ Notification checkboxes information is divided into four sections (Community act
 * My likes: Receive notifications when you leave likes.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/7c18d7d478c5c5cdda948675e2e4756c1d6a8bc2371400947cd6cfa3508dc30b)
 4. **Security alerts section**:
-* Security: This checkbox is disabled to ensure users always receive notifications about outgoing transfers, power downs, withdrawals from savings, delegations, password recovery requests, recovery address changes, and app authorizations.
+* Security: This checkbox is disabled to ensure users always receive notifications about outgoing transfers, power downs (unstaking), withdrawals from savings, delegations, password recovery requests, recovery address changes, and app authorizations.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/4e5a3043bb6723d5605729faca4fdb45ab9e75d1362af05d792a7d64ac33c759)
 
 
@@ -363,14 +363,14 @@ Liquid WAIV is the main currency on Waivio. You can use it to pay for social sho
 WAIV Power is your voting power on Waivio. You need it to vote on posts and comments, which enhances your presence and authority. WAIV Power is also needed for creating objects and importing products for your social shop. ![image](https://waivio.nyc3.digitaloceanspaces.com/1706847612_9e292c1b-c237-481b-bf8d-eea1531c0866)
 You will also receive rewards for your posts and reviews in liquid WAIV tokens. ![image](https://waivio.nyc3.digitaloceanspaces.com/1706847628_a11eb84d-5bc3-45b5-990c-f9e1662e720c)
 To convert liquid WAIV to WAIV Power, click "Power up," and staking is done instantly.
-To convert WAIV Power to liquid WAIV, click "Power down." Keep in mind, powering down takes 4 weeks, with funds released every week in equal amounts.
+To convert WAIV Power to liquid WAIV, click "Power down." Keep in mind, powering down (unstaking) takes 4 weeks, with funds released every week in equal amounts.
 
 HIVE Wallet
 Now, let's look at the "HIVE" assets. Here you will find liquid HIVE, HIVE Power (HP), and HIVE-backed dollars (HBD).
 HIVE is the main token on the Hive blockchain, and having HIVE Power (specifically Resource Credits) is essential for doing anything on the blockchain, from sending payments to writing posts. ![image](https://waivio.nyc3.digitaloceanspaces.com/1706847508_30a50fe4-abc6-4620-882c-9cab1040a267)
 You might receive Hive Power and Hive-Backed Dollars as rewards for your posts. If you are interested in learning more about the rewards, check out the About Waivio video https://social.gifts/object/axy-your-waivio-wallet/page#6vcmab-tutorials/oal-about-waivio.
 To convert liquid Hive to Hive Power, click "Power up," and it happens instantly.
-To convert Hive Power to liquid Hive, click “Power down.” For Hive Power, powering down takes 13 weeks, with funds being released weekly.
+To convert Hive Power to liquid Hive, click "Power down." For Hive Power, powering down (unstaking) takes 13 weeks, with funds being released weekly.
 
 Hive Engine Wallet
 Here, you will find all the other tokens available on the Hive blockchain. This includes wrapped tokens such as swap.BTC and swap.ETH, as well as various other tokens used within the Hive ecosystem.
@@ -386,8 +386,8 @@ Use this if you want to send crypto to another Hive user.
 Power up
 Here, you can power up not only liquid WAIV or liquid HIVE but also other tokens you have on the Hive blockchain.
 
-Power down
-Here, you can power down not just Waiv POWER or HIVE POWER but also other powered-up tokens you own.
+Power down (unstaking)
+Here, you can power down (unstaking) not just Waiv POWER or HIVE POWER but also other powered-up tokens you own.
 
 Manage Delegations
 Here, you can lend your WAIV Power, HIVE Power, and more powered-up tokens to other Hive users. Choose the token you want to delegate, then a user, and an amount. ![image](https://waivio.nyc3.digitaloceanspaces.com/1706848130_571888f0-116a-44a6-89a8-82fcb0f5c261)
@@ -539,7 +539,7 @@ When you add a hashtag #waivio or #waiv to your posts, you make your post eligib
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1672790344_a7de4358-8472-4586-a674-2baca07de51a
 By clicking on the total earnings, you can view further details such as the breakdown of earnings in WAIV, Hive Power, and HBD, as well as the beneficiaries and their share of the earnings. You can also see the total number of rewards received by all curators.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1672789744_5ad22ed0-d270-4c19-bf0d-fed356afa02c
-One key difference between WAIV and HIVE earnings is that WAIV rewards are paid in liquid form, while HIVE earnings are paid as a 50/50 combination of Hive Power (HP) and HBD (there is also an option to receive 100% of HIVE rewards in HP). This means that you can immediately access and use your WAIV rewards, while HIVE rewards in the form of Hive Power must be converted to liquid HIVE through a 13 week power down period.
+One key difference between WAIV and HIVE earnings is that WAIV rewards are paid in liquid form, while HIVE earnings are paid as a 50/50 combination of Hive Power (HP) and HBD (there is also an option to receive 100% of HIVE rewards in HP). This means that you can immediately access and use your WAIV rewards, while HIVE rewards in the form of Hive Power must be converted to liquid HIVE through a 13 week power down (unstaking) period.
 Waivio simplifies the process of exchanging your WAIV earnings for popular cryptocurrencies like Bitcoin, Litecoin, Ethereum, and HIVE. With just a few clicks, you can quickly convert your WAIV or pay directly for goods and services.
 ![image](https://waivio.nyc3.digitaloceanspaces.com/1672793376_70fb4080-f8de-4b23-8df6-c6467fb66824
 All crypto conversions are performed on a decentralized exchange built on the second layer Hive-Engine blockchain.
@@ -904,7 +904,7 @@ On Waivio and social sites, users can earn WAIV tokens (the official token of Wa
 - **Liquid WAIV**: Used for services such as hosting social shopping websites and purchasing VIP tickets.
 - **WAIV Power**: Used for voting, creating objects, and importing products. You can convert liquid WAIV to WAIV Power and vice versa.
 Users can also earn rewards in **HIVE**. In addition to WAIV tokens, users may receive rewards in other tokens from the Hive Engine ecosystem.
-- **HIVE Assets**: Liquid HIVE, HIVE Power, and Hive-backed dollars (HBD). HIVE Power is essential for blockchain activities, like sending payments or posting content. You can convert liquid HIVE into HIVE Power or "power down" over 13 weeks to convert it back into liquid HIVE.
+- **HIVE Assets**: Liquid HIVE, HIVE Power, and Hive-backed dollars (HBD). HIVE Power is essential for blockchain activities, like sending payments or posting content. You can convert liquid HIVE into HIVE Power or "power down" (unstaking) over 13 weeks to convert it back into liquid HIVE.
 To withdraw WAIV, users can:
 1. Log in.
 2. Go to the Wallet tab.
@@ -1074,7 +1074,7 @@ The Map section in the user profile displays all favorite (hearted) objects that
 ![image](https://waivio.nyc3.digitaloceanspaces.com/f74fa5c88d33d54bf5dc45eacbb9972dc3db99ada34227468c4f4f5631e05226)
 
 # User profile: Wallet
-Main action in wallet: Transfer, Power up, power down, manage delegation, claim rewards, swap, deposit, withdraw.
+Main action in wallet: Transfer, Power up, power down (unstaking), manage delegation, claim rewards, swap, deposit, withdraw.
 ![image](https://user-images.githubusercontent.com/67378322/155954042-5418f09c-5642-4414-bfb4-718002bf4dc8.png)
 
 # User profile: Wallet / Transfer
@@ -1141,8 +1141,8 @@ The power-up functionality allows users to stake liquid tokens for themselves. W
 - "Insufficient funds."
 ![image](https://waivio.nyc3.digitaloceanspaces.com/4a19360204472381996337d1780e8347b0819a168d50e637f7220fdae242d107)
 
-# User profile: Wallet / Power Down
-The power-down functionality allows users to unstake their tokens. When a user clicks the "Power Down" button, a "Power Down" modal window opens.
+# User profile: Wallet / Power Down (unstaking)
+The power-down (unstaking) functionality allows users to unstake their tokens. When a user clicks the "Power Down" button, a "Power Down" modal window opens.
 ### Power Down Modal Window Components:
 - **Title:** "Power Down"
 - **Close Button:** A cross icon to close the modal window.
@@ -1603,7 +1603,7 @@ We hope that the accurate estimation of vote value will help users better unders
 Security Notifications
 To provide users with an additional level of security, Waivio now sends notifications on the following user-initiated transactions (670):
 transfer of funds;
-initiate power down;
+initiate power down (unstaking);
 withdraw funds from the Savings account;
 set withdraw route;
 outgoing power ups;
