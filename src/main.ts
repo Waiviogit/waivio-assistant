@@ -8,7 +8,10 @@ import cookieParser from 'cookie-parser';
 const PREFIX = 'assistant';
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule, { cors: true });
+  const app = await NestFactory.create(AppModule);
+  app.enableCors({
+    origin: '*',
+  });
   app.useGlobalPipes(
     new ValidationPipe({
       whitelist: true,
