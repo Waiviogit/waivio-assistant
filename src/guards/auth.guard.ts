@@ -7,7 +7,7 @@ export const HIVE_SIGNER_URL = 'https://hivesigner.com';
 
 type HeadersRequestType = {
   'access-token'?: string;
-  currentUser?: string;
+  'current-user'?: string;
   'waivio-auth'?: string;
   'hive-auth'?: string;
 };
@@ -27,7 +27,7 @@ export class AuthGuard implements CanActivate {
   }
 
   async validateRequest({ headers }: ValidateRequestType): Promise<boolean> {
-    const account = headers.currentUser;
+    const account = headers['current-user'];
     const token = headers['access-token'];
     const hiveAuth = headers['hive-auth'] === 'true';
     if (hiveAuth) {
