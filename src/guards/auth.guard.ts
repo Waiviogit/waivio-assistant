@@ -5,14 +5,15 @@ import * as CryptoJS from 'crypto-js';
 
 export const HIVE_SIGNER_URL = 'https://hivesigner.com';
 
-export type ValidateRequestType = {
-  cookies: CookiesRequestType;
+type HeadersRequestType = {
+  'access-token'?: string;
+  currentUser?: string;
+  'waivio-auth'?: string;
+  'hive-auth'?: string;
 };
 
-type CookiesRequestType = {
-  currentUser?: string;
-  access_token?: string;
-  auth?: string;
+export type ValidateRequestType = {
+  headers: HeadersRequestType;
 };
 
 const secretKey = process.env.HIVE_AUTH;
@@ -22,13 +23,13 @@ export class AuthGuard implements CanActivate {
     context: ExecutionContext,
   ): boolean | Promise<boolean> | Observable<boolean> {
     const request = context.switchToHttp().getRequest();
-    return this.validateRequest({ cookies: request.cookies });
+    return this.validateRequest(request);
   }
 
-  async validateRequest({ cookies }: ValidateRequestType): Promise<boolean> {
-    const account = cookies?.currentUser;
-    const token = cookies?.access_token;
-    const hiveAuth = !!cookies?.auth;
+  async validateRequest({ headers }: ValidateRequestType): Promise<boolean> {
+    const account = headers.currentUser;
+    const token = headers['access-token'];
+    const hiveAuth = headers['hive-auth'] === 'true';
     if (hiveAuth) {
       return this.validateHiveAuth(account, token);
     }

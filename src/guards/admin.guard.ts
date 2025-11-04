@@ -15,7 +15,7 @@ export class AdminGuard implements CanActivate {
     const admins = configService.getAdmins();
 
     // Get currentUser from cookies
-    const currentUser = request.cookies?.currentUser;
+    const currentUser = request.headers?.currentUser;
 
     if (!currentUser) {
       return false;
