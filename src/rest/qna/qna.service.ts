@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { AgentQaRepository } from '../../persistance/agent-qa/agent-qa.repository';
 import { CreateQnaItemDto } from '../../dto/qna-item-in.dto';
 import { UpdateQnaItemDto } from '../../dto/qna-item-update.dto';
@@ -34,7 +34,12 @@ export class QnaService {
     createQnaItemDto: CreateQnaItemDto,
   ): Promise<QnaItemDto | null> {
     const result = await this.agentQaRepository.create(createQnaItemDto);
-    return result ? this.mapToDto(result) : null;
+    if (!result)
+      throw new HttpException(
+        'Invalid input data',
+        HttpStatus.UNPROCESSABLE_ENTITY,
+      );
+    return this.mapToDto(result);
   }
 
   async updateQnaItem(
