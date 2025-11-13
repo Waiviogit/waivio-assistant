@@ -64,6 +64,44 @@ export class QnaController {
     return this.qnaService.getQnaItems(topic, skipNum, limitNum);
   }
 
+  @Get('search')
+  @UseGuards(AuthGuard, AdminGuard)
+  @QnaControllerDoc.searchQnaItems()
+  async searchQnaItems(
+    @Query('search') search?: string,
+    @Query('topic') topic?: string,
+    @Query('skip') skip?: string,
+    @Query('limit') limit?: string,
+  ): Promise<QnaItemsResponseDto> {
+    if (!search || !search.trim()) {
+      throw new HttpException(
+        'Search parameter is required',
+        HttpStatus.BAD_REQUEST,
+      );
+    }
+
+    const skipNum = skip ? parseInt(skip, 10) : 0;
+    const limitNum = limit ? parseInt(limit, 10) : 10;
+
+    if (isNaN(skipNum) || skipNum < 0) {
+      throw new HttpException('Invalid skip parameter', HttpStatus.BAD_REQUEST);
+    }
+
+    if (isNaN(limitNum) || limitNum <= 0 || limitNum > 100) {
+      throw new HttpException(
+        'Invalid limit parameter (must be between 1 and 100)',
+        HttpStatus.BAD_REQUEST,
+      );
+    }
+
+    return this.qnaService.searchQnaItems(
+      search.trim(),
+      topic,
+      skipNum,
+      limitNum,
+    );
+  }
+
   @Post()
   @UseGuards(AuthGuard, AdminGuard)
   @QnaControllerDoc.createQnaItem()

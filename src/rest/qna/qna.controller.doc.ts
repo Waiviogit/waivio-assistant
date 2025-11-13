@@ -81,6 +81,47 @@ export class QnaControllerDoc {
     );
   }
 
+  static searchQnaItems(): MethodDecorator {
+    return applyDecorators(
+      ApiOperation({
+        summary: 'Search Q&A items',
+        description:
+          'Search Q&A items by question or answer with optional topic filter and pagination',
+      }),
+      ApiQuery({
+        name: 'search',
+        required: true,
+        description: 'Search string to match against question and answer',
+        type: String,
+      }),
+      ApiQuery({
+        name: 'topic',
+        required: false,
+        description: 'Optional topic filter',
+        type: String,
+      }),
+      ApiQuery({
+        name: 'skip',
+        required: false,
+        description: 'Number of items to skip for pagination',
+        type: Number,
+        example: 0,
+      }),
+      ApiQuery({
+        name: 'limit',
+        required: false,
+        description: 'Maximum number of items to return',
+        type: Number,
+        example: 10,
+      }),
+      ApiResponse({
+        status: HttpStatus.OK,
+        description: 'Search results with pagination info',
+        type: QnaItemsResponseDto,
+      }),
+    );
+  }
+
   static createQnaItem(): MethodDecorator {
     return applyDecorators(
       ApiOperation({

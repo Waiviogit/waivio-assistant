@@ -30,6 +30,25 @@ export class QnaService {
     };
   }
 
+  async searchQnaItems(
+    search: string,
+    topic?: string,
+    skip: number = 0,
+    limit: number = 10,
+  ): Promise<QnaItemsResponseDto> {
+    const { result, hasMore } = await this.agentQaRepository.searchQnaItems(
+      search,
+      topic,
+      skip,
+      limit,
+    );
+
+    return {
+      result: result.map(this.mapToDto),
+      hasMore,
+    };
+  }
+
   async createQnaItem(
     createQnaItemDto: CreateQnaItemDto,
   ): Promise<QnaItemDto | null> {
