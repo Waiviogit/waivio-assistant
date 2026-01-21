@@ -81,7 +81,7 @@ export class AssistantService {
     });
 
     const llm = new ChatOpenAI({
-      model: 'gpt-4o',
+      model: 'gpt-5.1',
       temperature: 0,
     });
 
