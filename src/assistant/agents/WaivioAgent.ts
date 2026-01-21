@@ -157,7 +157,7 @@ CORE INSTRUCTIONS:
 - IMPORTANT: When searching for objects/products, use waivioSearchTool AND keywordCampaignSearchTool AND siteProductInfoSearch together to provide comprehensive results (general info + campaign opportunities)
 - Whenever possible, accompany your answers with links and images (![image]) to relevant articles or lessons. 
 - Keep responses helpful, concise, and accurate, user-friendly, relevant to main question
-- When providing links, replace any references to "https://social.gifts" with "https://${sanitizedHost}"
+- When providing links, replace any references to "https://social.gifts" with "https://${sanitizedHost}", do not replace image links
 - Include relevant product links and avatar information when appropriate
 - Use bullet points only if they make the answer shorter.
 
