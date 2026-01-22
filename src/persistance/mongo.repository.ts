@@ -1,7 +1,6 @@
 import { Injectable, Logger } from '@nestjs/common';
 import {
   Aggregate,
-  FilterQuery,
   Model,
   PipelineStage,
   QueryOptions,
@@ -9,6 +8,7 @@ import {
   UpdateWithAggregationPipeline,
   UpdateWriteOpResult,
 } from 'mongoose';
+import type { FilterQuery } from 'mongoose';
 
 export type AggregateType = {
   pipeline: PipelineStage[];
@@ -60,8 +60,10 @@ export interface MongoRepositoryInterface<
 }
 
 @Injectable()
-export abstract class MongoRepository<TDocument, TCreate = Partial<TDocument>>
-  implements MongoRepositoryInterface<TDocument, TCreate>
+export abstract class MongoRepository<
+  TDocument,
+  TCreate extends Partial<TDocument> = Partial<TDocument>,
+> implements MongoRepositoryInterface<TDocument, TCreate>
 {
   protected constructor(
     protected readonly model: Model<TDocument>,

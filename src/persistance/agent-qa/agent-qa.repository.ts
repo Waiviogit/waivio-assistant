@@ -1,6 +1,7 @@
 import { Logger } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
-import { FilterQuery, Model } from 'mongoose';
+import { Model } from 'mongoose';
+import type { FilterQuery } from 'mongoose';
 import { AgentQA } from './agent-qa.schema';
 import { AgentQaRepositoryInterface } from './interface';
 import { MongoRepository } from '../mongo.repository';
