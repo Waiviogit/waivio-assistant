@@ -61,6 +61,14 @@ class ConfigService {
     return this.getValue('OPENAI_API_ORG', true);
   }
 
+  public getGuestValidationURL(): string {
+    return this.getValue('VALIDATE_GUEST_TOKEN_ROUTE', true);
+  }
+
+  public getKeychainValidationURL(): string {
+    return this.getValue('VALIDATE_KEYCHAIN_URL', true);
+  }
+
   public getAdmins(): string[] {
     const adminsString = this.getValue('WAIVIO_ADMINS', false);
     if (!adminsString) {

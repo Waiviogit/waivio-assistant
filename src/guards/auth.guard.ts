@@ -2,6 +2,7 @@ import { Injectable, CanActivate, ExecutionContext } from '@nestjs/common';
 import { Observable } from 'rxjs';
 import * as sc2 from 'sc2-sdk';
 import * as CryptoJS from 'crypto-js';
+import { configService } from '../config';
 
 export const HIVE_SIGNER_URL = 'https://hivesigner.com';
 
@@ -29,11 +30,67 @@ export class AuthGuard implements CanActivate {
   async validateRequest({ headers }: ValidateRequestType): Promise<boolean> {
     const account = headers['current-user'];
     const token = headers['access-token'];
-    const hiveAuth = headers['hive-auth'] === 'true';
-    if (hiveAuth) {
-      return this.validateHiveAuth(account, token);
+    const authType = headers['auth-type'];
+
+    const strategies: Record<
+      string,
+      (account: string, token: string) => Promise<boolean> | boolean
+    > = {
+      'hive-auth': this.validateHiveAuth.bind(this),
+      'hive-signer': this.validateHiveSigner.bind(this),
+      'hive-keychain': this.validateHiveKeychain.bind(this),
+      'waivio-auth': this.validateGuestUser.bind(this),
+    };
+
+    const strategy = strategies[authType];
+
+    if (!strategy) return false;
+
+    const result = strategy(account, token);
+    return result instanceof Promise ? await result : result;
+  }
+
+  async validateGuestUser(account: string, token: string): Promise<boolean> {
+    try {
+      const res = await fetch(configService.getGuestValidationURL(), {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'access-token': token,
+        },
+        body: JSON.stringify({}),
+      });
+
+      if (!res.ok) return false;
+
+      const data = await res.json().catch(() => ({}));
+
+      return data?.user?.name === account;
+    } catch (error) {
+      void error;
+      return false;
     }
-    return this.validateHiveSigner(account, token);
+  }
+
+  async validateHiveKeychain(account: string, token: string): Promise<boolean> {
+    try {
+      const res = await fetch(configService.getKeychainValidationURL(), {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      });
+
+      const body = await res.json().catch(() => ({}));
+
+      if (!res.ok) {
+        return false;
+      }
+
+      return body?.username === account && body?.exp > Date.now() / 1000;
+    } catch (error) {
+      void error;
+      return false;
+    }
   }
 
   validateHiveAuth(account: string, token: string): boolean {
